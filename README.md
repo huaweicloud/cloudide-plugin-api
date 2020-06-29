@@ -1,0 +1,1 @@
+# cloudide-plugin-api
