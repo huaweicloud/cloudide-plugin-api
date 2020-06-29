@@ -1,0 +1,17 @@
+{
+    "name": "@cloudide/plugin",
+    "version": "0.0.2",
+    "description": "huawei cloudide plugin api",
+    "main": "",
+    "types": "index.d.ts",
+    "keywords": [
+        "cloudide",
+        "huawei"
+    ],
+    "author": "yeweiasia@gmail.com",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huaweicloud/cloudide-plugin-api.git"
+    }
+}
