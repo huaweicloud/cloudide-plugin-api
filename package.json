@@ -1,6 +1,6 @@
 {
     "name": "@cloudide/plugin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "huawei cloudide plugin api",
     "main": "",
     "types": "index.d.ts",
