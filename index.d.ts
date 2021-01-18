@@ -7781,6 +7781,13 @@ declare module '@cloudide/plugin' {
         export function registerWebviewPanelSerializer(viewType: string, serializer: WebviewPanelSerializer): Disposable;
 
 		/**
+         * Only registers a webview panel.
+         *
+         * @param viewType Type of the webview panel.
+         */
+        export function registerCloudideWebview(viewType: string): void;
+
+		/**
 		 * Register a provider for custom editors for the `viewType` contributed by the `customEditors` extension point.
 		 *
 		 * When a custom editor is opened, VS Code fires an `onCustomEditor:viewType` activation event. Your extension
