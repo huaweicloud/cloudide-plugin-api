@@ -26,23 +26,19 @@ undo and backup. The provider is responsible for synchronizing text changes betw
 
 ▸ **resolveCustomTextEditor**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `webviewPanel`: [WebviewPanel](_index_d_._plugin_.webviewpanel.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [Thenable](_index_d_.thenable.md)\<void> \| void
 
-*Defined in [index.d.ts:6931](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6931)*
+*Defined in [index.d.ts:7663](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7663)*
 
 Resolve a custom editor for a given text resource.
 
 This is called when a user first opens a resource for a `CustomTextEditorProvider`, or if they reopen an
 existing editor using this `CustomTextEditorProvider`.
 
-To resolve a custom editor, the provider must fill in its initial html content and hook up all
-the event listeners it is interested it. The provider can also hold onto the `WebviewPanel` to use later,
-for example in a command. See [`WebviewPanel`](#WebviewPanel) for additional details.
-
 #### Parameters:
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`document` | [TextDocument](_index_d_._plugin_.textdocument.md) | Document for the resource to resolve. |
-`webviewPanel` | [WebviewPanel](_index_d_._plugin_.webviewpanel.md) | Webview to resolve. |
+`document` | [TextDocument](_index_d_._plugin_.textdocument.md) | Document for the resource to resolve.  |
+`webviewPanel` | [WebviewPanel](_index_d_._plugin_.webviewpanel.md) | The webview panel used to display the editor UI for this resource.  During resolve, the provider must fill in the initial html for the content webview panel and hook up all the event listeners on it that it is interested in. The provider can also hold onto the `WebviewPanel` to use later for example in a command. See [`WebviewPanel`](#WebviewPanel) for additional details.  |
 `token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token that indicates the result is no longer needed.  |
 
 **Returns:** [Thenable](_index_d_.thenable.md)\<void> \| void

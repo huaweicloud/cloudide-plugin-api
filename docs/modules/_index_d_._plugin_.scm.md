@@ -20,10 +20,10 @@
 
 • `Const` **inputBox**: [SourceControlInputBox](../interfaces/_index_d_._plugin_.sourcecontrolinputbox.md)
 
-*Defined in [index.d.ts:10071](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10071)*
+*Defined in [index.d.ts:11449](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11449)*
 
-~~The [input box](#SourceControlInputBox) for the last source control
-created by the extension.~~
+The [input box](#SourceControlInputBox) for the last source control
+created by the extension.
 
 **`deprecated`** Use SourceControl.inputBox instead
 
@@ -33,7 +33,7 @@ created by the extension.~~
 
 ▸ **createSourceControl**(`id`: string, `label`: string, `rootUri?`: [Uri](../classes/_index_d_._plugin_.uri.md)): [SourceControl](../interfaces/_index_d_._plugin_.sourcecontrol.md)
 
-*Defined in [index.d.ts:10081](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10081)*
+*Defined in [index.d.ts:11459](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11459)*
 
 Creates a new [source control](#SourceControl) instance.
 

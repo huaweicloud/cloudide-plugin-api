@@ -23,7 +23,7 @@ Options for a debug adapter executable.
 
 • `Optional` **cwd**: string
 
-*Defined in [index.d.ts:10263](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10263)*
+*Defined in [index.d.ts:11671](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11671)*
 
 The current working directory for the executed debug adapter.
 
@@ -33,7 +33,7 @@ ___
 
 • `Optional` **env**: { [key:string]: string;  }
 
-*Defined in [index.d.ts:10258](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10258)*
+*Defined in [index.d.ts:11666](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11666)*
 
 The additional environment of the executed program or shell. If omitted
 the parent process' environment is used. If provided it is merged with

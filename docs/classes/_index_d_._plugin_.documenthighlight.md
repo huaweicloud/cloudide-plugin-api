@@ -29,7 +29,7 @@ the background color of its range.
 
 \+ **new DocumentHighlight**(`range`: [Range](_index_d_._plugin_.range.md), `kind?`: [DocumentHighlightKind](../enums/_index_d_._plugin_.documenthighlightkind.md)): [DocumentHighlight](_index_d_._plugin_.documenthighlight.md)
 
-*Defined in [index.d.ts:2594](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2594)*
+*Defined in [index.d.ts:2821](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2821)*
 
 Creates a new document highlight object.
 
@@ -48,7 +48,7 @@ Name | Type | Description |
 
 • `Optional` **kind**: [DocumentHighlightKind](../enums/_index_d_._plugin_.documenthighlightkind.md)
 
-*Defined in [index.d.ts:2594](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2594)*
+*Defined in [index.d.ts:2821](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2821)*
 
 The highlight kind, default is [text](#DocumentHighlightKind.Text).
 
@@ -58,6 +58,6 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2589](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2589)*
+*Defined in [index.d.ts:2816](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2816)*
 
 The range this highlight applies to.

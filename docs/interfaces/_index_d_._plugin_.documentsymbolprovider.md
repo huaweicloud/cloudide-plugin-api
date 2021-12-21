@@ -23,7 +23,7 @@ the [go to symbol](https://code.visualstudio.com/docs/editor/editingevolved#_go-
 
 ▸ **provideDocumentSymbols**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md)[] \| [DocumentSymbol](../classes/_index_d_._plugin_.documentsymbol.md)[]>
 
-*Defined in [index.d.ts:2792](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2792)*
+*Defined in [index.d.ts:3018](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3018)*
 
 Provide symbol information for the given document.
 

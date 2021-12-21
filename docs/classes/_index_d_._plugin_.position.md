@@ -43,7 +43,7 @@ from an existing position.
 
 \+ **new Position**(`line`: number, `character`: number): [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L269)*
+*Defined in [index.d.ts:379](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L379)*
 
 #### Parameters:
 
@@ -60,7 +60,7 @@ Name | Type | Description |
 
 • `Readonly` **character**: number
 
-*Defined in [index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L269)*
+*Defined in [index.d.ts:379](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L379)*
 
 The zero-based character value.
 
@@ -70,7 +70,7 @@ ___
 
 • `Readonly` **line**: number
 
-*Defined in [index.d.ts:264](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L264)*
+*Defined in [index.d.ts:374](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L374)*
 
 The zero-based line value.
 
@@ -80,7 +80,7 @@ The zero-based line value.
 
 ▸ **compareTo**(`other`: [Position](_index_d_._plugin_.position.md)): number
 
-*Defined in [index.d.ts:330](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L330)*
+*Defined in [index.d.ts:440](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L440)*
 
 Compare this to `other`.
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **isAfter**(`other`: [Position](_index_d_._plugin_.position.md)): boolean
 
-*Defined in [index.d.ts:302](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L302)*
+*Defined in [index.d.ts:412](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L412)*
 
 Check if this position is after `other`.
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **isAfterOrEqual**(`other`: [Position](_index_d_._plugin_.position.md)): boolean
 
-*Defined in [index.d.ts:311](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L311)*
+*Defined in [index.d.ts:421](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L421)*
 
 Check if this position is after or equal to `other`.
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **isBefore**(`other`: [Position](_index_d_._plugin_.position.md)): boolean
 
-*Defined in [index.d.ts:284](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L284)*
+*Defined in [index.d.ts:394](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L394)*
 
 Check if this position is before `other`.
 
@@ -165,7 +165,7 @@ ___
 
 ▸ **isBeforeOrEqual**(`other`: [Position](_index_d_._plugin_.position.md)): boolean
 
-*Defined in [index.d.ts:293](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L293)*
+*Defined in [index.d.ts:403](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L403)*
 
 Check if this position is before or equal to `other`.
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **isEqual**(`other`: [Position](_index_d_._plugin_.position.md)): boolean
 
-*Defined in [index.d.ts:320](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L320)*
+*Defined in [index.d.ts:430](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L430)*
 
 Check if this position is equal to `other`.
 
@@ -207,7 +207,7 @@ ___
 
 ▸ **translate**(`lineDelta?`: number, `characterDelta?`: number): [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:340](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L340)*
+*Defined in [index.d.ts:450](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L450)*
 
 Create a new position relative to this position.
 
@@ -225,7 +225,7 @@ character and the corresponding deltas.
 
 ▸ **translate**(`change`: { characterDelta?: number ; lineDelta?: number  }): [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:349](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L349)*
+*Defined in [index.d.ts:459](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L459)*
 
 Derived a new position relative to this position.
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **with**(`line?`: number, `character?`: number): [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:358](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L358)*
+*Defined in [index.d.ts:468](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L468)*
 
 Create a new position derived from this position.
 
@@ -263,7 +263,7 @@ A position where line and character are replaced by the given values.
 
 ▸ **with**(`change`: { character?: number ; line?: number  }): [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:367](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L367)*
+*Defined in [index.d.ts:477](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L477)*
 
 Derived a new position from this position.
 

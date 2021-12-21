@@ -31,7 +31,7 @@ Represents semantic tokens, either in a range or in an entire document.
 
 \+ **new SemanticTokens**(`data`: Uint32Array, `resultId?`: string): [SemanticTokens](_index_d_._plugin_.semantictokens.md)
 
-*Defined in [index.d.ts:3250](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3250)*
+*Defined in [index.d.ts:3477](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3477)*
 
 #### Parameters:
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • `Readonly` **data**: Uint32Array
 
-*Defined in [index.d.ts:3250](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3250)*
+*Defined in [index.d.ts:3477](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3477)*
 
 The actual tokens data.
 
@@ -60,7 +60,7 @@ ___
 
 • `Optional` `Readonly` **resultId**: string
 
-*Defined in [index.d.ts:3245](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3245)*
+*Defined in [index.d.ts:3472](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3472)*
 
 The result id of the tokens.
 

@@ -23,7 +23,7 @@
 
 • `Optional` **after**: [ThemableDecorationAttachmentRenderOptions](_index_d_._plugin_.themabledecorationattachmentrenderoptions.md)
 
-*Defined in [index.d.ts:1072](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1072)*
+*Defined in [index.d.ts:1193](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1193)*
 
 Defines the rendering options of the attachment that is inserted after the decorated text.
 
@@ -33,6 +33,6 @@ ___
 
 • `Optional` **before**: [ThemableDecorationAttachmentRenderOptions](_index_d_._plugin_.themabledecorationattachmentrenderoptions.md)
 
-*Defined in [index.d.ts:1067](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1067)*
+*Defined in [index.d.ts:1188](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1188)*
 
 Defines the rendering options of the attachment that is inserted before the decorated text.

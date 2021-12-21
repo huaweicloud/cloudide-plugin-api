@@ -23,7 +23,7 @@ Represents an event describing the change in a [text editor's options](#TextEdit
 
 • `Readonly` **options**: [TextEditorOptions](_index_d_._plugin_.texteditoroptions.md)
 
-*Defined in [index.d.ts:579](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L579)*
+*Defined in [index.d.ts:689](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L689)*
 
 The new value for the [text editor's options](#TextEditor.options).
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **textEditor**: [TextEditor](_index_d_._plugin_.texteditor.md)
 
-*Defined in [index.d.ts:575](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L575)*
+*Defined in [index.d.ts:685](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L685)*
 
 The [text editor](#TextEditor) for which the options have changed.

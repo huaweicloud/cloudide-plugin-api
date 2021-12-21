@@ -24,7 +24,7 @@ Describes what to do when pressing Enter.
 
 • `Optional` **appendText**: string
 
-*Defined in [index.d.ts:4509](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4509)*
+*Defined in [index.d.ts:4799](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4799)*
 
 Describes text to be appended after the new line and after the indentation.
 
@@ -34,7 +34,7 @@ ___
 
 •  **indentAction**: [IndentAction](../enums/_index_d_._plugin_.indentaction.md)
 
-*Defined in [index.d.ts:4505](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4505)*
+*Defined in [index.d.ts:4795](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4795)*
 
 Describe what to do with the indentation.
 
@@ -44,6 +44,6 @@ ___
 
 • `Optional` **removeText**: number
 
-*Defined in [index.d.ts:4513](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4513)*
+*Defined in [index.d.ts:4803](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4803)*
 
 Describes the number of characters to remove from the new line's indentation.

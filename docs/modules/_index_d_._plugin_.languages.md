@@ -61,6 +61,7 @@ score is used for determining the order in which providers are asked to particip
 * [registerFoldingRangeProvider](_index_d_._plugin_.languages.md#registerfoldingrangeprovider)
 * [registerHoverProvider](_index_d_._plugin_.languages.md#registerhoverprovider)
 * [registerImplementationProvider](_index_d_._plugin_.languages.md#registerimplementationprovider)
+* [registerLinkedEditingRangeProvider](_index_d_._plugin_.languages.md#registerlinkededitingrangeprovider)
 * [registerOnTypeFormattingEditProvider](_index_d_._plugin_.languages.md#registerontypeformattingeditprovider)
 * [registerReferenceProvider](_index_d_._plugin_.languages.md#registerreferenceprovider)
 * [registerRenameProvider](_index_d_._plugin_.languages.md#registerrenameprovider)
@@ -77,7 +78,7 @@ score is used for determining the order in which providers are asked to particip
 
 • `Const` **onDidChangeDiagnostics**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[DiagnosticChangeEvent](../interfaces/_index_d_._plugin_.diagnosticchangeevent.md)>
 
-*Defined in [index.d.ts:9467](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9467)*
+*Defined in [index.d.ts:10811](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10811)*
 
 An [event](#Event) which fires when the global set of diagnostics changes. This is
 newly added and removed diagnostics.
@@ -88,7 +89,7 @@ newly added and removed diagnostics.
 
 ▸ **createDiagnosticCollection**(`name?`: string): [DiagnosticCollection](../interfaces/_index_d_._plugin_.diagnosticcollection.md)
 
-*Defined in [index.d.ts:9490](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9490)*
+*Defined in [index.d.ts:10834](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10834)*
 
 Create a diagnostics collection.
 
@@ -108,7 +109,7 @@ ___
 
 ▸ **getDiagnostics**(`resource`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)[]
 
-*Defined in [index.d.ts:9475](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9475)*
+*Defined in [index.d.ts:10819](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10819)*
 
 Get all diagnostics for a given resource.
 
@@ -124,7 +125,7 @@ An array of [diagnostics](#Diagnostic) objects or an empty array.
 
 ▸ **getDiagnostics**(): [[Uri](../classes/_index_d_._plugin_.uri.md), [Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)[]][]
 
-*Defined in [index.d.ts:9482](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9482)*
+*Defined in [index.d.ts:10826](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10826)*
 
 Get all diagnostics.
 
@@ -138,7 +139,7 @@ ___
 
 ▸ **getLanguages**(): [Thenable](../interfaces/_index_d_.thenable.md)\<string[]>
 
-*Defined in [index.d.ts:9409](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9409)*
+*Defined in [index.d.ts:10753](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10753)*
 
 Return the identifiers of all known languages.
 
@@ -152,7 +153,7 @@ ___
 
 ▸ **match**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `document`: [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)): number
 
-*Defined in [index.d.ts:9461](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9461)*
+*Defined in [index.d.ts:10805](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10805)*
 
 Compute the match between a document [selector](#DocumentSelector) and a document. Values
 greater than zero mean the selector matches the document.
@@ -203,7 +204,7 @@ ___
 
 ▸ **registerCallHierarchyProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [CallHierarchyProvider](../interfaces/_index_d_._plugin_.callhierarchyprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9838](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9838)*
+*Defined in [index.d.ts:11182](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11182)*
 
 Register a call hierarchy provider.
 
@@ -224,7 +225,7 @@ ___
 
 ▸ **registerCodeActionsProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [CodeActionProvider](../interfaces/_index_d_._plugin_.codeactionprovider.md), `metadata?`: [CodeActionProviderMetadata](../interfaces/_index_d_._plugin_.codeactionprovidermetadata.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9525](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9525)*
+*Defined in [index.d.ts:10869](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10869)*
 
 Register a code action provider.
 
@@ -238,7 +239,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `selector` | [DocumentSelector](_index_d_._plugin_.md#documentselector) | A selector that defines the documents this provider is applicable to. |
 `provider` | [CodeActionProvider](../interfaces/_index_d_._plugin_.codeactionprovider.md) | A code action provider. |
-`metadata?` | [CodeActionProviderMetadata](../interfaces/_index_d_._plugin_.codeactionprovidermetadata.md) | Metadata about the kind of code actions the provider providers. |
+`metadata?` | [CodeActionProviderMetadata](../interfaces/_index_d_._plugin_.codeactionprovidermetadata.md) | Metadata about the kind of code actions the provider provides. |
 
 **Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
@@ -250,7 +251,7 @@ ___
 
 ▸ **registerCodeLensProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [CodeLensProvider](../interfaces/_index_d_._plugin_.codelensprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9538](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9538)*
+*Defined in [index.d.ts:10882](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10882)*
 
 Register a code lens provider.
 
@@ -275,7 +276,7 @@ ___
 
 ▸ **registerColorProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentColorProvider](../interfaces/_index_d_._plugin_.documentcolorprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9799](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9799)*
+*Defined in [index.d.ts:11143](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11143)*
 
 Register a color provider.
 
@@ -300,7 +301,7 @@ ___
 
 ▸ **registerCompletionItemProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [CompletionItemProvider](../interfaces/_index_d_._plugin_.completionitemprovider.md), ...`triggerCharacters`: string[]): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9511](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9511)*
+*Defined in [index.d.ts:10855](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10855)*
 
 Register a completion provider.
 
@@ -333,7 +334,7 @@ ___
 
 ▸ **registerDeclarationProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DeclarationProvider](../interfaces/_index_d_._plugin_.declarationprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9590](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9590)*
+*Defined in [index.d.ts:10934](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10934)*
 
 Register a declaration provider.
 
@@ -358,7 +359,7 @@ ___
 
 ▸ **registerDefinitionProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DefinitionProvider](../interfaces/_index_d_._plugin_.definitionprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9551](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9551)*
+*Defined in [index.d.ts:10895](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10895)*
 
 Register a definition provider.
 
@@ -383,7 +384,7 @@ ___
 
 ▸ **registerDocumentFormattingEditProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentFormattingEditProvider](../interfaces/_index_d_._plugin_.documentformattingeditprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9725](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9725)*
+*Defined in [index.d.ts:11069](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11069)*
 
 Register a formatting provider for a document.
 
@@ -408,7 +409,7 @@ ___
 
 ▸ **registerDocumentHighlightProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentHighlightProvider](../interfaces/_index_d_._plugin_.documenthighlightprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9628](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9628)*
+*Defined in [index.d.ts:10972](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10972)*
 
 Register a document highlight provider.
 
@@ -433,7 +434,7 @@ ___
 
 ▸ **registerDocumentLinkProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentLinkProvider](../interfaces/_index_d_._plugin_.documentlinkprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9786](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9786)*
+*Defined in [index.d.ts:11130](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11130)*
 
 Register a document link provider.
 
@@ -458,7 +459,7 @@ ___
 
 ▸ **registerDocumentRangeFormattingEditProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentRangeFormattingEditProvider](../interfaces/_index_d_._plugin_.documentrangeformattingeditprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9742](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9742)*
+*Defined in [index.d.ts:11086](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11086)*
 
 Register a formatting provider for a document range.
 
@@ -487,7 +488,7 @@ ___
 
 ▸ **registerDocumentRangeSemanticTokensProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentRangeSemanticTokensProvider](../interfaces/_index_d_._plugin_.documentrangesemantictokensprovider.md), `legend`: [SemanticTokensLegend](../classes/_index_d_._plugin_.semantictokenslegend.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9712](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9712)*
+*Defined in [index.d.ts:11056](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11056)*
 
 Register a semantic tokens provider for a document range.
 
@@ -519,7 +520,7 @@ ___
 
 ▸ **registerDocumentSemanticTokensProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentSemanticTokensProvider](../interfaces/_index_d_._plugin_.documentsemantictokensprovider.md), `legend`: [SemanticTokensLegend](../classes/_index_d_._plugin_.semantictokenslegend.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9693](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9693)*
+*Defined in [index.d.ts:11037](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11037)*
 
 Register a semantic tokens provider for a whole document.
 
@@ -545,7 +546,7 @@ ___
 
 ▸ **registerDocumentSymbolProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [DocumentSymbolProvider](../interfaces/_index_d_._plugin_.documentsymbolprovider.md), `metaData?`: [DocumentSymbolProviderMetadata](../interfaces/_index_d_._plugin_.documentsymbolprovidermetadata.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9642](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9642)*
+*Defined in [index.d.ts:10986](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10986)*
 
 Register a document symbol provider.
 
@@ -571,7 +572,7 @@ ___
 
 ▸ **registerEvaluatableExpressionProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [EvaluatableExpressionProvider](../interfaces/_index_d_._plugin_.evaluatableexpressionprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9615](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9615)*
+*Defined in [index.d.ts:10959](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10959)*
 
 Register a provider that locates evaluatable expressions in text documents.
 VS Code will evaluate the expression in the active debug session and will show the result in the debug hover.
@@ -595,7 +596,7 @@ ___
 
 ▸ **registerFoldingRangeProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [FoldingRangeProvider](../interfaces/_index_d_._plugin_.foldingrangeprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9816](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9816)*
+*Defined in [index.d.ts:11160](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11160)*
 
 Register a folding range provider.
 
@@ -624,7 +625,7 @@ ___
 
 ▸ **registerHoverProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [HoverProvider](../interfaces/_index_d_._plugin_.hoverprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9603](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9603)*
+*Defined in [index.d.ts:10947](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10947)*
 
 Register a hover provider.
 
@@ -649,7 +650,7 @@ ___
 
 ▸ **registerImplementationProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [ImplementationProvider](../interfaces/_index_d_._plugin_.implementationprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9564](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9564)*
+*Defined in [index.d.ts:10908](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10908)*
 
 Register an implementation provider.
 
@@ -670,11 +671,36 @@ A [disposable](#Disposable) that unregisters this provider when being disposed.
 
 ___
 
+### registerLinkedEditingRangeProvider
+
+▸ **registerLinkedEditingRangeProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [LinkedEditingRangeProvider](../interfaces/_index_d_._plugin_.linkededitingrangeprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+*Defined in [index.d.ts:11195](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11195)*
+
+Register a linked editing range provider.
+
+Multiple providers can be registered for a language. In that case providers are sorted
+by their [score](#languages.match) and the best-matching provider that has a result is used. Failure
+of the selected provider will cause a failure of the whole operation.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`selector` | [DocumentSelector](_index_d_._plugin_.md#documentselector) | A selector that defines the documents this provider is applicable to. |
+`provider` | [LinkedEditingRangeProvider](../interfaces/_index_d_._plugin_.linkededitingrangeprovider.md) | A linked editing range provider. |
+
+**Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+A [disposable](#Disposable) that unregisters this provider when being disposed.
+
+___
+
 ### registerOnTypeFormattingEditProvider
 
 ▸ **registerOnTypeFormattingEditProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [OnTypeFormattingEditProvider](../interfaces/_index_d_._plugin_.ontypeformattingeditprovider.md), `firstTriggerCharacter`: string, ...`moreTriggerCharacter`: string[]): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9757](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9757)*
+*Defined in [index.d.ts:11101](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11101)*
 
 Register a formatting provider that works on type. The provider is active when the user enables the setting `editor.formatOnType`.
 
@@ -701,7 +727,7 @@ ___
 
 ▸ **registerReferenceProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [ReferenceProvider](../interfaces/_index_d_._plugin_.referenceprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9667](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9667)*
+*Defined in [index.d.ts:11011](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11011)*
 
 Register a reference provider.
 
@@ -726,13 +752,13 @@ ___
 
 ▸ **registerRenameProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [RenameProvider](../interfaces/_index_d_._plugin_.renameprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9680](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9680)*
+*Defined in [index.d.ts:11024](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11024)*
 
 Register a rename provider.
 
 Multiple providers can be registered for a language. In that case providers are sorted
-by their [score](#languages.match) and the best-matching provider is used. Failure
-of the selected provider will cause a failure of the whole operation.
+by their [score](#languages.match) and asked in sequence. The first provider producing a result
+defines the result of the whole operation.
 
 #### Parameters:
 
@@ -751,7 +777,7 @@ ___
 
 ▸ **registerSelectionRangeProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [SelectionRangeProvider](../interfaces/_index_d_._plugin_.selectionrangeprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9829](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9829)*
+*Defined in [index.d.ts:11173](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11173)*
 
 Register a selection range provider.
 
@@ -776,7 +802,7 @@ ___
 
 ▸ **registerSignatureHelpProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [SignatureHelpProvider](../interfaces/_index_d_._plugin_.signaturehelpprovider.md), ...`triggerCharacters`: string[]): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9772](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9772)*
+*Defined in [index.d.ts:11116](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11116)*
 
 Register a signature help provider.
 
@@ -798,7 +824,7 @@ A [disposable](#Disposable) that unregisters this provider when being disposed.
 
 ▸ **registerSignatureHelpProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [SignatureHelpProvider](../interfaces/_index_d_._plugin_.signaturehelpprovider.md), `metadata`: [SignatureHelpProviderMetadata](../interfaces/_index_d_._plugin_.signaturehelpprovidermetadata.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9773](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9773)*
+*Defined in [index.d.ts:11117](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11117)*
 
 #### Parameters:
 
@@ -816,7 +842,7 @@ ___
 
 ▸ **registerTypeDefinitionProvider**(`selector`: [DocumentSelector](_index_d_._plugin_.md#documentselector), `provider`: [TypeDefinitionProvider](../interfaces/_index_d_._plugin_.typedefinitionprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9577](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9577)*
+*Defined in [index.d.ts:10921](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10921)*
 
 Register a type definition provider.
 
@@ -841,7 +867,7 @@ ___
 
 ▸ **registerWorkspaceSymbolProvider**(`provider`: [WorkspaceSymbolProvider](../interfaces/_index_d_._plugin_.workspacesymbolprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9654](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9654)*
+*Defined in [index.d.ts:10998](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10998)*
 
 Register a workspace symbol provider.
 
@@ -865,7 +891,7 @@ ___
 
 ▸ **setLanguageConfiguration**(`language`: string, `configuration`: [LanguageConfiguration](../interfaces/_index_d_._plugin_.languageconfiguration.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9847](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9847)*
+*Defined in [index.d.ts:11204](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11204)*
 
 Set a [language configuration](#LanguageConfiguration) for a language.
 
@@ -886,7 +912,7 @@ ___
 
 ▸ **setTextDocumentLanguage**(`document`: [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md), `languageId`: string): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9422](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9422)*
+*Defined in [index.d.ts:10766](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10766)*
 
 Set (and change) the [language](#TextDocument.languageId) that is associated
 with the given document.

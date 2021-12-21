@@ -23,7 +23,7 @@ the [find references](https://code.visualstudio.com/docs/editor/editingevolved#_
 
 ▸ **provideReferences**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `context`: [ReferenceContext](_index_d_._plugin_.referencecontext.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Location](../classes/_index_d_._plugin_.location.md)[]>
 
-*Defined in [index.d.ts:2873](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2873)*
+*Defined in [index.d.ts:3099](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3099)*
 
 Provide a set of project-wide references for the given position and document.
 

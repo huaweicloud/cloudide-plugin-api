@@ -26,7 +26,7 @@ Options for a shell execution
 
 • `Optional` **cwd**: string
 
-*Defined in [index.d.ts:5807](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5807)*
+*Defined in [index.d.ts:6405](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6405)*
 
 The current working directory of the executed shell.
 If omitted the tools current workspace root is used.
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **env**: { [key:string]: string;  }
 
-*Defined in [index.d.ts:5814](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5814)*
+*Defined in [index.d.ts:6412](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6412)*
 
 The additional environment of the executed shell. If omitted
 the parent process' environment is used. If provided it is merged with
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **executable**: string
 
-*Defined in [index.d.ts:5788](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5788)*
+*Defined in [index.d.ts:6386](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6386)*
 
 The shell executable.
 
@@ -59,7 +59,7 @@ ___
 
 • `Optional` **shellArgs**: string[]
 
-*Defined in [index.d.ts:5796](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5796)*
+*Defined in [index.d.ts:6394](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6394)*
 
 The arguments to be passed to the shell executable used to run the task. Most shells
 require special arguments to execute a command. For  example `bash` requires the `-c`
@@ -72,6 +72,6 @@ ___
 
 • `Optional` **shellQuoting**: [ShellQuotingOptions](_index_d_._plugin_.shellquotingoptions.md)
 
-*Defined in [index.d.ts:5801](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5801)*
+*Defined in [index.d.ts:6399](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6399)*
 
 The shell quotes supported by this shell.

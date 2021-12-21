@@ -30,7 +30,7 @@ Represents an edit to semantic tokens.
 
 \+ **new SemanticTokensEdit**(`start`: number, `deleteCount`: number, `data?`: Uint32Array): [SemanticTokensEdit](_index_d_._plugin_.semantictokensedit.md)
 
-*Defined in [index.d.ts:3291](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3291)*
+*Defined in [index.d.ts:3518](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3518)*
 
 #### Parameters:
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • `Optional` `Readonly` **data**: Uint32Array
 
-*Defined in [index.d.ts:3291](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3291)*
+*Defined in [index.d.ts:3518](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3518)*
 
 The elements to insert.
 
@@ -58,7 +58,7 @@ ___
 
 • `Readonly` **deleteCount**: number
 
-*Defined in [index.d.ts:3287](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3287)*
+*Defined in [index.d.ts:3514](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3514)*
 
 The count of elements to remove.
 
@@ -68,6 +68,6 @@ ___
 
 • `Readonly` **start**: number
 
-*Defined in [index.d.ts:3283](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3283)*
+*Defined in [index.d.ts:3510](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3510)*
 
 The start offset of the edit.

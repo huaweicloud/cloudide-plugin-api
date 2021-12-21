@@ -34,7 +34,7 @@ To get an instance of an `OutputChannel` use
 
 • `Readonly` **name**: string
 
-*Defined in [index.d.ts:5143](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5143)*
+*Defined in [index.d.ts:5437](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5437)*
 
 The human-readable name of this output channel.
 
@@ -44,7 +44,7 @@ The human-readable name of this output channel.
 
 ▸ **append**(`value`: string): void
 
-*Defined in [index.d.ts:5150](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5150)*
+*Defined in [index.d.ts:5444](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5444)*
 
 Append the given value to the channel.
 
@@ -62,7 +62,7 @@ ___
 
 ▸ **appendLine**(`value`: string): void
 
-*Defined in [index.d.ts:5158](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5158)*
+*Defined in [index.d.ts:5452](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5452)*
 
 Append the given value and a line feed character
 to the channel.
@@ -81,7 +81,7 @@ ___
 
 ▸ **clear**(): void
 
-*Defined in [index.d.ts:5163](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5163)*
+*Defined in [index.d.ts:5457](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5457)*
 
 Removes all output from the channel.
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:5190](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5190)*
+*Defined in [index.d.ts:5484](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5484)*
 
 Dispose and free associated resources.
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **hide**(): void
 
-*Defined in [index.d.ts:5185](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5185)*
+*Defined in [index.d.ts:5479](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5479)*
 
 Hide this channel from the UI.
 
@@ -117,7 +117,7 @@ ___
 
 ▸ **show**(`preserveFocus?`: boolean): void
 
-*Defined in [index.d.ts:5170](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5170)*
+*Defined in [index.d.ts:5464](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5464)*
 
 Reveal this channel in the UI.
 
@@ -131,9 +131,9 @@ Name | Type | Description |
 
 ▸ **show**(`column?`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md), `preserveFocus?`: boolean): void
 
-*Defined in [index.d.ts:5180](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5180)*
+*Defined in [index.d.ts:5474](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5474)*
 
-~~Reveal this channel in the UI.~~
+Reveal this channel in the UI.
 
 **`deprecated`** Use the overload with just one parameter (`show(preserveFocus?: boolean): void`).
 

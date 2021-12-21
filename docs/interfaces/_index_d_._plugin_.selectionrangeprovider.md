@@ -20,7 +20,7 @@
 
 ▸ **provideSelectionRanges**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `positions`: [Position](../classes/_index_d_._plugin_.position.md)[], `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SelectionRange](../classes/_index_d_._plugin_.selectionrange.md)[]>
 
-*Defined in [index.d.ts:4284](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4284)*
+*Defined in [index.d.ts:4530](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4530)*
 
 Provide selection ranges for the given positions.
 

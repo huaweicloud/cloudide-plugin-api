@@ -35,7 +35,7 @@ A breakpoint specified by a function name.
 
 *Overrides [Breakpoint](_index_d_._plugin_.breakpoint.md).[constructor](_index_d_._plugin_.breakpoint.md#constructor)*
 
-*Defined in [index.d.ts:10479](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10479)*
+*Defined in [index.d.ts:11895](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11895)*
 
 Create a new function breakpoint.
 
@@ -59,7 +59,7 @@ Name | Type |
 
 *Inherited from [Breakpoint](_index_d_._plugin_.breakpoint.md).[condition](_index_d_._plugin_.breakpoint.md#condition)*
 
-*Defined in [index.d.ts:10444](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10444)*
+*Defined in [index.d.ts:11860](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11860)*
 
 An optional expression for conditional breakpoints.
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from [Breakpoint](_index_d_._plugin_.breakpoint.md).[enabled](_index_d_._plugin_.breakpoint.md#enabled)*
 
-*Defined in [index.d.ts:10440](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10440)*
+*Defined in [index.d.ts:11856](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11856)*
 
 Is breakpoint enabled.
 
@@ -81,7 +81,7 @@ ___
 
 • `Readonly` **functionName**: string
 
-*Defined in [index.d.ts:10479](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10479)*
+*Defined in [index.d.ts:11895](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11895)*
 
 The name of the function to which this breakpoint is attached.
 
@@ -93,7 +93,7 @@ ___
 
 *Inherited from [Breakpoint](_index_d_._plugin_.breakpoint.md).[hitCondition](_index_d_._plugin_.breakpoint.md#hitcondition)*
 
-*Defined in [index.d.ts:10448](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10448)*
+*Defined in [index.d.ts:11864](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11864)*
 
 An optional expression that controls how many hits of the breakpoint are ignored.
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from [Breakpoint](_index_d_._plugin_.breakpoint.md).[id](_index_d_._plugin_.breakpoint.md#id)*
 
-*Defined in [index.d.ts:10436](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10436)*
+*Defined in [index.d.ts:11852](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11852)*
 
 The unique ID of the breakpoint.
 
@@ -117,6 +117,6 @@ ___
 
 *Inherited from [Breakpoint](_index_d_._plugin_.breakpoint.md).[logMessage](_index_d_._plugin_.breakpoint.md#logmessage)*
 
-*Defined in [index.d.ts:10452](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10452)*
+*Defined in [index.d.ts:11868](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11868)*
 
 An optional message that gets logged when this breakpoint is hit. Embedded expressions within {} are interpolated by the debug adapter.

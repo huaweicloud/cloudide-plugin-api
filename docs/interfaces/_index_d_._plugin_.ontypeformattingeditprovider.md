@@ -23,7 +23,7 @@ the formatting-feature.
 
 ▸ **provideOnTypeFormattingEdits**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `ch`: string, `options`: [FormattingOptions](_index_d_._plugin_.formattingoptions.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[TextEdit](../classes/_index_d_._plugin_.textedit.md)[]>
 
-*Defined in [index.d.ts:3493](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3493)*
+*Defined in [index.d.ts:3720](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3720)*
 
 Provide formatting edits after a character has been typed.
 

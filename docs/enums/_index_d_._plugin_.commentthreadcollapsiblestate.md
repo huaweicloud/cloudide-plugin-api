@@ -19,7 +19,7 @@ Collapsible state of a [comment thread](#CommentThread)
 
 •  **Collapsed**:  = 0
 
-*Defined in [index.d.ts:10720](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10720)*
+*Defined in [index.d.ts:12168](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12168)*
 
 Determines an item is collapsed
 
@@ -29,6 +29,6 @@ ___
 
 •  **Expanded**:  = 1
 
-*Defined in [index.d.ts:10725](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10725)*
+*Defined in [index.d.ts:12173](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12173)*
 
 Determines an item is expanded

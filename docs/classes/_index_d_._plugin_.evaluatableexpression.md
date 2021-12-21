@@ -31,7 +31,7 @@ In this case the range is still used to highlight the range in the document.
 
 \+ **new EvaluatableExpression**(`range`: [Range](_index_d_._plugin_.range.md), `expression?`: string): [EvaluatableExpression](_index_d_._plugin_.evaluatableexpression.md)
 
-*Defined in [index.d.ts:2526](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2526)*
+*Defined in [index.d.ts:2753](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2753)*
 
 Creates a new evaluatable expression object.
 
@@ -50,7 +50,7 @@ Name | Type | Description |
 
 • `Optional` `Readonly` **expression**: string
 
-*Defined in [index.d.ts:2526](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2526)*
+*Defined in [index.d.ts:2753](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2753)*
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 • `Readonly` **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2521](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2521)*
+*Defined in [index.d.ts:2748](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2748)*

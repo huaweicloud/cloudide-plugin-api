@@ -29,7 +29,7 @@ Additional attributes of a concrete task definition.
 
 • `Readonly` **type**: string
 
-*Defined in [index.d.ts:5683](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5683)*
+*Defined in [index.d.ts:6281](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6281)*
 
 The task definition describing the task provided by an extension.
 Usually a task provider defines more properties to identify

@@ -25,7 +25,7 @@ Describes indentation rules for a language.
 
 •  **decreaseIndentPattern**: RegExp
 
-*Defined in [index.d.ts:4459](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4459)*
+*Defined in [index.d.ts:4749](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4749)*
 
 If a line matches this pattern, then all the lines after it should be unindented once (until another rule matches).
 
@@ -35,7 +35,7 @@ ___
 
 •  **increaseIndentPattern**: RegExp
 
-*Defined in [index.d.ts:4463](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4463)*
+*Defined in [index.d.ts:4753](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4753)*
 
 If a line matches this pattern, then all the lines after it should be indented once (until another rule matches).
 
@@ -45,7 +45,7 @@ ___
 
 • `Optional` **indentNextLinePattern**: RegExp
 
-*Defined in [index.d.ts:4467](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4467)*
+*Defined in [index.d.ts:4757](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4757)*
 
 If a line matches this pattern, then **only the next line** after it should be indented once.
 
@@ -55,6 +55,6 @@ ___
 
 • `Optional` **unIndentedLinePattern**: RegExp
 
-*Defined in [index.d.ts:4471](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4471)*
+*Defined in [index.d.ts:4761](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4761)*
 
 If a line matches this pattern, then its indentation should not be changed and it should not be evaluated against the other rules.

@@ -27,7 +27,7 @@
 
 \+ **new ShellExecution**(`commandLine`: string, `options?`: [ShellExecutionOptions](../interfaces/_index_d_._plugin_.shellexecutionoptions.md)): [ShellExecution](_index_d_._plugin_.shellexecution.md)
 
-*Defined in [index.d.ts:5863](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5863)*
+*Defined in [index.d.ts:6461](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6461)*
 
 Creates a shell execution with a full command line.
 
@@ -42,7 +42,7 @@ Name | Type | Description |
 
 \+ **new ShellExecution**(`command`: string \| [ShellQuotedString](../interfaces/_index_d_._plugin_.shellquotedstring.md), `args`: (string \| [ShellQuotedString](../interfaces/_index_d_._plugin_.shellquotedstring.md))[], `options?`: [ShellExecutionOptions](../interfaces/_index_d_._plugin_.shellexecutionoptions.md)): [ShellExecution](_index_d_._plugin_.shellexecution.md)
 
-*Defined in [index.d.ts:5870](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5870)*
+*Defined in [index.d.ts:6468](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6468)*
 
 Creates a shell execution with a command and arguments. For the real execution VS Code will
 construct a command line from the command and the arguments. This is subject to interpretation
@@ -65,7 +65,7 @@ Name | Type | Description |
 
 •  **args**: (string \| [ShellQuotedString](../interfaces/_index_d_._plugin_.shellquotedstring.md))[]
 
-*Defined in [index.d.ts:5897](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5897)*
+*Defined in [index.d.ts:6495](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6495)*
 
 The shell args. Is `undefined` if created with a full command line.
 
@@ -75,7 +75,7 @@ ___
 
 •  **command**: string \| [ShellQuotedString](../interfaces/_index_d_._plugin_.shellquotedstring.md)
 
-*Defined in [index.d.ts:5892](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5892)*
+*Defined in [index.d.ts:6490](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6490)*
 
 The shell command. Is `undefined` if created with a full command line.
 
@@ -85,7 +85,7 @@ ___
 
 •  **commandLine**: string \| undefined
 
-*Defined in [index.d.ts:5887](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5887)*
+*Defined in [index.d.ts:6485](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6485)*
 
 The shell command line. Is `undefined` if created with a command and arguments.
 
@@ -95,7 +95,7 @@ ___
 
 • `Optional` **options**: [ShellExecutionOptions](../interfaces/_index_d_._plugin_.shellexecutionoptions.md)
 
-*Defined in [index.d.ts:5903](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5903)*
+*Defined in [index.d.ts:6501](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6501)*
 
 The shell options used when the command line is executed in a shell.
 Defaults to undefined.

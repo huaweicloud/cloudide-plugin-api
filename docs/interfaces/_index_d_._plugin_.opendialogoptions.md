@@ -6,8 +6,8 @@
 
 Options to configure the behaviour of a file open dialog.
 
-* Note 1: A dialog can select files, folders, or both. This is not true for Windows
-which enforces to open either files or folder, but *not both*.
+* Note 1: On Windows and Linux, a file dialog cannot be both a file selector and a folder selector, so if you
+set both `canSelectFiles` and `canSelectFolders` to `true` on these platforms, a folder selector will be shown.
 * Note 2: Explicitly setting `canSelectFiles` and `canSelectFolders` to `false` is futile
 and the editor then silently adjusts the options to select files.
 
@@ -25,6 +25,7 @@ and the editor then silently adjusts the options to select files.
 * [defaultUri](_index_d_._plugin_.opendialogoptions.md#defaulturi)
 * [filters](_index_d_._plugin_.opendialogoptions.md#filters)
 * [openLabel](_index_d_._plugin_.opendialogoptions.md#openlabel)
+* [title](_index_d_._plugin_.opendialogoptions.md#title)
 
 ## Properties
 
@@ -32,7 +33,7 @@ and the editor then silently adjusts the options to select files.
 
 • `Optional` **canSelectFiles**: boolean
 
-*Defined in [index.d.ts:1718](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1718)*
+*Defined in [index.d.ts:1855](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1855)*
 
 Allow to select files, defaults to `true`.
 
@@ -42,7 +43,7 @@ ___
 
 • `Optional` **canSelectFolders**: boolean
 
-*Defined in [index.d.ts:1723](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1723)*
+*Defined in [index.d.ts:1860](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1860)*
 
 Allow to select folders, defaults to `false`.
 
@@ -52,7 +53,7 @@ ___
 
 • `Optional` **canSelectMany**: boolean
 
-*Defined in [index.d.ts:1728](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1728)*
+*Defined in [index.d.ts:1865](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1865)*
 
 Allow to select many files or folders.
 
@@ -62,7 +63,7 @@ ___
 
 • `Optional` **defaultUri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1708](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1708)*
+*Defined in [index.d.ts:1845](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1845)*
 
 The resource the dialog shows when opened.
 
@@ -72,7 +73,7 @@ ___
 
 • `Optional` **filters**: { [name:string]: string[];  }
 
-*Defined in [index.d.ts:1740](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1740)*
+*Defined in [index.d.ts:1877](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1877)*
 
 A set of file filters that are used by the dialog. Each entry is a human-readable label,
 like "TypeScript", and an array of extensions, e.g.
@@ -89,6 +90,19 @@ ___
 
 • `Optional` **openLabel**: string
 
-*Defined in [index.d.ts:1713](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1713)*
+*Defined in [index.d.ts:1850](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1850)*
 
 A human-readable string for the open button.
+
+___
+
+### title
+
+• `Optional` **title**: string
+
+*Defined in [index.d.ts:1885](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1885)*
+
+Dialog title.
+
+This parameter might be ignored, as not all operating systems display a title on open dialogs
+(for example, macOS).

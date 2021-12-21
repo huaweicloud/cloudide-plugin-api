@@ -28,7 +28,7 @@ the integer encoded representation of semantic tokens.
 
 \+ **new SemanticTokensLegend**(`tokenTypes`: string[], `tokenModifiers?`: string[]): [SemanticTokensLegend](_index_d_._plugin_.semantictokenslegend.md)
 
-*Defined in [index.d.ts:3195](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3195)*
+*Defined in [index.d.ts:3422](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3422)*
 
 #### Parameters:
 
@@ -45,7 +45,7 @@ Name | Type |
 
 • `Readonly` **tokenModifiers**: string[]
 
-*Defined in [index.d.ts:3195](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3195)*
+*Defined in [index.d.ts:3422](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3422)*
 
 The possible token modifiers.
 
@@ -55,6 +55,6 @@ ___
 
 • `Readonly` **tokenTypes**: string[]
 
-*Defined in [index.d.ts:3191](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3191)*
+*Defined in [index.d.ts:3418](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3418)*
 
 The possible token types.

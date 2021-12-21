@@ -22,6 +22,7 @@ remote extension host or ftp-servers.
 * [copy](_index_d_._plugin_.filesystem.md#copy)
 * [createDirectory](_index_d_._plugin_.filesystem.md#createdirectory)
 * [delete](_index_d_._plugin_.filesystem.md#delete)
+* [isWritableFileSystem](_index_d_._plugin_.filesystem.md#iswritablefilesystem)
 * [readDirectory](_index_d_._plugin_.filesystem.md#readdirectory)
 * [readFile](_index_d_._plugin_.filesystem.md#readfile)
 * [rename](_index_d_._plugin_.filesystem.md#rename)
@@ -34,7 +35,7 @@ remote extension host or ftp-servers.
 
 ▸ **copy**(`source`: [Uri](../classes/_index_d_._plugin_.uri.md), `target`: [Uri](../classes/_index_d_._plugin_.uri.md), `options?`: { overwrite?: boolean  }): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6578](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6578)*
+*Defined in [index.d.ts:7187](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7187)*
 
 Copy files or folders.
 
@@ -54,7 +55,7 @@ ___
 
 ▸ **createDirectory**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6536](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6536)*
+*Defined in [index.d.ts:7145](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7145)*
 
 Create a new directory (Note, that new files are created via `write`-calls).
 
@@ -75,7 +76,7 @@ ___
 
 ▸ **delete**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `options?`: { recursive?: boolean ; useTrash?: boolean  }): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6560](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6560)*
+*Defined in [index.d.ts:7169](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7169)*
 
 Delete a file.
 
@@ -90,11 +91,37 @@ Name | Type | Description |
 
 ___
 
+### isWritableFileSystem
+
+▸ **isWritableFileSystem**(`scheme`: string): boolean \| undefined
+
+*Defined in [index.d.ts:7202](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7202)*
+
+Check if a given file system supports writing files.
+
+Keep in mind that just because a file system supports writing, that does
+not mean that writes will always succeed. There may be permissions issues
+or other errors that prevent writing a file.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`scheme` | string | The scheme of the filesystem, for example `file` or `git`.  |
+
+**Returns:** boolean \| undefined
+
+`true` if the file system supports writing, `false` if it does not
+support writing (i.e. it is readonly), and `undefined` if VS Code does not
+know about the filesystem.
+
+___
+
 ### readDirectory
 
 ▸ **readDirectory**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](_index_d_.thenable.md)\<[string, [FileType](../enums/_index_d_._plugin_.filetype.md)][]>
 
-*Defined in [index.d.ts:6526](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6526)*
+*Defined in [index.d.ts:7135](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7135)*
 
 Retrieve all entries of a [directory](#FileType.Directory).
 
@@ -114,7 +141,7 @@ ___
 
 ▸ **readFile**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](_index_d_.thenable.md)\<Uint8Array>
 
-*Defined in [index.d.ts:6544](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6544)*
+*Defined in [index.d.ts:7153](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7153)*
 
 Read the entire contents of a file.
 
@@ -134,7 +161,7 @@ ___
 
 ▸ **rename**(`source`: [Uri](../classes/_index_d_._plugin_.uri.md), `target`: [Uri](../classes/_index_d_._plugin_.uri.md), `options?`: { overwrite?: boolean  }): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6569](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6569)*
+*Defined in [index.d.ts:7178](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7178)*
 
 Rename a file or folder.
 
@@ -154,7 +181,7 @@ ___
 
 ▸ **stat**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](_index_d_.thenable.md)\<[FileStat](_index_d_._plugin_.filestat.md)>
 
-*Defined in [index.d.ts:6518](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6518)*
+*Defined in [index.d.ts:7127](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7127)*
 
 Retrieve metadata about a file.
 
@@ -174,7 +201,7 @@ ___
 
 ▸ **writeFile**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `content`: Uint8Array): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6552](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6552)*
+*Defined in [index.d.ts:7161](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7161)*
 
 Write data to a file, replacing its entire contents.
 

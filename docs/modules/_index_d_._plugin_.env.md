@@ -32,7 +32,7 @@ Namespace describing the environment the editor runs in.
 
 • `Const` **appName**: string
 
-*Defined in [index.d.ts:6976](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6976)*
+*Defined in [index.d.ts:7987](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7987)*
 
 The application name of the editor, like 'VS Code'.
 
@@ -42,9 +42,12 @@ ___
 
 • `Const` **appRoot**: string
 
-*Defined in [index.d.ts:6981](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6981)*
+*Defined in [index.d.ts:7995](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7995)*
 
 The application root folder from which the editor is running.
+
+*Note* that the value is the empty string when running in an
+environment that has no representation of an application root folder.
 
 ___
 
@@ -52,7 +55,7 @@ ___
 
 • `Const` **clipboard**: [Clipboard](../interfaces/_index_d_._plugin_.clipboard.md)
 
-*Defined in [index.d.ts:6996](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6996)*
+*Defined in [index.d.ts:8010](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8010)*
 
 The system clipboard.
 
@@ -62,7 +65,7 @@ ___
 
 • `Const` **language**: string
 
-*Defined in [index.d.ts:6991](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6991)*
+*Defined in [index.d.ts:8005](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8005)*
 
 Represents the preferred user-language, like `de-CH`, `fr`, or `en-US`.
 
@@ -72,7 +75,7 @@ ___
 
 • `Const` **machineId**: string
 
-*Defined in [index.d.ts:7001](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7001)*
+*Defined in [index.d.ts:8015](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8015)*
 
 A unique identifier for the computer.
 
@@ -82,7 +85,7 @@ ___
 
 • `Const` **remoteName**: string \| undefined
 
-*Defined in [index.d.ts:7018](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7018)*
+*Defined in [index.d.ts:8032](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8032)*
 
 The name of a remote. Defined by extensions, popular samples are `wsl` for the Windows
 Subsystem for Linux or `ssh-remote` for remotes using a secure shell.
@@ -98,7 +101,7 @@ ___
 
 • `Const` **sessionId**: string
 
-*Defined in [index.d.ts:7007](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7007)*
+*Defined in [index.d.ts:8021](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8021)*
 
 A unique identifier for the current session.
 Changes each time the editor is started.
@@ -109,10 +112,11 @@ ___
 
 • `Const` **shell**: string
 
-*Defined in [index.d.ts:7024](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7024)*
+*Defined in [index.d.ts:8039](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8039)*
 
 The detected default shell for the extension host, this is overridden by the
-`terminal.integrated.shell` setting for the extension host's platform.
+`terminal.integrated.shell` setting for the extension host's platform. Note that in
+environments that do not support a shell the value is the empty string.
 
 ___
 
@@ -120,7 +124,7 @@ ___
 
 • `Const` **uiKind**: [UIKind](../enums/_index_d_._plugin_.uikind.md)
 
-*Defined in [index.d.ts:7031](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7031)*
+*Defined in [index.d.ts:8046](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8046)*
 
 The UI kind property indicates from which UI extensions
 are accessed from. For example, extensions could be accessed
@@ -132,7 +136,7 @@ ___
 
 • `Const` **uriScheme**: string
 
-*Defined in [index.d.ts:6986](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6986)*
+*Defined in [index.d.ts:8000](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8000)*
 
 The custom uri scheme the editor registers to in the operating system.
 
@@ -142,7 +146,7 @@ The custom uri scheme the editor registers to in the operating system.
 
 ▸ **asExternalUri**(`target`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:7097](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7097)*
+*Defined in [index.d.ts:8112](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8112)*
 
 Resolves a uri to form that is accessible externally. Currently only supports `https:`, `http:` and
 `vscode.env.uriScheme` uris.
@@ -156,7 +160,7 @@ This is a no-op if the extension is running on the client machine.
 
 If the extension is running remotely, this function automatically establishes a port forwarding tunnel
 from the local machine to `target` on the remote and returns a local uri to the tunnel. The lifetime of
-the port fowarding tunnel is managed by VS Code and the tunnel can be closed by the user.
+the port forwarding tunnel is managed by VS Code and the tunnel can be closed by the user.
 
 *Note* that uris passed through `openExternal` are automatically resolved and you should not call `asExternalUri` on them.
 
@@ -187,7 +191,7 @@ await vscode.env.openExternal(callableUri);
 ```
 
 *Note* that extensions should not cache the result of `asExternalUri` as the resolved uri may become invalid due to
-a system or user action — for example, in remote cases, a user may close a port forwarding tunnel that was opened by
+a system or user action — for example, in remote cases, a user may close a port forwarding tunnel that was opened by
 `asExternalUri`.
 
 #### Parameters:
@@ -206,7 +210,7 @@ ___
 
 ▸ **openExternal**(`target`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<boolean>
 
-*Defined in [index.d.ts:7046](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7046)*
+*Defined in [index.d.ts:8061](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8061)*
 
 Opens a link externally using the default application. Depending on the
 used scheme this can be:

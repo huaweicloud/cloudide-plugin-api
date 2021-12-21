@@ -28,7 +28,7 @@ have a label and a doc-comment.
 
 \+ **new ParameterInformation**(`label`: string \| [number, number], `documentation?`: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md)): [ParameterInformation](_index_d_._plugin_.parameterinformation.md)
 
-*Defined in [index.d.ts:3515](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3515)*
+*Defined in [index.d.ts:3742](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3742)*
 
 Creates a new parameter information object.
 
@@ -47,7 +47,7 @@ Name | Type | Description |
 
 • `Optional` **documentation**: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:3515](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3515)*
+*Defined in [index.d.ts:3742](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3742)*
 
 The human-readable doc-comment of this signature. Will be shown
 in the UI but can be omitted.
@@ -58,7 +58,7 @@ ___
 
 •  **label**: string \| [number, number]
 
-*Defined in [index.d.ts:3509](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3509)*
+*Defined in [index.d.ts:3736](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3736)*
 
 The label of this signature.
 

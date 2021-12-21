@@ -24,7 +24,7 @@ picking and modifying colors in the editor.
 
 ▸ **provideColorPresentations**(`color`: [Color](../classes/_index_d_._plugin_.color.md), `context`: { document: [TextDocument](_index_d_._plugin_.textdocument.md) ; range: [Range](../classes/_index_d_._plugin_.range.md)  }, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[ColorPresentation](../classes/_index_d_._plugin_.colorpresentation.md)[]>
 
-*Defined in [index.d.ts:4163](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4163)*
+*Defined in [index.d.ts:4403](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4403)*
 
 Provide [representations](#ColorPresentation) for a color.
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **provideDocumentColors**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[ColorInformation](../classes/_index_d_._plugin_.colorinformation.md)[]>
 
-*Defined in [index.d.ts:4152](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4152)*
+*Defined in [index.d.ts:4392](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4392)*
 
 Provide colors for the given document.
 

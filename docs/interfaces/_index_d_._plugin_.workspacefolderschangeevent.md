@@ -23,7 +23,7 @@ An event describing a change to the set of [workspace folders](#workspace.worksp
 
 • `Readonly` **added**: ReadonlyArray\<[WorkspaceFolder](_index_d_._plugin_.workspacefolder.md)>
 
-*Defined in [index.d.ts:8895](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8895)*
+*Defined in [index.d.ts:10232](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10232)*
 
 Added workspace folders.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **removed**: ReadonlyArray\<[WorkspaceFolder](_index_d_._plugin_.workspacefolder.md)>
 
-*Defined in [index.d.ts:8900](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8900)*
+*Defined in [index.d.ts:10237](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10237)*
 
 Removed workspace folders.

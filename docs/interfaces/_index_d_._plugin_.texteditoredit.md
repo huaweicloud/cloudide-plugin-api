@@ -27,7 +27,7 @@ they can be applied on a [document](#TextDocument) associated with a [text edito
 
 ▸ **delete**(`location`: [Range](../classes/_index_d_._plugin_.range.md) \| [Selection](../classes/_index_d_._plugin_.selection.md)): void
 
-*Defined in [index.d.ts:1233](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1233)*
+*Defined in [index.d.ts:1354](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1354)*
 
 Delete a certain text region.
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **insert**(`location`: [Position](../classes/_index_d_._plugin_.position.md), `value`: string): void
 
-*Defined in [index.d.ts:1226](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1226)*
+*Defined in [index.d.ts:1347](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1347)*
 
 Insert text at a location.
 You can use \r\n or \n in `value` and they will be normalized to the current [document](#TextDocument).
@@ -66,7 +66,7 @@ ___
 
 ▸ **replace**(`location`: [Position](../classes/_index_d_._plugin_.position.md) \| [Range](../classes/_index_d_._plugin_.range.md) \| [Selection](../classes/_index_d_._plugin_.selection.md), `value`: string): void
 
-*Defined in [index.d.ts:1216](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1216)*
+*Defined in [index.d.ts:1337](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1337)*
 
 Replace a certain text region with a new value.
 You can use \r\n or \n in `value` and they will be normalized to the current [document](#TextDocument).
@@ -86,7 +86,7 @@ ___
 
 ▸ **setEndOfLine**(`endOfLine`: [EndOfLine](../enums/_index_d_._plugin_.endofline.md)): void
 
-*Defined in [index.d.ts:1240](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1240)*
+*Defined in [index.d.ts:1361](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1361)*
 
 Set the end of line sequence.
 

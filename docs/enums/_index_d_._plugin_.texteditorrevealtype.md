@@ -21,7 +21,7 @@ Represents different [reveal](#TextEditor.revealRange) strategies in a text edit
 
 •  **AtTop**:  = 3
 
-*Defined in [index.d.ts:721](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L721)*
+*Defined in [index.d.ts:831](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L831)*
 
 The range will always be revealed at the top of the viewport.
 
@@ -31,7 +31,7 @@ ___
 
 •  **Default**:  = 0
 
-*Defined in [index.d.ts:708](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L708)*
+*Defined in [index.d.ts:818](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L818)*
 
 The range will be revealed with as little scrolling as possible.
 
@@ -41,7 +41,7 @@ ___
 
 •  **InCenter**:  = 1
 
-*Defined in [index.d.ts:712](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L712)*
+*Defined in [index.d.ts:822](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L822)*
 
 The range will always be revealed in the center of the viewport.
 
@@ -51,7 +51,7 @@ ___
 
 •  **InCenterIfOutsideViewport**:  = 2
 
-*Defined in [index.d.ts:717](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L717)*
+*Defined in [index.d.ts:827](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L827)*
 
 If the range is outside the viewport, it will be revealed in the center of the viewport.
 Otherwise, it will be revealed with as little scrolling as possible.

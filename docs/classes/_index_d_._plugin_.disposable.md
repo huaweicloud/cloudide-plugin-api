@@ -34,7 +34,7 @@ as event listening or a timer.
 
 \+ **new Disposable**(`callOnDispose`: Function): [Disposable](_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1601](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1601)*
 
 Creates a new Disposable calling the provided function
 on dispose.
@@ -53,7 +53,7 @@ Name | Type | Description |
 
 ▸ **dispose**(): any
 
-*Defined in [index.d.ts:1477](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1477)*
+*Defined in [index.d.ts:1613](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1613)*
 
 Dispose this object.
 
@@ -65,7 +65,7 @@ ___
 
 ▸ `Static`**from**(...`disposableLikes`: { dispose: () => any  }[]): [Disposable](_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1601](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1601)*
 
 Combine many disposable-likes into one. Use this method
 when having objects with a dispose function which are not

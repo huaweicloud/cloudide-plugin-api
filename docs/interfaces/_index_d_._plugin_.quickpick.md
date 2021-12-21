@@ -63,7 +63,7 @@ Name | Type |
 
 •  **activeItems**: ReadonlyArray\<T>
 
-*Defined in [index.d.ts:8503](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8503)*
+*Defined in [index.d.ts:9841](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9841)*
 
 Active items. This can be read and updated by the extension.
 
@@ -75,7 +75,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[busy](_index_d_._plugin_.quickinput.md#busy)*
 
-*Defined in [index.d.ts:8400](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8400)*
+*Defined in [index.d.ts:9738](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9738)*
 
 If the UI should show a progress indicator. Defaults to false.
 
@@ -88,7 +88,7 @@ ___
 
 •  **buttons**: ReadonlyArray\<[QuickInputButton](_index_d_._plugin_.quickinputbutton.md)>
 
-*Defined in [index.d.ts:8473](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8473)*
+*Defined in [index.d.ts:9811](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9811)*
 
 Buttons for actions in the UI.
 
@@ -98,7 +98,7 @@ ___
 
 •  **canSelectMany**: boolean
 
-*Defined in [index.d.ts:8488](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8488)*
+*Defined in [index.d.ts:9826](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9826)*
 
 If multiple items can be selected at the same time. Defaults to false.
 
@@ -110,7 +110,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[enabled](_index_d_._plugin_.quickinput.md#enabled)*
 
-*Defined in [index.d.ts:8392](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8392)*
+*Defined in [index.d.ts:9730](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9730)*
 
 If the UI should allow for user input. Defaults to true.
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[ignoreFocusOut](_index_d_._plugin_.quickinput.md#ignorefocusout)*
 
-*Defined in [index.d.ts:8405](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8405)*
+*Defined in [index.d.ts:9743](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9743)*
 
 If the UI should stay open even when loosing UI focus. Defaults to false.
 
@@ -135,7 +135,7 @@ ___
 
 •  **items**: ReadonlyArray\<T>
 
-*Defined in [index.d.ts:8483](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8483)*
+*Defined in [index.d.ts:9821](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9821)*
 
 Items to pick from.
 
@@ -145,7 +145,7 @@ ___
 
 •  **matchOnDescription**: boolean
 
-*Defined in [index.d.ts:8493](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8493)*
+*Defined in [index.d.ts:9831](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9831)*
 
 If the filter text should also be matched against the description of the items. Defaults to false.
 
@@ -155,7 +155,7 @@ ___
 
 •  **matchOnDetail**: boolean
 
-*Defined in [index.d.ts:8498](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8498)*
+*Defined in [index.d.ts:9836](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9836)*
 
 If the filter text should also be matched against the detail of the items. Defaults to false.
 
@@ -165,7 +165,7 @@ ___
 
 • `Readonly` **onDidAccept**: [Event](_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:8468](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8468)*
+*Defined in [index.d.ts:9806](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9806)*
 
 An event signaling when the user indicated acceptance of the selected item(s).
 
@@ -175,7 +175,7 @@ ___
 
 • `Readonly` **onDidChangeActive**: [Event](_index_d_._plugin_.event.md)\<T[]>
 
-*Defined in [index.d.ts:8508](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8508)*
+*Defined in [index.d.ts:9846](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9846)*
 
 An event signaling when the active items have changed.
 
@@ -185,7 +185,7 @@ ___
 
 • `Readonly` **onDidChangeSelection**: [Event](_index_d_._plugin_.event.md)\<T[]>
 
-*Defined in [index.d.ts:8518](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8518)*
+*Defined in [index.d.ts:9856](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9856)*
 
 An event signaling when the selected items have changed.
 
@@ -195,7 +195,7 @@ ___
 
 • `Readonly` **onDidChangeValue**: [Event](_index_d_._plugin_.event.md)\<string>
 
-*Defined in [index.d.ts:8463](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8463)*
+*Defined in [index.d.ts:9801](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9801)*
 
 An event signaling when the value of the filter text has changed.
 
@@ -207,7 +207,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[onDidHide](_index_d_._plugin_.quickinput.md#ondidhide)*
 
-*Defined in [index.d.ts:8427](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8427)*
+*Defined in [index.d.ts:9765](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9765)*
 
 An event signaling when this input UI is hidden.
 
@@ -222,7 +222,7 @@ ___
 
 • `Readonly` **onDidTriggerButton**: [Event](_index_d_._plugin_.event.md)\<[QuickInputButton](_index_d_._plugin_.quickinputbutton.md)>
 
-*Defined in [index.d.ts:8478](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8478)*
+*Defined in [index.d.ts:9816](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9816)*
 
 An event signaling when a button was triggered.
 
@@ -232,7 +232,7 @@ ___
 
 •  **placeholder**: string \| undefined
 
-*Defined in [index.d.ts:8458](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8458)*
+*Defined in [index.d.ts:9796](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9796)*
 
 Optional placeholder in the filter text.
 
@@ -242,7 +242,7 @@ ___
 
 •  **selectedItems**: ReadonlyArray\<T>
 
-*Defined in [index.d.ts:8513](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8513)*
+*Defined in [index.d.ts:9851](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9851)*
 
 Selected items. This can be read and updated by the extension.
 
@@ -254,7 +254,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[step](_index_d_._plugin_.quickinput.md#step)*
 
-*Defined in [index.d.ts:8379](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8379)*
+*Defined in [index.d.ts:9717](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9717)*
 
 An optional current step count.
 
@@ -266,7 +266,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[title](_index_d_._plugin_.quickinput.md#title)*
 
-*Defined in [index.d.ts:8374](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8374)*
+*Defined in [index.d.ts:9712](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9712)*
 
 An optional title.
 
@@ -278,7 +278,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[totalSteps](_index_d_._plugin_.quickinput.md#totalsteps)*
 
-*Defined in [index.d.ts:8384](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8384)*
+*Defined in [index.d.ts:9722](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9722)*
 
 An optional total step count.
 
@@ -288,7 +288,7 @@ ___
 
 •  **value**: string
 
-*Defined in [index.d.ts:8453](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8453)*
+*Defined in [index.d.ts:9791](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9791)*
 
 Current value of the filter text.
 
@@ -300,7 +300,7 @@ Current value of the filter text.
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[dispose](_index_d_._plugin_.quickinput.md#dispose)*
 
-*Defined in [index.d.ts:8435](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8435)*
+*Defined in [index.d.ts:9773](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9773)*
 
 Dispose of this input UI and any associated resources. If it is still
 visible, it is first hidden. After this call the input UI is no longer
@@ -317,7 +317,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[hide](_index_d_._plugin_.quickinput.md#hide)*
 
-*Defined in [index.d.ts:8417](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8417)*
+*Defined in [index.d.ts:9755](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9755)*
 
 Hides this input UI. This will also fire an [QuickInput.onDidHide](#QuickInput.onDidHide)
 event.
@@ -332,7 +332,7 @@ ___
 
 *Inherited from [QuickInput](_index_d_._plugin_.quickinput.md).[show](_index_d_._plugin_.quickinput.md#show)*
 
-*Defined in [index.d.ts:8411](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8411)*
+*Defined in [index.d.ts:9749](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9749)*
 
 Makes the input UI visible in its current configuration. Any other input
 UI will first fire an [QuickInput.onDidHide](#QuickInput.onDidHide) event.

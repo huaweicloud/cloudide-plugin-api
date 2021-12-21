@@ -31,7 +31,7 @@
 
 • `Optional` **backgroundColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:994](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L994)*
+*Defined in [index.d.ts:1115](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1115)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -41,7 +41,7 @@ ___
 
 • `Optional` **border**: string
 
-*Defined in [index.d.ts:970](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L970)*
+*Defined in [index.d.ts:1091](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1091)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -51,7 +51,7 @@ ___
 
 • `Optional` **borderColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:974](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L974)*
+*Defined in [index.d.ts:1095](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1095)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -61,7 +61,7 @@ ___
 
 • `Optional` **color**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:990](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L990)*
+*Defined in [index.d.ts:1111](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1111)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -71,7 +71,7 @@ ___
 
 • `Optional` **contentIconPath**: string \| [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:966](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L966)*
+*Defined in [index.d.ts:1087](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1087)*
 
 An **absolute path** or an URI to an image to be rendered in the attachment. Either an icon
 or a text can be shown, but not both.
@@ -82,7 +82,7 @@ ___
 
 • `Optional` **contentText**: string
 
-*Defined in [index.d.ts:961](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L961)*
+*Defined in [index.d.ts:1082](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1082)*
 
 Defines a text content that is shown in the attachment. Either an icon or a text can be shown, but not both.
 
@@ -92,7 +92,7 @@ ___
 
 • `Optional` **fontStyle**: string
 
-*Defined in [index.d.ts:978](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L978)*
+*Defined in [index.d.ts:1099](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1099)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -102,7 +102,7 @@ ___
 
 • `Optional` **fontWeight**: string
 
-*Defined in [index.d.ts:982](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L982)*
+*Defined in [index.d.ts:1103](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1103)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -112,7 +112,7 @@ ___
 
 • `Optional` **height**: string
 
-*Defined in [index.d.ts:1006](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1006)*
+*Defined in [index.d.ts:1127](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1127)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -122,7 +122,7 @@ ___
 
 • `Optional` **margin**: string
 
-*Defined in [index.d.ts:998](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L998)*
+*Defined in [index.d.ts:1119](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1119)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -132,7 +132,7 @@ ___
 
 • `Optional` **textDecoration**: string
 
-*Defined in [index.d.ts:986](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L986)*
+*Defined in [index.d.ts:1107](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1107)*
 
 CSS styling property that will be applied to the decoration attachment.
 
@@ -142,6 +142,6 @@ ___
 
 • `Optional` **width**: string
 
-*Defined in [index.d.ts:1002](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1002)*
+*Defined in [index.d.ts:1123](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1123)*
 
 CSS styling property that will be applied to the decoration attachment.

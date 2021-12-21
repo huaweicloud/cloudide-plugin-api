@@ -22,6 +22,6 @@ Represents the state of a window.
 
 • `Readonly` **focused**: boolean
 
-*Defined in [index.d.ts:7202](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7202)*
+*Defined in [index.d.ts:8218](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8218)*
 
 Whether the current window is focused.

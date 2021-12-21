@@ -30,7 +30,7 @@ thenable that resolves to a [workspace edit](#WorkspaceEdit).
 
 • `Readonly` **files**: ReadonlyArray\<{ newUri: [Uri](../classes/_index_d_._plugin_.uri.md) ; oldUri: [Uri](../classes/_index_d_._plugin_.uri.md)  }>
 
-*Defined in [index.d.ts:8844](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8844)*
+*Defined in [index.d.ts:10182](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10182)*
 
 The files that are going to be renamed.
 
@@ -40,7 +40,7 @@ The files that are going to be renamed.
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<[WorkspaceEdit](../classes/_index_d_._plugin_.workspaceedit.md)>): void
 
-*Defined in [index.d.ts:8864](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8864)*
+*Defined in [index.d.ts:10202](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10202)*
 
 Allows to pause the event and to apply a [workspace edit](#WorkspaceEdit).
 
@@ -67,7 +67,7 @@ Name | Type | Description |
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<any>): void
 
-*Defined in [index.d.ts:8873](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8873)*
+*Defined in [index.d.ts:10211](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10211)*
 
 Allows to pause the event until the provided thenable resolves.
 

@@ -30,7 +30,7 @@ Additional debug type specific properties.
 
 •  **name**: string
 
-*Defined in [index.d.ts:10096](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10096)*
+*Defined in [index.d.ts:11495](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11495)*
 
 The name of the debug session.
 
@@ -40,7 +40,7 @@ ___
 
 •  **request**: string
 
-*Defined in [index.d.ts:10101](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10101)*
+*Defined in [index.d.ts:11500](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11500)*
 
 The request type of the debug session.
 
@@ -50,6 +50,6 @@ ___
 
 •  **type**: string
 
-*Defined in [index.d.ts:10091](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10091)*
+*Defined in [index.d.ts:11490](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11490)*
 
 The type of the debug session.

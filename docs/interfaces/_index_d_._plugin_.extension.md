@@ -2,9 +2,13 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / Extension
 
-# Interface: Extension\<T>
+# Interface: Extension\<T, T>
 
+Compatible with vscode
 Represents an extension.
+Represents an extension.
+
+To get an instance of an `Extension` use [getExtension](#extensions.getExtension).
 
 To get an instance of an `Extension` use [getExtension](#extensions.getExtension).
 
@@ -12,6 +16,7 @@ To get an instance of an `Extension` use [getExtension](#extensions.getExtension
 
 Name |
 ------ |
+`T` |
 `T` |
 
 ## Hierarchy
@@ -40,8 +45,12 @@ Name |
 
 • `Readonly` **exports**: T
 
-*Defined in [index.d.ts:5415](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5415)*
+*Defined in [index.d.ts:121](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L121)*
 
+*Defined in [index.d.ts:5870](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5870)*
+
+The public API exported by this extension. It is an invalid action
+to access this field before this extension has been activated.
 The public API exported by this extension. It is an invalid action
 to access this field before this extension has been activated.
 
@@ -51,8 +60,15 @@ ___
 
 •  **extensionKind**: [ExtensionKind](../enums/_index_d_._plugin_.extensionkind.md)
 
-*Defined in [index.d.ts:5409](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5409)*
+*Defined in [index.d.ts:115](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L115)*
 
+*Defined in [index.d.ts:5864](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5864)*
+
+The extension kind describes if an extension runs where the UI runs
+or if an extension runs where the remote extension host runs. The extension kind
+is defined in the `package.json`-file of extensions but can also be refined
+via the `remote.extensionKind`-setting. When no remote extension host exists,
+the value is [`ExtensionKind.UI`](#ExtensionKind.UI).
 The extension kind describes if an extension runs where the UI runs
 or if an extension runs where the remote extension host runs. The extension kind
 is defined in the `package.json`-file of extensions but can also be refined
@@ -65,8 +81,12 @@ ___
 
 • `Readonly` **extensionPath**: string
 
-*Defined in [index.d.ts:5390](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5390)*
+*Defined in [index.d.ts:96](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L96)*
 
+*Defined in [index.d.ts:5845](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5845)*
+
+The absolute file path of the directory containing this extension. Shorthand
+notation for [Extension.extensionUri.fsPath](#Extension.extensionUri) (independent of the uri scheme).
 The absolute file path of the directory containing this extension. Shorthand
 notation for [Extension.extensionUri.fsPath](#Extension.extensionUri) (independent of the uri scheme).
 
@@ -76,8 +96,11 @@ ___
 
 • `Readonly` **extensionUri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:5384](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5384)*
+*Defined in [index.d.ts:90](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L90)*
 
+*Defined in [index.d.ts:5839](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5839)*
+
+The uri of the directory containing the extension.
 The uri of the directory containing the extension.
 
 ___
@@ -86,8 +109,11 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:5379](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5379)*
+*Defined in [index.d.ts:85](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L85)*
 
+*Defined in [index.d.ts:5834](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5834)*
+
+The canonical extension identifier in the form of: `publisher.name`.
 The canonical extension identifier in the form of: `publisher.name`.
 
 ___
@@ -96,8 +122,11 @@ ___
 
 • `Readonly` **isActive**: boolean
 
-*Defined in [index.d.ts:5395](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5395)*
+*Defined in [index.d.ts:101](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L101)*
 
+*Defined in [index.d.ts:5850](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5850)*
+
+`true` if the extension has been activated.
 `true` if the extension has been activated.
 
 ___
@@ -106,8 +135,11 @@ ___
 
 • `Readonly` **packageJSON**: any
 
-*Defined in [index.d.ts:5400](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5400)*
+*Defined in [index.d.ts:106](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L106)*
 
+*Defined in [index.d.ts:5855](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5855)*
+
+The parsed contents of the extension's package.json.
 The parsed contents of the extension's package.json.
 
 ## Methods
@@ -116,7 +148,17 @@ The parsed contents of the extension's package.json.
 
 ▸ **activate**(): [Thenable](_index_d_.thenable.md)\<T>
 
-*Defined in [index.d.ts:5422](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5422)*
+*Defined in [index.d.ts:128](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L128)*
+
+Activates this extension and returns its public API.
+
+**Returns:** [Thenable](_index_d_.thenable.md)\<T>
+
+A promise that will resolve when this extension has been activated.
+
+▸ **activate**(): [Thenable](_index_d_.thenable.md)\<T>
+
+*Defined in [index.d.ts:5877](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5877)*
 
 Activates this extension and returns its public API.
 

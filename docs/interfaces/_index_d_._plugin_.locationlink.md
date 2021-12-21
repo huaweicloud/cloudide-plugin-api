@@ -26,7 +26,7 @@ including an origin range.
 
 • `Optional` **originSelectionRange**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4820](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4820)*
+*Defined in [index.d.ts:5114](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5114)*
 
 Span of the origin of this link.
 
@@ -39,7 +39,7 @@ ___
 
 •  **targetRange**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4830](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4830)*
+*Defined in [index.d.ts:5124](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5124)*
 
 The full target range of this link.
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **targetSelectionRange**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4835](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4835)*
+*Defined in [index.d.ts:5129](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5129)*
 
 The span of this link.
 
@@ -59,6 +59,6 @@ ___
 
 •  **targetUri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:4825](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4825)*
+*Defined in [index.d.ts:5119](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5119)*
 
 The target resource identifier of this link.

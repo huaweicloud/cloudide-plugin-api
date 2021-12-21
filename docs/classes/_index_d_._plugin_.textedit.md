@@ -36,7 +36,7 @@ to a document.
 
 \+ **new TextEdit**(`range`: [Range](_index_d_._plugin_.range.md), `newText`: string): [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:2932](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2932)*
+*Defined in [index.d.ts:3158](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3158)*
 
 Create a new TextEdit.
 
@@ -55,7 +55,7 @@ Name | Type | Description |
 
 • `Optional` **newEol**: [EndOfLine](../enums/_index_d_._plugin_.endofline.md)
 
-*Defined in [index.d.ts:2932](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2932)*
+*Defined in [index.d.ts:3158](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3158)*
 
 The eol-sequence used in the document.
 
@@ -68,7 +68,7 @@ ___
 
 •  **newText**: string
 
-*Defined in [index.d.ts:2924](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2924)*
+*Defined in [index.d.ts:3150](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3150)*
 
 The string this edit will insert.
 
@@ -78,7 +78,7 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2919](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2919)*
+*Defined in [index.d.ts:3145](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3145)*
 
 The range this edit applies to.
 
@@ -88,7 +88,7 @@ The range this edit applies to.
 
 ▸ `Static`**delete**(`range`: [Range](_index_d_._plugin_.range.md)): [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:2906](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2906)*
+*Defined in [index.d.ts:3132](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3132)*
 
 Utility to create a delete edit.
 
@@ -108,7 +108,7 @@ ___
 
 ▸ `Static`**insert**(`position`: [Position](_index_d_._plugin_.position.md), `newText`: string): [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:2898](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2898)*
+*Defined in [index.d.ts:3124](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3124)*
 
 Utility to create an insert edit.
 
@@ -129,7 +129,7 @@ ___
 
 ▸ `Static`**replace**(`range`: [Range](_index_d_._plugin_.range.md), `newText`: string): [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:2889](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2889)*
+*Defined in [index.d.ts:3115](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3115)*
 
 Utility to create a replace edit.
 
@@ -150,7 +150,7 @@ ___
 
 ▸ `Static`**setEndOfLine**(`eol`: [EndOfLine](../enums/_index_d_._plugin_.endofline.md)): [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:2914](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2914)*
+*Defined in [index.d.ts:3140](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3140)*
 
 Utility to create an eol-edit.
 

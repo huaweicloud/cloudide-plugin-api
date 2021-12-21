@@ -23,7 +23,7 @@ An event describing a transactional [document](#TextDocument) change.
 
 • `Readonly` **contentChanges**: ReadonlyArray\<[TextDocumentContentChangeEvent](_index_d_._plugin_.textdocumentcontentchangeevent.md)>
 
-*Defined in [index.d.ts:8646](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8646)*
+*Defined in [index.d.ts:9984](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9984)*
 
 An array of content changes.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **document**: [TextDocument](_index_d_._plugin_.textdocument.md)
 
-*Defined in [index.d.ts:8641](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8641)*
+*Defined in [index.d.ts:9979](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9979)*
 
 The affected document.

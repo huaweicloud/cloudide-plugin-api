@@ -18,6 +18,6 @@ Symbol tags are extra annotations that tweak the rendering of a symbol.
 
 •  **Deprecated**:  = 1
 
-*Defined in [index.d.ts:2665](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2665)*
+*Defined in [index.d.ts:2891](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2891)*
 
 Render a symbol as obsolete, usually using a strike-out.

@@ -23,7 +23,7 @@ Using a theme color is preferred over a custom color as it gives theme authors a
 
 \+ **new ThemeColor**(`id`: string): [ThemeColor](_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:791](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L791)*
+*Defined in [index.d.ts:901](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L901)*
 
 Creates a reference to a theme color.
 

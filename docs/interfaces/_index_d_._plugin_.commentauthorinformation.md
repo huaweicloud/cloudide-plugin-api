@@ -23,7 +23,7 @@ Author information of a [comment](#Comment)
 
 • `Optional` **iconPath**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:10814](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10814)*
+*Defined in [index.d.ts:12268](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12268)*
 
 The optional icon path for the author
 
@@ -33,6 +33,6 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:10809](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10809)*
+*Defined in [index.d.ts:12263](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12263)*
 
 The display name of the author of the comment

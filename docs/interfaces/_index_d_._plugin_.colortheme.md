@@ -22,6 +22,6 @@ Represents a color theme.
 
 • `Readonly` **kind**: [ColorThemeKind](../enums/_index_d_._plugin_.colorthemekind.md)
 
-*Defined in [index.d.ts:5548](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5548)*
+*Defined in [index.d.ts:6147](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6147)*
 
 The kind of this color theme: light, dark or high contrast.

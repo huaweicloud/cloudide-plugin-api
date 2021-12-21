@@ -21,7 +21,7 @@ Represents the severity of diagnostics.
 
 •  **Error**:  = 0
 
-*Defined in [index.d.ts:4857](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4857)*
+*Defined in [index.d.ts:5151](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5151)*
 
 Something not allowed by the rules of a language or other means.
 
@@ -31,7 +31,7 @@ ___
 
 •  **Hint**:  = 3
 
-*Defined in [index.d.ts:4873](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4873)*
+*Defined in [index.d.ts:5167](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5167)*
 
 Something to hint to a better way of doing it, like proposing
 a refactoring.
@@ -42,7 +42,7 @@ ___
 
 •  **Information**:  = 2
 
-*Defined in [index.d.ts:4867](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4867)*
+*Defined in [index.d.ts:5161](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5161)*
 
 Something to inform about but not a problem.
 
@@ -52,6 +52,6 @@ ___
 
 •  **Warning**:  = 1
 
-*Defined in [index.d.ts:4862](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4862)*
+*Defined in [index.d.ts:5156](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5156)*
 
 Something suspicious but allowed.

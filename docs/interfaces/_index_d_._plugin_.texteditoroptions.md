@@ -25,7 +25,7 @@ Represents a [text editor](#TextEditor)'s [options](#TextEditor.options).
 
 • `Optional` **cursorStyle**: [TextEditorCursorStyle](../enums/_index_d_._plugin_.texteditorcursorstyle.md)
 
-*Defined in [index.d.ts:671](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L671)*
+*Defined in [index.d.ts:781](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L781)*
 
 The rendering style of the cursor in this editor.
 When getting a text editor's options, this property will always be present.
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **insertSpaces**: boolean \| string
 
-*Defined in [index.d.ts:664](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L664)*
+*Defined in [index.d.ts:774](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L774)*
 
 When pressing Tab insert [n](#TextEditorOptions.tabSize) spaces.
 When getting a text editor's options, this property will always be a boolean (resolved).
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **lineNumbers**: [TextEditorLineNumbersStyle](../enums/_index_d_._plugin_.texteditorlinenumbersstyle.md)
 
-*Defined in [index.d.ts:678](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L678)*
+*Defined in [index.d.ts:788](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L788)*
 
 Render relative line numbers w.r.t. the current line number.
 When getting a text editor's options, this property will always be present.
@@ -61,7 +61,7 @@ ___
 
 • `Optional` **tabSize**: number \| string
 
-*Defined in [index.d.ts:657](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L657)*
+*Defined in [index.d.ts:767](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L767)*
 
 The size in spaces a tab takes. This is used for two purposes:
  - the rendering width of a tab character;

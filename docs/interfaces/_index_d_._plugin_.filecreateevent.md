@@ -22,6 +22,6 @@ An event that is fired after files are created.
 
 • `Readonly` **files**: ReadonlyArray\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:8774](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8774)*
+*Defined in [index.d.ts:10112](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10112)*
 
 The files that got created.

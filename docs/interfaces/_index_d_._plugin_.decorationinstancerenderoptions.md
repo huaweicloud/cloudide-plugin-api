@@ -27,7 +27,7 @@
 
 *Inherited from [ThemableDecorationInstanceRenderOptions](_index_d_._plugin_.themabledecorationinstancerenderoptions.md).[after](_index_d_._plugin_.themabledecorationinstancerenderoptions.md#after)*
 
-*Defined in [index.d.ts:1072](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1072)*
+*Defined in [index.d.ts:1193](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1193)*
 
 Defines the rendering options of the attachment that is inserted after the decorated text.
 
@@ -39,7 +39,7 @@ ___
 
 *Inherited from [ThemableDecorationInstanceRenderOptions](_index_d_._plugin_.themabledecorationinstancerenderoptions.md).[before](_index_d_._plugin_.themabledecorationinstancerenderoptions.md#before)*
 
-*Defined in [index.d.ts:1067](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1067)*
+*Defined in [index.d.ts:1188](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1188)*
 
 Defines the rendering options of the attachment that is inserted before the decorated text.
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **dark**: [ThemableDecorationInstanceRenderOptions](_index_d_._plugin_.themabledecorationinstancerenderoptions.md)
 
-*Defined in [index.d.ts:1084](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1084)*
+*Defined in [index.d.ts:1205](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1205)*
 
 Overwrite options for dark themes.
 
@@ -59,6 +59,6 @@ ___
 
 • `Optional` **light**: [ThemableDecorationInstanceRenderOptions](_index_d_._plugin_.themabledecorationinstancerenderoptions.md)
 
-*Defined in [index.d.ts:1079](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1079)*
+*Defined in [index.d.ts:1200](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1200)*
 
 Overwrite options for light themes.

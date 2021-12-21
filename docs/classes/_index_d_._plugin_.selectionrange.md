@@ -28,7 +28,7 @@ may have a parent selection range that contains it.
 
 \+ **new SelectionRange**(`range`: [Range](_index_d_._plugin_.range.md), `parent?`: [SelectionRange](_index_d_._plugin_.selectionrange.md)): [SelectionRange](_index_d_._plugin_.selectionrange.md)
 
-*Defined in [index.d.ts:4259](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4259)*
+*Defined in [index.d.ts:4505](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4505)*
 
 Creates a new selection range.
 
@@ -47,7 +47,7 @@ Name | Type | Description |
 
 • `Optional` **parent**: [SelectionRange](_index_d_._plugin_.selectionrange.md)
 
-*Defined in [index.d.ts:4259](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4259)*
+*Defined in [index.d.ts:4505](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4505)*
 
 The parent selection range containing this range.
 
@@ -57,6 +57,6 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4254](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4254)*
+*Defined in [index.d.ts:4500](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4500)*
 
 The [range](#Range) of this selection range.

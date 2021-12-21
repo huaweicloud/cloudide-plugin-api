@@ -19,6 +19,7 @@ A task to execute
 ### Properties
 
 * [definition](_index_d_._plugin_.task.md#definition)
+* [detail](_index_d_._plugin_.task.md#detail)
 * [execution](_index_d_._plugin_.task.md#execution)
 * [group](_index_d_._plugin_.task.md#group)
 * [isBackground](_index_d_._plugin_.task.md#isbackground)
@@ -35,7 +36,7 @@ A task to execute
 
 \+ **new Task**(`taskDefinition`: [TaskDefinition](../interfaces/_index_d_._plugin_.taskdefinition.md), `scope`: [WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md) \| [Global](../enums/_index_d_._plugin_.taskscope.md#global) \| [Workspace](../enums/_index_d_._plugin_.taskscope.md#workspace), `name`: string, `source`: string, `execution?`: [ProcessExecution](_index_d_._plugin_.processexecution.md) \| [ShellExecution](_index_d_._plugin_.shellexecution.md) \| [CustomExecution](_index_d_._plugin_.customexecution.md), `problemMatchers?`: string \| string[]): [Task](_index_d_._plugin_.task.md)
 
-*Defined in [index.d.ts:5950](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5950)*
+*Defined in [index.d.ts:6548](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6548)*
 
 Creates a new task.
 
@@ -54,9 +55,9 @@ Name | Type | Description |
 
 \+ **new Task**(`taskDefinition`: [TaskDefinition](../interfaces/_index_d_._plugin_.taskdefinition.md), `name`: string, `source`: string, `execution?`: [ProcessExecution](_index_d_._plugin_.processexecution.md) \| [ShellExecution](_index_d_._plugin_.shellexecution.md), `problemMatchers?`: string \| string[]): [Task](_index_d_._plugin_.task.md)
 
-*Defined in [index.d.ts:5964](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5964)*
+*Defined in [index.d.ts:6562](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6562)*
 
-~~Creates a new task.~~
+Creates a new task.
 
 **`deprecated`** Use the new constructors that allow specifying a scope for the task.
 
@@ -78,9 +79,21 @@ Name | Type | Description |
 
 •  **definition**: [TaskDefinition](../interfaces/_index_d_._plugin_.taskdefinition.md)
 
-*Defined in [index.d.ts:5984](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5984)*
+*Defined in [index.d.ts:6582](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6582)*
 
 The task's definition.
+
+___
+
+### detail
+
+• `Optional` **detail**: string
+
+*Defined in [index.d.ts:6599](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6599)*
+
+A human-readable string which is rendered less prominently on a separate line in places
+where the task's name is displayed. Supports rendering of [theme icons](#ThemeIcon)
+via the `$(<name>)`-syntax.
 
 ___
 
@@ -88,7 +101,7 @@ ___
 
 • `Optional` **execution**: [ProcessExecution](_index_d_._plugin_.processexecution.md) \| [ShellExecution](_index_d_._plugin_.shellexecution.md) \| [CustomExecution](_index_d_._plugin_.customexecution.md)
 
-*Defined in [index.d.ts:5999](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5999)*
+*Defined in [index.d.ts:6604](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6604)*
 
 The task's execution engine
 
@@ -98,7 +111,7 @@ ___
 
 • `Optional` **group**: [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:6018](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6018)*
+*Defined in [index.d.ts:6623](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6623)*
 
 The task group this tasks belongs to. See TaskGroup
 for a predefined set of available groups.
@@ -111,7 +124,7 @@ ___
 
 •  **isBackground**: boolean
 
-*Defined in [index.d.ts:6004](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6004)*
+*Defined in [index.d.ts:6609](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6609)*
 
 Whether the task is a background task or not.
 
@@ -121,7 +134,7 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:5994](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5994)*
+*Defined in [index.d.ts:6592](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6592)*
 
 The task's name
 
@@ -131,7 +144,7 @@ ___
 
 •  **presentationOptions**: [TaskPresentationOptions](../interfaces/_index_d_._plugin_.taskpresentationoptions.md)
 
-*Defined in [index.d.ts:6023](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6023)*
+*Defined in [index.d.ts:6628](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6628)*
 
 The presentation options. Defaults to an empty literal.
 
@@ -141,7 +154,7 @@ ___
 
 •  **problemMatchers**: string[]
 
-*Defined in [index.d.ts:6029](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6029)*
+*Defined in [index.d.ts:6634](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6634)*
 
 The problem matchers attached to the task. Defaults to an empty
 array.
@@ -152,7 +165,7 @@ ___
 
 •  **runOptions**: [RunOptions](../interfaces/_index_d_._plugin_.runoptions.md)
 
-*Defined in [index.d.ts:6034](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6034)*
+*Defined in [index.d.ts:6639](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6639)*
 
 Run options for the task
 
@@ -162,7 +175,7 @@ ___
 
 • `Optional` `Readonly` **scope**: [Global](../enums/_index_d_._plugin_.taskscope.md#global) \| [Workspace](../enums/_index_d_._plugin_.taskscope.md#workspace) \| [WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md)
 
-*Defined in [index.d.ts:5989](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5989)*
+*Defined in [index.d.ts:6587](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6587)*
 
 The task's scope.
 
@@ -172,7 +185,7 @@ ___
 
 •  **source**: string
 
-*Defined in [index.d.ts:6010](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6010)*
+*Defined in [index.d.ts:6615](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6615)*
 
 A human-readable string describing the source of this shell task, e.g. 'gulp'
 or 'npm'. Supports rendering of [theme icons](#ThemeIcon) via the `$(<name>)`-syntax.

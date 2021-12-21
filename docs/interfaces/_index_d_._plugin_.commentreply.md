@@ -23,7 +23,7 @@ Command argument for actions registered in `comments/commentThread/context`.
 
 •  **text**: string
 
-*Defined in [index.d.ts:10905](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10905)*
+*Defined in [index.d.ts:12359](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12359)*
 
 The value in the comment editor
 
@@ -33,6 +33,6 @@ ___
 
 •  **thread**: [CommentThread](_index_d_._plugin_.commentthread.md)
 
-*Defined in [index.d.ts:10900](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10900)*
+*Defined in [index.d.ts:12354](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L12354)*
 
 The active [comment thread](#CommentThread)

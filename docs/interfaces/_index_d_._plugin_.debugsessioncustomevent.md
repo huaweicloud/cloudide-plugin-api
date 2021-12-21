@@ -24,7 +24,7 @@ A custom Debug Adapter Protocol event received from a [debug session](#DebugSess
 
 • `Optional` `Readonly` **body**: any
 
-*Defined in [index.d.ts:10166](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10166)*
+*Defined in [index.d.ts:11574](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11574)*
 
 Event specific information.
 
@@ -34,7 +34,7 @@ ___
 
 • `Readonly` **event**: string
 
-*Defined in [index.d.ts:10161](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10161)*
+*Defined in [index.d.ts:11569](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11569)*
 
 Type of event.
 
@@ -44,6 +44,6 @@ ___
 
 • `Readonly` **session**: [DebugSession](_index_d_._plugin_.debugsession.md)
 
-*Defined in [index.d.ts:10156](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10156)*
+*Defined in [index.d.ts:11564](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11564)*
 
 The [debug session](#DebugSession) for which the custom event was received.

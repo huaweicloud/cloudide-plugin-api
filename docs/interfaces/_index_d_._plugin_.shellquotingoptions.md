@@ -24,7 +24,7 @@ The shell quoting options.
 
 • `Optional` **escape**: string \| { charsToEscape: string ; escapeChar: string  }
 
-*Defined in [index.d.ts:5759](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5759)*
+*Defined in [index.d.ts:6357](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6357)*
 
 The character used to do character escaping. If a string is provided only spaces
 are escaped. If a `{ escapeChar, charsToEscape }` literal is provide all characters
@@ -36,7 +36,7 @@ ___
 
 • `Optional` **strong**: string
 
-*Defined in [index.d.ts:5773](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5773)*
+*Defined in [index.d.ts:6371](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6371)*
 
 The character used for strong quoting. The string's length must be 1.
 
@@ -46,6 +46,6 @@ ___
 
 • `Optional` **weak**: string
 
-*Defined in [index.d.ts:5778](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5778)*
+*Defined in [index.d.ts:6376](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6376)*
 
 The character used for weak quoting. The string's length must be 1.

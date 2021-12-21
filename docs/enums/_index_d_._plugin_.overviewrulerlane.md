@@ -22,7 +22,7 @@ The overview ruler supports three lanes.
 
 •  **Center**:  = 2
 
-*Defined in [index.d.ts:730](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L730)*
+*Defined in [index.d.ts:840](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L840)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **Full**:  = 7
 
-*Defined in [index.d.ts:732](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L732)*
+*Defined in [index.d.ts:842](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L842)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 •  **Left**:  = 1
 
-*Defined in [index.d.ts:729](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L729)*
+*Defined in [index.d.ts:839](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L839)*
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 •  **Right**:  = 4
 
-*Defined in [index.d.ts:731](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L731)*
+*Defined in [index.d.ts:841](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L841)*

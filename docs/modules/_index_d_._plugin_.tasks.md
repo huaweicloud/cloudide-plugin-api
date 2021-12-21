@@ -28,7 +28,7 @@ Namespace for tasks functionality.
 
 • `Const` **onDidEndTask**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TaskEndEvent](../interfaces/_index_d_._plugin_.taskendevent.md)>
 
-*Defined in [index.d.ts:6198](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6198)*
+*Defined in [index.d.ts:6807](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6807)*
 
 Fires when a task ends.
 
@@ -38,7 +38,7 @@ ___
 
 • `Const` **onDidEndTaskProcess**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TaskProcessEndEvent](../interfaces/_index_d_._plugin_.taskprocessendevent.md)>
 
-*Defined in [index.d.ts:6212](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6212)*
+*Defined in [index.d.ts:6821](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6821)*
 
 Fires when the underlying process has ended.
 This event will not fire for tasks that don't
@@ -50,7 +50,7 @@ ___
 
 • `Const` **onDidStartTask**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TaskStartEvent](../interfaces/_index_d_._plugin_.taskstartevent.md)>
 
-*Defined in [index.d.ts:6193](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6193)*
+*Defined in [index.d.ts:6802](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6802)*
 
 Fires when a task starts.
 
@@ -60,7 +60,7 @@ ___
 
 • `Const` **onDidStartTaskProcess**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TaskProcessStartEvent](../interfaces/_index_d_._plugin_.taskprocessstartevent.md)>
 
-*Defined in [index.d.ts:6205](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6205)*
+*Defined in [index.d.ts:6814](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6814)*
 
 Fires when the underlying process has been started.
 This event will not fire for tasks that don't
@@ -72,7 +72,7 @@ ___
 
 • `Const` **taskExecutions**: ReadonlyArray\<[TaskExecution](../interfaces/_index_d_._plugin_.taskexecution.md)>
 
-*Defined in [index.d.ts:6188](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6188)*
+*Defined in [index.d.ts:6797](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6797)*
 
 The currently active task executions or an empty array.
 
@@ -82,10 +82,14 @@ The currently active task executions or an empty array.
 
 ▸ **executeTask**(`task`: [Task](../classes/_index_d_._plugin_.task.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[TaskExecution](../interfaces/_index_d_._plugin_.taskexecution.md)>
 
-*Defined in [index.d.ts:6183](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6183)*
+*Defined in [index.d.ts:6792](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6792)*
 
 Executes a task that is managed by VS Code. The returned
 task execution can be used to terminate the task.
+
+**`throws`** When running a ShellExecution or a ProcessExecution
+task in an environment where a new process cannot be started.
+In such an environment, only CustomExecution tasks can be run.
 
 #### Parameters:
 
@@ -101,7 +105,7 @@ ___
 
 ▸ **fetchTasks**(`filter?`: [TaskFilter](../interfaces/_index_d_._plugin_.taskfilter.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Task](../classes/_index_d_._plugin_.task.md)[]>
 
-*Defined in [index.d.ts:6175](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6175)*
+*Defined in [index.d.ts:6780](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6780)*
 
 Fetches all tasks available in the systems. This includes tasks
 from `tasks.json` files as well as tasks from task providers
@@ -121,7 +125,7 @@ ___
 
 ▸ **registerTaskProvider**(`type`: string, `provider`: [TaskProvider](../interfaces/_index_d_._plugin_.taskprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:6166](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6166)*
+*Defined in [index.d.ts:6771](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6771)*
 
 Register a task provider.
 

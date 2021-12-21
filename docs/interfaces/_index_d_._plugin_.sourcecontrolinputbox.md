@@ -24,7 +24,7 @@ Represents the input box in the Source Control viewlet.
 
 •  **placeholder**: string
 
-*Defined in [index.d.ts:9863](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9863)*
+*Defined in [index.d.ts:11221](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11221)*
 
 A string to show as placeholder in the input box to guide the user.
 
@@ -34,7 +34,7 @@ ___
 
 •  **value**: string
 
-*Defined in [index.d.ts:9858](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9858)*
+*Defined in [index.d.ts:11216](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11216)*
 
 Setter and getter for the contents of the input box.
 
@@ -44,6 +44,6 @@ ___
 
 •  **visible**: boolean
 
-*Defined in [index.d.ts:9868](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9868)*
+*Defined in [index.d.ts:11226](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11226)*
 
 Controls whether the input box is visible (default is `true`).

@@ -29,7 +29,7 @@ This interface is not intended to be implemented.
 
 •  **task**: [Task](../classes/_index_d_._plugin_.task.md)
 
-*Defined in [index.d.ts:6075](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6075)*
+*Defined in [index.d.ts:6680](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6680)*
 
 The task that got started.
 
@@ -39,7 +39,7 @@ The task that got started.
 
 ▸ **terminate**(): void
 
-*Defined in [index.d.ts:6080](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6080)*
+*Defined in [index.d.ts:6685](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6685)*
 
 Terminates the task execution.
 

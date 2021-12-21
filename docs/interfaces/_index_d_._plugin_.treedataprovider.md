@@ -27,6 +27,7 @@ Name |
 * [getChildren](_index_d_._plugin_.treedataprovider.md#getchildren)
 * [getParent](_index_d_._plugin_.treedataprovider.md#getparent)
 * [getTreeItem](_index_d_._plugin_.treedataprovider.md#gettreeitem)
+* [resolveTreeItem](_index_d_._plugin_.treedataprovider.md#resolvetreeitem)
 
 ## Properties
 
@@ -34,7 +35,7 @@ Name |
 
 • `Optional` **onDidChangeTreeData**: [Event](_index_d_._plugin_.event.md)\<T \| undefined \| null \| void>
 
-*Defined in [index.d.ts:7940](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7940)*
+*Defined in [index.d.ts:9119](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9119)*
 
 An optional event to signal that an element or root has changed.
 This will trigger the view to update the changed element/root and its children recursively (if shown).
@@ -46,7 +47,7 @@ To signal that root has changed, do not pass any argument or pass `undefined` or
 
 ▸ **getChildren**(`element?`: T): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
-*Defined in [index.d.ts:7956](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7956)*
+*Defined in [index.d.ts:9135](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9135)*
 
 Get the children of `element` or root if no element is passed.
 
@@ -66,7 +67,7 @@ ___
 
 ▸ `Optional`**getParent**(`element`: T): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
-*Defined in [index.d.ts:7967](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7967)*
+*Defined in [index.d.ts:9146](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9146)*
 
 Optional method to return the parent of `element`.
 Return `null` or `undefined` if `element` is a child of root.
@@ -89,7 +90,7 @@ ___
 
 ▸ **getTreeItem**(`element`: T): [TreeItem](../classes/_index_d_._plugin_.treeitem.md) \| [Thenable](_index_d_.thenable.md)\<[TreeItem](../classes/_index_d_._plugin_.treeitem.md)>
 
-*Defined in [index.d.ts:7948](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7948)*
+*Defined in [index.d.ts:9127](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9127)*
 
 Get [TreeItem](#TreeItem) representation of the `element`
 
@@ -102,3 +103,38 @@ Name | Type | Description |
 **Returns:** [TreeItem](../classes/_index_d_._plugin_.treeitem.md) \| [Thenable](_index_d_.thenable.md)\<[TreeItem](../classes/_index_d_._plugin_.treeitem.md)>
 
 (#TreeItem) representation of the element
+
+___
+
+### resolveTreeItem
+
+▸ `Optional`**resolveTreeItem**(`item`: [TreeItem](../classes/_index_d_._plugin_.treeitem.md), `element`: T, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[TreeItem](../classes/_index_d_._plugin_.treeitem.md)>
+
+*Defined in [index.d.ts:9169](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9169)*
+
+Called on hover to resolve the [TreeItem](#TreeItem.tooltip) property if it is undefined.
+Called on tree item click/open to resolve the [TreeItem](#TreeItem.command) property if it is undefined.
+Only properties that were undefined can be resolved in `resolveTreeItem`.
+Functionality may be expanded later to include being called to resolve other missing
+properties on selection and/or on open.
+
+Will only ever be called once per TreeItem.
+
+onDidChangeTreeData should not be triggered from within resolveTreeItem.
+
+*Note* that this function is called when tree items are already showing in the UI.
+Because of that, no property that changes the presentation (label, description, etc.)
+can be changed.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`item` | [TreeItem](../classes/_index_d_._plugin_.treeitem.md) | Undefined properties of `item` should be set then `item` should be returned. |
+`element` | T | The object associated with the TreeItem. |
+`token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
+
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[TreeItem](../classes/_index_d_._plugin_.treeitem.md)>
+
+The resolved tree item or a thenable that resolves to such. It is OK to return the given
+`item`. When no result is returned, the given `item` will be used.

@@ -28,7 +28,7 @@ function when invoked.
 
 • `Optional` **arguments**: any[]
 
-*Defined in [index.d.ts:48](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L48)*
+*Defined in [index.d.ts:158](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L158)*
 
 Arguments that the command handler should be
 invoked with.
@@ -39,7 +39,7 @@ ___
 
 •  **command**: string
 
-*Defined in [index.d.ts:37](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L37)*
+*Defined in [index.d.ts:147](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L147)*
 
 The identifier of the actual command handler.
 
@@ -51,7 +51,7 @@ ___
 
 •  **title**: string
 
-*Defined in [index.d.ts:31](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L31)*
+*Defined in [index.d.ts:141](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L141)*
 
 Title of the command, like `save`.
 
@@ -61,6 +61,6 @@ ___
 
 • `Optional` **tooltip**: string
 
-*Defined in [index.d.ts:42](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L42)*
+*Defined in [index.d.ts:152](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L152)*
 
 A tooltip for the command, when represented in the UI.

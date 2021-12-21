@@ -5,7 +5,7 @@
 # Interface: WorkspaceFolder
 
 A workspace folder is one of potentially many roots opened by the editor. All workspace folders
-are equal which means there is no notion of an active or master workspace folder.
+are equal which means there is no notion of an active or primary workspace folder.
 
 ## Hierarchy
 
@@ -25,7 +25,7 @@ are equal which means there is no notion of an active or master workspace folder
 
 • `Readonly` **index**: number
 
-*Defined in [index.d.ts:8926](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8926)*
+*Defined in [index.d.ts:10263](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10263)*
 
 The ordinal number of this workspace folder.
 
@@ -35,7 +35,7 @@ ___
 
 • `Readonly` **name**: string
 
-*Defined in [index.d.ts:8921](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8921)*
+*Defined in [index.d.ts:10258](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10258)*
 
 The name of this workspace folder. Defaults to
 the basename of its [uri-path](#Uri.path)
@@ -46,7 +46,7 @@ ___
 
 • `Readonly` **uri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:8915](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8915)*
+*Defined in [index.d.ts:10252](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L10252)*
 
 The associated uri for this workspace folder.
 

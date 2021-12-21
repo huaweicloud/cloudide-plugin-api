@@ -30,7 +30,7 @@ error message.
 
 • `Optional` **isCloseAffordance**: boolean
 
-*Defined in [index.d.ts:1792](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1792)*
+*Defined in [index.d.ts:1945](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1945)*
 
 A hint for modal dialogs that the item should be triggered
 when the user cancels the dialog (e.g. by pressing the ESC
@@ -44,6 +44,6 @@ ___
 
 •  **title**: string
 
-*Defined in [index.d.ts:1783](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1783)*
+*Defined in [index.d.ts:1936](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1936)*
 
 A short title like 'Retry', 'Open Log' etc.

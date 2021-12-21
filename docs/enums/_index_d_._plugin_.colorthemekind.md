@@ -20,7 +20,7 @@ Represents a color theme kind.
 
 •  **Dark**:  = 2
 
-*Defined in [index.d.ts:5536](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5536)*
+*Defined in [index.d.ts:6135](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6135)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 •  **HighContrast**:  = 3
 
-*Defined in [index.d.ts:5537](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5537)*
+*Defined in [index.d.ts:6136](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6136)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 •  **Light**:  = 1
 
-*Defined in [index.d.ts:5535](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5535)*
+*Defined in [index.d.ts:6134](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6134)*

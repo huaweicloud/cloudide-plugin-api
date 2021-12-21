@@ -29,7 +29,7 @@ without shell interaction.
 
 \+ **new ProcessExecution**(`process`: string, `options?`: [ProcessExecutionOptions](../interfaces/_index_d_._plugin_.processexecutionoptions.md)): [ProcessExecution](_index_d_._plugin_.processexecution.md)
 
-*Defined in [index.d.ts:5713](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5713)*
+*Defined in [index.d.ts:6311](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6311)*
 
 Creates a process execution.
 
@@ -44,7 +44,7 @@ Name | Type | Description |
 
 \+ **new ProcessExecution**(`process`: string, `args`: string[], `options?`: [ProcessExecutionOptions](../interfaces/_index_d_._plugin_.processexecutionoptions.md)): [ProcessExecution](_index_d_._plugin_.processexecution.md)
 
-*Defined in [index.d.ts:5721](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5721)*
+*Defined in [index.d.ts:6319](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6319)*
 
 Creates a process execution.
 
@@ -64,7 +64,7 @@ Name | Type | Description |
 
 •  **args**: string[]
 
-*Defined in [index.d.ts:5740](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5740)*
+*Defined in [index.d.ts:6338](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6338)*
 
 The arguments passed to the process. Defaults to an empty array.
 
@@ -74,7 +74,7 @@ ___
 
 • `Optional` **options**: [ProcessExecutionOptions](../interfaces/_index_d_._plugin_.processexecutionoptions.md)
 
-*Defined in [index.d.ts:5746](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5746)*
+*Defined in [index.d.ts:6344](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6344)*
 
 The process options used when the process is executed.
 Defaults to undefined.
@@ -85,6 +85,6 @@ ___
 
 •  **process**: string
 
-*Defined in [index.d.ts:5735](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5735)*
+*Defined in [index.d.ts:6333](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6333)*
 
 The process to be executed.

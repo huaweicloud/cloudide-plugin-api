@@ -24,7 +24,7 @@ triggered through a task
 
 • `Readonly` **execution**: [TaskExecution](_index_d_._plugin_.taskexecution.md)
 
-*Defined in [index.d.ts:6116](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6116)*
+*Defined in [index.d.ts:6721](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6721)*
 
 The task execution for which the process got started.
 
@@ -34,6 +34,6 @@ ___
 
 • `Readonly` **processId**: number
 
-*Defined in [index.d.ts:6121](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6121)*
+*Defined in [index.d.ts:6726](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6726)*
 
 The underlying process id.

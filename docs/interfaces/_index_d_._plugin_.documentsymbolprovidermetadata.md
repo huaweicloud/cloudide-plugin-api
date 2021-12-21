@@ -22,6 +22,6 @@ Metadata about a document symbol provider.
 
 • `Optional` **label**: string
 
-*Defined in [index.d.ts:2802](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2802)*
+*Defined in [index.d.ts:3028](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3028)*
 
 A human-readable string that is shown when multiple outlines trees show for one document.

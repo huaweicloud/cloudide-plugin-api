@@ -27,7 +27,7 @@ a list of items.
 
 • `Optional` **alwaysShow**: boolean
 
-*Defined in [index.d.ts:1642](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1642)*
+*Defined in [index.d.ts:1779](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1779)*
 
 Always show this item.
 
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **description**: string
 
-*Defined in [index.d.ts:1623](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1623)*
+*Defined in [index.d.ts:1760](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1760)*
 
 A human-readable string which is rendered less prominent in the same line. Supports rendering of
 [theme icons](#ThemeIcon) via the `$(<name>)`-syntax.
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **detail**: string
 
-*Defined in [index.d.ts:1629](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1629)*
+*Defined in [index.d.ts:1766](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1766)*
 
 A human-readable string which is rendered less prominent in a separate line. Supports rendering of
 [theme icons](#ThemeIcon) via the `$(<name>)`-syntax.
@@ -59,7 +59,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:1617](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1617)*
+*Defined in [index.d.ts:1754](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1754)*
 
 A human-readable string which is rendered prominent. Supports rendering of [theme icons](#ThemeIcon) via
 the `$(<name>)`-syntax.
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **picked**: boolean
 
-*Defined in [index.d.ts:1637](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1637)*
+*Defined in [index.d.ts:1774](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L1774)*
 
 Optional flag indicating if this item is picked initially.
 (Only honored when the picker allows multiple selections.)

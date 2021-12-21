@@ -17,6 +17,7 @@ Describes a rule to be evaluated when pressing Enter.
 * [action](_index_d_._plugin_.onenterrule.md#action)
 * [afterText](_index_d_._plugin_.onenterrule.md#aftertext)
 * [beforeText](_index_d_._plugin_.onenterrule.md#beforetext)
+* [previousLineText](_index_d_._plugin_.onenterrule.md#previouslinetext)
 
 ## Properties
 
@@ -24,7 +25,7 @@ Describes a rule to be evaluated when pressing Enter.
 
 •  **action**: [EnterAction](_index_d_._plugin_.enteraction.md)
 
-*Defined in [index.d.ts:4531](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4531)*
+*Defined in [index.d.ts:4825](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4825)*
 
 The action to execute.
 
@@ -34,7 +35,7 @@ ___
 
 • `Optional` **afterText**: RegExp
 
-*Defined in [index.d.ts:4527](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4527)*
+*Defined in [index.d.ts:4817](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4817)*
 
 This rule will only execute if the text after the cursor matches this regular expression.
 
@@ -44,6 +45,16 @@ ___
 
 •  **beforeText**: RegExp
 
-*Defined in [index.d.ts:4523](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4523)*
+*Defined in [index.d.ts:4813](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4813)*
 
 This rule will only execute if the text before the cursor matches this regular expression.
+
+___
+
+### previousLineText
+
+• `Optional` **previousLineText**: RegExp
+
+*Defined in [index.d.ts:4821](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4821)*
+
+This rule will only execute if the text above the current line matches this regular expression.

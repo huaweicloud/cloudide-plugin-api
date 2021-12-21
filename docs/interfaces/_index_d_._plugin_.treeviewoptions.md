@@ -30,7 +30,7 @@ Name |
 
 • `Optional` **canSelectMany**: boolean
 
-*Defined in [index.d.ts:7830](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7830)*
+*Defined in [index.d.ts:9003](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9003)*
 
 Whether the tree supports multi-select. When the tree supports multi-select and a command is executed from the tree,
 the first argument to the command is the tree item that the command was executed on and the second argument is an
@@ -42,7 +42,7 @@ ___
 
 • `Optional` **showCollapseAll**: boolean
 
-*Defined in [index.d.ts:7823](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7823)*
+*Defined in [index.d.ts:8996](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8996)*
 
 Whether to show collapse all action or not.
 
@@ -52,6 +52,6 @@ ___
 
 •  **treeDataProvider**: [TreeDataProvider](_index_d_._plugin_.treedataprovider.md)\<T>
 
-*Defined in [index.d.ts:7818](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7818)*
+*Defined in [index.d.ts:8991](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L8991)*
 
 A data provider that provides tree data.

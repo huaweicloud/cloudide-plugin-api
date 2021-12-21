@@ -27,7 +27,7 @@ Represents a color range from a document.
 
 \+ **new ColorInformation**(`range`: [Range](_index_d_._plugin_.range.md), `color`: [Color](_index_d_._plugin_.color.md)): [ColorInformation](_index_d_._plugin_.colorinformation.md)
 
-*Defined in [index.d.ts:4088](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4088)*
+*Defined in [index.d.ts:4328](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4328)*
 
 Creates a new color range.
 
@@ -46,7 +46,7 @@ Name | Type | Description |
 
 •  **color**: [Color](_index_d_._plugin_.color.md)
 
-*Defined in [index.d.ts:4088](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4088)*
+*Defined in [index.d.ts:4328](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4328)*
 
 The actual color value for this color range.
 
@@ -56,6 +56,6 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4083](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4083)*
+*Defined in [index.d.ts:4323](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4323)*
 
 The range in the document where this color appears.

@@ -28,7 +28,7 @@ inside a text file.
 
 \+ **new Location**(`uri`: [Uri](_index_d_._plugin_.uri.md), `rangeOrPosition`: [Range](_index_d_._plugin_.range.md) \| [Position](_index_d_._plugin_.position.md)): [Location](_index_d_._plugin_.location.md)
 
-*Defined in [index.d.ts:4798](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4798)*
+*Defined in [index.d.ts:5092](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5092)*
 
 Creates a new location object.
 
@@ -47,7 +47,7 @@ Name | Type | Description |
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4798](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4798)*
+*Defined in [index.d.ts:5092](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5092)*
 
 The document range of this location.
 
@@ -57,6 +57,6 @@ ___
 
 •  **uri**: [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:4793](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4793)*
+*Defined in [index.d.ts:5087](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L5087)*
 
 The resource identifier of this location.

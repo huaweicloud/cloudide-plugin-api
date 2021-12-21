@@ -30,7 +30,7 @@ A source control resource group is a collection of
 
 • `Optional` **hideWhenEmpty**: boolean
 
-*Defined in [index.d.ts:9975](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9975)*
+*Defined in [index.d.ts:11353](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11353)*
 
 Whether this source control resource group is hidden when it contains
 no [source control resource states](#SourceControlResourceState).
@@ -41,7 +41,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:9964](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9964)*
+*Defined in [index.d.ts:11342](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11342)*
 
 The id of this source control resource group.
 
@@ -51,7 +51,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:9969](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9969)*
+*Defined in [index.d.ts:11347](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11347)*
 
 The label of this source control resource group.
 
@@ -61,7 +61,7 @@ ___
 
 •  **resourceStates**: [SourceControlResourceState](_index_d_._plugin_.sourcecontrolresourcestate.md)[]
 
-*Defined in [index.d.ts:9981](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9981)*
+*Defined in [index.d.ts:11359](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11359)*
 
 This group's collection of
 [source control resource states](#SourceControlResourceState).
@@ -72,7 +72,7 @@ This group's collection of
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:9986](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9986)*
+*Defined in [index.d.ts:11364](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11364)*
 
 Dispose this source control resource group.
 

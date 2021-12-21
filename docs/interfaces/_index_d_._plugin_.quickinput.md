@@ -56,7 +56,7 @@ See [QuickPick](#QuickPick) and [InputBox](#InputBox) for concrete UIs.
 
 •  **busy**: boolean
 
-*Defined in [index.d.ts:8400](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8400)*
+*Defined in [index.d.ts:9738](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9738)*
 
 If the UI should show a progress indicator. Defaults to false.
 
@@ -69,7 +69,7 @@ ___
 
 •  **enabled**: boolean
 
-*Defined in [index.d.ts:8392](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8392)*
+*Defined in [index.d.ts:9730](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9730)*
 
 If the UI should allow for user input. Defaults to true.
 
@@ -82,7 +82,7 @@ ___
 
 •  **ignoreFocusOut**: boolean
 
-*Defined in [index.d.ts:8405](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8405)*
+*Defined in [index.d.ts:9743](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9743)*
 
 If the UI should stay open even when loosing UI focus. Defaults to false.
 
@@ -92,7 +92,7 @@ ___
 
 •  **onDidHide**: [Event](_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:8427](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8427)*
+*Defined in [index.d.ts:9765](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9765)*
 
 An event signaling when this input UI is hidden.
 
@@ -107,7 +107,7 @@ ___
 
 •  **step**: number \| undefined
 
-*Defined in [index.d.ts:8379](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8379)*
+*Defined in [index.d.ts:9717](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9717)*
 
 An optional current step count.
 
@@ -117,7 +117,7 @@ ___
 
 •  **title**: string \| undefined
 
-*Defined in [index.d.ts:8374](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8374)*
+*Defined in [index.d.ts:9712](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9712)*
 
 An optional title.
 
@@ -127,7 +127,7 @@ ___
 
 •  **totalSteps**: number \| undefined
 
-*Defined in [index.d.ts:8384](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8384)*
+*Defined in [index.d.ts:9722](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9722)*
 
 An optional total step count.
 
@@ -137,7 +137,7 @@ An optional total step count.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:8435](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8435)*
+*Defined in [index.d.ts:9773](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9773)*
 
 Dispose of this input UI and any associated resources. If it is still
 visible, it is first hidden. After this call the input UI is no longer
@@ -152,7 +152,7 @@ ___
 
 ▸ **hide**(): void
 
-*Defined in [index.d.ts:8417](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8417)*
+*Defined in [index.d.ts:9755](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9755)*
 
 Hides this input UI. This will also fire an [QuickInput.onDidHide](#QuickInput.onDidHide)
 event.
@@ -165,7 +165,7 @@ ___
 
 ▸ **show**(): void
 
-*Defined in [index.d.ts:8411](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8411)*
+*Defined in [index.d.ts:9749](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9749)*
 
 Makes the input UI visible in its current configuration. Any other input
 UI will first fire an [QuickInput.onDidHide](#QuickInput.onDidHide) event.

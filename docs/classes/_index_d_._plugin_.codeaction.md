@@ -35,7 +35,7 @@ A CodeAction must set either [`edit`](#CodeAction.edit) and/or a [`command`](#Co
 
 \+ **new CodeAction**(`title`: string, `kind?`: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)): [CodeAction](_index_d_._plugin_.codeaction.md)
 
-*Defined in [index.d.ts:2191](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2191)*
+*Defined in [index.d.ts:2363](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2363)*
 
 Creates a new code action.
 
@@ -57,7 +57,7 @@ Name | Type | Description |
 
 • `Optional` **command**: [Command](../interfaces/_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:2153](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2153)*
+*Defined in [index.d.ts:2325](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2325)*
 
 A [command](#Command) this code action executes.
 
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **diagnostics**: [Diagnostic](_index_d_._plugin_.diagnostic.md)[]
 
-*Defined in [index.d.ts:2145](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2145)*
+*Defined in [index.d.ts:2317](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2317)*
 
 [Diagnostics](#Diagnostic) that this code action resolves.
 
@@ -80,7 +80,7 @@ ___
 
 • `Optional` **disabled**: { reason: string  }
 
-*Defined in [index.d.ts:2184](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2184)*
+*Defined in [index.d.ts:2356](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2356)*
 
 Marks that the code action cannot currently be applied.
 
@@ -106,7 +106,7 @@ ___
 
 • `Optional` **edit**: [WorkspaceEdit](_index_d_._plugin_.workspaceedit.md)
 
-*Defined in [index.d.ts:2140](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2140)*
+*Defined in [index.d.ts:2312](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2312)*
 
 A [workspace edit](#WorkspaceEdit) this code action performs.
 
@@ -116,7 +116,7 @@ ___
 
 • `Optional` **isPreferred**: boolean
 
-*Defined in [index.d.ts:2169](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2169)*
+*Defined in [index.d.ts:2341](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2341)*
 
 Marks this as a preferred action. Preferred actions are used by the `auto fix` command and can be targeted
 by keybindings.
@@ -130,7 +130,7 @@ ___
 
 • `Optional` **kind**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2160](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2160)*
+*Defined in [index.d.ts:2332](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2332)*
 
 [Kind](#CodeActionKind) of the code action.
 
@@ -142,6 +142,6 @@ ___
 
 •  **title**: string
 
-*Defined in [index.d.ts:2135](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2135)*
+*Defined in [index.d.ts:2307](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2307)*
 
 A short, human-readable, title for this code action.

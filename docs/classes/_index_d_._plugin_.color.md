@@ -29,7 +29,7 @@ Represents a color in RGBA space.
 
 \+ **new Color**(`red`: number, `green`: number, `blue`: number, `alpha`: number): [Color](_index_d_._plugin_.color.md)
 
-*Defined in [index.d.ts:4062](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4062)*
+*Defined in [index.d.ts:4302](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4302)*
 
 Creates a new color instance.
 
@@ -50,7 +50,7 @@ Name | Type | Description |
 
 • `Readonly` **alpha**: number
 
-*Defined in [index.d.ts:4062](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4062)*
+*Defined in [index.d.ts:4302](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4302)*
 
 The alpha component of this color in the range [0-1].
 
@@ -60,7 +60,7 @@ ___
 
 • `Readonly` **blue**: number
 
-*Defined in [index.d.ts:4057](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4057)*
+*Defined in [index.d.ts:4297](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4297)*
 
 The blue component of this color in the range [0-1].
 
@@ -70,7 +70,7 @@ ___
 
 • `Readonly` **green**: number
 
-*Defined in [index.d.ts:4052](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4052)*
+*Defined in [index.d.ts:4292](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4292)*
 
 The green component of this color in the range [0-1].
 
@@ -80,6 +80,6 @@ ___
 
 • `Readonly` **red**: number
 
-*Defined in [index.d.ts:4047](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4047)*
+*Defined in [index.d.ts:4287](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4287)*
 
 The red component of this color in the range [0-1].

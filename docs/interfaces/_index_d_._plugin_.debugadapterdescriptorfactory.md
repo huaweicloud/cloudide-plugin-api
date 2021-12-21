@@ -20,7 +20,7 @@
 
 ▸ **createDebugAdapterDescriptor**(`session`: [DebugSession](_index_d_._plugin_.debugsession.md), `executable`: [DebugAdapterExecutable](../classes/_index_d_._plugin_.debugadapterexecutable.md) \| undefined): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[DebugAdapterDescriptor](../modules/_index_d_._plugin_.md#debugadapterdescriptor)>
 
-*Defined in [index.d.ts:10345](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10345)*
+*Defined in [index.d.ts:11761](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11761)*
 
 'createDebugAdapterDescriptor' is called at the start of a debug session to provide details about the debug adapter to use.
 These details must be returned as objects of type [DebugAdapterDescriptor](#DebugAdapterDescriptor).

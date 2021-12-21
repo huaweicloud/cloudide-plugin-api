@@ -20,7 +20,7 @@ Collapsible state of the tree item
 
 •  **Collapsed**:  = 1
 
-*Defined in [index.d.ts:8063](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8063)*
+*Defined in [index.d.ts:9276](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9276)*
 
 Determines an item is collapsed
 
@@ -30,7 +30,7 @@ ___
 
 •  **Expanded**:  = 2
 
-*Defined in [index.d.ts:8067](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8067)*
+*Defined in [index.d.ts:9280](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9280)*
 
 Determines an item is expanded
 
@@ -40,6 +40,6 @@ ___
 
 •  **None**:  = 0
 
-*Defined in [index.d.ts:8059](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8059)*
+*Defined in [index.d.ts:9272](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L9272)*
 
 Determines an item can be neither collapsed nor expanded. Implies it has no children.

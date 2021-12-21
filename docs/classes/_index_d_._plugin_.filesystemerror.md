@@ -11,7 +11,7 @@ a file or folder doesn't exist, use them like so: `throw vscode.FileSystemError.
 
 ## Hierarchy
 
-* [Error](_index_d_._plugin_.filesystemerror.md#error)
+* [Error](_index_d_._plugin_.cancellationerror.md#error)
 
   ↳ **FileSystemError**
 
@@ -44,7 +44,7 @@ a file or folder doesn't exist, use them like so: `throw vscode.FileSystemError.
 
 \+ **new FileSystemError**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6316](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6316)*
+*Defined in [index.d.ts:6925](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6925)*
 
 Creates a new filesystem error.
 
@@ -62,7 +62,7 @@ Name | Type | Description |
 
 • `Readonly` **code**: string
 
-*Defined in [index.d.ts:6331](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6331)*
+*Defined in [index.d.ts:6940](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6940)*
 
 A code that identifies this error.
 
@@ -75,7 +75,7 @@ ___
 
 •  **message**: string
 
-*Inherited from [FileSystemError](_index_d_._plugin_.filesystemerror.md).[message](_index_d_._plugin_.filesystemerror.md#message)*
+*Inherited from [CancellationError](_index_d_._plugin_.cancellationerror.md).[message](_index_d_._plugin_.cancellationerror.md#message)*
 
 *Defined in node_modules/typescript/lib/lib.es5.d.ts:974*
 
@@ -85,7 +85,7 @@ ___
 
 •  **name**: string
 
-*Inherited from [FileSystemError](_index_d_._plugin_.filesystemerror.md).[name](_index_d_._plugin_.filesystemerror.md#name)*
+*Inherited from [CancellationError](_index_d_._plugin_.cancellationerror.md).[name](_index_d_._plugin_.cancellationerror.md#name)*
 
 *Defined in node_modules/typescript/lib/lib.es5.d.ts:973*
 
@@ -95,7 +95,7 @@ ___
 
 • `Optional` **stack**: string
 
-*Inherited from [FileSystemError](_index_d_._plugin_.filesystemerror.md).[stack](_index_d_._plugin_.filesystemerror.md#stack)*
+*Inherited from [CancellationError](_index_d_._plugin_.cancellationerror.md).[stack](_index_d_._plugin_.cancellationerror.md#stack)*
 
 *Defined in node_modules/typescript/lib/lib.es5.d.ts:975*
 
@@ -113,7 +113,7 @@ ___
 
 ▸ `Static`**FileExists**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6291](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6291)*
+*Defined in [index.d.ts:6900](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6900)*
 
 Create an error to signal that a file or folder already exists, e.g. when
 creating but not overwriting a file.
@@ -132,7 +132,7 @@ ___
 
 ▸ `Static`**FileIsADirectory**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6303](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6303)*
+*Defined in [index.d.ts:6912](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6912)*
 
 Create an error to signal that a file is a folder.
 
@@ -150,7 +150,7 @@ ___
 
 ▸ `Static`**FileNotADirectory**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6297](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6297)*
+*Defined in [index.d.ts:6906](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6906)*
 
 Create an error to signal that a file is not a folder.
 
@@ -168,7 +168,7 @@ ___
 
 ▸ `Static`**FileNotFound**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6284](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6284)*
+*Defined in [index.d.ts:6893](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6893)*
 
 Create an error to signal that a file or folder wasn't found.
 
@@ -186,7 +186,7 @@ ___
 
 ▸ `Static`**NoPermissions**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6309](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6309)*
+*Defined in [index.d.ts:6918](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6918)*
 
 Create an error to signal that an operation lacks required permissions.
 
@@ -204,7 +204,7 @@ ___
 
 ▸ `Static`**Unavailable**(`messageOrUri?`: string \| [Uri](_index_d_._plugin_.uri.md)): [FileSystemError](_index_d_._plugin_.filesystemerror.md)
 
-*Defined in [index.d.ts:6316](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6316)*
+*Defined in [index.d.ts:6925](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6925)*
 
 Create an error to signal that the file system is unavailable or too busy to
 complete a request.

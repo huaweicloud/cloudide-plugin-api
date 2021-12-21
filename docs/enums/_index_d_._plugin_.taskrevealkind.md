@@ -20,7 +20,7 @@ Controls the behaviour of the terminal's visibility.
 
 •  **Always**:  = 1
 
-*Defined in [index.d.ts:5558](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5558)*
+*Defined in [index.d.ts:6157](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6157)*
 
 Always brings the terminal to front if the task is executed.
 
@@ -30,7 +30,7 @@ ___
 
 •  **Never**:  = 3
 
-*Defined in [index.d.ts:5569](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5569)*
+*Defined in [index.d.ts:6168](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6168)*
 
 The terminal never comes to front when the task is executed.
 
@@ -40,7 +40,7 @@ ___
 
 •  **Silent**:  = 2
 
-*Defined in [index.d.ts:5564](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5564)*
+*Defined in [index.d.ts:6163](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6163)*
 
 Only brings the terminal to front if a problem is detected executing the task
 (e.g. the task couldn't be started because).

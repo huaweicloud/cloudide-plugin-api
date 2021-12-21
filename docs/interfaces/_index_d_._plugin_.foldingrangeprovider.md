@@ -13,9 +13,23 @@ The folding range provider interface defines the contract between extensions and
 
 ## Index
 
+### Properties
+
+* [onDidChangeFoldingRanges](_index_d_._plugin_.foldingrangeprovider.md#ondidchangefoldingranges)
+
 ### Methods
 
 * [provideFoldingRanges](_index_d_._plugin_.foldingrangeprovider.md#providefoldingranges)
+
+## Properties
+
+### onDidChangeFoldingRanges
+
+• `Optional` **onDidChangeFoldingRanges**: [Event](_index_d_._plugin_.event.md)\<void>
+
+*Defined in [index.d.ts:4479](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4479)*
+
+An optional event to signal that the folding ranges from this provider have changed.
 
 ## Methods
 
@@ -23,7 +37,7 @@ The folding range provider interface defines the contract between extensions and
 
 ▸ **provideFoldingRanges**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `context`: [FoldingContext](_index_d_._plugin_.foldingcontext.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[FoldingRange](../classes/_index_d_._plugin_.foldingrange.md)[]>
 
-*Defined in [index.d.ts:4242](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4242)*
+*Defined in [index.d.ts:4488](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4488)*
 
 Returns a list of folding ranges or null and undefined if the provider
 does not want to participate or was cancelled.

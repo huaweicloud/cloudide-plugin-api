@@ -20,7 +20,7 @@ Enumeration of file change types.
 
 •  **Changed**:  = 1
 
-*Defined in [index.d.ts:6342](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6342)*
+*Defined in [index.d.ts:6951](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6951)*
 
 The contents or metadata of a file have changed.
 
@@ -30,7 +30,7 @@ ___
 
 •  **Created**:  = 2
 
-*Defined in [index.d.ts:6347](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6347)*
+*Defined in [index.d.ts:6956](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6956)*
 
 A file has been created.
 
@@ -40,6 +40,6 @@ ___
 
 •  **Deleted**:  = 3
 
-*Defined in [index.d.ts:6352](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6352)*
+*Defined in [index.d.ts:6961](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6961)*
 
 A file has been deleted.

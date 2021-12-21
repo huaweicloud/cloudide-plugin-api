@@ -23,7 +23,7 @@ If the kind is not set on the range, the range originated from a syntax element 
 
 •  **Comment**:  = 1
 
-*Defined in [index.d.ts:4213](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4213)*
+*Defined in [index.d.ts:4453](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4453)*
 
 Kind for folding range representing a comment.
 
@@ -33,7 +33,7 @@ ___
 
 •  **Imports**:  = 2
 
-*Defined in [index.d.ts:4217](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4217)*
+*Defined in [index.d.ts:4457](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4457)*
 
 Kind for folding range representing a import.
 
@@ -43,6 +43,6 @@ ___
 
 •  **Region**:  = 3
 
-*Defined in [index.d.ts:4221](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4221)*
+*Defined in [index.d.ts:4461](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4461)*
 
 Kind for folding range representing regions originating from folding markers like `#region` and `#endregion`.

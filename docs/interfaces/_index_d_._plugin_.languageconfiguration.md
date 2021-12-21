@@ -29,7 +29,7 @@ and various editor features, like automatic bracket insertion, automatic indenta
 
 • `Optional` **\_\_characterPairSupport**: { autoClosingPairs: { close: string ; notIn?: string[] ; open: string  }[]  }
 
-*Defined in [index.d.ts:4596](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4596)*
+*Defined in [index.d.ts:4890](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4890)*
 
 **Deprecated** Do not use.
 
@@ -47,7 +47,7 @@ ___
 
 • `Optional` **\_\_electricCharacterSupport**: { brackets?: any ; docComment?: { close?: string ; lineStart: string ; open: string ; scope: string  }  }
 
-*Defined in [index.d.ts:4570](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4570)*
+*Defined in [index.d.ts:4864](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4864)*
 
 **Deprecated** Do not use.
 
@@ -66,7 +66,7 @@ ___
 
 • `Optional` **brackets**: [CharacterPair](../modules/_index_d_._plugin_.md#characterpair)[]
 
-*Defined in [index.d.ts:4547](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4547)*
+*Defined in [index.d.ts:4841](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4841)*
 
 The language's brackets.
 This configuration implicitly affects pressing Enter around these brackets.
@@ -77,7 +77,7 @@ ___
 
 • `Optional` **comments**: [CommentRule](_index_d_._plugin_.commentrule.md)
 
-*Defined in [index.d.ts:4542](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4542)*
+*Defined in [index.d.ts:4836](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4836)*
 
 The language's comment settings.
 
@@ -87,7 +87,7 @@ ___
 
 • `Optional` **indentationRules**: [IndentationRule](_index_d_._plugin_.indentationrule.md)
 
-*Defined in [index.d.ts:4559](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4559)*
+*Defined in [index.d.ts:4853](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4853)*
 
 The language's indentation settings.
 
@@ -97,7 +97,7 @@ ___
 
 • `Optional` **onEnterRules**: [OnEnterRule](_index_d_._plugin_.onenterrule.md)[]
 
-*Defined in [index.d.ts:4563](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4563)*
+*Defined in [index.d.ts:4857](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4857)*
 
 The language's rules to be evaluated when pressing Enter.
 
@@ -107,7 +107,7 @@ ___
 
 • `Optional` **wordPattern**: RegExp
 
-*Defined in [index.d.ts:4555](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4555)*
+*Defined in [index.d.ts:4849](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4849)*
 
 The language's word definition.
 If the language supports Unicode identifiers (e.g. JavaScript), it is preferable

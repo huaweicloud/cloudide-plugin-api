@@ -23,7 +23,7 @@ Describes how comments for a language work.
 
 • `Optional` **blockComment**: [CharacterPair](../modules/_index_d_._plugin_.md#characterpair)
 
-*Defined in [index.d.ts:4449](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4449)*
+*Defined in [index.d.ts:4739](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4739)*
 
 The block comment character pair, like `/* block comment *&#47;`
 
@@ -33,6 +33,6 @@ ___
 
 • `Optional` **lineComment**: string
 
-*Defined in [index.d.ts:4444](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4444)*
+*Defined in [index.d.ts:4734](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4734)*
 
 The line comment token, like `// this is a comment`

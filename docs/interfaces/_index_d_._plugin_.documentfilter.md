@@ -8,9 +8,11 @@ A document filter denotes a document by different properties like
 the [language](#TextDocument.languageId), the [scheme](#Uri.scheme) of
 its resource, or a glob-pattern that is applied to the [path](#TextDocument.fileName).
 
-**`sample`** A language filter that applies to typescript files on disk: `{ language: 'typescript', scheme: 'file' }`
+**`example`** <caption>A language filter that applies to typescript files on disk</caption>
+{ language: 'typescript', scheme: 'file' }
 
-**`sample`** A language filter that applies to all package.json paths: `{ language: 'json', scheme: 'untitled', pattern: '**​/package.json' }`
+**`example`** <caption>A language filter that applies to all package.json paths</caption>
+{ language: 'json', scheme: 'untitled', pattern: '**​/package.json' }
 
 ## Hierarchy
 
@@ -28,9 +30,9 @@ its resource, or a glob-pattern that is applied to the [path](#TextDocument.file
 
 ### language
 
-• `Optional` **language**: string
+• `Optional` `Readonly` **language**: string
 
-*Defined in [index.d.ts:1923](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1923)*
+*Defined in [index.d.ts:2094](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2094)*
 
 A language id, like `typescript`.
 
@@ -38,9 +40,9 @@ ___
 
 ### pattern
 
-• `Optional` **pattern**: [GlobPattern](../modules/_index_d_._plugin_.md#globpattern)
+• `Optional` `Readonly` **pattern**: [GlobPattern](../modules/_index_d_._plugin_.md#globpattern)
 
-*Defined in [index.d.ts:1934](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1934)*
+*Defined in [index.d.ts:2105](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2105)*
 
 A [glob pattern](#GlobPattern) that is matched on the absolute path of the document. Use a [relative pattern](#RelativePattern)
 to filter documents to a [workspace folder](#WorkspaceFolder).
@@ -49,8 +51,8 @@ ___
 
 ### scheme
 
-• `Optional` **scheme**: string
+• `Optional` `Readonly` **scheme**: string
 
-*Defined in [index.d.ts:1928](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1928)*
+*Defined in [index.d.ts:2099](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L2099)*
 
 A Uri [scheme](#Uri.scheme), like `file` or `untitled`.

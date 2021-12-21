@@ -27,7 +27,7 @@ for instance all edits labelled with "Changes in Strings" would be a tree node.
 
 • `Optional` **description**: string
 
-*Defined in [index.d.ts:2963](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2963)*
+*Defined in [index.d.ts:3189](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3189)*
 
 A human-readable string which is rendered less prominent on the same line.
 
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **iconPath**: [Uri](../classes/_index_d_._plugin_.uri.md) \| { dark: [Uri](../classes/_index_d_._plugin_.uri.md) ; light: [Uri](../classes/_index_d_._plugin_.uri.md)  } \| [ThemeIcon](../classes/_index_d_._plugin_.themeicon.md)
 
-*Defined in [index.d.ts:2968](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2968)*
+*Defined in [index.d.ts:3194](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3194)*
 
 The icon path or [ThemeIcon](#ThemeIcon) for the edit.
 
@@ -47,7 +47,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:2958](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2958)*
+*Defined in [index.d.ts:3184](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3184)*
 
 A human-readable string which is rendered prominent.
 
@@ -57,6 +57,6 @@ ___
 
 •  **needsConfirmation**: boolean
 
-*Defined in [index.d.ts:2953](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2953)*
+*Defined in [index.d.ts:3179](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3179)*
 
 A flag which indicates that user confirmation is needed.

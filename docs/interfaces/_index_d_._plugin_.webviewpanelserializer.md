@@ -2,7 +2,7 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / WebviewPanelSerializer
 
-# Interface: WebviewPanelSerializer
+# Interface: WebviewPanelSerializer\<T>
 
 Restore webview panels that have been persisted when vscode shuts down.
 
@@ -34,6 +34,12 @@ VS Code will save off the state from `setState` of all webviews that have a seri
 webview first becomes visible after the restart, this state is passed to `deserializeWebviewPanel`.
 The extension can then restore the old `WebviewPanel` from this state.
 
+## Type parameters
+
+Name | Default | Description |
+------ | ------ | ------ |
+`T` | unknown | Type of the webview's state.  |
+
 ## Hierarchy
 
 * **WebviewPanelSerializer**
@@ -48,9 +54,9 @@ The extension can then restore the old `WebviewPanel` from this state.
 
 ### deserializeWebviewPanel
 
-▸ **deserializeWebviewPanel**(`webviewPanel`: [WebviewPanel](_index_d_._plugin_.webviewpanel.md), `state`: any): [Thenable](_index_d_.thenable.md)\<void>
+▸ **deserializeWebviewPanel**(`webviewPanel`: [WebviewPanel](_index_d_._plugin_.webviewpanel.md), `state`: T): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6903](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6903)*
+*Defined in [index.d.ts:7509](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7509)*
 
 Restore a webview panel from its serialized `state`.
 
@@ -61,7 +67,7 @@ Called when a serialized webview first becomes visible.
 Name | Type | Description |
 ------ | ------ | ------ |
 `webviewPanel` | [WebviewPanel](_index_d_._plugin_.webviewpanel.md) | Webview panel to restore. The serializer should take ownership of this panel. The serializer must restore the webview's `.html` and hook up all webview events. |
-`state` | any | Persisted state from the webview content.  |
+`state` | T | Persisted state from the webview content.  |
 
 **Returns:** [Thenable](_index_d_.thenable.md)\<void>
 

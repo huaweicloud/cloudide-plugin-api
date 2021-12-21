@@ -33,7 +33,7 @@ apply, e.g. `System.Drawing.Color.Red`.
 
 \+ **new ColorPresentation**(`label`: string): [ColorPresentation](_index_d_._plugin_.colorpresentation.md)
 
-*Defined in [index.d.ts:4128](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4128)*
+*Defined in [index.d.ts:4368](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4368)*
 
 Creates a new color presentation.
 
@@ -51,7 +51,7 @@ Name | Type | Description |
 
 • `Optional` **additionalTextEdits**: [TextEdit](_index_d_._plugin_.textedit.md)[]
 
-*Defined in [index.d.ts:4128](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4128)*
+*Defined in [index.d.ts:4368](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4368)*
 
 An optional array of additional [text edits](#TextEdit) that are applied when
 selecting this color presentation. Edits must not overlap with the main [edit](#ColorPresentation.textEdit) nor with themselves.
@@ -62,7 +62,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:4115](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4115)*
+*Defined in [index.d.ts:4355](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4355)*
 
 The label of this color presentation. It will be shown on the color
 picker header. By default this is also the text that is inserted when selecting
@@ -74,7 +74,7 @@ ___
 
 • `Optional` **textEdit**: [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:4122](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4122)*
+*Defined in [index.d.ts:4362](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L4362)*
 
 An [edit](#TextEdit) which is applied to a document when selecting
 this presentation for the color.  When `falsy` the [label](#ColorPresentation.label)

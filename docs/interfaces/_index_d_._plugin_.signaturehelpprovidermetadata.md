@@ -23,7 +23,7 @@ Metadata about a registered [`SignatureHelpProvider`](#SignatureHelpProvider).
 
 • `Readonly` **retriggerCharacters**: ReadonlyArray\<string>
 
-*Defined in [index.d.ts:3679](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3679)*
+*Defined in [index.d.ts:3906](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3906)*
 
 List of characters that re-trigger signature help.
 
@@ -36,6 +36,6 @@ ___
 
 • `Readonly` **triggerCharacters**: ReadonlyArray\<string>
 
-*Defined in [index.d.ts:3671](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3671)*
+*Defined in [index.d.ts:3898](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L3898)*
 
 List of characters that trigger signature help.

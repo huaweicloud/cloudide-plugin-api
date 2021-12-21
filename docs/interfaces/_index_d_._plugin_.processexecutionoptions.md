@@ -23,7 +23,7 @@ Options for a process execution
 
 • `Optional` **cwd**: string
 
-*Defined in [index.d.ts:5699](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5699)*
+*Defined in [index.d.ts:6297](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6297)*
 
 The current working directory of the executed program or shell.
 If omitted the tools current workspace root is used.
@@ -34,7 +34,7 @@ ___
 
 • `Optional` **env**: { [key:string]: string;  }
 
-*Defined in [index.d.ts:5706](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5706)*
+*Defined in [index.d.ts:6304](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6304)*
 
 The additional environment of the executed program or shell. If omitted
 the parent process' environment is used. If provided it is merged with

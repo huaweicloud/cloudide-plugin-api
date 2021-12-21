@@ -36,7 +36,7 @@ to the editor and interact with the editor in several source control related way
 
 • `Optional` **acceptInputCommand**: [Command](_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:10043](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10043)*
+*Defined in [index.d.ts:11421](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11421)*
 
 Optional accept input command.
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **commitTemplate**: string
 
-*Defined in [index.d.ts:10035](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10035)*
+*Defined in [index.d.ts:11413](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11413)*
 
 Optional commit template string.
 
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **count**: number
 
-*Defined in [index.d.ts:10022](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10022)*
+*Defined in [index.d.ts:11400](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11400)*
 
 The UI-visible count of [resource states](#SourceControlResourceState) of
 this source control.
@@ -76,7 +76,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:9998](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9998)*
+*Defined in [index.d.ts:11376](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11376)*
 
 The id of this source control.
 
@@ -86,7 +86,7 @@ ___
 
 • `Readonly` **inputBox**: [SourceControlInputBox](_index_d_._plugin_.sourcecontrolinputbox.md)
 
-*Defined in [index.d.ts:10013](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10013)*
+*Defined in [index.d.ts:11391](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11391)*
 
 The [input box](#SourceControlInputBox) for this source control.
 
@@ -96,7 +96,7 @@ ___
 
 • `Readonly` **label**: string
 
-*Defined in [index.d.ts:10003](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10003)*
+*Defined in [index.d.ts:11381](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11381)*
 
 The human-readable label of this source control.
 
@@ -106,7 +106,7 @@ ___
 
 • `Optional` **quickDiffProvider**: [QuickDiffProvider](_index_d_._plugin_.quickdiffprovider.md)
 
-*Defined in [index.d.ts:10027](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10027)*
+*Defined in [index.d.ts:11405](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11405)*
 
 An optional [quick diff provider](#QuickDiffProvider).
 
@@ -116,7 +116,7 @@ ___
 
 • `Readonly` **rootUri**: [Uri](../classes/_index_d_._plugin_.uri.md) \| undefined
 
-*Defined in [index.d.ts:10008](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10008)*
+*Defined in [index.d.ts:11386](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11386)*
 
 The (optional) Uri of the root of this source control.
 
@@ -126,7 +126,7 @@ ___
 
 • `Optional` **statusBarCommands**: [Command](_index_d_._plugin_.command.md)[]
 
-*Defined in [index.d.ts:10050](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10050)*
+*Defined in [index.d.ts:11428](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11428)*
 
 Optional status bar commands.
 
@@ -138,7 +138,7 @@ These commands will be displayed in the editor's status bar.
 
 ▸ **createResourceGroup**(`id`: string, `label`: string): [SourceControlResourceGroup](_index_d_._plugin_.sourcecontrolresourcegroup.md)
 
-*Defined in [index.d.ts:10055](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10055)*
+*Defined in [index.d.ts:11433](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11433)*
 
 Create a new [resource group](#SourceControlResourceGroup).
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:10060](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10060)*
+*Defined in [index.d.ts:11438](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L11438)*
 
 Dispose this source control.
 

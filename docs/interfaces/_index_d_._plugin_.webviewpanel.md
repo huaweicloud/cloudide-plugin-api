@@ -19,7 +19,6 @@ A panel that contains a webview.
 * [onDidChangeViewState](_index_d_._plugin_.webviewpanel.md#ondidchangeviewstate)
 * [onDidDispose](_index_d_._plugin_.webviewpanel.md#ondiddispose)
 * [options](_index_d_._plugin_.webviewpanel.md#options)
-* [showOptions](_index_d_._plugin_.webviewpanel.md#showoptions)
 * [title](_index_d_._plugin_.webviewpanel.md#title)
 * [viewColumn](_index_d_._plugin_.webviewpanel.md#viewcolumn)
 * [viewType](_index_d_._plugin_.webviewpanel.md#viewtype)
@@ -37,7 +36,7 @@ A panel that contains a webview.
 
 • `Readonly` **active**: boolean
 
-*Defined in [index.d.ts:6794](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6794)*
+*Defined in [index.d.ts:7411](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7411)*
 
 Whether the panel is active (focused by the user).
 
@@ -47,7 +46,7 @@ ___
 
 • `Optional` **iconPath**: [Uri](../classes/_index_d_._plugin_.uri.md) \| { dark: [Uri](../classes/_index_d_._plugin_.uri.md) ; light: [Uri](../classes/_index_d_._plugin_.uri.md)  }
 
-*Defined in [index.d.ts:6766](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6766)*
+*Defined in [index.d.ts:7390](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7390)*
 
 Icon for the panel shown in UI.
 
@@ -57,7 +56,7 @@ ___
 
 • `Readonly` **onDidChangeViewState**: [Event](_index_d_._plugin_.event.md)\<[WebviewPanelOnDidChangeViewStateEvent](_index_d_._plugin_.webviewpanelondidchangeviewstateevent.md)>
 
-*Defined in [index.d.ts:6804](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6804)*
+*Defined in [index.d.ts:7421](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7421)*
 
 Fired when the panel's view state changes.
 
@@ -67,7 +66,7 @@ ___
 
 • `Readonly` **onDidDispose**: [Event](_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:6814](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6814)*
+*Defined in [index.d.ts:7431](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7431)*
 
 Fired when the panel is disposed.
 
@@ -82,20 +81,9 @@ ___
 
 • `Readonly` **options**: [WebviewPanelOptions](_index_d_._plugin_.webviewpaneloptions.md)
 
-*Defined in [index.d.ts:6776](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6776)*
+*Defined in [index.d.ts:7400](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7400)*
 
 Content settings for the webview panel.
-
-___
-
-### showOptions
-
-• `Optional` `Readonly` **showOptions**: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { area: string ; preserveFocus?: boolean ; viewColumn: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  }
-
-*Defined in [index.d.ts:6782](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6782)*
-
-this api is extended by huawei
-support area
 
 ___
 
@@ -103,7 +91,7 @@ ___
 
 •  **title**: string
 
-*Defined in [index.d.ts:6761](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6761)*
+*Defined in [index.d.ts:7385](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7385)*
 
 Title of the panel shown in UI.
 
@@ -113,7 +101,7 @@ ___
 
 • `Optional` `Readonly` **viewColumn**: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)
 
-*Defined in [index.d.ts:6789](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6789)*
+*Defined in [index.d.ts:7406](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7406)*
 
 Editor position of the panel. This property is only set if the webview is in
 one of the editor view columns.
@@ -124,7 +112,7 @@ ___
 
 • `Readonly` **viewType**: string
 
-*Defined in [index.d.ts:6756](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6756)*
+*Defined in [index.d.ts:7380](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7380)*
 
 Identifies the type of the webview panel, such as `'markdown.preview'`.
 
@@ -134,7 +122,7 @@ ___
 
 • `Readonly` **visible**: boolean
 
-*Defined in [index.d.ts:6799](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6799)*
+*Defined in [index.d.ts:7416](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7416)*
 
 Whether the panel is visible.
 
@@ -144,7 +132,7 @@ ___
 
 • `Readonly` **webview**: [Webview](_index_d_._plugin_.webview.md)
 
-*Defined in [index.d.ts:6771](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6771)*
+*Defined in [index.d.ts:7395](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7395)*
 
 [`Webview`](#Webview) belonging to the panel.
 
@@ -154,7 +142,7 @@ ___
 
 ▸ **dispose**(): any
 
-*Defined in [index.d.ts:6847](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6847)*
+*Defined in [index.d.ts:7451](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7451)*
 
 Dispose of the webview panel.
 
@@ -170,7 +158,7 @@ ___
 
 ▸ **reveal**(`viewColumn?`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md), `preserveFocus?`: boolean): void
 
-*Defined in [index.d.ts:6825](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6825)*
+*Defined in [index.d.ts:7442](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L7442)*
 
 Show the webview panel in a given column.
 
@@ -183,24 +171,5 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `viewColumn?` | [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) | View column to show the panel in. Shows in the current `viewColumn` if undefined. |
 `preserveFocus?` | boolean | When `true`, the webview will not take focus.  |
-
-**Returns:** void
-
-▸ **reveal**(`area?`: string, `viewColumn?`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md), `preserveFocus?`: boolean): void
-
-*Defined in [index.d.ts:6837](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6837)*
-
-Show the webview panel in a given column or area. this api is extended by huawei
-
-A webview panel may only show in a single column at a time. If it is already showing, this
-method moves it to a new column.
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`area?` | string | the area which webview panel will be attached to. support 'main'(default), 'left', 'right', 'bottom' |
-`viewColumn?` | [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) | View column to show the panel in. Shows in the current `viewColumn` if undefined. |
-`preserveFocus?` | boolean | When `true`, the webview will not take focus. when in left or right area, `true` will make panel collapsed.  |
 
 **Returns:** void

@@ -20,7 +20,7 @@ Controls how the task channel is used between tasks
 
 •  **Dedicated**:  = 2
 
-*Defined in [index.d.ts:5586](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5586)*
+*Defined in [index.d.ts:6185](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6185)*
 
 Uses a dedicated panel for this tasks. The panel is not
 shared with other tasks.
@@ -31,7 +31,7 @@ ___
 
 •  **New**:  = 3
 
-*Defined in [index.d.ts:5591](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5591)*
+*Defined in [index.d.ts:6190](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6190)*
 
 Creates a new panel whenever this task is executed.
 
@@ -41,6 +41,6 @@ ___
 
 •  **Shared**:  = 1
 
-*Defined in [index.d.ts:5580](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5580)*
+*Defined in [index.d.ts:6179](https://github.com/shuyaqian/cloudide-plugin-api/blob/57a3a2a/index.d.ts#L6179)*
 
 Shares a panel with other tasks. This is the default.
