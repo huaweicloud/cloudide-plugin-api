@@ -18,6 +18,116 @@ declare module '@cloudide/plugin' {
      */
     export const version: string;
 
+    export type PluginType = 'frontend' | 'backend';
+
+    /**
+     * Represents an plugin.
+     *
+     * To get an instance of an `Plugin` use [getPlugin](#plugins.getPlugin).
+     */
+    export interface Plugin<T> {
+
+        /**
+         * The canonical plug-in identifier in the form of: `publisher.name`.
+         */
+        readonly id: string;
+
+        /**
+         * The absolute file path of the directory containing this plug-in.
+         */
+        readonly pluginPath: string;
+
+        /**
+         * The uri of the directory containing this plug-in.
+         */
+        readonly pluginUri: Uri;
+
+        /**
+         * `true` if the plug-in has been activated.
+         */
+        readonly isActive: boolean;
+
+        /**
+         * The parsed contents of the plug-in's package.json.
+         */
+        readonly packageJSON: any;
+
+        /**
+         *
+         */
+        readonly pluginType: PluginType;
+
+        /**
+         * The public API exported by this plug-in. It is an invalid action
+         * to access this field before this plug-in has been activated.
+         */
+        readonly exports: T;
+
+        /**
+         * Activates this plug-in and returns its public API.
+         *
+         * @return A promise that will resolve when this plug-in has been activated.
+         */
+        activate(): PromiseLike<T>;
+    }
+
+    /**
+     * Compatible with vscode
+     * Represents an extension.
+     *
+     * To get an instance of an `Extension` use [getExtension](#extensions.getExtension).
+     */
+    export interface Extension<T> {
+
+        /**
+         * The canonical extension identifier in the form of: `publisher.name`.
+         */
+        readonly id: string;
+
+        /**
+         * The uri of the directory containing the extension.
+         */
+        readonly extensionUri: Uri;
+
+        /**
+         * The absolute file path of the directory containing this extension. Shorthand
+         * notation for [Extension.extensionUri.fsPath](#Extension.extensionUri) (independent of the uri scheme).
+         */
+        readonly extensionPath: string;
+
+        /**
+         * `true` if the extension has been activated.
+         */
+        readonly isActive: boolean;
+
+        /**
+         * The parsed contents of the extension's package.json.
+         */
+        readonly packageJSON: any;
+
+        /**
+         * The extension kind describes if an extension runs where the UI runs
+         * or if an extension runs where the remote extension host runs. The extension kind
+         * is defined in the `package.json`-file of extensions but can also be refined
+         * via the `remote.extensionKind`-setting. When no remote extension host exists,
+         * the value is [`ExtensionKind.UI`](#ExtensionKind.UI).
+         */
+        extensionKind: ExtensionKind;
+
+        /**
+         * The public API exported by this extension. It is an invalid action
+         * to access this field before this extension has been activated.
+         */
+        readonly exports: T;
+
+        /**
+         * Activates this extension and returns its public API.
+         *
+         * @return A promise that will resolve when this extension has been activated.
+         */
+        activate(): Thenable<T>;
+    }
+
     /**
      * Represents a reference to a command. Provides a title which
      * will be used to represent a command in the UI and, optionally,
@@ -8516,6 +8626,95 @@ declare module '@cloudide/plugin' {
         export function createWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { viewColumn: ViewColumn, preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
 
         /**
+         * Create and show a new webview panel.
+         *
+         * @param viewType Identifies the type of the webview panel.
+         * @param title Title of the panel.
+         * @param showOptions where webview panel will be reside. If preserveFocus is set, the new webview will not take focus.
+         * @param options Settings for the new panel.
+         *
+         * @return New webview panel.
+         */
+        export function createCloudWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { area: string, viewColumn: ViewColumn, preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
+
+        /**
+         * Create and show a new dialog with a iframe inside.
+         *
+         * @param CustomizableDialogOptions Content and options of the dialog.
+         *
+         * @return Dialog operations object.
+         */
+        export function createCustomizableDialog(options: CustomizableDialogOptions): Promise<CustomizableDialog>;
+
+        export interface CustomizableDialogOptions {
+            /**
+             * Title displayed at the top of the dialog box.
+             */
+            title: string;
+            /**
+             * HTML content or url nested in the iframe in the dialog box.
+             */
+            content: string;
+            /**
+             * Whether to disable the close button in the upper right corner of the dialog box. Defaults to false.
+             */
+            disableCloseIcon?: boolean;
+            /**
+             * Buttons displayed at the bottom of the dialog box.
+             */
+            buttons?: DialogButton[];
+            /**
+             * Button alignment mode. Default to be right.
+             */
+            buttonsAlign?: 'left' | 'center' | 'right';
+            onClose?: (event: CustomizableDialogEvent) => void;
+            /**
+             * Width of content in pixels.
+             */
+            width?: number;
+            /**
+             * Height of content in pixels.
+             */
+            height?: number;
+        }
+
+        export interface CustomizableDialogEvent extends Event<any> {
+            /**
+             * The target you clicked when close the dialog.
+             */
+            targetElement?: DialogControlElement;
+            /**
+             * You can get cloudideDialogApis by 'acquireCloudideDialogApi'.
+             * And if you want to emit data out, you can call method 'acquireCloudideDialogApi.bindDialogData(data)',
+             * so that you can get this data when the dialog closed.
+             */
+            dialogData?: string;
+        }
+
+        export interface DialogButton extends DialogControlElement {
+            /**
+             * Display as a primary button. Defaults to true.
+             */
+            primary?: boolean;
+        }
+
+        export interface CustomizableDialog {
+            close(): void;
+            /**
+             * ID of iframe in the dialog box.
+             */
+            id: string;
+            data: string | undefined;
+            updateContent(content: string): void;
+            updateButtons(buttons: DialogButton[]): void;
+        }
+
+        export interface DialogControlElement {
+            innerText: string;
+            title?: string;
+        }
+
+        /**
          * Set a message to the status bar. This is a short hand for the more powerful
          * status bar [items](#window.createStatusBarItem).
          *
@@ -8675,6 +8874,13 @@ declare module '@cloudide/plugin' {
          * @param serializer Webview serializer.
          */
         export function registerWebviewPanelSerializer(viewType: string, serializer: WebviewPanelSerializer): Disposable;
+
+        /**
+         * Only registers a webview panel.
+         *
+         * @param viewType Type of the webview panel.
+         */
+        export function registerWebviewAsPluginPage(viewType: string): void;
 
         /**
          * Register a new provider for webview views.
