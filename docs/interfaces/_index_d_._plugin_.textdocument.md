@@ -42,7 +42,7 @@ Represents a text document, such as a source file. Text documents have
 
 • `Readonly` **eol**: [EndOfLine](../enums/_index_d_._plugin_.endofline.md)
 
-*Defined in [index.d.ts:157](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L157)*
+*Defined in [index.d.ts:270](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L270)*
 
 The [end of line](#EndOfLine) sequence that is predominately
 used in this document.
@@ -53,7 +53,7 @@ ___
 
 • `Readonly` **fileName**: string
 
-*Defined in [index.d.ts:113](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L113)*
+*Defined in [index.d.ts:226](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L226)*
 
 The file system path of the associated resource. Shorthand
 notation for [TextDocument.uri.fsPath](#TextDocument.uri). Independent of the uri scheme.
@@ -64,7 +64,7 @@ ___
 
 • `Readonly` **isClosed**: boolean
 
-*Defined in [index.d.ts:142](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L142)*
+*Defined in [index.d.ts:255](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L255)*
 
 `true` if the document has been closed. A closed document isn't synchronized anymore
 and won't be re-used when the same resource is opened again.
@@ -75,7 +75,7 @@ ___
 
 • `Readonly` **isDirty**: boolean
 
-*Defined in [index.d.ts:136](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L136)*
+*Defined in [index.d.ts:249](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L249)*
 
 `true` if there are unpersisted changes.
 
@@ -85,7 +85,7 @@ ___
 
 • `Readonly` **isUntitled**: boolean
 
-*Defined in [index.d.ts:120](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L120)*
+*Defined in [index.d.ts:233](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L233)*
 
 Is this document representing an untitled file which has never been saved yet. *Note* that
 this does not mean the document will be saved to disk, use [`uri.scheme`](#Uri.scheme)
@@ -97,7 +97,7 @@ ___
 
 • `Readonly` **languageId**: string
 
-*Defined in [index.d.ts:125](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L125)*
+*Defined in [index.d.ts:238](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L238)*
 
 The identifier of the language associated with this document.
 
@@ -107,7 +107,7 @@ ___
 
 • `Readonly` **lineCount**: number
 
-*Defined in [index.d.ts:162](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L162)*
+*Defined in [index.d.ts:275](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L275)*
 
 The number of lines in this document.
 
@@ -117,7 +117,7 @@ ___
 
 • `Readonly` **uri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:107](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L107)*
+*Defined in [index.d.ts:220](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L220)*
 
 The associated uri for this document.
 
@@ -134,7 +134,7 @@ ___
 
 • `Readonly` **version**: number
 
-*Defined in [index.d.ts:131](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L131)*
+*Defined in [index.d.ts:244](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L244)*
 
 The version number of this document (it will strictly increase after each
 change, including undo/redo).
@@ -145,7 +145,7 @@ change, including undo/redo).
 
 ▸ **getText**(`range?`: [Range](../classes/_index_d_._plugin_.range.md)): string
 
-*Defined in [index.d.ts:212](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L212)*
+*Defined in [index.d.ts:325](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L325)*
 
 Get the text of this document. A substring can be retrieved by providing
 a range. The range will be [adjusted](#TextDocument.validateRange).
@@ -166,7 +166,7 @@ ___
 
 ▸ **getWordRangeAtPosition**(`position`: [Position](../classes/_index_d_._plugin_.position.md), `regex?`: RegExp): [Range](../classes/_index_d_._plugin_.range.md) \| undefined
 
-*Defined in [index.d.ts:232](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L232)*
+*Defined in [index.d.ts:345](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L345)*
 
 Get a word-range at the given position. By default words are defined by
 common separators, like space, -, _, etc. In addition, per language custom
@@ -198,7 +198,7 @@ ___
 
 ▸ **lineAt**(`line`: number): [TextLine](_index_d_._plugin_.textline.md)
 
-*Defined in [index.d.ts:172](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L172)*
+*Defined in [index.d.ts:285](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L285)*
 
 Returns a text line denoted by the line number. Note
 that the returned object is *not* live and changes to the
@@ -216,7 +216,7 @@ A [line](#TextLine).
 
 ▸ **lineAt**(`position`: [Position](../classes/_index_d_._plugin_.position.md)): [TextLine](_index_d_._plugin_.textline.md)
 
-*Defined in [index.d.ts:185](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L185)*
+*Defined in [index.d.ts:298](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L298)*
 
 Returns a text line denoted by the position. Note
 that the returned object is *not* live and changes to the
@@ -242,7 +242,7 @@ ___
 
 ▸ **offsetAt**(`position`: [Position](../classes/_index_d_._plugin_.position.md)): number
 
-*Defined in [index.d.ts:195](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L195)*
+*Defined in [index.d.ts:308](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L308)*
 
 Converts the position to a zero-based offset.
 
@@ -264,7 +264,7 @@ ___
 
 ▸ **positionAt**(`offset`: number): [Position](../classes/_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:203](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L203)*
+*Defined in [index.d.ts:316](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L316)*
 
 Converts a zero-based offset to a position.
 
@@ -284,7 +284,7 @@ ___
 
 ▸ **save**(): [Thenable](_index_d_.thenable.md)\<boolean>
 
-*Defined in [index.d.ts:151](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L151)*
+*Defined in [index.d.ts:264](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L264)*
 
 Save the underlying file.
 
@@ -300,7 +300,7 @@ ___
 
 ▸ **validatePosition**(`position`: [Position](../classes/_index_d_._plugin_.position.md)): [Position](../classes/_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:248](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L248)*
+*Defined in [index.d.ts:361](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L361)*
 
 Ensure a position is contained in the range of this document.
 
@@ -320,7 +320,7 @@ ___
 
 ▸ **validateRange**(`range`: [Range](../classes/_index_d_._plugin_.range.md)): [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:240](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L240)*
+*Defined in [index.d.ts:353](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L353)*
 
 Ensure a range is completely contained in this document.
 

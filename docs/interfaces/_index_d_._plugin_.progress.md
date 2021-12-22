@@ -28,7 +28,7 @@ Name |
 
 ▸ **report**(`value`: T): void
 
-*Defined in [index.d.ts:5283](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5283)*
+*Defined in [index.d.ts:5615](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5615)*
 
 Report a progress update.
 

@@ -34,7 +34,7 @@ its most interesting range, e.g. the range of an identifier.
 
 \+ **new DocumentSymbol**(`name`: string, `detail`: string, `kind`: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md), `range`: [Range](_index_d_._plugin_.range.md), `selectionRange`: [Range](_index_d_._plugin_.range.md)): [DocumentSymbol](_index_d_._plugin_.documentsymbol.md)
 
-*Defined in [index.d.ts:2764](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2764)*
+*Defined in [index.d.ts:2993](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2993)*
 
 Creates a new document symbol.
 
@@ -56,7 +56,7 @@ Name | Type | Description |
 
 •  **children**: [DocumentSymbol](_index_d_._plugin_.documentsymbol.md)[]
 
-*Defined in [index.d.ts:2764](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2764)*
+*Defined in [index.d.ts:2993](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2993)*
 
 Children of this symbol, e.g. properties of a class.
 
@@ -66,7 +66,7 @@ ___
 
 •  **detail**: string
 
-*Defined in [index.d.ts:2738](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2738)*
+*Defined in [index.d.ts:2967](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2967)*
 
 More detail for this symbol, e.g. the signature of a function.
 
@@ -76,7 +76,7 @@ ___
 
 •  **kind**: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md)
 
-*Defined in [index.d.ts:2743](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2743)*
+*Defined in [index.d.ts:2972](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2972)*
 
 The kind of this symbol.
 
@@ -86,7 +86,7 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:2733](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2733)*
+*Defined in [index.d.ts:2962](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2962)*
 
 The name of this symbol.
 
@@ -96,7 +96,7 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2753](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2753)*
+*Defined in [index.d.ts:2982](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2982)*
 
 The range enclosing this symbol not including leading/trailing whitespace but everything else, e.g. comments and code.
 
@@ -106,7 +106,7 @@ ___
 
 •  **selectionRange**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2759](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2759)*
+*Defined in [index.d.ts:2988](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2988)*
 
 The range that should be selected and reveal when this symbol is being picked, e.g. the name of a function.
 Must be contained by the [`range`](#DocumentSymbol.range).
@@ -117,6 +117,6 @@ ___
 
 • `Optional` **tags**: ReadonlyArray\<[SymbolTag](../enums/_index_d_._plugin_.symboltag.md)>
 
-*Defined in [index.d.ts:2748](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2748)*
+*Defined in [index.d.ts:2977](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2977)*
 
 Tags for this symbol.

@@ -23,7 +23,7 @@ Represents the debug console.
 
 ▸ **append**(`value`: string): void
 
-*Defined in [index.d.ts:10398](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10398)*
+*Defined in [index.d.ts:11846](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11846)*
 
 Append the given value to the debug console.
 
@@ -41,7 +41,7 @@ ___
 
 ▸ **appendLine**(`value`: string): void
 
-*Defined in [index.d.ts:10406](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10406)*
+*Defined in [index.d.ts:11854](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11854)*
 
 Append the given value and a line feed character
 to the debug console.

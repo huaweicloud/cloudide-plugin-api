@@ -32,7 +32,7 @@ asked.
 
 • `Optional` **onDidChange**: [Event](_index_d_._plugin_.event.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:1588](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1588)*
+*Defined in [index.d.ts:1728](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1728)*
 
 An event to signal a resource has changed.
 
@@ -42,7 +42,7 @@ An event to signal a resource has changed.
 
 ▸ **provideTextDocumentContent**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<string>
 
-*Defined in [index.d.ts:1604](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1604)*
+*Defined in [index.d.ts:1744](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1744)*
 
 Provide textual content for a given uri.
 

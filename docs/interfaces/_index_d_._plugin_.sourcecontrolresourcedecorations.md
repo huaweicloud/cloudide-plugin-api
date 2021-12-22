@@ -30,7 +30,7 @@ Can be independently specified for light and dark themes.
 
 • `Optional` `Readonly` **dark**: [SourceControlResourceThemableDecorations](_index_d_._plugin_.sourcecontrolresourcethemabledecorations.md)
 
-*Defined in [index.d.ts:9928](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9928)*
+*Defined in [index.d.ts:11318](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11318)*
 
 The dark theme decorations.
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` `Readonly` **faded**: boolean
 
-*Defined in [index.d.ts:9912](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9912)*
+*Defined in [index.d.ts:11302](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11302)*
 
 Whether the [source control resource state](#SourceControlResourceState) should
 be faded in the UI.
@@ -53,7 +53,7 @@ ___
 
 *Inherited from [SourceControlResourceThemableDecorations](_index_d_._plugin_.sourcecontrolresourcethemabledecorations.md).[iconPath](_index_d_._plugin_.sourcecontrolresourcethemabledecorations.md#iconpath)*
 
-*Defined in [index.d.ts:9893](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9893)*
+*Defined in [index.d.ts:11283](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11283)*
 
 The icon path for a specific
 [source control resource state](#SourceControlResourceState).
@@ -64,7 +64,7 @@ ___
 
 • `Optional` `Readonly` **light**: [SourceControlResourceThemableDecorations](_index_d_._plugin_.sourcecontrolresourcethemabledecorations.md)
 
-*Defined in [index.d.ts:9923](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9923)*
+*Defined in [index.d.ts:11313](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11313)*
 
 The light theme decorations.
 
@@ -74,7 +74,7 @@ ___
 
 • `Optional` `Readonly` **strikeThrough**: boolean
 
-*Defined in [index.d.ts:9906](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9906)*
+*Defined in [index.d.ts:11296](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11296)*
 
 Whether the [source control resource state](#SourceControlResourceState) should
 be striked-through in the UI.
@@ -85,7 +85,7 @@ ___
 
 • `Optional` `Readonly` **tooltip**: string
 
-*Defined in [index.d.ts:9918](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9918)*
+*Defined in [index.d.ts:11308](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11308)*
 
 The title for a specific
 [source control resource state](#SourceControlResourceState).

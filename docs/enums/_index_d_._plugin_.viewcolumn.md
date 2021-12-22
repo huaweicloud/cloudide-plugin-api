@@ -30,7 +30,7 @@ in order of their appearance.
 
 •  **Active**:  = -1
 
-*Defined in [index.d.ts:5087](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5087)*
+*Defined in [index.d.ts:5384](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5384)*
 
 A *symbolic* editor column representing the currently active column. This value
 can be used when opening editors, but the *resolved* [viewColumn](#TextEditor.viewColumn)-value
@@ -42,7 +42,7 @@ ___
 
 •  **Beside**:  = -2
 
-*Defined in [index.d.ts:5093](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5093)*
+*Defined in [index.d.ts:5390](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5390)*
 
 A *symbolic* editor column representing the column to the side of the active one. This value
 can be used when opening editors, but the *resolved* [viewColumn](#TextEditor.viewColumn)-value
@@ -54,7 +54,7 @@ ___
 
 •  **Eight**:  = 8
 
-*Defined in [index.d.ts:5125](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5125)*
+*Defined in [index.d.ts:5422](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5422)*
 
 The eighth editor column.
 
@@ -64,7 +64,7 @@ ___
 
 •  **Five**:  = 5
 
-*Defined in [index.d.ts:5113](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5113)*
+*Defined in [index.d.ts:5410](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5410)*
 
 The fifth editor column.
 
@@ -74,7 +74,7 @@ ___
 
 •  **Four**:  = 4
 
-*Defined in [index.d.ts:5109](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5109)*
+*Defined in [index.d.ts:5406](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5406)*
 
 The fourth editor column.
 
@@ -84,7 +84,7 @@ ___
 
 •  **Nine**:  = 9
 
-*Defined in [index.d.ts:5129](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5129)*
+*Defined in [index.d.ts:5426](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5426)*
 
 The ninth editor column.
 
@@ -94,7 +94,7 @@ ___
 
 •  **One**:  = 1
 
-*Defined in [index.d.ts:5097](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5097)*
+*Defined in [index.d.ts:5394](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5394)*
 
 The first editor column.
 
@@ -104,7 +104,7 @@ ___
 
 •  **Seven**:  = 7
 
-*Defined in [index.d.ts:5121](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5121)*
+*Defined in [index.d.ts:5418](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5418)*
 
 The seventh editor column.
 
@@ -114,7 +114,7 @@ ___
 
 •  **Six**:  = 6
 
-*Defined in [index.d.ts:5117](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5117)*
+*Defined in [index.d.ts:5414](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5414)*
 
 The sixth editor column.
 
@@ -124,7 +124,7 @@ ___
 
 •  **Three**:  = 3
 
-*Defined in [index.d.ts:5105](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5105)*
+*Defined in [index.d.ts:5402](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5402)*
 
 The third editor column.
 
@@ -134,6 +134,6 @@ ___
 
 •  **Two**:  = 2
 
-*Defined in [index.d.ts:5101](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5101)*
+*Defined in [index.d.ts:5398](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5398)*
 
 The second editor column.

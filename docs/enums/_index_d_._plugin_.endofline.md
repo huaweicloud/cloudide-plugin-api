@@ -19,7 +19,7 @@ Represents an end of line character sequence in a [document](#TextDocument).
 
 •  **CRLF**:  = 2
 
-*Defined in [index.d.ts:1200](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1200)*
+*Defined in [index.d.ts:1324](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1324)*
 
 The carriage return line feed `\r\n` sequence.
 
@@ -29,6 +29,6 @@ ___
 
 •  **LF**:  = 1
 
-*Defined in [index.d.ts:1196](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1196)*
+*Defined in [index.d.ts:1320](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1320)*
 
 The line feed `\n` character.

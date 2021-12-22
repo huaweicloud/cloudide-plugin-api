@@ -22,6 +22,6 @@ Event fired when a webview panel's view state changes.
 
 • `Readonly` **webviewPanel**: [WebviewPanel](_index_d_._plugin_.webviewpanel.md)
 
-*Defined in [index.d.ts:6857](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6857)*
+*Defined in [index.d.ts:7464](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7464)*
 
 Webview panel whose view state changed.

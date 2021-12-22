@@ -24,7 +24,7 @@ values.
 
 ▸ **get**\<T>(`key`: string): T \| undefined
 
-*Defined in [index.d.ts:5510](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5510)*
+*Defined in [index.d.ts:6070](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6070)*
 
 Return a value.
 
@@ -46,7 +46,7 @@ The stored value or `undefined`.
 
 ▸ **get**\<T>(`key`: string, `defaultValue`: T): T
 
-*Defined in [index.d.ts:5520](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5520)*
+*Defined in [index.d.ts:6080](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6080)*
 
 Return a value.
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **update**(`key`: string, `value`: any): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:5528](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5528)*
+*Defined in [index.d.ts:6088](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6088)*
 
 Store a value. The value must be JSON-stringifyable.
 

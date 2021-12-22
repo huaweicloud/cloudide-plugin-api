@@ -23,7 +23,7 @@ Value-object describing what options a virtual process terminal should use.
 
 •  **name**: string
 
-*Defined in [index.d.ts:8126](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8126)*
+*Defined in [index.d.ts:9388](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9388)*
 
 A human-readable string which will be used to represent the terminal in the UI.
 
@@ -33,7 +33,7 @@ ___
 
 •  **pty**: [Pseudoterminal](_index_d_._plugin_.pseudoterminal.md)
 
-*Defined in [index.d.ts:8132](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8132)*
+*Defined in [index.d.ts:9394](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9394)*
 
 An implementation of [Pseudoterminal](#Pseudoterminal) that allows an extension to
 control a terminal.

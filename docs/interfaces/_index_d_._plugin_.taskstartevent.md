@@ -24,6 +24,6 @@ This interface is not intended to be implemented.
 
 • `Readonly` **execution**: [TaskExecution](_index_d_._plugin_.taskexecution.md)
 
-*Defined in [index.d.ts:6092](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6092)*
+*Defined in [index.d.ts:6700](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6700)*
 
 The task item representing the task that got started.

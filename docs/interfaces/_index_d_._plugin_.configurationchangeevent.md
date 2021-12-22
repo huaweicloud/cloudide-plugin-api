@@ -22,9 +22,10 @@ An event describing the change in Configuration
 
 ▸ **affectsConfiguration**(`section`: string, `scope?`: [ConfigurationScope](../modules/_index_d_._plugin_.md#configurationscope)): boolean
 
-*Defined in [index.d.ts:9372](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9372)*
+*Defined in [index.d.ts:10748](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10748)*
 
-Returns `true` if the given section is affected in the provided scope.
+Checks if the given section has changed.
+If scope is provided, checks if the section has changed for resources under the given scope.
 
 #### Parameters:
 
@@ -35,4 +36,4 @@ Name | Type | Description |
 
 **Returns:** boolean
 
-`true` if the given section is affected in the provided scope.
+`true` if the given section has changed.

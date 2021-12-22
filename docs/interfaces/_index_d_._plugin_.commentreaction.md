@@ -25,7 +25,7 @@ Reactions of a [comment](#Comment)
 
 • `Readonly` **authorHasReacted**: boolean
 
-*Defined in [index.d.ts:10839](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10839)*
+*Defined in [index.d.ts:12325](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12325)*
 
 Whether the [author](CommentAuthorInformation) of the comment has reacted to this reaction
 
@@ -35,7 +35,7 @@ ___
 
 • `Readonly` **count**: number
 
-*Defined in [index.d.ts:10834](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10834)*
+*Defined in [index.d.ts:12320](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12320)*
 
 The number of users who have reacted to this reaction
 
@@ -45,7 +45,7 @@ ___
 
 • `Readonly` **iconPath**: string \| [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:10829](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10829)*
+*Defined in [index.d.ts:12315](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12315)*
 
 Icon for the reaction shown in UI.
 
@@ -55,6 +55,6 @@ ___
 
 • `Readonly` **label**: string
 
-*Defined in [index.d.ts:10824](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10824)*
+*Defined in [index.d.ts:12310](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12310)*
 
 The human-readable label for the reaction

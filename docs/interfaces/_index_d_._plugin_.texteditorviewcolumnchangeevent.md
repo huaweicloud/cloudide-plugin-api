@@ -23,7 +23,7 @@ Represents an event describing the change of a [text editor's view column](#Text
 
 • `Readonly` **textEditor**: [TextEditor](_index_d_._plugin_.texteditor.md)
 
-*Defined in [index.d.ts:589](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L589)*
+*Defined in [index.d.ts:702](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L702)*
 
 The [text editor](#TextEditor) for which the view column has changed.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **viewColumn**: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)
 
-*Defined in [index.d.ts:593](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L593)*
+*Defined in [index.d.ts:706](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L706)*
 
 The new value for the [text editor's view column](#TextEditor.viewColumn).

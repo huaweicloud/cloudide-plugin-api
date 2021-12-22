@@ -23,7 +23,7 @@ Represents an event describing the change in a [text editor's visible ranges](#T
 
 • `Readonly` **textEditor**: [TextEditor](_index_d_._plugin_.texteditor.md)
 
-*Defined in [index.d.ts:561](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L561)*
+*Defined in [index.d.ts:674](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L674)*
 
 The [text editor](#TextEditor) for which the visible ranges have changed.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **visibleRanges**: ReadonlyArray\<[Range](../classes/_index_d_._plugin_.range.md)>
 
-*Defined in [index.d.ts:565](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L565)*
+*Defined in [index.d.ts:678](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L678)*
 
 The new value for the [text editor's visible ranges](#TextEditor.visibleRanges).

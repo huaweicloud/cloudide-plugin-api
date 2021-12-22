@@ -22,6 +22,6 @@ The event that is fired when there is a change in [tree view's visibility](#Tree
 
 • `Readonly` **visible**: boolean
 
-*Defined in [index.d.ts:7865](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7865)*
+*Defined in [index.d.ts:9070](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9070)*
 
 `true` if the [tree view](#TreeView) is visible otherwise `false`.

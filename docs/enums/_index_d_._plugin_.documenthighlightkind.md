@@ -20,7 +20,7 @@ A document highlight kind.
 
 •  **Read**:  = 1
 
-*Defined in [index.d.ts:2571](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2571)*
+*Defined in [index.d.ts:2801](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2801)*
 
 Read-access of a symbol, like reading a variable.
 
@@ -30,7 +30,7 @@ ___
 
 •  **Text**:  = 0
 
-*Defined in [index.d.ts:2566](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2566)*
+*Defined in [index.d.ts:2796](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2796)*
 
 A textual occurrence.
 
@@ -40,6 +40,6 @@ ___
 
 •  **Write**:  = 2
 
-*Defined in [index.d.ts:2576](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2576)*
+*Defined in [index.d.ts:2806](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2806)*
 
 Write-access of a symbol, like writing to a variable.

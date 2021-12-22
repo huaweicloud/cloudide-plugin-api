@@ -14,6 +14,7 @@ A collection of [comments](#Comment) representing a conversation at a particular
 
 ### Properties
 
+* [canReply](_index_d_._plugin_.commentthread.md#canreply)
 * [collapsibleState](_index_d_._plugin_.commentthread.md#collapsiblestate)
 * [comments](_index_d_._plugin_.commentthread.md#comments)
 * [contextValue](_index_d_._plugin_.commentthread.md#contextvalue)
@@ -27,11 +28,22 @@ A collection of [comments](#Comment) representing a conversation at a particular
 
 ## Properties
 
+### canReply
+
+•  **canReply**: boolean
+
+*Defined in [index.d.ts:12253](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12253)*
+
+Whether the thread supports reply.
+Defaults to true.
+
+___
+
 ### collapsibleState
 
 •  **collapsibleState**: [CommentThreadCollapsibleState](../enums/_index_d_._plugin_.commentthreadcollapsiblestate.md)
 
-*Defined in [index.d.ts:10767](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10767)*
+*Defined in [index.d.ts:12247](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12247)*
 
 Whether the thread should be collapsed or expanded when opening the document.
 Defaults to Collapsed.
@@ -42,7 +54,7 @@ ___
 
 •  **comments**: ReadonlyArray\<[Comment](_index_d_._plugin_.comment.md)>
 
-*Defined in [index.d.ts:10761](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10761)*
+*Defined in [index.d.ts:12241](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12241)*
 
 The ordered comments of the thread.
 
@@ -52,7 +64,7 @@ ___
 
 • `Optional` **contextValue**: string
 
-*Defined in [index.d.ts:10787](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10787)*
+*Defined in [index.d.ts:12273](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12273)*
 
 Context value of the comment thread. This can be used to contribute thread specific actions.
 For example, a comment thread is given a context value as `editable`. When contributing actions to `comments/commentThread/title`
@@ -77,7 +89,7 @@ ___
 
 • `Optional` **label**: string
 
-*Defined in [index.d.ts:10792](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10792)*
+*Defined in [index.d.ts:12278](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12278)*
 
 The optional human-readable label describing the [Comment Thread](#CommentThread)
 
@@ -87,7 +99,7 @@ ___
 
 •  **range**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:10756](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10756)*
+*Defined in [index.d.ts:12236](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12236)*
 
 The range the comment thread is located within the document. The thread icon will be shown
 at the first line of the range.
@@ -98,7 +110,7 @@ ___
 
 • `Readonly` **uri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:10750](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10750)*
+*Defined in [index.d.ts:12230](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12230)*
 
 The uri of the document the thread has been created on.
 
@@ -108,10 +120,10 @@ The uri of the document the thread has been created on.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:10799](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10799)*
+*Defined in [index.d.ts:12285](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12285)*
 
 Dispose this comment thread.
 
-Once disposed, this comment thread will be removed from visible editors and Comment Panel when approriate.
+Once disposed, this comment thread will be removed from visible editors and Comment Panel when appropriate.
 
 **Returns:** void

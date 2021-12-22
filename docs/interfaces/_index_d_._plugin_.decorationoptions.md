@@ -24,7 +24,7 @@ Represents options for a specific decoration in a [decoration set](#TextEditorDe
 
 • `Optional` **hoverMessage**: [MarkedString](../modules/_index_d_._plugin_.md#markedstring) \| [MarkedString](../modules/_index_d_._plugin_.md#markedstring)[]
 
-*Defined in [index.d.ts:1054](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1054)*
+*Defined in [index.d.ts:1178](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1178)*
 
 A message that should be rendered when hovering over the decoration.
 
@@ -34,7 +34,7 @@ ___
 
 •  **range**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:1049](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1049)*
+*Defined in [index.d.ts:1173](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1173)*
 
 Range to which this decoration is applied. The range must not be empty.
 
@@ -44,7 +44,7 @@ ___
 
 • `Optional` **renderOptions**: [DecorationInstanceRenderOptions](_index_d_._plugin_.decorationinstancerenderoptions.md)
 
-*Defined in [index.d.ts:1060](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1060)*
+*Defined in [index.d.ts:1184](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1184)*
 
 Render options applied to the current decoration. For performance reasons, keep the
 number of decoration specific options small, and use decoration types wherever possible.

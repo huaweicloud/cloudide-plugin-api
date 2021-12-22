@@ -24,7 +24,7 @@ the [rename](https://code.visualstudio.com/docs/editor/editingevolved#_rename-sy
 
 ▸ `Optional`**prepareRename**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Range](../classes/_index_d_._plugin_.range.md) \| { placeholder: string ; range: [Range](../classes/_index_d_._plugin_.range.md)  }>
 
-*Defined in [index.d.ts:3180](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3180)*
+*Defined in [index.d.ts:3410](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3410)*
 
 Optional function for resolving and validating a position *before* running rename. The result can
 be a range or a range and a placeholder text. The placeholder text should be the identifier of the symbol
@@ -51,7 +51,7 @@ ___
 
 ▸ **provideRenameEdits**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `newName`: string, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[WorkspaceEdit](../classes/_index_d_._plugin_.workspaceedit.md)>
 
-*Defined in [index.d.ts:3165](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3165)*
+*Defined in [index.d.ts:3395](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3395)*
 
 Provide an edit that describes changes that have to be made to one
 or many resources to rename a symbol to a different name.

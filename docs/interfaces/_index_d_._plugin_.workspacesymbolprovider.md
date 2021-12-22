@@ -2,10 +2,16 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / WorkspaceSymbolProvider
 
-# Interface: WorkspaceSymbolProvider
+# Interface: WorkspaceSymbolProvider\<T>
 
 The workspace symbol provider interface defines the contract between extensions and
 the [symbol search](https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name)-feature.
+
+## Type parameters
+
+Name | Type | Default |
+------ | ------ | ------ |
+`T` | [SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md) | SymbolInformation |
 
 ## Hierarchy
 
@@ -22,9 +28,9 @@ the [symbol search](https://code.visualstudio.com/docs/editor/editingevolved#_op
 
 ### provideWorkspaceSymbols
 
-▸ **provideWorkspaceSymbols**(`query`: string, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md)[]>
+▸ **provideWorkspaceSymbols**(`query`: string, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
-*Defined in [index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2828)*
+*Defined in [index.d.ts:3057](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3057)*
 
 Project-wide search for a symbol matching the given query string.
 
@@ -44,7 +50,7 @@ Name | Type | Description |
 `query` | string | A query string, can be the empty string in which case all symbols should be returned. |
 `token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md)[]>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
 An array of document highlights or a thenable that resolves to such. The lack of a result can be
 signaled by returning `undefined`, `null`, or an empty array.
@@ -53,9 +59,9 @@ ___
 
 ### resolveWorkspaceSymbol
 
-▸ `Optional`**resolveWorkspaceSymbol**(`symbol`: [SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md)>
+▸ `Optional`**resolveWorkspaceSymbol**(`symbol`: T, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
-*Defined in [index.d.ts:2842](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2842)*
+*Defined in [index.d.ts:3071](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3071)*
 
 Given a symbol fill in its [location](#SymbolInformation.location). This method is called whenever a symbol
 is selected in the UI. Providers can implement this method and return incomplete symbols from
@@ -66,10 +72,10 @@ performance.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`symbol` | [SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md) | The symbol that is to be resolved. Guaranteed to be an instance of an object returned from an earlier call to `provideWorkspaceSymbols`. |
+`symbol` | T | The symbol that is to be resolved. Guaranteed to be an instance of an object returned from an earlier call to `provideWorkspaceSymbols`. |
 `token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SymbolInformation](../classes/_index_d_._plugin_.symbolinformation.md)>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
 The resolved symbol or a thenable that resolves to that. When no result is returned,
 the given `symbol` is used.

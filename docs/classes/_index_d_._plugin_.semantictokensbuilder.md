@@ -28,7 +28,7 @@ which contains delta encoded semantic tokens.
 
 \+ **new SemanticTokensBuilder**(`legend?`: [SemanticTokensLegend](_index_d_._plugin_.semantictokenslegend.md)): [SemanticTokensBuilder](_index_d_._plugin_.semantictokensbuilder.md)
 
-*Defined in [index.d.ts:3204](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3204)*
+*Defined in [index.d.ts:3434](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3434)*
 
 #### Parameters:
 
@@ -44,7 +44,7 @@ Name | Type |
 
 ▸ **build**(`resultId?`: string): [SemanticTokens](_index_d_._plugin_.semantictokens.md)
 
-*Defined in [index.d.ts:3231](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3231)*
+*Defined in [index.d.ts:3461](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3461)*
 
 Finish and create a `SemanticTokens` instance.
 
@@ -62,7 +62,7 @@ ___
 
 ▸ **push**(`line`: number, `char`: number, `length`: number, `tokenType`: number, `tokenModifiers?`: number): void
 
-*Defined in [index.d.ts:3217](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3217)*
+*Defined in [index.d.ts:3447](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3447)*
 
 Add another token.
 
@@ -80,7 +80,7 @@ Name | Type | Description |
 
 ▸ **push**(`range`: [Range](_index_d_._plugin_.range.md), `tokenType`: string, `tokenModifiers?`: string[]): void
 
-*Defined in [index.d.ts:3226](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3226)*
+*Defined in [index.d.ts:3456](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3456)*
 
 Add another token. Use only when providing a legend.
 

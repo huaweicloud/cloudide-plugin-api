@@ -26,7 +26,7 @@ active and only one active parameter.
 
 •  **activeParameter**: number
 
-*Defined in [index.d.ts:3586](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3586)*
+*Defined in [index.d.ts:3816](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3816)*
 
 The active parameter of the active signature.
 
@@ -36,7 +36,7 @@ ___
 
 •  **activeSignature**: number
 
-*Defined in [index.d.ts:3581](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3581)*
+*Defined in [index.d.ts:3811](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3811)*
 
 The active signature.
 
@@ -46,6 +46,6 @@ ___
 
 •  **signatures**: [SignatureInformation](_index_d_._plugin_.signatureinformation.md)[]
 
-*Defined in [index.d.ts:3576](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3576)*
+*Defined in [index.d.ts:3806](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3806)*
 
 One or more signatures.

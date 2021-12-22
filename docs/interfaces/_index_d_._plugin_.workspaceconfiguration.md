@@ -15,7 +15,7 @@ Represents the configuration. It is a merged view of
 The *effective* value (returned by [`get`](#WorkspaceConfiguration.get)) is computed by overriding or merging the values in the following order.
 
 ```
-`defaultValue`
+`defaultValue` (if defined in `package.json` otherwise derived from the value's type)
 `globalValue` (if defined)
 `workspaceValue` (if defined)
 `workspaceFolderValue` (if defined)
@@ -86,7 +86,7 @@ Readable dictionary that backs this configuration.
 The *effective* value (returned by [`get`](#WorkspaceConfiguration.get)) is computed by overriding or merging the values in the following order.
 
 ```
-`defaultValue`
+`defaultValue` (if defined in `package.json` otherwise derived from the value's type)
 `globalValue` (if defined)
 `workspaceValue` (if defined)
 `workspaceFolderValue` (if defined)
@@ -153,7 +153,7 @@ Refer to [Settings](https://code.visualstudio.com/docs/getstarted/settings) for 
 
 ▸ **get**\<T>(`section`: string): T \| undefined
 
-*Defined in [index.d.ts:4697](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4697)*
+*Defined in [index.d.ts:4994](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4994)*
 
 Return a value from this configuration.
 
@@ -175,7 +175,7 @@ The value `section` denotes or `undefined`.
 
 ▸ **get**\<T>(`section`: string, `defaultValue`: T): T
 
-*Defined in [index.d.ts:4706](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4706)*
+*Defined in [index.d.ts:5003](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5003)*
 
 Return a value from this configuration.
 
@@ -202,7 +202,7 @@ ___
 
 ▸ **has**(`section`: string): boolean
 
-*Defined in [index.d.ts:4714](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4714)*
+*Defined in [index.d.ts:5011](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5011)*
 
 Check if this configuration has a certain value.
 
@@ -222,7 +222,7 @@ ___
 
 ▸ **inspect**\<T>(`section`: string): { defaultLanguageValue?: T ; defaultValue?: T ; globalLanguageValue?: T ; globalValue?: T ; key: string ; languageIds?: string[] ; workspaceFolderLanguageValue?: T ; workspaceFolderValue?: T ; workspaceLanguageValue?: T ; workspaceValue?: T  } \| undefined
 
-*Defined in [index.d.ts:4730](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4730)*
+*Defined in [index.d.ts:5027](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5027)*
 
 Retrieve all information about a configuration setting. A configuration value
 often consists of a *default* value, a global or installation-wide value,
@@ -256,7 +256,7 @@ ___
 
 ▸ **update**(`section`: string, `value`: any, `configurationTarget?`: [ConfigurationTarget](../enums/_index_d_._plugin_.configurationtarget.md) \| boolean, `overrideInLanguage?`: boolean): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:4776](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4776)*
+*Defined in [index.d.ts:5073](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5073)*
 
 Update a configuration value. The updated configuration values are persisted.
 

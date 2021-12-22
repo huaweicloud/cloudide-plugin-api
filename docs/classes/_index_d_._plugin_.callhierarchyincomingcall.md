@@ -27,7 +27,7 @@ Represents an incoming call, e.g. a caller of a method or constructor.
 
 \+ **new CallHierarchyIncomingCall**(`item`: [CallHierarchyItem](_index_d_._plugin_.callhierarchyitem.md), `fromRanges`: [Range](_index_d_._plugin_.range.md)[]): [CallHierarchyIncomingCall](_index_d_._plugin_.callhierarchyincomingcall.md)
 
-*Defined in [index.d.ts:4348](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4348)*
+*Defined in [index.d.ts:4597](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4597)*
 
 Create a new call object.
 
@@ -46,7 +46,7 @@ Name | Type | Description |
 
 •  **from**: [CallHierarchyItem](_index_d_._plugin_.callhierarchyitem.md)
 
-*Defined in [index.d.ts:4342](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4342)*
+*Defined in [index.d.ts:4591](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4591)*
 
 The item that makes the call.
 
@@ -56,7 +56,7 @@ ___
 
 •  **fromRanges**: [Range](_index_d_._plugin_.range.md)[]
 
-*Defined in [index.d.ts:4348](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4348)*
+*Defined in [index.d.ts:4597](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4597)*
 
 The range at which at which the calls appears. This is relative to the caller
 denoted by [`this.from`](#CallHierarchyIncomingCall.from).

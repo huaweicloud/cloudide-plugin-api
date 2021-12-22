@@ -20,7 +20,7 @@ How a [`SignatureHelpProvider`](#SignatureHelpProvider) was triggered.
 
 •  **ContentChange**:  = 3
 
-*Defined in [index.d.ts:3606](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3606)*
+*Defined in [index.d.ts:3836](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3836)*
 
 Signature help was triggered by the cursor moving or by the document content changing.
 
@@ -30,7 +30,7 @@ ___
 
 •  **Invoke**:  = 1
 
-*Defined in [index.d.ts:3596](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3596)*
+*Defined in [index.d.ts:3826](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3826)*
 
 Signature help was invoked manually by the user or by a command.
 
@@ -40,6 +40,6 @@ ___
 
 •  **TriggerCharacter**:  = 2
 
-*Defined in [index.d.ts:3601](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3601)*
+*Defined in [index.d.ts:3831](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3831)*
 
 Signature help was triggered by a trigger character.

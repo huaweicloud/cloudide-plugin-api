@@ -36,7 +36,7 @@ reasons the creation of a code lens and resolving should be done to two stages.
 
 \+ **new CodeLens**(`range`: [Range](_index_d_._plugin_.range.md), `command?`: [Command](../interfaces/_index_d_._plugin_.command.md)): [CodeLens](_index_d_._plugin_.codelens.md)
 
-*Defined in [index.d.ts:2266](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2266)*
+*Defined in [index.d.ts:2491](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2491)*
 
 Creates a new code lens object.
 
@@ -55,7 +55,7 @@ Name | Type | Description |
 
 • `Optional` **command**: [Command](../interfaces/_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:2261](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2261)*
+*Defined in [index.d.ts:2486](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2486)*
 
 The command this code lens represents.
 
@@ -65,7 +65,7 @@ ___
 
 • `Readonly` **isResolved**: boolean
 
-*Defined in [index.d.ts:2266](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2266)*
+*Defined in [index.d.ts:2491](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2491)*
 
 `true` when there is a command associated.
 
@@ -75,6 +75,6 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2256](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2256)*
+*Defined in [index.d.ts:2481](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2481)*
 
 The range in which this code lens is valid. Should only span a single line.

@@ -54,7 +54,7 @@ Second, bind the command identifier to a title under which it will show in the p
 
 ▸ **executeCommand**\<T>(`command`: string, ...`rest`: any[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7182](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7182)*
+*Defined in [index.d.ts:8201](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L8201)*
 
 Executes the command denoted by the given command identifier.
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **getCommands**(`filterInternal?`: boolean): [Thenable](../interfaces/_index_d_.thenable.md)\<string[]>
 
-*Defined in [index.d.ts:7191](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7191)*
+*Defined in [index.d.ts:8210](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L8210)*
 
 Retrieve the list of all available commands. Commands starting with an underscore are
 treated as internal commands.
@@ -109,7 +109,7 @@ ___
 
 ▸ **registerCommand**(`command`: string, `callback`: (...args: any[]) => any, `thisArg?`: any): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7150](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7150)*
+*Defined in [index.d.ts:8168](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L8168)*
 
 Registers a command that can be invoked via a keyboard shortcut,
 a menu item, an action, or directly.
@@ -135,7 +135,7 @@ ___
 
 ▸ **registerTextEditorCommand**(`command`: string, `callback`: (textEditor: [TextEditor](../interfaces/_index_d_._plugin_.texteditor.md), edit: [TextEditorEdit](../interfaces/_index_d_._plugin_.texteditoredit.md), ...args: any[]) => void, `thisArg?`: any): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7166](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7166)*
+*Defined in [index.d.ts:8185](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L8185)*
 
 Registers a text editor command that can be invoked via a keyboard shortcut,
 a menu item, an action, or directly.
@@ -143,7 +143,8 @@ a menu item, an action, or directly.
 Text editor commands are different from ordinary [commands](#commands.registerCommand) as
 they only execute when there is an active editor when the command is called. Also, the
 command handler of an editor command has access to the active editor and to an
-[edit](#TextEditorEdit)-builder.
+[edit](#TextEditorEdit)-builder. Note that the edit-builder is only valid while the
+callback executes.
 
 #### Parameters:
 

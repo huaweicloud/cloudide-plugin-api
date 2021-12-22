@@ -27,7 +27,7 @@ A comment is displayed within the editor or the Comments Panel, depending on how
 
 •  **author**: [CommentAuthorInformation](_index_d_._plugin_.commentauthorinformation.md)
 
-*Defined in [index.d.ts:10859](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10859)*
+*Defined in [index.d.ts:12345](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12345)*
 
 The [author information](#CommentAuthorInformation) of the comment
 
@@ -37,7 +37,7 @@ ___
 
 •  **body**: string \| [MarkdownString](../classes/_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:10849](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10849)*
+*Defined in [index.d.ts:12335](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12335)*
 
 The human-readable comment body
 
@@ -47,7 +47,7 @@ ___
 
 • `Optional` **contextValue**: string
 
-*Defined in [index.d.ts:10879](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10879)*
+*Defined in [index.d.ts:12365](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12365)*
 
 Context value of the comment. This can be used to contribute comment specific actions.
 For example, a comment is given a context value as `editable`. When contributing actions to `comments/comment/title`
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **label**: string
 
-*Defined in [index.d.ts:10890](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10890)*
+*Defined in [index.d.ts:12376](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12376)*
 
 Optional label describing the [Comment](#Comment)
 Label will be rendered next to authorName if exists.
@@ -83,7 +83,7 @@ ___
 
 •  **mode**: [CommentMode](../enums/_index_d_._plugin_.commentmode.md)
 
-*Defined in [index.d.ts:10854](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10854)*
+*Defined in [index.d.ts:12340](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12340)*
 
 [Comment mode](#CommentMode) of the comment
 
@@ -93,6 +93,6 @@ ___
 
 • `Optional` **reactions**: [CommentReaction](_index_d_._plugin_.commentreaction.md)[]
 
-*Defined in [index.d.ts:10884](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10884)*
+*Defined in [index.d.ts:12370](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12370)*
 
 Optional reactions of the [comment](#Comment)

@@ -2,10 +2,16 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / CodeLensProvider
 
-# Interface: CodeLensProvider
+# Interface: CodeLensProvider\<T>
 
 A code lens provider adds [commands](#Command) to source text. The commands will be shown
 as dedicated horizontal lines in between the source text.
+
+## Type parameters
+
+Name | Type | Default |
+------ | ------ | ------ |
+`T` | [CodeLens](../classes/_index_d_._plugin_.codelens.md) | CodeLens |
 
 ## Hierarchy
 
@@ -28,7 +34,7 @@ as dedicated horizontal lines in between the source text.
 
 • `Optional` **onDidChangeCodeLenses**: [Event](_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:2286](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2286)*
+*Defined in [index.d.ts:2511](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2511)*
 
 An optional event to signal that the code lenses from this provider have changed.
 
@@ -36,9 +42,9 @@ An optional event to signal that the code lenses from this provider have changed
 
 ### provideCodeLenses
 
-▸ **provideCodeLenses**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[CodeLens](../classes/_index_d_._plugin_.codelens.md)[]>
+▸ **provideCodeLenses**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
-*Defined in [index.d.ts:2298](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2298)*
+*Defined in [index.d.ts:2523](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2523)*
 
 Compute a list of [lenses](#CodeLens). This call should return as fast as possible and if
 computing the commands is expensive implementors should only return code lens objects with the
@@ -51,7 +57,7 @@ Name | Type | Description |
 `document` | [TextDocument](_index_d_._plugin_.textdocument.md) | The document in which the command was invoked. |
 `token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[CodeLens](../classes/_index_d_._plugin_.codelens.md)[]>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
 An array of code lenses or a thenable that resolves to such. The lack of a result can be
 signaled by returning `undefined`, `null`, or an empty array.
@@ -60,9 +66,9 @@ ___
 
 ### resolveCodeLens
 
-▸ `Optional`**resolveCodeLens**(`codeLens`: [CodeLens](../classes/_index_d_._plugin_.codelens.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[CodeLens](../classes/_index_d_._plugin_.codelens.md)>
+▸ `Optional`**resolveCodeLens**(`codeLens`: T, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
-*Defined in [index.d.ts:2308](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2308)*
+*Defined in [index.d.ts:2533](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2533)*
 
 This function will be called for each visible code lens, usually when scrolling and after
 calls to [compute](#CodeLensProvider.provideCodeLenses)-lenses.
@@ -71,9 +77,9 @@ calls to [compute](#CodeLensProvider.provideCodeLenses)-lenses.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`codeLens` | [CodeLens](../classes/_index_d_._plugin_.codelens.md) | code lens that must be resolved. |
+`codeLens` | T | Code lens that must be resolved. |
 `token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[CodeLens](../classes/_index_d_._plugin_.codelens.md)>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
 The given, resolved code lens or thenable that resolves to such.

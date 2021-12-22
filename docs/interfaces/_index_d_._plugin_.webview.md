@@ -30,7 +30,7 @@ Displays html content, similarly to an iframe.
 
 • `Readonly` **cspSource**: string
 
-*Defined in [index.d.ts:6716](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6716)*
+*Defined in [index.d.ts:7343](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7343)*
 
 Content security policy source for webview resources.
 
@@ -46,7 +46,7 @@ ___
 
 •  **html**: string
 
-*Defined in [index.d.ts:6673](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6673)*
+*Defined in [index.d.ts:7300](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7300)*
 
 HTML contents of the webview.
 
@@ -78,11 +78,11 @@ ___
 
 • `Readonly` **onDidReceiveMessage**: [Event](_index_d_._plugin_.event.md)\<any>
 
-*Defined in [index.d.ts:6682](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6682)*
+*Defined in [index.d.ts:7309](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7309)*
 
 Fired when the webview content posts a message.
 
-Webview content can post strings or json serilizable objects back to a VS Code extension. They cannot
+Webview content can post strings or json serializable objects back to a VS Code extension. They cannot
 post `Blob`, `File`, `ImageData` and other DOM specific objects since the extension that receives the
 message does not run in a browser environment.
 
@@ -92,7 +92,7 @@ ___
 
 •  **options**: [WebviewOptions](_index_d_._plugin_.webviewoptions.md)
 
-*Defined in [index.d.ts:6646](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6646)*
+*Defined in [index.d.ts:7273](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7273)*
 
 Content settings for the webview.
 
@@ -102,7 +102,7 @@ Content settings for the webview.
 
 ▸ **asWebviewUri**(`localResource`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:6705](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6705)*
+*Defined in [index.d.ts:7332](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7332)*
 
 Convert a uri for the local file system to one that can be used inside webviews.
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **postMessage**(`message`: any): [Thenable](_index_d_.thenable.md)\<boolean>
 
-*Defined in [index.d.ts:6692](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6692)*
+*Defined in [index.d.ts:7319](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7319)*
 
 Post a message to the webview content.
 
@@ -139,6 +139,6 @@ background with `retainContextWhenHidden`).
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`message` | any | Body of the message. This must be a string or other json serilizable object.  |
+`message` | any | Body of the message. This must be a string or other json serializable object.  |
 
 **Returns:** [Thenable](_index_d_.thenable.md)\<boolean>

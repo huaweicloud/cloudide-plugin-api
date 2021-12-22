@@ -15,7 +15,9 @@ show text and icons and run a command on click.
 
 ### Properties
 
+* [accessibilityInformation](_index_d_._plugin_.statusbaritem.md#accessibilityinformation)
 * [alignment](_index_d_._plugin_.statusbaritem.md#alignment)
+* [backgroundColor](_index_d_._plugin_.statusbaritem.md#backgroundcolor)
 * [color](_index_d_._plugin_.statusbaritem.md#color)
 * [command](_index_d_._plugin_.statusbaritem.md#command)
 * [priority](_index_d_._plugin_.statusbaritem.md#priority)
@@ -30,13 +32,40 @@ show text and icons and run a command on click.
 
 ## Properties
 
+### accessibilityInformation
+
+• `Optional` **accessibilityInformation**: [AccessibilityInformation](_index_d_._plugin_.accessibilityinformation.md)
+
+*Defined in [index.d.ts:5586](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5586)*
+
+Accessibility information used when screen reader interacts with this StatusBar item
+
+___
+
 ### alignment
 
 • `Readonly` **alignment**: [StatusBarAlignment](../enums/_index_d_._plugin_.statusbaralignment.md)
 
-*Defined in [index.d.ts:5218](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5218)*
+*Defined in [index.d.ts:5533](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5533)*
 
 The alignment of this item.
+
+___
+
+### backgroundColor
+
+•  **backgroundColor**: [ThemeColor](../classes/_index_d_._plugin_.themecolor.md) \| undefined
+
+*Defined in [index.d.ts:5571](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5571)*
+
+The background color for this entry.
+
+*Note*: only `new ThemeColor('statusBarItem.errorBackground')` is
+supported for now. More background colors may be supported in the
+future.
+
+*Note*: when a background color is set, the statusbar may override
+the `color` choice to ensure the entry is readable in all themes.
 
 ___
 
@@ -44,7 +73,7 @@ ___
 
 •  **color**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md) \| undefined
 
-*Defined in [index.d.ts:5244](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5244)*
+*Defined in [index.d.ts:5559](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5559)*
 
 The foreground color for this entry.
 
@@ -54,7 +83,7 @@ ___
 
 •  **command**: string \| [Command](_index_d_._plugin_.command.md) \| undefined
 
-*Defined in [index.d.ts:5254](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5254)*
+*Defined in [index.d.ts:5581](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5581)*
 
 [`Command`](#Command) or identifier of a command to run on click.
 
@@ -69,7 +98,7 @@ ___
 
 • `Optional` `Readonly` **priority**: number
 
-*Defined in [index.d.ts:5224](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5224)*
+*Defined in [index.d.ts:5539](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5539)*
 
 The priority of this item. Higher value means the item should
 be shown more to the left.
@@ -80,13 +109,13 @@ ___
 
 •  **text**: string
 
-*Defined in [index.d.ts:5234](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5234)*
+*Defined in [index.d.ts:5549](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5549)*
 
 The text to show for the entry. You can embed icons in the text by leveraging the syntax:
 
 `My text $(icon-name) contains icons like $(icon-name) this one.`
 
-Where the icon-name is taken from the [codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html) icon set, e.g.
+Where the icon-name is taken from the ThemeIcon [icon set](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing), e.g.
 `light-bulb`, `thumbsup`, `zap` etc.
 
 ___
@@ -95,7 +124,7 @@ ___
 
 •  **tooltip**: string \| undefined
 
-*Defined in [index.d.ts:5239](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5239)*
+*Defined in [index.d.ts:5554](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5554)*
 
 The tooltip text when you hover over this entry.
 
@@ -105,7 +134,7 @@ The tooltip text when you hover over this entry.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:5270](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5270)*
+*Defined in [index.d.ts:5602](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5602)*
 
 Dispose and free associated resources. Call
 [hide](#StatusBarItem.hide).
@@ -118,7 +147,7 @@ ___
 
 ▸ **hide**(): void
 
-*Defined in [index.d.ts:5264](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5264)*
+*Defined in [index.d.ts:5596](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5596)*
 
 Hide the entry in the status bar.
 
@@ -130,7 +159,7 @@ ___
 
 ▸ **show**(): void
 
-*Defined in [index.d.ts:5259](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5259)*
+*Defined in [index.d.ts:5591](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5591)*
 
 Shows the entry in the status bar.
 

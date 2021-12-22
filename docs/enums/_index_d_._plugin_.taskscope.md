@@ -19,9 +19,9 @@ The scope of a task.
 
 •  **Global**:  = 1
 
-*Defined in [index.d.ts:5929](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5929)*
+*Defined in [index.d.ts:6530](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6530)*
 
-The task is a global task. Global tasks are currrently not supported.
+The task is a global task. Global tasks are currently not supported.
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 •  **Workspace**:  = 2
 
-*Defined in [index.d.ts:5934](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5934)*
+*Defined in [index.d.ts:6535](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6535)*
 
 The task is a workspace task

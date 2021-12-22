@@ -23,7 +23,7 @@ the go to type definition feature.
 
 ▸ **provideTypeDefinition**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Definition](../modules/_index_d_._plugin_.md#definition) \| [DefinitionLink](../modules/_index_d_._plugin_.md#definitionlink)[]>
 
-*Defined in [index.d.ts:2378](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2378)*
+*Defined in [index.d.ts:2603](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2603)*
 
 Provide the type definition of the symbol at the given position and document.
 

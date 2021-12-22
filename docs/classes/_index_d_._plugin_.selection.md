@@ -44,7 +44,7 @@ Represents a text selection in an editor.
 
 *Overrides [Range](_index_d_._plugin_.range.md).[constructor](_index_d_._plugin_.range.md#constructor)*
 
-*Defined in [index.d.ts:491](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L491)*
+*Defined in [index.d.ts:604](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L604)*
 
 Create a selection from two positions.
 
@@ -61,7 +61,7 @@ Name | Type | Description |
 
 *Overrides [Range](_index_d_._plugin_.range.md).[constructor](_index_d_._plugin_.range.md#constructor)*
 
-*Defined in [index.d.ts:499](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L499)*
+*Defined in [index.d.ts:612](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L612)*
 
 Create a selection from four coordinates.
 
@@ -82,7 +82,7 @@ Name | Type | Description |
 
 •  **active**: [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:491](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L491)*
+*Defined in [index.d.ts:604](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L604)*
 
 The position of the cursor.
 This position might be before or after [anchor](#Selection.anchor).
@@ -93,7 +93,7 @@ ___
 
 •  **anchor**: [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:485](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L485)*
+*Defined in [index.d.ts:598](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L598)*
 
 The position at which the selection starts.
 This position might be before or after [active](#Selection.active).
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[end](_index_d_._plugin_.range.md#end)*
 
-*Defined in [index.d.ts:388](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L388)*
+*Defined in [index.d.ts:501](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L501)*
 
 The end position. It is after or equal to [start](#Range.start).
 
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[isEmpty](_index_d_._plugin_.range.md#isempty)*
 
-*Defined in [index.d.ts:413](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L413)*
+*Defined in [index.d.ts:526](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L526)*
 
 `true` if `start` and `end` are equal.
 
@@ -128,7 +128,7 @@ ___
 
 •  **isReversed**: boolean
 
-*Defined in [index.d.ts:514](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L514)*
+*Defined in [index.d.ts:627](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L627)*
 
 A selection is reversed if [active](#Selection.active).isBefore([anchor](#Selection.anchor)).
 
@@ -140,7 +140,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[isSingleLine](_index_d_._plugin_.range.md#issingleline)*
 
-*Defined in [index.d.ts:418](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L418)*
+*Defined in [index.d.ts:531](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L531)*
 
 `true` if `start.line` and `end.line` are equal.
 
@@ -152,7 +152,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[start](_index_d_._plugin_.range.md#start)*
 
-*Defined in [index.d.ts:383](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L383)*
+*Defined in [index.d.ts:496](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L496)*
 
 The start position. It is before or equal to [end](#Range.end).
 
@@ -164,7 +164,7 @@ The start position. It is before or equal to [end](#Range.end).
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[contains](_index_d_._plugin_.range.md#contains)*
 
-*Defined in [index.d.ts:427](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L427)*
+*Defined in [index.d.ts:540](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L540)*
 
 Check if a position or a range is contained in this range.
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[intersection](_index_d_._plugin_.range.md#intersection)*
 
-*Defined in [index.d.ts:446](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L446)*
+*Defined in [index.d.ts:559](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L559)*
 
 Intersect `range` with this range and returns a new range or `undefined`
 if the ranges have no overlap.
@@ -211,7 +211,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[isEqual](_index_d_._plugin_.range.md#isequal)*
 
-*Defined in [index.d.ts:436](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L436)*
+*Defined in [index.d.ts:549](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L549)*
 
 Check if `other` equals this range.
 
@@ -234,7 +234,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[union](_index_d_._plugin_.range.md#union)*
 
-*Defined in [index.d.ts:454](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L454)*
+*Defined in [index.d.ts:567](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L567)*
 
 Compute the union of `other` with this range.
 
@@ -256,7 +256,7 @@ ___
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[with](_index_d_._plugin_.range.md#with)*
 
-*Defined in [index.d.ts:464](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L464)*
+*Defined in [index.d.ts:577](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L577)*
 
 Derived a new range from this range.
 
@@ -276,7 +276,7 @@ If start and end are not different `this` range will be returned.
 
 *Inherited from [Range](_index_d_._plugin_.range.md).[with](_index_d_._plugin_.range.md#with)*
 
-*Defined in [index.d.ts:473](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L473)*
+*Defined in [index.d.ts:586](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L586)*
 
 Derived a new range from this range.
 

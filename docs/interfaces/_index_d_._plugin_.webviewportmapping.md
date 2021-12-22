@@ -23,7 +23,7 @@ Defines a port mapping used for localhost inside the webview.
 
 • `Readonly` **extensionHostPort**: number
 
-*Defined in [index.d.ts:6593](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6593)*
+*Defined in [index.d.ts:7220](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7220)*
 
 Destination port. The `webviewPort` is resolved to this port.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **webviewPort**: number
 
-*Defined in [index.d.ts:6588](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6588)*
+*Defined in [index.d.ts:7215](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L7215)*
 
 Localhost port to remap inside the webview.

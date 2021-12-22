@@ -21,7 +21,7 @@ spaces or unsupported characters.
 
 •  **Escape**:  = 1
 
-*Defined in [index.d.ts:5827](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5827)*
+*Defined in [index.d.ts:6428](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6428)*
 
 Character escaping should be used. This for example
 uses \ on bash and ` on PowerShell.
@@ -32,7 +32,7 @@ ___
 
 •  **Strong**:  = 2
 
-*Defined in [index.d.ts:5836](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5836)*
+*Defined in [index.d.ts:6437](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6437)*
 
 Strong string quoting should be used. This for example
 uses " for Windows cmd and ' for bash and PowerShell.
@@ -46,7 +46,7 @@ ___
 
 •  **Weak**:  = 3
 
-*Defined in [index.d.ts:5845](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5845)*
+*Defined in [index.d.ts:6446](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6446)*
 
 Weak string quoting should be used. This for example
 uses " for Windows cmd, bash and PowerShell. Weak quoting

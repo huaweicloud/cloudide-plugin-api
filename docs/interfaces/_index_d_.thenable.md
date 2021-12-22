@@ -31,7 +31,7 @@ Name |
 
 ▸ **then**\<TResult>(`onfulfilled?`: (value: T) => TResult \| [Thenable](_index_d_.thenable.md)\<TResult>, `onrejected?`: (reason: any) => TResult \| [Thenable](_index_d_.thenable.md)\<TResult>): [Thenable](_index_d_.thenable.md)\<TResult>
 
-*Defined in [index.d.ts:10991](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10991)*
+*Defined in [index.d.ts:12632](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12632)*
 
 Attaches callbacks for the resolution and/or rejection of the Promise.
 
@@ -54,7 +54,7 @@ A Promise for the completion of which ever callback is executed.
 
 ▸ **then**\<TResult>(`onfulfilled?`: (value: T) => TResult \| [Thenable](_index_d_.thenable.md)\<TResult>, `onrejected?`: (reason: any) => void): [Thenable](_index_d_.thenable.md)\<TResult>
 
-*Defined in [index.d.ts:10992](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10992)*
+*Defined in [index.d.ts:12633](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12633)*
 
 #### Type parameters:
 

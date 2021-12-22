@@ -46,7 +46,7 @@ Represents theme specific rendering styles for a [text editor decoration](#TextE
 
 • `Optional` **after**: [ThemableDecorationAttachmentRenderOptions](_index_d_._plugin_.themabledecorationattachmentrenderoptions.md)
 
-*Defined in [index.d.ts:954](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L954)*
+*Defined in [index.d.ts:1078](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1078)*
 
 Defines the rendering options of the attachment that is inserted after the decorated text.
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **backgroundColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:834](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L834)*
+*Defined in [index.d.ts:958](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L958)*
 
 Background color of the decoration. Use rgba() and define transparent background colors to play well with other decorations.
 Alternatively a color from the color registry can be [referenced](#ThemeColor).
@@ -67,7 +67,7 @@ ___
 
 • `Optional` **before**: [ThemableDecorationAttachmentRenderOptions](_index_d_._plugin_.themabledecorationattachmentrenderoptions.md)
 
-*Defined in [index.d.ts:949](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L949)*
+*Defined in [index.d.ts:1073](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1073)*
 
 Defines the rendering options of the attachment that is inserted before the decorated text.
 
@@ -77,7 +77,7 @@ ___
 
 • `Optional` **border**: string
 
-*Defined in [index.d.ts:862](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L862)*
+*Defined in [index.d.ts:986](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L986)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -87,7 +87,7 @@ ___
 
 • `Optional` **borderColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:868](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L868)*
+*Defined in [index.d.ts:992](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L992)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'border' for setting one or more of the individual border properties.
@@ -98,7 +98,7 @@ ___
 
 • `Optional` **borderRadius**: string
 
-*Defined in [index.d.ts:874](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L874)*
+*Defined in [index.d.ts:998](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L998)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'border' for setting one or more of the individual border properties.
@@ -109,7 +109,7 @@ ___
 
 • `Optional` **borderSpacing**: string
 
-*Defined in [index.d.ts:880](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L880)*
+*Defined in [index.d.ts:1004](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1004)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'border' for setting one or more of the individual border properties.
@@ -120,7 +120,7 @@ ___
 
 • `Optional` **borderStyle**: string
 
-*Defined in [index.d.ts:886](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L886)*
+*Defined in [index.d.ts:1010](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1010)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'border' for setting one or more of the individual border properties.
@@ -131,7 +131,7 @@ ___
 
 • `Optional` **borderWidth**: string
 
-*Defined in [index.d.ts:892](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L892)*
+*Defined in [index.d.ts:1016](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1016)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'border' for setting one or more of the individual border properties.
@@ -142,7 +142,7 @@ ___
 
 • `Optional` **color**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:917](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L917)*
+*Defined in [index.d.ts:1041](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1041)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -152,7 +152,7 @@ ___
 
 • `Optional` **cursor**: string
 
-*Defined in [index.d.ts:912](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L912)*
+*Defined in [index.d.ts:1036](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1036)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -162,7 +162,7 @@ ___
 
 • `Optional` **fontStyle**: string
 
-*Defined in [index.d.ts:897](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L897)*
+*Defined in [index.d.ts:1021](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1021)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -172,7 +172,7 @@ ___
 
 • `Optional` **fontWeight**: string
 
-*Defined in [index.d.ts:902](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L902)*
+*Defined in [index.d.ts:1026](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1026)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -182,7 +182,7 @@ ___
 
 • `Optional` **gutterIconPath**: string \| [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:932](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L932)*
+*Defined in [index.d.ts:1056](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1056)*
 
 An **absolute path** or an URI to an image to be rendered in the gutter.
 
@@ -192,7 +192,7 @@ ___
 
 • `Optional` **gutterIconSize**: string
 
-*Defined in [index.d.ts:939](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L939)*
+*Defined in [index.d.ts:1063](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1063)*
 
 Specifies the size of the gutter icon.
 Available values are 'auto', 'contain', 'cover' and any percentage value.
@@ -204,7 +204,7 @@ ___
 
 • `Optional` **letterSpacing**: string
 
-*Defined in [index.d.ts:927](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L927)*
+*Defined in [index.d.ts:1051](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1051)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -214,7 +214,7 @@ ___
 
 • `Optional` **opacity**: string
 
-*Defined in [index.d.ts:922](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L922)*
+*Defined in [index.d.ts:1046](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1046)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -224,7 +224,7 @@ ___
 
 • `Optional` **outline**: string
 
-*Defined in [index.d.ts:839](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L839)*
+*Defined in [index.d.ts:963](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L963)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 
@@ -234,7 +234,7 @@ ___
 
 • `Optional` **outlineColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:845](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L845)*
+*Defined in [index.d.ts:969](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L969)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'outline' for setting one or more of the individual outline properties.
@@ -245,7 +245,7 @@ ___
 
 • `Optional` **outlineStyle**: string
 
-*Defined in [index.d.ts:851](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L851)*
+*Defined in [index.d.ts:975](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L975)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'outline' for setting one or more of the individual outline properties.
@@ -256,7 +256,7 @@ ___
 
 • `Optional` **outlineWidth**: string
 
-*Defined in [index.d.ts:857](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L857)*
+*Defined in [index.d.ts:981](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L981)*
 
 CSS styling property that will be applied to text enclosed by a decoration.
 Better use 'outline' for setting one or more of the individual outline properties.
@@ -267,7 +267,7 @@ ___
 
 • `Optional` **overviewRulerColor**: string \| [ThemeColor](../classes/_index_d_._plugin_.themecolor.md)
 
-*Defined in [index.d.ts:944](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L944)*
+*Defined in [index.d.ts:1068](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1068)*
 
 The color of the decoration in the overview ruler. Use rgba() and define transparent colors to play well with other decorations.
 
@@ -277,6 +277,6 @@ ___
 
 • `Optional` **textDecoration**: string
 
-*Defined in [index.d.ts:907](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L907)*
+*Defined in [index.d.ts:1031](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1031)*
 
 CSS styling property that will be applied to text enclosed by a decoration.

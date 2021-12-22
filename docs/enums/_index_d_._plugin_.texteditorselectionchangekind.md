@@ -20,7 +20,7 @@ Represents sources that can cause [selection change events](#window.onDidChangeT
 
 •  **Command**:  = 3
 
-*Defined in [index.d.ts:532](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L532)*
+*Defined in [index.d.ts:645](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L645)*
 
 Selection changed because a command ran.
 
@@ -30,7 +30,7 @@ ___
 
 •  **Keyboard**:  = 1
 
-*Defined in [index.d.ts:524](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L524)*
+*Defined in [index.d.ts:637](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L637)*
 
 Selection changed due to typing in the editor.
 
@@ -40,6 +40,6 @@ ___
 
 •  **Mouse**:  = 2
 
-*Defined in [index.d.ts:528](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L528)*
+*Defined in [index.d.ts:641](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L641)*
 
 Selection change due to clicking in the editor.

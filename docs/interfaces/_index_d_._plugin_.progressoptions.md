@@ -24,7 +24,7 @@ Value-object describing where and how progress should show.
 
 • `Optional` **cancellable**: boolean
 
-*Defined in [index.d.ts:8345](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8345)*
+*Defined in [index.d.ts:9715](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9715)*
 
 Controls if a cancel button should show to allow the user to
 cancel the long running operation.  Note that currently only
@@ -37,7 +37,7 @@ ___
 
 •  **location**: [ProgressLocation](../enums/_index_d_._plugin_.progresslocation.md) \| { viewId: string  }
 
-*Defined in [index.d.ts:8331](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8331)*
+*Defined in [index.d.ts:9701](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9701)*
 
 The location at which progress should show.
 
@@ -47,7 +47,7 @@ ___
 
 • `Optional` **title**: string
 
-*Defined in [index.d.ts:8337](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8337)*
+*Defined in [index.d.ts:9707](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9707)*
 
 A human-readable string which will be used to describe the
 operation.

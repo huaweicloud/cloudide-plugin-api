@@ -18,6 +18,7 @@ provide users various ways to interact with comments.
 * [commentingRangeProvider](_index_d_._plugin_.commentcontroller.md#commentingrangeprovider)
 * [id](_index_d_._plugin_.commentcontroller.md#id)
 * [label](_index_d_._plugin_.commentcontroller.md#label)
+* [options](_index_d_._plugin_.commentcontroller.md#options)
 * [reactionHandler](_index_d_._plugin_.commentcontroller.md#reactionhandler)
 
 ### Methods
@@ -31,7 +32,7 @@ provide users various ways to interact with comments.
 
 • `Optional` **commentingRangeProvider**: [CommentingRangeProvider](_index_d_._plugin_.commentingrangeprovider.md)
 
-*Defined in [index.d.ts:10938](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10938)*
+*Defined in [index.d.ts:12444](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12444)*
 
 Optional commenting range provider. Provide a list [ranges](#Range) which support commenting to any given resource uri.
 
@@ -43,7 +44,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:10926](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10926)*
+*Defined in [index.d.ts:12427](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12427)*
 
 The id of this comment controller.
 
@@ -53,17 +54,27 @@ ___
 
 • `Readonly` **label**: string
 
-*Defined in [index.d.ts:10931](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10931)*
+*Defined in [index.d.ts:12432](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12432)*
 
 The human-readable label of this comment controller.
 
 ___
 
+### options
+
+• `Optional` **options**: [CommentOptions](_index_d_._plugin_.commentoptions.md)
+
+*Defined in [index.d.ts:12437](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12437)*
+
+Comment controller options
+
+___
+
 ### reactionHandler
 
-• `Optional` **reactionHandler**: (comment: [Comment](_index_d_._plugin_.comment.md), reaction: [CommentReaction](_index_d_._plugin_.commentreaction.md)) => Promise\<void>
+• `Optional` **reactionHandler**: (comment: [Comment](_index_d_._plugin_.comment.md), reaction: [CommentReaction](_index_d_._plugin_.commentreaction.md)) => [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:10953](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10953)*
+*Defined in [index.d.ts:12459](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12459)*
 
 Optional reaction handler for creating and deleting reactions on a [comment](#Comment).
 
@@ -73,7 +84,7 @@ Optional reaction handler for creating and deleting reactions on a [comment](#Co
 
 ▸ **createCommentThread**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `range`: [Range](../classes/_index_d_._plugin_.range.md), `comments`: [Comment](_index_d_._plugin_.comment.md)[]): [CommentThread](_index_d_._plugin_.commentthread.md)
 
-*Defined in [index.d.ts:10948](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10948)*
+*Defined in [index.d.ts:12454](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12454)*
 
 Create a [comment thread](#CommentThread). The comment thread will be displayed in visible text editors (if the resource matches)
 and Comments Panel once created.
@@ -94,7 +105,7 @@ ___
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:10961](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10961)*
+*Defined in [index.d.ts:12467](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L12467)*
 
 Dispose this comment controller.
 

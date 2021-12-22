@@ -30,7 +30,7 @@ To get an instance of a `TextEditorDecorationType` use
 
 • `Readonly` **key**: string
 
-*Defined in [index.d.ts:693](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L693)*
+*Defined in [index.d.ts:806](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L806)*
 
 Internal representation of the handle.
 
@@ -40,7 +40,7 @@ Internal representation of the handle.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:698](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L698)*
+*Defined in [index.d.ts:811](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L811)*
 
 Remove this decoration type and all decorations on all text editors using it.
 

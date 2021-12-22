@@ -22,7 +22,7 @@ A debug adapter descriptor for an inline implementation.
 
 \+ **new DebugAdapterInlineImplementation**(`implementation`: [DebugAdapter](../interfaces/_index_d_._plugin_.debugadapter.md)): [DebugAdapterInlineImplementation](_index_d_._plugin_.debugadapterinlineimplementation.md)
 
-*Defined in [index.d.ts:10317](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10317)*
+*Defined in [index.d.ts:11765](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11765)*
 
 Create a descriptor for an inline implementation of a debug adapter.
 

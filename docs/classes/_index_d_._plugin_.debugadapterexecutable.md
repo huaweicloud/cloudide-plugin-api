@@ -28,7 +28,7 @@ Represents a debug adapter executable and optional arguments and runtime options
 
 \+ **new DebugAdapterExecutable**(`command`: string, `args?`: string[], `options?`: [DebugAdapterExecutableOptions](../interfaces/_index_d_._plugin_.debugadapterexecutableoptions.md)): [DebugAdapterExecutable](_index_d_._plugin_.debugadapterexecutable.md)
 
-*Defined in [index.d.ts:10218](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10218)*
+*Defined in [index.d.ts:11658](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11658)*
 
 Creates a description for a debug adapter based on an executable program.
 
@@ -48,7 +48,7 @@ Name | Type | Description |
 
 • `Readonly` **args**: string[]
 
-*Defined in [index.d.ts:10239](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10239)*
+*Defined in [index.d.ts:11679](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11679)*
 
 The arguments passed to the debug adapter executable. Defaults to an empty array.
 
@@ -58,7 +58,7 @@ ___
 
 • `Readonly` **command**: string
 
-*Defined in [index.d.ts:10234](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10234)*
+*Defined in [index.d.ts:11674](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11674)*
 
 The command or path of the debug adapter executable.
 A command must be either an absolute path of an executable or the name of an command to be looked up via the PATH environment variable.
@@ -70,7 +70,7 @@ ___
 
 • `Optional` `Readonly` **options**: [DebugAdapterExecutableOptions](../interfaces/_index_d_._plugin_.debugadapterexecutableoptions.md)
 
-*Defined in [index.d.ts:10245](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10245)*
+*Defined in [index.d.ts:11685](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11685)*
 
 Optional options to be used when the debug adapter is started.
 Defaults to undefined.

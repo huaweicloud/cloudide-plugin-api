@@ -20,7 +20,7 @@ runs where the UI (window) runs or if an extension runs remotely.
 
 •  **UI**:  = 1
 
-*Defined in [index.d.ts:5361](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5361)*
+*Defined in [index.d.ts:5819](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5819)*
 
 Extension runs where the UI runs.
 
@@ -30,6 +30,6 @@ ___
 
 •  **Workspace**:  = 2
 
-*Defined in [index.d.ts:5366](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5366)*
+*Defined in [index.d.ts:5824](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5824)*
 
 Extension runs where the remote extension host runs.

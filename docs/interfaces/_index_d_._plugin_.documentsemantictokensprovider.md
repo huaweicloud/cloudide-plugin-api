@@ -28,7 +28,7 @@ semantic tokens.
 
 • `Optional` **onDidChangeSemanticTokens**: [Event](_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:3304](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3304)*
+*Defined in [index.d.ts:3534](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3534)*
 
 An optional event to signal that the semantic tokens from this provider have changed.
 
@@ -38,7 +38,7 @@ An optional event to signal that the semantic tokens from this provider have cha
 
 ▸ **provideDocumentSemanticTokens**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SemanticTokens](../classes/_index_d_._plugin_.semantictokens.md)>
 
-*Defined in [index.d.ts:3365](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3365)*
+*Defined in [index.d.ts:3595](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3595)*
 
 Tokens in a file are represented as an array of integers. The position of each token is expressed relative to
 the token before it, because most tokens remain stable relative to each other when edits are made in a file.
@@ -113,7 +113,7 @@ ___
 
 ▸ `Optional`**provideDocumentSemanticTokensEdits**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `previousResultId`: string, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[SemanticTokens](../classes/_index_d_._plugin_.semantictokens.md) \| [SemanticTokensEdits](../classes/_index_d_._plugin_.semantictokensedits.md)>
 
-*Defined in [index.d.ts:3396](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3396)*
+*Defined in [index.d.ts:3626](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3626)*
 
 Instead of always returning all the tokens in a file, it is possible for a `DocumentSemanticTokensProvider` to implement
 this method (`provideDocumentSemanticTokensEdits`) and then return incremental updates to the previously provided semantic tokens.

@@ -1,5 +1,5 @@
 /********************************************************************************
- * Copyright (C) 2020. Huawei Technologies Co., Ltd. All rights reserved.
+ * Copyright (C) 2021. Huawei Technologies Co., Ltd. All rights reserved.
  * SPDX-License-Identifier: MIT
  ********************************************************************************/
 
@@ -18,6 +18,9 @@ declare module '@cloudide/plugin' {
      */
     export const version: string;
 
+    /**
+     * Type of plugin. The value can be `frontend` or `backend`.
+     */
     export type PluginType = 'frontend' | 'backend';
 
     /**
@@ -8638,7 +8641,8 @@ declare module '@cloudide/plugin' {
         export function createCloudWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { area: string, viewColumn: ViewColumn, preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
 
         /**
-         * Create and show a new dialog with a iframe inside.
+         * Create and show a new dialog with a iframe inside. 
+         * You can set the contents of the dialog box as you like.
          *
          * @param CustomizableDialogOptions Content and options of the dialog.
          *
@@ -8646,6 +8650,9 @@ declare module '@cloudide/plugin' {
          */
         export function createCustomizableDialog(options: CustomizableDialogOptions): Promise<CustomizableDialog>;
 
+        /**
+         * Represents options to create a customizable dialog.
+         */
         export interface CustomizableDialogOptions {
             /**
              * Title displayed at the top of the dialog box.
@@ -8678,6 +8685,10 @@ declare module '@cloudide/plugin' {
             height?: number;
         }
 
+        /**
+         * Represents event of customizable,
+         * used as the `onclose` callback parameter in `CustomizableDialogOptions`.
+         */
         export interface CustomizableDialogEvent extends Event<any> {
             /**
              * The target you clicked when close the dialog.
@@ -8691,6 +8702,9 @@ declare module '@cloudide/plugin' {
             dialogData?: string;
         }
 
+        /**
+         * Represents button of customizable dialog.
+         */
         export interface DialogButton extends DialogControlElement {
             /**
              * Display as a primary button. Defaults to true.
@@ -8698,17 +8712,35 @@ declare module '@cloudide/plugin' {
             primary?: boolean;
         }
 
+        /**
+         * Represents the interface returned after a customizable dialog is created.
+         */
         export interface CustomizableDialog {
+            /**
+             * Close the current dialog box.
+             */
             close(): void;
             /**
              * ID of iframe in the dialog box.
              */
             id: string;
+            /**
+             * Data from the dialog box.
+             */
             data: string | undefined;
+            /**
+             * Update the content of the current dialog box.
+             */
             updateContent(content: string): void;
+            /**
+             * Update the buttons of the current dialog box.
+             */
             updateButtons(buttons: DialogButton[]): void;
         }
 
+        /**
+         * Represents control element of customizable dialog.
+         */
         export interface DialogControlElement {
             innerText: string;
             title?: string;

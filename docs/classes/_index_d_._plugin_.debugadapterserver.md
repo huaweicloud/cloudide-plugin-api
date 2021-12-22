@@ -27,7 +27,7 @@ Represents a debug adapter running as a socket based server.
 
 \+ **new DebugAdapterServer**(`port`: number, `host?`: string): [DebugAdapterServer](_index_d_._plugin_.debugadapterserver.md)
 
-*Defined in [index.d.ts:10279](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10279)*
+*Defined in [index.d.ts:11719](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11719)*
 
 Create a description for a debug adapter running as a socket based server.
 
@@ -46,7 +46,7 @@ Name | Type |
 
 • `Optional` `Readonly` **host**: string
 
-*Defined in [index.d.ts:10279](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10279)*
+*Defined in [index.d.ts:11719](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11719)*
 
 The host.
 
@@ -56,6 +56,6 @@ ___
 
 • `Readonly` **port**: number
 
-*Defined in [index.d.ts:10274](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10274)*
+*Defined in [index.d.ts:11714](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11714)*
 
 The port.

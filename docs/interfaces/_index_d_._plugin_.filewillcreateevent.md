@@ -30,7 +30,7 @@ thenable that resolves to a [workspace edit](#WorkspaceEdit).
 
 • `Readonly` **files**: ReadonlyArray\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:8734](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8734)*
+*Defined in [index.d.ts:10104](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10104)*
 
 The files that are going to be created.
 
@@ -40,7 +40,7 @@ The files that are going to be created.
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<[WorkspaceEdit](../classes/_index_d_._plugin_.workspaceedit.md)>): void
 
-*Defined in [index.d.ts:8754](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8754)*
+*Defined in [index.d.ts:10124](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10124)*
 
 Allows to pause the event and to apply a [workspace edit](#WorkspaceEdit).
 
@@ -67,7 +67,7 @@ Name | Type | Description |
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<any>): void
 
-*Defined in [index.d.ts:8763](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8763)*
+*Defined in [index.d.ts:10133](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10133)*
 
 Allows to pause the event until the provided thenable resolves.
 

@@ -23,7 +23,7 @@ a symbolic links, in that case use `FileType.File | FileType.SymbolicLink` and
 
 •  **Directory**:  = 2
 
-*Defined in [index.d.ts:6232](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6232)*
+*Defined in [index.d.ts:6844](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6844)*
 
 A directory.
 
@@ -33,7 +33,7 @@ ___
 
 •  **File**:  = 1
 
-*Defined in [index.d.ts:6228](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6228)*
+*Defined in [index.d.ts:6840](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6840)*
 
 A regular file.
 
@@ -43,7 +43,7 @@ ___
 
 •  **SymbolicLink**:  = 64
 
-*Defined in [index.d.ts:6236](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6236)*
+*Defined in [index.d.ts:6848](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6848)*
 
 A symbolic link to a file.
 
@@ -53,6 +53,6 @@ ___
 
 •  **Unknown**:  = 0
 
-*Defined in [index.d.ts:6224](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6224)*
+*Defined in [index.d.ts:6836](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6836)*
 
 The file type is unknown.

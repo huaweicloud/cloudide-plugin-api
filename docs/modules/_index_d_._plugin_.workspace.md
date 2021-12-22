@@ -57,7 +57,7 @@ the editor-process so that they should be always used instead of nodejs-equivale
 
 • `Const` **fs**: [FileSystem](../interfaces/_index_d_._plugin_.filesystem.md)
 
-*Defined in [index.d.ts:8946](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8946)*
+*Defined in [index.d.ts:10315](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10315)*
 
 A [file system](#FileSystem) instance that allows to interact with local and remote
 files, e.g. `vscode.workspace.fs.readDirectory(someUri)` allows to retrieve all entries
@@ -70,7 +70,7 @@ ___
 
 • `Const` **name**: string \| undefined
 
-*Defined in [index.d.ts:8966](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8966)*
+*Defined in [index.d.ts:10335](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10335)*
 
 The name of the workspace. `undefined` when no folder
 has been opened.
@@ -81,7 +81,7 @@ ___
 
 • `Const` **onDidChangeConfiguration**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[ConfigurationChangeEvent](../interfaces/_index_d_._plugin_.configurationchangeevent.md)>
 
-*Defined in [index.d.ts:9325](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9325)*
+*Defined in [index.d.ts:10700](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10700)*
 
 An event that is emitted when the [configuration](#WorkspaceConfiguration) changed.
 
@@ -91,7 +91,7 @@ ___
 
 • `Const` **onDidChangeTextDocument**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextDocumentChangeEvent](../interfaces/_index_d_._plugin_.textdocumentchangeevent.md)>
 
-*Defined in [index.d.ts:9215](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9215)*
+*Defined in [index.d.ts:10590](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10590)*
 
 An event that is emitted when a [text document](#TextDocument) is changed. This usually happens
 when the [contents](#TextDocument.getText) changes but also when other things like the
@@ -103,7 +103,7 @@ ___
 
 • `Const` **onDidChangeWorkspaceFolders**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[WorkspaceFoldersChangeEvent](../interfaces/_index_d_._plugin_.workspacefolderschangeevent.md)>
 
-*Defined in [index.d.ts:9002](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9002)*
+*Defined in [index.d.ts:10371](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10371)*
 
 An event that is emitted when a workspace folder is added or removed.
 
@@ -113,14 +113,16 @@ ___
 
 • `Const` **onDidCloseTextDocument**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9208](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9208)*
+*Defined in [index.d.ts:10583](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10583)*
 
 An event that is emitted when a [text document](#TextDocument) is disposed or when the language id
 of a text document [has been changed](#languages.setTextDocumentLanguage).
 
-To add an event listener when a visible text document is closed, use the [TextEditor](#TextEditor) events in the
-[window](#window) namespace. Note that this event is not emitted when a [TextEditor](#TextEditor) is closed
-but the document remains open in another [visible text editor](#window.visibleTextEditors).
+*Note 1:* There is no guarantee that this event fires when an editor tab is closed, use the
+[`onDidChangeVisibleTextEditors`](#window.onDidChangeVisibleTextEditors)-event to know when editors change.
+
+*Note 2:* A document can be open but not shown in an editor which means this event can fire
+for a document that has not been shown in an editor.
 
 ___
 
@@ -128,7 +130,7 @@ ___
 
 • `Const` **onDidCreateFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileCreateEvent](../interfaces/_index_d_._plugin_.filecreateevent.md)>
 
-*Defined in [index.d.ts:9257](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9257)*
+*Defined in [index.d.ts:10632](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10632)*
 
 An event that is emitted when files have been created.
 
@@ -143,7 +145,7 @@ ___
 
 • `Const` **onDidDeleteFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileDeleteEvent](../interfaces/_index_d_._plugin_.filedeleteevent.md)>
 
-*Defined in [index.d.ts:9281](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9281)*
+*Defined in [index.d.ts:10656](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10656)*
 
 An event that is emitted when files have been deleted.
 
@@ -160,7 +162,7 @@ ___
 
 • `Const` **onDidOpenTextDocument**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9198](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9198)*
+*Defined in [index.d.ts:10571](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10571)*
 
 An event that is emitted when a [text document](#TextDocument) is opened or when the language id
 of a text document [has been changed](#languages.setTextDocumentLanguage).
@@ -178,7 +180,7 @@ ___
 
 • `Const` **onDidRenameFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileRenameEvent](../interfaces/_index_d_._plugin_.filerenameevent.md)>
 
-*Defined in [index.d.ts:9305](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9305)*
+*Defined in [index.d.ts:10680](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10680)*
 
 An event that is emitted when files have been renamed.
 
@@ -195,7 +197,7 @@ ___
 
 • `Const` **onDidSaveTextDocument**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9235](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9235)*
+*Defined in [index.d.ts:10610](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10610)*
 
 An event that is emitted when a [text document](#TextDocument) is saved to disk.
 
@@ -205,7 +207,7 @@ ___
 
 • `Const` **onWillCreateFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileWillCreateEvent](../interfaces/_index_d_._plugin_.filewillcreateevent.md)>
 
-*Defined in [index.d.ts:9247](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9247)*
+*Defined in [index.d.ts:10622](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10622)*
 
 An event that is emitted when files are being created.
 
@@ -214,7 +216,7 @@ explorer, or from the [`workspace.applyEdit`](#workspace.applyEdit)-api. This ev
 files change on disk, e.g triggered by another application, or when using the
 [`workspace.fs`](#FileSystem)-api.
 
-*Note 2:* When this event is fired, edits to files thare are being created cannot be applied.
+*Note 2:* When this event is fired, edits to files that are are being created cannot be applied.
 
 ___
 
@@ -222,7 +224,7 @@ ___
 
 • `Const` **onWillDeleteFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileWillDeleteEvent](../interfaces/_index_d_._plugin_.filewilldeleteevent.md)>
 
-*Defined in [index.d.ts:9269](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9269)*
+*Defined in [index.d.ts:10644](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10644)*
 
 An event that is emitted when files are being deleted.
 
@@ -239,7 +241,7 @@ ___
 
 • `Const` **onWillRenameFiles**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[FileWillRenameEvent](../interfaces/_index_d_._plugin_.filewillrenameevent.md)>
 
-*Defined in [index.d.ts:9293](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9293)*
+*Defined in [index.d.ts:10668](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10668)*
 
 An event that is emitted when files are being renamed.
 
@@ -256,7 +258,7 @@ ___
 
 • `Const` **onWillSaveTextDocument**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextDocumentWillSaveEvent](../interfaces/_index_d_._plugin_.textdocumentwillsaveevent.md)>
 
-*Defined in [index.d.ts:9230](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9230)*
+*Defined in [index.d.ts:10605](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10605)*
 
 An event that is emitted when a [text document](#TextDocument) will be saved to disk.
 
@@ -276,10 +278,10 @@ ___
 
 • `Const` **rootPath**: string \| undefined
 
-*Defined in [index.d.ts:8954](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8954)*
+*Defined in [index.d.ts:10323](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10323)*
 
-~~The folder that is open in the editor. `undefined` when no folder
-has been opened.~~
+The folder that is open in the editor. `undefined` when no folder
+has been opened.
 
 **`deprecated`** Use [`workspaceFolders`](#workspace.workspaceFolders) instead.
 
@@ -289,7 +291,7 @@ ___
 
 • `Const` **textDocuments**: ReadonlyArray\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9134](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9134)*
+*Defined in [index.d.ts:10507](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10507)*
 
 All text documents currently known to the system.
 
@@ -299,7 +301,7 @@ ___
 
 • `Const` **workspaceFile**: [Uri](../classes/_index_d_._plugin_.uri.md) \| undefined
 
-*Defined in [index.d.ts:8997](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8997)*
+*Defined in [index.d.ts:10366](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10366)*
 
 The location of the workspace file, for example:
 
@@ -335,7 +337,7 @@ ___
 
 • `Const` **workspaceFolders**: ReadonlyArray\<[WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md)> \| undefined
 
-*Defined in [index.d.ts:8960](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8960)*
+*Defined in [index.d.ts:10329](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10329)*
 
 List of workspace folders or `undefined` when no folder is open.
 *Note* that the first entry corresponds to the value of `rootPath`.
@@ -346,7 +348,7 @@ List of workspace folders or `undefined` when no folder is open.
 
 ▸ **applyEdit**(`edit`: [WorkspaceEdit](../classes/_index_d_._plugin_.workspaceedit.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<boolean>
 
-*Defined in [index.d.ts:9129](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9129)*
+*Defined in [index.d.ts:10502](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10502)*
 
 Make changes to one or many resources or create, delete, and rename resources as defined by the given
 [workspace edit](#WorkspaceEdit).
@@ -376,7 +378,7 @@ ___
 
 ▸ **asRelativePath**(`pathOrUri`: string \| [Uri](../classes/_index_d_._plugin_.uri.md), `includeWorkspaceFolder?`: boolean): string
 
-*Defined in [index.d.ts:9026](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9026)*
+*Defined in [index.d.ts:10395](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10395)*
 
 Returns a path that is relative to the workspace folder or folders.
 
@@ -400,7 +402,7 @@ ___
 
 ▸ **createFileSystemWatcher**(`globPattern`: [GlobPattern](_index_d_._plugin_.md#globpattern), `ignoreCreateEvents?`: boolean, `ignoreChangeEvents?`: boolean, `ignoreDeleteEvents?`: boolean): [FileSystemWatcher](../interfaces/_index_d_._plugin_.filesystemwatcher.md)
 
-*Defined in [index.d.ts:9086](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9086)*
+*Defined in [index.d.ts:10457](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10457)*
 
 Creates a file system watcher.
 
@@ -408,6 +410,8 @@ A glob pattern that filters the file events on their absolute path must be provi
 flags to ignore certain kinds of events can be provided. To stop listening to events the watcher must be disposed.
 
 *Note* that only files within the current [workspace folders](#workspace.workspaceFolders) can be watched.
+*Note* that when watching for file changes such as '**​/*.js', notifications will not be sent when a parent folder is
+moved or deleted (this is a known limitation of the current implementation and may change in the future).
 
 #### Parameters:
 
@@ -428,11 +432,12 @@ ___
 
 ▸ **findFiles**(`include`: [GlobPattern](_index_d_._plugin_.md#globpattern), `exclude?`: [GlobPattern](_index_d_._plugin_.md#globpattern) \| null, `maxResults?`: number, `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)[]>
 
-*Defined in [index.d.ts:9103](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9103)*
+*Defined in [index.d.ts:10476](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10476)*
 
 Find files across all [workspace folders](#workspace.workspaceFolders) in the workspace.
 
-**`sample`** `findFiles('**​/*.js', '**​/node_modules/**', 10)`
+**`example`** 
+findFiles('**​/*.js', '**​/node_modules/**', 10)
 
 #### Parameters:
 
@@ -454,7 +459,7 @@ ___
 
 ▸ **getConfiguration**(`section?`: string \| undefined, `scope?`: [ConfigurationScope](_index_d_._plugin_.md#configurationscope) \| null): [WorkspaceConfiguration](../interfaces/_index_d_._plugin_.workspaceconfiguration.md)
 
-*Defined in [index.d.ts:9320](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9320)*
+*Defined in [index.d.ts:10695](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10695)*
 
 Get a workspace configuration object.
 
@@ -462,7 +467,7 @@ When a section-identifier is provided only that part of the configuration
 is returned. Dots in the section-identifier are interpreted as child-access,
 like `{ myExt: { setting: { doIt: true }}}` and `getConfiguration('myExt.setting').get('doIt') === true`.
 
-When a scope is provided configuraiton confined to that scope is returned. Scope can be a resource or a language identifier or both.
+When a scope is provided configuration confined to that scope is returned. Scope can be a resource or a language identifier or both.
 
 #### Parameters:
 
@@ -481,7 +486,7 @@ ___
 
 ▸ **getWorkspaceFolder**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md) \| undefined
 
-*Defined in [index.d.ts:9012](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9012)*
+*Defined in [index.d.ts:10381](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10381)*
 
 Returns the [workspace folder](#WorkspaceFolder) that contains a given uri.
 * returns `undefined` when the given uri doesn't match any workspace folder
@@ -503,7 +508,7 @@ ___
 
 ▸ **openTextDocument**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9154](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9154)*
+*Defined in [index.d.ts:10527](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10527)*
 
 Opens a document. Will return early if this document is already open. Otherwise
 the document is loaded and the [didOpen](#workspace.onDidOpenTextDocument)-event fires.
@@ -531,7 +536,7 @@ A promise that resolves to a [document](#TextDocument).
 
 ▸ **openTextDocument**(`fileName`: string): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9163](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9163)*
+*Defined in [index.d.ts:10536](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10536)*
 
 A short-hand for `openTextDocument(Uri.file(fileName))`.
 
@@ -549,7 +554,7 @@ A promise that resolves to a [document](#TextDocument).
 
 ▸ **openTextDocument**(`options?`: { content?: string ; language?: string  }): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)>
 
-*Defined in [index.d.ts:9173](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9173)*
+*Defined in [index.d.ts:10546](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10546)*
 
 Opens an untitled text document. The editor will prompt the user for a file
 path when the document is to be saved. The `options` parameter allows to
@@ -571,7 +576,7 @@ ___
 
 ▸ **registerFileSystemProvider**(`scheme`: string, `provider`: [FileSystemProvider](../interfaces/_index_d_._plugin_.filesystemprovider.md), `options?`: { isCaseSensitive?: boolean ; isReadonly?: boolean  }): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9349](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9349)*
+*Defined in [index.d.ts:10724](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10724)*
 
 Register a filesystem provider for a given scheme, e.g. `ftp`.
 
@@ -596,9 +601,9 @@ ___
 
 ▸ **registerTaskProvider**(`type`: string, `provider`: [TaskProvider](../interfaces/_index_d_._plugin_.taskprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9336](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9336)*
+*Defined in [index.d.ts:10711](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10711)*
 
-~~Register a task provider.~~
+Register a task provider.
 
 **`deprecated`** Use the corresponding function on the `tasks` namespace instead
 
@@ -619,7 +624,7 @@ ___
 
 ▸ **registerTextDocumentContentProvider**(`scheme`: string, `provider`: [TextDocumentContentProvider](../interfaces/_index_d_._plugin_.textdocumentcontentprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:9184](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9184)*
+*Defined in [index.d.ts:10557](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10557)*
 
 Register a text document content provider.
 
@@ -642,7 +647,7 @@ ___
 
 ▸ **saveAll**(`includeUntitled?`: boolean): [Thenable](../interfaces/_index_d_.thenable.md)\<boolean>
 
-*Defined in [index.d.ts:9111](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9111)*
+*Defined in [index.d.ts:10484](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10484)*
 
 Save all dirty files.
 
@@ -662,7 +667,7 @@ ___
 
 ▸ **updateWorkspaceFolders**(`start`: number, `deleteCount`: number \| undefined \| null, ...`workspaceFoldersToAdd`: { name?: string ; uri: [Uri](../classes/_index_d_._plugin_.uri.md)  }[]): boolean
 
-*Defined in [index.d.ts:9069](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9069)*
+*Defined in [index.d.ts:10438](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10438)*
 
 This method replaces `deleteCount` [workspace folders](#workspace.workspaceFolders) starting at index `start`
 by an optional set of `workspaceFoldersToAdd` on the `vscode.workspace.workspaceFolders` array. This "splice"

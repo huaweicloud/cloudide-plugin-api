@@ -9,7 +9,8 @@ Represents a typed event.
 A function that represents an event to which you subscribe by calling it with
 a listener function as argument.
 
-**`sample`** `item.onDidChange(function(event) { console.log("Event happened: " + event); });`
+**`example`** 
+item.onDidChange(function(event) { console.log("Event happened: " + event); });
 
 ## Type parameters
 
@@ -21,11 +22,13 @@ Name |
 
 * **Event**
 
+  ↳ [CustomizableDialogEvent](_index_d_._plugin_.window.customizabledialogevent.md)
+
 ## Callable
 
 ▸ (`listener`: (e: T) => any, `thisArgs?`: any, `disposables?`: [Disposable](../classes/_index_d_._plugin_.disposable.md)[]): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:1488](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1488)*
+*Defined in [index.d.ts:1628](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1628)*
 
 A function that represents an event to which you subscribe by calling it with
 a listener function as argument.

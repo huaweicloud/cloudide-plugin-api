@@ -30,7 +30,7 @@ A grouping for tasks. The editor by default supports the
 
 \+ `Private`**new TaskGroup**(`id`: string, `label`: string): [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:5657](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5657)*
+*Defined in [index.d.ts:6259](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6259)*
 
 #### Parameters:
 
@@ -47,7 +47,7 @@ Name | Type |
 
 ▪ `Static` **Build**: [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:5647](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5647)*
+*Defined in [index.d.ts:6249](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6249)*
 
 The build task group;
 
@@ -57,7 +57,7 @@ ___
 
 ▪ `Static` **Clean**: [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:5642](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5642)*
+*Defined in [index.d.ts:6244](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6244)*
 
 The clean task group;
 
@@ -67,7 +67,7 @@ ___
 
 ▪ `Static` **Rebuild**: [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:5652](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5652)*
+*Defined in [index.d.ts:6254](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6254)*
 
 The rebuild all task group;
 
@@ -77,6 +77,6 @@ ___
 
 ▪ `Static` **Test**: [TaskGroup](_index_d_._plugin_.taskgroup.md)
 
-*Defined in [index.d.ts:5657](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5657)*
+*Defined in [index.d.ts:6259](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6259)*
 
 The test all task group;

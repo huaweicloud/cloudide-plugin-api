@@ -21,7 +21,7 @@ location how progress is visually represented.
 
 •  **Notification**:  = 15
 
-*Defined in [index.d.ts:8320](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8320)*
+*Defined in [index.d.ts:9690](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9690)*
 
 Show progress as notification with an optional cancel button. Supports to show infinite and discrete progress.
 
@@ -31,7 +31,7 @@ ___
 
 •  **SourceControl**:  = 1
 
-*Defined in [index.d.ts:8310](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8310)*
+*Defined in [index.d.ts:9680](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9680)*
 
 Show progress for the source control viewlet, as overlay for the icon and as progress bar
 inside the viewlet (when visible). Neither supports cancellation nor discrete progress.
@@ -42,6 +42,6 @@ ___
 
 •  **Window**:  = 10
 
-*Defined in [index.d.ts:8315](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8315)*
+*Defined in [index.d.ts:9685](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9685)*
 
 Show progress in the status bar of the editor. Neither supports cancellation nor discrete progress.

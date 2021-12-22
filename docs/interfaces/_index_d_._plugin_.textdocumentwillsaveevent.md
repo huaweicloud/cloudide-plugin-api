@@ -31,7 +31,7 @@ that resolves to an array of [text edits](#TextEdit).
 
 • `Readonly` **document**: [TextDocument](_index_d_._plugin_.textdocument.md)
 
-*Defined in [index.d.ts:8683](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8683)*
+*Defined in [index.d.ts:10053](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10053)*
 
 The document that will be saved.
 
@@ -41,7 +41,7 @@ ___
 
 • `Readonly` **reason**: [TextDocumentSaveReason](../enums/_index_d_._plugin_.textdocumentsavereason.md)
 
-*Defined in [index.d.ts:8688](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8688)*
+*Defined in [index.d.ts:10058](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10058)*
 
 The reason why save was triggered.
 
@@ -51,7 +51,7 @@ The reason why save was triggered.
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<[TextEdit](../classes/_index_d_._plugin_.textedit.md)[]>): void
 
-*Defined in [index.d.ts:8710](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8710)*
+*Defined in [index.d.ts:10080](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10080)*
 
 Allows to pause the event loop and to apply [pre-save-edits](#TextEdit).
 Edits of subsequent calls to this function will be applied in order. The
@@ -80,7 +80,7 @@ Name | Type | Description |
 
 ▸ **waitUntil**(`thenable`: [Thenable](_index_d_.thenable.md)\<any>): void
 
-*Defined in [index.d.ts:8719](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8719)*
+*Defined in [index.d.ts:10089](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10089)*
 
 Allows to pause the event loop until the provided thenable resolved.
 

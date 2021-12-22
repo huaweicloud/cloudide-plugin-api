@@ -25,7 +25,7 @@ An event describing an individual change in the text of a [document](#TextDocume
 
 • `Readonly` **range**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:8618](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8618)*
+*Defined in [index.d.ts:9988](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9988)*
 
 The range that got replaced.
 
@@ -35,7 +35,7 @@ ___
 
 • `Readonly` **rangeLength**: number
 
-*Defined in [index.d.ts:8626](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8626)*
+*Defined in [index.d.ts:9996](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9996)*
 
 The length of the range that got replaced.
 
@@ -45,7 +45,7 @@ ___
 
 • `Readonly` **rangeOffset**: number
 
-*Defined in [index.d.ts:8622](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8622)*
+*Defined in [index.d.ts:9992](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9992)*
 
 The offset of the range that got replaced.
 
@@ -55,6 +55,6 @@ ___
 
 • `Readonly` **text**: string
 
-*Defined in [index.d.ts:8630](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8630)*
+*Defined in [index.d.ts:10000](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L10000)*
 
 The new text for the range.

@@ -27,7 +27,7 @@ Controls how the task is presented in the UI.
 
 • `Optional` **clear**: boolean
 
-*Defined in [index.d.ts:5630](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5630)*
+*Defined in [index.d.ts:6232](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6232)*
 
 Controls whether the terminal is cleared before executing the task.
 
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **echo**: boolean
 
-*Defined in [index.d.ts:5608](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5608)*
+*Defined in [index.d.ts:6210](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6210)*
 
 Controls whether the command associated with the task is echoed
 in the user interface.
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **focus**: boolean
 
-*Defined in [index.d.ts:5613](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5613)*
+*Defined in [index.d.ts:6215](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6215)*
 
 Controls whether the panel showing the task output is taking focus.
 
@@ -58,7 +58,7 @@ ___
 
 • `Optional` **panel**: [TaskPanelKind](../enums/_index_d_._plugin_.taskpanelkind.md)
 
-*Defined in [index.d.ts:5620](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5620)*
+*Defined in [index.d.ts:6222](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6222)*
 
 Controls if the task panel is used for this task only (dedicated),
 shared between tasks (shared) or if a new panel is created on
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **reveal**: [TaskRevealKind](../enums/_index_d_._plugin_.taskrevealkind.md)
 
-*Defined in [index.d.ts:5602](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5602)*
+*Defined in [index.d.ts:6204](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6204)*
 
 Controls whether the task output is reveal in the user interface.
 Defaults to `RevealKind.Always`.
@@ -81,6 +81,6 @@ ___
 
 • `Optional` **showReuseMessage**: boolean
 
-*Defined in [index.d.ts:5625](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5625)*
+*Defined in [index.d.ts:6227](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6227)*
 
 Controls whether to show the "Terminal will be reused by tasks, press any key to close it" message.

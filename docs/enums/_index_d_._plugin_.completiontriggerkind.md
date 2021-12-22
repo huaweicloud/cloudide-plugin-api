@@ -20,7 +20,7 @@ How a [completion provider](#CompletionItemProvider) was triggered
 
 •  **Invoke**:  = 0
 
-*Defined in [index.d.ts:3898](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3898)*
+*Defined in [index.d.ts:4138](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4138)*
 
 Completion was triggered normally.
 
@@ -30,7 +30,7 @@ ___
 
 •  **TriggerCharacter**:  = 1
 
-*Defined in [index.d.ts:3902](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3902)*
+*Defined in [index.d.ts:4142](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4142)*
 
 Completion was triggered by a trigger character.
 
@@ -40,6 +40,6 @@ ___
 
 •  **TriggerForIncompleteCompletions**:  = 2
 
-*Defined in [index.d.ts:3906](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3906)*
+*Defined in [index.d.ts:4146](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4146)*
 
 Completion was re-triggered as current completion list is incomplete

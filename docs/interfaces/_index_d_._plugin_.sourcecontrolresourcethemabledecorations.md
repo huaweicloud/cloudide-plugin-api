@@ -25,7 +25,7 @@ The theme-aware decorations for a
 
 • `Optional` `Readonly` **iconPath**: string \| [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:9893](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9893)*
+*Defined in [index.d.ts:11283](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11283)*
 
 The icon path for a specific
 [source control resource state](#SourceControlResourceState).

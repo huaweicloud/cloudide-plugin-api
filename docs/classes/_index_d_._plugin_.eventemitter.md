@@ -38,7 +38,7 @@ Name |
 
 •  **event**: [Event](../interfaces/_index_d_._plugin_.event.md)\<T>
 
-*Defined in [index.d.ts:1515](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1515)*
+*Defined in [index.d.ts:1655](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1655)*
 
 The event listeners can subscribe to.
 
@@ -48,7 +48,7 @@ The event listeners can subscribe to.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:1528](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1528)*
+*Defined in [index.d.ts:1668](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1668)*
 
 Dispose this object and free resources.
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **fire**(`data`: T): void
 
-*Defined in [index.d.ts:1523](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1523)*
+*Defined in [index.d.ts:1663](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1663)*
 
 Notify all subscribers of the [event](#EventEmitter.event). Failure
 of one or more listener will not fail this function call.

@@ -23,7 +23,7 @@ Represents the dimensions of a terminal.
 
 • `Readonly` **columns**: number
 
-*Defined in [index.d.ts:8278](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8278)*
+*Defined in [index.d.ts:9541](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9541)*
 
 The number of columns in the terminal.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **rows**: number
 
-*Defined in [index.d.ts:8283](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8283)*
+*Defined in [index.d.ts:9546](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9546)*
 
 The number of rows in the terminal.

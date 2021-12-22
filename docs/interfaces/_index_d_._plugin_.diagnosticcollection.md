@@ -37,7 +37,7 @@ To get an instance of a `DiagnosticCollection` use
 
 • `Readonly` **name**: string
 
-*Defined in [index.d.ts:5006](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5006)*
+*Defined in [index.d.ts:5303](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5303)*
 
 The name of this diagnostic collection, for instance `typescript`. Every diagnostic
 from this collection will be associated with this name. Also, the task framework uses this
@@ -49,7 +49,7 @@ name when defining [problem matchers](https://code.visualstudio.com/docs/editor/
 
 ▸ **clear**(): void
 
-*Defined in [index.d.ts:5041](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5041)*
+*Defined in [index.d.ts:5338](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5338)*
 
 Remove all diagnostics from this collection. The same
 as calling `#set(undefined)`;
@@ -62,7 +62,7 @@ ___
 
 ▸ **delete**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): void
 
-*Defined in [index.d.ts:5035](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5035)*
+*Defined in [index.d.ts:5332](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5332)*
 
 Remove all diagnostics from this collection that belong
 to the provided `uri`. The same as `#set(uri, undefined)`.
@@ -81,7 +81,7 @@ ___
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:5073](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5073)*
+*Defined in [index.d.ts:5370](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5370)*
 
 Dispose and free associated resources. Calls
 [clear](#DiagnosticCollection.clear).
@@ -94,7 +94,7 @@ ___
 
 ▸ **forEach**(`callback`: (uri: [Uri](../classes/_index_d_._plugin_.uri.md), diagnostics: ReadonlyArray\<[Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)>, collection: [DiagnosticCollection](_index_d_._plugin_.diagnosticcollection.md)) => any, `thisArg?`: any): void
 
-*Defined in [index.d.ts:5049](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5049)*
+*Defined in [index.d.ts:5346](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5346)*
 
 Iterate over each entry in this collection.
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **get**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): ReadonlyArray\<[Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)> \| undefined
 
-*Defined in [index.d.ts:5058](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5058)*
+*Defined in [index.d.ts:5355](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5355)*
 
 Get the diagnostics for a given resource. *Note* that you cannot
 modify the diagnostics-array returned from this call.
@@ -134,7 +134,7 @@ ___
 
 ▸ **has**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): boolean
 
-*Defined in [index.d.ts:5067](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5067)*
+*Defined in [index.d.ts:5364](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5364)*
 
 Check if this collection contains diagnostics for a
 given resource.
@@ -155,7 +155,7 @@ ___
 
 ▸ **set**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `diagnostics`: ReadonlyArray\<[Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)> \| undefined): void
 
-*Defined in [index.d.ts:5015](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5015)*
+*Defined in [index.d.ts:5312](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5312)*
 
 Assign diagnostics for given resource. Will replace
 existing diagnostics for that resource.
@@ -171,11 +171,11 @@ Name | Type | Description |
 
 ▸ **set**(`entries`: ReadonlyArray\<[[Uri](../classes/_index_d_._plugin_.uri.md), ReadonlyArray\<[Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)> \| undefined]>): void
 
-*Defined in [index.d.ts:5027](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5027)*
+*Defined in [index.d.ts:5324](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5324)*
 
-Replace all entries in this collection.
+Replace diagnostics for multiple resources in this collection.
 
-Diagnostics of multiple tuples of the same uri will be merged, e.g
+ _Note_ that multiple tuples of the same uri will be merged, e.g
 `[[file1, [d1]], [file1, [d2]]]` is equivalent to `[[file1, [d1, d2]]]`.
 If a diagnostics item is `undefined` as in `[file1, undefined]`
 all previous but not subsequent diagnostics are removed.

@@ -2,10 +2,16 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / CompletionList
 
-# Class: CompletionList
+# Class: CompletionList\<T>
 
 Represents a collection of [completion items](#CompletionItem) to be presented
 in the editor.
+
+## Type parameters
+
+Name | Type | Default |
+------ | ------ | ------ |
+`T` | [CompletionItem](_index_d_._plugin_.completionitem.md) | CompletionItem |
 
 ## Hierarchy
 
@@ -26,9 +32,9 @@ in the editor.
 
 ### constructor
 
-\+ **new CompletionList**(`items?`: [CompletionItem](_index_d_._plugin_.completionitem.md)[], `isIncomplete?`: boolean): [CompletionList](_index_d_._plugin_.completionlist.md)
+\+ **new CompletionList**(`items?`: T[], `isIncomplete?`: boolean): [CompletionList](_index_d_._plugin_.completionlist.md)
 
-*Defined in [index.d.ts:3880](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3880)*
+*Defined in [index.d.ts:4120](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4120)*
 
 Creates a new completion list.
 
@@ -36,7 +42,7 @@ Creates a new completion list.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`items?` | [CompletionItem](_index_d_._plugin_.completionitem.md)[] | The completion items. |
+`items?` | T[] | The completion items. |
 `isIncomplete?` | boolean | The list is not complete.  |
 
 **Returns:** [CompletionList](_index_d_._plugin_.completionlist.md)
@@ -47,7 +53,7 @@ Name | Type | Description |
 
 • `Optional` **isIncomplete**: boolean
 
-*Defined in [index.d.ts:3875](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3875)*
+*Defined in [index.d.ts:4115](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4115)*
 
 This list is not complete. Further typing should result in recomputing
 this list.
@@ -56,8 +62,8 @@ ___
 
 ### items
 
-•  **items**: [CompletionItem](_index_d_._plugin_.completionitem.md)[]
+•  **items**: T[]
 
-*Defined in [index.d.ts:3880](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3880)*
+*Defined in [index.d.ts:4120](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4120)*
 
 The completion items.

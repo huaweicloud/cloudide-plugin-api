@@ -14,16 +14,30 @@ Options for [starting a debug session](#debug.startDebugging).
 
 ### Properties
 
+* [compact](_index_d_._plugin_.debugsessionoptions.md#compact)
 * [consoleMode](_index_d_._plugin_.debugsessionoptions.md#consolemode)
+* [noDebug](_index_d_._plugin_.debugsessionoptions.md#nodebug)
 * [parentSession](_index_d_._plugin_.debugsessionoptions.md#parentsession)
 
 ## Properties
+
+### compact
+
+• `Optional` **compact**: boolean
+
+*Defined in [index.d.ts:11980](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11980)*
+
+Controls if the debug session's parent session is shown in the CALL STACK view even if it has only a single child.
+By default, the debug session will never hide its parent.
+If compact is true, debug sessions with a single child are hidden in the CALL STACK view to make the tree more compact.
+
+___
 
 ### consoleMode
 
 • `Optional` **consoleMode**: [DebugConsoleMode](../enums/_index_d_._plugin_.debugconsolemode.md)
 
-*Defined in [index.d.ts:10519](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10519)*
+*Defined in [index.d.ts:11967](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11967)*
 
 Controls whether this session should have a separate debug console or share it
 with the parent session. Has no effect for sessions which do not have a parent session.
@@ -31,11 +45,22 @@ Defaults to Separate.
 
 ___
 
+### noDebug
+
+• `Optional` **noDebug**: boolean
+
+*Defined in [index.d.ts:11973](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11973)*
+
+Controls whether this session should run without debugging, thus ignoring breakpoints.
+When this property is not specified, the value from the parent session (if there is one) is used.
+
+___
+
 ### parentSession
 
 • `Optional` **parentSession**: [DebugSession](_index_d_._plugin_.debugsession.md)
 
-*Defined in [index.d.ts:10512](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10512)*
+*Defined in [index.d.ts:11960](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11960)*
 
 When specified the newly created debug session is registered as a "child" session of this
 "parent" debug session.

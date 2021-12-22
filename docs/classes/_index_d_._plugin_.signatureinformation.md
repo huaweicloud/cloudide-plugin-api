@@ -31,7 +31,7 @@ a set of parameters.
 
 \+ **new SignatureInformation**(`label`: string, `documentation?`: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md)): [SignatureInformation](_index_d_._plugin_.signatureinformation.md)
 
-*Defined in [index.d.ts:3555](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3555)*
+*Defined in [index.d.ts:3785](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3785)*
 
 Creates a new signature information object.
 
@@ -50,7 +50,7 @@ Name | Type | Description |
 
 • `Optional` **activeParameter**: number
 
-*Defined in [index.d.ts:3555](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3555)*
+*Defined in [index.d.ts:3785](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3785)*
 
 The index of the active parameter.
 
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **documentation**: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:3543](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3543)*
+*Defined in [index.d.ts:3773](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3773)*
 
 The human-readable doc-comment of this signature. Will be shown
 in the UI but can be omitted.
@@ -73,7 +73,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:3537](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3537)*
+*Defined in [index.d.ts:3767](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3767)*
 
 The label of this signature. Will be shown in
 the UI.
@@ -84,6 +84,6 @@ ___
 
 •  **parameters**: [ParameterInformation](_index_d_._plugin_.parameterinformation.md)[]
 
-*Defined in [index.d.ts:3548](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3548)*
+*Defined in [index.d.ts:3778](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3778)*
 
 The parameters of this signature.

@@ -24,7 +24,7 @@ A uri handler is responsible for handling system-wide [uris](#Uri).
 
 ▸ **handleUri**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<void>
 
-*Defined in [index.d.ts:7217](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7217)*
+*Defined in [index.d.ts:8236](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L8236)*
 
 Handle the provided system-wide [uri](#Uri).
 

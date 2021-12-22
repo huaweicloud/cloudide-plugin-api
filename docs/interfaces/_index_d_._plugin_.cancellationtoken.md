@@ -28,7 +28,7 @@ To get an instance of a `CancellationToken` use a
 
 •  **isCancellationRequested**: boolean
 
-*Defined in [index.d.ts:1421](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1421)*
+*Defined in [index.d.ts:1545](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1545)*
 
 Is `true` when the token has been cancelled, `false` otherwise.
 
@@ -38,6 +38,6 @@ ___
 
 •  **onCancellationRequested**: [Event](_index_d_._plugin_.event.md)\<any>
 
-*Defined in [index.d.ts:1426](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1426)*
+*Defined in [index.d.ts:1550](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1550)*
 
 An [event](#Event) which fires upon cancellation.

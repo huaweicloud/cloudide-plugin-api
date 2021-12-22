@@ -31,7 +31,7 @@ Defines the interface of a terminal pty, enabling extensions to control a termin
 
 • `Optional` **onDidClose**: [Event](_index_d_._plugin_.event.md)\<void \| number>
 
-*Defined in [index.d.ts:8218](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8218)*
+*Defined in [index.d.ts:9481](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9481)*
 
 An event that when fired will signal that the pty is closed and dispose of the terminal.
 
@@ -65,7 +65,7 @@ ___
 
 • `Optional` **onDidOverrideDimensions**: [Event](_index_d_._plugin_.event.md)\<[TerminalDimensions](_index_d_._plugin_.terminaldimensions.md) \| undefined>
 
-*Defined in [index.d.ts:8189](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8189)*
+*Defined in [index.d.ts:9452](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9452)*
 
 An event that when fired allows overriding the [dimensions](#Pseudoterminal.setDimensions) of the
 terminal. Note that when set, the overridden dimensions will only take effect when they
@@ -96,11 +96,12 @@ ___
 
 •  **onDidWrite**: [Event](_index_d_._plugin_.event.md)\<string>
 
-*Defined in [index.d.ts:8163](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8163)*
+*Defined in [index.d.ts:9426](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9426)*
 
 An event that when fired will write data to the terminal. Unlike
-[Terminal.sendText](#Terminal.sendText) which sends text to the underlying _process_
-(the pty "slave"), this will write the text to the terminal itself (the pty "master").
+[Terminal.sendText](#Terminal.sendText) which sends text to the underlying child
+pseudo-device (the child), this will write the text to parent pseudo-device (the
+_terminal_ itself).
 
 Note writing `\n` will just move the cursor down 1 row, you need to write `\r` as well
 to move the cursor to the left-most cell.
@@ -127,7 +128,7 @@ writeEmitter.fire('\x1b[10;20H*');
 
 ▸ **close**(): void
 
-*Defined in [index.d.ts:8231](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8231)*
+*Defined in [index.d.ts:9494](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9494)*
 
 Implement to handle when the terminal is closed by an act of the user.
 
@@ -139,7 +140,7 @@ ___
 
 ▸ `Optional`**handleInput**(`data`: string): void
 
-*Defined in [index.d.ts:8253](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8253)*
+*Defined in [index.d.ts:9516](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9516)*
 
 Implement to handle incoming keystrokes in the terminal or when an extension calls
 [Terminal.sendText](#Terminal.sendText). `data` contains the keystrokes/text serialized into
@@ -159,7 +160,7 @@ ___
 
 ▸ **open**(`initialDimensions`: [TerminalDimensions](_index_d_._plugin_.terminaldimensions.md) \| undefined): void
 
-*Defined in [index.d.ts:8226](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8226)*
+*Defined in [index.d.ts:9489](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9489)*
 
 Implement to handle when the pty is open and ready to start firing events.
 
@@ -177,12 +178,12 @@ ___
 
 ▸ `Optional`**setDimensions**(`dimensions`: [TerminalDimensions](_index_d_._plugin_.terminaldimensions.md)): void
 
-*Defined in [index.d.ts:8268](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8268)*
+*Defined in [index.d.ts:9531](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9531)*
 
 Implement to handle when the number of rows and columns that fit into the terminal panel
 changes, for example when font size changes or when the panel is resized. The initial
 state of a terminal's dimensions should be treated as `undefined` until this is triggered
-as the size of a terminal isn't know until it shows up in the user interface.
+as the size of a terminal isn't known until it shows up in the user interface.
 
 When dimensions are overridden by
 [onDidOverrideDimensions](#Pseudoterminal.onDidOverrideDimensions), `setDimensions` will

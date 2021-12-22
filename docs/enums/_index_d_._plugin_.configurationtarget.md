@@ -20,7 +20,7 @@ The configuration target
 
 •  **Global**:  = 1
 
-*Defined in [index.d.ts:4612](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4612)*
+*Defined in [index.d.ts:4909](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4909)*
 
 Global configuration
 
@@ -30,7 +30,7 @@ ___
 
 •  **Workspace**:  = 2
 
-*Defined in [index.d.ts:4617](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4617)*
+*Defined in [index.d.ts:4914](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4914)*
 
 Workspace configuration
 
@@ -40,6 +40,6 @@ ___
 
 •  **WorkspaceFolder**:  = 3
 
-*Defined in [index.d.ts:4622](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4622)*
+*Defined in [index.d.ts:4919](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4919)*
 
 Workspace folder configuration

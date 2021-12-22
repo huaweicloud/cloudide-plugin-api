@@ -23,6 +23,7 @@ A debug session.
 ### Methods
 
 * [customRequest](_index_d_._plugin_.debugsession.md#customrequest)
+* [getDebugProtocolBreakpoint](_index_d_._plugin_.debugsession.md#getdebugprotocolbreakpoint)
 
 ## Properties
 
@@ -30,7 +31,7 @@ A debug session.
 
 • `Readonly` **configuration**: [DebugConfiguration](_index_d_._plugin_.debugconfiguration.md)
 
-*Defined in [index.d.ts:10141](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10141)*
+*Defined in [index.d.ts:11572](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11572)*
 
 The "resolved" [debug configuration](#DebugConfiguration) of this session.
 "Resolved" means that
@@ -43,7 +44,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:10117](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10117)*
+*Defined in [index.d.ts:11548](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11548)*
 
 The unique ID of this debug session.
 
@@ -53,7 +54,7 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:10128](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10128)*
+*Defined in [index.d.ts:11559](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11559)*
 
 The debug session's name is initially taken from the [debug configuration](#DebugConfiguration).
 Any changes will be properly reflected in the UI.
@@ -64,7 +65,7 @@ ___
 
 • `Readonly` **type**: string
 
-*Defined in [index.d.ts:10122](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10122)*
+*Defined in [index.d.ts:11553](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11553)*
 
 The debug session's type from the [debug configuration](#DebugConfiguration).
 
@@ -74,7 +75,7 @@ ___
 
 • `Readonly` **workspaceFolder**: [WorkspaceFolder](_index_d_._plugin_.workspacefolder.md) \| undefined
 
-*Defined in [index.d.ts:10133](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10133)*
+*Defined in [index.d.ts:11564](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11564)*
 
 The workspace folder of this session or `undefined` for a folderless setup.
 
@@ -84,7 +85,7 @@ The workspace folder of this session or `undefined` for a folderless setup.
 
 ▸ **customRequest**(`command`: string, `args?`: any): [Thenable](_index_d_.thenable.md)\<any>
 
-*Defined in [index.d.ts:10146](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10146)*
+*Defined in [index.d.ts:11577](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11577)*
 
 Send a custom request to the debug adapter.
 
@@ -96,3 +97,24 @@ Name | Type |
 `args?` | any |
 
 **Returns:** [Thenable](_index_d_.thenable.md)\<any>
+
+___
+
+### getDebugProtocolBreakpoint
+
+▸ **getDebugProtocolBreakpoint**(`breakpoint`: [Breakpoint](../classes/_index_d_._plugin_.breakpoint.md)): [Thenable](_index_d_.thenable.md)\<[DebugProtocolBreakpoint](_index_d_._plugin_.debugprotocolbreakpoint.md) \| undefined>
+
+*Defined in [index.d.ts:11586](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11586)*
+
+Maps a VS Code breakpoint to the corresponding Debug Adapter Protocol (DAP) breakpoint that is managed by the debug adapter of the debug session.
+If no DAP breakpoint exists (either because the VS Code breakpoint was not yet registered or because the debug adapter is not interested in the breakpoint), the value `undefined` is returned.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`breakpoint` | [Breakpoint](../classes/_index_d_._plugin_.breakpoint.md) | A VS Code [breakpoint](#Breakpoint). |
+
+**Returns:** [Thenable](_index_d_.thenable.md)\<[DebugProtocolBreakpoint](_index_d_._plugin_.debugprotocolbreakpoint.md) \| undefined>
+
+A promise that resolves to the Debug Adapter Protocol breakpoint or `undefined`.

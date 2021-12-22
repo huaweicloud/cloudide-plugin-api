@@ -22,7 +22,7 @@ Represents how a terminal exited.
 
 • `Readonly` **code**: number \| undefined
 
-*Defined in [index.d.ts:8297](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8297)*
+*Defined in [index.d.ts:9560](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L9560)*
 
 The exit code that a terminal exited with, it can have the following values:
 - Zero: the terminal process or custom execution succeeded.

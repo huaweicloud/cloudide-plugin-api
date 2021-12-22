@@ -26,7 +26,7 @@ Additional information about the context in which a
 
 • `Optional` `Readonly` **activeSignatureHelp**: [SignatureHelp](../classes/_index_d_._plugin_.signaturehelp.md)
 
-*Defined in [index.d.ts:3641](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3641)*
+*Defined in [index.d.ts:3871](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3871)*
 
 The currently active [`SignatureHelp`](#SignatureHelp).
 
@@ -39,7 +39,7 @@ ___
 
 • `Readonly` **isRetrigger**: boolean
 
-*Defined in [index.d.ts:3633](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3633)*
+*Defined in [index.d.ts:3863](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3863)*
 
 `true` if signature help was already showing when it was triggered.
 
@@ -52,7 +52,7 @@ ___
 
 • `Optional` `Readonly` **triggerCharacter**: string
 
-*Defined in [index.d.ts:3625](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3625)*
+*Defined in [index.d.ts:3855](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3855)*
 
 Character that caused signature help to be triggered.
 
@@ -65,6 +65,6 @@ ___
 
 • `Readonly` **triggerKind**: [SignatureHelpTriggerKind](../enums/_index_d_._plugin_.signaturehelptriggerkind.md)
 
-*Defined in [index.d.ts:3617](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3617)*
+*Defined in [index.d.ts:3847](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3847)*
 
 Action that caused signature help to be triggered.

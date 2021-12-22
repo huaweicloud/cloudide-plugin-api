@@ -27,7 +27,7 @@ A Debug Adapter Tracker is a means to track the communication between VS Code an
 
 ▸ `Optional`**onDidSendMessage**(`message`: any): void
 
-*Defined in [index.d.ts:10363](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10363)*
+*Defined in [index.d.ts:11811](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11811)*
 
 The debug adapter has sent a Debug Adapter Protocol message to VS Code.
 
@@ -43,9 +43,9 @@ ___
 
 ### onError
 
-▸ `Optional`**onError**(`error`: [Error](../classes/_index_d_._plugin_.filesystemerror.md#error)): void
+▸ `Optional`**onError**(`error`: [Error](../classes/_index_d_._plugin_.cancellationerror.md#error)): void
 
-*Defined in [index.d.ts:10371](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10371)*
+*Defined in [index.d.ts:11819](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11819)*
 
 An error with the debug adapter has occurred.
 
@@ -53,7 +53,7 @@ An error with the debug adapter has occurred.
 
 Name | Type |
 ------ | ------ |
-`error` | [Error](../classes/_index_d_._plugin_.filesystemerror.md#error) |
+`error` | [Error](../classes/_index_d_._plugin_.cancellationerror.md#error) |
 
 **Returns:** void
 
@@ -63,7 +63,7 @@ ___
 
 ▸ `Optional`**onExit**(`code`: number \| undefined, `signal`: string \| undefined): void
 
-*Defined in [index.d.ts:10375](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10375)*
+*Defined in [index.d.ts:11823](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11823)*
 
 The debug adapter has exited with the given exit code or signal.
 
@@ -82,7 +82,7 @@ ___
 
 ▸ `Optional`**onWillReceiveMessage**(`message`: any): void
 
-*Defined in [index.d.ts:10359](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10359)*
+*Defined in [index.d.ts:11807](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11807)*
 
 The debug adapter is about to receive a Debug Adapter Protocol message from VS Code.
 
@@ -100,7 +100,7 @@ ___
 
 ▸ `Optional`**onWillStartSession**(): void
 
-*Defined in [index.d.ts:10355](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10355)*
+*Defined in [index.d.ts:11803](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11803)*
 
 A session with the debug adapter is about to be started.
 
@@ -112,7 +112,7 @@ ___
 
 ▸ `Optional`**onWillStopSession**(): void
 
-*Defined in [index.d.ts:10367](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10367)*
+*Defined in [index.d.ts:11815](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L11815)*
 
 The debug adapter session is about to be stopped.
 

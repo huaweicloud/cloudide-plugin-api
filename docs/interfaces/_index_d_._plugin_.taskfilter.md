@@ -21,7 +21,7 @@
 
 • `Optional` **type**: string
 
-*Defined in [index.d.ts:6151](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6151)*
+*Defined in [index.d.ts:6759](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6759)*
 
 The task type to return;
 
@@ -31,7 +31,7 @@ ___
 
 • `Optional` **version**: string
 
-*Defined in [index.d.ts:6146](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6146)*
+*Defined in [index.d.ts:6754](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L6754)*
 
 The task version as used in the tasks.json file.
 The string support the package.json semver notation.

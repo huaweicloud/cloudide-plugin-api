@@ -23,7 +23,7 @@ Options to configure the behaviour of the [workspace folder](#WorkspaceFolder) p
 
 • `Optional` **ignoreFocusOut**: boolean
 
-*Defined in [index.d.ts:1693](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1693)*
+*Defined in [index.d.ts:1833](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1833)*
 
 Set to `true` to keep the picker open when focus moves to another part of the editor or to another window.
 
@@ -33,6 +33,6 @@ ___
 
 • `Optional` **placeHolder**: string
 
-*Defined in [index.d.ts:1688](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1688)*
+*Defined in [index.d.ts:1828](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L1828)*
 
 An optional string to show as placeholder in the input box to guide the user what to pick on.

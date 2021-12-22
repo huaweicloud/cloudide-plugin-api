@@ -23,7 +23,7 @@ the [hover](https://code.visualstudio.com/docs/editor/intellisense)-feature.
 
 ▸ **provideHover**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Hover](../classes/_index_d_._plugin_.hover.md)>
 
-*Defined in [index.d.ts:2506](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2506)*
+*Defined in [index.d.ts:2736](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L2736)*
 
 Provide a hover for the given position and document. Multiple hovers at the same
 position will be merged by the editor. A hover can have a range which defaults

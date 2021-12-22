@@ -29,7 +29,7 @@ Signature for further properties.
 
 •  **insertSpaces**: boolean
 
-*Defined in [index.d.ts:3423](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3423)*
+*Defined in [index.d.ts:3653](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3653)*
 
 Prefer spaces over tabs.
 
@@ -39,6 +39,6 @@ ___
 
 •  **tabSize**: number
 
-*Defined in [index.d.ts:3418](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3418)*
+*Defined in [index.d.ts:3648](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L3648)*
 
 Size of a tab in spaces.

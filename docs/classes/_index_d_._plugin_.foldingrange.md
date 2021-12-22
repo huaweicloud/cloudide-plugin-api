@@ -29,7 +29,7 @@ Invalid ranges will be ignored.
 
 \+ **new FoldingRange**(`start`: number, `end`: number, `kind?`: [FoldingRangeKind](../enums/_index_d_._plugin_.foldingrangekind.md)): [FoldingRange](_index_d_._plugin_.foldingrange.md)
 
-*Defined in [index.d.ts:4191](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4191)*
+*Defined in [index.d.ts:4434](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4434)*
 
 Creates a new folding range.
 
@@ -49,7 +49,7 @@ Name | Type | Description |
 
 •  **end**: number
 
-*Defined in [index.d.ts:4182](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4182)*
+*Defined in [index.d.ts:4425](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4425)*
 
 The zero-based end line of the range to fold. The folded area ends with the line's last character.
 To be valid, the end must be zero or larger and smaller than the number of lines in the document.
@@ -60,7 +60,7 @@ ___
 
 • `Optional` **kind**: [FoldingRangeKind](../enums/_index_d_._plugin_.foldingrangekind.md)
 
-*Defined in [index.d.ts:4191](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4191)*
+*Defined in [index.d.ts:4434](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4434)*
 
 Describes the [Kind](#FoldingRangeKind) of the folding range such as [Comment](#FoldingRangeKind.Comment) or
 [Region](#FoldingRangeKind.Region). The kind is used to categorize folding ranges and used by commands
@@ -74,7 +74,7 @@ ___
 
 •  **start**: number
 
-*Defined in [index.d.ts:4176](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4176)*
+*Defined in [index.d.ts:4419](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L4419)*
 
 The zero-based start line of the range to fold. The folded area starts after the line's last character.
 To be valid, the end must be zero or larger and smaller than the number of lines in the document.

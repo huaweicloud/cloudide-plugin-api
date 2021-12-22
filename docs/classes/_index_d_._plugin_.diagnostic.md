@@ -33,7 +33,7 @@ are only valid in the scope of a file.
 
 \+ **new Diagnostic**(`range`: [Range](_index_d_._plugin_.range.md), `message`: string, `severity?`: [DiagnosticSeverity](../enums/_index_d_._plugin_.diagnosticseverity.md)): [Diagnostic](_index_d_._plugin_.diagnostic.md)
 
-*Defined in [index.d.ts:4979](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4979)*
+*Defined in [index.d.ts:5276](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5276)*
 
 Creates a new diagnostic object.
 
@@ -53,7 +53,7 @@ Name | Type | Description |
 
 • `Optional` **code**: string \| number \| { target: [Uri](_index_d_._plugin_.uri.md) ; value: string \| number  }
 
-*Defined in [index.d.ts:4957](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4957)*
+*Defined in [index.d.ts:5254](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5254)*
 
 A code or identifier for this diagnostic.
 Should be used for later processing, e.g. when providing [code actions](#CodeActionContext).
@@ -64,7 +64,7 @@ ___
 
 •  **message**: string
 
-*Defined in [index.d.ts:4940](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4940)*
+*Defined in [index.d.ts:5237](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5237)*
 
 The human-readable message.
 
@@ -74,7 +74,7 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4935](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4935)*
+*Defined in [index.d.ts:5232](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5232)*
 
 The range to which this diagnostic applies.
 
@@ -84,7 +84,7 @@ ___
 
 • `Optional` **relatedInformation**: [DiagnosticRelatedInformation](_index_d_._plugin_.diagnosticrelatedinformation.md)[]
 
-*Defined in [index.d.ts:4974](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4974)*
+*Defined in [index.d.ts:5271](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5271)*
 
 An array of related diagnostic information, e.g. when symbol-names within
 a scope collide all definitions can be marked via this property.
@@ -95,7 +95,7 @@ ___
 
 •  **severity**: [DiagnosticSeverity](../enums/_index_d_._plugin_.diagnosticseverity.md)
 
-*Defined in [index.d.ts:4945](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4945)*
+*Defined in [index.d.ts:5242](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5242)*
 
 The severity, default is [error](#DiagnosticSeverity.Error).
 
@@ -105,7 +105,7 @@ ___
 
 • `Optional` **source**: string
 
-*Defined in [index.d.ts:4951](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4951)*
+*Defined in [index.d.ts:5248](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5248)*
 
 A human-readable string describing the source of this
 diagnostic, e.g. 'typescript' or 'super lint'.
@@ -116,6 +116,6 @@ ___
 
 • `Optional` **tags**: [DiagnosticTag](../enums/_index_d_._plugin_.diagnostictag.md)[]
 
-*Defined in [index.d.ts:4979](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4979)*
+*Defined in [index.d.ts:5276](https://github.com/shuyaqian/cloudide-plugin-api/blob/9d985be/index.d.ts#L5276)*
 
 Additional metadata about the diagnostic.
