@@ -28,6 +28,6 @@ Name |
 
 • `Readonly` **element**: T
 
-*Defined in [index.d.ts:7841](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7841)*
+*Defined in [index.d.ts:9066](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9066)*
 
 Element that is expanded or collapsed.

@@ -22,6 +22,6 @@ The event that is fired when diagnostics change.
 
 • `Readonly` **uris**: ReadonlyArray\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:4846](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4846)*
+*Defined in [index.d.ts:5143](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5143)*
 
 An array of resources for which diagnostics have changed.

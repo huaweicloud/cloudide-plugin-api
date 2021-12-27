@@ -38,7 +38,7 @@ Use the [applyEdit](#workspace.applyEdit)-function to apply a workspace edit.
 
 • `Readonly` **size**: number
 
-*Defined in [index.d.ts:2982](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2982)*
+*Defined in [index.d.ts:3211](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3211)*
 
 The number of affected resources of textual or resource changes.
 
@@ -48,7 +48,7 @@ The number of affected resources of textual or resource changes.
 
 ▸ **createFile**(`uri`: [Uri](_index_d_._plugin_.uri.md), `options?`: { ignoreIfExists?: boolean ; overwrite?: boolean  }, `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:3045](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3045)*
+*Defined in [index.d.ts:3276](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3276)*
 
 Create a regular file.
 
@@ -57,7 +57,7 @@ Create a regular file.
 Name | Type | Description |
 ------ | ------ | ------ |
 `uri` | [Uri](_index_d_._plugin_.uri.md) | Uri of the new file.. |
-`options?` | { ignoreIfExists?: boolean ; overwrite?: boolean  } | Defines if an existing file should be overwritten or be ignored. When overwrite and ignoreIfExists are both set overwrite wins. |
+`options?` | { ignoreIfExists?: boolean ; overwrite?: boolean  } | Defines if an existing file should be overwritten or be ignored. When overwrite and ignoreIfExists are both set overwrite wins. When both are unset and when the file already exists then the edit cannot be applied successfully. |
 `metadata?` | [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md) | Optional metadata for the entry.  |
 
 **Returns:** void
@@ -68,7 +68,7 @@ ___
 
 ▸ **delete**(`uri`: [Uri](_index_d_._plugin_.uri.md), `range`: [Range](_index_d_._plugin_.range.md), `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:3011](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3011)*
+*Defined in [index.d.ts:3240](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3240)*
 
 Delete the text at the given range.
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **deleteFile**(`uri`: [Uri](_index_d_._plugin_.uri.md), `options?`: { ignoreIfNotExists?: boolean ; recursive?: boolean  }, `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:3053](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3053)*
+*Defined in [index.d.ts:3284](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3284)*
 
 Delete a file or folder.
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **entries**(): [[Uri](_index_d_._plugin_.uri.md), [TextEdit](_index_d_._plugin_.textedit.md)[]][]
 
-*Defined in [index.d.ts:3072](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3072)*
+*Defined in [index.d.ts:3302](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3302)*
 
 Get all text edits grouped by resource.
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **get**(`uri`: [Uri](_index_d_._plugin_.uri.md)): [TextEdit](_index_d_._plugin_.textedit.md)[]
 
-*Defined in [index.d.ts:3035](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3035)*
+*Defined in [index.d.ts:3264](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3264)*
 
 Get the text edits for a resource.
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **has**(`uri`: [Uri](_index_d_._plugin_.uri.md)): boolean
 
-*Defined in [index.d.ts:3019](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3019)*
+*Defined in [index.d.ts:3248](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3248)*
 
 Check if a text edit for a resource exists.
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **insert**(`uri`: [Uri](_index_d_._plugin_.uri.md), `position`: [Position](_index_d_._plugin_.position.md), `newText`: string, `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:3002](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3002)*
+*Defined in [index.d.ts:3231](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3231)*
 
 Insert the given text at the given position.
 
@@ -183,7 +183,7 @@ ___
 
 ▸ **renameFile**(`oldUri`: [Uri](_index_d_._plugin_.uri.md), `newUri`: [Uri](_index_d_._plugin_.uri.md), `options?`: { ignoreIfExists?: boolean ; overwrite?: boolean  }, `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:3064](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3064)*
+*Defined in [index.d.ts:3295](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3295)*
 
 Rename a file or folder.
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **replace**(`uri`: [Uri](_index_d_._plugin_.uri.md), `range`: [Range](_index_d_._plugin_.range.md), `newText`: string, `metadata?`: [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)): void
 
-*Defined in [index.d.ts:2992](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2992)*
+*Defined in [index.d.ts:3221](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3221)*
 
 Replace the given range with given text for the given resource.
 
@@ -225,7 +225,7 @@ ___
 
 ▸ **set**(`uri`: [Uri](_index_d_._plugin_.uri.md), `edits`: [TextEdit](_index_d_._plugin_.textedit.md)[]): void
 
-*Defined in [index.d.ts:3027](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3027)*
+*Defined in [index.d.ts:3256](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3256)*
 
 Set (and replace) text edits for a resource.
 

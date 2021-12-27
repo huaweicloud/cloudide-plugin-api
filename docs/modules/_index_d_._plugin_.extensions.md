@@ -52,7 +52,7 @@ console.log(importedApi.mul(42, 1));
 
 • `Const` **all**: ReadonlyArray\<[Extension](../interfaces/_index_d_._plugin_.extension.md)\<any>>
 
-*Defined in [index.d.ts:10702](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10702)*
+*Defined in [index.d.ts:12204](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12204)*
 
 All extensions currently known to the system.
 
@@ -62,7 +62,7 @@ ___
 
 • `Const` **onDidChange**: [Event](../interfaces/_index_d_._plugin_.event.md)\<void>
 
-*Defined in [index.d.ts:10708](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10708)*
+*Defined in [index.d.ts:12210](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12210)*
 
 An event which fires when `extensions.all` changes. This can happen when extensions are
 installed, uninstalled, enabled or disabled.
@@ -73,7 +73,7 @@ installed, uninstalled, enabled or disabled.
 
 ▸ **getExtension**(`extensionId`: string): [Extension](../interfaces/_index_d_._plugin_.extension.md)\<any> \| undefined
 
-*Defined in [index.d.ts:10689](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10689)*
+*Defined in [index.d.ts:12191](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12191)*
 
 Get an extension by its full identifier in the form of: `publisher.name`.
 
@@ -89,7 +89,7 @@ An extension or `undefined`.
 
 ▸ **getExtension**\<T>(`extensionId`: string): [Extension](../interfaces/_index_d_._plugin_.extension.md)\<T> \| undefined
 
-*Defined in [index.d.ts:10697](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10697)*
+*Defined in [index.d.ts:12199](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12199)*
 
 Get an extension by its full identifier in the form of: `publisher.name`.
 

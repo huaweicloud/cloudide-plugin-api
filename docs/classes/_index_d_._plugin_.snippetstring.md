@@ -41,7 +41,7 @@ the end of the snippet. Variables are defined with `$name` and
 
 \+ **new SnippetString**(`value?`: string): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3090](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3090)*
+*Defined in [index.d.ts:3320](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3320)*
 
 #### Parameters:
 
@@ -57,7 +57,7 @@ Name | Type |
 
 •  **value**: string
 
-*Defined in [index.d.ts:3090](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3090)*
+*Defined in [index.d.ts:3320](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3320)*
 
 The snippet string.
 
@@ -67,7 +67,7 @@ The snippet string.
 
 ▸ **appendChoice**(`values`: string[], `number?`: number): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3134](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3134)*
+*Defined in [index.d.ts:3364](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3364)*
 
 Builder-function that appends a choice (`${1|a,b,c}`) to
 the [`value`](#SnippetString.value) of this snippet string.
@@ -89,7 +89,7 @@ ___
 
 ▸ **appendPlaceholder**(`value`: string \| (snippet: [SnippetString](_index_d_._plugin_.snippetstring.md)) => any, `number?`: number): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3123](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3123)*
+*Defined in [index.d.ts:3353](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3353)*
 
 Builder-function that appends a placeholder (`${1:value}`) to
 the [`value`](#SnippetString.value) of this snippet string.
@@ -111,7 +111,7 @@ ___
 
 ▸ **appendTabstop**(`number?`: number): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3111](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3111)*
+*Defined in [index.d.ts:3341](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3341)*
 
 Builder-function that appends a tabstop (`$1`, `$2` etc) to
 the [`value`](#SnippetString.value) of this snippet string.
@@ -132,7 +132,7 @@ ___
 
 ▸ **appendText**(`string`: string): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3101](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3101)*
+*Defined in [index.d.ts:3331](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3331)*
 
 Builder-function that appends the given string to
 the [`value`](#SnippetString.value) of this snippet string.
@@ -153,7 +153,7 @@ ___
 
 ▸ **appendVariable**(`name`: string, `defaultValue`: string \| (snippet: [SnippetString](_index_d_._plugin_.snippetstring.md)) => any): [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3145](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3145)*
+*Defined in [index.d.ts:3375](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3375)*
 
 Builder-function that appends a variable (`${VAR}`) to
 the [`value`](#SnippetString.value) of this snippet string.

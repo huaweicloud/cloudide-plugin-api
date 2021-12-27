@@ -23,7 +23,7 @@ A string that will be quoted depending on the used shell.
 
 •  **quoting**: [ShellQuoting](../enums/_index_d_._plugin_.shellquoting.md)
 
-*Defined in [index.d.ts:5860](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5860)*
+*Defined in [index.d.ts:6461](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6461)*
 
 The quoting style to use.
 
@@ -33,6 +33,6 @@ ___
 
 •  **value**: string
 
-*Defined in [index.d.ts:5855](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5855)*
+*Defined in [index.d.ts:6456](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6456)*
 
 The actual string value.

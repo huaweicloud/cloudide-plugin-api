@@ -24,7 +24,7 @@ triggered through a task
 
 • `Readonly` **execution**: [TaskExecution](_index_d_._plugin_.taskexecution.md)
 
-*Defined in [index.d.ts:6133](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6133)*
+*Defined in [index.d.ts:6741](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6741)*
 
 The task execution for which the process got started.
 
@@ -32,8 +32,8 @@ ___
 
 ### exitCode
 
-• `Readonly` **exitCode**: number
+• `Readonly` **exitCode**: number \| undefined
 
-*Defined in [index.d.ts:6138](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6138)*
+*Defined in [index.d.ts:6746](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6746)*
 
-The process's exit code.
+The process's exit code. Will be `undefined` when the task is terminated.

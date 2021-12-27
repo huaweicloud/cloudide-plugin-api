@@ -19,6 +19,6 @@ item.
 
 •  **Deprecated**:  = 1
 
-*Defined in [index.d.ts:3723](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3723)*
+*Defined in [index.d.ts:3953](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3953)*
 
 Render a completion as obsolete, usually using a strike-out.

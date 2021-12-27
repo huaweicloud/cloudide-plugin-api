@@ -19,7 +19,7 @@ Represents the alignment of status bar items.
 
 •  **Left**:  = 1
 
-*Defined in [index.d.ts:5201](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5201)*
+*Defined in [index.d.ts:5516](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5516)*
 
 Aligned to the left side.
 
@@ -29,6 +29,6 @@ ___
 
 •  **Right**:  = 2
 
-*Defined in [index.d.ts:5206](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5206)*
+*Defined in [index.d.ts:5521](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5521)*
 
 Aligned to the right side.

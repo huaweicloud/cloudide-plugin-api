@@ -23,7 +23,7 @@ Content settings for a webview panel.
 
 • `Optional` `Readonly` **enableFindWidget**: boolean
 
-*Defined in [index.d.ts:6728](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6728)*
+*Defined in [index.d.ts:7355](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7355)*
 
 Controls if the find widget is enabled in the panel.
 
@@ -35,7 +35,7 @@ ___
 
 • `Optional` `Readonly` **retainContextWhenHidden**: boolean
 
-*Defined in [index.d.ts:6746](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6746)*
+*Defined in [index.d.ts:7373](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7373)*
 
 Controls if the webview panel's content (iframe) is kept around even when the panel
 is no longer visible.

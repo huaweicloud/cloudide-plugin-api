@@ -21,7 +21,7 @@ Describes the behavior of decorations when typing/editing at their edges.
 
 •  **ClosedClosed**:  = 1
 
-*Defined in [index.d.ts:746](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L746)*
+*Defined in [index.d.ts:859](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L859)*
 
 The decoration's range will not widen when edits occur at the start of end.
 
@@ -31,7 +31,7 @@ ___
 
 •  **ClosedOpen**:  = 3
 
-*Defined in [index.d.ts:754](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L754)*
+*Defined in [index.d.ts:867](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L867)*
 
 The decoration's range will widen when edits occur at the end, but not at the start.
 
@@ -41,7 +41,7 @@ ___
 
 •  **OpenClosed**:  = 2
 
-*Defined in [index.d.ts:750](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L750)*
+*Defined in [index.d.ts:863](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L863)*
 
 The decoration's range will widen when edits occur at the start, but not at the end.
 
@@ -51,6 +51,6 @@ ___
 
 •  **OpenOpen**:  = 0
 
-*Defined in [index.d.ts:742](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L742)*
+*Defined in [index.d.ts:855](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L855)*
 
 The decoration's range will widen when edits occur at the start or end.

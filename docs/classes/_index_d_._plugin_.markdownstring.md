@@ -23,6 +23,7 @@ the `$(<name>)`-syntax is supported.
 ### Properties
 
 * [isTrusted](_index_d_._plugin_.markdownstring.md#istrusted)
+* [supportThemeIcons](_index_d_._plugin_.markdownstring.md#supportthemeicons)
 * [value](_index_d_._plugin_.markdownstring.md#value)
 
 ### Methods
@@ -37,7 +38,7 @@ the `$(<name>)`-syntax is supported.
 
 \+ **new MarkdownString**(`value?`: string, `supportThemeIcons?`: boolean): [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:2423](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2423)*
+*Defined in [index.d.ts:2653](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2653)*
 
 Creates a new markdown string with the given value.
 
@@ -56,10 +57,20 @@ Name | Type | Description |
 
 • `Optional` **isTrusted**: boolean
 
-*Defined in [index.d.ts:2423](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2423)*
+*Defined in [index.d.ts:2648](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2648)*
 
 Indicates that this markdown string is from a trusted source. Only *trusted*
 markdown supports links that execute commands, e.g. `[Run it](command:myCommandId)`.
+
+___
+
+### supportThemeIcons
+
+• `Optional` `Readonly` **supportThemeIcons**: boolean
+
+*Defined in [index.d.ts:2653](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2653)*
+
+Indicates that this markdown string can contain [ThemeIcons](#ThemeIcon), e.g. `$(zap)`.
 
 ___
 
@@ -67,7 +78,7 @@ ___
 
 •  **value**: string
 
-*Defined in [index.d.ts:2417](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2417)*
+*Defined in [index.d.ts:2642](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2642)*
 
 The markdown string.
 
@@ -77,7 +88,7 @@ The markdown string.
 
 ▸ **appendCodeblock**(`value`: string, `language?`: string): [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:2450](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2450)*
+*Defined in [index.d.ts:2680](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2680)*
 
 Appends the given string as codeblock using the provided language.
 
@@ -96,7 +107,7 @@ ___
 
 ▸ **appendMarkdown**(`value`: string): [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:2443](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2443)*
+*Defined in [index.d.ts:2673](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2673)*
 
 Appends the given string 'as is' to this markdown string. When [`supportThemeIcons`](#MarkdownString.supportThemeIcons) is `true`, [ThemeIcons](#ThemeIcon) in the `value` will be iconified.
 
@@ -114,7 +125,7 @@ ___
 
 ▸ **appendText**(`value`: string): [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:2437](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2437)*
+*Defined in [index.d.ts:2667](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2667)*
 
 Appends and escapes the given string to this markdown string.
 

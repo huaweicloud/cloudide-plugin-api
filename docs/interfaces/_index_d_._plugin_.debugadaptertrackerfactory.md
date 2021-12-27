@@ -20,7 +20,7 @@
 
 ▸ **createDebugAdapterTracker**(`session`: [DebugSession](_index_d_._plugin_.debugsession.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[DebugAdapterTracker](_index_d_._plugin_.debugadaptertracker.md)>
 
-*Defined in [index.d.ts:10386](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10386)*
+*Defined in [index.d.ts:11854](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11854)*
 
 The method 'createDebugAdapterTracker' is called at the start of a debug session in order
 to return a "tracker" object that provides read-access to the communication between VS Code and a debug adapter.

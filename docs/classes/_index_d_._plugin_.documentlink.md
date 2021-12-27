@@ -29,7 +29,7 @@ text document or a web site.
 
 \+ **new DocumentLink**(`range`: [Range](_index_d_._plugin_.range.md), `target?`: [Uri](_index_d_._plugin_.uri.md)): [DocumentLink](_index_d_._plugin_.documentlink.md)
 
-*Defined in [index.d.ts:3999](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3999)*
+*Defined in [index.d.ts:4242](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4242)*
 
 Creates a new document link.
 
@@ -48,7 +48,7 @@ Name | Type | Description |
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:3985](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3985)*
+*Defined in [index.d.ts:4228](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4228)*
 
 The range this link applies to.
 
@@ -58,7 +58,7 @@ ___
 
 • `Optional` **target**: [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:3990](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3990)*
+*Defined in [index.d.ts:4233](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4233)*
 
 The uri this link points to.
 
@@ -68,7 +68,7 @@ ___
 
 • `Optional` **tooltip**: string
 
-*Defined in [index.d.ts:3999](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3999)*
+*Defined in [index.d.ts:4242](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4242)*
 
 The tooltip text when you hover over this link.
 

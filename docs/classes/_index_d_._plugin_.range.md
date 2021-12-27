@@ -44,7 +44,7 @@ to derive new ranges from an existing range.
 
 \+ **new Range**(`start`: [Position](_index_d_._plugin_.position.md), `end`: [Position](_index_d_._plugin_.position.md)): [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:388](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L388)*
+*Defined in [index.d.ts:501](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L501)*
 
 Create a new range from two positions. If `start` is not
 before or equal to `end`, the values will be swapped.
@@ -60,7 +60,7 @@ Name | Type | Description |
 
 \+ **new Range**(`startLine`: number, `startCharacter`: number, `endLine`: number, `endCharacter`: number): [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:397](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L397)*
+*Defined in [index.d.ts:510](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L510)*
 
 Create a new range from number coordinates. It is a shorter equivalent of
 using `new Range(new Position(startLine, startCharacter), new Position(endLine, endCharacter))`
@@ -82,7 +82,7 @@ Name | Type | Description |
 
 • `Readonly` **end**: [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:388](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L388)*
+*Defined in [index.d.ts:501](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L501)*
 
 The end position. It is after or equal to [start](#Range.start).
 
@@ -92,7 +92,7 @@ ___
 
 •  **isEmpty**: boolean
 
-*Defined in [index.d.ts:413](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L413)*
+*Defined in [index.d.ts:526](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L526)*
 
 `true` if `start` and `end` are equal.
 
@@ -102,7 +102,7 @@ ___
 
 •  **isSingleLine**: boolean
 
-*Defined in [index.d.ts:418](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L418)*
+*Defined in [index.d.ts:531](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L531)*
 
 `true` if `start.line` and `end.line` are equal.
 
@@ -112,7 +112,7 @@ ___
 
 • `Readonly` **start**: [Position](_index_d_._plugin_.position.md)
 
-*Defined in [index.d.ts:383](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L383)*
+*Defined in [index.d.ts:496](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L496)*
 
 The start position. It is before or equal to [end](#Range.end).
 
@@ -122,7 +122,7 @@ The start position. It is before or equal to [end](#Range.end).
 
 ▸ **contains**(`positionOrRange`: [Position](_index_d_._plugin_.position.md) \| [Range](_index_d_._plugin_.range.md)): boolean
 
-*Defined in [index.d.ts:427](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L427)*
+*Defined in [index.d.ts:540](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L540)*
 
 Check if a position or a range is contained in this range.
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **intersection**(`range`: [Range](_index_d_._plugin_.range.md)): [Range](_index_d_._plugin_.range.md) \| undefined
 
-*Defined in [index.d.ts:446](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L446)*
+*Defined in [index.d.ts:559](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L559)*
 
 Intersect `range` with this range and returns a new range or `undefined`
 if the ranges have no overlap.
@@ -165,7 +165,7 @@ ___
 
 ▸ **isEqual**(`other`: [Range](_index_d_._plugin_.range.md)): boolean
 
-*Defined in [index.d.ts:436](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L436)*
+*Defined in [index.d.ts:549](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L549)*
 
 Check if `other` equals this range.
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **union**(`other`: [Range](_index_d_._plugin_.range.md)): [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:454](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L454)*
+*Defined in [index.d.ts:567](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L567)*
 
 Compute the union of `other` with this range.
 
@@ -206,7 +206,7 @@ ___
 
 ▸ **with**(`start?`: [Position](_index_d_._plugin_.position.md), `end?`: [Position](_index_d_._plugin_.position.md)): [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:464](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L464)*
+*Defined in [index.d.ts:577](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L577)*
 
 Derived a new range from this range.
 
@@ -224,7 +224,7 @@ If start and end are not different `this` range will be returned.
 
 ▸ **with**(`change`: { end?: [Position](_index_d_._plugin_.position.md) ; start?: [Position](_index_d_._plugin_.position.md)  }): [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:473](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L473)*
+*Defined in [index.d.ts:586](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L586)*
 
 Derived a new range from this range.
 

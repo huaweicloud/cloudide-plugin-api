@@ -19,7 +19,7 @@ Possible kinds of UI that can use extensions.
 
 •  **Desktop**:  = 1
 
-*Defined in [index.d.ts:6960](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6960)*
+*Defined in [index.d.ts:7974](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7974)*
 
 Extensions are accessed from a desktop application.
 
@@ -29,6 +29,6 @@ ___
 
 •  **Web**:  = 2
 
-*Defined in [index.d.ts:6965](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6965)*
+*Defined in [index.d.ts:7979](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7979)*
 
 Extensions are accessed from a web browser.

@@ -22,6 +22,6 @@ An event that is fired after files are deleted.
 
 • `Readonly` **files**: ReadonlyArray\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:8829](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8829)*
+*Defined in [index.d.ts:10219](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10219)*
 
 The files that got deleted.

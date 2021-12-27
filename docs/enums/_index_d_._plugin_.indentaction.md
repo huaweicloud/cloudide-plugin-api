@@ -21,7 +21,7 @@ Describes what to do with the indentation when pressing Enter.
 
 •  **Indent**:  = 1
 
-*Defined in [index.d.ts:4485](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4485)*
+*Defined in [index.d.ts:4778](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4778)*
 
 Insert new line and indent once (relative to the previous line's indentation).
 
@@ -31,7 +31,7 @@ ___
 
 •  **IndentOutdent**:  = 2
 
-*Defined in [index.d.ts:4491](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4491)*
+*Defined in [index.d.ts:4784](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4784)*
 
 Insert two new lines:
  - the first one indented which will hold the cursor
@@ -43,7 +43,7 @@ ___
 
 •  **None**:  = 0
 
-*Defined in [index.d.ts:4481](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4481)*
+*Defined in [index.d.ts:4774](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4774)*
 
 Insert new line and copy the previous line's indentation.
 
@@ -53,6 +53,6 @@ ___
 
 •  **Outdent**:  = 3
 
-*Defined in [index.d.ts:4495](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4495)*
+*Defined in [index.d.ts:4788](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4788)*
 
 Insert new line and outdent once (relative to the previous line's indentation).

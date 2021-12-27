@@ -31,7 +31,7 @@ interfaces etc.
 
 \+ **new SymbolInformation**(`name`: string, `kind`: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md), `containerName`: string, `location`: [Location](_index_d_._plugin_.location.md)): [SymbolInformation](_index_d_._plugin_.symbolinformation.md)
 
-*Defined in [index.d.ts:2697](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2697)*
+*Defined in [index.d.ts:2926](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2926)*
 
 Creates a new symbol information object.
 
@@ -48,9 +48,9 @@ Name | Type | Description |
 
 \+ **new SymbolInformation**(`name`: string, `kind`: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md), `range`: [Range](_index_d_._plugin_.range.md), `uri?`: [Uri](_index_d_._plugin_.uri.md), `containerName?`: string): [SymbolInformation](_index_d_._plugin_.symbolinformation.md)
 
-*Defined in [index.d.ts:2707](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2707)*
+*Defined in [index.d.ts:2936](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2936)*
 
-~~Creates a new symbol information object.~~
+Creates a new symbol information object.
 
 **`deprecated`** Please use the constructor taking a [location](#Location) object.
 
@@ -72,7 +72,7 @@ Name | Type | Description |
 
 •  **containerName**: string
 
-*Defined in [index.d.ts:2682](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2682)*
+*Defined in [index.d.ts:2911](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2911)*
 
 The name of the symbol containing this symbol.
 
@@ -82,7 +82,7 @@ ___
 
 •  **kind**: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md)
 
-*Defined in [index.d.ts:2687](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2687)*
+*Defined in [index.d.ts:2916](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2916)*
 
 The kind of this symbol.
 
@@ -92,7 +92,7 @@ ___
 
 •  **location**: [Location](_index_d_._plugin_.location.md)
 
-*Defined in [index.d.ts:2697](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2697)*
+*Defined in [index.d.ts:2926](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2926)*
 
 The location of this symbol.
 
@@ -102,7 +102,7 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:2677](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2677)*
+*Defined in [index.d.ts:2906](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2906)*
 
 The name of this symbol.
 
@@ -112,6 +112,6 @@ ___
 
 • `Optional` **tags**: ReadonlyArray\<[SymbolTag](../enums/_index_d_._plugin_.symboltag.md)>
 
-*Defined in [index.d.ts:2692](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2692)*
+*Defined in [index.d.ts:2921](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2921)*
 
 Tags for this symbol.

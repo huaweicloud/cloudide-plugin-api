@@ -20,7 +20,7 @@ Represents reasons why a text document is saved.
 
 •  **AfterDelay**:  = 2
 
-*Defined in [index.d.ts:8663](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8663)*
+*Defined in [index.d.ts:10053](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10053)*
 
 Automatic after a delay.
 
@@ -30,7 +30,7 @@ ___
 
 •  **FocusOut**:  = 3
 
-*Defined in [index.d.ts:8668](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8668)*
+*Defined in [index.d.ts:10058](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10058)*
 
 When the editor lost focus.
 
@@ -40,7 +40,7 @@ ___
 
 •  **Manual**:  = 1
 
-*Defined in [index.d.ts:8658](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8658)*
+*Defined in [index.d.ts:10048](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10048)*
 
 Manually triggered, e.g. by the user pressing save, by starting debugging,
 or by an API call.

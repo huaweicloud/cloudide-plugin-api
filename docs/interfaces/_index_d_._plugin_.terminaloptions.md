@@ -28,7 +28,7 @@ Value-object describing what options a terminal should use.
 
 • `Optional` **cwd**: string \| [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:8093](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8093)*
+*Defined in [index.d.ts:9375](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9375)*
 
 A path or Uri for the current working directory to be used for the terminal.
 
@@ -38,7 +38,7 @@ ___
 
 • `Optional` **env**: { [key:string]: string \| null;  }
 
-*Defined in [index.d.ts:8098](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8098)*
+*Defined in [index.d.ts:9380](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9380)*
 
 Object with environment variables that will be added to the VS Code process.
 
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **hideFromUser**: boolean
 
-*Defined in [index.d.ts:8116](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8116)*
+*Defined in [index.d.ts:9398](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9398)*
 
 When enabled the terminal will run the process as normal but not be surfaced to the user
 until `Terminal.show` is called. The typical usage for this is when you need to run
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **name**: string
 
-*Defined in [index.d.ts:8077](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8077)*
+*Defined in [index.d.ts:9359](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9359)*
 
 A human-readable string which will be used to represent the terminal in the UI.
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **shellArgs**: string[] \| string
 
-*Defined in [index.d.ts:8088](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8088)*
+*Defined in [index.d.ts:9370](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9370)*
 
 Args for the custom shell executable. A string can be used on Windows only which allows
 specifying shell args in [command-line format](https://msdn.microsoft.com/en-au/08dfcab2-eb6e-49a4-80eb-87d4076c98c6).
@@ -83,7 +83,7 @@ ___
 
 • `Optional` **shellPath**: string
 
-*Defined in [index.d.ts:8082](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8082)*
+*Defined in [index.d.ts:9364](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9364)*
 
 A path to a custom shell executable to be used in the terminal.
 
@@ -93,7 +93,7 @@ ___
 
 • `Optional` **strictEnv**: boolean
 
-*Defined in [index.d.ts:8107](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8107)*
+*Defined in [index.d.ts:9389](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9389)*
 
 Whether the terminal process environment should be exactly as provided in
 `TerminalOptions.env`. When this is false (default), the environment will be based on the

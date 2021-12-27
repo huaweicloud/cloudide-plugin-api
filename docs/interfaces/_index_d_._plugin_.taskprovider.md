@@ -2,10 +2,16 @@
 
 > [Globals](../README.md) / ["index.d"](../modules/_index_d_.md) / ["plugin"](../modules/_index_d_._plugin_.md) / TaskProvider
 
-# Interface: TaskProvider
+# Interface: TaskProvider\<T>
 
 A task provider allows to add tasks to the task service.
 A task provider is registered via #tasks.registerTaskProvider.
+
+## Type parameters
+
+Name | Type | Default |
+------ | ------ | ------ |
+`T` | [Task](../classes/_index_d_._plugin_.task.md) | Task |
 
 ## Hierarchy
 
@@ -22,9 +28,9 @@ A task provider is registered via #tasks.registerTaskProvider.
 
 ### provideTasks
 
-▸ **provideTasks**(`token?`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Task](../classes/_index_d_._plugin_.task.md)[]>
+▸ **provideTasks**(`token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
-*Defined in [index.d.ts:6047](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6047)*
+*Defined in [index.d.ts:6655](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6655)*
 
 Provides tasks.
 
@@ -32,9 +38,9 @@ Provides tasks.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`token?` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
+`token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Task](../classes/_index_d_._plugin_.task.md)[]>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T[]>
 
 an array of tasks
 
@@ -42,9 +48,9 @@ ___
 
 ### resolveTask
 
-▸ **resolveTask**(`task`: [Task](../classes/_index_d_._plugin_.task.md), `token?`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Task](../classes/_index_d_._plugin_.task.md)>
+▸ **resolveTask**(`task`: T, `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
-*Defined in [index.d.ts:6062](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6062)*
+*Defined in [index.d.ts:6670](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6670)*
 
 Resolves a task that has no [`execution`](#Task.execution) set. Tasks are
 often created from information found in the `tasks.json`-file. Such tasks miss
@@ -58,9 +64,9 @@ tasks are always fully resolved. A valid default implementation for the
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`task` | [Task](../classes/_index_d_._plugin_.task.md) | The task to resolve. |
-`token?` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
+`task` | T | The task to resolve. |
+`token` | [CancellationToken](_index_d_._plugin_.cancellationtoken.md) | A cancellation token. |
 
-**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Task](../classes/_index_d_._plugin_.task.md)>
+**Returns:** [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<T>
 
 The resolved task

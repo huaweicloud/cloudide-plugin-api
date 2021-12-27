@@ -24,7 +24,7 @@ An event describing the changes to the set of [breakpoints](#Breakpoint).
 
 • `Readonly` **added**: ReadonlyArray\<[Breakpoint](../classes/_index_d_._plugin_.breakpoint.md)>
 
-*Defined in [index.d.ts:10416](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10416)*
+*Defined in [index.d.ts:11884](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11884)*
 
 Added breakpoints.
 
@@ -34,7 +34,7 @@ ___
 
 • `Readonly` **changed**: ReadonlyArray\<[Breakpoint](../classes/_index_d_._plugin_.breakpoint.md)>
 
-*Defined in [index.d.ts:10426](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10426)*
+*Defined in [index.d.ts:11894](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11894)*
 
 Changed breakpoints.
 
@@ -44,6 +44,6 @@ ___
 
 • `Readonly` **removed**: ReadonlyArray\<[Breakpoint](../classes/_index_d_._plugin_.breakpoint.md)>
 
-*Defined in [index.d.ts:10421](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10421)*
+*Defined in [index.d.ts:11889](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11889)*
 
 Removed breakpoints.

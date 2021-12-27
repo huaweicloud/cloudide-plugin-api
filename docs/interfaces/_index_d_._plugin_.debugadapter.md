@@ -36,7 +36,7 @@ A debug adapter that implements the Debug Adapter Protocol can be registered wit
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[constructor](../classes/_index_d_._plugin_.disposable.md#constructor)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Creates a new Disposable calling the provided function
 on dispose.
@@ -55,7 +55,7 @@ Name | Type | Description |
 
 • `Readonly` **onDidSendMessage**: [Event](_index_d_._plugin_.event.md)\<[DebugProtocolMessage](_index_d_._plugin_.debugprotocolmessage.md)>
 
-*Defined in [index.d.ts:10296](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10296)*
+*Defined in [index.d.ts:11771](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11771)*
 
 An event which fires after the debug adapter has sent a Debug Adapter Protocol message to VS Code.
 Messages can be requests, responses, or events.
@@ -68,7 +68,7 @@ Messages can be requests, responses, or events.
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[dispose](../classes/_index_d_._plugin_.disposable.md#dispose)*
 
-*Defined in [index.d.ts:1477](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1477)*
+*Defined in [index.d.ts:1616](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1616)*
 
 Dispose this object.
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **handleMessage**(`message`: [DebugProtocolMessage](_index_d_._plugin_.debugprotocolmessage.md)): void
 
-*Defined in [index.d.ts:10304](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10304)*
+*Defined in [index.d.ts:11779](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11779)*
 
 Handle a Debug Adapter Protocol message.
 Messages can be requests, responses, or events.
@@ -102,7 +102,7 @@ ___
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[from](../classes/_index_d_._plugin_.disposable.md#from)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Combine many disposable-likes into one. Use this method
 when having objects with a dispose function which are not

@@ -30,7 +30,7 @@ previously retrieved lines will not represent the latest state.
 
 • `Readonly` **firstNonWhitespaceCharacterIndex**: number
 
-*Defined in [index.d.ts:83](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L83)*
+*Defined in [index.d.ts:196](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L196)*
 
 The offset of the first character which is not a whitespace character as defined
 by `/\s/`. **Note** that if a line is all whitespace the length of the line is returned.
@@ -41,7 +41,7 @@ ___
 
 • `Readonly` **isEmptyOrWhitespace**: boolean
 
-*Defined in [index.d.ts:89](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L89)*
+*Defined in [index.d.ts:202](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L202)*
 
 Whether this line is whitespace only, shorthand
 for [TextLine.firstNonWhitespaceCharacterIndex](#TextLine.firstNonWhitespaceCharacterIndex) === [TextLine.text.length](#TextLine.text).
@@ -52,7 +52,7 @@ ___
 
 • `Readonly` **lineNumber**: number
 
-*Defined in [index.d.ts:62](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L62)*
+*Defined in [index.d.ts:175](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L175)*
 
 The zero-based line number.
 
@@ -62,7 +62,7 @@ ___
 
 • `Readonly` **range**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:72](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L72)*
+*Defined in [index.d.ts:185](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L185)*
 
 The range this line covers without the line separator characters.
 
@@ -72,7 +72,7 @@ ___
 
 • `Readonly` **rangeIncludingLineBreak**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:77](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L77)*
+*Defined in [index.d.ts:190](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L190)*
 
 The range this line covers with the line separator characters.
 
@@ -82,6 +82,6 @@ ___
 
 • `Readonly` **text**: string
 
-*Defined in [index.d.ts:67](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L67)*
+*Defined in [index.d.ts:180](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L180)*
 
 The text of this line without the line separator characters.

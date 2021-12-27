@@ -29,7 +29,7 @@ a symbol in a scope.
 
 \+ **new DiagnosticRelatedInformation**(`location`: [Location](_index_d_._plugin_.location.md), `message`: string): [DiagnosticRelatedInformation](_index_d_._plugin_.diagnosticrelatedinformation.md)
 
-*Defined in [index.d.ts:4891](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4891)*
+*Defined in [index.d.ts:5188](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5188)*
 
 Creates a new related diagnostic information object.
 
@@ -48,7 +48,7 @@ Name | Type | Description |
 
 •  **location**: [Location](_index_d_._plugin_.location.md)
 
-*Defined in [index.d.ts:4886](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4886)*
+*Defined in [index.d.ts:5183](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5183)*
 
 The location of this related diagnostic information.
 
@@ -58,6 +58,6 @@ ___
 
 •  **message**: string
 
-*Defined in [index.d.ts:4891](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4891)*
+*Defined in [index.d.ts:5188](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5188)*
 
 The message of this related diagnostic information.

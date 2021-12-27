@@ -24,7 +24,7 @@ Contains additional information about the context in which
 
 • `Optional` `Readonly` **triggerCharacter**: string
 
-*Defined in [index.d.ts:3926](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3926)*
+*Defined in [index.d.ts:4166](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4166)*
 
 Character that triggered the completion item provider.
 
@@ -38,6 +38,6 @@ ___
 
 • `Readonly` **triggerKind**: [CompletionTriggerKind](../enums/_index_d_._plugin_.completiontriggerkind.md)
 
-*Defined in [index.d.ts:3917](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3917)*
+*Defined in [index.d.ts:4157](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4157)*
 
 How the completion was triggered.

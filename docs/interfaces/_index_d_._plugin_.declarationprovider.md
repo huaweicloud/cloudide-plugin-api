@@ -23,7 +23,7 @@ the go to declaration feature.
 
 ▸ **provideDeclaration**(`document`: [TextDocument](_index_d_._plugin_.textdocument.md), `position`: [Position](../classes/_index_d_._plugin_.position.md), `token`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[Declaration](../modules/_index_d_._plugin_.md#declaration)>
 
-*Defined in [index.d.ts:2402](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2402)*
+*Defined in [index.d.ts:2627](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2627)*
 
 Provide the declaration of the symbol at the given position and document.
 
