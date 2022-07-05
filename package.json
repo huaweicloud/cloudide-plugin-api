@@ -1,11 +1,11 @@
 {
-    "name": "@cloudide/plugin",
-    "version": "0.0.3",
-    "description": "huawei cloudide plugin api",
+    "name": "@codearts/plugin",
+    "version": "0.0.1",
+    "description": "huawei codearts plugin api",
     "main": "",
     "types": "index.d.ts",
     "keywords": [
-        "cloudide",
+        "codearts",
         "huawei"
     ],
     "author": "yeweiasia@gmail.com",
@@ -15,10 +15,9 @@
         "url": "https://github.com/huaweicloud/cloudide-plugin-api.git"
     },
     "devDependencies": {
-        "typedoc": "^0.19.2",
-        "typedoc-plugin-markdown": "^3.0.11",
-        "typedoc-plugin-typescript-declaration": "^0.5.0",
-        "typescript": "^4.0.5"
+        "typedoc": "0.22.0",
+        "typedoc-plugin-markdown": "^3.13.2",
+        "typescript": "^4.4.0"
     },
     "scripts": {
         "prepare": "npm run build-doc",
