@@ -47,7 +47,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7893](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7893)
+[index.d.ts:7893](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7893)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7901](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7901)
+[index.d.ts:7901](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7901)
 
 ## Methods
 
@@ -77,7 +77,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7861](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7861)
+[index.d.ts:7861](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7861)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7873](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7873)
+[index.d.ts:7873](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7873)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7867](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7867)
+[index.d.ts:7867](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7867)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7854](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7854)
+[index.d.ts:7854](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7854)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7879](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7879)
+[index.d.ts:7879](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7879)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7886](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7886)
+[index.d.ts:7886](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7886)

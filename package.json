@@ -1,6 +1,6 @@
 {
     "name": "@codearts/plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "huawei codearts plugin api",
     "main": "",
     "types": "index.d.ts",
@@ -21,6 +21,6 @@
     },
     "scripts": {
         "prepare": "npm run build-doc",
-        "build-doc": "npx typedoc --out docs/ --readme none --includeDeclarations index.d.ts --declarationFile doc/index.d.ts --declarationOnly --excludeExternals --externalPattern \"**/node_modules/**\" index.d.ts"
+        "build-doc": "npx typedoc --out docs/ --readme none --excludeExternals --externalPattern \"**/node_modules/**\" index.d.ts"
     }
 }

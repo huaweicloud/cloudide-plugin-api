@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[index.d.ts:6991](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L6991)
+[index.d.ts:6991](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L6991)
 
 ▸ **get**<`T`\>(`key`, `defaultValue`): `T`
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-[index.d.ts:7001](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7001)
+[index.d.ts:7001](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7001)
 
 ___
 
@@ -73,7 +73,7 @@ readonly `string`[]
 
 #### Defined in
 
-[index.d.ts:6983](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L6983)
+[index.d.ts:6983](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L6983)
 
 ___
 
@@ -94,4 +94,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7012](https://github.com/huaweicloud/cloudide-plugin-api/blob/203b986/index.d.ts#L7012)
+[index.d.ts:7012](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7012)
