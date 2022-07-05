@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[index.d.ts:8342](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8342)
+[index.d.ts:8342](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8342)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8276](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8276)
+[index.d.ts:8276](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8276)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8285](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8285)
+[index.d.ts:8285](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8285)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8249](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8249)
+[index.d.ts:8249](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8249)
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8331](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8331)
+[index.d.ts:8331](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8331)
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:8318](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L8318)
+[index.d.ts:8318](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8318)

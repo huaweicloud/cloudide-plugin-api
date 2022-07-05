@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[index.d.ts:5689](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L5689)
+[index.d.ts:5689](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L5689)
 
 ▸ **get**<`T`\>(`section`, `defaultValue`): `T`
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[index.d.ts:5698](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L5698)
+[index.d.ts:5698](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L5698)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:5706](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L5706)
+[index.d.ts:5706](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L5706)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:5722](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L5722)
+[index.d.ts:5722](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L5722)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:5768](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L5768)
+[index.d.ts:5768](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L5768)
