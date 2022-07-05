@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[index.d.ts:13215](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13215)
+[index.d.ts:13215](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13215)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[index.d.ts:13207](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13207)
+[index.d.ts:13207](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13207)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13202](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13202)
+[index.d.ts:13202](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13202)
 
 ## Methods
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13193](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13193)
+[index.d.ts:13193](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13193)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13166](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13166)
+[index.d.ts:13166](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13166)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13184](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13184)
+[index.d.ts:13184](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13184)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13175](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13175)
+[index.d.ts:13175](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13175)
 
 ___
 
@@ -160,4 +160,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:13152](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L13152)
+[index.d.ts:13152](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L13152)

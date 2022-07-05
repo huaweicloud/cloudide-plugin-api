@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[index.d.ts:7258](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7258)
+[index.d.ts:7258](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L7258)
 
 • **new ProcessExecution**(`process`, `args`, `options?`)
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[index.d.ts:7267](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7267)
+[index.d.ts:7267](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L7267)
 
 ## Properties
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[index.d.ts:7277](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7277)
+[index.d.ts:7277](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L7277)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7283](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7283)
+[index.d.ts:7283](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L7283)
 
 ___
 
@@ -75,4 +75,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7272](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L7272)
+[index.d.ts:7272](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L7272)

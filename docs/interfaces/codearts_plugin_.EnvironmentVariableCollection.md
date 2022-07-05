@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[index.d.ts:10785](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10785)
+[index.d.ts:10785](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10785)
 
 ## Methods
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[index.d.ts:10807](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10807)
+[index.d.ts:10807](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10807)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10845](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10845)
+[index.d.ts:10845](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10845)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10840](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10840)
+[index.d.ts:10840](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10840)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10833](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10833)
+[index.d.ts:10833](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10833)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10825](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10825)
+[index.d.ts:10825](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10825)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10818](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10818)
+[index.d.ts:10818](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10818)
 
 ___
 
@@ -166,4 +166,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:10796](https://github.com/huaweicloud/cloudide-plugin-api/blob/b58031b/index.d.ts#L10796)
+[index.d.ts:10796](https://github.com/huaweicloud/cloudide-plugin-api/blob/03c74e5/index.d.ts#L10796)
