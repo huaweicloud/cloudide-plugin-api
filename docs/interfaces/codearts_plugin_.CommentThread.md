@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[index.d.ts:14770](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14770)
+[index.d.ts:14770](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14770)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14764](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14764)
+[index.d.ts:14764](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14764)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14758](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14758)
+[index.d.ts:14758](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14758)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14790](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14790)
+[index.d.ts:14790](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14790)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14795](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14795)
+[index.d.ts:14795](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14795)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14753](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14753)
+[index.d.ts:14753](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14753)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14747](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14747)
+[index.d.ts:14747](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14747)
 
 ## Methods
 
@@ -102,4 +102,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14802](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L14802)
+[index.d.ts:14802](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14802)

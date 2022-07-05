@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[index.d.ts:275](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L275)
+[index.d.ts:275](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L275)
 
 ## Properties
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L269)
+[index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L269)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:264](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L264)
+[index.d.ts:264](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L264)
 
 ## Methods
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:330](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L330)
+[index.d.ts:330](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L330)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:302](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L302)
+[index.d.ts:302](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L302)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:311](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L311)
+[index.d.ts:311](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L311)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:284](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L284)
+[index.d.ts:284](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L284)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:293](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L293)
+[index.d.ts:293](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L293)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:320](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L320)
+[index.d.ts:320](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L320)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:340](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L340)
+[index.d.ts:340](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L340)
 
 ▸ **translate**(`change`): [`Position`](codearts_plugin_.Position.md)
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:349](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L349)
+[index.d.ts:349](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L349)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:358](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L358)
+[index.d.ts:358](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L358)
 
 ▸ **with**(`change`): [`Position`](codearts_plugin_.Position.md)
 
@@ -259,4 +259,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:367](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L367)
+[index.d.ts:367](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L367)

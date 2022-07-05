@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[index.d.ts:8354](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8354)
+[index.d.ts:8354](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L8354)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:8372](https://github.com/huaweicloud/cloudide-plugin-api/blob/84e382d/index.d.ts#L8372)
+[index.d.ts:8372](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L8372)
