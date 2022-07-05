@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[index.d.ts:8749](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L8749)
+[index.d.ts:8749](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8749)
 
 ## Methods
 
@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[index.d.ts:8757](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L8757)
+[index.d.ts:8757](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8757)

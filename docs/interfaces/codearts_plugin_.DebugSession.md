@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[index.d.ts:14090](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14090)
+[index.d.ts:14090](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14090)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14060](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14060)
+[index.d.ts:14060](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14060)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14077](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14077)
+[index.d.ts:14077](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14077)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14071](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14071)
+[index.d.ts:14071](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14071)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14065](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14065)
+[index.d.ts:14065](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14065)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14082](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14082)
+[index.d.ts:14082](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14082)
 
 ## Methods
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14095](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14095)
+[index.d.ts:14095](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14095)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14104](https://github.com/huaweicloud/cloudide-plugin-api/blob/a4193a8/index.d.ts#L14104)
+[index.d.ts:14104](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14104)
