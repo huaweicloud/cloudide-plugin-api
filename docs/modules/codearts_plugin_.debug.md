@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[index.d.ts:14541](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14541)
+[index.d.ts:14571](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14571)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14535](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14535)
+[index.d.ts:14565](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14565)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14546](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14546)
+[index.d.ts:14576](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14576)
 
 ## Functions
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14634](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14634)
+[index.d.ts:14664](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14664)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14653](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14653)
+[index.d.ts:14683](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14683)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14553](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14553)
+[index.d.ts:14583](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14583)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14573](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14573)
+[index.d.ts:14603](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14603)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14563](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14563)
+[index.d.ts:14593](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14593)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14558](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14558)
+[index.d.ts:14588](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14588)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14568](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14568)
+[index.d.ts:14598](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14598)
 
 ___
 
@@ -228,7 +228,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14600](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14600)
+[index.d.ts:14630](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14630)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14609](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14609)
+[index.d.ts:14639](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14639)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14589](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14589)
+[index.d.ts:14619](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14619)
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14640](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14640)
+[index.d.ts:14670](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14670)
 
 ___
 
@@ -313,7 +313,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14622](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14622)
+[index.d.ts:14652](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14652)
 
 ___
 
@@ -333,4 +333,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14628](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L14628)
+[index.d.ts:14658](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14658)

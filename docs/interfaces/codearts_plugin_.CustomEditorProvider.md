@@ -8,7 +8,7 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `T` | extends [`CustomDocument`](codearts_plugin_.CustomDocument.md) = [`CustomDocument`](codearts_plugin_.CustomDocument.md) |  |
+| `T` | extends [`CustomDocument`](codearts_plugin_.CustomDocument.md) = [`CustomDocument`](codearts_plugin_.CustomDocument.md) | - |
 
 ## Hierarchy
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[index.d.ts:8878](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8878)
+[index.d.ts:8896](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8896)
 
 ## Methods
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[index.d.ts:8951](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8951)
+[index.d.ts:8969](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8969)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8824](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8824)
+[index.d.ts:8842](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8842)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8843](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8843)
+[index.d.ts:8861](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8861)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8928](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8928)
+[index.d.ts:8946](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8946)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8895](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8895)
+[index.d.ts:8913](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8913)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:8911](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8911)
+[index.d.ts:8929](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8929)

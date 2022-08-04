@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[index.d.ts:16120](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16120)
+[index.d.ts:16150](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16150)
 
 ▸ **then**<`TResult`\>(`onfulfilled?`, `onrejected?`): [`Thenable`](Thenable.md)<`TResult`\>
 
@@ -62,4 +62,4 @@
 
 #### Defined in
 
-[index.d.ts:16121](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16121)
+[index.d.ts:16151](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16151)

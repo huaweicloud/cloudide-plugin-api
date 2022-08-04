@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[index.d.ts:10659](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10659)
+[index.d.ts:10689](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10689)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10639](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10639)
+[index.d.ts:10669](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10669)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10608](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10608)
+[index.d.ts:10638](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10638)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10580](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10580)
+[index.d.ts:10610](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10610)
 
 ## Methods
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10672](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10672)
+[index.d.ts:10702](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10702)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10694](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10694)
+[index.d.ts:10724](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10724)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10667](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10667)
+[index.d.ts:10697](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10697)
 
 ___
 
@@ -132,4 +132,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:10709](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10709)
+[index.d.ts:10739](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10739)

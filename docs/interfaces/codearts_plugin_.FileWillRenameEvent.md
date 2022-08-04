@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[index.d.ts:11454](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L11454)
+[index.d.ts:11484](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11484)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:11449](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L11449)
+[index.d.ts:11479](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11479)
 
 ## Methods
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:11474](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L11474)
+[index.d.ts:11504](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11504)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:11483](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L11483)
+[index.d.ts:11513](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11513)

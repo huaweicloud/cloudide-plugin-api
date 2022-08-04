@@ -1,6 +1,6 @@
 {
     "name": "@codearts/plugin",
-    "version": "0.0.6",
+    "version": "0.1.2",
     "description": "huawei codearts plugin api",
     "main": "",
     "types": "index.d.ts",

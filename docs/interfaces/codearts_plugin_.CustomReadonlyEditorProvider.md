@@ -8,7 +8,7 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `T` | extends [`CustomDocument`](codearts_plugin_.CustomDocument.md) = [`CustomDocument`](codearts_plugin_.CustomDocument.md) |  |
+| `T` | extends [`CustomDocument`](codearts_plugin_.CustomDocument.md) = [`CustomDocument`](codearts_plugin_.CustomDocument.md) | - |
 
 ## Hierarchy
 
@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[index.d.ts:8824](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8824)
+[index.d.ts:8842](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8842)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:8843](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8843)
+[index.d.ts:8861](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8861)

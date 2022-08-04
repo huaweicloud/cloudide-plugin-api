@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[index.d.ts:15223](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L15223)
+[index.d.ts:15253](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15253)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[index.d.ts:15238](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L15238)
+[index.d.ts:15268](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15268)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[index.d.ts:15253](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L15253)
+[index.d.ts:15283](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15283)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15259](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L15259)
+[index.d.ts:15289](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15289)
 
 ___
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15273](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L15273)
+[index.d.ts:15303](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15303)

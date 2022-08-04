@@ -13,6 +13,7 @@
 - [onDidChangeViewState](codearts_plugin_.WebviewPanel.md#ondidchangeviewstate)
 - [onDidDispose](codearts_plugin_.WebviewPanel.md#ondiddispose)
 - [options](codearts_plugin_.WebviewPanel.md#options)
+- [showOptions](codearts_plugin_.WebviewPanel.md#showoptions)
 - [title](codearts_plugin_.WebviewPanel.md#title)
 - [viewColumn](codearts_plugin_.WebviewPanel.md#viewcolumn)
 - [viewType](codearts_plugin_.WebviewPanel.md#viewtype)
@@ -32,7 +33,7 @@
 
 #### Defined in
 
-[index.d.ts:8413](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8413)
+[index.d.ts:8419](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8419)
 
 ___
 
@@ -42,7 +43,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8392](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8392)
+[index.d.ts:8392](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8392)
 
 ___
 
@@ -52,7 +53,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8423](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8423)
+[index.d.ts:8429](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8429)
 
 ___
 
@@ -62,7 +63,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8433](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8433)
+[index.d.ts:8439](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8439)
 
 ___
 
@@ -72,7 +73,17 @@ ___
 
 #### Defined in
 
-[index.d.ts:8402](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8402)
+[index.d.ts:8402](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8402)
+
+___
+
+### showOptions
+
+• `Optional` `Readonly` **showOptions**: [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md) \| { `area`: `string` ; `preserveFocus?`: `boolean` ; `viewColumn`: [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md)  }
+
+#### Defined in
+
+[index.d.ts:8408](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8408)
 
 ___
 
@@ -82,7 +93,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8387](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8387)
+[index.d.ts:8387](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8387)
 
 ___
 
@@ -92,7 +103,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8408](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8408)
+[index.d.ts:8414](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8414)
 
 ___
 
@@ -102,7 +113,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8382](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8382)
+[index.d.ts:8382](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8382)
 
 ___
 
@@ -112,7 +123,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8418](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8418)
+[index.d.ts:8424](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8424)
 
 ___
 
@@ -122,7 +133,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8397](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8397)
+[index.d.ts:8397](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8397)
 
 ## Methods
 
@@ -136,7 +147,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8453](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8453)
+[index.d.ts:8471](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8471)
 
 ___
 
@@ -157,4 +168,22 @@ ___
 
 #### Defined in
 
-[index.d.ts:8444](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L8444)
+[index.d.ts:8450](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8450)
+
+▸ **reveal**(`area?`, `viewColumn?`, `preserveFocus?`): `void`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `area?` | `string` |  |
+| `viewColumn?` | [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md) |  |
+| `preserveFocus?` | `boolean` |  |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:8462](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8462)

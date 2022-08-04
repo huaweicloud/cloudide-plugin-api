@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[index.d.ts:10064](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L10064)
+[index.d.ts:10094](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10094)

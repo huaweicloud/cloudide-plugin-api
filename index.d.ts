@@ -8402,6 +8402,12 @@ declare module '@codearts/plugin' {
 		readonly options: WebviewPanelOptions;
 
 		/**
+         * this api is extended by huawei
+         * support area
+         */
+		readonly showOptions?: ViewColumn | { area: string, viewColumn: ViewColumn, preserveFocus?: boolean };
+
+		/**
 		 * Editor position of the panel. This property is only set if the webview is in
 		 * one of the editor view columns.
 		 */
@@ -8442,6 +8448,18 @@ declare module '@codearts/plugin' {
 		 * @param preserveFocus When `true`, the webview will not take focus.
 		 */
 		reveal(viewColumn?: ViewColumn, preserveFocus?: boolean): void;
+
+		/**
+         * Show the webview panel in a given column or area. this api is extended by huawei
+         *
+         * A webview panel may only show in a single column at a time. If it is already showing, this
+         * method moves it to a new column.
+         *
+         * @param area the area which webview panel will be attached to. support 'main'(default), 'left', 'right', 'bottom'
+         * @param viewColumn View column to show the panel in. Shows in the current `viewColumn` if undefined.
+         * @param preserveFocus When `true`, the webview will not take focus. when in left or right area, `true` will make panel collapsed.
+         */
+		reveal(area?: string, viewColumn?: ViewColumn, preserveFocus?: boolean): void;
 
 		/**
 		 * Dispose of the webview panel.
@@ -9725,6 +9743,18 @@ declare module '@codearts/plugin' {
 		 * @return New webview panel.
 		 */
 		export function createWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { readonly viewColumn: ViewColumn; readonly preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
+
+		/**
+         * Create and show a new webview panel. this api is extended by huawei
+         *
+         * @param viewType Identifies the type of the webview panel.
+         * @param title Title of the panel.
+         * @param showOptions Where to show the webview in the editor. If preserveFocus is set, the new webview will not take focus. When in left or right area, preserveFocus `true` will make panel collapsed.
+         * @param options Settings for the new panel.
+         *
+         * @return New webview panel.
+         */
+		 export function createLightWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { area: string, viewColumn?: ViewColumn, preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
 
 		/**
 		 * Set a message to the status bar. This is a short hand for the more powerful

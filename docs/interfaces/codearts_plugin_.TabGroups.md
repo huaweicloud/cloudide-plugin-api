@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[index.d.ts:16068](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16068)
+[index.d.ts:16098](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16098)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16063](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16063)
+[index.d.ts:16093](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16093)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16073](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16073)
+[index.d.ts:16103](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16103)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16078](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16078)
+[index.d.ts:16108](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16108)
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16089](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16089)
+[index.d.ts:16119](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16119)
 
 ▸ **close**(`tabGroup`, `preserveFocus?`): [`Thenable`](Thenable.md)<`boolean`\>
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16098](https://github.com/huaweicloud/cloudide-plugin-api/blob/d4de966/index.d.ts#L16098)
+[index.d.ts:16128](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16128)
