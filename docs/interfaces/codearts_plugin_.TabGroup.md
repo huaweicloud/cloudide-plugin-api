@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabGroup
 
+Represents a group of tabs. A tab group itself consists of multiple tabs.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,14 @@
 
 • `Readonly` **activeTab**: `undefined` \| [`Tab`](codearts_plugin_.Tab.md)
 
+The active [tab](codearts_plugin_.Tab.md) in the group. This is the tab whose contents are currently
+being rendered.
+
+*Note* that there can be one active tab per group but there can only be one [active group](codearts_plugin_.TabGroups.md#activetabgroup).
+
 #### Defined in
 
-[index.d.ts:16077](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16077)
+[index.d.ts:16139](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16139)
 
 ___
 
@@ -29,9 +36,18 @@ ___
 
 • `Readonly` **isActive**: `boolean`
 
+Whether or not the group is currently active.
+
+*Note* that only one tab group is active at a time, but that multiple tab
+groups can have an TabGroup.aciveTab active tab.
+
+**`See`**
+
+[isActive](codearts_plugin_.Tab.md#isactive)
+
 #### Defined in
 
-[index.d.ts:16064](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16064)
+[index.d.ts:16126](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16126)
 
 ___
 
@@ -39,9 +55,12 @@ ___
 
 • `Readonly` **tabs**: readonly [`Tab`](codearts_plugin_.Tab.md)[]
 
+The list of tabs contained within the group.
+This can be empty if the group has no tabs open.
+
 #### Defined in
 
-[index.d.ts:16083](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16083)
+[index.d.ts:16145](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16145)
 
 ___
 
@@ -49,6 +68,8 @@ ___
 
 • `Readonly` **viewColumn**: [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md)
 
+The view column of the group.
+
 #### Defined in
 
-[index.d.ts:16069](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16069)
+[index.d.ts:16131](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16131)

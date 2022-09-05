@@ -4,6 +4,15 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).MessageItem
 
+Represents an action that is shown with an information, warning, or
+error message.
+
+**`See`**
+
+ - [showInformationMessage](../modules/codearts_plugin_.window.md#showinformationmessage)
+ - [showWarningMessage](../modules/codearts_plugin_.window.md#showwarningmessage)
+ - [showErrorMessage](../modules/codearts_plugin_.window.md#showerrormessage)
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +26,15 @@
 
 • `Optional` **isCloseAffordance**: `boolean`
 
+A hint for modal dialogs that the item should be triggered
+when the user cancels the dialog (e.g. by pressing the ESC
+key).
+
+Note: this option is ignored for non-modal messages.
+
 #### Defined in
 
-[index.d.ts:1962](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1962)
+[index.d.ts:1962](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1962)
 
 ___
 
@@ -27,6 +42,8 @@ ___
 
 • **title**: `string`
 
+A short title like 'Retry', 'Open Log' etc.
+
 #### Defined in
 
-[index.d.ts:1953](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1953)
+[index.d.ts:1953](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1953)

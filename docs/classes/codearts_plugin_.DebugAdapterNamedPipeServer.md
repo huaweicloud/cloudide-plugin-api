@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugAdapterNamedPipeServer
 
+Represents a debug adapter running as a Named Pipe (on Windows)/UNIX Domain Socket (on non-Windows) based server.
+
 ## Table of contents
 
 ### Constructors
@@ -20,6 +22,8 @@
 
 • **new DebugAdapterNamedPipeServer**(`path`)
 
+Create a description for a debug adapter running as a Named Pipe (on Windows)/UNIX Domain Socket (on non-Windows) based server.
+
 #### Parameters
 
 | Name | Type |
@@ -28,7 +32,7 @@
 
 #### Defined in
 
-[index.d.ts:14287](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14287)
+[index.d.ts:14349](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14349)
 
 ## Properties
 
@@ -36,6 +40,8 @@
 
 • `Readonly` **path**: `string`
 
+The path to the NamedPipe/UNIX Domain Socket.
+
 #### Defined in
 
-[index.d.ts:14282](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14282)
+[index.d.ts:14344](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14344)

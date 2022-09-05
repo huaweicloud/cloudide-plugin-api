@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ColorTheme
 
+Represents a color theme.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **kind**: [`ColorThemeKind`](../enums/codearts_plugin_.ColorThemeKind.md)
 
+The kind of this color theme: light, dark, high contrast dark and high contrast light.
+
 #### Defined in
 
-[index.d.ts:7075](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7075)
+[index.d.ts:7075](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7075)

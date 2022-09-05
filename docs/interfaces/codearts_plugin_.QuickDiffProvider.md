@@ -16,17 +16,21 @@
 
 ▸ `Optional` **provideOriginalResource**(`uri`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
 
+Provide a [Uri](../classes/codearts_plugin_.Uri.md) to the original resource of any given resource uri.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) | The uri of the resource open in a text editor. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
 
+A thenable that resolves to uri of the matching original resource.
+
 #### Defined in
 
-[index.d.ts:13811](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13811)
+[index.d.ts:13873](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13873)

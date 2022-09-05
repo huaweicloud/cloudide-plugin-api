@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentThread
 
+A collection of [comments](codearts_plugin_.Comment.md) representing a conversation at a particular range in a document.
+
 ## Table of contents
 
 ### Properties
@@ -26,9 +28,12 @@
 
 • **canReply**: `boolean`
 
+Whether the thread supports reply.
+Defaults to true.
+
 #### Defined in
 
-[index.d.ts:14800](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14800)
+[index.d.ts:14862](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14862)
 
 ___
 
@@ -36,9 +41,12 @@ ___
 
 • **collapsibleState**: [`CommentThreadCollapsibleState`](../enums/codearts_plugin_.CommentThreadCollapsibleState.md)
 
+Whether the thread should be collapsed or expanded when opening the document.
+Defaults to Collapsed.
+
 #### Defined in
 
-[index.d.ts:14794](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14794)
+[index.d.ts:14856](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14856)
 
 ___
 
@@ -46,9 +54,11 @@ ___
 
 • **comments**: readonly [`Comment`](codearts_plugin_.Comment.md)[]
 
+The ordered comments of the thread.
+
 #### Defined in
 
-[index.d.ts:14788](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14788)
+[index.d.ts:14850](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14850)
 
 ___
 
@@ -56,9 +66,26 @@ ___
 
 • `Optional` **contextValue**: `string`
 
+Context value of the comment thread. This can be used to contribute thread specific actions.
+For example, a comment thread is given a context value as `editable`. When contributing actions to `comments/commentThread/title`
+using `menus` extension point, you can specify context value for key `commentThread` in `when` expression like `commentThread == editable`.
+```json
+"contributes": {
+  "menus": {
+    "comments/commentThread/title": [
+      {
+        "command": "extension.deleteCommentThread",
+        "when": "commentThread == editable"
+      }
+    ]
+  }
+}
+```
+This will show action `extension.deleteCommentThread` only for comment threads with `contextValue` is `editable`.
+
 #### Defined in
 
-[index.d.ts:14820](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14820)
+[index.d.ts:14882](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14882)
 
 ___
 
@@ -66,9 +93,11 @@ ___
 
 • `Optional` **label**: `string`
 
+The optional human-readable label describing the [Comment Thread](codearts_plugin_.CommentThread.md)
+
 #### Defined in
 
-[index.d.ts:14825](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14825)
+[index.d.ts:14887](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14887)
 
 ___
 
@@ -76,9 +105,12 @@ ___
 
 • **range**: [`Range`](../classes/codearts_plugin_.Range.md)
 
+The range the comment thread is located within the document. The thread icon will be shown
+at the last line of the range.
+
 #### Defined in
 
-[index.d.ts:14783](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14783)
+[index.d.ts:14845](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14845)
 
 ___
 
@@ -86,9 +118,11 @@ ___
 
 • `Readonly` **uri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The uri of the document the thread has been created on.
+
 #### Defined in
 
-[index.d.ts:14777](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14777)
+[index.d.ts:14839](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14839)
 
 ## Methods
 
@@ -96,10 +130,14 @@ ___
 
 ▸ **dispose**(): `void`
 
+Dispose this comment thread.
+
+Once disposed, this comment thread will be removed from visible editors and Comment Panel when appropriate.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:14832](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14832)
+[index.d.ts:14894](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14894)

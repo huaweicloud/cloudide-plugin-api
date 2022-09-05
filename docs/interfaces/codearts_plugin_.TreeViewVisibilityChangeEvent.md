@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TreeViewVisibilityChangeEvent
 
+The event that is fired when there is a change in [tree view's visibility](codearts_plugin_.TreeView.md#visible)
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **visible**: `boolean`
 
+`true` if the [tree view](codearts_plugin_.TreeView.md) is visible otherwise `false`.
+
 #### Defined in
 
-[index.d.ts:10094](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10094)
+[index.d.ts:10156](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10156)

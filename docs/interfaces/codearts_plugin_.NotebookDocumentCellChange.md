@@ -4,6 +4,12 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookDocumentCellChange
 
+Describes a change to a notebook cell.
+
+**`See`**
+
+[NotebookDocumentChangeEvent](codearts_plugin_.NotebookDocumentChangeEvent.md)
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +26,11 @@
 
 • `Readonly` **cell**: [`NotebookCell`](codearts_plugin_.NotebookCell.md)
 
+The affected notebook.
+
 #### Defined in
 
-[index.d.ts:13029](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13029)
+[index.d.ts:13091](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13091)
 
 ___
 
@@ -30,9 +38,14 @@ ___
 
 • `Readonly` **document**: `undefined` \| [`TextDocument`](codearts_plugin_.TextDocument.md)
 
+The document of the cell or `undefined` when it did not change.
+
+*Note* that you should use the [onDidChangeTextDocument](../modules/codearts_plugin_.workspace.md#ondidchangetextdocument)-event
+for detailed change information, like what edits have been performed.
+
 #### Defined in
 
-[index.d.ts:13037](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13037)
+[index.d.ts:13099](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13099)
 
 ___
 
@@ -40,9 +53,11 @@ ___
 
 • `Readonly` **executionSummary**: `undefined` \| [`NotebookCellExecutionSummary`](codearts_plugin_.NotebookCellExecutionSummary.md)
 
+The new execution summary of the cell or `undefined` when it did not change.
+
 #### Defined in
 
-[index.d.ts:13052](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13052)
+[index.d.ts:13114](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13114)
 
 ___
 
@@ -50,9 +65,11 @@ ___
 
 • `Readonly` **metadata**: `undefined` \| { `[key: string]`: `any`;  }
 
+The new metadata of the cell or `undefined` when it did not change.
+
 #### Defined in
 
-[index.d.ts:13042](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13042)
+[index.d.ts:13104](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13104)
 
 ___
 
@@ -60,6 +77,8 @@ ___
 
 • `Readonly` **outputs**: `undefined` \| readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[]
 
+The new outputs of the cell or `undefined` when they did not change.
+
 #### Defined in
 
-[index.d.ts:13047](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13047)
+[index.d.ts:13109](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13109)

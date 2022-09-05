@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).EnvironmentVariableCollection
 
+A collection of mutations that an extension can apply to a process environment.
+
 ## Table of contents
 
 ### Properties
@@ -26,9 +28,15 @@
 
 • **persistent**: `boolean`
 
+Whether the collection should be cached for the workspace and applied to the terminal
+across window reloads. When true the collection will be active immediately such when the
+window reloads. Additionally, this API will return the cached version if it exists. The
+collection will be invalidated when the extension is uninstalled or when the collection
+is cleared. Defaults to true.
+
 #### Defined in
 
-[index.d.ts:10815](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10815)
+[index.d.ts:10877](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10877)
 
 ## Methods
 
@@ -36,12 +44,17 @@
 
 ▸ **append**(`variable`, `value`): `void`
 
+Append a value to an environment variable.
+
+Note that an extension can only make a single change to any one variable, so this will
+overwrite any previous calls to replace, append or prepend.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `variable` | `string` |  |
-| `value` | `string` |  |
+| `variable` | `string` | The variable to append to. |
+| `value` | `string` | The value to append to the variable. |
 
 #### Returns
 
@@ -49,7 +62,7 @@
 
 #### Defined in
 
-[index.d.ts:10837](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10837)
+[index.d.ts:10899](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10899)
 
 ___
 
@@ -57,13 +70,15 @@ ___
 
 ▸ **clear**(): `void`
 
+Clears all mutators from this collection.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:10875](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10875)
+[index.d.ts:10937](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10937)
 
 ___
 
@@ -71,11 +86,13 @@ ___
 
 ▸ **delete**(`variable`): `void`
 
+Deletes this collection's mutator for a variable.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `variable` | `string` |  |
+| `variable` | `string` | The variable to delete the mutator for. |
 
 #### Returns
 
@@ -83,7 +100,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10870](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10870)
+[index.d.ts:10932](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10932)
 
 ___
 
@@ -91,12 +108,14 @@ ___
 
 ▸ **forEach**(`callback`, `thisArg?`): `void`
 
+Iterate over each mutator in this collection.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `callback` | (`variable`: `string`, `mutator`: [`EnvironmentVariableMutator`](codearts_plugin_.EnvironmentVariableMutator.md), `collection`: [`EnvironmentVariableCollection`](codearts_plugin_.EnvironmentVariableCollection.md)) => `any` |  |
-| `thisArg?` | `any` |  |
+| `callback` | (`variable`: `string`, `mutator`: [`EnvironmentVariableMutator`](codearts_plugin_.EnvironmentVariableMutator.md), `collection`: [`EnvironmentVariableCollection`](codearts_plugin_.EnvironmentVariableCollection.md)) => `any` | Function to execute for each entry. |
+| `thisArg?` | `any` | The `this` context used when invoking the handler function. |
 
 #### Returns
 
@@ -104,7 +123,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10863](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10863)
+[index.d.ts:10925](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10925)
 
 ___
 
@@ -112,11 +131,13 @@ ___
 
 ▸ **get**(`variable`): `undefined` \| [`EnvironmentVariableMutator`](codearts_plugin_.EnvironmentVariableMutator.md)
 
+Gets the mutator that this collection applies to a variable, if any.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `variable` | `string` |  |
+| `variable` | `string` | The variable to get the mutator for. |
 
 #### Returns
 
@@ -124,7 +145,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10855](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10855)
+[index.d.ts:10917](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10917)
 
 ___
 
@@ -132,12 +153,17 @@ ___
 
 ▸ **prepend**(`variable`, `value`): `void`
 
+Prepend a value to an environment variable.
+
+Note that an extension can only make a single change to any one variable, so this will
+overwrite any previous calls to replace, append or prepend.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `variable` | `string` |  |
-| `value` | `string` |  |
+| `variable` | `string` | The variable to prepend. |
+| `value` | `string` | The value to prepend to the variable. |
 
 #### Returns
 
@@ -145,7 +171,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10848](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10848)
+[index.d.ts:10910](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10910)
 
 ___
 
@@ -153,12 +179,17 @@ ___
 
 ▸ **replace**(`variable`, `value`): `void`
 
+Replace an environment variable with a value.
+
+Note that an extension can only make a single change to any one variable, so this will
+overwrite any previous calls to replace, append or prepend.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `variable` | `string` |  |
-| `value` | `string` |  |
+| `variable` | `string` | The variable to replace. |
+| `value` | `string` | The value to replace the variable with. |
 
 #### Returns
 
@@ -166,4 +197,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:10826](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10826)
+[index.d.ts:10888](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10888)

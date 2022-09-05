@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ExtensionTerminalOptions
 
+Value-object describing what options a virtual process terminal should use.
+
 ## Table of contents
 
 ### Properties
@@ -21,9 +23,13 @@
 
 • `Optional` **color**: [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+The icon [ThemeColor](../classes/codearts_plugin_.ThemeColor.md) for the terminal.
+The standard `terminal.ansi*` theme keys are
+recommended for the best contrast and consistency across themes.
+
 #### Defined in
 
-[index.d.ts:10565](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10565)
+[index.d.ts:10627](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10627)
 
 ___
 
@@ -31,9 +37,11 @@ ___
 
 • `Optional` **iconPath**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| [`ThemeIcon`](../classes/codearts_plugin_.ThemeIcon.md) \| { `dark`: [`Uri`](../classes/codearts_plugin_.Uri.md) ; `light`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }
 
+The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the terminal.
+
 #### Defined in
 
-[index.d.ts:10558](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10558)
+[index.d.ts:10620](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10620)
 
 ___
 
@@ -41,9 +49,12 @@ ___
 
 • `Optional` **isTransient**: `boolean`
 
+Opt-out of the default terminal persistence on restart and reload.
+This will only take effect when `terminal.integrated.enablePersistentSessions` is enabled.
+
 #### Defined in
 
-[index.d.ts:10576](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10576)
+[index.d.ts:10638](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10638)
 
 ___
 
@@ -51,9 +62,11 @@ ___
 
 • `Optional` **location**: [`TerminalEditorLocationOptions`](codearts_plugin_.TerminalEditorLocationOptions.md) \| [`TerminalSplitLocationOptions`](codearts_plugin_.TerminalSplitLocationOptions.md) \| [`TerminalLocation`](../enums/codearts_plugin_.TerminalLocation.md)
 
+The [TerminalLocation](../enums/codearts_plugin_.TerminalLocation.md) or [TerminalEditorLocationOptions](codearts_plugin_.TerminalEditorLocationOptions.md) or [TerminalSplitLocationOptions](codearts_plugin_.TerminalSplitLocationOptions.md) for the terminal.
+
 #### Defined in
 
-[index.d.ts:10570](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10570)
+[index.d.ts:10632](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10632)
 
 ___
 
@@ -61,9 +74,11 @@ ___
 
 • **name**: `string`
 
+A human-readable string which will be used to represent the terminal in the UI.
+
 #### Defined in
 
-[index.d.ts:10547](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10547)
+[index.d.ts:10609](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10609)
 
 ___
 
@@ -71,6 +86,9 @@ ___
 
 • **pty**: [`Pseudoterminal`](codearts_plugin_.Pseudoterminal.md)
 
+An implementation of [Pseudoterminal](codearts_plugin_.Pseudoterminal.md) that allows an extension to
+control a terminal.
+
 #### Defined in
 
-[index.d.ts:10553](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10553)
+[index.d.ts:10615](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10615)

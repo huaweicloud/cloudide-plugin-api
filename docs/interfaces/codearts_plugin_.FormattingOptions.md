@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FormattingOptions
 
+Value-object describing what options formatting should use.
+
 ## Indexable
 
 ▪ [key: `string`]: `boolean` \| `number` \| `string`
@@ -21,9 +23,11 @@
 
 • **insertSpaces**: `boolean`
 
+Prefer spaces over tabs.
+
 #### Defined in
 
-[index.d.ts:3919](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3919)
+[index.d.ts:3919](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3919)
 
 ___
 
@@ -31,6 +35,8 @@ ___
 
 • **tabSize**: `number`
 
+Size of a tab in spaces.
+
 #### Defined in
 
-[index.d.ts:3914](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3914)
+[index.d.ts:3914](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3914)

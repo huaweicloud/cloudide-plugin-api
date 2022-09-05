@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileRenameEvent
 
+An event that is fired after files are renamed.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **files**: readonly { `newUri`: [`Uri`](../classes/codearts_plugin_.Uri.md) ; `oldUri`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }[]
 
+The files that got renamed.
+
 #### Defined in
 
-[index.d.ts:11524](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11524)
+[index.d.ts:11586](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11586)

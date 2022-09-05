@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SelectedCompletionInfo
 
+Describes the currently selected completion item.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **range**: [`Range`](../classes/codearts_plugin_.Range.md)
 
+The range that will be replaced if this completion item is accepted.
+
 #### Defined in
 
-[index.d.ts:4580](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4580)
+[index.d.ts:4580](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4580)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **text**: `string`
 
+The text the range will be replaced with if this completion is accepted.
+
 #### Defined in
 
-[index.d.ts:4585](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4585)
+[index.d.ts:4585](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4585)

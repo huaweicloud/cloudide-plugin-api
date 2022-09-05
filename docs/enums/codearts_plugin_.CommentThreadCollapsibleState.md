@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentThreadCollapsibleState
 
+Collapsible state of a [comment thread](../interfaces/codearts_plugin_.CommentThread.md)
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Collapsed](codearts_plugin_.CommentThreadCollapsibleState.md#collapsed)
 - [Expanded](codearts_plugin_.CommentThreadCollapsibleState.md#expanded)
 
-## Enumeration members
+## Enumeration Members
 
 ### Collapsed
 
-• **Collapsed** = `Object` = `0`
+• **Collapsed** = ``0``
+
+Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:14747](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14747)
+[index.d.ts:14809](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14809)
 
 ___
 
 ### Expanded
 
-• **Expanded** = `Object` = `1`
+• **Expanded** = ``1``
+
+Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:14752](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14752)
+[index.d.ts:14814](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14814)

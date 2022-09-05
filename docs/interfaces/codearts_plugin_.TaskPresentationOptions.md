@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskPresentationOptions
 
+Controls how the task is presented in the UI.
+
 ## Table of contents
 
 ### Properties
@@ -21,9 +23,11 @@
 
 • `Optional` **clear**: `boolean`
 
+Controls whether the terminal is cleared before executing the task.
+
 #### Defined in
 
-[index.d.ts:7157](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7157)
+[index.d.ts:7157](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7157)
 
 ___
 
@@ -31,9 +35,12 @@ ___
 
 • `Optional` **echo**: `boolean`
 
+Controls whether the command associated with the task is echoed
+in the user interface.
+
 #### Defined in
 
-[index.d.ts:7135](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7135)
+[index.d.ts:7135](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7135)
 
 ___
 
@@ -41,9 +48,11 @@ ___
 
 • `Optional` **focus**: `boolean`
 
+Controls whether the panel showing the task output is taking focus.
+
 #### Defined in
 
-[index.d.ts:7140](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7140)
+[index.d.ts:7140](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7140)
 
 ___
 
@@ -51,9 +60,13 @@ ___
 
 • `Optional` **panel**: [`TaskPanelKind`](../enums/codearts_plugin_.TaskPanelKind.md)
 
+Controls if the task panel is used for this task only (dedicated),
+shared between tasks (shared) or if a new panel is created on
+every task execution (new). Defaults to `TaskInstanceKind.Shared`
+
 #### Defined in
 
-[index.d.ts:7147](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7147)
+[index.d.ts:7147](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7147)
 
 ___
 
@@ -61,9 +74,12 @@ ___
 
 • `Optional` **reveal**: [`TaskRevealKind`](../enums/codearts_plugin_.TaskRevealKind.md)
 
+Controls whether the task output is reveal in the user interface.
+Defaults to `RevealKind.Always`.
+
 #### Defined in
 
-[index.d.ts:7129](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7129)
+[index.d.ts:7129](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7129)
 
 ___
 
@@ -71,6 +87,8 @@ ___
 
 • `Optional` **showReuseMessage**: `boolean`
 
+Controls whether to show the "Terminal will be reused by tasks, press any key to close it" message.
+
 #### Defined in
 
-[index.d.ts:7152](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7152)
+[index.d.ts:7152](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7152)

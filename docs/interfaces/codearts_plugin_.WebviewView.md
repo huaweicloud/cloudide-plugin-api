@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WebviewView
 
+A webview based view.
+
 ## Table of contents
 
 ### Properties
@@ -26,9 +28,11 @@
 
 • `Optional` **description**: `string`
 
+Human-readable string which is rendered less prominently in the title.
+
 #### Defined in
 
-[index.d.ts:8556](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8556)
+[index.d.ts:8556](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8556)
 
 ___
 
@@ -36,9 +40,18 @@ ___
 
 • `Readonly` **onDidChangeVisibility**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+Event fired when the visibility of the view changes.
+
+Actions that trigger a visibility change:
+
+- The view is collapsed or expanded.
+- The user switches to a different view group in the sidebar or panel.
+
+Note that hiding a view using the context menu instead disposes of the view and fires `onDidDispose`.
+
 #### Defined in
 
-[index.d.ts:8585](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8585)
+[index.d.ts:8585](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8585)
 
 ___
 
@@ -46,9 +59,16 @@ ___
 
 • `Readonly` **onDidDispose**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+Event fired when the view is disposed.
+
+Views are disposed when they are explicitly hidden by a user (this happens when a user
+right clicks in a view and unchecks the webview view).
+
+Trying to use the view after it has been disposed throws an exception.
+
 #### Defined in
 
-[index.d.ts:8566](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8566)
+[index.d.ts:8566](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8566)
 
 ___
 
@@ -56,9 +76,13 @@ ___
 
 • `Optional` **title**: `string`
 
+View title displayed in the UI.
+
+The view title is initially taken from the extension `package.json` contribution.
+
 #### Defined in
 
-[index.d.ts:8551](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8551)
+[index.d.ts:8551](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8551)
 
 ___
 
@@ -66,9 +90,11 @@ ___
 
 • `Readonly` **viewType**: `string`
 
+Identifies the type of the webview view, such as `'hexEditor.dataView'`.
+
 #### Defined in
 
-[index.d.ts:8539](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8539)
+[index.d.ts:8539](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8539)
 
 ___
 
@@ -76,9 +102,13 @@ ___
 
 • `Readonly` **visible**: `boolean`
 
+Tracks if the webview is currently visible.
+
+Views are visible when they are on the screen and expanded.
+
 #### Defined in
 
-[index.d.ts:8573](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8573)
+[index.d.ts:8573](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8573)
 
 ___
 
@@ -86,9 +116,11 @@ ___
 
 • `Readonly` **webview**: [`Webview`](codearts_plugin_.Webview.md)
 
+The underlying webview for the view.
+
 #### Defined in
 
-[index.d.ts:8544](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8544)
+[index.d.ts:8544](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8544)
 
 ## Methods
 
@@ -96,11 +128,15 @@ ___
 
 ▸ **show**(`preserveFocus?`): `void`
 
+Reveal the view in the UI.
+
+If the view is collapsed, this will expand it.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `preserveFocus?` | `boolean` |  |
+| `preserveFocus?` | `boolean` | When `true` the view will not take focus. |
 
 #### Returns
 
@@ -108,4 +144,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:8594](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8594)
+[index.d.ts:8594](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8594)

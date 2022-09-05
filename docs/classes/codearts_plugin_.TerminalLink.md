@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalLink
 
+A link on a terminal line.
+
 ## Table of contents
 
 ### Constructors
@@ -22,17 +24,19 @@
 
 • **new TerminalLink**(`startIndex`, `length`, `tooltip?`)
 
+Creates a new terminal link.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `startIndex` | `number` |  |
-| `length` | `number` |  |
-| `tooltip?` | `string` |  |
+| `startIndex` | `number` | The start index of the link on [line](../interfaces/codearts_plugin_.TerminalLinkContext.md#line). |
+| `length` | `number` | The length of the link on [line](../interfaces/codearts_plugin_.TerminalLinkContext.md#line). |
+| `tooltip?` | `string` | The tooltip text when you hover over this link.  If a tooltip is provided, is will be displayed in a string that includes instructions on how to trigger the link, such as `{0} (ctrl + click)`. The specific instructions vary depending on OS, user settings, and localization. |
 
 #### Defined in
 
-[index.d.ts:6618](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6618)
+[index.d.ts:6618](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6618)
 
 ## Properties
 
@@ -40,9 +44,11 @@
 
 • **length**: `number`
 
+The length of the link on [line](../interfaces/codearts_plugin_.TerminalLinkContext.md#line).
+
 #### Defined in
 
-[index.d.ts:6597](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6597)
+[index.d.ts:6597](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6597)
 
 ___
 
@@ -50,9 +56,11 @@ ___
 
 • **startIndex**: `number`
 
+The start index of the link on [line](../interfaces/codearts_plugin_.TerminalLinkContext.md#line).
+
 #### Defined in
 
-[index.d.ts:6592](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6592)
+[index.d.ts:6592](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6592)
 
 ___
 
@@ -60,6 +68,12 @@ ___
 
 • `Optional` **tooltip**: `string`
 
+The tooltip text when you hover over this link.
+
+If a tooltip is provided, is will be displayed in a string that includes instructions on
+how to trigger the link, such as `{0} (ctrl + click)`. The specific instructions vary
+depending on OS, user settings, and localization.
+
 #### Defined in
 
-[index.d.ts:6606](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6606)
+[index.d.ts:6606](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6606)

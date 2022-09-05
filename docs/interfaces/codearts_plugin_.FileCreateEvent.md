@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileCreateEvent
 
+An event that is fired after files are created.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **files**: readonly [`Uri`](../classes/codearts_plugin_.Uri.md)[]
 
+The files that got created.
+
 #### Defined in
 
-[index.d.ts:11404](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11404)
+[index.d.ts:11466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11466)

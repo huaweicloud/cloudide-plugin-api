@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentOptions
 
+Represents a [comment controller](codearts_plugin_.CommentController.md)'s [options](codearts_plugin_.CommentController.md#options).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Optional` **placeHolder**: `string`
 
+An optional string to show as placeholder in the comment input box when it's focused.
+
 #### Defined in
 
-[index.d.ts:14969](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14969)
+[index.d.ts:15031](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15031)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Optional` **prompt**: `string`
 
+An optional string to show on the comment input box when it's collapsed.
+
 #### Defined in
 
-[index.d.ts:14964](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14964)
+[index.d.ts:15026](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15026)

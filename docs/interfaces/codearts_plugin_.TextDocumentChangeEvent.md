@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextDocumentChangeEvent
 
+An event describing a transactional [document](codearts_plugin_.TextDocument.md) change.
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,11 @@
 
 • `Readonly` **contentChanges**: readonly [`TextDocumentContentChangeEvent`](codearts_plugin_.TextDocumentContentChangeEvent.md)[]
 
+An array of content changes.
+
 #### Defined in
 
-[index.d.ts:11265](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11265)
+[index.d.ts:11327](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11327)
 
 ___
 
@@ -28,9 +32,11 @@ ___
 
 • `Readonly` **document**: [`TextDocument`](codearts_plugin_.TextDocument.md)
 
+The affected document.
+
 #### Defined in
 
-[index.d.ts:11260](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11260)
+[index.d.ts:11322](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11322)
 
 ___
 
@@ -38,6 +44,9 @@ ___
 
 • `Readonly` **reason**: `undefined` \| [`TextDocumentChangeReason`](../enums/codearts_plugin_.TextDocumentChangeReason.md)
 
+The reason why the document was changed.
+Is `undefined` if the reason is not known.
+
 #### Defined in
 
-[index.d.ts:11271](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11271)
+[index.d.ts:11333](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11333)

@@ -4,29 +4,37 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlineCompletionTriggerKind
 
+Describes how an [inline completion provider](../interfaces/codearts_plugin_.InlineCompletionItemProvider.md) was triggered.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Automatic](codearts_plugin_.InlineCompletionTriggerKind.md#automatic)
 - [Invoke](codearts_plugin_.InlineCompletionTriggerKind.md#invoke)
 
-## Enumeration members
+## Enumeration Members
 
 ### Automatic
 
-• **Automatic** = `Object` = `1`
+• **Automatic** = ``1``
+
+Completion was triggered automatically while editing.
+It is sufficient to return a single completion item in this case.
 
 #### Defined in
 
-[index.d.ts:4602](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4602)
+[index.d.ts:4602](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4602)
 
 ___
 
 ### Invoke
 
-• **Invoke** = `Object` = `0`
+• **Invoke** = ``0``
+
+Completion was triggered explicitly by a user gesture.
+Return multiple completion items to enable cycling through them.
 
 #### Defined in
 
-[index.d.ts:4596](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4596)
+[index.d.ts:4596](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4596)

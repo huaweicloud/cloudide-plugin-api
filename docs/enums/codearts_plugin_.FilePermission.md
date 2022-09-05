@@ -6,16 +6,23 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Readonly](codearts_plugin_.FilePermission.md#readonly)
 
-## Enumeration members
+## Enumeration Members
 
 ### Readonly
 
-• **Readonly** = `Object` = `1`
+• **Readonly** = ``1``
+
+The file is readonly.
+
+*Note:* All `FileStat` from a `FileSystemProvider` that is registered with
+the option `isReadonly: true` will be implicitly handled as if `FilePermission.Readonly`
+is set. As a consequence, it is not possible to have a readonly file system provider
+registered where some `FileStat` are not readonly.
 
 #### Defined in
 
-[index.d.ts:7800](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7800)
+[index.d.ts:7800](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7800)

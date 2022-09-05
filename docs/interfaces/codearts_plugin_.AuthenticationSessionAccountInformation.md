@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).AuthenticationSessionAccountInformation
 
+The information of an account associated with an [AuthenticationSession](codearts_plugin_.AuthenticationSession.md).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **id**: `string`
 
+The unique identifier of the account.
+
 #### Defined in
 
-[index.d.ts:15067](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15067)
+[index.d.ts:15129](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15129)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **label**: `string`
 
+The human-readable name of the account.
+
 #### Defined in
 
-[index.d.ts:15072](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15072)
+[index.d.ts:15134](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15134)

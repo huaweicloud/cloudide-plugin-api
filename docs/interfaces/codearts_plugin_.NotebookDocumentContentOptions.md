@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookDocumentContentOptions
 
+Notebook content options define what parts of a notebook are persisted. Note
+
+For instance, a notebook serializer can opt-out of saving outputs and in that case the editor doesn't mark a
+notebooks as [dirty](codearts_plugin_.NotebookDocument.md#isdirty) when its output has changed.
+
 ## Table of contents
 
 ### Properties
@@ -18,13 +23,18 @@
 
 • `Optional` **transientCellMetadata**: `Object`
 
+Controls if a cell metadata property change event will trigger notebook document content
+change events and if it will be used in the diff editor, defaults to false. If the
+content provider doesn't persist a metadata property in the file document, it should be
+set to true.
+
 #### Index signature
 
 ▪ [key: `string`]: `boolean` \| `undefined`
 
 #### Defined in
 
-[index.d.ts:13407](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13407)
+[index.d.ts:13469](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13469)
 
 ___
 
@@ -32,13 +42,18 @@ ___
 
 • `Optional` **transientDocumentMetadata**: `Object`
 
+Controls if a document metadata property change event will trigger notebook document
+content change event and if it will be used in the diff editor, defaults to false. If the
+content provider doesn't persist a metadata property in the file document, it should be
+set to true.
+
 #### Index signature
 
 ▪ [key: `string`]: `boolean` \| `undefined`
 
 #### Defined in
 
-[index.d.ts:13415](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13415)
+[index.d.ts:13477](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13477)
 
 ___
 
@@ -46,6 +61,10 @@ ___
 
 • `Optional` **transientOutputs**: `boolean`
 
+Controls if output change events will trigger notebook document content change events and
+if it will be used in the diff editor, defaults to false. If the content provider doesn't
+persist the outputs in the file document, this should be set to true.
+
 #### Defined in
 
-[index.d.ts:13399](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13399)
+[index.d.ts:13461](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13461)

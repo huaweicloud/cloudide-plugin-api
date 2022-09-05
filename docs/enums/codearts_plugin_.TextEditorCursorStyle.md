@@ -4,9 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextEditorCursorStyle
 
+Rendering style of the cursor.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Block](codearts_plugin_.TextEditorCursorStyle.md#block)
 - [BlockOutline](codearts_plugin_.TextEditorCursorStyle.md#blockoutline)
@@ -15,62 +17,74 @@
 - [Underline](codearts_plugin_.TextEditorCursorStyle.md#underline)
 - [UnderlineThin](codearts_plugin_.TextEditorCursorStyle.md#underlinethin)
 
-## Enumeration members
+## Enumeration Members
 
 ### Block
 
-• **Block** = `Object` = `2`
+• **Block** = ``2``
+
+Render the cursor as a block filled.
 
 #### Defined in
 
-[index.d.ts:607](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L607)
+[index.d.ts:607](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L607)
 
 ___
 
 ### BlockOutline
 
-• **BlockOutline** = `Object` = `5`
+• **BlockOutline** = ``5``
+
+Render the cursor as a block outlined.
 
 #### Defined in
 
-[index.d.ts:619](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L619)
+[index.d.ts:619](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L619)
 
 ___
 
 ### Line
 
-• **Line** = `Object` = `1`
+• **Line** = ``1``
+
+Render the cursor as a vertical thick line.
 
 #### Defined in
 
-[index.d.ts:603](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L603)
+[index.d.ts:603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L603)
 
 ___
 
 ### LineThin
 
-• **LineThin** = `Object` = `4`
+• **LineThin** = ``4``
+
+Render the cursor as a vertical thin line.
 
 #### Defined in
 
-[index.d.ts:615](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L615)
+[index.d.ts:615](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L615)
 
 ___
 
 ### Underline
 
-• **Underline** = `Object` = `3`
+• **Underline** = ``3``
+
+Render the cursor as a thick horizontal line.
 
 #### Defined in
 
-[index.d.ts:611](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L611)
+[index.d.ts:611](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L611)
 
 ___
 
 ### UnderlineThin
 
-• **UnderlineThin** = `Object` = `6`
+• **UnderlineThin** = ``6``
+
+Render the cursor as a thin horizontal line.
 
 #### Defined in
 
-[index.d.ts:623](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L623)
+[index.d.ts:623](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L623)

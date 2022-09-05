@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Progress
 
+Defines a generalized way of reporting progress updates.
+
 ## Type parameters
 
 | Name |
@@ -22,11 +24,13 @@
 
 ▸ **report**(`value`): `void`
 
+Report a progress update.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `T` |  |
+| `value` | `T` | A progress item, like a message and/or an report on how much work finished |
 
 #### Returns
 
@@ -34,4 +38,4 @@
 
 #### Defined in
 
-[index.d.ts:6410](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6410)
+[index.d.ts:6410](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6410)

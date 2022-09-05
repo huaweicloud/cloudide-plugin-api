@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Command
 
+Represents a reference to a command. Provides a title which
+will be used to represent a command in the UI and, optionally,
+an array of arguments which will be passed to the command handler
+function when invoked.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +24,12 @@
 
 • `Optional` **arguments**: `any`[]
 
+Arguments that the command handler should be
+invoked with.
+
 #### Defined in
 
-[index.d.ts:48](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L48)
+[index.d.ts:48](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L48)
 
 ___
 
@@ -29,9 +37,15 @@ ___
 
 • **command**: `string`
 
+The identifier of the actual command handler.
+
+**`See`**
+
+[registerCommand](../modules/codearts_plugin_.commands.md#registercommand)
+
 #### Defined in
 
-[index.d.ts:37](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L37)
+[index.d.ts:37](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L37)
 
 ___
 
@@ -39,9 +53,11 @@ ___
 
 • **title**: `string`
 
+Title of the command, like `save`.
+
 #### Defined in
 
-[index.d.ts:31](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L31)
+[index.d.ts:31](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L31)
 
 ___
 
@@ -49,6 +65,8 @@ ___
 
 • `Optional` **tooltip**: `string`
 
+A tooltip for the command, when represented in the UI.
+
 #### Defined in
 
-[index.d.ts:42](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L42)
+[index.d.ts:42](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L42)

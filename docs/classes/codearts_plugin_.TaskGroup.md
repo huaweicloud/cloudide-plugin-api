@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskGroup
 
+A grouping for tasks. The editor by default supports the
+'Clean', 'Build', 'RebuildAll' and 'Test' group.
+
 ## Table of contents
 
 ### Constructors
@@ -34,7 +37,7 @@
 
 #### Defined in
 
-[index.d.ts:7197](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7197)
+[index.d.ts:7197](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7197)
 
 ## Properties
 
@@ -42,9 +45,11 @@
 
 • `Readonly` **id**: `string`
 
+The ID of the task group. Is one of TaskGroup.Clean.id, TaskGroup.Build.id, TaskGroup.Rebuild.id, or TaskGroup.Test.id.
+
 #### Defined in
 
-[index.d.ts:7195](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7195)
+[index.d.ts:7195](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7195)
 
 ___
 
@@ -52,9 +57,12 @@ ___
 
 • `Readonly` **isDefault**: `undefined` \| `boolean`
 
+Whether the task that is part of this group is the default for the group.
+This property cannot be set through API, and is controlled by a user's task configurations.
+
 #### Defined in
 
-[index.d.ts:7190](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7190)
+[index.d.ts:7190](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7190)
 
 ___
 
@@ -62,9 +70,11 @@ ___
 
 ▪ `Static` **Build**: [`TaskGroup`](codearts_plugin_.TaskGroup.md)
 
+The build task group;
+
 #### Defined in
 
-[index.d.ts:7174](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7174)
+[index.d.ts:7174](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7174)
 
 ___
 
@@ -72,9 +82,11 @@ ___
 
 ▪ `Static` **Clean**: [`TaskGroup`](codearts_plugin_.TaskGroup.md)
 
+The clean task group;
+
 #### Defined in
 
-[index.d.ts:7169](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7169)
+[index.d.ts:7169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7169)
 
 ___
 
@@ -82,9 +94,11 @@ ___
 
 ▪ `Static` **Rebuild**: [`TaskGroup`](codearts_plugin_.TaskGroup.md)
 
+The rebuild all task group;
+
 #### Defined in
 
-[index.d.ts:7179](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7179)
+[index.d.ts:7179](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7179)
 
 ___
 
@@ -92,6 +106,8 @@ ___
 
 ▪ `Static` **Test**: [`TaskGroup`](codearts_plugin_.TaskGroup.md)
 
+The test all task group;
+
 #### Defined in
 
-[index.d.ts:7184](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7184)
+[index.d.ts:7184](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7184)

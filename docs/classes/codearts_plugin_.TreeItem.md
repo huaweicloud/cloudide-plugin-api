@@ -33,12 +33,12 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `label` | `string` \| [`TreeItemLabel`](../interfaces/codearts_plugin_.TreeItemLabel.md) |  |
-| `collapsibleState?` | [`TreeItemCollapsibleState`](../enums/codearts_plugin_.TreeItemCollapsibleState.md) |  |
+| `label` | `string` \| [`TreeItemLabel`](../interfaces/codearts_plugin_.TreeItemLabel.md) | A human-readable string describing this item |
+| `collapsibleState?` | [`TreeItemCollapsibleState`](../enums/codearts_plugin_.TreeItemCollapsibleState.md) | [TreeItemCollapsibleState](../enums/codearts_plugin_.TreeItemCollapsibleState.md) of the tree item. Default is [None](../enums/codearts_plugin_.TreeItemCollapsibleState.md#none) |
 
 #### Defined in
 
-[index.d.ts:10417](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10417)
+[index.d.ts:10479](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10479)
 
 • **new TreeItem**(`resourceUri`, `collapsibleState?`)
 
@@ -46,12 +46,12 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `resourceUri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `collapsibleState?` | [`TreeItemCollapsibleState`](../enums/codearts_plugin_.TreeItemCollapsibleState.md) |  |
+| `resourceUri` | [`Uri`](codearts_plugin_.Uri.md) | The [Uri](codearts_plugin_.Uri.md) of the resource representing this item. |
+| `collapsibleState?` | [`TreeItemCollapsibleState`](../enums/codearts_plugin_.TreeItemCollapsibleState.md) | [TreeItemCollapsibleState](../enums/codearts_plugin_.TreeItemCollapsibleState.md) of the tree item. Default is [None](../enums/codearts_plugin_.TreeItemCollapsibleState.md#none) |
 
 #### Defined in
 
-[index.d.ts:10423](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10423)
+[index.d.ts:10485](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10485)
 
 ## Properties
 
@@ -59,9 +59,13 @@
 
 • `Optional` **accessibilityInformation**: [`AccessibilityInformation`](../interfaces/codearts_plugin_.AccessibilityInformation.md)
 
+Accessibility information used when screen reader interacts with this tree item.
+Generally, a TreeItem has no need to set the `role` of the accessibilityInformation;
+however, there are cases where a TreeItem is not displayed in a tree-like way where setting the `role` may make sense.
+
 #### Defined in
 
-[index.d.ts:10411](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10411)
+[index.d.ts:10473](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10473)
 
 ___
 
@@ -69,9 +73,11 @@ ___
 
 • `Optional` **collapsibleState**: [`TreeItemCollapsibleState`](../enums/codearts_plugin_.TreeItemCollapsibleState.md)
 
+[TreeItemCollapsibleState](../enums/codearts_plugin_.TreeItemCollapsibleState.md) of the tree item.
+
 #### Defined in
 
-[index.d.ts:10384](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10384)
+[index.d.ts:10446](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10446)
 
 ___
 
@@ -79,9 +85,15 @@ ___
 
 • `Optional` **command**: [`Command`](../interfaces/codearts_plugin_.Command.md)
 
+The [Command](../interfaces/codearts_plugin_.Command.md) that should be executed when the tree item is selected.
+
+Please use `vscode.open` or `vscode.diff` as command IDs when the tree item is opening
+something in the editor. Using these commands ensures that the resulting editor will
+appear consistent with how other built-in trees open editors.
+
 #### Defined in
 
-[index.d.ts:10379](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10379)
+[index.d.ts:10441](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10441)
 
 ___
 
@@ -89,9 +101,26 @@ ___
 
 • `Optional` **contextValue**: `string`
 
+Context value of the tree item. This can be used to contribute item specific actions in the tree.
+For example, a tree item is given a context value as `folder`. When contributing actions to `view/item/context`
+using `menus` extension point, you can specify context value for key `viewItem` in `when` expression like `viewItem == folder`.
+```json
+"contributes": {
+  "menus": {
+    "view/item/context": [
+      {
+        "command": "extension.deleteFolder",
+        "when": "viewItem == folder"
+      }
+    ]
+  }
+}
+```
+This will show action `extension.deleteFolder` only for items with `contextValue` is `folder`.
+
 #### Defined in
 
-[index.d.ts:10404](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10404)
+[index.d.ts:10466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10466)
 
 ___
 
@@ -99,9 +128,12 @@ ___
 
 • `Optional` **description**: `string` \| `boolean`
 
+A human-readable string which is rendered less prominent.
+When `true`, it is derived from [resourceUri](codearts_plugin_.TreeItem.md#resourceuri) and when `falsy`, it is not shown.
+
 #### Defined in
 
-[index.d.ts:10357](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10357)
+[index.d.ts:10419](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10419)
 
 ___
 
@@ -109,9 +141,13 @@ ___
 
 • `Optional` **iconPath**: `string` \| [`Uri`](codearts_plugin_.Uri.md) \| [`ThemeIcon`](codearts_plugin_.ThemeIcon.md) \| { `dark`: `string` \| [`Uri`](codearts_plugin_.Uri.md) ; `light`: `string` \| [`Uri`](codearts_plugin_.Uri.md)  }
 
+The icon path or [ThemeIcon](codearts_plugin_.ThemeIcon.md) for the tree item.
+When `falsy`, [Folder Theme Icon](codearts_plugin_.ThemeIcon.md#folder) is assigned, if item is collapsible otherwise [File Theme Icon](codearts_plugin_.ThemeIcon.md#file).
+When a file or folder [ThemeIcon](codearts_plugin_.ThemeIcon.md) is specified, icon is derived from the current file icon theme for the specified theme icon using [resourceUri](codearts_plugin_.TreeItem.md#resourceuri) (if provided).
+
 #### Defined in
 
-[index.d.ts:10351](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10351)
+[index.d.ts:10413](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10413)
 
 ___
 
@@ -119,9 +155,13 @@ ___
 
 • `Optional` **id**: `string`
 
+Optional id for the tree item that has to be unique across tree. The id is used to preserve the selection and expansion state of the tree item.
+
+If not provided, an id is generated using the tree item's label. **Note** that when labels change, ids will change and that selection and expansion state cannot be kept stable anymore.
+
 #### Defined in
 
-[index.d.ts:10344](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10344)
+[index.d.ts:10406](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10406)
 
 ___
 
@@ -129,9 +169,11 @@ ___
 
 • `Optional` **label**: `string` \| [`TreeItemLabel`](../interfaces/codearts_plugin_.TreeItemLabel.md)
 
+A human-readable string describing this item. When `falsy`, it is derived from [resourceUri](codearts_plugin_.TreeItem.md#resourceuri).
+
 #### Defined in
 
-[index.d.ts:10337](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10337)
+[index.d.ts:10399](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10399)
 
 ___
 
@@ -139,9 +181,14 @@ ___
 
 • `Optional` **resourceUri**: [`Uri`](codearts_plugin_.Uri.md)
 
+The [Uri](codearts_plugin_.Uri.md) of the resource representing this item.
+
+Will be used to derive the [label](codearts_plugin_.TreeItem.md#label), when it is not provided.
+Will be used to derive the icon from current file icon theme, when [iconPath](codearts_plugin_.TreeItem.md#iconpath) has [ThemeIcon](codearts_plugin_.ThemeIcon.md) value.
+
 #### Defined in
 
-[index.d.ts:10365](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10365)
+[index.d.ts:10427](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10427)
 
 ___
 
@@ -149,6 +196,8 @@ ___
 
 • `Optional` **tooltip**: `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md)
 
+The tooltip text when you hover over this item.
+
 #### Defined in
 
-[index.d.ts:10370](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10370)
+[index.d.ts:10432](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10432)

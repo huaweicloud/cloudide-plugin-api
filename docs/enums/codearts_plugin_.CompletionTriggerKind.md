@@ -4,40 +4,48 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CompletionTriggerKind
 
+How a [completion provider](../interfaces/codearts_plugin_.CompletionItemProvider.md) was triggered
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Invoke](codearts_plugin_.CompletionTriggerKind.md#invoke)
 - [TriggerCharacter](codearts_plugin_.CompletionTriggerKind.md#triggercharacter)
 - [TriggerForIncompleteCompletions](codearts_plugin_.CompletionTriggerKind.md#triggerforincompletecompletions)
 
-## Enumeration members
+## Enumeration Members
 
 ### Invoke
 
-• **Invoke** = `Object` = `0`
+• **Invoke** = ``0``
+
+Completion was triggered normally.
 
 #### Defined in
 
-[index.d.ts:4429](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4429)
+[index.d.ts:4429](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4429)
 
 ___
 
 ### TriggerCharacter
 
-• **TriggerCharacter** = `Object` = `1`
+• **TriggerCharacter** = ``1``
+
+Completion was triggered by a trigger character.
 
 #### Defined in
 
-[index.d.ts:4433](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4433)
+[index.d.ts:4433](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4433)
 
 ___
 
 ### TriggerForIncompleteCompletions
 
-• **TriggerForIncompleteCompletions** = `Object` = `2`
+• **TriggerForIncompleteCompletions** = ``2``
+
+Completion was re-triggered as current completion list is incomplete
 
 #### Defined in
 
-[index.d.ts:4437](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4437)
+[index.d.ts:4437](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4437)

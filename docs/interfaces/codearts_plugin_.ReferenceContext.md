@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ReferenceContext
 
+Value-object that contains additional information when
+requesting references.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +19,8 @@
 
 • `Readonly` **includeDeclaration**: `boolean`
 
+Include the declaration of the current symbol.
+
 #### Defined in
 
-[index.d.ts:3349](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3349)
+[index.d.ts:3349](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3349)

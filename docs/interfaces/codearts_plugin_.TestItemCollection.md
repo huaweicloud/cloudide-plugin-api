@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TestItemCollection
 
+Collection of test items, found in [children](codearts_plugin_.TestItem.md#children) and
+[items](codearts_plugin_.TestController.md#items).
+
 ## Table of contents
 
 ### Properties
@@ -24,9 +27,11 @@
 
 • `Readonly` **size**: `number`
 
+Gets the number of items in the collection.
+
 #### Defined in
 
-[index.d.ts:15675](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15675)
+[index.d.ts:15737](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15737)
 
 ## Methods
 
@@ -34,11 +39,14 @@
 
 ▸ **add**(`item`): `void`
 
+Adds the test item to the children. If an item with the same ID already
+exists, it'll be replaced.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `item` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
+| `item` | [`TestItem`](codearts_plugin_.TestItem.md) | Item to add. |
 
 #### Returns
 
@@ -46,7 +54,7 @@
 
 #### Defined in
 
-[index.d.ts:15696](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15696)
+[index.d.ts:15758](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15758)
 
 ___
 
@@ -54,11 +62,13 @@ ___
 
 ▸ **delete**(`itemId`): `void`
 
+Removes a single test item from the collection.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `itemId` | `string` |  |
+| `itemId` | `string` | Item ID to delete. |
 
 #### Returns
 
@@ -66,7 +76,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15702](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15702)
+[index.d.ts:15764](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15764)
 
 ___
 
@@ -74,12 +84,14 @@ ___
 
 ▸ **forEach**(`callback`, `thisArg?`): `void`
 
+Iterate over each entry in this collection.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `callback` | (`item`: [`TestItem`](codearts_plugin_.TestItem.md), `collection`: [`TestItemCollection`](codearts_plugin_.TestItemCollection.md)) => `unknown` |  |
-| `thisArg?` | `unknown` |  |
+| `callback` | (`item`: [`TestItem`](codearts_plugin_.TestItem.md), `collection`: [`TestItemCollection`](codearts_plugin_.TestItemCollection.md)) => `unknown` | Function to execute for each entry. |
+| `thisArg?` | `unknown` | The `this` context used when invoking the handler function. |
 
 #### Returns
 
@@ -87,7 +99,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15689](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15689)
+[index.d.ts:15751](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15751)
 
 ___
 
@@ -95,19 +107,23 @@ ___
 
 ▸ **get**(`itemId`): `undefined` \| [`TestItem`](codearts_plugin_.TestItem.md)
 
+Efficiently gets a test item by ID, if it exists, in the children.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `itemId` | `string` |  |
+| `itemId` | `string` | Item ID to get. |
 
 #### Returns
 
 `undefined` \| [`TestItem`](codearts_plugin_.TestItem.md)
 
+The found item or undefined if it does not exist.
+
 #### Defined in
 
-[index.d.ts:15709](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15709)
+[index.d.ts:15771](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15771)
 
 ___
 
@@ -115,11 +131,13 @@ ___
 
 ▸ **replace**(`items`): `void`
 
+Replaces the items stored by the collection.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `items` | readonly [`TestItem`](codearts_plugin_.TestItem.md)[] |  |
+| `items` | readonly [`TestItem`](codearts_plugin_.TestItem.md)[] | Items to store. |
 
 #### Returns
 
@@ -127,4 +145,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15681](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15681)
+[index.d.ts:15743](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15743)

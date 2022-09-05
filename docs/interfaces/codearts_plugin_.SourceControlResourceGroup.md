@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SourceControlResourceGroup
 
+A source control resource group is a collection of
+[source control resource states](codearts_plugin_.SourceControlResourceState.md).
+
 ## Table of contents
 
 ### Properties
@@ -23,9 +26,12 @@
 
 • `Optional` **hideWhenEmpty**: `boolean`
 
+Whether this source control resource group is hidden when it contains
+no [source control resource states](codearts_plugin_.SourceControlResourceState.md).
+
 #### Defined in
 
-[index.d.ts:13926](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13926)
+[index.d.ts:13988](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13988)
 
 ___
 
@@ -33,9 +39,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The id of this source control resource group.
+
 #### Defined in
 
-[index.d.ts:13915](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13915)
+[index.d.ts:13977](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13977)
 
 ___
 
@@ -43,9 +51,11 @@ ___
 
 • **label**: `string`
 
+The label of this source control resource group.
+
 #### Defined in
 
-[index.d.ts:13920](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13920)
+[index.d.ts:13982](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13982)
 
 ___
 
@@ -53,9 +63,12 @@ ___
 
 • **resourceStates**: [`SourceControlResourceState`](codearts_plugin_.SourceControlResourceState.md)[]
 
+This group's collection of
+[source control resource states](codearts_plugin_.SourceControlResourceState.md).
+
 #### Defined in
 
-[index.d.ts:13932](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13932)
+[index.d.ts:13994](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13994)
 
 ## Methods
 
@@ -63,10 +76,12 @@ ___
 
 ▸ **dispose**(): `void`
 
+Dispose this source control resource group.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:13937](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13937)
+[index.d.ts:13999](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13999)

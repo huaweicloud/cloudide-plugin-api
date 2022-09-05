@@ -4,6 +4,12 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextEditorDecorationType
 
+Represents a handle to a set of decorations
+sharing the same [styling options](codearts_plugin_.DecorationRenderOptions.md) in a [text editor](codearts_plugin_.TextEditor.md).
+
+To get an instance of a `TextEditorDecorationType` use
+[createTextEditorDecorationType](../modules/codearts_plugin_.window.md#createtexteditordecorationtype).
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +26,11 @@
 
 • `Readonly` **key**: `string`
 
+Internal representation of the handle.
+
 #### Defined in
 
-[index.d.ts:693](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L693)
+[index.d.ts:693](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L693)
 
 ## Methods
 
@@ -30,10 +38,12 @@
 
 ▸ **dispose**(): `void`
 
+Remove this decoration type and all decorations on all text editors using it.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:698](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L698)
+[index.d.ts:698](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L698)

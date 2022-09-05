@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Location
 
+Represents a location inside a resource, such as a line
+inside a text file.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +24,18 @@
 
 • **new Location**(`uri`, `rangeOrPosition`)
 
+Creates a new location object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `rangeOrPosition` | [`Range`](codearts_plugin_.Range.md) \| [`Position`](codearts_plugin_.Position.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | The resource identifier. |
+| `rangeOrPosition` | [`Range`](codearts_plugin_.Range.md) \| [`Position`](codearts_plugin_.Position.md) | The range or position. Positions will be converted to an empty range. |
 
 #### Defined in
 
-[index.d.ts:5798](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5798)
+[index.d.ts:5798](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5798)
 
 ## Properties
 
@@ -38,9 +43,11 @@
 
 • **range**: [`Range`](codearts_plugin_.Range.md)
 
+The document range of this location.
+
 #### Defined in
 
-[index.d.ts:5790](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5790)
+[index.d.ts:5790](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5790)
 
 ___
 
@@ -48,6 +55,8 @@ ___
 
 • **uri**: [`Uri`](codearts_plugin_.Uri.md)
 
+The resource identifier of this location.
+
 #### Defined in
 
-[index.d.ts:5785](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5785)
+[index.d.ts:5785](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5785)

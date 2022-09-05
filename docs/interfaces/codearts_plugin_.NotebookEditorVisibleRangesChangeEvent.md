@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookEditorVisibleRangesChangeEvent
 
+Represents an event describing the change in a [notebook editor's visibleRanges](codearts_plugin_.NotebookEditor.md#visibleranges).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **notebookEditor**: [`NotebookEditor`](codearts_plugin_.NotebookEditor.md)
 
+The [notebook editor](codearts_plugin_.NotebookEditor.md) for which the visible ranges have changed.
+
 #### Defined in
 
-[index.d.ts:811](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L811)
+[index.d.ts:811](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L811)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **visibleRanges**: readonly [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md)[]
 
+The new value for the [notebook editor's visibleRanges](codearts_plugin_.NotebookEditor.md#visibleranges).
+
 #### Defined in
 
-[index.d.ts:816](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L816)
+[index.d.ts:816](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L816)

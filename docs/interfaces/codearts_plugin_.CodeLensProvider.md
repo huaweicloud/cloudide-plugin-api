@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CodeLensProvider
 
+A code lens provider adds [commands](codearts_plugin_.Command.md) to source text. The commands will be shown
+as dedicated horizontal lines in between the source text.
+
 ## Type parameters
 
 | Name | Type |
@@ -27,9 +30,11 @@
 
 • `Optional` **onDidChangeCodeLenses**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+An optional event to signal that the code lenses from this provider have changed.
+
 #### Defined in
 
-[index.d.ts:2615](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2615)
+[index.d.ts:2615](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2615)
 
 ## Methods
 
@@ -37,20 +42,27 @@
 
 ▸ **provideCodeLenses**(`document`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+Compute a list of [lenses](../classes/codearts_plugin_.CodeLens.md). This call should return as fast as possible and if
+computing the commands is expensive implementors should only return code lens objects with the
+range set and implement [resolve](codearts_plugin_.CodeLensProvider.md#resolvecodelens).
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) | The document in which the command was invoked. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+An array of code lenses or a thenable that resolves to such. The lack of a result can be
+signaled by returning `undefined`, `null`, or an empty array.
+
 #### Defined in
 
-[index.d.ts:2627](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2627)
+[index.d.ts:2627](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2627)
 
 ___
 
@@ -58,17 +70,22 @@ ___
 
 ▸ `Optional` **resolveCodeLens**(`codeLens`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`\>
 
+This function will be called for each visible code lens, usually when scrolling and after
+calls to [compute](codearts_plugin_.CodeLensProvider.md#providecodelenses)-lenses.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `codeLens` | `T` |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `codeLens` | `T` | Code lens that must be resolved. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`\>
 
+The given, resolved code lens or thenable that resolves to such.
+
 #### Defined in
 
-[index.d.ts:2637](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2637)
+[index.d.ts:2637](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2637)

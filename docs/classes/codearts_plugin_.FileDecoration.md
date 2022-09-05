@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileDecoration
 
+A file decoration represents metadata that can be rendered with a file.
+
 ## Table of contents
 
 ### Constructors
@@ -23,17 +25,19 @@
 
 • **new FileDecoration**(`badge?`, `tooltip?`, `color?`)
 
+Creates a new decoration.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `badge?` | `string` |  |
-| `tooltip?` | `string` |  |
-| `color?` | [`ThemeColor`](codearts_plugin_.ThemeColor.md) |  |
+| `badge?` | `string` | A letter that represents the decoration. |
+| `tooltip?` | `string` | The tooltip of the decoration. |
+| `color?` | [`ThemeColor`](codearts_plugin_.ThemeColor.md) | The color of the decoration. |
 
 #### Defined in
 
-[index.d.ts:6683](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6683)
+[index.d.ts:6683](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6683)
 
 ## Properties
 
@@ -41,9 +45,11 @@
 
 • `Optional` **badge**: `string`
 
+A very short string that represents this decoration.
+
 #### Defined in
 
-[index.d.ts:6658](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6658)
+[index.d.ts:6658](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6658)
 
 ___
 
@@ -51,9 +57,11 @@ ___
 
 • `Optional` **color**: [`ThemeColor`](codearts_plugin_.ThemeColor.md)
 
+The color of this decoration.
+
 #### Defined in
 
-[index.d.ts:6668](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6668)
+[index.d.ts:6668](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6668)
 
 ___
 
@@ -61,9 +69,12 @@ ___
 
 • `Optional` **propagate**: `boolean`
 
+A flag expressing that this decoration should be
+propagated to its parents.
+
 #### Defined in
 
-[index.d.ts:6674](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6674)
+[index.d.ts:6674](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6674)
 
 ___
 
@@ -71,6 +82,8 @@ ___
 
 • `Optional` **tooltip**: `string`
 
+A human-readable tooltip for this decoration.
+
 #### Defined in
 
-[index.d.ts:6663](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6663)
+[index.d.ts:6663](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6663)

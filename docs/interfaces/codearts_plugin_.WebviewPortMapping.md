@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WebviewPortMapping
 
+Defines a port mapping used for localhost inside the webview.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **extensionHostPort**: `number`
 
+Destination port. The `webviewPort` is resolved to this port.
+
 #### Defined in
 
-[index.d.ts:8188](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8188)
+[index.d.ts:8188](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8188)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **webviewPort**: `number`
 
+Localhost port to remap inside the webview.
+
 #### Defined in
 
-[index.d.ts:8183](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8183)
+[index.d.ts:8183](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8183)

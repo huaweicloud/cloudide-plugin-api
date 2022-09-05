@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Tab
 
+Represents a tab within a [group of tabs](codearts_plugin_.TabGroup.md).
+Tabs are merely the graphical representation within the editor area.
+A backing editor is not a guarantee.
+
 ## Table of contents
 
 ### Properties
@@ -22,9 +26,11 @@
 
 • `Readonly` **group**: [`TabGroup`](codearts_plugin_.TabGroup.md)
 
+The group which the tab belongs to.
+
 #### Defined in
 
-[index.d.ts:15984](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15984)
+[index.d.ts:16046](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16046)
 
 ___
 
@@ -32,9 +38,12 @@ ___
 
 • `Readonly` **input**: `unknown`
 
+Defines the structure of the tab i.e. text, notebook, custom, etc.
+Resource and other useful properties are defined on the tab kind.
+
 #### Defined in
 
-[index.d.ts:15990](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15990)
+[index.d.ts:16052](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16052)
 
 ___
 
@@ -42,9 +51,12 @@ ___
 
 • `Readonly` **isActive**: `boolean`
 
+Whether or not the tab is currently active.
+This is dictated by being the selected tab in the group.
+
 #### Defined in
 
-[index.d.ts:15996](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15996)
+[index.d.ts:16058](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16058)
 
 ___
 
@@ -52,9 +64,11 @@ ___
 
 • `Readonly` **isDirty**: `boolean`
 
+Whether or not the dirty indicator is present on the tab.
+
 #### Defined in
 
-[index.d.ts:16001](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16001)
+[index.d.ts:16063](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16063)
 
 ___
 
@@ -62,9 +76,11 @@ ___
 
 • `Readonly` **isPinned**: `boolean`
 
+Whether or not the tab is pinned (pin icon is present).
+
 #### Defined in
 
-[index.d.ts:16006](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16006)
+[index.d.ts:16068](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16068)
 
 ___
 
@@ -72,9 +88,11 @@ ___
 
 • `Readonly` **isPreview**: `boolean`
 
+Whether or not the tab is in preview mode.
+
 #### Defined in
 
-[index.d.ts:16011](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16011)
+[index.d.ts:16073](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16073)
 
 ___
 
@@ -82,6 +100,8 @@ ___
 
 • `Readonly` **label**: `string`
 
+The text displayed on the tab.
+
 #### Defined in
 
-[index.d.ts:15979](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15979)
+[index.d.ts:16041](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16041)

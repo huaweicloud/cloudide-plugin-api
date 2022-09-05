@@ -4,40 +4,48 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TreeItemCollapsibleState
 
+Collapsible state of the tree item
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Collapsed](codearts_plugin_.TreeItemCollapsibleState.md#collapsed)
 - [Expanded](codearts_plugin_.TreeItemCollapsibleState.md#expanded)
 - [None](codearts_plugin_.TreeItemCollapsibleState.md#none)
 
-## Enumeration members
+## Enumeration Members
 
 ### Collapsed
 
-• **Collapsed** = `Object` = `1`
+• **Collapsed** = ``1``
+
+Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:10437](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10437)
+[index.d.ts:10499](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10499)
 
 ___
 
 ### Expanded
 
-• **Expanded** = `Object` = `2`
+• **Expanded** = ``2``
+
+Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:10441](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10441)
+[index.d.ts:10503](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10503)
 
 ___
 
 ### None
 
-• **None** = `Object` = `0`
+• **None** = ``0``
+
+Determines an item can be neither collapsed nor expanded. Implies it has no children.
 
 #### Defined in
 
-[index.d.ts:10433](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10433)
+[index.d.ts:10495](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10495)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabInputNotebookDiff
 
+The tabs represents two notebooks in a diff configuration.
+
 ## Table of contents
 
 ### Constructors
@@ -22,17 +24,19 @@
 
 • **new TabInputNotebookDiff**(`original`, `modified`, `notebookType`)
 
+Constructs a notebook diff tab input.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `original` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `modified` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `notebookType` | `string` |  |
+| `original` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the original unmodified notebook. |
+| `modified` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the modified notebook. |
+| `notebookType` | `string` | The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces/codearts_plugin_.NotebookDocument.md#notebooktype) |
 
 #### Defined in
 
-[index.d.ts:15956](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15956)
+[index.d.ts:16018](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16018)
 
 ## Properties
 
@@ -40,9 +44,11 @@
 
 • `Readonly` **modified**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri of the modified notebook.
+
 #### Defined in
 
-[index.d.ts:15945](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15945)
+[index.d.ts:16007](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16007)
 
 ___
 
@@ -50,9 +56,11 @@ ___
 
 • `Readonly` **notebookType**: `string`
 
+The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces/codearts_plugin_.NotebookDocument.md#notebooktype)
+
 #### Defined in
 
-[index.d.ts:15949](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15949)
+[index.d.ts:16011](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16011)
 
 ___
 
@@ -60,6 +68,8 @@ ___
 
 • `Readonly` **original**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri of the original notebook.
+
 #### Defined in
 
-[index.d.ts:15941](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15941)
+[index.d.ts:16003](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16003)

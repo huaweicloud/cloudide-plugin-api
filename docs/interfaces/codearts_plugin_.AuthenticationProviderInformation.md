@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).AuthenticationProviderInformation
 
+Basic information about an [AuthenticationProvider](codearts_plugin_.AuthenticationProvider.md)
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **id**: `string`
 
+The unique identifier of the authentication provider.
+
 #### Defined in
 
-[index.d.ts:15140](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15140)
+[index.d.ts:15202](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15202)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **label**: `string`
 
+The human-readable name of the authentication provider.
+
 #### Defined in
 
-[index.d.ts:15145](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15145)
+[index.d.ts:15207](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15207)

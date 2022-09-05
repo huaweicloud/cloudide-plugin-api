@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TestTag
 
+Tags can be associated with [TestItems](../interfaces/codearts_plugin_.TestItem.md) and
+[TestRunProfiles](../interfaces/codearts_plugin_.TestRunProfile.md). A profile with a tag can only
+execute tests that include that tag in their [tags](../interfaces/codearts_plugin_.TestItem.md#tags) array.
+
 ## Table of contents
 
 ### Constructors
@@ -20,15 +24,17 @@
 
 • **new TestTag**(`id`)
 
+Creates a new TestTag instance.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `id` | `string` |  |
+| `id` | `string` | ID of the test tag. |
 
 #### Defined in
 
-[index.d.ts:15348](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15348)
+[index.d.ts:15410](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15410)
 
 ## Properties
 
@@ -36,6 +42,9 @@
 
 • `Readonly` **id**: `string`
 
+ID of the test tag. `TestTag` instances with the same ID are considered
+to be identical.
+
 #### Defined in
 
-[index.d.ts:15342](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15342)
+[index.d.ts:15404](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15404)

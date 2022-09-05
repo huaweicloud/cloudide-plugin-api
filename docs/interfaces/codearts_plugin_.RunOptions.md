@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).RunOptions
 
+Run options for a task.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Optional` **reevaluateOnRerun**: `boolean`
 
+Controls whether task variables are re-evaluated on rerun.
+
 #### Defined in
 
-[index.d.ts:7481](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7481)
+[index.d.ts:7481](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7481)

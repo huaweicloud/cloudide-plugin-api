@@ -23,30 +23,37 @@
 
 • **new ShellExecution**(`commandLine`, `options?`)
 
+Creates a shell execution with a full command line.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `commandLine` | `string` |  |
-| `options?` | [`ShellExecutionOptions`](../interfaces/codearts_plugin_.ShellExecutionOptions.md) |  |
+| `commandLine` | `string` | The command line to execute. |
+| `options?` | [`ShellExecutionOptions`](../interfaces/codearts_plugin_.ShellExecutionOptions.md) | Optional options for the started the shell. |
 
 #### Defined in
 
-[index.d.ts:7407](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7407)
+[index.d.ts:7407](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7407)
 
 • **new ShellExecution**(`command`, `args`, `options?`)
 
+Creates a shell execution with a command and arguments. For the real execution the editor will
+construct a command line from the command and the arguments. This is subject to interpretation
+especially when it comes to quoting. If full control over the command line is needed please
+use the constructor that creates a `ShellExecution` with the full command line.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `command` | `string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md) |  |
-| `args` | (`string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md))[] |  |
-| `options?` | [`ShellExecutionOptions`](../interfaces/codearts_plugin_.ShellExecutionOptions.md) |  |
+| `command` | `string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md) | The command to execute. |
+| `args` | (`string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md))[] | The command arguments. |
+| `options?` | [`ShellExecutionOptions`](../interfaces/codearts_plugin_.ShellExecutionOptions.md) | Optional options for the started the shell. |
 
 #### Defined in
 
-[index.d.ts:7419](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7419)
+[index.d.ts:7419](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7419)
 
 ## Properties
 
@@ -54,9 +61,11 @@
 
 • **args**: (`string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md))[]
 
+The shell args. Is `undefined` if created with a full command line.
+
 #### Defined in
 
-[index.d.ts:7434](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7434)
+[index.d.ts:7434](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7434)
 
 ___
 
@@ -64,9 +73,11 @@ ___
 
 • **command**: `string` \| [`ShellQuotedString`](../interfaces/codearts_plugin_.ShellQuotedString.md)
 
+The shell command. Is `undefined` if created with a full command line.
+
 #### Defined in
 
-[index.d.ts:7429](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7429)
+[index.d.ts:7429](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7429)
 
 ___
 
@@ -74,9 +85,11 @@ ___
 
 • **commandLine**: `undefined` \| `string`
 
+The shell command line. Is `undefined` if created with a command and arguments.
+
 #### Defined in
 
-[index.d.ts:7424](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7424)
+[index.d.ts:7424](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7424)
 
 ___
 
@@ -84,6 +97,9 @@ ___
 
 • `Optional` **options**: [`ShellExecutionOptions`](../interfaces/codearts_plugin_.ShellExecutionOptions.md)
 
+The shell options used when the command line is executed in a shell.
+Defaults to undefined.
+
 #### Defined in
 
-[index.d.ts:7440](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7440)
+[index.d.ts:7440](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7440)

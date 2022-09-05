@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentingRangeProvider
 
+Commenting range provider for a [comment controller](codearts_plugin_.CommentController.md).
+
 ## Table of contents
 
 ### Methods
@@ -15,6 +17,8 @@
 ### provideCommentingRanges
 
 ▸ **provideCommentingRanges**(`document`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`Range`](../classes/codearts_plugin_.Range.md)[]\>
+
+Provide a list of ranges which allow new comment threads creation or null for a given document
 
 #### Parameters
 
@@ -29,4 +33,4 @@
 
 #### Defined in
 
-[index.d.ts:14954](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14954)
+[index.d.ts:15016](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15016)

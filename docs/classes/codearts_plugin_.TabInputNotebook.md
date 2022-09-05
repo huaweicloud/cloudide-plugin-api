@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabInputNotebook
 
+The tab represents a notebook.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +23,18 @@
 
 • **new TabInputNotebook**(`uri`, `notebookType`)
 
+Constructs a new tab input for a notebook.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `notebookType` | `string` |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the notebook. |
+| `notebookType` | `string` | The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces/codearts_plugin_.NotebookDocument.md#notebooktype) |
 
 #### Defined in
 
-[index.d.ts:15931](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15931)
+[index.d.ts:15993](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15993)
 
 ## Properties
 
@@ -38,9 +42,11 @@
 
 • `Readonly` **notebookType**: `string`
 
+The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces/codearts_plugin_.NotebookDocument.md#notebooktype)
+
 #### Defined in
 
-[index.d.ts:15925](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15925)
+[index.d.ts:15987](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15987)
 
 ___
 
@@ -48,6 +54,8 @@ ___
 
 • `Readonly` **uri**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri that the tab is representing.
+
 #### Defined in
 
-[index.d.ts:15921](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15921)
+[index.d.ts:15983](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15983)

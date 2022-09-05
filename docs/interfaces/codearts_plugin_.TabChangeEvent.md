@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabChangeEvent
 
+An event describing change to tabs.
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,12 @@
 
 • `Readonly` **changed**: readonly [`Tab`](codearts_plugin_.Tab.md)[]
 
+Tabs that have changed, e.g have changed
+their [active](codearts_plugin_.Tab.md#isactive) state.
+
 #### Defined in
 
-[index.d.ts:16030](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16030)
+[index.d.ts:16092](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16092)
 
 ___
 
@@ -28,9 +33,11 @@ ___
 
 • `Readonly` **closed**: readonly [`Tab`](codearts_plugin_.Tab.md)[]
 
+The tabs that have been closed.
+
 #### Defined in
 
-[index.d.ts:16025](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16025)
+[index.d.ts:16087](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16087)
 
 ___
 
@@ -38,6 +45,8 @@ ___
 
 • `Readonly` **opened**: readonly [`Tab`](codearts_plugin_.Tab.md)[]
 
+The tabs that have been opened.
+
 #### Defined in
 
-[index.d.ts:16021](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16021)
+[index.d.ts:16083](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16083)

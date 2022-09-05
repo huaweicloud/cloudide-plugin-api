@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SourceControl
 
+An source control is able to provide [resource states](codearts_plugin_.SourceControlResourceState.md)
+to the editor and interact with the editor in several source control related ways.
+
 ## Table of contents
 
 ### Properties
@@ -29,9 +32,14 @@
 
 • `Optional` **acceptInputCommand**: [`Command`](codearts_plugin_.Command.md)
 
+Optional accept input command.
+
+This command will be invoked when the user accepts the value
+in the Source Control input.
+
 #### Defined in
 
-[index.d.ts:13995](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13995)
+[index.d.ts:14057](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14057)
 
 ___
 
@@ -39,9 +47,14 @@ ___
 
 • `Optional` **commitTemplate**: `string`
 
+Optional commit template string.
+
+The Source Control viewlet will populate the Source Control
+input with this value when appropriate.
+
 #### Defined in
 
-[index.d.ts:13987](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13987)
+[index.d.ts:14049](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14049)
 
 ___
 
@@ -49,9 +62,16 @@ ___
 
 • `Optional` **count**: `number`
 
+The UI-visible count of [resource states](codearts_plugin_.SourceControlResourceState.md) of
+this source control.
+
+If undefined, this source control will
+- display its UI-visible count as zero, and
+- contribute the count of its [resource states](codearts_plugin_.SourceControlResourceState.md) to the UI-visible aggregated count for all source controls
+
 #### Defined in
 
-[index.d.ts:13974](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13974)
+[index.d.ts:14036](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14036)
 
 ___
 
@@ -59,9 +79,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The id of this source control.
+
 #### Defined in
 
-[index.d.ts:13949](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13949)
+[index.d.ts:14011](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14011)
 
 ___
 
@@ -69,9 +91,11 @@ ___
 
 • `Readonly` **inputBox**: [`SourceControlInputBox`](codearts_plugin_.SourceControlInputBox.md)
 
+The [input box](codearts_plugin_.SourceControlInputBox.md) for this source control.
+
 #### Defined in
 
-[index.d.ts:13964](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13964)
+[index.d.ts:14026](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14026)
 
 ___
 
@@ -79,9 +103,11 @@ ___
 
 • `Readonly` **label**: `string`
 
+The human-readable label of this source control.
+
 #### Defined in
 
-[index.d.ts:13954](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13954)
+[index.d.ts:14016](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14016)
 
 ___
 
@@ -89,9 +115,11 @@ ___
 
 • `Optional` **quickDiffProvider**: [`QuickDiffProvider`](codearts_plugin_.QuickDiffProvider.md)
 
+An optional [quick diff provider](codearts_plugin_.QuickDiffProvider.md).
+
 #### Defined in
 
-[index.d.ts:13979](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13979)
+[index.d.ts:14041](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14041)
 
 ___
 
@@ -99,9 +127,11 @@ ___
 
 • `Readonly` **rootUri**: `undefined` \| [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The (optional) Uri of the root of this source control.
+
 #### Defined in
 
-[index.d.ts:13959](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13959)
+[index.d.ts:14021](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14021)
 
 ___
 
@@ -109,15 +139,21 @@ ___
 
 • `Optional` **statusBarCommands**: [`Command`](codearts_plugin_.Command.md)[]
 
+Optional status bar commands.
+
+These commands will be displayed in the editor's status bar.
+
 #### Defined in
 
-[index.d.ts:14002](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14002)
+[index.d.ts:14064](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14064)
 
 ## Methods
 
 ### createResourceGroup
 
 ▸ **createResourceGroup**(`id`, `label`): [`SourceControlResourceGroup`](codearts_plugin_.SourceControlResourceGroup.md)
+
+Create a new [resource group](codearts_plugin_.SourceControlResourceGroup.md).
 
 #### Parameters
 
@@ -132,7 +168,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14007](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14007)
+[index.d.ts:14069](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14069)
 
 ___
 
@@ -140,10 +176,12 @@ ___
 
 ▸ **dispose**(): `void`
 
+Dispose this source control.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:14012](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14012)
+[index.d.ts:14074](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14074)

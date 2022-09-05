@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookCell
 
+Represents a cell of a [notebook](codearts_plugin_.NotebookDocument.md), either a [code](../enums/codearts_plugin_.NotebookCellKind.md#code)-cell
+or [markup](../enums/codearts_plugin_.NotebookCellKind.md#markup)-cell.
+
+NotebookCell instances are immutable and are kept in sync for as long as they are part of their notebook.
+
 ## Table of contents
 
 ### Properties
@@ -22,9 +27,11 @@
 
 • `Readonly` **document**: [`TextDocument`](codearts_plugin_.TextDocument.md)
 
+The [text](codearts_plugin_.TextDocument.md) of this cell, represented as text document.
+
 #### Defined in
 
-[index.d.ts:12922](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12922)
+[index.d.ts:12984](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12984)
 
 ___
 
@@ -32,9 +39,11 @@ ___
 
 • `Readonly` **executionSummary**: `undefined` \| [`NotebookCellExecutionSummary`](codearts_plugin_.NotebookCellExecutionSummary.md)
 
+The most recent [execution summary](codearts_plugin_.NotebookCellExecutionSummary.md) for this cell.
+
 #### Defined in
 
-[index.d.ts:12937](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12937)
+[index.d.ts:12999](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12999)
 
 ___
 
@@ -42,9 +51,13 @@ ___
 
 • `Readonly` **index**: `number`
 
+The index of this cell in its [containing notebook](codearts_plugin_.NotebookDocument.md#cellat). The
+index is updated when a cell is moved within its notebook. The index is `-1`
+when the cell has been removed from its notebook.
+
 #### Defined in
 
-[index.d.ts:12907](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12907)
+[index.d.ts:12969](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12969)
 
 ___
 
@@ -52,9 +65,11 @@ ___
 
 • `Readonly` **kind**: [`NotebookCellKind`](../enums/codearts_plugin_.NotebookCellKind.md)
 
+The kind of this cell.
+
 #### Defined in
 
-[index.d.ts:12917](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12917)
+[index.d.ts:12979](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12979)
 
 ___
 
@@ -62,13 +77,15 @@ ___
 
 • `Readonly` **metadata**: `Object`
 
+The metadata of this cell. Can be anything but must be JSON-stringifyable.
+
 #### Index signature
 
 ▪ [key: `string`]: `any`
 
 #### Defined in
 
-[index.d.ts:12927](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12927)
+[index.d.ts:12989](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12989)
 
 ___
 
@@ -76,9 +93,11 @@ ___
 
 • `Readonly` **notebook**: [`NotebookDocument`](codearts_plugin_.NotebookDocument.md)
 
+The [notebook](codearts_plugin_.NotebookDocument.md) that contains this cell.
+
 #### Defined in
 
-[index.d.ts:12912](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12912)
+[index.d.ts:12974](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12974)
 
 ___
 
@@ -86,6 +105,8 @@ ___
 
 • `Readonly` **outputs**: readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[]
 
+The outputs of this cell.
+
 #### Defined in
 
-[index.d.ts:12932](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12932)
+[index.d.ts:12994](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12994)

@@ -4,40 +4,48 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DocumentHighlightKind
 
+A document highlight kind.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Read](codearts_plugin_.DocumentHighlightKind.md#read)
 - [Text](codearts_plugin_.DocumentHighlightKind.md#text)
 - [Write](codearts_plugin_.DocumentHighlightKind.md#write)
 
-## Enumeration members
+## Enumeration Members
 
 ### Read
 
-• **Read** = `Object` = `1`
+• **Read** = ``1``
+
+Read-access of a symbol, like reading a variable.
 
 #### Defined in
 
-[index.d.ts:3067](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3067)
+[index.d.ts:3067](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3067)
 
 ___
 
 ### Text
 
-• **Text** = `Object` = `0`
+• **Text** = ``0``
+
+A textual occurrence.
 
 #### Defined in
 
-[index.d.ts:3062](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3062)
+[index.d.ts:3062](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3062)
 
 ___
 
 ### Write
 
-• **Write** = `Object` = `2`
+• **Write** = ``2``
+
+Write-access of a symbol, like writing to a variable.
 
 #### Defined in
 
-[index.d.ts:3072](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3072)
+[index.d.ts:3072](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3072)

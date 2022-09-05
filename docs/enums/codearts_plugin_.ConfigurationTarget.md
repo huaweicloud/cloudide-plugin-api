@@ -4,40 +4,48 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ConfigurationTarget
 
+The configuration target
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Global](codearts_plugin_.ConfigurationTarget.md#global)
 - [Workspace](codearts_plugin_.ConfigurationTarget.md#workspace)
 - [WorkspaceFolder](codearts_plugin_.ConfigurationTarget.md#workspacefolder)
 
-## Enumeration members
+## Enumeration Members
 
 ### Global
 
-• **Global** = `Object` = `1`
+• **Global** = ``1``
+
+Global configuration
 
 #### Defined in
 
-[index.d.ts:5605](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5605)
+[index.d.ts:5605](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5605)
 
 ___
 
 ### Workspace
 
-• **Workspace** = `Object` = `2`
+• **Workspace** = ``2``
+
+Workspace configuration
 
 #### Defined in
 
-[index.d.ts:5610](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5610)
+[index.d.ts:5610](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5610)
 
 ___
 
 ### WorkspaceFolder
 
-• **WorkspaceFolder** = `Object` = `3`
+• **WorkspaceFolder** = ``3``
+
+Workspace folder configuration
 
 #### Defined in
 
-[index.d.ts:5615](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5615)
+[index.d.ts:5615](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5615)

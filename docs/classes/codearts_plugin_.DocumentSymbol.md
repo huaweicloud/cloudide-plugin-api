@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DocumentSymbol
 
+Represents programming constructs like variables, classes, interfaces etc. that appear in a document. Document
+symbols can be hierarchical and they have two ranges: one that encloses its definition and one that points to
+its most interesting range, e.g. the range of an identifier.
+
 ## Table of contents
 
 ### Constructors
@@ -26,19 +30,21 @@
 
 • **new DocumentSymbol**(`name`, `detail`, `kind`, `range`, `selectionRange`)
 
+Creates a new document symbol.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `name` | `string` |  |
-| `detail` | `string` |  |
-| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) |  |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `selectionRange` | [`Range`](codearts_plugin_.Range.md) |  |
+| `name` | `string` | The name of the symbol. |
+| `detail` | `string` | Details for the symbol. |
+| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) | The kind of the symbol. |
+| `range` | [`Range`](codearts_plugin_.Range.md) | The full range of the symbol. |
+| `selectionRange` | [`Range`](codearts_plugin_.Range.md) | The range that should be reveal. |
 
 #### Defined in
 
-[index.d.ts:3270](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3270)
+[index.d.ts:3270](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3270)
 
 ## Properties
 
@@ -46,9 +52,11 @@
 
 • **children**: [`DocumentSymbol`](codearts_plugin_.DocumentSymbol.md)[]
 
+Children of this symbol, e.g. properties of a class.
+
 #### Defined in
 
-[index.d.ts:3259](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3259)
+[index.d.ts:3259](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3259)
 
 ___
 
@@ -56,9 +64,11 @@ ___
 
 • **detail**: `string`
 
+More detail for this symbol, e.g. the signature of a function.
+
 #### Defined in
 
-[index.d.ts:3233](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3233)
+[index.d.ts:3233](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3233)
 
 ___
 
@@ -66,9 +76,11 @@ ___
 
 • **kind**: [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md)
 
+The kind of this symbol.
+
 #### Defined in
 
-[index.d.ts:3238](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3238)
+[index.d.ts:3238](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3238)
 
 ___
 
@@ -76,9 +88,11 @@ ___
 
 • **name**: `string`
 
+The name of this symbol.
+
 #### Defined in
 
-[index.d.ts:3228](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3228)
+[index.d.ts:3228](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3228)
 
 ___
 
@@ -86,9 +100,11 @@ ___
 
 • **range**: [`Range`](codearts_plugin_.Range.md)
 
+The range enclosing this symbol not including leading/trailing whitespace but everything else, e.g. comments and code.
+
 #### Defined in
 
-[index.d.ts:3248](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3248)
+[index.d.ts:3248](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3248)
 
 ___
 
@@ -96,9 +112,12 @@ ___
 
 • **selectionRange**: [`Range`](codearts_plugin_.Range.md)
 
+The range that should be selected and reveal when this symbol is being picked, e.g. the name of a function.
+Must be contained by the [`range`](codearts_plugin_.DocumentSymbol.md#range).
+
 #### Defined in
 
-[index.d.ts:3254](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3254)
+[index.d.ts:3254](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3254)
 
 ___
 
@@ -106,6 +125,8 @@ ___
 
 • `Optional` **tags**: readonly [`Deprecated`](../enums/codearts_plugin_.SymbolTag.md#deprecated)[]
 
+Tags for this symbol.
+
 #### Defined in
 
-[index.d.ts:3243](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3243)
+[index.d.ts:3243](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3243)

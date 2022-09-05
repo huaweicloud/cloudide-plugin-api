@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugAdapterTracker
 
+A Debug Adapter Tracker is a means to track the communication between the editor and a Debug Adapter.
+
 ## Table of contents
 
 ### Methods
@@ -21,6 +23,8 @@
 
 ▸ `Optional` **onDidSendMessage**(`message`): `void`
 
+The debug adapter has sent a Debug Adapter Protocol message to the editor.
+
 #### Parameters
 
 | Name | Type |
@@ -33,13 +37,15 @@
 
 #### Defined in
 
-[index.d.ts:14359](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14359)
+[index.d.ts:14421](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14421)
 
 ___
 
 ### onError
 
 ▸ `Optional` **onError**(`error`): `void`
+
+An error with the debug adapter has occurred.
 
 #### Parameters
 
@@ -53,13 +59,15 @@ ___
 
 #### Defined in
 
-[index.d.ts:14367](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14367)
+[index.d.ts:14429](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14429)
 
 ___
 
 ### onExit
 
 ▸ `Optional` **onExit**(`code`, `signal`): `void`
+
+The debug adapter has exited with the given exit code or signal.
 
 #### Parameters
 
@@ -74,13 +82,15 @@ ___
 
 #### Defined in
 
-[index.d.ts:14371](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14371)
+[index.d.ts:14433](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14433)
 
 ___
 
 ### onWillReceiveMessage
 
 ▸ `Optional` **onWillReceiveMessage**(`message`): `void`
+
+The debug adapter is about to receive a Debug Adapter Protocol message from the editor.
 
 #### Parameters
 
@@ -94,7 +104,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14355](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14355)
+[index.d.ts:14417](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14417)
 
 ___
 
@@ -102,13 +112,15 @@ ___
 
 ▸ `Optional` **onWillStartSession**(): `void`
 
+A session with the debug adapter is about to be started.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:14351](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14351)
+[index.d.ts:14413](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14413)
 
 ___
 
@@ -116,10 +128,12 @@ ___
 
 ▸ `Optional` **onWillStopSession**(): `void`
 
+The debug adapter session is about to be stopped.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:14363](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14363)
+[index.d.ts:14425](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14425)

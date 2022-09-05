@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SecretStorageChangeEvent
 
+The event data that is fired when a secret is added or removed.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **key**: `string`
 
+The key of the secret that has changed.
+
 #### Defined in
 
-[index.d.ts:7022](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7022)
+[index.d.ts:7022](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7022)

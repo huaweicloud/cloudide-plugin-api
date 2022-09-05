@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalSplitLocationOptions
 
+Uses the parent [Terminal](codearts_plugin_.Terminal.md)'s location for the terminal
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,9 @@
 
 • **parentTerminal**: [`Terminal`](codearts_plugin_.Terminal.md)
 
+The parent terminal to split this terminal beside. This works whether the parent terminal
+is in the panel or the editor area.
+
 #### Defined in
 
-[index.d.ts:6525](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6525)
+[index.d.ts:6525](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6525)

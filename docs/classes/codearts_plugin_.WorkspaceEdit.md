@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WorkspaceEdit
 
+A workspace edit is a collection of textual and files changes for
+multiple resources and documents.
+
+Use the [applyEdit](../modules/codearts_plugin_.workspace.md#applyedit)-function to apply a workspace edit.
+
 ## Table of contents
 
 ### Constructors
@@ -39,9 +44,11 @@
 
 • `Readonly` **size**: `number`
 
+The number of affected resources of textual or resource changes.
+
 #### Defined in
 
-[index.d.ts:3477](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3477)
+[index.d.ts:3477](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3477)
 
 ## Methods
 
@@ -49,15 +56,17 @@
 
 ▸ **createFile**(`uri`, `options?`, `metadata?`): `void`
 
+Create a regular file.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `options?` | `Object` |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | Uri of the new file.. |
+| `options?` | `Object` | Defines if an existing file should be overwritten or be ignored. When overwrite and ignoreIfExists are both set overwrite wins. When both are unset and when the file already exists then the edit cannot be applied successfully. |
 | `options.ignoreIfExists?` | `boolean` | - |
 | `options.overwrite?` | `boolean` | - |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -65,7 +74,7 @@
 
 #### Defined in
 
-[index.d.ts:3542](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3542)
+[index.d.ts:3542](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3542)
 
 ___
 
@@ -73,13 +82,15 @@ ___
 
 ▸ **delete**(`uri`, `range`, `metadata?`): `void`
 
+Delete the text at the given range.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
+| `range` | [`Range`](codearts_plugin_.Range.md) | A range. |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -87,7 +98,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:3506](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3506)
+[index.d.ts:3506](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3506)
 
 ___
 
@@ -95,15 +106,17 @@ ___
 
 ▸ **deleteFile**(`uri`, `options?`, `metadata?`): `void`
 
+Delete a file or folder.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the file that is to be deleted. |
 | `options?` | `Object` | - |
 | `options.ignoreIfNotExists?` | `boolean` | - |
 | `options.recursive?` | `boolean` | - |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -111,7 +124,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:3550](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3550)
+[index.d.ts:3550](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3550)
 
 ___
 
@@ -119,13 +132,17 @@ ___
 
 ▸ **entries**(): [[`Uri`](codearts_plugin_.Uri.md), [`TextEdit`](codearts_plugin_.TextEdit.md)[]][]
 
+Get all text edits grouped by resource.
+
 #### Returns
 
 [[`Uri`](codearts_plugin_.Uri.md), [`TextEdit`](codearts_plugin_.TextEdit.md)[]][]
 
+A shallow copy of `[Uri, TextEdit[]]`-tuples.
+
 #### Defined in
 
-[index.d.ts:3568](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3568)
+[index.d.ts:3568](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3568)
 
 ___
 
@@ -133,19 +150,23 @@ ___
 
 ▸ **get**(`uri`): [`TextEdit`](codearts_plugin_.TextEdit.md)[]
 
+Get the text edits for a resource.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
 
 #### Returns
 
 [`TextEdit`](codearts_plugin_.TextEdit.md)[]
 
+An array of text edits.
+
 #### Defined in
 
-[index.d.ts:3530](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3530)
+[index.d.ts:3530](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3530)
 
 ___
 
@@ -153,19 +174,23 @@ ___
 
 ▸ **has**(`uri`): `boolean`
 
+Check if a text edit for a resource exists.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
 
 #### Returns
 
 `boolean`
 
+`true` if the given resource will be touched by this edit.
+
 #### Defined in
 
-[index.d.ts:3514](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3514)
+[index.d.ts:3514](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3514)
 
 ___
 
@@ -173,14 +198,16 @@ ___
 
 ▸ **insert**(`uri`, `position`, `newText`, `metadata?`): `void`
 
+Insert the given text at the given position.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `position` | [`Position`](codearts_plugin_.Position.md) |  |
-| `newText` | `string` |  |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
+| `position` | [`Position`](codearts_plugin_.Position.md) | A position. |
+| `newText` | `string` | A string. |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -188,7 +215,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:3497](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3497)
+[index.d.ts:3497](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3497)
 
 ___
 
@@ -196,16 +223,18 @@ ___
 
 ▸ **renameFile**(`oldUri`, `newUri`, `options?`, `metadata?`): `void`
 
+Rename a file or folder.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `oldUri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `newUri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `options?` | `Object` |  |
+| `oldUri` | [`Uri`](codearts_plugin_.Uri.md) | The existing file. |
+| `newUri` | [`Uri`](codearts_plugin_.Uri.md) | The new location. |
+| `options?` | `Object` | Defines if existing files should be overwritten or be ignored. When overwrite and ignoreIfExists are both set overwrite wins. |
 | `options.ignoreIfExists?` | `boolean` | - |
 | `options.overwrite?` | `boolean` | - |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -213,7 +242,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:3561](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3561)
+[index.d.ts:3561](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3561)
 
 ___
 
@@ -221,14 +250,16 @@ ___
 
 ▸ **replace**(`uri`, `range`, `newText`, `metadata?`): `void`
 
+Replace the given range with given text for the given resource.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `newText` | `string` |  |
-| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
+| `range` | [`Range`](codearts_plugin_.Range.md) | A range. |
+| `newText` | `string` | A string. |
+| `metadata?` | [`WorkspaceEditEntryMetadata`](../interfaces/codearts_plugin_.WorkspaceEditEntryMetadata.md) | Optional metadata for the entry. |
 
 #### Returns
 
@@ -236,7 +267,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:3487](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3487)
+[index.d.ts:3487](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3487)
 
 ___
 
@@ -244,12 +275,14 @@ ___
 
 ▸ **set**(`uri`, `edits`): `void`
 
+Set (and replace) text edits for a resource.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `edits` | [`TextEdit`](codearts_plugin_.TextEdit.md)[] |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | A resource identifier. |
+| `edits` | [`TextEdit`](codearts_plugin_.TextEdit.md)[] | An array of text edits. |
 
 #### Returns
 
@@ -257,4 +290,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:3522](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3522)
+[index.d.ts:3522](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3522)

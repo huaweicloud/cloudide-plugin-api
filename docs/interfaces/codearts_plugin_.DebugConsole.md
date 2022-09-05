@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugConsole
 
+Represents the debug console.
+
 ## Table of contents
 
 ### Methods
@@ -17,11 +19,13 @@
 
 ▸ **append**(`value`): `void`
 
+Append the given value to the debug console.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string, falsy values will not be printed. |
 
 #### Returns
 
@@ -29,7 +33,7 @@
 
 #### Defined in
 
-[index.d.ts:14394](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14394)
+[index.d.ts:14456](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14456)
 
 ___
 
@@ -37,11 +41,14 @@ ___
 
 ▸ **appendLine**(`value`): `void`
 
+Append the given value and a line feed character
+to the debug console.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string, falsy values will be printed. |
 
 #### Returns
 
@@ -49,4 +56,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14402](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14402)
+[index.d.ts:14464](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14464)

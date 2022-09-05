@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookCellOutputItem
 
+One representation of a [notebook output](codearts_plugin_.NotebookCellOutput.md), defined by MIME type and data.
+
 ## Table of contents
 
 ### Constructors
@@ -29,16 +31,18 @@
 
 • **new NotebookCellOutputItem**(`data`, `mime`)
 
+Create a new notebook cell output item.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `data` | `Uint8Array` |  |
-| `mime` | `string` |  |
+| `data` | `Uint8Array` | The value of the output item. |
+| `mime` | `string` | The mime type of the output item. |
 
 #### Defined in
 
-[index.d.ts:13245](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13245)
+[index.d.ts:13307](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13307)
 
 ## Properties
 
@@ -46,9 +50,11 @@
 
 • **data**: `Uint8Array`
 
+The data of this output item. Must always be an array of unsigned 8-bit integers.
+
 #### Defined in
 
-[index.d.ts:13237](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13237)
+[index.d.ts:13299](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13299)
 
 ___
 
@@ -56,9 +62,15 @@ ___
 
 • **mime**: `string`
 
+The mime type which determines how the [`data`](codearts_plugin_.NotebookCellOutputItem.md#data)-property
+is interpreted.
+
+Notebooks have built-in support for certain mime-types, extensions can add support for new
+types and override existing types.
+
 #### Defined in
 
-[index.d.ts:13232](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13232)
+[index.d.ts:13294](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13294)
 
 ## Methods
 
@@ -66,19 +78,24 @@ ___
 
 ▸ `Static` **error**(`value`): [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+Factory function to create a `NotebookCellOutputItem` that uses
+uses the `application/vnd.code.notebook.error` mime type.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `Error` |  |
+| `value` | `Error` | An error object. |
 
 #### Returns
 
 [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+A new output item object.
+
 #### Defined in
 
-[index.d.ts:13223](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13223)
+[index.d.ts:13285](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13285)
 
 ___
 
@@ -86,20 +103,29 @@ ___
 
 ▸ `Static` **json**(`value`, `mime?`): [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+Factory function to create a `NotebookCellOutputItem` from
+a JSON object.
+
+*Note* that this function is not expecting "stringified JSON" but
+an object that can be stringified. This function will throw an error
+when the passed value cannot be JSON-stringified.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `any` |  |
-| `mime?` | `string` |  |
+| `value` | `any` | A JSON-stringifyable value. |
+| `mime?` | `string` | Optional MIME type, defaults to `application/json` |
 
 #### Returns
 
 [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+A new output item object.
+
 #### Defined in
 
-[index.d.ts:13196](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13196)
+[index.d.ts:13258](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13258)
 
 ___
 
@@ -107,19 +133,24 @@ ___
 
 ▸ `Static` **stderr**(`value`): [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+Factory function to create a `NotebookCellOutputItem` that uses
+uses the `application/vnd.code.notebook.stderr` mime type.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string. |
 
 #### Returns
 
 [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+A new output item object.
+
 #### Defined in
 
-[index.d.ts:13214](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13214)
+[index.d.ts:13276](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13276)
 
 ___
 
@@ -127,19 +158,24 @@ ___
 
 ▸ `Static` **stdout**(`value`): [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+Factory function to create a `NotebookCellOutputItem` that uses
+uses the `application/vnd.code.notebook.stdout` mime type.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string. |
 
 #### Returns
 
 [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+A new output item object.
+
 #### Defined in
 
-[index.d.ts:13205](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13205)
+[index.d.ts:13267](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13267)
 
 ___
 
@@ -147,17 +183,23 @@ ___
 
 ▸ `Static` **text**(`value`, `mime?`): [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+Factory function to create a `NotebookCellOutputItem` from a string.
+
+*Note* that an UTF-8 encoder is used to create bytes for the string.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
-| `mime?` | `string` |  |
+| `value` | `string` | A string. |
+| `mime?` | `string` | Optional MIME type, defaults to `text/plain`. |
 
 #### Returns
 
 [`NotebookCellOutputItem`](codearts_plugin_.NotebookCellOutputItem.md)
 
+A new output item object.
+
 #### Defined in
 
-[index.d.ts:13182](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13182)
+[index.d.ts:13244](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13244)

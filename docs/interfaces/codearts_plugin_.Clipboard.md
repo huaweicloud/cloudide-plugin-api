@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Clipboard
 
+The clipboard provides read and write access to the system's clipboard.
+
 ## Table of contents
 
 ### Methods
@@ -17,19 +19,25 @@
 
 ▸ **readText**(): [`Thenable`](Thenable.md)<`string`\>
 
+Read the current clipboard contents as text.
+
 #### Returns
 
 [`Thenable`](Thenable.md)<`string`\>
 
+A thenable that resolves to a string.
+
 #### Defined in
 
-[index.d.ts:8981](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8981)
+[index.d.ts:8981](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8981)
 
 ___
 
 ### writeText
 
 ▸ **writeText**(`value`): [`Thenable`](Thenable.md)<`void`\>
+
+Writes text into the clipboard.
 
 #### Parameters
 
@@ -41,6 +49,8 @@ ___
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when writing happened.
+
 #### Defined in
 
-[index.d.ts:8987](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8987)
+[index.d.ts:8987](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8987)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Breakpoint
 
+The base class of all breakpoint types.
+
 ## Hierarchy
 
 - **`Breakpoint`**
@@ -43,7 +45,7 @@
 
 #### Defined in
 
-[index.d.ts:14450](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14450)
+[index.d.ts:14512](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14512)
 
 ## Properties
 
@@ -51,9 +53,11 @@
 
 • `Optional` `Readonly` **condition**: `string`
 
+An optional expression for conditional breakpoints.
+
 #### Defined in
 
-[index.d.ts:14440](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14440)
+[index.d.ts:14502](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14502)
 
 ___
 
@@ -61,9 +65,11 @@ ___
 
 • `Readonly` **enabled**: `boolean`
 
+Is breakpoint enabled.
+
 #### Defined in
 
-[index.d.ts:14436](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14436)
+[index.d.ts:14498](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14498)
 
 ___
 
@@ -71,9 +77,11 @@ ___
 
 • `Optional` `Readonly` **hitCondition**: `string`
 
+An optional expression that controls how many hits of the breakpoint are ignored.
+
 #### Defined in
 
-[index.d.ts:14444](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14444)
+[index.d.ts:14506](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14506)
 
 ___
 
@@ -81,9 +89,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The unique ID of the breakpoint.
+
 #### Defined in
 
-[index.d.ts:14432](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14432)
+[index.d.ts:14494](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14494)
 
 ___
 
@@ -91,6 +101,8 @@ ___
 
 • `Optional` `Readonly` **logMessage**: `string`
 
+An optional message that gets logged when this breakpoint is hit. Embedded expressions within {} are interpolated by the debug adapter.
+
 #### Defined in
 
-[index.d.ts:14448](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14448)
+[index.d.ts:14510](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14510)

@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SymbolInformation
 
+Represents information about programming constructs like variables, classes,
+interfaces etc.
+
 ## Table of contents
 
 ### Constructors
@@ -24,34 +27,42 @@
 
 • **new SymbolInformation**(`name`, `kind`, `containerName`, `location`)
 
+Creates a new symbol information object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `name` | `string` |  |
-| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) |  |
-| `containerName` | `string` |  |
-| `location` | [`Location`](codearts_plugin_.Location.md) |  |
+| `name` | `string` | The name of the symbol. |
+| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) | The kind of the symbol. |
+| `containerName` | `string` | The name of the symbol containing the symbol. |
+| `location` | [`Location`](codearts_plugin_.Location.md) | The location of the symbol. |
 
 #### Defined in
 
-[index.d.ts:3202](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3202)
+[index.d.ts:3202](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3202)
 
 • **new SymbolInformation**(`name`, `kind`, `range`, `uri?`, `containerName?`)
 
+Creates a new symbol information object.
+
+**`Deprecated`**
+
+Please use the constructor taking a [Location](codearts_plugin_.Location.md) object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `name` | `string` |  |
-| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) |  |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `uri?` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `containerName?` | `string` |  |
+| `name` | `string` | The name of the symbol. |
+| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) | The kind of the symbol. |
+| `range` | [`Range`](codearts_plugin_.Range.md) | The range of the location of the symbol. |
+| `uri?` | [`Uri`](codearts_plugin_.Uri.md) | The resource of the location of symbol, defaults to the current document. |
+| `containerName?` | `string` | The name of the symbol containing the symbol. |
 
 #### Defined in
 
-[index.d.ts:3215](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3215)
+[index.d.ts:3215](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3215)
 
 ## Properties
 
@@ -59,9 +70,11 @@
 
 • **containerName**: `string`
 
+The name of the symbol containing this symbol.
+
 #### Defined in
 
-[index.d.ts:3177](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3177)
+[index.d.ts:3177](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3177)
 
 ___
 
@@ -69,9 +82,11 @@ ___
 
 • **kind**: [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md)
 
+The kind of this symbol.
+
 #### Defined in
 
-[index.d.ts:3182](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3182)
+[index.d.ts:3182](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3182)
 
 ___
 
@@ -79,9 +94,11 @@ ___
 
 • **location**: [`Location`](codearts_plugin_.Location.md)
 
+The location of this symbol.
+
 #### Defined in
 
-[index.d.ts:3192](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3192)
+[index.d.ts:3192](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3192)
 
 ___
 
@@ -89,9 +106,11 @@ ___
 
 • **name**: `string`
 
+The name of this symbol.
+
 #### Defined in
 
-[index.d.ts:3172](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3172)
+[index.d.ts:3172](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3172)
 
 ___
 
@@ -99,6 +118,8 @@ ___
 
 • `Optional` **tags**: readonly [`Deprecated`](../enums/codearts_plugin_.SymbolTag.md#deprecated)[]
 
+Tags for this symbol.
+
 #### Defined in
 
-[index.d.ts:3187](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3187)
+[index.d.ts:3187](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3187)

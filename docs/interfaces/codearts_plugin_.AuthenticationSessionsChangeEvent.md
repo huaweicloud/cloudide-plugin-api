@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).AuthenticationSessionsChangeEvent
 
+An [Event](codearts_plugin_.Event.md) which fires when an [AuthenticationSession](codearts_plugin_.AuthenticationSession.md) is added, removed, or changed.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **provider**: [`AuthenticationProviderInformation`](codearts_plugin_.AuthenticationProviderInformation.md)
 
+The [AuthenticationProvider](codearts_plugin_.AuthenticationProvider.md) that has had its sessions change.
+
 #### Defined in
 
-[index.d.ts:15155](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15155)
+[index.d.ts:15217](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15217)

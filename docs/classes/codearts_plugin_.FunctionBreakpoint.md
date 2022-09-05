@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FunctionBreakpoint
 
+A breakpoint specified by a function name.
+
 ## Hierarchy
 
 - [`Breakpoint`](codearts_plugin_.Breakpoint.md)
@@ -31,6 +33,8 @@
 
 • **new FunctionBreakpoint**(`functionName`, `enabled?`, `condition?`, `hitCondition?`, `logMessage?`)
 
+Create a new function breakpoint.
+
 #### Parameters
 
 | Name | Type |
@@ -47,7 +51,7 @@
 
 #### Defined in
 
-[index.d.ts:14480](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14480)
+[index.d.ts:14542](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14542)
 
 ## Properties
 
@@ -55,13 +59,15 @@
 
 • `Optional` `Readonly` **condition**: `string`
 
+An optional expression for conditional breakpoints.
+
 #### Inherited from
 
 [Breakpoint](codearts_plugin_.Breakpoint.md).[condition](codearts_plugin_.Breakpoint.md#condition)
 
 #### Defined in
 
-[index.d.ts:14440](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14440)
+[index.d.ts:14502](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14502)
 
 ___
 
@@ -69,13 +75,15 @@ ___
 
 • `Readonly` **enabled**: `boolean`
 
+Is breakpoint enabled.
+
 #### Inherited from
 
 [Breakpoint](codearts_plugin_.Breakpoint.md).[enabled](codearts_plugin_.Breakpoint.md#enabled)
 
 #### Defined in
 
-[index.d.ts:14436](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14436)
+[index.d.ts:14498](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14498)
 
 ___
 
@@ -83,9 +91,11 @@ ___
 
 • `Readonly` **functionName**: `string`
 
+The name of the function to which this breakpoint is attached.
+
 #### Defined in
 
-[index.d.ts:14475](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14475)
+[index.d.ts:14537](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14537)
 
 ___
 
@@ -93,13 +103,15 @@ ___
 
 • `Optional` `Readonly` **hitCondition**: `string`
 
+An optional expression that controls how many hits of the breakpoint are ignored.
+
 #### Inherited from
 
 [Breakpoint](codearts_plugin_.Breakpoint.md).[hitCondition](codearts_plugin_.Breakpoint.md#hitcondition)
 
 #### Defined in
 
-[index.d.ts:14444](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14444)
+[index.d.ts:14506](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14506)
 
 ___
 
@@ -107,13 +119,15 @@ ___
 
 • `Readonly` **id**: `string`
 
+The unique ID of the breakpoint.
+
 #### Inherited from
 
 [Breakpoint](codearts_plugin_.Breakpoint.md).[id](codearts_plugin_.Breakpoint.md#id)
 
 #### Defined in
 
-[index.d.ts:14432](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14432)
+[index.d.ts:14494](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14494)
 
 ___
 
@@ -121,10 +135,12 @@ ___
 
 • `Optional` `Readonly` **logMessage**: `string`
 
+An optional message that gets logged when this breakpoint is hit. Embedded expressions within {} are interpolated by the debug adapter.
+
 #### Inherited from
 
 [Breakpoint](codearts_plugin_.Breakpoint.md).[logMessage](codearts_plugin_.Breakpoint.md#logmessage)
 
 #### Defined in
 
-[index.d.ts:14448](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14448)
+[index.d.ts:14510](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14510)

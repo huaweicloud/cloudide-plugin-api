@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileStat
 
+The `FileStat`-type represents metadata about a file
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +22,11 @@
 
 • **ctime**: `number`
 
+The creation timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UTC.
+
 #### Defined in
 
-[index.d.ts:7817](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7817)
+[index.d.ts:7817](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7817)
 
 ___
 
@@ -30,9 +34,15 @@ ___
 
 • **mtime**: `number`
 
+The modification timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UTC.
+
+*Note:* If the file changed, it is important to provide an updated `mtime` that advanced
+from the previous value. Otherwise there may be optimizations in place that will not show
+the updated file contents in an editor for example.
+
 #### Defined in
 
-[index.d.ts:7825](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7825)
+[index.d.ts:7825](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7825)
 
 ___
 
@@ -40,9 +50,13 @@ ___
 
 • `Optional` **permissions**: [`Readonly`](../enums/codearts_plugin_.FilePermission.md#readonly)
 
+The permissions of the file, e.g. whether the file is readonly.
+
+*Note:* This value might be a bitmask, e.g. `FilePermission.Readonly | FilePermission.Other`.
+
 #### Defined in
 
-[index.d.ts:7839](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7839)
+[index.d.ts:7839](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7839)
 
 ___
 
@@ -50,9 +64,15 @@ ___
 
 • **size**: `number`
 
+The size in bytes.
+
+*Note:* If the file changed, it is important to provide an updated `size`. Otherwise there
+may be optimizations in place that will not show the updated file contents in an editor for
+example.
+
 #### Defined in
 
-[index.d.ts:7833](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7833)
+[index.d.ts:7833](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7833)
 
 ___
 
@@ -60,6 +80,11 @@ ___
 
 • **type**: [`FileType`](../enums/codearts_plugin_.FileType.md)
 
+The type of the file, e.g. is a regular file, a directory, or symbolic link
+to a file.
+
+*Note:* This value might be a bitmask, e.g. `FileType.File | FileType.SymbolicLink`.
+
 #### Defined in
 
-[index.d.ts:7813](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7813)
+[index.d.ts:7813](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7813)

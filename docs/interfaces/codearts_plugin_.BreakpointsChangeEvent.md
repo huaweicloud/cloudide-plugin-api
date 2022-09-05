@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).BreakpointsChangeEvent
 
+An event describing the changes to the set of [breakpoints](../classes/codearts_plugin_.Breakpoint.md).
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,11 @@
 
 • `Readonly` **added**: readonly [`Breakpoint`](../classes/codearts_plugin_.Breakpoint.md)[]
 
+Added breakpoints.
+
 #### Defined in
 
-[index.d.ts:14412](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14412)
+[index.d.ts:14474](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14474)
 
 ___
 
@@ -28,9 +32,11 @@ ___
 
 • `Readonly` **changed**: readonly [`Breakpoint`](../classes/codearts_plugin_.Breakpoint.md)[]
 
+Changed breakpoints.
+
 #### Defined in
 
-[index.d.ts:14422](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14422)
+[index.d.ts:14484](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14484)
 
 ___
 
@@ -38,6 +44,8 @@ ___
 
 • `Readonly` **removed**: readonly [`Breakpoint`](../classes/codearts_plugin_.Breakpoint.md)[]
 
+Removed breakpoints.
+
 #### Defined in
 
-[index.d.ts:14417](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14417)
+[index.d.ts:14479](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14479)

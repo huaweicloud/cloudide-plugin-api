@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalState
 
+Represents the state of a [Terminal](codearts_plugin_.Terminal.md).
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,19 @@
 
 • `Readonly` **isInteractedWith**: `boolean`
 
+Whether the [Terminal](codearts_plugin_.Terminal.md) has been interacted with. Interaction means that the
+terminal has sent data to the process which depending on the terminal's _mode_. By
+default input is sent when a key is pressed or when a command or extension sends text,
+but based on the terminal's mode it can also happen on:
+
+- a pointer click event
+- a pointer scroll event
+- a pointer move event
+- terminal focus in/out
+
+For more information on events that can send data see "DEC Private Mode Set (DECSET)" on
+https://invisible-island.net/xterm/ctlseqs/ctlseqs.html
+
 #### Defined in
 
-[index.d.ts:6546](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6546)
+[index.d.ts:6546](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6546)

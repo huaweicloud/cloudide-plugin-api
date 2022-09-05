@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileDeleteEvent
 
+An event that is fired after files are deleted.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **files**: readonly [`Uri`](../classes/codearts_plugin_.Uri.md)[]
 
+The files that got deleted.
+
 #### Defined in
 
-[index.d.ts:11464](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11464)
+[index.d.ts:11526](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11526)

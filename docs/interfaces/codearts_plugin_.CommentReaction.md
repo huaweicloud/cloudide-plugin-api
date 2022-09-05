@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentReaction
 
+Reactions of a [Comment](codearts_plugin_.Comment.md)
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • `Readonly` **authorHasReacted**: `boolean`
 
+Whether the [author](codearts_plugin_.CommentAuthorInformation.md) of the comment has reacted to this reaction
+
 #### Defined in
 
-[index.d.ts:14872](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14872)
+[index.d.ts:14934](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14934)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • `Readonly` **count**: `number`
 
+The number of users who have reacted to this reaction
+
 #### Defined in
 
-[index.d.ts:14867](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14867)
+[index.d.ts:14929](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14929)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • `Readonly` **iconPath**: `string` \| [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+Icon for the reaction shown in UI.
+
 #### Defined in
 
-[index.d.ts:14862](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14862)
+[index.d.ts:14924](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14924)
 
 ___
 
@@ -49,6 +57,8 @@ ___
 
 • `Readonly` **label**: `string`
 
+The human-readable label for the reaction
+
 #### Defined in
 
-[index.d.ts:14857](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14857)
+[index.d.ts:14919](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14919)

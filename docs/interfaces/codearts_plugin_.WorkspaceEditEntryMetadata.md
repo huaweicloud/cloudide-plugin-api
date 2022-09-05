@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WorkspaceEditEntryMetadata
 
+Additional data for entries of a workspace edit. Supports to label entries and marks entries
+as needing confirmation by the user. The editor groups edits with equal labels into tree nodes,
+for instance all edits labelled with "Changes in Strings" would be a tree node.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +23,11 @@
 
 • `Optional` **description**: `string`
 
+A human-readable string which is rendered less prominent on the same line.
+
 #### Defined in
 
-[index.d.ts:3458](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3458)
+[index.d.ts:3458](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3458)
 
 ___
 
@@ -29,9 +35,11 @@ ___
 
 • `Optional` **iconPath**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| [`ThemeIcon`](../classes/codearts_plugin_.ThemeIcon.md) \| { `dark`: [`Uri`](../classes/codearts_plugin_.Uri.md) ; `light`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }
 
+The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the edit.
+
 #### Defined in
 
-[index.d.ts:3463](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3463)
+[index.d.ts:3463](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3463)
 
 ___
 
@@ -39,9 +47,11 @@ ___
 
 • **label**: `string`
 
+A human-readable string which is rendered prominent.
+
 #### Defined in
 
-[index.d.ts:3453](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3453)
+[index.d.ts:3453](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3453)
 
 ___
 
@@ -49,6 +59,8 @@ ___
 
 • **needsConfirmation**: `boolean`
 
+A flag which indicates that user confirmation is needed.
+
 #### Defined in
 
-[index.d.ts:3448](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3448)
+[index.d.ts:3448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3448)

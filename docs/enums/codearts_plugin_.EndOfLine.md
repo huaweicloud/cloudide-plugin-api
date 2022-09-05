@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).EndOfLine
 
+Represents an end of line character sequence in a [document](../interfaces/codearts_plugin_.TextDocument.md).
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [CRLF](codearts_plugin_.EndOfLine.md#crlf)
 - [LF](codearts_plugin_.EndOfLine.md#lf)
 
-## Enumeration members
+## Enumeration Members
 
 ### CRLF
 
-• **CRLF** = `Object` = `2`
+• **CRLF** = ``2``
+
+The carriage return line feed `\r\n` sequence.
 
 #### Defined in
 
-[index.d.ts:1276](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1276)
+[index.d.ts:1276](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1276)
 
 ___
 
 ### LF
 
-• **LF** = `Object` = `1`
+• **LF** = ``1``
+
+The line feed `\n` character.
 
 #### Defined in
 
-[index.d.ts:1272](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1272)
+[index.d.ts:1272](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1272)

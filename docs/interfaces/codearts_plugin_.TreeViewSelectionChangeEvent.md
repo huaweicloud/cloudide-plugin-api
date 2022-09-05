@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TreeViewSelectionChangeEvent
 
+The event that is fired when there is a change in [tree view's selection](codearts_plugin_.TreeView.md#selection)
+
 ## Type parameters
 
 | Name |
@@ -22,6 +24,8 @@
 
 • `Readonly` **selection**: readonly `T`[]
 
+Selected elements.
+
 #### Defined in
 
-[index.d.ts:10082](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10082)
+[index.d.ts:10144](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10144)

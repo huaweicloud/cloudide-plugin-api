@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Position
 
+Represents a line and character position, such as
+the position of the cursor.
+
+Position objects are __immutable__. Use the [with](codearts_plugin_.Position.md#with) or
+[translate](codearts_plugin_.Position.md#translate) methods to derive new positions
+from an existing position.
+
 ## Table of contents
 
 ### Constructors
@@ -36,12 +43,12 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `line` | `number` |  |
-| `character` | `number` |  |
+| `line` | `number` | A zero-based line value. |
+| `character` | `number` | A zero-based character value. |
 
 #### Defined in
 
-[index.d.ts:275](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L275)
+[index.d.ts:275](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L275)
 
 ## Properties
 
@@ -49,9 +56,11 @@
 
 • `Readonly` **character**: `number`
 
+The zero-based character value.
+
 #### Defined in
 
-[index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L269)
+[index.d.ts:269](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L269)
 
 ___
 
@@ -59,9 +68,11 @@ ___
 
 • `Readonly` **line**: `number`
 
+The zero-based line value.
+
 #### Defined in
 
-[index.d.ts:264](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L264)
+[index.d.ts:264](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L264)
 
 ## Methods
 
@@ -69,19 +80,25 @@ ___
 
 ▸ **compareTo**(`other`): `number`
 
+Compare this to `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `number`
 
+A number smaller than zero if this position is before the given position,
+a number greater than zero if this position is after the given position, or zero when
+this and the given position are equal.
+
 #### Defined in
 
-[index.d.ts:330](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L330)
+[index.d.ts:330](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L330)
 
 ___
 
@@ -89,19 +106,24 @@ ___
 
 ▸ **isAfter**(`other`): `boolean`
 
+Check if this position is after `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `boolean`
 
+`true` if position is on a greater line
+or on the same line on a greater character.
+
 #### Defined in
 
-[index.d.ts:302](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L302)
+[index.d.ts:302](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L302)
 
 ___
 
@@ -109,19 +131,24 @@ ___
 
 ▸ **isAfterOrEqual**(`other`): `boolean`
 
+Check if this position is after or equal to `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `boolean`
 
+`true` if position is on a greater line
+or on the same line on a greater or equal character.
+
 #### Defined in
 
-[index.d.ts:311](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L311)
+[index.d.ts:311](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L311)
 
 ___
 
@@ -129,19 +156,24 @@ ___
 
 ▸ **isBefore**(`other`): `boolean`
 
+Check if this position is before `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `boolean`
 
+`true` if position is on a smaller line
+or on the same line on a smaller character.
+
 #### Defined in
 
-[index.d.ts:284](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L284)
+[index.d.ts:284](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L284)
 
 ___
 
@@ -149,19 +181,24 @@ ___
 
 ▸ **isBeforeOrEqual**(`other`): `boolean`
 
+Check if this position is before or equal to `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `boolean`
 
+`true` if position is on a smaller line
+or on the same line on a smaller or equal character.
+
 #### Defined in
 
-[index.d.ts:293](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L293)
+[index.d.ts:293](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L293)
 
 ___
 
@@ -169,19 +206,24 @@ ___
 
 ▸ **isEqual**(`other`): `boolean`
 
+Check if this position is equal to `other`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `other` | [`Position`](codearts_plugin_.Position.md) |  |
+| `other` | [`Position`](codearts_plugin_.Position.md) | A position. |
 
 #### Returns
 
 `boolean`
 
+`true` if the line and character of the given position are equal to
+the line and character of this position.
+
 #### Defined in
 
-[index.d.ts:320](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L320)
+[index.d.ts:320](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L320)
 
 ___
 
@@ -189,28 +231,35 @@ ___
 
 ▸ **translate**(`lineDelta?`, `characterDelta?`): [`Position`](codearts_plugin_.Position.md)
 
+Create a new position relative to this position.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `lineDelta?` | `number` |  |
-| `characterDelta?` | `number` |  |
+| `lineDelta?` | `number` | Delta value for the line value, default is `0`. |
+| `characterDelta?` | `number` | Delta value for the character value, default is `0`. |
 
 #### Returns
 
 [`Position`](codearts_plugin_.Position.md)
 
+A position which line and character is the sum of the current line and
+character and the corresponding deltas.
+
 #### Defined in
 
-[index.d.ts:340](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L340)
+[index.d.ts:340](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L340)
 
 ▸ **translate**(`change`): [`Position`](codearts_plugin_.Position.md)
+
+Derived a new position relative to this position.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `change` | `Object` |  |
+| `change` | `Object` | An object that describes a delta to this position. |
 | `change.characterDelta?` | `number` | - |
 | `change.lineDelta?` | `number` | - |
 
@@ -218,9 +267,12 @@ ___
 
 [`Position`](codearts_plugin_.Position.md)
 
+A position that reflects the given delta. Will return `this` position if the change
+is not changing anything.
+
 #### Defined in
 
-[index.d.ts:349](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L349)
+[index.d.ts:349](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L349)
 
 ___
 
@@ -228,28 +280,34 @@ ___
 
 ▸ **with**(`line?`, `character?`): [`Position`](codearts_plugin_.Position.md)
 
+Create a new position derived from this position.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `line?` | `number` |  |
-| `character?` | `number` |  |
+| `line?` | `number` | Value that should be used as line value, default is the [existing value](codearts_plugin_.Position.md#line) |
+| `character?` | `number` | Value that should be used as character value, default is the [existing value](codearts_plugin_.Position.md#character) |
 
 #### Returns
 
 [`Position`](codearts_plugin_.Position.md)
 
+A position where line and character are replaced by the given values.
+
 #### Defined in
 
-[index.d.ts:358](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L358)
+[index.d.ts:358](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L358)
 
 ▸ **with**(`change`): [`Position`](codearts_plugin_.Position.md)
+
+Derived a new position from this position.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `change` | `Object` |  |
+| `change` | `Object` | An object that describes a change to this position. |
 | `change.character?` | `number` | - |
 | `change.line?` | `number` | - |
 
@@ -257,6 +315,9 @@ ___
 
 [`Position`](codearts_plugin_.Position.md)
 
+A position that reflects the given change. Will return `this` position if the change
+is not changing anything.
+
 #### Defined in
 
-[index.d.ts:367](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L367)
+[index.d.ts:367](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L367)

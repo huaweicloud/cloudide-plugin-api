@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DiagnosticRelatedInformation
 
+Represents a related message and source code location for a diagnostic. This should be
+used to point to code locations that cause or related to a diagnostics, e.g. when duplicating
+a symbol in a scope.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +25,18 @@
 
 • **new DiagnosticRelatedInformation**(`location`, `message`)
 
+Creates a new related diagnostic information object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `location` | [`Location`](codearts_plugin_.Location.md) |  |
-| `message` | `string` |  |
+| `location` | [`Location`](codearts_plugin_.Location.md) | The location. |
+| `message` | `string` | The message. |
 
 #### Defined in
 
-[index.d.ts:5891](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5891)
+[index.d.ts:5891](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5891)
 
 ## Properties
 
@@ -38,9 +44,11 @@
 
 • **location**: [`Location`](codearts_plugin_.Location.md)
 
+The location of this related diagnostic information.
+
 #### Defined in
 
-[index.d.ts:5878](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5878)
+[index.d.ts:5878](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5878)
 
 ___
 
@@ -48,6 +56,8 @@ ___
 
 • **message**: `string`
 
+The message of this related diagnostic information.
+
 #### Defined in
 
-[index.d.ts:5883](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5883)
+[index.d.ts:5883](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5883)

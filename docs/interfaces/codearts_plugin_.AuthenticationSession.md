@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).AuthenticationSession
 
+Represents a session of a currently logged in user.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • `Readonly` **accessToken**: `string`
 
+The access token.
+
 #### Defined in
 
-[index.d.ts:15046](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15046)
+[index.d.ts:15108](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15108)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • `Readonly` **account**: [`AuthenticationSessionAccountInformation`](codearts_plugin_.AuthenticationSessionAccountInformation.md)
 
+The account associated with the session.
+
 #### Defined in
 
-[index.d.ts:15051](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15051)
+[index.d.ts:15113](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15113)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The identifier of the authentication session.
+
 #### Defined in
 
-[index.d.ts:15041](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15041)
+[index.d.ts:15103](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15103)
 
 ___
 
@@ -49,6 +57,9 @@ ___
 
 • `Readonly` **scopes**: readonly `string`[]
 
+The permissions granted by the session's access token. Available scopes
+are defined by the [AuthenticationProvider](codearts_plugin_.AuthenticationProvider.md).
+
 #### Defined in
 
-[index.d.ts:15057](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15057)
+[index.d.ts:15119](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15119)

@@ -4,29 +4,44 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DiagnosticTag
 
+Additional metadata about the type of a diagnostic.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Deprecated](codearts_plugin_.DiagnosticTag.md#deprecated)
 - [Unnecessary](codearts_plugin_.DiagnosticTag.md#unnecessary)
 
-## Enumeration members
+## Enumeration Members
 
 ### Deprecated
 
-• **Deprecated** = `Object` = `2`
+• **Deprecated** = ``2``
+
+Deprecated or obsolete code.
+
+Diagnostics with this tag are rendered with a strike through.
 
 #### Defined in
 
-[index.d.ts:5915](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5915)
+[index.d.ts:5915](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5915)
 
 ___
 
 ### Unnecessary
 
-• **Unnecessary** = `Object` = `1`
+• **Unnecessary** = ``1``
+
+Unused or unnecessary code.
+
+Diagnostics with this tag are rendered faded out. The amount of fading
+is controlled by the `"editorUnnecessaryCode.opacity"` theme color. For
+example, `"editorUnnecessaryCode.opacity": "#000000c0"` will render the
+code with 75% opacity. For high contrast themes, use the
+`"editorUnnecessaryCode.border"` theme color to underline unnecessary code
+instead of fading it out.
 
 #### Defined in
 
-[index.d.ts:5908](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5908)
+[index.d.ts:5908](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5908)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalDimensions
 
+Represents the dimensions of a terminal.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **columns**: `number`
 
+The number of columns in the terminal.
+
 #### Defined in
 
-[index.d.ts:10749](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10749)
+[index.d.ts:10811](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10811)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **rows**: `number`
 
+The number of rows in the terminal.
+
 #### Defined in
 
-[index.d.ts:10754](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10754)
+[index.d.ts:10816](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10816)

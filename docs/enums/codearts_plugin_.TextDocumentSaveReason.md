@@ -4,40 +4,49 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextDocumentSaveReason
 
+Represents reasons why a text document is saved.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [AfterDelay](codearts_plugin_.TextDocumentSaveReason.md#afterdelay)
 - [FocusOut](codearts_plugin_.TextDocumentSaveReason.md#focusout)
 - [Manual](codearts_plugin_.TextDocumentSaveReason.md#manual)
 
-## Enumeration members
+## Enumeration Members
 
 ### AfterDelay
 
-• **AfterDelay** = `Object` = `2`
+• **AfterDelay** = ``2``
+
+Automatic after a delay.
 
 #### Defined in
 
-[index.d.ts:11288](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11288)
+[index.d.ts:11350](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11350)
 
 ___
 
 ### FocusOut
 
-• **FocusOut** = `Object` = `3`
+• **FocusOut** = ``3``
+
+When the editor lost focus.
 
 #### Defined in
 
-[index.d.ts:11293](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11293)
+[index.d.ts:11355](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11355)
 
 ___
 
 ### Manual
 
-• **Manual** = `Object` = `1`
+• **Manual** = ``1``
+
+Manually triggered, e.g. by the user pressing save, by starting debugging,
+or by an API call.
 
 #### Defined in
 
-[index.d.ts:11283](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11283)
+[index.d.ts:11345](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11345)

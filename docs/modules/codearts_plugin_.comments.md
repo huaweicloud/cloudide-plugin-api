@@ -16,17 +16,21 @@
 
 ▸ **createCommentController**(`id`, `label`): [`CommentController`](../interfaces/codearts_plugin_.CommentController.md)
 
+Creates a new [comment controller](../interfaces/codearts_plugin_.CommentController.md) instance.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `id` | `string` |  |
-| `label` | `string` |  |
+| `id` | `string` | An `id` for the comment controller. |
+| `label` | `string` | A human-readable string for the comment controller. |
 
 #### Returns
 
 [`CommentController`](../interfaces/codearts_plugin_.CommentController.md)
 
+An instance of [comment controller](../interfaces/codearts_plugin_.CommentController.md).
+
 #### Defined in
 
-[index.d.ts:15031](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15031)
+[index.d.ts:15093](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15093)

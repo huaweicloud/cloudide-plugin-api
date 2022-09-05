@@ -4,29 +4,38 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CodeActionTriggerKind
 
+The reason why code actions were requested.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Automatic](codearts_plugin_.CodeActionTriggerKind.md#automatic)
 - [Invoke](codearts_plugin_.CodeActionTriggerKind.md#invoke)
 
-## Enumeration members
+## Enumeration Members
 
 ### Automatic
 
-• **Automatic** = `Object` = `2`
+• **Automatic** = ``2``
+
+Code actions were requested automatically.
+
+This typically happens when current selection in a file changes, but can
+also be triggered when file content changes.
 
 #### Defined in
 
-[index.d.ts:2373](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2373)
+[index.d.ts:2373](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2373)
 
 ___
 
 ### Invoke
 
-• **Invoke** = `Object` = `1`
+• **Invoke** = ``1``
+
+Code actions were explicitly requested by the user or by an extension.
 
 #### Defined in
 
-[index.d.ts:2365](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2365)
+[index.d.ts:2365](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2365)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugAdapterServer
 
+Represents a debug adapter running as a socket based server.
+
 ## Table of contents
 
 ### Constructors
@@ -21,6 +23,8 @@
 
 • **new DebugAdapterServer**(`port`, `host?`)
 
+Create a description for a debug adapter running as a socket based server.
+
 #### Parameters
 
 | Name | Type |
@@ -30,7 +34,7 @@
 
 #### Defined in
 
-[index.d.ts:14272](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14272)
+[index.d.ts:14334](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14334)
 
 ## Properties
 
@@ -38,9 +42,11 @@
 
 • `Optional` `Readonly` **host**: `string`
 
+The host.
+
 #### Defined in
 
-[index.d.ts:14267](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14267)
+[index.d.ts:14329](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14329)
 
 ___
 
@@ -48,6 +54,8 @@ ___
 
 • `Readonly` **port**: `number`
 
+The port.
+
 #### Defined in
 
-[index.d.ts:14262](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14262)
+[index.d.ts:14324](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14324)

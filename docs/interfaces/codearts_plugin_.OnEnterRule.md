@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).OnEnterRule
 
+Describes a rule to be evaluated when pressing Enter.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • **action**: [`EnterAction`](codearts_plugin_.EnterAction.md)
 
+The action to execute.
+
 #### Defined in
 
-[index.d.ts:5524](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5524)
+[index.d.ts:5524](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5524)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • `Optional` **afterText**: `RegExp`
 
+This rule will only execute if the text after the cursor matches this regular expression.
+
 #### Defined in
 
-[index.d.ts:5516](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5516)
+[index.d.ts:5516](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5516)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • **beforeText**: `RegExp`
 
+This rule will only execute if the text before the cursor matches this regular expression.
+
 #### Defined in
 
-[index.d.ts:5512](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5512)
+[index.d.ts:5512](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5512)
 
 ___
 
@@ -49,6 +57,8 @@ ___
 
 • `Optional` **previousLineText**: `RegExp`
 
+This rule will only execute if the text above the current line matches this regular expression.
+
 #### Defined in
 
-[index.d.ts:5520](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5520)
+[index.d.ts:5520](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5520)

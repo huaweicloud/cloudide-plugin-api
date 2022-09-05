@@ -4,29 +4,38 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlayHintKind
 
+Inlay hint kinds.
+
+The kind of an inline hint defines its appearance, e.g the corresponding foreground and background colors are being
+used.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Parameter](codearts_plugin_.InlayHintKind.md#parameter)
 - [Type](codearts_plugin_.InlayHintKind.md#type)
 
-## Enumeration members
+## Enumeration Members
 
 ### Parameter
 
-• **Parameter** = `Object` = `2`
+• **Parameter** = ``2``
+
+An inlay hint that is for a parameter.
 
 #### Defined in
 
-[index.d.ts:4851](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4851)
+[index.d.ts:4851](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4851)
 
 ___
 
 ### Type
 
-• **Type** = `Object` = `1`
+• **Type** = ``1``
+
+An inlay hint that for a type annotation.
 
 #### Defined in
 
-[index.d.ts:4847](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4847)
+[index.d.ts:4847](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4847)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).AuthenticationGetSessionOptions
 
+Options to be used when getting an [AuthenticationSession](codearts_plugin_.AuthenticationSession.md) from an [AuthenticationProvider](codearts_plugin_.AuthenticationProvider.md).
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,17 @@
 
 • `Optional` **clearSessionPreference**: `boolean`
 
+Whether the existing user session preference should be cleared.
+
+For authentication providers that support being signed into multiple accounts at once, the user will be
+prompted to select an account to use when [getSession](../modules/codearts_plugin_.authentication.md#getsession) is called. This preference
+is remembered until [getSession](../modules/codearts_plugin_.authentication.md#getsession) is called with this flag.
+
+Defaults to false.
+
 #### Defined in
 
-[index.d.ts:15089](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15089)
+[index.d.ts:15151](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15151)
 
 ___
 
@@ -29,9 +39,22 @@ ___
 
 • `Optional` **createIfNone**: `boolean`
 
+Whether login should be performed if there is no matching session.
+
+If true, a modal dialog will be shown asking the user to sign in. If false, a numbered badge will be shown
+on the accounts activity bar icon. An entry for the extension will be added under the menu to sign in. This
+allows quietly prompting the user to sign in.
+
+If there is a matching session but the extension has not been granted access to it, setting this to true
+will also result in an immediate modal dialog, and false will add a numbered badge to the accounts icon.
+
+Defaults to false.
+
+Note: you cannot use this option with [silent](codearts_plugin_.AuthenticationGetSessionOptions.md#silent).
+
 #### Defined in
 
-[index.d.ts:15105](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15105)
+[index.d.ts:15167](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15167)
 
 ___
 
@@ -39,9 +62,19 @@ ___
 
 • `Optional` **forceNewSession**: `boolean` \| { `detail`: `string`  }
 
+Whether we should attempt to reauthenticate even if there is already a session available.
+
+If true, a modal dialog will be shown asking the user to sign in again. This is mostly used for scenarios
+where the token needs to be re minted because it has lost some authorization.
+
+If there are no existing sessions and forceNewSession is true, it will behave identically to
+[createIfNone](codearts_plugin_.AuthenticationGetSessionOptions.md#createifnone).
+
+This defaults to false.
+
 #### Defined in
 
-[index.d.ts:15118](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15118)
+[index.d.ts:15180](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15180)
 
 ___
 
@@ -49,6 +82,15 @@ ___
 
 • `Optional` **silent**: `boolean`
 
+Whether we should show the indication to sign in in the Accounts menu.
+
+If false, the user will be shown a badge on the Accounts menu with an option to sign in for the extension.
+If true, no indication will be shown.
+
+Defaults to false.
+
+Note: you cannot use this option with any other options that prompt the user like [createIfNone](codearts_plugin_.AuthenticationGetSessionOptions.md#createifnone).
+
 #### Defined in
 
-[index.d.ts:15130](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15130)
+[index.d.ts:15192](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15192)

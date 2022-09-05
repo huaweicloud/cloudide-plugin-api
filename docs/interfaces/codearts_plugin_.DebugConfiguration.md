@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugConfiguration
 
+Configuration for a debug session.
+
 ## Indexable
 
 ▪ [key: `string`]: `any`
@@ -22,9 +24,11 @@
 
 • **name**: `string`
 
+The name of the debug session.
+
 #### Defined in
 
-[index.d.ts:14069](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14069)
+[index.d.ts:14131](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14131)
 
 ___
 
@@ -32,9 +36,11 @@ ___
 
 • **request**: `string`
 
+The request type of the debug session.
+
 #### Defined in
 
-[index.d.ts:14074](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14074)
+[index.d.ts:14136](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14136)
 
 ___
 
@@ -42,6 +48,8 @@ ___
 
 • **type**: `string`
 
+The type of the debug session.
+
 #### Defined in
 
-[index.d.ts:14064](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14064)
+[index.d.ts:14126](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14126)

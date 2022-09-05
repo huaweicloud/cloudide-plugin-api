@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DocumentLinkProvider
 
+The document link provider defines the contract between extensions and feature of showing
+links in the editor.
+
 ## Type parameters
 
 | Name | Type |
@@ -23,20 +26,26 @@
 
 ▸ **provideDocumentLinks**(`document`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+Provide links for the given document. Note that the editor ships with a default provider that detects
+`http(s)` and `file` links.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) | The document in which the command was invoked. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+An array of [document links](../classes/codearts_plugin_.DocumentLink.md) or a thenable that resolves to such. The lack of a result
+can be signaled by returning `undefined`, `null`, or an empty array.
+
 #### Defined in
 
-[index.d.ts:4697](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4697)
+[index.d.ts:4697](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4697)
 
 ___
 
@@ -44,12 +53,17 @@ ___
 
 ▸ `Optional` **resolveDocumentLink**(`link`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`\>
 
+Given a link fill in its [target](../classes/codearts_plugin_.DocumentLink.md#target). This method is called when an incomplete
+link is selected in the UI. Providers can implement this method and return incomplete links
+(without target) from the [`provideDocumentLinks`](codearts_plugin_.DocumentLinkProvider.md#providedocumentlinks) method which
+often helps to improve performance.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `link` | `T` |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `link` | `T` | The link that is to be resolved. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
@@ -57,4 +71,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:4708](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4708)
+[index.d.ts:4708](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4708)

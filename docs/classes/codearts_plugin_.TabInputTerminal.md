@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabInputTerminal
 
+The tab represents a terminal in the editor area.
+
 ## Table of contents
 
 ### Constructors
@@ -16,6 +18,8 @@
 
 • **new TabInputTerminal**()
 
+Constructs a terminal tab input.
+
 #### Defined in
 
-[index.d.ts:15966](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15966)
+[index.d.ts:16028](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16028)

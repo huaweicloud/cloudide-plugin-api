@@ -4,51 +4,63 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).IndentAction
 
+Describes what to do with the indentation when pressing Enter.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Indent](codearts_plugin_.IndentAction.md#indent)
 - [IndentOutdent](codearts_plugin_.IndentAction.md#indentoutdent)
 - [None](codearts_plugin_.IndentAction.md#none)
 - [Outdent](codearts_plugin_.IndentAction.md#outdent)
 
-## Enumeration members
+## Enumeration Members
 
 ### Indent
 
-• **Indent** = `Object` = `1`
+• **Indent** = ``1``
+
+Insert new line and indent once (relative to the previous line's indentation).
 
 #### Defined in
 
-[index.d.ts:5474](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5474)
+[index.d.ts:5474](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5474)
 
 ___
 
 ### IndentOutdent
 
-• **IndentOutdent** = `Object` = `2`
+• **IndentOutdent** = ``2``
+
+Insert two new lines:
+ - the first one indented which will hold the cursor
+ - the second one at the same indentation level
 
 #### Defined in
 
-[index.d.ts:5480](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5480)
+[index.d.ts:5480](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5480)
 
 ___
 
 ### None
 
-• **None** = `Object` = `0`
+• **None** = ``0``
+
+Insert new line and copy the previous line's indentation.
 
 #### Defined in
 
-[index.d.ts:5470](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5470)
+[index.d.ts:5470](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5470)
 
 ___
 
 ### Outdent
 
-• **Outdent** = `Object` = `3`
+• **Outdent** = ``3``
+
+Insert new line and outdent once (relative to the previous line's indentation).
 
 #### Defined in
 
-[index.d.ts:5484](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5484)
+[index.d.ts:5484](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5484)

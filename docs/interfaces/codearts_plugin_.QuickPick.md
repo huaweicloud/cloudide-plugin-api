@@ -4,6 +4,15 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).QuickPick
 
+A concrete [QuickInput](codearts_plugin_.QuickInput.md) to let the user pick an item from a
+list of items of type T. The items can be filtered through a filter text field and
+there is an option [canSelectMany](codearts_plugin_.QuickPick.md#canselectmany) to allow for
+selecting multiple items.
+
+Note that in many cases the more convenient [showQuickPick](../modules/codearts_plugin_.window.md#showquickpick)
+is easier to use. [createQuickPick](../modules/codearts_plugin_.window.md#createquickpick) should be used
+when [showQuickPick](../modules/codearts_plugin_.window.md#showquickpick) does not offer the required flexibility.
+
 ## Type parameters
 
 | Name | Type |
@@ -56,9 +65,11 @@
 
 • **activeItems**: readonly `T`[]
 
+Active items. This can be read and updated by the extension.
+
 #### Defined in
 
-[index.d.ts:11097](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11097)
+[index.d.ts:11159](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11159)
 
 ___
 
@@ -66,13 +77,18 @@ ___
 
 • **busy**: `boolean`
 
+If the UI should show a progress indicator. Defaults to false.
+
+Change this to true, e.g., while loading more data or validating
+user input.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[busy](codearts_plugin_.QuickInput.md#busy)
 
 #### Defined in
 
-[index.d.ts:10981](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10981)
+[index.d.ts:11043](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11043)
 
 ___
 
@@ -80,9 +96,11 @@ ___
 
 • **buttons**: readonly [`QuickInputButton`](codearts_plugin_.QuickInputButton.md)[]
 
+Buttons for actions in the UI.
+
 #### Defined in
 
-[index.d.ts:11055](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11055)
+[index.d.ts:11117](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11117)
 
 ___
 
@@ -90,9 +108,11 @@ ___
 
 • **canSelectMany**: `boolean`
 
+If multiple items can be selected at the same time. Defaults to false.
+
 #### Defined in
 
-[index.d.ts:11077](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11077)
+[index.d.ts:11139](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11139)
 
 ___
 
@@ -100,13 +120,18 @@ ___
 
 • **enabled**: `boolean`
 
+If the UI should allow for user input. Defaults to true.
+
+Change this to false, e.g., while validating user input or
+loading data for the next step in user input.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[enabled](codearts_plugin_.QuickInput.md#enabled)
 
 #### Defined in
 
-[index.d.ts:10973](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10973)
+[index.d.ts:11035](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11035)
 
 ___
 
@@ -114,13 +139,16 @@ ___
 
 • **ignoreFocusOut**: `boolean`
 
+If the UI should stay open even when loosing UI focus. Defaults to false.
+This setting is ignored on iPad and is always false.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[ignoreFocusOut](codearts_plugin_.QuickInput.md#ignorefocusout)
 
 #### Defined in
 
-[index.d.ts:10987](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10987)
+[index.d.ts:11049](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11049)
 
 ___
 
@@ -128,9 +156,11 @@ ___
 
 • **items**: readonly `T`[]
 
+Items to pick from. This can be read and updated by the extension.
+
 #### Defined in
 
-[index.d.ts:11072](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11072)
+[index.d.ts:11134](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11134)
 
 ___
 
@@ -140,7 +170,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:11092](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11092)
+[index.d.ts:11154](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11154)
 
 ___
 
@@ -148,9 +178,11 @@ ___
 
 • **matchOnDescription**: `boolean`
 
+If the filter text should also be matched against the description of the items. Defaults to false.
+
 #### Defined in
 
-[index.d.ts:11082](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11082)
+[index.d.ts:11144](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11144)
 
 ___
 
@@ -158,9 +190,11 @@ ___
 
 • **matchOnDetail**: `boolean`
 
+If the filter text should also be matched against the detail of the items. Defaults to false.
+
 #### Defined in
 
-[index.d.ts:11087](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11087)
+[index.d.ts:11149](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11149)
 
 ___
 
@@ -168,9 +202,11 @@ ___
 
 • `Readonly` **onDidAccept**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+An event signaling when the user indicated acceptance of the selected item(s).
+
 #### Defined in
 
-[index.d.ts:11050](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11050)
+[index.d.ts:11112](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11112)
 
 ___
 
@@ -178,9 +214,11 @@ ___
 
 • `Readonly` **onDidChangeActive**: [`Event`](codearts_plugin_.Event.md)<readonly `T`[]\>
 
+An event signaling when the active items have changed.
+
 #### Defined in
 
-[index.d.ts:11102](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11102)
+[index.d.ts:11164](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11164)
 
 ___
 
@@ -188,9 +226,11 @@ ___
 
 • `Readonly` **onDidChangeSelection**: [`Event`](codearts_plugin_.Event.md)<readonly `T`[]\>
 
+An event signaling when the selected items have changed.
+
 #### Defined in
 
-[index.d.ts:11112](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11112)
+[index.d.ts:11174](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11174)
 
 ___
 
@@ -198,9 +238,11 @@ ___
 
 • `Readonly` **onDidChangeValue**: [`Event`](codearts_plugin_.Event.md)<`string`\>
 
+An event signaling when the value of the filter text has changed.
+
 #### Defined in
 
-[index.d.ts:11045](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11045)
+[index.d.ts:11107](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11107)
 
 ___
 
@@ -208,13 +250,20 @@ ___
 
 • **onDidHide**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+An event signaling when this input UI is hidden.
+
+There are several reasons why this UI might have to be hidden and
+the extension will be notified through [onDidHide](codearts_plugin_.QuickInput.md#ondidhide).
+(Examples include: an explicit call to [hide](codearts_plugin_.QuickInput.md#hide),
+the user pressing Esc, some other input UI opening, etc.)
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[onDidHide](codearts_plugin_.QuickInput.md#ondidhide)
 
 #### Defined in
 
-[index.d.ts:11009](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11009)
+[index.d.ts:11071](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11071)
 
 ___
 
@@ -222,9 +271,12 @@ ___
 
 • `Readonly` **onDidTriggerButton**: [`Event`](codearts_plugin_.Event.md)<[`QuickInputButton`](codearts_plugin_.QuickInputButton.md)\>
 
+An event signaling when a button in the title bar was triggered.
+This event does not fire for buttons on a [QuickPickItem](codearts_plugin_.QuickPickItem.md).
+
 #### Defined in
 
-[index.d.ts:11061](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11061)
+[index.d.ts:11123](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11123)
 
 ___
 
@@ -232,9 +284,12 @@ ___
 
 • `Readonly` **onDidTriggerItemButton**: [`Event`](codearts_plugin_.Event.md)<[`QuickPickItemButtonEvent`](codearts_plugin_.QuickPickItemButtonEvent.md)<`T`\>\>
 
+An event signaling when a button in a particular [QuickPickItem](codearts_plugin_.QuickPickItem.md) was triggered.
+This event does not fire for buttons in the title bar.
+
 #### Defined in
 
-[index.d.ts:11067](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11067)
+[index.d.ts:11129](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11129)
 
 ___
 
@@ -242,9 +297,11 @@ ___
 
 • **placeholder**: `undefined` \| `string`
 
+Optional placeholder in the filter text.
+
 #### Defined in
 
-[index.d.ts:11040](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11040)
+[index.d.ts:11102](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11102)
 
 ___
 
@@ -252,9 +309,11 @@ ___
 
 • **selectedItems**: readonly `T`[]
 
+Selected items. This can be read and updated by the extension.
+
 #### Defined in
 
-[index.d.ts:11107](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11107)
+[index.d.ts:11169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11169)
 
 ___
 
@@ -262,13 +321,15 @@ ___
 
 • **step**: `undefined` \| `number`
 
+An optional current step count.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[step](codearts_plugin_.QuickInput.md#step)
 
 #### Defined in
 
-[index.d.ts:10960](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10960)
+[index.d.ts:11022](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11022)
 
 ___
 
@@ -276,13 +337,15 @@ ___
 
 • **title**: `undefined` \| `string`
 
+An optional title.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[title](codearts_plugin_.QuickInput.md#title)
 
 #### Defined in
 
-[index.d.ts:10955](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10955)
+[index.d.ts:11017](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11017)
 
 ___
 
@@ -290,13 +353,15 @@ ___
 
 • **totalSteps**: `undefined` \| `number`
 
+An optional total step count.
+
 #### Inherited from
 
 [QuickInput](codearts_plugin_.QuickInput.md).[totalSteps](codearts_plugin_.QuickInput.md#totalsteps)
 
 #### Defined in
 
-[index.d.ts:10965](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10965)
+[index.d.ts:11027](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11027)
 
 ___
 
@@ -304,15 +369,22 @@ ___
 
 • **value**: `string`
 
+Current value of the filter text.
+
 #### Defined in
 
-[index.d.ts:11035](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11035)
+[index.d.ts:11097](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11097)
 
 ## Methods
 
 ### dispose
 
 ▸ **dispose**(): `void`
+
+Dispose of this input UI and any associated resources. If it is still
+visible, it is first hidden. After this call the input UI is no longer
+functional and no additional methods or properties on it should be
+accessed. Instead a new input UI should be created.
 
 #### Returns
 
@@ -324,13 +396,16 @@ ___
 
 #### Defined in
 
-[index.d.ts:11017](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11017)
+[index.d.ts:11079](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11079)
 
 ___
 
 ### hide
 
 ▸ **hide**(): `void`
+
+Hides this input UI. This will also fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide)
+event.
 
 #### Returns
 
@@ -342,13 +417,16 @@ ___
 
 #### Defined in
 
-[index.d.ts:10999](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10999)
+[index.d.ts:11061](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11061)
 
 ___
 
 ### show
 
 ▸ **show**(): `void`
+
+Makes the input UI visible in its current configuration. Any other input
+UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) event.
 
 #### Returns
 
@@ -360,4 +438,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:10993](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10993)
+[index.d.ts:11055](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11055)

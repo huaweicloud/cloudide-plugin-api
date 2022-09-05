@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TestMessage
 
+Message associated with the test state. Can be linked to a specific
+source range -- useful for assertion failures, for example.
+
 ## Table of contents
 
 ### Constructors
@@ -27,15 +30,17 @@
 
 • **new TestMessage**(`message`)
 
+Creates a new TestMessage instance.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `message` | `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md) |  |
+| `message` | `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md) | The message to show to the user. |
 
 #### Defined in
 
-[index.d.ts:15840](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15840)
+[index.d.ts:15902](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15902)
 
 ## Properties
 
@@ -43,9 +48,11 @@
 
 • `Optional` **actualOutput**: `string`
 
+Actual test output. If given with [expectedOutput](codearts_plugin_.TestMessage.md#expectedoutput), a diff view will be shown.
+
 #### Defined in
 
-[index.d.ts:15821](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15821)
+[index.d.ts:15883](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15883)
 
 ___
 
@@ -53,9 +60,11 @@ ___
 
 • `Optional` **expectedOutput**: `string`
 
+Expected test output. If given with [actualOutput](codearts_plugin_.TestMessage.md#actualoutput), a diff view will be shown.
+
 #### Defined in
 
-[index.d.ts:15816](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15816)
+[index.d.ts:15878](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15878)
 
 ___
 
@@ -63,9 +72,11 @@ ___
 
 • `Optional` **location**: [`Location`](codearts_plugin_.Location.md)
 
+Associated file location.
+
 #### Defined in
 
-[index.d.ts:15826](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15826)
+[index.d.ts:15888](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15888)
 
 ___
 
@@ -73,9 +84,11 @@ ___
 
 • **message**: `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md)
 
+Human-readable message text to display.
+
 #### Defined in
 
-[index.d.ts:15811](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15811)
+[index.d.ts:15873](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15873)
 
 ## Methods
 
@@ -83,13 +96,15 @@ ___
 
 ▸ `Static` **diff**(`message`, `expected`, `actual`): [`TestMessage`](codearts_plugin_.TestMessage.md)
 
+Creates a new TestMessage that will present as a diff in the editor.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `message` | `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md) |  |
-| `expected` | `string` |  |
-| `actual` | `string` |  |
+| `message` | `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md) | Message to display to the user. |
+| `expected` | `string` | Expected output. |
+| `actual` | `string` | Actual output. |
 
 #### Returns
 
@@ -97,4 +112,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15834](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15834)
+[index.d.ts:15896](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15896)

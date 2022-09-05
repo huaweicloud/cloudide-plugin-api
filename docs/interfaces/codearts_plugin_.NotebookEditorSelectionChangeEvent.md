@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookEditorSelectionChangeEvent
 
+Represents an event describing the change in a [notebook editor's selections](codearts_plugin_.NotebookEditor.md#selections).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **notebookEditor**: [`NotebookEditor`](codearts_plugin_.NotebookEditor.md)
 
+The [notebook editor](codearts_plugin_.NotebookEditor.md) for which the selections have changed.
+
 #### Defined in
 
-[index.d.ts:796](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L796)
+[index.d.ts:796](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L796)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **selections**: readonly [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md)[]
 
+The new value for the [notebook editor's selections](codearts_plugin_.NotebookEditor.md#selections).
+
 #### Defined in
 
-[index.d.ts:801](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L801)
+[index.d.ts:801](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L801)

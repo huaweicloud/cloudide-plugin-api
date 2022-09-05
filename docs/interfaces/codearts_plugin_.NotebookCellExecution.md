@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookCellExecution
 
+A NotebookCellExecution is how [notebook controller](codearts_plugin_.NotebookController.md) modify a notebook cell as
+it is executing.
+
+When a cell execution object is created, the cell enters the NotebookCellExecutionState.Pending Pending state.
+When [`start(...)`](codearts_plugin_.NotebookCellExecution.md#start) is called on the execution task, it enters the NotebookCellExecutionState.Executing Executing state. When
+[`end(...)`](codearts_plugin_.NotebookCellExecution.md#end) is called, it enters the NotebookCellExecutionState.Idle Idle state.
+
 ## Table of contents
 
 ### Properties
@@ -28,9 +35,11 @@
 
 • `Readonly` **cell**: [`NotebookCell`](codearts_plugin_.NotebookCell.md)
 
+The [cell](codearts_plugin_.NotebookCell.md) for which this execution has been created.
+
 #### Defined in
 
-[index.d.ts:13575](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13575)
+[index.d.ts:13637](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13637)
 
 ___
 
@@ -38,9 +47,11 @@ ___
 
 • **executionOrder**: `undefined` \| `number`
 
+Set and unset the order of this cell execution.
+
 #### Defined in
 
-[index.d.ts:13589](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13589)
+[index.d.ts:13651](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13651)
 
 ___
 
@@ -48,9 +59,15 @@ ___
 
 • `Readonly` **token**: [`CancellationToken`](codearts_plugin_.CancellationToken.md)
 
+A cancellation token which will be triggered when the cell execution is canceled
+from the UI.
+
+_Note_ that the cancellation token will not be triggered when the [controller](codearts_plugin_.NotebookController.md)
+that created this execution uses an [interrupt-handler](codearts_plugin_.NotebookController.md#interrupthandler).
+
 #### Defined in
 
-[index.d.ts:13584](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13584)
+[index.d.ts:13646](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13646)
 
 ## Methods
 
@@ -58,20 +75,24 @@ ___
 
 ▸ **appendOutput**(`out`, `cell?`): [`Thenable`](Thenable.md)<`void`\>
 
+Append to the output of the cell that is executing or to another cell that is affected by this execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `out` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) \| readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[] |  |
-| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) |  |
+| `out` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) \| readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[] | Output that is appended to the current output. |
+| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) | Cell for which output is cleared. Defaults to the [cell](codearts_plugin_.NotebookCellExecution.md#cell) of this execution. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when the operation finished.
+
 #### Defined in
 
-[index.d.ts:13636](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13636)
+[index.d.ts:13698](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13698)
 
 ___
 
@@ -79,20 +100,24 @@ ___
 
 ▸ **appendOutputItems**(`items`, `output`): [`Thenable`](Thenable.md)<`void`\>
 
+Append output items to existing cell output.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `items` | [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md) \| readonly [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md)[] |  |
-| `output` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) |  |
+| `items` | [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md) \| readonly [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md)[] | Output items that are append to existing output. |
+| `output` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) | Output object that already exists. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when the operation finished.
+
 #### Defined in
 
-[index.d.ts:13654](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13654)
+[index.d.ts:13716](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13716)
 
 ___
 
@@ -100,19 +125,23 @@ ___
 
 ▸ **clearOutput**(`cell?`): [`Thenable`](Thenable.md)<`void`\>
 
+Clears the output of the cell that is executing or of another cell that is affected by this execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) |  |
+| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) | Cell for which output is cleared. Defaults to the [cell](codearts_plugin_.NotebookCellExecution.md#cell) of this execution. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when the operation finished.
+
 #### Defined in
 
-[index.d.ts:13616](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13616)
+[index.d.ts:13678](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13678)
 
 ___
 
@@ -120,12 +149,14 @@ ___
 
 ▸ **end**(`success`, `endTime?`): `void`
 
+Signal that execution has ended.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `success` | `undefined` \| `boolean` |  |
-| `endTime?` | `number` |  |
+| `success` | `undefined` \| `boolean` | If true, a green check is shown on the cell status bar. If false, a red X is shown. If undefined, no check or X icon is shown. |
+| `endTime?` | `number` | The time that execution finished, in milliseconds in the Unix epoch. |
 
 #### Returns
 
@@ -133,7 +164,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13607](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13607)
+[index.d.ts:13669](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13669)
 
 ___
 
@@ -141,20 +172,24 @@ ___
 
 ▸ **replaceOutput**(`out`, `cell?`): [`Thenable`](Thenable.md)<`void`\>
 
+Replace the output of the cell that is executing or of another cell that is affected by this execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `out` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) \| readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[] |  |
-| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) |  |
+| `out` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) \| readonly [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md)[] | Output that replaces the current output. |
+| `cell?` | [`NotebookCell`](codearts_plugin_.NotebookCell.md) | Cell for which output is cleared. Defaults to the [cell](codearts_plugin_.NotebookCellExecution.md#cell) of this execution. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when the operation finished.
+
 #### Defined in
 
-[index.d.ts:13626](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13626)
+[index.d.ts:13688](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13688)
 
 ___
 
@@ -162,20 +197,24 @@ ___
 
 ▸ **replaceOutputItems**(`items`, `output`): [`Thenable`](Thenable.md)<`void`\>
 
+Replace all output items of existing cell output.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `items` | [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md) \| readonly [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md)[] |  |
-| `output` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) |  |
+| `items` | [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md) \| readonly [`NotebookCellOutputItem`](../classes/codearts_plugin_.NotebookCellOutputItem.md)[] | Output items that replace the items of existing output. |
+| `output` | [`NotebookCellOutput`](../classes/codearts_plugin_.NotebookCellOutput.md) | Output object that already exists. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`void`\>
 
+A thenable that resolves when the operation finished.
+
 #### Defined in
 
-[index.d.ts:13645](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13645)
+[index.d.ts:13707](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13707)
 
 ___
 
@@ -183,11 +222,13 @@ ___
 
 ▸ **start**(`startTime?`): `void`
 
+Signal that the execution has begun.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `startTime?` | `number` |  |
+| `startTime?` | `number` | The time that execution began, in milliseconds in the Unix epoch. Used to drive the clock that shows for how long a cell has been running. If not given, the clock won't be shown. |
 
 #### Returns
 
@@ -195,4 +236,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:13597](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13597)
+[index.d.ts:13659](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13659)

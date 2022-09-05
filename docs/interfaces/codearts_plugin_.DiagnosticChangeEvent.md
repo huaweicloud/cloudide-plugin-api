@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DiagnosticChangeEvent
 
+The event that is fired when diagnostics change.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **uris**: readonly [`Uri`](../classes/codearts_plugin_.Uri.md)[]
 
+An array of resources for which diagnostics have changed.
+
 #### Defined in
 
-[index.d.ts:5838](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5838)
+[index.d.ts:5838](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5838)

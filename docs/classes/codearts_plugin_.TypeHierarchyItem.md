@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TypeHierarchyItem
 
+Represents an item of a type hierarchy, like a class or an interface.
+
 ## Table of contents
 
 ### Constructors
@@ -26,20 +28,22 @@
 
 • **new TypeHierarchyItem**(`kind`, `name`, `detail`, `uri`, `range`, `selectionRange`)
 
+Creates a new type hierarchy item.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) |  |
-| `name` | `string` |  |
-| `detail` | `string` |  |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `selectionRange` | [`Range`](codearts_plugin_.Range.md) |  |
+| `kind` | [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md) | The kind of the item. |
+| `name` | `string` | The name of the item. |
+| `detail` | `string` | The details of the item. |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | The Uri of the item. |
+| `range` | [`Range`](codearts_plugin_.Range.md) | The whole range of the item. |
+| `selectionRange` | [`Range`](codearts_plugin_.Range.md) | The selection range of the item. |
 
 #### Defined in
 
-[index.d.ts:5328](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5328)
+[index.d.ts:5328](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5328)
 
 ## Properties
 
@@ -47,9 +51,11 @@
 
 • `Optional` **detail**: `string`
 
+More detail for this item, e.g. the signature of a function.
+
 #### Defined in
 
-[index.d.ts:5299](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5299)
+[index.d.ts:5299](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5299)
 
 ___
 
@@ -57,9 +63,11 @@ ___
 
 • **kind**: [`SymbolKind`](../enums/codearts_plugin_.SymbolKind.md)
 
+The kind of this item.
+
 #### Defined in
 
-[index.d.ts:5289](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5289)
+[index.d.ts:5289](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5289)
 
 ___
 
@@ -67,9 +75,11 @@ ___
 
 • **name**: `string`
 
+The name of this item.
+
 #### Defined in
 
-[index.d.ts:5284](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5284)
+[index.d.ts:5284](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5284)
 
 ___
 
@@ -77,9 +87,12 @@ ___
 
 • **range**: [`Range`](codearts_plugin_.Range.md)
 
+The range enclosing this symbol not including leading/trailing whitespace
+but everything else, e.g. comments and code.
+
 #### Defined in
 
-[index.d.ts:5310](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5310)
+[index.d.ts:5310](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5310)
 
 ___
 
@@ -87,9 +100,12 @@ ___
 
 • **selectionRange**: [`Range`](codearts_plugin_.Range.md)
 
+The range that should be selected and revealed when this symbol is being
+picked, e.g. the name of a class. Must be contained by the [range](codearts_plugin_.TypeHierarchyItem.md#range)-property.
+
 #### Defined in
 
-[index.d.ts:5316](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5316)
+[index.d.ts:5316](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5316)
 
 ___
 
@@ -97,9 +113,11 @@ ___
 
 • `Optional` **tags**: readonly [`Deprecated`](../enums/codearts_plugin_.SymbolTag.md#deprecated)[]
 
+Tags for this item.
+
 #### Defined in
 
-[index.d.ts:5294](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5294)
+[index.d.ts:5294](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5294)
 
 ___
 
@@ -107,6 +125,8 @@ ___
 
 • **uri**: [`Uri`](codearts_plugin_.Uri.md)
 
+The resource identifier of this item.
+
 #### Defined in
 
-[index.d.ts:5304](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5304)
+[index.d.ts:5304](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5304)

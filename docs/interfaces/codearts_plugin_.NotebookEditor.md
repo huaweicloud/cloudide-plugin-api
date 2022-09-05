@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookEditor
 
+Represents a notebook editor that is attached to a [notebook](codearts_plugin_.NotebookDocument.md).
+Additional properties of the NotebookEditor are available in the proposed
+API, which will be finalized later.
+
 ## Table of contents
 
 ### Properties
@@ -24,9 +28,11 @@
 
 • `Readonly` **notebook**: [`NotebookDocument`](codearts_plugin_.NotebookDocument.md)
 
+The [notebook document](codearts_plugin_.NotebookDocument.md) associated with this notebook editor.
+
 #### Defined in
 
-[index.d.ts:12820](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12820)
+[index.d.ts:12882](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12882)
 
 ___
 
@@ -34,9 +40,11 @@ ___
 
 • **selection**: [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md)
 
+The primary selection in this notebook editor.
+
 #### Defined in
 
-[index.d.ts:12825](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12825)
+[index.d.ts:12887](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12887)
 
 ___
 
@@ -44,9 +52,13 @@ ___
 
 • **selections**: readonly [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md)[]
 
+All selections in this notebook editor.
+
+The primary selection (or focused range) is `selections[0]`. When the document has no cells, the primary selection is empty `{ start: 0, end: 0 }`;
+
 #### Defined in
 
-[index.d.ts:12832](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12832)
+[index.d.ts:12894](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12894)
 
 ___
 
@@ -54,9 +66,11 @@ ___
 
 • `Optional` `Readonly` **viewColumn**: [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md)
 
+The column in which this editor shows.
+
 #### Defined in
 
-[index.d.ts:12842](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12842)
+[index.d.ts:12904](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12904)
 
 ___
 
@@ -64,9 +78,11 @@ ___
 
 • `Readonly` **visibleRanges**: readonly [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md)[]
 
+The current visible ranges in the editor (vertically).
+
 #### Defined in
 
-[index.d.ts:12837](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12837)
+[index.d.ts:12899](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12899)
 
 ## Methods
 
@@ -74,12 +90,14 @@ ___
 
 ▸ **revealRange**(`range`, `revealType?`): `void`
 
+Scroll as indicated by `revealType` in order to reveal the given range.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `range` | [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md) |  |
-| `revealType?` | [`NotebookEditorRevealType`](../enums/codearts_plugin_.NotebookEditorRevealType.md) |  |
+| `range` | [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md) | A range. |
+| `revealType?` | [`NotebookEditorRevealType`](../enums/codearts_plugin_.NotebookEditorRevealType.md) | The scrolling strategy for revealing `range`. |
 
 #### Returns
 
@@ -87,4 +105,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:12850](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12850)
+[index.d.ts:12912](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12912)

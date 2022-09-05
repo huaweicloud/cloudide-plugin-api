@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabInputTextDiff
 
+The tab represents two text based resources
+being rendered as a diff.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +24,18 @@
 
 • **new TabInputTextDiff**(`original`, `modified`)
 
+Constructs a new text diff tab input with the given URIs.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `original` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `modified` | [`Uri`](codearts_plugin_.Uri.md) |  |
+| `original` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the original text resource. |
+| `modified` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the modified text resource. |
 
 #### Defined in
 
-[index.d.ts:15876](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15876)
+[index.d.ts:15938](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15938)
 
 ## Properties
 
@@ -38,9 +43,11 @@
 
 • `Readonly` **modified**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri of the modified text resource.
+
 #### Defined in
 
-[index.d.ts:15870](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15870)
+[index.d.ts:15932](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15932)
 
 ___
 
@@ -48,6 +55,8 @@ ___
 
 • `Readonly` **original**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri of the original text resource.
+
 #### Defined in
 
-[index.d.ts:15866](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15866)
+[index.d.ts:15928](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15928)

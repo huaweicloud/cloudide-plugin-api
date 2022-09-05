@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalLinkProvider
 
+A provider that enables detection and handling of links within terminals.
+
 ## Type parameters
 
 | Name | Type |
@@ -23,11 +25,13 @@
 
 ▸ **handleTerminalLink**(`link`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`void`\>
 
+Handle an activated terminal link.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `link` | `T` |  |
+| `link` | `T` | The link to handle. |
 
 #### Returns
 
@@ -35,7 +39,7 @@
 
 #### Defined in
 
-[index.d.ts:6582](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6582)
+[index.d.ts:6582](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6582)
 
 ___
 
@@ -43,17 +47,23 @@ ___
 
 ▸ **provideTerminalLinks**(`context`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+Provide terminal links for the given context. Note that this can be called multiple times
+even before previous calls resolve, make sure to not share global objects (eg. `RegExp`)
+that could have problems when asynchronous usage may overlap.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `context` | [`TerminalLinkContext`](codearts_plugin_.TerminalLinkContext.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `context` | [`TerminalLinkContext`](codearts_plugin_.TerminalLinkContext.md) | Information about what links are being provided for. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+A list of terminal links for the given line.
+
 #### Defined in
 
-[index.d.ts:6576](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6576)
+[index.d.ts:6576](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6576)

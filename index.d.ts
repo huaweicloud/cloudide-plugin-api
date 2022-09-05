@@ -9290,6 +9290,59 @@ declare module '@codearts/plugin' {
 		handleUri(uri: Uri): ProviderResult<void>;
 	}
 
+	/** The areas of the panel where webview can reside. */
+	export enum WebviewPanelTargetArea {
+		Left = 'left',
+		Right = 'right',
+		Bottom = 'bottom',
+		Main = 'main'
+	}
+
+	export interface WebviewShowOptions {
+		area: WebviewPanelTargetArea;
+		viewColumn: ViewColumn;
+		preserveFocus?: boolean;
+	}
+
+	/**
+	 * Represents options to create a webviewView dialog.
+	 */
+	export interface DialogOptions {
+		/**
+		 * Title displayed at the top of the dialog.
+		 */
+		title: string;
+		/**
+		 * Width of dialog content in pixels. Default is `500`.
+		 */
+		width?: number;
+		/**
+		 * Height of dialog content in pixels. Default is `300`.
+		 */
+		height?: number;
+		/**
+		 * Set the top position of the dialog relative to window in pixels. Centered by default.
+		 */
+		top?: number;
+		/**
+		 * Set the left position of the dialog relative to window in pixels. Centered by default.
+		 */
+		left?: number;
+		/**
+		 * Whether it's a dialog with a masked modal. Default is `false`.
+		 */
+		modal?: boolean;
+		/**
+		 * Whether to allow drag. Default is `false`.
+		 */
+		draggable?: boolean;
+		/**
+		 * @todo Implement this function.
+		 * Whether to allow resize the dialog. Default is `false`.
+		 */
+		resizeable?: boolean;
+	}
+
 	/**
 	 * Namespace for dealing with the current window of the editor. That is visible
 	 * and active editors, as well as, UI elements to show messages, selections, and
@@ -9960,6 +10013,15 @@ declare module '@codearts/plugin' {
 				readonly retainContextWhenHidden?: boolean;
 			};
 		}): Disposable;
+
+		/**
+		 * Create and open a dialog with an webview view.
+		 *
+		 * @param provider Provider for the webview views.
+		 *
+		 * @return Disposable that unregister the provider.
+		 */
+		export function createWebviewViewDialog(provider: WebviewViewProvider, dialogOptions: DialogOptions): Disposable;
 
 		/**
 		 * Register a provider for custom editors for the `viewType` contributed by the `customEditors` extension point.

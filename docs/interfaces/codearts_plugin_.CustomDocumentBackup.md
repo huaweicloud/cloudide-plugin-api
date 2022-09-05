@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CustomDocumentBackup
 
+A backup for an [`CustomDocument`](codearts_plugin_.CustomDocument.md).
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +22,13 @@
 
 • `Readonly` **id**: `string`
 
+Unique identifier for the backup.
+
+This id is passed back to your extension in `openCustomDocument` when opening a custom editor from a backup.
+
 #### Defined in
 
-[index.d.ts:8767](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8767)
+[index.d.ts:8767](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8767)
 
 ## Methods
 
@@ -30,10 +36,15 @@
 
 ▸ **delete**(): `void`
 
+Delete the current backup.
+
+This is called by the editor when it is clear the current backup is no longer needed, such as when a new backup
+is made or when the file is saved.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:8775](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8775)
+[index.d.ts:8775](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8775)

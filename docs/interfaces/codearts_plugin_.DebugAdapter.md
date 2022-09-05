@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugAdapter
 
+A debug adapter that implements the Debug Adapter Protocol can be registered with the editor if it implements the DebugAdapter interface.
+
 ## Hierarchy
 
 - [`Disposable`](../classes/codearts_plugin_.Disposable.md)
@@ -27,15 +29,20 @@
 
 • `Readonly` **onDidSendMessage**: [`Event`](codearts_plugin_.Event.md)<[`DebugProtocolMessage`](codearts_plugin_.DebugProtocolMessage.md)\>
 
+An event which fires after the debug adapter has sent a Debug Adapter Protocol message to the editor.
+Messages can be requests, responses, or events.
+
 #### Defined in
 
-[index.d.ts:14299](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14299)
+[index.d.ts:14361](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14361)
 
 ## Methods
 
 ### dispose
 
 ▸ **dispose**(): `any`
+
+Dispose this object.
 
 #### Returns
 
@@ -47,7 +54,7 @@
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1580)
 
 ___
 
@@ -55,11 +62,15 @@ ___
 
 ▸ **handleMessage**(`message`): `void`
 
+Handle a Debug Adapter Protocol message.
+Messages can be requests, responses, or events.
+Results or errors are returned via onSendMessage events.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `message` | [`DebugProtocolMessage`](codearts_plugin_.DebugProtocolMessage.md) |  |
+| `message` | [`DebugProtocolMessage`](codearts_plugin_.DebugProtocolMessage.md) | A Debug Adapter Protocol message |
 
 #### Returns
 
@@ -67,4 +78,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14307](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14307)
+[index.d.ts:14369](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14369)

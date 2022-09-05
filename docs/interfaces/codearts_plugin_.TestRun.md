@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TestRun
 
+Options given to TestController.runTests
+
 ## Table of contents
 
 ### Properties
@@ -29,9 +31,11 @@
 
 • `Readonly` **isPersisted**: `boolean`
 
+Whether the test run will be persisted across reloads by the editor.
+
 #### Defined in
 
-[index.d.ts:15601](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15601)
+[index.d.ts:15663](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15663)
 
 ___
 
@@ -39,9 +43,13 @@ ___
 
 • `Readonly` **name**: `undefined` \| `string`
 
+The human-readable name of the run. This can be used to
+disambiguate multiple sets of results in a test run. It is useful if
+tests are run across multiple platforms, for example.
+
 #### Defined in
 
-[index.d.ts:15590](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15590)
+[index.d.ts:15652](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15652)
 
 ___
 
@@ -49,9 +57,12 @@ ___
 
 • `Readonly` **token**: [`CancellationToken`](codearts_plugin_.CancellationToken.md)
 
+A cancellation token which will be triggered when the test run is
+canceled from the UI.
+
 #### Defined in
 
-[index.d.ts:15596](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15596)
+[index.d.ts:15658](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15658)
 
 ## Methods
 
@@ -59,13 +70,17 @@ ___
 
 ▸ **appendOutput**(`output`, `location?`, `test?`): `void`
 
+Appends raw output from the test runner. On the user's request, the
+output will be displayed in a terminal. ANSI escape sequences,
+such as colors and text styles, are supported.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `output` | `string` |  |
-| `location?` | [`Location`](../classes/codearts_plugin_.Location.md) |  |
-| `test?` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
+| `output` | `string` | Output text to append. |
+| `location?` | [`Location`](../classes/codearts_plugin_.Location.md) | Indicate that the output was logged at the given location. |
+| `test?` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to associate the output with. |
 
 #### Returns
 
@@ -73,7 +88,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15658](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15658)
+[index.d.ts:15720](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15720)
 
 ___
 
@@ -81,13 +96,16 @@ ___
 
 ▸ **end**(): `void`
 
+Signals that the end of the test run. Any tests included in the run whose
+states have not been updated will have their state reset.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:15664](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15664)
+[index.d.ts:15726](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15726)
 
 ___
 
@@ -95,11 +113,13 @@ ___
 
 ▸ **enqueued**(`test`): `void`
 
+Indicates a test is queued for later execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
 
 #### Returns
 
@@ -107,7 +127,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15607](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15607)
+[index.d.ts:15669](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15669)
 
 ___
 
@@ -115,13 +135,18 @@ ___
 
 ▸ **errored**(`test`, `message`, `duration?`): `void`
 
+Indicates a test has errored. You should pass one or more
+[TestMessages](../classes/codearts_plugin_.TestMessage.md) to describe the failure. This differs
+from the "failed" state in that it indicates a test that couldn't be
+executed at all, from a compilation error for example.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
-| `message` | [`TestMessage`](../classes/codearts_plugin_.TestMessage.md) \| readonly [`TestMessage`](../classes/codearts_plugin_.TestMessage.md)[] |  |
-| `duration?` | `number` |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
+| `message` | [`TestMessage`](../classes/codearts_plugin_.TestMessage.md) \| readonly [`TestMessage`](../classes/codearts_plugin_.TestMessage.md)[] | Messages associated with the test failure. |
+| `duration?` | `number` | How long the test took to execute, in milliseconds. |
 
 #### Returns
 
@@ -129,7 +154,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15639](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15639)
+[index.d.ts:15701](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15701)
 
 ___
 
@@ -137,13 +162,16 @@ ___
 
 ▸ **failed**(`test`, `message`, `duration?`): `void`
 
+Indicates a test has failed. You should pass one or more
+[TestMessages](../classes/codearts_plugin_.TestMessage.md) to describe the failure.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
-| `message` | [`TestMessage`](../classes/codearts_plugin_.TestMessage.md) \| readonly [`TestMessage`](../classes/codearts_plugin_.TestMessage.md)[] |  |
-| `duration?` | `number` |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
+| `message` | [`TestMessage`](../classes/codearts_plugin_.TestMessage.md) \| readonly [`TestMessage`](../classes/codearts_plugin_.TestMessage.md)[] | Messages associated with the test failure. |
+| `duration?` | `number` | How long the test took to execute, in milliseconds. |
 
 #### Returns
 
@@ -151,7 +179,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15628](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15628)
+[index.d.ts:15690](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15690)
 
 ___
 
@@ -159,12 +187,14 @@ ___
 
 ▸ **passed**(`test`, `duration?`): `void`
 
+Indicates a test has passed.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
-| `duration?` | `number` |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
+| `duration?` | `number` | How long the test took to execute, in milliseconds. |
 
 #### Returns
 
@@ -172,7 +202,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15646](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15646)
+[index.d.ts:15708](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15708)
 
 ___
 
@@ -180,11 +210,13 @@ ___
 
 ▸ **skipped**(`test`): `void`
 
+Indicates a test has been skipped.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
 
 #### Returns
 
@@ -192,7 +224,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15619](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15619)
+[index.d.ts:15681](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15681)
 
 ___
 
@@ -200,11 +232,13 @@ ___
 
 ▸ **started**(`test`): `void`
 
+Indicates a test has started running.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `test` | [`TestItem`](codearts_plugin_.TestItem.md) |  |
+| `test` | [`TestItem`](codearts_plugin_.TestItem.md) | Test item to update. |
 
 #### Returns
 
@@ -212,4 +246,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15613](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15613)
+[index.d.ts:15675](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15675)

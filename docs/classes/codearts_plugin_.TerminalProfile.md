@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalProfile
 
+A terminal profile defines how a terminal will be launched.
+
 ## Table of contents
 
 ### Constructors
@@ -20,15 +22,17 @@
 
 • **new TerminalProfile**(`options`)
 
+Creates a new terminal profile.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | [`TerminalOptions`](../interfaces/codearts_plugin_.TerminalOptions.md) \| [`ExtensionTerminalOptions`](../interfaces/codearts_plugin_.ExtensionTerminalOptions.md) |  |
+| `options` | [`TerminalOptions`](../interfaces/codearts_plugin_.TerminalOptions.md) \| [`ExtensionTerminalOptions`](../interfaces/codearts_plugin_.ExtensionTerminalOptions.md) | The options that the terminal will launch with. |
 
 #### Defined in
 
-[index.d.ts:6647](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6647)
+[index.d.ts:6647](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6647)
 
 ## Properties
 
@@ -36,6 +40,8 @@
 
 • **options**: [`TerminalOptions`](../interfaces/codearts_plugin_.TerminalOptions.md) \| [`ExtensionTerminalOptions`](../interfaces/codearts_plugin_.ExtensionTerminalOptions.md)
 
+The options that the terminal will launch with.
+
 #### Defined in
 
-[index.d.ts:6641](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6641)
+[index.d.ts:6641](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6641)

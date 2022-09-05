@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TerminalLinkContext
 
+Provides information on a line in a terminal in order to provide links for it.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • **line**: `string`
 
+This is the text from the unwrapped line in the terminal.
+
 #### Defined in
 
-[index.d.ts:6556](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6556)
+[index.d.ts:6556](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6556)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • **terminal**: [`Terminal`](codearts_plugin_.Terminal.md)
 
+The terminal the link belongs to.
+
 #### Defined in
 
-[index.d.ts:6561](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6561)
+[index.d.ts:6561](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6561)

@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).OnTypeFormattingEditProvider
 
+The document formatting provider interface defines the contract between extensions and
+the formatting-feature.
+
 ## Table of contents
 
 ### Methods
@@ -16,20 +19,29 @@
 
 ▸ **provideOnTypeFormattingEdits**(`document`, `position`, `ch`, `options`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`TextEdit`](../classes/codearts_plugin_.TextEdit.md)[]\>
 
+Provide formatting edits after a character has been typed.
+
+The given position and character should hint to the provider
+what range the position to expand to, like find the matching `{`
+when `}` has been entered.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) |  |
-| `position` | [`Position`](../classes/codearts_plugin_.Position.md) |  |
-| `ch` | `string` |  |
-| `options` | [`FormattingOptions`](codearts_plugin_.FormattingOptions.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) | The document in which the command was invoked. |
+| `position` | [`Position`](../classes/codearts_plugin_.Position.md) | The position at which the command was invoked. |
+| `ch` | `string` | The character that has been typed. |
+| `options` | [`FormattingOptions`](codearts_plugin_.FormattingOptions.md) | Options controlling formatting. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`TextEdit`](../classes/codearts_plugin_.TextEdit.md)[]\>
 
+A set of text edits or a thenable that resolves to such. The lack of a result can be
+signaled by returning `undefined`, `null`, or an empty array.
+
 #### Defined in
 
-[index.d.ts:3989](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3989)
+[index.d.ts:3989](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3989)

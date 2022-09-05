@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DocumentRangeSemanticTokensProvider
 
+The document range semantic tokens provider interface defines the contract between extensions and
+semantic tokens.
+
 ## Table of contents
 
 ### Methods
@@ -15,6 +18,10 @@
 ### provideDocumentRangeSemanticTokens
 
 ▸ **provideDocumentRangeSemanticTokens**(`document`, `range`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<[`SemanticTokens`](../classes/codearts_plugin_.SemanticTokens.md)\>
+
+**`See`**
+
+[provideDocumentSemanticTokens](codearts_plugin_.DocumentSemanticTokensProvider.md#providedocumentsemantictokens).
 
 #### Parameters
 
@@ -30,4 +37,4 @@
 
 #### Defined in
 
-[index.d.ts:3903](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3903)
+[index.d.ts:3903](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3903)

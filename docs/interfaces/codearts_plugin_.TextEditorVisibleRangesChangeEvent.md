@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextEditorVisibleRangesChangeEvent
 
+Represents an event describing the change in a [text editor's visible ranges](codearts_plugin_.TextEditor.md#visibleranges).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **textEditor**: [`TextEditor`](codearts_plugin_.TextEditor.md)
 
+The [text editor](codearts_plugin_.TextEditor.md) for which the visible ranges have changed.
+
 #### Defined in
 
-[index.d.ts:561](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L561)
+[index.d.ts:561](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L561)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Readonly` **visibleRanges**: readonly [`Range`](../classes/codearts_plugin_.Range.md)[]
 
+The new value for the [text editor's visible ranges](codearts_plugin_.TextEditor.md#visibleranges).
+
 #### Defined in
 
-[index.d.ts:565](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L565)
+[index.d.ts:565](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L565)

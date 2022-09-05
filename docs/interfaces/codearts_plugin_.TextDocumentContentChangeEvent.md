@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextDocumentContentChangeEvent
 
+An event describing an individual change in the text of a [document](codearts_plugin_.TextDocument.md).
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • `Readonly` **range**: [`Range`](../classes/codearts_plugin_.Range.md)
 
+The range that got replaced.
+
 #### Defined in
 
-[index.d.ts:11229](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11229)
+[index.d.ts:11291](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11291)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • `Readonly` **rangeLength**: `number`
 
+The length of the range that got replaced.
+
 #### Defined in
 
-[index.d.ts:11237](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11237)
+[index.d.ts:11299](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11299)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • `Readonly` **rangeOffset**: `number`
 
+The offset of the range that got replaced.
+
 #### Defined in
 
-[index.d.ts:11233](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11233)
+[index.d.ts:11295](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11295)
 
 ___
 
@@ -49,6 +57,8 @@ ___
 
 • `Readonly` **text**: `string`
 
+The new text for the range.
+
 #### Defined in
 
-[index.d.ts:11241](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11241)
+[index.d.ts:11303](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11303)

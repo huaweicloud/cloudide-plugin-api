@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).UIKind
 
+Possible kinds of UI that can use extensions.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Desktop](codearts_plugin_.UIKind.md#desktop)
 - [Web](codearts_plugin_.UIKind.md#web)
 
-## Enumeration members
+## Enumeration Members
 
 ### Desktop
 
-• **Desktop** = `Object` = `1`
+• **Desktop** = ``1``
+
+Extensions are accessed from a desktop application.
 
 #### Defined in
 
-[index.d.ts:8998](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8998)
+[index.d.ts:8998](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8998)
 
 ___
 
 ### Web
 
-• **Web** = `Object` = `2`
+• **Web** = ``2``
+
+Extensions are accessed from a web browser.
 
 #### Defined in
 
-[index.d.ts:9003](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L9003)
+[index.d.ts:9003](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9003)

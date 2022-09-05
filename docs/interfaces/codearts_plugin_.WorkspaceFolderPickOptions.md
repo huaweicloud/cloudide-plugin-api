@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WorkspaceFolderPickOptions
 
+Options to configure the behaviour of the [workspace folder](codearts_plugin_.WorkspaceFolder.md) pick UI.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,12 @@
 
 • `Optional` **ignoreFocusOut**: `boolean`
 
+Set to `true` to keep the picker open when focus moves to another part of the editor or to another window.
+This setting is ignored on iPad and is always false.
+
 #### Defined in
 
-[index.d.ts:1847](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1847)
+[index.d.ts:1847](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1847)
 
 ___
 
@@ -27,6 +32,8 @@ ___
 
 • `Optional` **placeHolder**: `string`
 
+An optional string to show as placeholder in the input box to guide the user what to pick on.
+
 #### Defined in
 
-[index.d.ts:1841](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1841)
+[index.d.ts:1841](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1841)

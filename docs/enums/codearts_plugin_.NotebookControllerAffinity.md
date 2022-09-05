@@ -4,29 +4,39 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookControllerAffinity
 
+Notebook controller affinity for notebook documents.
+
+**`See`**
+
+[updateNotebookAffinity](../interfaces/codearts_plugin_.NotebookController.md#updatenotebookaffinity)
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Default](codearts_plugin_.NotebookControllerAffinity.md#default)
 - [Preferred](codearts_plugin_.NotebookControllerAffinity.md#preferred)
 
-## Enumeration members
+## Enumeration Members
 
 ### Default
 
-• **Default** = `Object` = `1`
+• **Default** = ``1``
+
+Default affinity.
 
 #### Defined in
 
-[index.d.ts:13427](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13427)
+[index.d.ts:13489](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13489)
 
 ___
 
 ### Preferred
 
-• **Preferred** = `Object` = `2`
+• **Preferred** = ``2``
+
+A controller is preferred for a notebook.
 
 #### Defined in
 
-[index.d.ts:13431](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13431)
+[index.d.ts:13493](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13493)

@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskScope
 
+The scope of a task.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Global](codearts_plugin_.TaskScope.md#global)
 - [Workspace](codearts_plugin_.TaskScope.md#workspace)
 
-## Enumeration members
+## Enumeration Members
 
 ### Global
 
-• **Global** = `Object` = `1`
+• **Global** = ``1``
+
+The task is a global task. Global tasks are currently not supported.
 
 #### Defined in
 
-[index.d.ts:7466](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7466)
+[index.d.ts:7466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7466)
 
 ___
 
 ### Workspace
 
-• **Workspace** = `Object` = `2`
+• **Workspace** = ``2``
+
+The task is a workspace task
 
 #### Defined in
 
-[index.d.ts:7471](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7471)
+[index.d.ts:7471](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7471)

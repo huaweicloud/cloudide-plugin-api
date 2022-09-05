@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentAuthorInformation
 
+Author information of a [Comment](codearts_plugin_.Comment.md)
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Optional` **iconPath**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The optional icon path for the author
+
 #### Defined in
 
-[index.d.ts:14847](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14847)
+[index.d.ts:14909](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14909)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • **name**: `string`
 
+The display name of the author of the comment
+
 #### Defined in
 
-[index.d.ts:14842](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14842)
+[index.d.ts:14904](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14904)

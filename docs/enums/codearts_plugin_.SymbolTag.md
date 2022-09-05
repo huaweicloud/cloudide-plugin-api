@@ -4,18 +4,22 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SymbolTag
 
+Symbol tags are extra annotations that tweak the rendering of a symbol.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Deprecated](codearts_plugin_.SymbolTag.md#deprecated)
 
-## Enumeration members
+## Enumeration Members
 
 ### Deprecated
 
-• **Deprecated** = `Object` = `1`
+• **Deprecated** = ``1``
+
+Render a symbol as obsolete, usually using a strike-out.
 
 #### Defined in
 
-[index.d.ts:3160](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3160)
+[index.d.ts:3160](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3160)

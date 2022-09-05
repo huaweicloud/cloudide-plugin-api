@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlineCompletionList
 
+Represents a collection of [inline completion items](codearts_plugin_.InlineCompletionItem.md) to be presented
+in the editor.
+
 ## Table of contents
 
 ### Constructors
@@ -20,6 +23,8 @@
 
 • **new InlineCompletionList**(`items`)
 
+Creates a new list of inline completion items.
+
 #### Parameters
 
 | Name | Type |
@@ -28,7 +33,7 @@
 
 #### Defined in
 
-[index.d.ts:4548](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4548)
+[index.d.ts:4548](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4548)
 
 ## Properties
 
@@ -36,6 +41,8 @@
 
 • **items**: [`InlineCompletionItem`](codearts_plugin_.InlineCompletionItem.md)[]
 
+The inline completion items.
+
 #### Defined in
 
-[index.d.ts:4543](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4543)
+[index.d.ts:4543](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4543)

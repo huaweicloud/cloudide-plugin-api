@@ -4,6 +4,12 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ExtensionContext
 
+An extension context is a collection of utilities private to an
+extension.
+
+An instance of an `ExtensionContext` is provided as the first
+parameter to the `activate`-call of an extension.
+
 ## Table of contents
 
 ### Properties
@@ -34,9 +40,12 @@
 
 • `Readonly` **environmentVariableCollection**: [`EnvironmentVariableCollection`](codearts_plugin_.EnvironmentVariableCollection.md)
 
+Gets the extension's environment variable collection for this workspace, enabling changes
+to be applied to terminal environment variables.
+
 #### Defined in
 
-[index.d.ts:6878](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6878)
+[index.d.ts:6878](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6878)
 
 ___
 
@@ -44,9 +53,11 @@ ___
 
 • `Readonly` **extension**: [`Extension`](codearts_plugin_.Extension.md)<`any`\>
 
+The current `Extension` instance.
+
 #### Defined in
 
-[index.d.ts:6969](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6969)
+[index.d.ts:6969](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6969)
 
 ___
 
@@ -54,9 +65,13 @@ ___
 
 • `Readonly` **extensionMode**: [`ExtensionMode`](../enums/codearts_plugin_.ExtensionMode.md)
 
+The mode the extension is running in. This is specific to the current
+extension. One extension may be in `ExtensionMode.Development` while
+other extensions in the host run in `ExtensionMode.Release`.
+
 #### Defined in
 
-[index.d.ts:6964](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6964)
+[index.d.ts:6964](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6964)
 
 ___
 
@@ -64,9 +79,12 @@ ___
 
 • `Readonly` **extensionPath**: `string`
 
+The absolute file path of the directory containing the extension. Shorthand
+notation for [ExtensionContext.extensionUri.fsPath](codearts_plugin_.TextDocument.md#uri) (independent of the uri scheme).
+
 #### Defined in
 
-[index.d.ts:6872](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6872)
+[index.d.ts:6872](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6872)
 
 ___
 
@@ -74,9 +92,11 @@ ___
 
 • `Readonly` **extensionUri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The uri of the directory containing the extension.
+
 #### Defined in
 
-[index.d.ts:6866](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6866)
+[index.d.ts:6866](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6866)
 
 ___
 
@@ -84,9 +104,12 @@ ___
 
 • `Readonly` **globalState**: [`Memento`](codearts_plugin_.Memento.md) & { `setKeysForSync`: (`keys`: readonly `string`[]) => `void`  }
 
+A memento object that stores state independent
+of the current opened [workspace](../modules/codearts_plugin_.workspace.md#workspacefolders).
+
 #### Defined in
 
-[index.d.ts:6840](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6840)
+[index.d.ts:6840](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6840)
 
 ___
 
@@ -94,9 +117,19 @@ ___
 
 • `Readonly` **globalStoragePath**: `string`
 
+An absolute file path in which the extension can store global state.
+The directory might not exist on disk and creation is
+up to the extension. However, the parent directory is guaranteed to be existent.
+
+Use [`globalState`](codearts_plugin_.ExtensionContext.md#globalstate) to store key value data.
+
+**`Deprecated`**
+
+Use [globalStorageUri](codearts_plugin_.ExtensionContext.md#globalstorageuri) instead.
+
 #### Defined in
 
-[index.d.ts:6938](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6938)
+[index.d.ts:6938](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6938)
 
 ___
 
@@ -104,9 +137,20 @@ ___
 
 • `Readonly` **globalStorageUri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The uri of a directory in which the extension can store global state.
+The directory might not exist on disk and creation is
+up to the extension. However, the parent directory is guaranteed to be existent.
+
+Use [`globalState`](codearts_plugin_.ExtensionContext.md#globalstate) to store key value data.
+
+**`See`**
+
+[`workspace.fs`](codearts_plugin_.FileSystem.md) for how to read and write files and folders from
+ an uri.
+
 #### Defined in
 
-[index.d.ts:6927](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6927)
+[index.d.ts:6927](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6927)
 
 ___
 
@@ -114,9 +158,17 @@ ___
 
 • `Readonly` **logPath**: `string`
 
+An absolute file path of a directory in which the extension can create log files.
+The directory might not exist on disk and creation is up to the extension. However,
+the parent directory is guaranteed to be existent.
+
+**`Deprecated`**
+
+Use [logUri](codearts_plugin_.ExtensionContext.md#loguri) instead.
+
 #### Defined in
 
-[index.d.ts:6957](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6957)
+[index.d.ts:6957](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6957)
 
 ___
 
@@ -124,9 +176,18 @@ ___
 
 • `Readonly` **logUri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The uri of a directory in which the extension can create log files.
+The directory might not exist on disk and creation is up to the extension. However,
+the parent directory is guaranteed to be existent.
+
+**`See`**
+
+[`workspace.fs`](codearts_plugin_.FileSystem.md) for how to read and write files and folders from
+ an uri.
+
 #### Defined in
 
-[index.d.ts:6948](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6948)
+[index.d.ts:6948](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6948)
 
 ___
 
@@ -134,9 +195,12 @@ ___
 
 • `Readonly` **secrets**: [`SecretStorage`](codearts_plugin_.SecretStorage.md)
 
+A storage utility for secrets. Secrets are persisted across reloads and are independent of the
+current opened [workspace](../modules/codearts_plugin_.workspace.md#workspacefolders).
+
 #### Defined in
 
-[index.d.ts:6861](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6861)
+[index.d.ts:6861](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6861)
 
 ___
 
@@ -144,9 +208,20 @@ ___
 
 • `Readonly` **storagePath**: `undefined` \| `string`
 
+An absolute file path of a workspace specific directory in which the extension
+can store private state. The directory might not exist on disk and creation is
+up to the extension. However, the parent directory is guaranteed to be existent.
+
+Use [`workspaceState`](codearts_plugin_.ExtensionContext.md#workspacestate) or
+[`globalState`](codearts_plugin_.ExtensionContext.md#globalstate) to store key value data.
+
+**`Deprecated`**
+
+Use [storageUri](codearts_plugin_.ExtensionContext.md#storageuri) instead.
+
 #### Defined in
 
-[index.d.ts:6915](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6915)
+[index.d.ts:6915](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6915)
 
 ___
 
@@ -154,9 +229,22 @@ ___
 
 • `Readonly` **storageUri**: `undefined` \| [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The uri of a workspace specific directory in which the extension
+can store private state. The directory might not exist and creation is
+up to the extension. However, the parent directory is guaranteed to be existent.
+The value is `undefined` when no workspace nor folder has been opened.
+
+Use [`workspaceState`](codearts_plugin_.ExtensionContext.md#workspacestate) or
+[`globalState`](codearts_plugin_.ExtensionContext.md#globalstate) to store key value data.
+
+**`See`**
+
+[`workspace.fs`](codearts_plugin_.FileSystem.md) for how to read and write files and folders from
+ an uri.
+
 #### Defined in
 
-[index.d.ts:6903](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6903)
+[index.d.ts:6903](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6903)
 
 ___
 
@@ -164,9 +252,14 @@ ___
 
 • `Readonly` **subscriptions**: { `dispose`: () => `any`  }[]
 
+An array to which disposables can be added. When this
+extension is deactivated the disposables will be disposed.
+
+*Note* that asynchronous dispose-functions aren't awaited.
+
 #### Defined in
 
-[index.d.ts:6828](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6828)
+[index.d.ts:6828](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6828)
 
 ___
 
@@ -174,9 +267,12 @@ ___
 
 • `Readonly` **workspaceState**: [`Memento`](codearts_plugin_.Memento.md)
 
+A memento object that stores state in the context
+of the currently opened [workspace](../modules/codearts_plugin_.workspace.md#workspacefolders).
+
 #### Defined in
 
-[index.d.ts:6834](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6834)
+[index.d.ts:6834](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6834)
 
 ## Methods
 
@@ -184,16 +280,23 @@ ___
 
 ▸ **asAbsolutePath**(`relativePath`): `string`
 
+Get the absolute path of a resource contained in the extension.
+
+*Note* that an absolute uri can be constructed via [`joinPath`](../classes/codearts_plugin_.Uri.md#joinpath) and
+[`extensionUri`](codearts_plugin_.ExtensionContext.md#extensionuri), e.g. `vscode.Uri.joinPath(context.extensionUri, relativePath);`
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `relativePath` | `string` |  |
+| `relativePath` | `string` | A relative path to a resource contained in the extension. |
 
 #### Returns
 
 `string`
 
+The absolute path of the resource.
+
 #### Defined in
 
-[index.d.ts:6889](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6889)
+[index.d.ts:6889](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6889)

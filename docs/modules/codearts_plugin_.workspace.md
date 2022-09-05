@@ -4,6 +4,21 @@
 
 ["@codearts/plugin"](_codearts_plugin_.md).workspace
 
+Namespace for dealing with the current workspace. A workspace is the collection of one
+or more folders that are opened in an editor window (instance).
+
+It is also possible to open an editor without a workspace. For example, when you open a
+new editor window by selecting a file from your platform's File menu, you will not be
+inside a workspace. In this mode, some of the editor's capabilities are reduced but you can
+still open text files and edit them.
+
+Refer to https://code.visualstudio.com/docs/editor/workspaces for more information on
+the concept of workspaces.
+
+The workspace offers support for [listening](codearts_plugin_.workspace.md#createfilesystemwatcher) to fs
+events and for [finding](codearts_plugin_.workspace.md#findfiles) files. Both perform well and run _outside_
+the editor-process so that they should be always used instead of nodejs-equivalents.
+
 ## Table of contents
 
 ### Variables
@@ -56,81 +71,145 @@
 
 ### fs
 
-• **fs**: [`FileSystem`](../interfaces/codearts_plugin_.FileSystem.md)
+• `Const` **fs**: [`FileSystem`](../interfaces/codearts_plugin_.FileSystem.md)
+
+A [file system](../interfaces/codearts_plugin_.FileSystem.md) instance that allows to interact with local and remote
+files, e.g. `vscode.workspace.fs.readDirectory(someUri)` allows to retrieve all entries
+of a directory or `vscode.workspace.fs.stat(anotherUri)` returns the meta data for a
+file.
 
 #### Defined in
 
-[index.d.ts:11592](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11592)
+[index.d.ts:11654](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11654)
 
 ___
 
 ### isTrusted
 
-• **isTrusted**: `boolean`
+• `Const` **isTrusted**: `boolean`
+
+When true, the user has explicitly trusted the contents of the workspace.
 
 #### Defined in
 
-[index.d.ts:12198](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12198)
+[index.d.ts:12260](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12260)
 
 ___
 
 ### name
 
-• **name**: `string` \| `undefined`
+• `Const` **name**: `string` \| `undefined`
+
+The name of the workspace. `undefined` when no workspace
+has been opened.
+
+Refer to https://code.visualstudio.com/docs/editor/workspaces for more information on
+the concept of workspaces.
 
 #### Defined in
 
-[index.d.ts:11621](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11621)
+[index.d.ts:11683](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11683)
 
 ___
 
 ### notebookDocuments
 
-• **notebookDocuments**: readonly [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)[]
+• `Const` **notebookDocuments**: readonly [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)[]
+
+All notebook documents currently known to the editor.
 
 #### Defined in
 
-[index.d.ts:12015](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12015)
+[index.d.ts:12077](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12077)
 
 ___
 
 ### rootPath
 
-• **rootPath**: `string` \| `undefined`
+• `Const` **rootPath**: `string` \| `undefined`
+
+The uri of the first entry of [`workspaceFolders`](codearts_plugin_.workspace.md#workspacefolders)
+as `string`. `undefined` if there is no first entry.
+
+Refer to https://code.visualstudio.com/docs/editor/workspaces for more information
+on workspaces.
+
+**`Deprecated`**
+
+Use [`workspaceFolders`](codearts_plugin_.workspace.md#workspacefolders) instead.
 
 #### Defined in
 
-[index.d.ts:11603](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11603)
+[index.d.ts:11665](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11665)
 
 ___
 
 ### textDocuments
 
-• **textDocuments**: readonly [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)[]
+• `Const` **textDocuments**: readonly [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)[]
+
+All text documents currently known to the editor.
 
 #### Defined in
 
-[index.d.ts:11906](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11906)
+[index.d.ts:11968](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11968)
 
 ___
 
 ### workspaceFile
 
-• **workspaceFile**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| `undefined`
+• `Const` **workspaceFile**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| `undefined`
+
+The location of the workspace file, for example:
+
+`file:///Users/name/Development/myProject.code-workspace`
+
+or
+
+`untitled:1555503116870`
+
+for a workspace that is untitled and not yet saved.
+
+Depending on the workspace that is opened, the value will be:
+ * `undefined` when no workspace is opened
+ * the path of the workspace file as `Uri` otherwise. if the workspace
+is untitled, the returned URI will use the `untitled:` scheme
+
+The location can e.g. be used with the `vscode.openFolder` command to
+open the workspace again after it has been closed.
+
+**Example:**
+```typescript
+vscode.commands.executeCommand('vscode.openFolder', uriOfWorkspace);
+```
+
+Refer to https://code.visualstudio.com/docs/editor/workspaces for more information on
+the concept of workspaces.
+
+**Note:** it is not advised to use `workspace.workspaceFile` to write
+configuration data into the file. You can use `workspace.getConfiguration().update()`
+for that purpose which will work both when a single folder is opened as
+well as an untitled or saved workspace.
 
 #### Defined in
 
-[index.d.ts:11655](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11655)
+[index.d.ts:11717](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11717)
 
 ___
 
 ### workspaceFolders
 
-• **workspaceFolders**: readonly [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md)[] \| `undefined`
+• `Const` **workspaceFolders**: readonly [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md)[] \| `undefined`
+
+List of workspace folders (0-N) that are open in the editor. `undefined` when no workspace
+has been opened.
+
+Refer to https://code.visualstudio.com/docs/editor/workspaces for more information
+on workspaces.
 
 #### Defined in
 
-[index.d.ts:11612](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11612)
+[index.d.ts:11674](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11674)
 
 ## Functions
 
@@ -138,19 +217,33 @@ ___
 
 ▸ **applyEdit**(`edit`): [`Thenable`](../interfaces/Thenable.md)<`boolean`\>
 
+Make changes to one or many resources or create, delete, and rename resources as defined by the given
+[workspace edit](../classes/codearts_plugin_.WorkspaceEdit.md).
+
+All changes of a workspace edit are applied in the same order in which they have been added. If
+multiple textual inserts are made at the same position, these strings appear in the resulting text
+in the order the 'inserts' were made, unless that are interleaved with resource edits. Invalid sequences
+like 'delete file a' -> 'insert text in file a' cause failure of the operation.
+
+When applying a workspace edit that consists only of text edits an 'all-or-nothing'-strategy is used.
+A workspace edit with resource creations or deletions aborts the operation, e.g. consecutive edits will
+not be attempted, when a single edit fails.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `edit` | [`WorkspaceEdit`](../classes/codearts_plugin_.WorkspaceEdit.md) |  |
+| `edit` | [`WorkspaceEdit`](../classes/codearts_plugin_.WorkspaceEdit.md) | A workspace edit. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<`boolean`\>
 
+A thenable that resolves when the edit could be applied.
+
 #### Defined in
 
-[index.d.ts:11901](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11901)
+[index.d.ts:11963](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11963)
 
 ___
 
@@ -158,20 +251,27 @@ ___
 
 ▸ **asRelativePath**(`pathOrUri`, `includeWorkspaceFolder?`): `string`
 
+Returns a path that is relative to the workspace folder or folders.
+
+When there are no [workspace folders](codearts_plugin_.workspace.md#workspacefolders) or when the path
+is not contained in them, the input is returned.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `pathOrUri` | `string` \| [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
-| `includeWorkspaceFolder?` | `boolean` |  |
+| `pathOrUri` | `string` \| [`Uri`](../classes/codearts_plugin_.Uri.md) | A path or uri. When a uri is given its [fsPath](../classes/codearts_plugin_.Uri.md#fspath) is used. |
+| `includeWorkspaceFolder?` | `boolean` | When `true` and when the given path is contained inside a workspace folder the name of the workspace is prepended. Defaults to `true` when there are multiple workspace folders and `false` otherwise. |
 
 #### Returns
 
 `string`
 
+A path relative to the root or the input.
+
 #### Defined in
 
-[index.d.ts:11689](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11689)
+[index.d.ts:11751](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11751)
 
 ___
 
@@ -179,22 +279,138 @@ ___
 
 ▸ **createFileSystemWatcher**(`globPattern`, `ignoreCreateEvents?`, `ignoreChangeEvents?`, `ignoreDeleteEvents?`): [`FileSystemWatcher`](../interfaces/codearts_plugin_.FileSystemWatcher.md)
 
+Creates a file system watcher that is notified on file events (create, change, delete)
+depending on the parameters provided.
+
+By default, all opened [workspace folders](codearts_plugin_.workspace.md#workspacefolders) will be watched
+for file changes recursively.
+
+Additional paths can be added for file watching by providing a [RelativePattern](../classes/codearts_plugin_.RelativePattern.md) with
+a `base` path to watch. If the `pattern` is complex (e.g. contains `**` or path segments),
+the path will be watched recursively and otherwise will be watched non-recursively (i.e. only
+changes to the first level of the path will be reported).
+
+*Note* that requests for recursive file watchers for a `base` path that is inside the opened
+workspace are ignored given all opened [workspace folders](codearts_plugin_.workspace.md#workspacefolders) are
+watched for file changes recursively by default. Non-recursive file watchers however are always
+supported, even inside the opened workspace because they allow to bypass the configured settings
+for excludes (`files.watcherExclude`). If you need to watch in a location that is typically
+excluded (for example `node_modules` or `.git` folder), then you can use a non-recursive watcher
+in the workspace for this purpose.
+
+If possible, keep the use of recursive watchers to a minimum because recursive file watching
+is quite resource intense.
+
+Providing a `string` as `globPattern` acts as convenience method for watching file events in
+all opened workspace folders. It cannot be used to add more folders for file watching, nor will
+it report any file events from folders that are not part of the opened workspace folders.
+
+Optionally, flags to ignore certain kinds of events can be provided.
+
+To stop listening to events the watcher must be disposed.
+
+*Note* that file events from recursive file watchers may be excluded based on user configuration.
+The setting `files.watcherExclude` helps to reduce the overhead of file events from folders
+that are known to produce many file changes at once (such as `node_modules` folders). As such,
+it is highly recommended to watch with simple patterns that do not require recursive watchers
+where the exclude settings are ignored and you have full control over the events.
+
+*Note* that symbolic links are not automatically followed for file watching unless the path to
+watch itself is a symbolic link.
+
+*Note* that file changes for the path to be watched may not be delivered when the path itself
+changes. For example, when watching a path `/Users/somename/Desktop` and the path itself is
+being deleted, the watcher may not report an event and may not work anymore from that moment on.
+The underlying behaviour depends on the path that is provided for watching:
+* if the path is within any of the workspace folders, deletions are tracked and reported unless
+  excluded via `files.watcherExclude` setting
+* if the path is equal to any of the workspace folders, deletions are not tracked
+* if the path is outside of any of the workspace folders, deletions are not tracked
+
+If you are interested in being notified when the watched path itself is being deleted, you have
+to watch it's parent folder. Make sure to use a simple `pattern` (such as putting the name of the
+folder) to not accidentally watch all sibling folders recursively.
+
+*Note* that the file paths that are reported for having changed may have a different path casing
+compared to the actual casing on disk on case-insensitive platforms (typically macOS and Windows
+but not Linux). We allow a user to open a workspace folder with any desired path casing and try
+to preserve that. This means:
+* if the path is within any of the workspace folders, the path will match the casing of the
+  workspace folder up to that portion of the path and match the casing on disk for children
+* if the path is outside of any of the workspace folders, the casing will match the case of the
+  path that was provided for watching
+In the same way, symbolic links are preserved, i.e. the file event will report the path of the
+symbolic link as it was provided for watching and not the target.
+
+### Examples
+
+The basic anatomy of a file watcher is as follows:
+
+```ts
+const watcher = vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(<folder>, <pattern>));
+
+watcher.onDidChange(uri => { ... }); // listen to files being changed
+watcher.onDidCreate(uri => { ... }); // listen to files/folders being created
+watcher.onDidDelete(uri => { ... }); // listen to files/folders getting deleted
+
+watcher.dispose(); // dispose after usage
+```
+
+#### Workspace file watching
+
+If you only care about file events in a specific workspace folder:
+
+```ts
+vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(vscode.workspace.workspaceFolders[0], '**​/*.js'));
+```
+
+If you want to monitor file events across all opened workspace folders:
+
+```ts
+vscode.workspace.createFileSystemWatcher('**​/*.js'));
+```
+
+*Note:* the array of workspace folders can be empty if no workspace is opened (empty window).
+
+#### Out of workspace file watching
+
+To watch a folder for changes to *.js files outside the workspace (non recursively), pass in a `Uri` to such
+a folder:
+
+```ts
+vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(vscode.Uri.file(<path to folder outside workspace>), '*.js'));
+```
+
+And use a complex glob pattern to watch recursively:
+
+```ts
+vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(vscode.Uri.file(<path to folder outside workspace>), '**​/*.js'));
+```
+
+Here is an example for watching the active editor for file changes:
+
+```ts
+vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(vscode.window.activeTextEditor.document.uri, '*'));
+```
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `globPattern` | [`GlobPattern`](_codearts_plugin_.md#globpattern) |  |
-| `ignoreCreateEvents?` | `boolean` |  |
-| `ignoreChangeEvents?` | `boolean` |  |
-| `ignoreDeleteEvents?` | `boolean` |  |
+| `globPattern` | [`GlobPattern`](_codearts_plugin_.md#globpattern) | A [glob pattern](_codearts_plugin_.md#globpattern) that controls which file events the watcher should report. |
+| `ignoreCreateEvents?` | `boolean` | Ignore when files have been created. |
+| `ignoreChangeEvents?` | `boolean` | Ignore when files have been changed. |
+| `ignoreDeleteEvents?` | `boolean` | Ignore when files have been deleted. |
 
 #### Returns
 
 [`FileSystemWatcher`](../interfaces/codearts_plugin_.FileSystemWatcher.md)
 
+A new file system watcher instance. Must be disposed when no longer needed.
+
 #### Defined in
 
-[index.d.ts:11855](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11855)
+[index.d.ts:11917](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11917)
 
 ___
 
@@ -202,22 +418,33 @@ ___
 
 ▸ **findFiles**(`include`, `exclude?`, `maxResults?`, `token?`): [`Thenable`](../interfaces/Thenable.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)[]\>
 
+Find files across all [workspace folders](codearts_plugin_.workspace.md#workspacefolders) in the workspace.
+
+**`Example`**
+
+```ts
+findFiles('**​/*.js', '**​/node_modules/**', 10)
+```
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `include` | [`GlobPattern`](_codearts_plugin_.md#globpattern) |  |
-| `exclude?` | ``null`` \| [`GlobPattern`](_codearts_plugin_.md#globpattern) |  |
-| `maxResults?` | `number` |  |
-| `token?` | [`CancellationToken`](../interfaces/codearts_plugin_.CancellationToken.md) |  |
+| `include` | [`GlobPattern`](_codearts_plugin_.md#globpattern) | A [glob pattern](_codearts_plugin_.md#globpattern) that defines the files to search for. The glob pattern will be matched against the file paths of resulting matches relative to their workspace. Use a [relative pattern](../classes/codearts_plugin_.RelativePattern.md) to restrict the search results to a [workspace folder](../interfaces/codearts_plugin_.WorkspaceFolder.md). |
+| `exclude?` | ``null`` \| [`GlobPattern`](_codearts_plugin_.md#globpattern) | A [glob pattern](_codearts_plugin_.md#globpattern) that defines files and folders to exclude. The glob pattern will be matched against the file paths of resulting matches relative to their workspace. When `undefined`, default file-excludes (e.g. the `files.exclude`-setting but not `search.exclude`) will apply. When `null`, no excludes will apply. |
+| `maxResults?` | `number` | An upper-bound for the result. |
+| `token?` | [`CancellationToken`](../interfaces/codearts_plugin_.CancellationToken.md) | A token that can be used to signal cancellation to the underlying search engine. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)[]\>
 
+A thenable that resolves to an array of resource identifiers. Will return no results if no
+[workspace folders](codearts_plugin_.workspace.md#workspacefolders) are opened.
+
 #### Defined in
 
-[index.d.ts:11874](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11874)
+[index.d.ts:11936](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11936)
 
 ___
 
@@ -225,20 +452,30 @@ ___
 
 ▸ **getConfiguration**(`section?`, `scope?`): [`WorkspaceConfiguration`](../interfaces/codearts_plugin_.WorkspaceConfiguration.md)
 
+Get a workspace configuration object.
+
+When a section-identifier is provided only that part of the configuration
+is returned. Dots in the section-identifier are interpreted as child-access,
+like `{ myExt: { setting: { doIt: true }}}` and `getConfiguration('myExt.setting').get('doIt') === true`.
+
+When a scope is provided configuration confined to that scope is returned. Scope can be a resource or a language identifier or both.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `section?` | `string` |  |
-| `scope?` | ``null`` \| [`ConfigurationScope`](_codearts_plugin_.md#configurationscope) |  |
+| `section?` | `string` | A dot-separated identifier. |
+| `scope?` | ``null`` \| [`ConfigurationScope`](_codearts_plugin_.md#configurationscope) | A scope for which the configuration is asked for. |
 
 #### Returns
 
 [`WorkspaceConfiguration`](../interfaces/codearts_plugin_.WorkspaceConfiguration.md)
 
+The full configuration or a subset.
+
 #### Defined in
 
-[index.d.ts:12164](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12164)
+[index.d.ts:12226](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12226)
 
 ___
 
@@ -246,415 +483,511 @@ ___
 
 ▸ **getWorkspaceFolder**(`uri`): [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| `undefined`
 
+Returns the [workspace folder](../interfaces/codearts_plugin_.WorkspaceFolder.md) that contains a given uri.
+* returns `undefined` when the given uri doesn't match any workspace folder
+* returns the *input* when the given uri is a workspace folder itself
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) | An uri. |
 
 #### Returns
 
 [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| `undefined`
 
+A workspace folder or `undefined`
+
 #### Defined in
 
-[index.d.ts:11675](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11675)
+[index.d.ts:11737](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11737)
 
 ___
 
 ### onDidChangeConfiguration
 
-▸ `Const` **onDidChangeConfiguration**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidChangeConfiguration**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`ConfigurationChangeEvent`](../interfaces/codearts_plugin_.ConfigurationChangeEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`ConfigurationChangeEvent`](../interfaces/codearts_plugin_.ConfigurationChangeEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12169](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12169)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidChangeNotebookDocument
 
-▸ `Const` **onDidChangeNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidChangeNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`NotebookDocumentChangeEvent`](../interfaces/codearts_plugin_.NotebookDocumentChangeEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`NotebookDocumentChangeEvent`](../interfaces/codearts_plugin_.NotebookDocumentChangeEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12046](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12046)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidChangeTextDocument
 
-▸ `Const` **onDidChangeTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidChangeTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TextDocumentChangeEvent`](../interfaces/codearts_plugin_.TextDocumentChangeEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TextDocumentChangeEvent`](../interfaces/codearts_plugin_.TextDocumentChangeEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:11990](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11990)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidChangeWorkspaceFolders
 
-▸ `Const` **onDidChangeWorkspaceFolders**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidChangeWorkspaceFolders**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`WorkspaceFoldersChangeEvent`](../interfaces/codearts_plugin_.WorkspaceFoldersChangeEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`WorkspaceFoldersChangeEvent`](../interfaces/codearts_plugin_.WorkspaceFoldersChangeEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:11665](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11665)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidCloseNotebookDocument
 
-▸ `Const` **onDidCloseNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidCloseNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12079](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12079)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidCloseTextDocument
 
-▸ `Const` **onDidCloseTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidCloseTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:11983](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11983)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidCreateFiles
 
-▸ `Const` **onDidCreateFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidCreateFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileCreateEvent`](../interfaces/codearts_plugin_.FileCreateEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileCreateEvent`](../interfaces/codearts_plugin_.FileCreateEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12101](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12101)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidDeleteFiles
 
-▸ `Const` **onDidDeleteFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidDeleteFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileDeleteEvent`](../interfaces/codearts_plugin_.FileDeleteEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileDeleteEvent`](../interfaces/codearts_plugin_.FileDeleteEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12125](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12125)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidGrantWorkspaceTrust
 
-▸ `Const` **onDidGrantWorkspaceTrust**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidGrantWorkspaceTrust**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: `void`) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: `void`) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12203](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12203)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidOpenNotebookDocument
 
-▸ `Const` **onDidOpenNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidOpenNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12069](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12069)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidOpenTextDocument
 
-▸ `Const` **onDidOpenTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidOpenTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:11971](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11971)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidRenameFiles
 
-▸ `Const` **onDidRenameFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidRenameFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileRenameEvent`](../interfaces/codearts_plugin_.FileRenameEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileRenameEvent`](../interfaces/codearts_plugin_.FileRenameEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12149](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12149)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidSaveNotebookDocument
 
-▸ `Const` **onDidSaveNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidSaveNotebookDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12051](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12051)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidSaveTextDocument
 
-▸ `Const` **onDidSaveTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidSaveTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12010](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12010)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onWillCreateFiles
 
-▸ `Const` **onWillCreateFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onWillCreateFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileWillCreateEvent`](../interfaces/codearts_plugin_.FileWillCreateEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileWillCreateEvent`](../interfaces/codearts_plugin_.FileWillCreateEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12091](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12091)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onWillDeleteFiles
 
-▸ `Const` **onWillDeleteFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onWillDeleteFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileWillDeleteEvent`](../interfaces/codearts_plugin_.FileWillDeleteEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileWillDeleteEvent`](../interfaces/codearts_plugin_.FileWillDeleteEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12113](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12113)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onWillRenameFiles
 
-▸ `Const` **onWillRenameFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onWillRenameFiles**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`FileWillRenameEvent`](../interfaces/codearts_plugin_.FileWillRenameEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`FileWillRenameEvent`](../interfaces/codearts_plugin_.FileWillRenameEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12137](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12137)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onWillSaveTextDocument
 
-▸ `Const` **onWillSaveTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onWillSaveTextDocument**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TextDocumentWillSaveEvent`](../interfaces/codearts_plugin_.TextDocumentWillSaveEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TextDocumentWillSaveEvent`](../interfaces/codearts_plugin_.TextDocumentWillSaveEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:12005](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12005)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
@@ -662,36 +995,56 @@ ___
 
 ▸ **openNotebookDocument**(`uri`): [`Thenable`](../interfaces/Thenable.md)<[`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)\>
 
+Open a notebook. Will return early if this notebook is already notebook.notebookDocuments loaded. Otherwise
+the notebook is loaded and the notebook.onDidOpenNotebookDocument onDidOpenNotebookDocument-event fires.
+
+*Note* that the lifecycle of the returned notebook is owned by the editor and not by the extension. That means an
+notebook.onDidCloseNotebookDocument onDidCloseNotebookDocument-event can occur at any time after.
+
+*Note* that opening a notebook does not show a notebook editor. This function only returns a notebook document which
+can be shown in a notebook editor but it can also be used for other things.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) | The resource to open. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<[`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)\>
 
+A promise that resolves to a [notebook](../interfaces/codearts_plugin_.NotebookDocument.md)
+
 #### Defined in
 
-[index.d.ts:12030](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12030)
+[index.d.ts:12092](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12092)
 
 ▸ **openNotebookDocument**(`notebookType`, `content?`): [`Thenable`](../interfaces/Thenable.md)<[`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)\>
 
+Open an untitled notebook. The editor will prompt the user for a file
+path when the document is to be saved.
+
+**`See`**
+
+[openNotebookDocument](codearts_plugin_.workspace.md#opennotebookdocument)
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `notebookType` | `string` |  |
-| `content?` | [`NotebookData`](../classes/codearts_plugin_.NotebookData.md) |  |
+| `notebookType` | `string` | The notebook type that should be used. |
+| `content?` | [`NotebookData`](../classes/codearts_plugin_.NotebookData.md) | The initial contents of the notebook. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<[`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)\>
 
+A promise that resolves to a [notebook](../interfaces/codearts_plugin_.NotebookDocument.md).
+
 #### Defined in
 
-[index.d.ts:12041](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12041)
+[index.d.ts:12103](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12103)
 
 ___
 
@@ -699,43 +1052,72 @@ ___
 
 ▸ **openTextDocument**(`uri`): [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
+Opens a document. Will return early if this document is already open. Otherwise
+the document is loaded and the [didOpen](codearts_plugin_.workspace.md#ondidopentextdocument)-event fires.
+
+The document is denoted by an [Uri](../classes/codearts_plugin_.Uri.md). Depending on the [scheme](../classes/codearts_plugin_.Uri.md#scheme) the
+following rules apply:
+* `file`-scheme: Open a file on disk (`openTextDocument(Uri.file(path))`). Will be rejected if the file
+does not exist or cannot be loaded.
+* `untitled`-scheme: Open a blank untitled file with associated path (`openTextDocument(Uri.file(path).with({ scheme: 'untitled' }))`).
+The language will be derived from the file name.
+* For all other schemes contributed [text document content providers](../interfaces/codearts_plugin_.TextDocumentContentProvider.md) and
+[file system providers](../interfaces/codearts_plugin_.FileSystemProvider.md) are consulted.
+
+*Note* that the lifecycle of the returned document is owned by the editor and not by the extension. That means an
+[`onDidClose`](codearts_plugin_.workspace.md#ondidclosetextdocument)-event can occur at any time after opening it.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
+| `uri` | [`Uri`](../classes/codearts_plugin_.Uri.md) | Identifies the resource to open. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
+A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocument.md).
+
 #### Defined in
 
-[index.d.ts:11927](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11927)
+[index.d.ts:11989](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11989)
 
 ▸ **openTextDocument**(`fileName`): [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
+A short-hand for `openTextDocument(Uri.file(fileName))`.
+
+**`See`**
+
+[openTextDocument](codearts_plugin_.workspace.md#opentextdocument)
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `fileName` | `string` |  |
+| `fileName` | `string` | A name of a file on disk. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
+A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocument.md).
+
 #### Defined in
 
-[index.d.ts:11936](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11936)
+[index.d.ts:11998](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11998)
 
 ▸ **openTextDocument**(`options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
+
+Opens an untitled text document. The editor will prompt the user for a file
+path when the document is to be saved. The `options` parameter allows to
+specify the *language* and/or the *content* of the document.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options?` | `Object` |  |
+| `options?` | `Object` | Options to control how the document will be created. |
 | `options.content?` | `string` | - |
 | `options.language?` | `string` | - |
 
@@ -743,9 +1125,11 @@ ___
 
 [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
+A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocument.md).
+
 #### Defined in
 
-[index.d.ts:11946](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11946)
+[index.d.ts:12008](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12008)
 
 ___
 
@@ -753,13 +1137,18 @@ ___
 
 ▸ **registerFileSystemProvider**(`scheme`, `provider`, `options?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+Register a filesystem provider for a given scheme, e.g. `ftp`.
+
+There can only be one provider per scheme and an error is being thrown when a scheme
+has been claimed by another provider or when it is reserved.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `scheme` | `string` |  |
-| `provider` | [`FileSystemProvider`](../interfaces/codearts_plugin_.FileSystemProvider.md) |  |
-| `options?` | `Object` |  |
+| `scheme` | `string` | The uri-[scheme](../classes/codearts_plugin_.Uri.md#scheme) the provider registers for. |
+| `provider` | [`FileSystemProvider`](../interfaces/codearts_plugin_.FileSystemProvider.md) | The filesystem provider. |
+| `options?` | `Object` | Immutable metadata about the provider. |
 | `options.isCaseSensitive?` | `boolean` | - |
 | `options.isReadonly?` | `boolean` | - |
 
@@ -767,9 +1156,11 @@ ___
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this provider when being disposed.
+
 #### Defined in
 
-[index.d.ts:12193](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12193)
+[index.d.ts:12255](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12255)
 
 ___
 
@@ -777,21 +1168,28 @@ ___
 
 ▸ **registerNotebookSerializer**(`notebookType`, `serializer`, `options?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+Register a [notebook serializer](../interfaces/codearts_plugin_.NotebookSerializer.md).
+
+A notebook serializer must be contributed through the `notebooks` extension point. When opening a notebook file, the editor will send
+the `onNotebook:<notebookType>` activation event, and extensions must register their serializer in return.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `notebookType` | `string` |  |
-| `serializer` | [`NotebookSerializer`](../interfaces/codearts_plugin_.NotebookSerializer.md) |  |
-| `options?` | [`NotebookDocumentContentOptions`](../interfaces/codearts_plugin_.NotebookDocumentContentOptions.md) |  |
+| `notebookType` | `string` | A notebook. |
+| `serializer` | [`NotebookSerializer`](../interfaces/codearts_plugin_.NotebookSerializer.md) | A notebook serializer. |
+| `options?` | [`NotebookDocumentContentOptions`](../interfaces/codearts_plugin_.NotebookDocumentContentOptions.md) | Optional context options that define what parts of a notebook should be persisted |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this serializer when being disposed.
+
 #### Defined in
 
-[index.d.ts:12064](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12064)
+[index.d.ts:12126](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12126)
 
 ___
 
@@ -799,20 +1197,28 @@ ___
 
 ▸ **registerTaskProvider**(`type`, `provider`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+Register a task provider.
+
+**`Deprecated`**
+
+Use the corresponding function on the `tasks` namespace instead
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `type` | `string` |  |
-| `provider` | [`TaskProvider`](../interfaces/codearts_plugin_.TaskProvider.md)<[`Task`](../classes/codearts_plugin_.Task.md)\> |  |
+| `type` | `string` | The task kind type this provider is registered for. |
+| `provider` | [`TaskProvider`](../interfaces/codearts_plugin_.TaskProvider.md)<[`Task`](../classes/codearts_plugin_.Task.md)\> | A task provider. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this provider when being disposed.
+
 #### Defined in
 
-[index.d.ts:12180](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12180)
+[index.d.ts:12242](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12242)
 
 ___
 
@@ -820,20 +1226,26 @@ ___
 
 ▸ **registerTextDocumentContentProvider**(`scheme`, `provider`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+Register a text document content provider.
+
+Only one provider can be registered per scheme.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `scheme` | `string` |  |
-| `provider` | [`TextDocumentContentProvider`](../interfaces/codearts_plugin_.TextDocumentContentProvider.md) |  |
+| `scheme` | `string` | The uri-scheme to register for. |
+| `provider` | [`TextDocumentContentProvider`](../interfaces/codearts_plugin_.TextDocumentContentProvider.md) | A content provider. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this provider when being disposed.
+
 #### Defined in
 
-[index.d.ts:11957](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11957)
+[index.d.ts:12019](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12019)
 
 ___
 
@@ -841,19 +1253,24 @@ ___
 
 ▸ **saveAll**(`includeUntitled?`): [`Thenable`](../interfaces/Thenable.md)<`boolean`\>
 
+Save all dirty files.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `includeUntitled?` | `boolean` |  |
+| `includeUntitled?` | `boolean` | Also save files that have been created during this session. |
 
 #### Returns
 
 [`Thenable`](../interfaces/Thenable.md)<`boolean`\>
 
+A thenable that resolves when the files have been saved. Will return `false`
+for any file that failed to save.
+
 #### Defined in
 
-[index.d.ts:11883](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11883)
+[index.d.ts:11945](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11945)
 
 ___
 
@@ -861,18 +1278,53 @@ ___
 
 ▸ **updateWorkspaceFolders**(`start`, `deleteCount`, ...`workspaceFoldersToAdd`): `boolean`
 
+This method replaces `deleteCount` [workspace folders](codearts_plugin_.workspace.md#workspacefolders) starting at index `start`
+by an optional set of `workspaceFoldersToAdd` on the `vscode.workspace.workspaceFolders` array. This "splice"
+behavior can be used to add, remove and change workspace folders in a single operation.
+
+If the first workspace folder is added, removed or changed, the currently executing extensions (including the
+one that called this method) will be terminated and restarted so that the (deprecated) `rootPath` property is
+updated to point to the first workspace folder.
+
+Use the [`onDidChangeWorkspaceFolders()`](codearts_plugin_.workspace.md#ondidchangeworkspacefolders) event to get notified when the
+workspace folders have been updated.
+
+**Example:** adding a new workspace folder at the end of workspace folders
+```typescript
+workspace.updateWorkspaceFolders(workspace.workspaceFolders ? workspace.workspaceFolders.length : 0, null, { uri: ...});
+```
+
+**Example:** removing the first workspace folder
+```typescript
+workspace.updateWorkspaceFolders(0, 1);
+```
+
+**Example:** replacing an existing workspace folder with a new one
+```typescript
+workspace.updateWorkspaceFolders(0, 1, { uri: ...});
+```
+
+It is valid to remove an existing workspace folder and add it again with a different name
+to rename that folder.
+
+**Note:** it is not valid to call [updateWorkspaceFolders()](codearts_plugin_.workspace.md#updateworkspacefolders) multiple times
+without waiting for the [`onDidChangeWorkspaceFolders()`](codearts_plugin_.workspace.md#ondidchangeworkspacefolders) to fire.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `start` | `number` |  |
-| `deleteCount` | `undefined` \| ``null`` \| `number` |  |
-| `...workspaceFoldersToAdd` | { `name?`: `string` ; `uri`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }[] |  |
+| `start` | `number` | the zero-based location in the list of currently opened [workspace folders](../interfaces/codearts_plugin_.WorkspaceFolder.md) from which to start deleting workspace folders. |
+| `deleteCount` | `undefined` \| ``null`` \| `number` | the optional number of workspace folders to remove. |
+| `...workspaceFoldersToAdd` | { `name?`: `string` ; `uri`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }[] | the optional variable set of workspace folders to add in place of the deleted ones. Each workspace is identified with a mandatory URI and an optional name. |
 
 #### Returns
 
 `boolean`
 
+true if the operation was successfully started and false otherwise if arguments were used that would result
+in invalid workspace folder state (e.g. 2 folders with the same URI).
+
 #### Defined in
 
-[index.d.ts:11732](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11732)
+[index.d.ts:11794](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11794)

@@ -4,9 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ViewColumn
 
+Denotes a location of an editor in the window. Editors can be arranged in a grid
+and each column represents one editor location in that grid by counting the editors
+in order of their appearance.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Active](codearts_plugin_.ViewColumn.md#active)
 - [Beside](codearts_plugin_.ViewColumn.md#beside)
@@ -20,112 +24,138 @@
 - [Three](codearts_plugin_.ViewColumn.md#three)
 - [Two](codearts_plugin_.ViewColumn.md#two)
 
-## Enumeration members
+## Enumeration Members
 
 ### Active
 
-• **Active** = `Object` = `-1`
+• **Active** = ``-1``
+
+A *symbolic* editor column representing the currently active column. This value
+can be used when opening editors, but the *resolved* [viewColumn](../interfaces/codearts_plugin_.TextEditor.md#viewcolumn)-value
+of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Active`.
 
 #### Defined in
 
-[index.d.ts:6155](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6155)
+[index.d.ts:6155](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6155)
 
 ___
 
 ### Beside
 
-• **Beside** = `Object` = `-2`
+• **Beside** = ``-2``
+
+A *symbolic* editor column representing the column to the side of the active one. This value
+can be used when opening editors, but the *resolved* [viewColumn](../interfaces/codearts_plugin_.TextEditor.md#viewcolumn)-value
+of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Beside`.
 
 #### Defined in
 
-[index.d.ts:6161](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6161)
+[index.d.ts:6161](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6161)
 
 ___
 
 ### Eight
 
-• **Eight** = `Object` = `8`
+• **Eight** = ``8``
+
+The eighth editor column.
 
 #### Defined in
 
-[index.d.ts:6193](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6193)
+[index.d.ts:6193](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6193)
 
 ___
 
 ### Five
 
-• **Five** = `Object` = `5`
+• **Five** = ``5``
+
+The fifth editor column.
 
 #### Defined in
 
-[index.d.ts:6181](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6181)
+[index.d.ts:6181](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6181)
 
 ___
 
 ### Four
 
-• **Four** = `Object` = `4`
+• **Four** = ``4``
+
+The fourth editor column.
 
 #### Defined in
 
-[index.d.ts:6177](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6177)
+[index.d.ts:6177](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6177)
 
 ___
 
 ### Nine
 
-• **Nine** = `Object` = `9`
+• **Nine** = ``9``
+
+The ninth editor column.
 
 #### Defined in
 
-[index.d.ts:6197](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6197)
+[index.d.ts:6197](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6197)
 
 ___
 
 ### One
 
-• **One** = `Object` = `1`
+• **One** = ``1``
+
+The first editor column.
 
 #### Defined in
 
-[index.d.ts:6165](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6165)
+[index.d.ts:6165](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6165)
 
 ___
 
 ### Seven
 
-• **Seven** = `Object` = `7`
+• **Seven** = ``7``
+
+The seventh editor column.
 
 #### Defined in
 
-[index.d.ts:6189](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6189)
+[index.d.ts:6189](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6189)
 
 ___
 
 ### Six
 
-• **Six** = `Object` = `6`
+• **Six** = ``6``
+
+The sixth editor column.
 
 #### Defined in
 
-[index.d.ts:6185](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6185)
+[index.d.ts:6185](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6185)
 
 ___
 
 ### Three
 
-• **Three** = `Object` = `3`
+• **Three** = ``3``
+
+The third editor column.
 
 #### Defined in
 
-[index.d.ts:6173](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6173)
+[index.d.ts:6173](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6173)
 
 ___
 
 ### Two
 
-• **Two** = `Object` = `2`
+• **Two** = ``2``
+
+The second editor column.
 
 #### Defined in
 
-[index.d.ts:6169](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6169)
+[index.d.ts:6169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6169)

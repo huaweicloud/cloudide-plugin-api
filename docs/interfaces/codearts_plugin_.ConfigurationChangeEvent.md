@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ConfigurationChangeEvent
 
+An event describing the change in Configuration
+
 ## Table of contents
 
 ### Methods
@@ -16,17 +18,22 @@
 
 ▸ **affectsConfiguration**(`section`, `scope?`): `boolean`
 
+Checks if the given section has changed.
+If scope is provided, checks if the section has changed for resources under the given scope.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `section` | `string` |  |
-| `scope?` | [`ConfigurationScope`](../modules/_codearts_plugin_.md#configurationscope) |  |
+| `section` | `string` | Configuration name, supports _dotted_ names. |
+| `scope?` | [`ConfigurationScope`](../modules/_codearts_plugin_.md#configurationscope) | A scope in which to check. |
 
 #### Returns
 
 `boolean`
 
+`true` if the given section has changed.
+
 #### Defined in
 
-[index.d.ts:12227](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12227)
+[index.d.ts:12289](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12289)

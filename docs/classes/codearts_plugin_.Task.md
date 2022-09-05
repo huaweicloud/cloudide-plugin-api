@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Task
 
+A task to execute
+
 ## Table of contents
 
 ### Constructors
@@ -30,36 +32,44 @@
 
 • **new Task**(`taskDefinition`, `scope`, `name`, `source`, `execution?`, `problemMatchers?`)
 
+Creates a new task.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `taskDefinition` | [`TaskDefinition`](../interfaces/codearts_plugin_.TaskDefinition.md) |  |
-| `scope` | [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| [`Global`](../enums/codearts_plugin_.TaskScope.md#global) \| [`Workspace`](../enums/codearts_plugin_.TaskScope.md#workspace) |  |
-| `name` | `string` |  |
-| `source` | `string` |  |
-| `execution?` | [`ProcessExecution`](codearts_plugin_.ProcessExecution.md) \| [`ShellExecution`](codearts_plugin_.ShellExecution.md) \| [`CustomExecution`](codearts_plugin_.CustomExecution.md) |  |
-| `problemMatchers?` | `string` \| `string`[] |  |
+| `taskDefinition` | [`TaskDefinition`](../interfaces/codearts_plugin_.TaskDefinition.md) | The task definition as defined in the taskDefinitions extension point. |
+| `scope` | [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| [`Global`](../enums/codearts_plugin_.TaskScope.md#global) \| [`Workspace`](../enums/codearts_plugin_.TaskScope.md#workspace) | Specifies the task's scope. It is either a global or a workspace task or a task for a specific workspace folder. Global tasks are currently not supported. |
+| `name` | `string` | The task's name. Is presented in the user interface. |
+| `source` | `string` | The task's source (e.g. 'gulp', 'npm', ...). Is presented in the user interface. |
+| `execution?` | [`ProcessExecution`](codearts_plugin_.ProcessExecution.md) \| [`ShellExecution`](codearts_plugin_.ShellExecution.md) \| [`CustomExecution`](codearts_plugin_.CustomExecution.md) | The process or shell execution. |
+| `problemMatchers?` | `string` \| `string`[] | the names of problem matchers to use, like '$tsc'  or '$eslint'. Problem matchers can be contributed by an extension using  the `problemMatchers` extension point. |
 
 #### Defined in
 
-[index.d.ts:7501](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7501)
+[index.d.ts:7501](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7501)
 
 • **new Task**(`taskDefinition`, `name`, `source`, `execution?`, `problemMatchers?`)
 
+Creates a new task.
+
+**`Deprecated`**
+
+Use the new constructors that allow specifying a scope for the task.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `taskDefinition` | [`TaskDefinition`](../interfaces/codearts_plugin_.TaskDefinition.md) |  |
-| `name` | `string` |  |
-| `source` | `string` |  |
-| `execution?` | [`ProcessExecution`](codearts_plugin_.ProcessExecution.md) \| [`ShellExecution`](codearts_plugin_.ShellExecution.md) |  |
-| `problemMatchers?` | `string` \| `string`[] |  |
+| `taskDefinition` | [`TaskDefinition`](../interfaces/codearts_plugin_.TaskDefinition.md) | The task definition as defined in the taskDefinitions extension point. |
+| `name` | `string` | The task's name. Is presented in the user interface. |
+| `source` | `string` | The task's source (e.g. 'gulp', 'npm', ...). Is presented in the user interface. |
+| `execution?` | [`ProcessExecution`](codearts_plugin_.ProcessExecution.md) \| [`ShellExecution`](codearts_plugin_.ShellExecution.md) | The process or shell execution. |
+| `problemMatchers?` | `string` \| `string`[] | the names of problem matchers to use, like '$tsc'  or '$eslint'. Problem matchers can be contributed by an extension using  the `problemMatchers` extension point. |
 
 #### Defined in
 
-[index.d.ts:7516](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7516)
+[index.d.ts:7516](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7516)
 
 ## Properties
 
@@ -67,9 +77,11 @@
 
 • **definition**: [`TaskDefinition`](../interfaces/codearts_plugin_.TaskDefinition.md)
 
+The task's definition.
+
 #### Defined in
 
-[index.d.ts:7521](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7521)
+[index.d.ts:7521](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7521)
 
 ___
 
@@ -77,9 +89,13 @@ ___
 
 • `Optional` **detail**: `string`
 
+A human-readable string which is rendered less prominently on a separate line in places
+where the task's name is displayed. Supports rendering of [theme icons](codearts_plugin_.ThemeIcon.md)
+via the `$(<name>)`-syntax.
+
 #### Defined in
 
-[index.d.ts:7538](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7538)
+[index.d.ts:7538](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7538)
 
 ___
 
@@ -87,9 +103,11 @@ ___
 
 • `Optional` **execution**: [`ProcessExecution`](codearts_plugin_.ProcessExecution.md) \| [`ShellExecution`](codearts_plugin_.ShellExecution.md) \| [`CustomExecution`](codearts_plugin_.CustomExecution.md)
 
+The task's execution engine
+
 #### Defined in
 
-[index.d.ts:7543](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7543)
+[index.d.ts:7543](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7543)
 
 ___
 
@@ -97,9 +115,14 @@ ___
 
 • `Optional` **group**: [`TaskGroup`](codearts_plugin_.TaskGroup.md)
 
+The task group this tasks belongs to. See TaskGroup
+for a predefined set of available groups.
+Defaults to undefined meaning that the task doesn't
+belong to any special group.
+
 #### Defined in
 
-[index.d.ts:7562](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7562)
+[index.d.ts:7562](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7562)
 
 ___
 
@@ -107,9 +130,11 @@ ___
 
 • **isBackground**: `boolean`
 
+Whether the task is a background task or not.
+
 #### Defined in
 
-[index.d.ts:7548](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7548)
+[index.d.ts:7548](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7548)
 
 ___
 
@@ -117,9 +142,11 @@ ___
 
 • **name**: `string`
 
+The task's name
+
 #### Defined in
 
-[index.d.ts:7531](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7531)
+[index.d.ts:7531](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7531)
 
 ___
 
@@ -127,9 +154,11 @@ ___
 
 • **presentationOptions**: [`TaskPresentationOptions`](../interfaces/codearts_plugin_.TaskPresentationOptions.md)
 
+The presentation options. Defaults to an empty literal.
+
 #### Defined in
 
-[index.d.ts:7567](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7567)
+[index.d.ts:7567](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7567)
 
 ___
 
@@ -137,9 +166,12 @@ ___
 
 • **problemMatchers**: `string`[]
 
+The problem matchers attached to the task. Defaults to an empty
+array.
+
 #### Defined in
 
-[index.d.ts:7573](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7573)
+[index.d.ts:7573](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7573)
 
 ___
 
@@ -147,9 +179,11 @@ ___
 
 • **runOptions**: [`RunOptions`](../interfaces/codearts_plugin_.RunOptions.md)
 
+Run options for the task
+
 #### Defined in
 
-[index.d.ts:7578](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7578)
+[index.d.ts:7578](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7578)
 
 ___
 
@@ -157,9 +191,11 @@ ___
 
 • `Readonly` **scope**: `undefined` \| [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| [`Global`](../enums/codearts_plugin_.TaskScope.md#global) \| [`Workspace`](../enums/codearts_plugin_.TaskScope.md#workspace)
 
+The task's scope.
+
 #### Defined in
 
-[index.d.ts:7526](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7526)
+[index.d.ts:7526](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7526)
 
 ___
 
@@ -167,6 +203,9 @@ ___
 
 • **source**: `string`
 
+A human-readable string describing the source of this shell task, e.g. 'gulp'
+or 'npm'. Supports rendering of [theme icons](codearts_plugin_.ThemeIcon.md) via the `$(<name>)`-syntax.
+
 #### Defined in
 
-[index.d.ts:7554](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7554)
+[index.d.ts:7554](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7554)

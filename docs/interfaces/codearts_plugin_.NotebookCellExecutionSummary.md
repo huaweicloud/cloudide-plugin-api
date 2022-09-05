@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookCellExecutionSummary
 
+The summary of a notebook cell execution.
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,11 @@
 
 • `Optional` `Readonly` **executionOrder**: `number`
 
+The order in which the execution happened.
+
 #### Defined in
 
-[index.d.ts:13115](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13115)
+[index.d.ts:13177](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13177)
 
 ___
 
@@ -28,15 +32,19 @@ ___
 
 • `Optional` `Readonly` **success**: `boolean`
 
+If the execution finished successfully.
+
 #### Defined in
 
-[index.d.ts:13120](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13120)
+[index.d.ts:13182](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13182)
 
 ___
 
 ### timing
 
 • `Optional` `Readonly` **timing**: `Object`
+
+The times at which execution started and ended, as unix timestamps
 
 #### Type declaration
 
@@ -47,4 +55,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:13125](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13125)
+[index.d.ts:13187](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13187)

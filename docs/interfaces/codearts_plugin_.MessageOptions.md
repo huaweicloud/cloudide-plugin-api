@@ -4,6 +4,14 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).MessageOptions
 
+Options to configure the behavior of the message.
+
+**`See`**
+
+ - [showInformationMessage](../modules/codearts_plugin_.window.md#showinformationmessage)
+ - [showWarningMessage](../modules/codearts_plugin_.window.md#showwarningmessage)
+ - [showErrorMessage](../modules/codearts_plugin_.window.md#showerrormessage)
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +25,12 @@
 
 • `Optional` **detail**: `string`
 
+Human-readable detail message that is rendered less prominent. _Note_ that detail
+is only shown for [modal](codearts_plugin_.MessageOptions.md#modal) messages.
+
 #### Defined in
 
-[index.d.ts:1983](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1983)
+[index.d.ts:1983](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1983)
 
 ___
 
@@ -27,6 +38,8 @@ ___
 
 • `Optional` **modal**: `boolean`
 
+Indicates that this message should be modal.
+
 #### Defined in
 
-[index.d.ts:1977](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1977)
+[index.d.ts:1977](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1977)

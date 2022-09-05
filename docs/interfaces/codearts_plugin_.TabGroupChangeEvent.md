@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabGroupChangeEvent
 
+An event describing changes to tab groups.
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,12 @@
 
 • `Readonly` **changed**: readonly [`TabGroup`](codearts_plugin_.TabGroup.md)[]
 
+Tab groups that have changed, e.g have changed
+their [active](codearts_plugin_.TabGroup.md#isactive) state.
+
 #### Defined in
 
-[index.d.ts:16049](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16049)
+[index.d.ts:16111](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16111)
 
 ___
 
@@ -28,9 +33,11 @@ ___
 
 • `Readonly` **closed**: readonly [`TabGroup`](codearts_plugin_.TabGroup.md)[]
 
+Tab groups that have been closed.
+
 #### Defined in
 
-[index.d.ts:16044](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16044)
+[index.d.ts:16106](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16106)
 
 ___
 
@@ -38,6 +45,8 @@ ___
 
 • `Readonly` **opened**: readonly [`TabGroup`](codearts_plugin_.TabGroup.md)[]
 
+Tab groups that have been opened.
+
 #### Defined in
 
-[index.d.ts:16040](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L16040)
+[index.d.ts:16102](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16102)

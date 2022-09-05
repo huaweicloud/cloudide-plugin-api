@@ -4,6 +4,12 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CustomDocumentEditEvent
 
+Event triggered by extensions to signal to the editor that an edit has occurred on an [`CustomDocument`](codearts_plugin_.CustomDocument.md).
+
+**`See`**
+
+[`onDidChangeCustomDocument`](codearts_plugin_.CustomEditorProvider.md#ondidchangecustomdocument).
+
 ## Type parameters
 
 | Name | Type |
@@ -28,9 +34,11 @@
 
 • `Readonly` **document**: `T`
 
+The document that the edit is for.
+
 #### Defined in
 
-[index.d.ts:8717](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8717)
+[index.d.ts:8717](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8717)
 
 ___
 
@@ -38,9 +46,13 @@ ___
 
 • `Optional` `Readonly` **label**: `string`
 
+Display name describing the edit.
+
+This will be shown to users in the UI for undo/redo operations.
+
 #### Defined in
 
-[index.d.ts:8742](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8742)
+[index.d.ts:8742](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8742)
 
 ## Methods
 
@@ -48,13 +60,19 @@ ___
 
 ▸ **redo**(): `void` \| [`Thenable`](Thenable.md)<`void`\>
 
+Redo the edit operation.
+
+This is invoked by the editor when the user redoes this edit. To implement `redo`, your
+extension should restore the document and editor to the state they were in just after this
+edit was added to the editor's internal edit stack by `onDidChangeCustomDocument`.
+
 #### Returns
 
 `void` \| [`Thenable`](Thenable.md)<`void`\>
 
 #### Defined in
 
-[index.d.ts:8735](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8735)
+[index.d.ts:8735](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8735)
 
 ___
 
@@ -62,10 +80,16 @@ ___
 
 ▸ **undo**(): `void` \| [`Thenable`](Thenable.md)<`void`\>
 
+Undo the edit operation.
+
+This is invoked by the editor when the user undoes this edit. To implement `undo`, your
+extension should restore the document and editor to the state they were in just before this
+edit was added to the editor's internal edit stack by `onDidChangeCustomDocument`.
+
 #### Returns
 
 `void` \| [`Thenable`](Thenable.md)<`void`\>
 
 #### Defined in
 
-[index.d.ts:8726](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8726)
+[index.d.ts:8726](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8726)

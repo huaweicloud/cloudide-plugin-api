@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugSessionCustomEvent
 
+A custom Debug Adapter Protocol event received from a [debug session](codearts_plugin_.DebugSession.md).
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,11 @@
 
 • `Readonly` **body**: `any`
 
+Event specific information.
+
 #### Defined in
 
-[index.d.ts:14154](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14154)
+[index.d.ts:14216](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14216)
 
 ___
 
@@ -28,9 +32,11 @@ ___
 
 • `Readonly` **event**: `string`
 
+Type of event.
+
 #### Defined in
 
-[index.d.ts:14149](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14149)
+[index.d.ts:14211](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14211)
 
 ___
 
@@ -38,6 +44,8 @@ ___
 
 • `Readonly` **session**: [`DebugSession`](codearts_plugin_.DebugSession.md)
 
+The [debug session](codearts_plugin_.DebugSession.md) for which the custom event was received.
+
 #### Defined in
 
-[index.d.ts:14144](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14144)
+[index.d.ts:14206](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14206)

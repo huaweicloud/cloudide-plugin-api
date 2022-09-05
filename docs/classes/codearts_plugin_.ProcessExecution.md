@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ProcessExecution
 
+The execution of a task happens as an external process
+without shell interaction.
+
 ## Table of contents
 
 ### Constructors
@@ -22,30 +25,34 @@
 
 • **new ProcessExecution**(`process`, `options?`)
 
+Creates a process execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `process` | `string` |  |
-| `options?` | [`ProcessExecutionOptions`](../interfaces/codearts_plugin_.ProcessExecutionOptions.md) |  |
+| `process` | `string` | The process to start. |
+| `options?` | [`ProcessExecutionOptions`](../interfaces/codearts_plugin_.ProcessExecutionOptions.md) | Optional options for the started process. |
 
 #### Defined in
 
-[index.d.ts:7258](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7258)
+[index.d.ts:7258](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7258)
 
 • **new ProcessExecution**(`process`, `args`, `options?`)
 
+Creates a process execution.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `process` | `string` |  |
-| `args` | `string`[] |  |
-| `options?` | [`ProcessExecutionOptions`](../interfaces/codearts_plugin_.ProcessExecutionOptions.md) |  |
+| `process` | `string` | The process to start. |
+| `args` | `string`[] | Arguments to be passed to the process. |
+| `options?` | [`ProcessExecutionOptions`](../interfaces/codearts_plugin_.ProcessExecutionOptions.md) | Optional options for the started process. |
 
 #### Defined in
 
-[index.d.ts:7267](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7267)
+[index.d.ts:7267](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7267)
 
 ## Properties
 
@@ -53,9 +60,11 @@
 
 • **args**: `string`[]
 
+The arguments passed to the process. Defaults to an empty array.
+
 #### Defined in
 
-[index.d.ts:7277](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7277)
+[index.d.ts:7277](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7277)
 
 ___
 
@@ -63,9 +72,12 @@ ___
 
 • `Optional` **options**: [`ProcessExecutionOptions`](../interfaces/codearts_plugin_.ProcessExecutionOptions.md)
 
+The process options used when the process is executed.
+Defaults to undefined.
+
 #### Defined in
 
-[index.d.ts:7283](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7283)
+[index.d.ts:7283](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7283)
 
 ___
 
@@ -73,6 +85,8 @@ ___
 
 • **process**: `string`
 
+The process to be executed.
+
 #### Defined in
 
-[index.d.ts:7272](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7272)
+[index.d.ts:7272](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7272)

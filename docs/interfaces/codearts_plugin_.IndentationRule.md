@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).IndentationRule
 
+Describes indentation rules for a language.
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • **decreaseIndentPattern**: `RegExp`
 
+If a line matches this pattern, then all the lines after it should be unindented once (until another rule matches).
+
 #### Defined in
 
-[index.d.ts:5448](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5448)
+[index.d.ts:5448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5448)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • **increaseIndentPattern**: `RegExp`
 
+If a line matches this pattern, then all the lines after it should be indented once (until another rule matches).
+
 #### Defined in
 
-[index.d.ts:5452](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5452)
+[index.d.ts:5452](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5452)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • `Optional` **indentNextLinePattern**: `RegExp`
 
+If a line matches this pattern, then **only the next line** after it should be indented once.
+
 #### Defined in
 
-[index.d.ts:5456](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5456)
+[index.d.ts:5456](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5456)
 
 ___
 
@@ -49,6 +57,8 @@ ___
 
 • `Optional` **unIndentedLinePattern**: `RegExp`
 
+If a line matches this pattern, then its indentation should not be changed and it should not be evaluated against the other rules.
+
 #### Defined in
 
-[index.d.ts:5460](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5460)
+[index.d.ts:5460](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5460)

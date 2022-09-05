@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskStartEvent
 
+An event signaling the start of a task execution.
+
+This interface is not intended to be implemented.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +20,8 @@
 
 • `Readonly` **execution**: [`TaskExecution`](codearts_plugin_.TaskExecution.md)
 
+The task item representing the task that got started.
+
 #### Defined in
 
-[index.d.ts:7640](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7640)
+[index.d.ts:7640](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7640)

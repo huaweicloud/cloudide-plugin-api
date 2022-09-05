@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CustomDocumentContentChangeEvent
 
+Event triggered by extensions to signal to the editor that the content of a [`CustomDocument`](codearts_plugin_.CustomDocument.md)
+has changed.
+
+**`See`**
+
+[`onDidChangeCustomDocument`](codearts_plugin_.CustomEditorProvider.md#ondidchangecustomdocument).
+
 ## Type parameters
 
 | Name | Type |
@@ -22,6 +29,8 @@
 
 • `Readonly` **document**: `T`
 
+The document that the change is for.
+
 #### Defined in
 
-[index.d.ts:8755](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8755)
+[index.d.ts:8755](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8755)

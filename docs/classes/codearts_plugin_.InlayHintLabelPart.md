@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlayHintLabelPart
 
+An inlay hint label part allows for interactive and composite labels of inlay hints.
+
 ## Table of contents
 
 ### Constructors
@@ -23,15 +25,17 @@
 
 • **new InlayHintLabelPart**(`value`)
 
+Creates a new inlay hint label part.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | The value of the part. |
 
 #### Defined in
 
-[index.d.ts:4902](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4902)
+[index.d.ts:4902](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4902)
 
 ## Properties
 
@@ -39,9 +43,17 @@
 
 • `Optional` **command**: [`Command`](../interfaces/codearts_plugin_.Command.md)
 
+An optional command for this label part.
+
+The editor renders parts with commands as clickable links. The command is added to the context menu
+when a label part defines [location](codearts_plugin_.InlayHintLabelPart.md#location) and [command](codearts_plugin_.InlayHintLabelPart.md#command) .
+
+*Note* that this property can be set late during
+[resolving](../interfaces/codearts_plugin_.InlayHintsProvider.md#resolveinlayhint) of inlay hints.
+
 #### Defined in
 
-[index.d.ts:4895](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4895)
+[index.d.ts:4895](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4895)
 
 ___
 
@@ -49,9 +61,20 @@ ___
 
 • `Optional` **location**: [`Location`](codearts_plugin_.Location.md)
 
+An optional [source code location](codearts_plugin_.Location.md) that represents this label
+part.
+
+The editor will use this location for the hover and for code navigation features: This
+part will become a clickable link that resolves to the definition of the symbol at the
+given location (not necessarily the location itself), it shows the hover that shows at
+the given location, and it shows a context menu with further code navigation commands.
+
+*Note* that this property can be set late during
+[resolving](../interfaces/codearts_plugin_.InlayHintsProvider.md#resolveinlayhint) of inlay hints.
+
 #### Defined in
 
-[index.d.ts:4884](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4884)
+[index.d.ts:4884](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4884)
 
 ___
 
@@ -59,9 +82,14 @@ ___
 
 • `Optional` **tooltip**: `string` \| [`MarkdownString`](codearts_plugin_.MarkdownString.md)
 
+The tooltip text when you hover over this label part.
+
+*Note* that this property can be set late during
+[resolving](../interfaces/codearts_plugin_.InlayHintsProvider.md#resolveinlayhint) of inlay hints.
+
 #### Defined in
 
-[index.d.ts:4870](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4870)
+[index.d.ts:4870](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4870)
 
 ___
 
@@ -69,6 +97,8 @@ ___
 
 • **value**: `string`
 
+The value of this label part.
+
 #### Defined in
 
-[index.d.ts:4862](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4862)
+[index.d.ts:4862](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4862)

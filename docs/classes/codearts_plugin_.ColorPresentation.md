@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ColorPresentation
 
+A color presentation object describes how a [`Color`](codearts_plugin_.Color.md) should be represented as text and what
+edits are required to refer to it from source code.
+
+For some languages one color can have multiple presentations, e.g. css can represent the color red with
+the constant `Red`, the hex-value `#ff0000`, or in rgba and hsla forms. In csharp other representations
+apply, e.g. `System.Drawing.Color.Red`.
+
 ## Table of contents
 
 ### Constructors
@@ -22,15 +29,17 @@
 
 • **new ColorPresentation**(`label`)
 
+Creates a new color presentation.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `label` | `string` |  |
+| `label` | `string` | The label of this color presentation. |
 
 #### Defined in
 
-[index.d.ts:4806](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4806)
+[index.d.ts:4806](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4806)
 
 ## Properties
 
@@ -38,9 +47,12 @@
 
 • `Optional` **additionalTextEdits**: [`TextEdit`](codearts_plugin_.TextEdit.md)[]
 
+An optional array of additional [text edits](codearts_plugin_.TextEdit.md) that are applied when
+selecting this color presentation. Edits must not overlap with the main [edit](codearts_plugin_.ColorPresentation.md#textedit) nor with themselves.
+
 #### Defined in
 
-[index.d.ts:4799](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4799)
+[index.d.ts:4799](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4799)
 
 ___
 
@@ -48,9 +60,13 @@ ___
 
 • **label**: `string`
 
+The label of this color presentation. It will be shown on the color
+picker header. By default this is also the text that is inserted when selecting
+this color presentation.
+
 #### Defined in
 
-[index.d.ts:4786](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4786)
+[index.d.ts:4786](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4786)
 
 ___
 
@@ -58,6 +74,10 @@ ___
 
 • `Optional` **textEdit**: [`TextEdit`](codearts_plugin_.TextEdit.md)
 
+An [edit](codearts_plugin_.TextEdit.md) which is applied to a document when selecting
+this presentation for the color.  When `falsy` the [label](codearts_plugin_.ColorPresentation.md#label)
+is used.
+
 #### Defined in
 
-[index.d.ts:4793](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4793)
+[index.d.ts:4793](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4793)

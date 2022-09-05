@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).StatusBarAlignment
 
+Represents the alignment of status bar items.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Left](codearts_plugin_.StatusBarAlignment.md#left)
 - [Right](codearts_plugin_.StatusBarAlignment.md#right)
 
-## Enumeration members
+## Enumeration Members
 
 ### Left
 
-• **Left** = `Object` = `1`
+• **Left** = ``1``
+
+Aligned to the left side.
 
 #### Defined in
 
-[index.d.ts:6294](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6294)
+[index.d.ts:6294](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6294)
 
 ___
 
 ### Right
 
-• **Right** = `Object` = `2`
+• **Right** = ``2``
+
+Aligned to the right side.
 
 #### Defined in
 
-[index.d.ts:6299](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6299)
+[index.d.ts:6299](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6299)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugAdapterInlineImplementation
 
+A debug adapter descriptor for an inline implementation.
+
 ## Table of contents
 
 ### Constructors
@@ -16,6 +18,8 @@
 
 • **new DebugAdapterInlineImplementation**(`implementation`)
 
+Create a descriptor for an inline implementation of a debug adapter.
+
 #### Parameters
 
 | Name | Type |
@@ -24,4 +28,4 @@
 
 #### Defined in
 
-[index.d.ts:14318](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14318)
+[index.d.ts:14380](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14380)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentReply
 
+Command argument for actions registered in `comments/commentThread/context`.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • **text**: `string`
 
+The value in the comment editor
+
 #### Defined in
 
-[index.d.ts:14944](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14944)
+[index.d.ts:15006](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15006)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • **thread**: [`CommentThread`](codearts_plugin_.CommentThread.md)
 
+The active [comment thread](codearts_plugin_.CommentThread.md)
+
 #### Defined in
 
-[index.d.ts:14939](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14939)
+[index.d.ts:15001](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15001)

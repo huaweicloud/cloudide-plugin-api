@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CallHierarchyIncomingCall
 
+Represents an incoming call, e.g. a caller of a method or constructor.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +23,18 @@
 
 • **new CallHierarchyIncomingCall**(`item`, `fromRanges`)
 
+Create a new call object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `item` | [`CallHierarchyItem`](codearts_plugin_.CallHierarchyItem.md) |  |
-| `fromRanges` | [`Range`](codearts_plugin_.Range.md)[] |  |
+| `item` | [`CallHierarchyItem`](codearts_plugin_.CallHierarchyItem.md) | The item making the call. |
+| `fromRanges` | [`Range`](codearts_plugin_.Range.md)[] | The ranges at which the calls appear. |
 
 #### Defined in
 
-[index.d.ts:5203](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5203)
+[index.d.ts:5203](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5203)
 
 ## Properties
 
@@ -38,9 +42,11 @@
 
 • **from**: [`CallHierarchyItem`](codearts_plugin_.CallHierarchyItem.md)
 
+The item that makes the call.
+
 #### Defined in
 
-[index.d.ts:5189](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5189)
+[index.d.ts:5189](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5189)
 
 ___
 
@@ -48,6 +54,9 @@ ___
 
 • **fromRanges**: [`Range`](codearts_plugin_.Range.md)[]
 
+The range at which at which the calls appears. This is relative to the caller
+denoted by [`this.from`](codearts_plugin_.CallHierarchyIncomingCall.md#from).
+
 #### Defined in
 
-[index.d.ts:5195](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5195)
+[index.d.ts:5195](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5195)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ThemableDecorationRenderOptions
 
+Represents theme specific rendering styles for a [text editor decoration](codearts_plugin_.TextEditorDecorationType.md).
+
 ## Hierarchy
 
 - **`ThemableDecorationRenderOptions`**
@@ -44,9 +46,11 @@
 
 • `Optional` **after**: [`ThemableDecorationAttachmentRenderOptions`](codearts_plugin_.ThemableDecorationAttachmentRenderOptions.md)
 
+Defines the rendering options of the attachment that is inserted after the decorated text.
+
 #### Defined in
 
-[index.d.ts:1028](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1028)
+[index.d.ts:1028](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1028)
 
 ___
 
@@ -54,9 +58,12 @@ ___
 
 • `Optional` **backgroundColor**: `string` \| [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+Background color of the decoration. Use rgba() and define transparent background colors to play well with other decorations.
+Alternatively a color from the color registry can be [referenced](../classes/codearts_plugin_.ThemeColor.md).
+
 #### Defined in
 
-[index.d.ts:908](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L908)
+[index.d.ts:908](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L908)
 
 ___
 
@@ -64,9 +71,11 @@ ___
 
 • `Optional` **before**: [`ThemableDecorationAttachmentRenderOptions`](codearts_plugin_.ThemableDecorationAttachmentRenderOptions.md)
 
+Defines the rendering options of the attachment that is inserted before the decorated text.
+
 #### Defined in
 
-[index.d.ts:1023](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1023)
+[index.d.ts:1023](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1023)
 
 ___
 
@@ -74,9 +83,11 @@ ___
 
 • `Optional` **border**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:936](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L936)
+[index.d.ts:936](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L936)
 
 ___
 
@@ -84,9 +95,12 @@ ___
 
 • `Optional` **borderColor**: `string` \| [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'border' for setting one or more of the individual border properties.
+
 #### Defined in
 
-[index.d.ts:942](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L942)
+[index.d.ts:942](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L942)
 
 ___
 
@@ -94,9 +108,12 @@ ___
 
 • `Optional` **borderRadius**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'border' for setting one or more of the individual border properties.
+
 #### Defined in
 
-[index.d.ts:948](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L948)
+[index.d.ts:948](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L948)
 
 ___
 
@@ -104,9 +121,12 @@ ___
 
 • `Optional` **borderSpacing**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'border' for setting one or more of the individual border properties.
+
 #### Defined in
 
-[index.d.ts:954](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L954)
+[index.d.ts:954](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L954)
 
 ___
 
@@ -114,9 +134,12 @@ ___
 
 • `Optional` **borderStyle**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'border' for setting one or more of the individual border properties.
+
 #### Defined in
 
-[index.d.ts:960](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L960)
+[index.d.ts:960](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L960)
 
 ___
 
@@ -124,9 +147,12 @@ ___
 
 • `Optional` **borderWidth**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'border' for setting one or more of the individual border properties.
+
 #### Defined in
 
-[index.d.ts:966](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L966)
+[index.d.ts:966](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L966)
 
 ___
 
@@ -134,9 +160,11 @@ ___
 
 • `Optional` **color**: `string` \| [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:991](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L991)
+[index.d.ts:991](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L991)
 
 ___
 
@@ -144,9 +172,11 @@ ___
 
 • `Optional` **cursor**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:986](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L986)
+[index.d.ts:986](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L986)
 
 ___
 
@@ -154,9 +184,11 @@ ___
 
 • `Optional` **fontStyle**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:971](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L971)
+[index.d.ts:971](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L971)
 
 ___
 
@@ -164,9 +196,11 @@ ___
 
 • `Optional` **fontWeight**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:976](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L976)
+[index.d.ts:976](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L976)
 
 ___
 
@@ -174,9 +208,11 @@ ___
 
 • `Optional` **gutterIconPath**: `string` \| [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+An **absolute path** or an URI to an image to be rendered in the gutter.
+
 #### Defined in
 
-[index.d.ts:1006](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1006)
+[index.d.ts:1006](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1006)
 
 ___
 
@@ -184,9 +220,13 @@ ___
 
 • `Optional` **gutterIconSize**: `string`
 
+Specifies the size of the gutter icon.
+Available values are 'auto', 'contain', 'cover' and any percentage value.
+For further information: https://msdn.microsoft.com/en-us/library/jj127316(v=vs.85).aspx
+
 #### Defined in
 
-[index.d.ts:1013](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1013)
+[index.d.ts:1013](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1013)
 
 ___
 
@@ -194,9 +234,11 @@ ___
 
 • `Optional` **letterSpacing**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:1001](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1001)
+[index.d.ts:1001](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1001)
 
 ___
 
@@ -204,9 +246,11 @@ ___
 
 • `Optional` **opacity**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:996](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L996)
+[index.d.ts:996](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L996)
 
 ___
 
@@ -214,9 +258,11 @@ ___
 
 • `Optional` **outline**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:913](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L913)
+[index.d.ts:913](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L913)
 
 ___
 
@@ -224,9 +270,12 @@ ___
 
 • `Optional` **outlineColor**: `string` \| [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'outline' for setting one or more of the individual outline properties.
+
 #### Defined in
 
-[index.d.ts:919](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L919)
+[index.d.ts:919](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L919)
 
 ___
 
@@ -234,9 +283,12 @@ ___
 
 • `Optional` **outlineStyle**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'outline' for setting one or more of the individual outline properties.
+
 #### Defined in
 
-[index.d.ts:925](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L925)
+[index.d.ts:925](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L925)
 
 ___
 
@@ -244,9 +296,12 @@ ___
 
 • `Optional` **outlineWidth**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+Better use 'outline' for setting one or more of the individual outline properties.
+
 #### Defined in
 
-[index.d.ts:931](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L931)
+[index.d.ts:931](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L931)
 
 ___
 
@@ -254,9 +309,11 @@ ___
 
 • `Optional` **overviewRulerColor**: `string` \| [`ThemeColor`](../classes/codearts_plugin_.ThemeColor.md)
 
+The color of the decoration in the overview ruler. Use rgba() and define transparent colors to play well with other decorations.
+
 #### Defined in
 
-[index.d.ts:1018](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1018)
+[index.d.ts:1018](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1018)
 
 ___
 
@@ -264,6 +321,8 @@ ___
 
 • `Optional` **textDecoration**: `string`
 
+CSS styling property that will be applied to text enclosed by a decoration.
+
 #### Defined in
 
-[index.d.ts:981](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L981)
+[index.d.ts:981](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L981)

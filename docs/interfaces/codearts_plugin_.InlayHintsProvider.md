@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlayHintsProvider
 
+The inlay hints provider interface defines the contract between extensions and
+the inlay hints feature.
+
 ## Type parameters
 
 | Name | Type |
@@ -27,9 +30,11 @@
 
 • `Optional` **onDidChangeInlayHints**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+An optional event to signal that inlay hints from this provider have changed.
+
 #### Defined in
 
-[index.d.ts:4980](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4980)
+[index.d.ts:4980](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4980)
 
 ## Methods
 
@@ -37,21 +42,27 @@
 
 ▸ **provideInlayHints**(`document`, `range`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+Provide inlay hints for the given range and document.
+
+*Note* that inlay hints that are not [contained](../classes/codearts_plugin_.Range.md#contains) by the given range are ignored.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) |  |
-| `range` | [`Range`](../classes/codearts_plugin_.Range.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `document` | [`TextDocument`](codearts_plugin_.TextDocument.md) | The document in which the command was invoked. |
+| `range` | [`Range`](../classes/codearts_plugin_.Range.md) | The range for which inlay hints should be computed. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`[]\>
 
+An array of inlay hints or a thenable that resolves to such.
+
 #### Defined in
 
-[index.d.ts:4992](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4992)
+[index.d.ts:4992](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4992)
 
 ___
 
@@ -59,17 +70,24 @@ ___
 
 ▸ `Optional` **resolveInlayHint**(`hint`, `token`): [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`\>
 
+Given an inlay hint fill in [tooltip](../classes/codearts_plugin_.InlayHint.md#tooltip), [text edits](../classes/codearts_plugin_.InlayHint.md#textedits),
+or complete label [parts](../classes/codearts_plugin_.InlayHintLabelPart.md).
+
+*Note* that the editor will resolve an inlay hint at most once.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `hint` | `T` |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) |  |
+| `hint` | `T` | An inlay hint. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | A cancellation token. |
 
 #### Returns
 
 [`ProviderResult`](../modules/_codearts_plugin_.md#providerresult)<`T`\>
 
+The resolved inlay hint or a thenable that resolves to such. It is OK to return the given `item`. When no result is returned, the given `item` will be used.
+
 #### Defined in
 
-[index.d.ts:5004](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5004)
+[index.d.ts:5004](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5004)

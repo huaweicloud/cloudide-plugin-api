@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookCellStatusBarItem
 
+A contribution to a cell's status bar
+
 ## Table of contents
 
 ### Constructors
@@ -25,16 +27,18 @@
 
 • **new NotebookCellStatusBarItem**(`text`, `alignment`)
 
+Creates a new NotebookCellStatusBarItem.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `text` | `string` |  |
-| `alignment` | [`NotebookCellStatusBarAlignment`](../enums/codearts_plugin_.NotebookCellStatusBarAlignment.md) |  |
+| `text` | `string` | The text to show for the item. |
+| `alignment` | [`NotebookCellStatusBarAlignment`](../enums/codearts_plugin_.NotebookCellStatusBarAlignment.md) | Whether the item is aligned to the left or right. |
 
 #### Defined in
 
-[index.d.ts:13717](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13717)
+[index.d.ts:13779](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13779)
 
 ## Properties
 
@@ -42,9 +46,11 @@
 
 • `Optional` **accessibilityInformation**: [`AccessibilityInformation`](../interfaces/codearts_plugin_.AccessibilityInformation.md)
 
+Accessibility information used when a screen reader interacts with this item.
+
 #### Defined in
 
-[index.d.ts:13710](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13710)
+[index.d.ts:13772](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13772)
 
 ___
 
@@ -52,9 +58,11 @@ ___
 
 • **alignment**: [`NotebookCellStatusBarAlignment`](../enums/codearts_plugin_.NotebookCellStatusBarAlignment.md)
 
+Whether the item is aligned to the left or right.
+
 #### Defined in
 
-[index.d.ts:13685](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13685)
+[index.d.ts:13747](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13747)
 
 ___
 
@@ -62,9 +70,16 @@ ___
 
 • `Optional` **command**: `string` \| [`Command`](../interfaces/codearts_plugin_.Command.md)
 
+An optional [`Command`](../interfaces/codearts_plugin_.Command.md) or identifier of a command to run on click.
+
+The command must be [known](../modules/codearts_plugin_.commands.md#getcommands).
+
+Note that if this is a [`Command`](../interfaces/codearts_plugin_.Command.md) object, only the [`command`](../interfaces/codearts_plugin_.Command.md#command) and [`arguments`](../interfaces/codearts_plugin_.Command.md#arguments)
+are used by the editor.
+
 #### Defined in
 
-[index.d.ts:13695](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13695)
+[index.d.ts:13757](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13757)
 
 ___
 
@@ -72,9 +87,11 @@ ___
 
 • `Optional` **priority**: `number`
 
+The priority of the item. A higher value item will be shown more to the left.
+
 #### Defined in
 
-[index.d.ts:13705](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13705)
+[index.d.ts:13767](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13767)
 
 ___
 
@@ -82,9 +99,11 @@ ___
 
 • **text**: `string`
 
+The text to show for the item.
+
 #### Defined in
 
-[index.d.ts:13680](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13680)
+[index.d.ts:13742](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13742)
 
 ___
 
@@ -92,6 +111,8 @@ ___
 
 • `Optional` **tooltip**: `string`
 
+A tooltip to show when the item is hovered.
+
 #### Defined in
 
-[index.d.ts:13700](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13700)
+[index.d.ts:13762](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13762)

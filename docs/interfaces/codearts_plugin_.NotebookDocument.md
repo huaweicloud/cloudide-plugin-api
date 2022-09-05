@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookDocument
 
+Represents a notebook which itself is a sequence of [code or markup cells](codearts_plugin_.NotebookCell.md). Notebook documents are
+created from [notebook data](../classes/codearts_plugin_.NotebookData.md).
+
 ## Table of contents
 
 ### Properties
@@ -29,9 +32,11 @@
 
 • `Readonly` **cellCount**: `number`
 
+The number of cells in the notebook.
+
 #### Defined in
 
-[index.d.ts:12991](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12991)
+[index.d.ts:13053](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13053)
 
 ___
 
@@ -39,9 +44,12 @@ ___
 
 • `Readonly` **isClosed**: `boolean`
 
+`true` if the notebook has been closed. A closed notebook isn't synchronized anymore
+and won't be re-used when the same resource is opened again.
+
 #### Defined in
 
-[index.d.ts:12981](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12981)
+[index.d.ts:13043](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13043)
 
 ___
 
@@ -49,9 +57,11 @@ ___
 
 • `Readonly` **isDirty**: `boolean`
 
+`true` if there are unpersisted changes.
+
 #### Defined in
 
-[index.d.ts:12970](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12970)
+[index.d.ts:13032](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13032)
 
 ___
 
@@ -59,9 +69,11 @@ ___
 
 • `Readonly` **isUntitled**: `boolean`
 
+Is this notebook representing an untitled file which has not been saved yet.
+
 #### Defined in
 
-[index.d.ts:12975](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12975)
+[index.d.ts:13037](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13037)
 
 ___
 
@@ -69,13 +81,15 @@ ___
 
 • `Readonly` **metadata**: `Object`
 
+Arbitrary metadata for this notebook. Can be anything but must be JSON-stringifyable.
+
 #### Index signature
 
 ▪ [key: `string`]: `any`
 
 #### Defined in
 
-[index.d.ts:12986](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12986)
+[index.d.ts:13048](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13048)
 
 ___
 
@@ -83,9 +97,11 @@ ___
 
 • `Readonly` **notebookType**: `string`
 
+The type of notebook.
+
 #### Defined in
 
-[index.d.ts:12959](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12959)
+[index.d.ts:13021](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13021)
 
 ___
 
@@ -93,9 +109,18 @@ ___
 
 • `Readonly` **uri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The associated uri for this notebook.
+
+*Note* that most notebooks use the `file`-scheme, which means they are files on disk. However, **not** all notebooks are
+saved on disk and therefore the `scheme` must be checked before trying to access the underlying file or siblings on disk.
+
+**`See`**
+
+[FileSystemProvider](codearts_plugin_.FileSystemProvider.md)
+
 #### Defined in
 
-[index.d.ts:12954](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12954)
+[index.d.ts:13016](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13016)
 
 ___
 
@@ -103,9 +128,12 @@ ___
 
 • `Readonly` **version**: `number`
 
+The version number of this notebook (it will strictly increase after each
+change, including undo/redo).
+
 #### Defined in
 
-[index.d.ts:12965](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12965)
+[index.d.ts:13027](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13027)
 
 ## Methods
 
@@ -113,19 +141,23 @@ ___
 
 ▸ **cellAt**(`index`): [`NotebookCell`](codearts_plugin_.NotebookCell.md)
 
+Return the cell at the specified index. The index will be adjusted to the notebook.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `index` | `number` |  |
+| `index` | `number` | The index of the cell to retrieve. |
 
 #### Returns
 
 [`NotebookCell`](codearts_plugin_.NotebookCell.md)
 
+A [cell](codearts_plugin_.NotebookCell.md).
+
 #### Defined in
 
-[index.d.ts:12999](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12999)
+[index.d.ts:13061](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13061)
 
 ___
 
@@ -133,19 +165,24 @@ ___
 
 ▸ **getCells**(`range?`): [`NotebookCell`](codearts_plugin_.NotebookCell.md)[]
 
+Get the cells of this notebook. A subset can be retrieved by providing
+a range. The range will be adjusted to the notebook.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `range?` | [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md) |  |
+| `range?` | [`NotebookRange`](../classes/codearts_plugin_.NotebookRange.md) | A notebook range. |
 
 #### Returns
 
 [`NotebookCell`](codearts_plugin_.NotebookCell.md)[]
 
+The cells contained by the range or all cells.
+
 #### Defined in
 
-[index.d.ts:13008](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13008)
+[index.d.ts:13070](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13070)
 
 ___
 
@@ -153,10 +190,15 @@ ___
 
 ▸ **save**(): [`Thenable`](Thenable.md)<`boolean`\>
 
+Save the document. The saving will be handled by the corresponding [serializer](codearts_plugin_.NotebookSerializer.md).
+
 #### Returns
 
 [`Thenable`](Thenable.md)<`boolean`\>
 
+A promise that will resolve to true when the document
+has been saved. Will return false if the file was not dirty or when save failed.
+
 #### Defined in
 
-[index.d.ts:13016](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13016)
+[index.d.ts:13078](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13078)

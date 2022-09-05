@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).WindowState
 
+Represents the state of a window.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +18,8 @@
 
 • `Readonly` **focused**: `boolean`
 
+Whether the current window is focused.
+
 #### Defined in
 
-[index.d.ts:9275](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L9275)
+[index.d.ts:9275](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9275)

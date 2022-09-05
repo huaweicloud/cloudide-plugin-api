@@ -4,6 +4,15 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).NotebookData
 
+Raw representation of a notebook.
+
+Extensions are responsible for creating [`NotebookData`](codearts_plugin_.NotebookData.md) so that the editor
+can create a [`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md).
+
+**`See`**
+
+[NotebookSerializer](../interfaces/codearts_plugin_.NotebookSerializer.md)
+
 ## Table of contents
 
 ### Constructors
@@ -21,15 +30,17 @@
 
 • **new NotebookData**(`cells`)
 
+Create new notebook data.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `cells` | [`NotebookCellData`](codearts_plugin_.NotebookCellData.md)[] |  |
+| `cells` | [`NotebookCellData`](codearts_plugin_.NotebookCellData.md)[] | An array of cell data. |
 
 #### Defined in
 
-[index.d.ts:13355](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13355)
+[index.d.ts:13417](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13417)
 
 ## Properties
 
@@ -37,9 +48,11 @@
 
 • **cells**: [`NotebookCellData`](codearts_plugin_.NotebookCellData.md)[]
 
+The cell data of this notebook data.
+
 #### Defined in
 
-[index.d.ts:13343](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13343)
+[index.d.ts:13405](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13405)
 
 ___
 
@@ -47,10 +60,12 @@ ___
 
 • `Optional` **metadata**: `Object`
 
+Arbitrary metadata of notebook data.
+
 #### Index signature
 
 ▪ [key: `string`]: `any`
 
 #### Defined in
 
-[index.d.ts:13348](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L13348)
+[index.d.ts:13410](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13410)

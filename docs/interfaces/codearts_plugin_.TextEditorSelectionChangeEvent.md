@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TextEditorSelectionChangeEvent
 
+Represents an event describing the change in a [text editor's selections](codearts_plugin_.TextEditor.md#selections).
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,12 @@
 
 • `Readonly` **kind**: `undefined` \| [`TextEditorSelectionChangeKind`](../enums/codearts_plugin_.TextEditorSelectionChangeKind.md)
 
+The [change kind](../enums/codearts_plugin_.TextEditorSelectionChangeKind.md) which has triggered this
+event. Can be `undefined`.
+
 #### Defined in
 
-[index.d.ts:551](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L551)
+[index.d.ts:551](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L551)
 
 ___
 
@@ -28,9 +33,11 @@ ___
 
 • `Readonly` **selections**: readonly [`Selection`](../classes/codearts_plugin_.Selection.md)[]
 
+The new value for the [text editor's selections](codearts_plugin_.TextEditor.md#selections).
+
 #### Defined in
 
-[index.d.ts:546](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L546)
+[index.d.ts:546](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L546)
 
 ___
 
@@ -38,6 +45,8 @@ ___
 
 • `Readonly` **textEditor**: [`TextEditor`](codearts_plugin_.TextEditor.md)
 
+The [text editor](codearts_plugin_.TextEditor.md) for which the selections have changed.
+
 #### Defined in
 
-[index.d.ts:542](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L542)
+[index.d.ts:542](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L542)

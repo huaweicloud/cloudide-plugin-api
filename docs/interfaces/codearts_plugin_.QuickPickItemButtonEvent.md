@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).QuickPickItemButtonEvent
 
+An event signaling when a button in a particular [QuickPickItem](codearts_plugin_.QuickPickItem.md) was triggered.
+This event does not fire for buttons in the title bar.
+
 ## Type parameters
 
 | Name | Type |
@@ -23,9 +26,11 @@
 
 • `Readonly` **button**: [`QuickInputButton`](codearts_plugin_.QuickInputButton.md)
 
+The button that was clicked.
+
 #### Defined in
 
-[index.d.ts:11215](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11215)
+[index.d.ts:11277](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11277)
 
 ___
 
@@ -33,6 +38,8 @@ ___
 
 • `Readonly` **item**: `T`
 
+The item that the button belongs to.
+
 #### Defined in
 
-[index.d.ts:11219](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11219)
+[index.d.ts:11281](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11281)

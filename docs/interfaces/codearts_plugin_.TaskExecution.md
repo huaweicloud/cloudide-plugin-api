@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskExecution
 
+An object representing an executed Task. It can be used
+to terminate a task.
+
+This interface is not intended to be implemented.
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +25,11 @@
 
 • **task**: [`Task`](../classes/codearts_plugin_.Task.md)
 
+The task that got started.
+
 #### Defined in
 
-[index.d.ts:7623](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7623)
+[index.d.ts:7623](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7623)
 
 ## Methods
 
@@ -30,10 +37,12 @@
 
 ▸ **terminate**(): `void`
 
+Terminates the task execution.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:7628](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7628)
+[index.d.ts:7628](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7628)

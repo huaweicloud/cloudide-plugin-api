@@ -4,29 +4,36 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ExtensionKind
 
+In a remote window the extension kind describes if an extension
+runs where the UI (window) runs or if an extension runs remotely.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [UI](codearts_plugin_.ExtensionKind.md#ui)
 - [Workspace](codearts_plugin_.ExtensionKind.md#workspace)
 
-## Enumeration members
+## Enumeration Members
 
 ### UI
 
-• **UI** = `Object` = `1`
+• **UI** = ``1``
+
+Extension runs where the UI runs.
 
 #### Defined in
 
-[index.d.ts:6725](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6725)
+[index.d.ts:6725](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6725)
 
 ___
 
 ### Workspace
 
-• **Workspace** = `Object` = `2`
+• **Workspace** = ``2``
+
+Extension runs where the remote extension host runs.
 
 #### Defined in
 
-[index.d.ts:6730](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6730)
+[index.d.ts:6730](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6730)

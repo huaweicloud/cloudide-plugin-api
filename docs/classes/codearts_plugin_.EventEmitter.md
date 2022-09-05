@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).EventEmitter
 
+An event emitter can be used to create and manage an [Event](../interfaces/codearts_plugin_.Event.md) for others
+to subscribe to. One emitter always owns one event.
+
+Use this class if you want to provide event from within your extension, for instance
+inside a [TextDocumentContentProvider](../interfaces/codearts_plugin_.TextDocumentContentProvider.md) or when providing
+API to other extensions.
+
 ## Type parameters
 
 | Name |
@@ -43,9 +50,11 @@
 
 • **event**: [`Event`](../interfaces/codearts_plugin_.Event.md)<`T`\>
 
+The event listeners can subscribe to.
+
 #### Defined in
 
-[index.d.ts:1620](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1620)
+[index.d.ts:1620](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1620)
 
 ## Methods
 
@@ -53,13 +62,15 @@
 
 ▸ **dispose**(): `void`
 
+Dispose this object and free resources.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:1633](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1633)
+[index.d.ts:1633](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1633)
 
 ___
 
@@ -67,11 +78,14 @@ ___
 
 ▸ **fire**(`data`): `void`
 
+Notify all subscribers of the [event](codearts_plugin_.EventEmitter.md#event). Failure
+of one or more listener will not fail this function call.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `data` | `T` |  |
+| `data` | `T` | The event object. |
 
 #### Returns
 
@@ -79,4 +93,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:1628](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1628)
+[index.d.ts:1628](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1628)

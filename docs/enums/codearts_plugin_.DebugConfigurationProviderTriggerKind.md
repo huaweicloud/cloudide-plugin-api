@@ -4,29 +4,38 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugConfigurationProviderTriggerKind
 
+A DebugConfigurationProviderTriggerKind specifies when the `provideDebugConfigurations` method of a `DebugConfigurationProvider` is triggered.
+Currently there are two situations: to provide the initial debug configurations for a newly created launch.json or
+to provide dynamically generated debug configurations when the user asks for them through the UI (e.g. via the "Select and Start Debugging" command).
+A trigger kind is used when registering a `DebugConfigurationProvider` with [registerDebugConfigurationProvider](../modules/codearts_plugin_.debug.md#registerdebugconfigurationprovider).
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Dynamic](codearts_plugin_.DebugConfigurationProviderTriggerKind.md#dynamic)
 - [Initial](codearts_plugin_.DebugConfigurationProviderTriggerKind.md#initial)
 
-## Enumeration members
+## Enumeration Members
 
 ### Dynamic
 
-• **Dynamic** = `Object` = `2`
+• **Dynamic** = ``2``
+
+`DebugConfigurationProvider.provideDebugConfigurations` is called to provide dynamically generated debug configurations when the user asks for them through the UI (e.g. via the "Select and Start Debugging" command).
 
 #### Defined in
 
-[index.d.ts:14552](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14552)
+[index.d.ts:14614](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14614)
 
 ___
 
 ### Initial
 
-• **Initial** = `Object` = `1`
+• **Initial** = ``1``
+
+`DebugConfigurationProvider.provideDebugConfigurations` is called to provide the initial debug configurations for a newly created launch.json.
 
 #### Defined in
 
-[index.d.ts:14548](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14548)
+[index.d.ts:14610](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14610)

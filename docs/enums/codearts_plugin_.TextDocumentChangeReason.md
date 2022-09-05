@@ -6,27 +6,31 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Redo](codearts_plugin_.TextDocumentChangeReason.md#redo)
 - [Undo](codearts_plugin_.TextDocumentChangeReason.md#undo)
 
-## Enumeration members
+## Enumeration Members
 
 ### Redo
 
-• **Redo** = `Object` = `2`
+• **Redo** = ``2``
+
+The text change is caused by an redo operation.
 
 #### Defined in
 
-[index.d.ts:11249](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11249)
+[index.d.ts:11311](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11311)
 
 ___
 
 ### Undo
 
-• **Undo** = `Object` = `1`
+• **Undo** = ``1``
+
+The text change is caused by an undo operation.
 
 #### Defined in
 
-[index.d.ts:11246](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11246)
+[index.d.ts:11308](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11308)

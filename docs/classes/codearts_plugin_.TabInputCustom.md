@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TabInputCustom
 
+The tab represents a custom editor.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +23,18 @@
 
 • **new TabInputCustom**(`uri`, `viewType`)
 
+Constructs a custom editor tab input.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `uri` | [`Uri`](codearts_plugin_.Uri.md) |  |
-| `viewType` | `string` |  |
+| `uri` | [`Uri`](codearts_plugin_.Uri.md) | The uri of the tab. |
+| `viewType` | `string` | The viewtype of the custom editor. |
 
 #### Defined in
 
-[index.d.ts:15896](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15896)
+[index.d.ts:15958](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15958)
 
 ## Properties
 
@@ -38,9 +42,11 @@
 
 • `Readonly` **uri**: [`Uri`](codearts_plugin_.Uri.md)
 
+The uri that the tab is representing.
+
 #### Defined in
 
-[index.d.ts:15886](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15886)
+[index.d.ts:15948](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15948)
 
 ___
 
@@ -48,6 +54,8 @@ ___
 
 • `Readonly` **viewType**: `string`
 
+The type of custom editor.
+
 #### Defined in
 
-[index.d.ts:15890](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15890)
+[index.d.ts:15952](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15952)

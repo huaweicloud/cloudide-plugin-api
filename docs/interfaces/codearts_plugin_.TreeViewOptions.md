@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TreeViewOptions
 
+Options for creating a [TreeView](codearts_plugin_.TreeView.md)
+
 ## Type parameters
 
 | Name |
@@ -25,9 +27,13 @@
 
 • `Optional` **canSelectMany**: `boolean`
 
+Whether the tree supports multi-select. When the tree supports multi-select and a command is executed from the tree,
+the first argument to the command is the tree item that the command was executed on and the second argument is an
+array containing all selected tree items.
+
 #### Defined in
 
-[index.d.ts:10054](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10054)
+[index.d.ts:10116](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10116)
 
 ___
 
@@ -35,9 +41,11 @@ ___
 
 • `Optional` **dragAndDropController**: [`TreeDragAndDropController`](codearts_plugin_.TreeDragAndDropController.md)<`T`\>
 
+An optional interface to implement drag and drop in the tree view.
+
 #### Defined in
 
-[index.d.ts:10059](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10059)
+[index.d.ts:10121](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10121)
 
 ___
 
@@ -45,9 +53,11 @@ ___
 
 • `Optional` **showCollapseAll**: `boolean`
 
+Whether to show collapse all action or not.
+
 #### Defined in
 
-[index.d.ts:10047](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10047)
+[index.d.ts:10109](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10109)
 
 ___
 
@@ -55,6 +65,8 @@ ___
 
 • **treeDataProvider**: [`TreeDataProvider`](codearts_plugin_.TreeDataProvider.md)<`T`\>
 
+A data provider that provides tree data.
+
 #### Defined in
 
-[index.d.ts:10042](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L10042)
+[index.d.ts:10104](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10104)

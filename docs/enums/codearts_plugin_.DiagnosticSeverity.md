@@ -4,51 +4,62 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DiagnosticSeverity
 
+Represents the severity of diagnostics.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Error](codearts_plugin_.DiagnosticSeverity.md#error)
 - [Hint](codearts_plugin_.DiagnosticSeverity.md#hint)
 - [Information](codearts_plugin_.DiagnosticSeverity.md#information)
 - [Warning](codearts_plugin_.DiagnosticSeverity.md#warning)
 
-## Enumeration members
+## Enumeration Members
 
 ### Error
 
-• **Error** = `Object` = `0`
+• **Error** = ``0``
+
+Something not allowed by the rules of a language or other means.
 
 #### Defined in
 
-[index.d.ts:5849](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5849)
+[index.d.ts:5849](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5849)
 
 ___
 
 ### Hint
 
-• **Hint** = `Object` = `3`
+• **Hint** = ``3``
+
+Something to hint to a better way of doing it, like proposing
+a refactoring.
 
 #### Defined in
 
-[index.d.ts:5865](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5865)
+[index.d.ts:5865](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5865)
 
 ___
 
 ### Information
 
-• **Information** = `Object` = `2`
+• **Information** = ``2``
+
+Something to inform about but not a problem.
 
 #### Defined in
 
-[index.d.ts:5859](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5859)
+[index.d.ts:5859](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5859)
 
 ___
 
 ### Warning
 
-• **Warning** = `Object` = `1`
+• **Warning** = ``1``
+
+Something suspicious but allowed.
 
 #### Defined in
 
-[index.d.ts:5854](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5854)
+[index.d.ts:5854](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5854)

@@ -25,13 +25,15 @@
 
 • `Optional` **after**: [`ThemableDecorationAttachmentRenderOptions`](codearts_plugin_.ThemableDecorationAttachmentRenderOptions.md)
 
+Defines the rendering options of the attachment that is inserted after the decorated text.
+
 #### Inherited from
 
 [ThemableDecorationInstanceRenderOptions](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md).[after](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md#after)
 
 #### Defined in
 
-[index.d.ts:1146](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1146)
+[index.d.ts:1146](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1146)
 
 ___
 
@@ -39,13 +41,15 @@ ___
 
 • `Optional` **before**: [`ThemableDecorationAttachmentRenderOptions`](codearts_plugin_.ThemableDecorationAttachmentRenderOptions.md)
 
+Defines the rendering options of the attachment that is inserted before the decorated text.
+
 #### Inherited from
 
 [ThemableDecorationInstanceRenderOptions](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md).[before](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md#before)
 
 #### Defined in
 
-[index.d.ts:1141](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1141)
+[index.d.ts:1141](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1141)
 
 ___
 
@@ -53,9 +57,11 @@ ___
 
 • `Optional` **dark**: [`ThemableDecorationInstanceRenderOptions`](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md)
 
+Overwrite options for dark themes.
+
 #### Defined in
 
-[index.d.ts:1158](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1158)
+[index.d.ts:1158](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1158)
 
 ___
 
@@ -63,6 +69,8 @@ ___
 
 • `Optional` **light**: [`ThemableDecorationInstanceRenderOptions`](codearts_plugin_.ThemableDecorationInstanceRenderOptions.md)
 
+Overwrite options for light themes.
+
 #### Defined in
 
-[index.d.ts:1153](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1153)
+[index.d.ts:1153](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1153)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).InlineCompletionContext
 
+Provides information about the context in which an inline completion was requested.
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,18 @@
 
 • `Readonly` **selectedCompletionInfo**: `undefined` \| [`SelectedCompletionInfo`](codearts_plugin_.SelectedCompletionInfo.md)
 
+Provides information about the currently selected item in the autocomplete widget if it is visible.
+
+If set, provided inline completions must extend the text of the selected item
+and use the same range, otherwise they are not shown as preview.
+As an example, if the document text is `console.` and the selected item is `.log` replacing the `.` in the document,
+the inline completion must also replace `.` and start with `.log`, for example `.log()`.
+
+Inline completion providers are requested again whenever the selected item changes.
+
 #### Defined in
 
-[index.d.ts:4570](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4570)
+[index.d.ts:4570](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4570)
 
 ___
 
@@ -27,6 +38,8 @@ ___
 
 • `Readonly` **triggerKind**: [`InlineCompletionTriggerKind`](../enums/codearts_plugin_.InlineCompletionTriggerKind.md)
 
+Describes how the inline completion was triggered.
+
 #### Defined in
 
-[index.d.ts:4558](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4558)
+[index.d.ts:4558](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4558)

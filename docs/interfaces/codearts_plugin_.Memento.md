@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Memento
 
+A memento represents a storage utility. It can store and retrieve
+values.
+
 ## Table of contents
 
 ### Methods
@@ -18,6 +21,8 @@
 
 ▸ **get**<`T`\>(`key`): `undefined` \| `T`
 
+Return a value.
+
 #### Type parameters
 
 | Name |
@@ -28,17 +33,21 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
+| `key` | `string` | A string. |
 
 #### Returns
 
 `undefined` \| `T`
 
+The stored value or `undefined`.
+
 #### Defined in
 
-[index.d.ts:6991](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6991)
+[index.d.ts:6991](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6991)
 
 ▸ **get**<`T`\>(`key`, `defaultValue`): `T`
+
+Return a value.
 
 #### Type parameters
 
@@ -50,16 +59,18 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
-| `defaultValue` | `T` |  |
+| `key` | `string` | A string. |
+| `defaultValue` | `T` | A value that should be returned when there is no value (`undefined`) with the given key. |
 
 #### Returns
 
 `T`
 
+The stored value or the defaultValue.
+
 #### Defined in
 
-[index.d.ts:7001](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7001)
+[index.d.ts:7001](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7001)
 
 ___
 
@@ -67,13 +78,17 @@ ___
 
 ▸ **keys**(): readonly `string`[]
 
+Returns the stored keys.
+
 #### Returns
 
 readonly `string`[]
 
+The stored keys.
+
 #### Defined in
 
-[index.d.ts:6983](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6983)
+[index.d.ts:6983](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6983)
 
 ___
 
@@ -81,12 +96,17 @@ ___
 
 ▸ **update**(`key`, `value`): [`Thenable`](Thenable.md)<`void`\>
 
+Store a value. The value must be JSON-stringifyable.
+
+*Note* that using `undefined` as value removes the key from the underlying
+storage.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
-| `value` | `any` |  |
+| `key` | `string` | A string. |
+| `value` | `any` | A value. MUST not contain cyclic references. |
 
 #### Returns
 
@@ -94,4 +114,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7012](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7012)
+[index.d.ts:7012](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7012)

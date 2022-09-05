@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ThemeIcon
 
+A reference to a named icon. Currently, [File](codearts_plugin_.ThemeIcon.md#file), [Folder](codearts_plugin_.ThemeIcon.md#folder),
+and [ThemeIcon ids](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing) are supported.
+Using a theme icon is preferred over a custom icon as it gives product theme authors the possibility to change the icons.
+
+*Note* that theme icons can also be rendered inside labels and descriptions. Places that support theme icons spell this out
+and they use the `$(<name>)`-syntax, for instance `quickPick.label = "Hello World $(globe)"`.
+
 ## Table of contents
 
 ### Constructors
@@ -23,16 +30,18 @@
 
 • **new ThemeIcon**(`id`, `color?`)
 
+Creates a reference to a theme icon.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `id` | `string` |  |
-| `color?` | [`ThemeColor`](codearts_plugin_.ThemeColor.md) |  |
+| `id` | `string` | id of the icon. The available icons are listed in https://code.visualstudio.com/api/references/icons-in-labels#icon-listing. |
+| `color?` | [`ThemeColor`](codearts_plugin_.ThemeColor.md) | optional `ThemeColor` for the icon. The color is currently only used in [TreeItem](codearts_plugin_.TreeItem.md). |
 
 #### Defined in
 
-[index.d.ts:897](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L897)
+[index.d.ts:897](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L897)
 
 ## Properties
 
@@ -40,9 +49,11 @@
 
 • `Optional` `Readonly` **color**: [`ThemeColor`](codearts_plugin_.ThemeColor.md)
 
+The optional ThemeColor of the icon. The color is currently only used in [TreeItem](codearts_plugin_.TreeItem.md).
+
 #### Defined in
 
-[index.d.ts:890](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L890)
+[index.d.ts:890](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L890)
 
 ___
 
@@ -50,9 +61,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The id of the icon. The available icons are listed in https://code.visualstudio.com/api/references/icons-in-labels#icon-listing.
+
 #### Defined in
 
-[index.d.ts:885](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L885)
+[index.d.ts:885](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L885)
 
 ___
 
@@ -60,9 +73,11 @@ ___
 
 ▪ `Static` `Readonly` **File**: [`ThemeIcon`](codearts_plugin_.ThemeIcon.md)
 
+Reference to an icon representing a file. The icon is taken from the current file icon theme or a placeholder icon is used.
+
 #### Defined in
 
-[index.d.ts:875](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L875)
+[index.d.ts:875](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L875)
 
 ___
 
@@ -70,6 +85,8 @@ ___
 
 ▪ `Static` `Readonly` **Folder**: [`ThemeIcon`](codearts_plugin_.ThemeIcon.md)
 
+Reference to an icon representing a folder. The icon is taken from the current file icon theme or a placeholder icon is used.
+
 #### Defined in
 
-[index.d.ts:880](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L880)
+[index.d.ts:880](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L880)

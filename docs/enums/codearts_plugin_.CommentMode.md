@@ -4,29 +4,35 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CommentMode
 
+Comment mode of a [Comment](../interfaces/codearts_plugin_.Comment.md)
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Editing](codearts_plugin_.CommentMode.md#editing)
 - [Preview](codearts_plugin_.CommentMode.md#preview)
 
-## Enumeration members
+## Enumeration Members
 
 ### Editing
 
-• **Editing** = `Object` = `0`
+• **Editing** = ``0``
+
+Displays the comment editor
 
 #### Defined in
 
-[index.d.ts:14762](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14762)
+[index.d.ts:14824](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14824)
 
 ___
 
 ### Preview
 
-• **Preview** = `Object` = `1`
+• **Preview** = ``1``
+
+Displays the preview of the comment
 
 #### Defined in
 
-[index.d.ts:14767](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14767)
+[index.d.ts:14829](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14829)

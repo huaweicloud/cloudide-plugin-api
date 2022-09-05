@@ -18,11 +18,18 @@
 
 ### inputBox
 
-• **inputBox**: [`SourceControlInputBox`](../interfaces/codearts_plugin_.SourceControlInputBox.md)
+• `Const` **inputBox**: [`SourceControlInputBox`](../interfaces/codearts_plugin_.SourceControlInputBox.md)
+
+The [input box](../interfaces/codearts_plugin_.SourceControlInputBox.md) for the last source control
+created by the extension.
+
+**`Deprecated`**
+
+Use SourceControl.inputBox instead
 
 #### Defined in
 
-[index.d.ts:14023](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14023)
+[index.d.ts:14085](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14085)
 
 ## Functions
 
@@ -30,18 +37,22 @@
 
 ▸ **createSourceControl**(`id`, `label`, `rootUri?`): [`SourceControl`](../interfaces/codearts_plugin_.SourceControl.md)
 
+Creates a new [source control](../interfaces/codearts_plugin_.SourceControl.md) instance.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `id` | `string` |  |
-| `label` | `string` |  |
-| `rootUri?` | [`Uri`](../classes/codearts_plugin_.Uri.md) |  |
+| `id` | `string` | An `id` for the source control. Something short, e.g.: `git`. |
+| `label` | `string` | A human-readable string for the source control. E.g.: `Git`. |
+| `rootUri?` | [`Uri`](../classes/codearts_plugin_.Uri.md) | An optional Uri of the root of the source control. E.g.: `Uri.parse(workspaceRoot)`. |
 
 #### Returns
 
 [`SourceControl`](../interfaces/codearts_plugin_.SourceControl.md)
 
+An instance of [source control](../interfaces/codearts_plugin_.SourceControl.md).
+
 #### Defined in
 
-[index.d.ts:14033](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14033)
+[index.d.ts:14095](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14095)

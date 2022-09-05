@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Diagnostic
 
+Represents a diagnostic, such as a compiler error or warning. Diagnostic objects
+are only valid in the scope of a file.
+
 ## Table of contents
 
 ### Constructors
@@ -26,17 +29,19 @@
 
 • **new Diagnostic**(`range`, `message`, `severity?`)
 
+Creates a new diagnostic object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `range` | [`Range`](codearts_plugin_.Range.md) |  |
-| `message` | `string` |  |
-| `severity?` | [`DiagnosticSeverity`](../enums/codearts_plugin_.DiagnosticSeverity.md) |  |
+| `range` | [`Range`](codearts_plugin_.Range.md) | The range to which this diagnostic applies. |
+| `message` | `string` | The human-readable message. |
+| `severity?` | [`DiagnosticSeverity`](../enums/codearts_plugin_.DiagnosticSeverity.md) | The severity, default is [error](../enums/codearts_plugin_.DiagnosticSeverity.md#error). |
 
 #### Defined in
 
-[index.d.ts:5980](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5980)
+[index.d.ts:5980](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5980)
 
 ## Properties
 
@@ -44,9 +49,12 @@
 
 • `Optional` **code**: `string` \| `number` \| { `target`: [`Uri`](codearts_plugin_.Uri.md) ; `value`: `string` \| `number`  }
 
+A code or identifier for this diagnostic.
+Should be used for later processing, e.g. when providing [code actions](../interfaces/codearts_plugin_.CodeActionContext.md).
+
 #### Defined in
 
-[index.d.ts:5949](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5949)
+[index.d.ts:5949](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5949)
 
 ___
 
@@ -54,9 +62,11 @@ ___
 
 • **message**: `string`
 
+The human-readable message.
+
 #### Defined in
 
-[index.d.ts:5932](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5932)
+[index.d.ts:5932](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5932)
 
 ___
 
@@ -64,9 +74,11 @@ ___
 
 • **range**: [`Range`](codearts_plugin_.Range.md)
 
+The range to which this diagnostic applies.
+
 #### Defined in
 
-[index.d.ts:5927](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5927)
+[index.d.ts:5927](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5927)
 
 ___
 
@@ -74,9 +86,12 @@ ___
 
 • `Optional` **relatedInformation**: [`DiagnosticRelatedInformation`](codearts_plugin_.DiagnosticRelatedInformation.md)[]
 
+An array of related diagnostic information, e.g. when symbol-names within
+a scope collide all definitions can be marked via this property.
+
 #### Defined in
 
-[index.d.ts:5966](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5966)
+[index.d.ts:5966](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5966)
 
 ___
 
@@ -84,9 +99,11 @@ ___
 
 • **severity**: [`DiagnosticSeverity`](../enums/codearts_plugin_.DiagnosticSeverity.md)
 
+The severity, default is [error](../enums/codearts_plugin_.DiagnosticSeverity.md#error).
+
 #### Defined in
 
-[index.d.ts:5937](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5937)
+[index.d.ts:5937](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5937)
 
 ___
 
@@ -94,9 +111,12 @@ ___
 
 • `Optional` **source**: `string`
 
+A human-readable string describing the source of this
+diagnostic, e.g. 'typescript' or 'super lint'.
+
 #### Defined in
 
-[index.d.ts:5943](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5943)
+[index.d.ts:5943](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5943)
 
 ___
 
@@ -104,6 +124,8 @@ ___
 
 • `Optional` **tags**: [`DiagnosticTag`](../enums/codearts_plugin_.DiagnosticTag.md)[]
 
+Additional metadata about the diagnostic.
+
 #### Defined in
 
-[index.d.ts:5971](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5971)
+[index.d.ts:5971](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5971)

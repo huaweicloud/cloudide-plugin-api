@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).LinkedEditingRanges
 
+Represents a list of ranges that can be edited together along with a word pattern to describe valid range contents.
+
 ## Table of contents
 
 ### Constructors
@@ -21,16 +23,18 @@
 
 • **new LinkedEditingRanges**(`ranges`, `wordPattern?`)
 
+Create a new linked editing ranges object.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `ranges` | [`Range`](codearts_plugin_.Range.md)[] |  |
-| `wordPattern?` | `RegExp` |  |
+| `ranges` | [`Range`](codearts_plugin_.Range.md)[] | A list of ranges that can be edited together |
+| `wordPattern?` | `RegExp` | An optional word pattern that describes valid contents for the given ranges |
 
 #### Defined in
 
-[index.d.ts:5385](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5385)
+[index.d.ts:5385](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5385)
 
 ## Properties
 
@@ -38,9 +42,12 @@
 
 • `Readonly` **ranges**: [`Range`](codearts_plugin_.Range.md)[]
 
+A list of ranges that can be edited together. The ranges must have
+identical length and text content. The ranges cannot overlap.
+
 #### Defined in
 
-[index.d.ts:5391](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5391)
+[index.d.ts:5391](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5391)
 
 ___
 
@@ -48,6 +55,9 @@ ___
 
 • `Readonly` **wordPattern**: `undefined` \| `RegExp`
 
+An optional word pattern that describes valid contents for the given ranges.
+If no pattern is provided, the language configuration's word pattern will be used.
+
 #### Defined in
 
-[index.d.ts:5397](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5397)
+[index.d.ts:5397](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5397)

@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DebugSession
 
+A debug session.
+
 ## Table of contents
 
 ### Properties
@@ -26,9 +28,14 @@
 
 • `Readonly` **configuration**: [`DebugConfiguration`](codearts_plugin_.DebugConfiguration.md)
 
+The "resolved" [debug configuration](codearts_plugin_.DebugConfiguration.md) of this session.
+"Resolved" means that
+- all variables have been substituted and
+- platform specific attribute sections have been "flattened" for the matching platform and removed for non-matching platforms.
+
 #### Defined in
 
-[index.d.ts:14120](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14120)
+[index.d.ts:14182](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14182)
 
 ___
 
@@ -36,9 +43,11 @@ ___
 
 • `Readonly` **id**: `string`
 
+The unique ID of this debug session.
+
 #### Defined in
 
-[index.d.ts:14090](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14090)
+[index.d.ts:14152](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14152)
 
 ___
 
@@ -46,9 +55,12 @@ ___
 
 • **name**: `string`
 
+The debug session's name is initially taken from the [debug configuration](codearts_plugin_.DebugConfiguration.md).
+Any changes will be properly reflected in the UI.
+
 #### Defined in
 
-[index.d.ts:14107](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14107)
+[index.d.ts:14169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14169)
 
 ___
 
@@ -56,9 +68,15 @@ ___
 
 • `Optional` `Readonly` **parentSession**: [`DebugSession`](codearts_plugin_.DebugSession.md)
 
+The parent session of this debug session, if it was created as a child.
+
+**`See`**
+
+DebugSessionOptions.parentSession
+
 #### Defined in
 
-[index.d.ts:14101](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14101)
+[index.d.ts:14163](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14163)
 
 ___
 
@@ -66,9 +84,11 @@ ___
 
 • `Readonly` **type**: `string`
 
+The debug session's type from the [debug configuration](codearts_plugin_.DebugConfiguration.md).
+
 #### Defined in
 
-[index.d.ts:14095](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14095)
+[index.d.ts:14157](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14157)
 
 ___
 
@@ -76,15 +96,19 @@ ___
 
 • `Readonly` **workspaceFolder**: `undefined` \| [`WorkspaceFolder`](codearts_plugin_.WorkspaceFolder.md)
 
+The workspace folder of this session or `undefined` for a folderless setup.
+
 #### Defined in
 
-[index.d.ts:14112](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14112)
+[index.d.ts:14174](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14174)
 
 ## Methods
 
 ### customRequest
 
 ▸ **customRequest**(`command`, `args?`): [`Thenable`](Thenable.md)<`any`\>
+
+Send a custom request to the debug adapter.
 
 #### Parameters
 
@@ -99,7 +123,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14125](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14125)
+[index.d.ts:14187](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14187)
 
 ___
 
@@ -107,16 +131,21 @@ ___
 
 ▸ **getDebugProtocolBreakpoint**(`breakpoint`): [`Thenable`](Thenable.md)<`undefined` \| [`DebugProtocolBreakpoint`](codearts_plugin_.DebugProtocolBreakpoint.md)\>
 
+Maps a breakpoint in the editor to the corresponding Debug Adapter Protocol (DAP) breakpoint that is managed by the debug adapter of the debug session.
+If no DAP breakpoint exists (either because the editor breakpoint was not yet registered or because the debug adapter is not interested in the breakpoint), the value `undefined` is returned.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `breakpoint` | [`Breakpoint`](../classes/codearts_plugin_.Breakpoint.md) |  |
+| `breakpoint` | [`Breakpoint`](../classes/codearts_plugin_.Breakpoint.md) | A [Breakpoint](../classes/codearts_plugin_.Breakpoint.md) in the editor. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`undefined` \| [`DebugProtocolBreakpoint`](codearts_plugin_.DebugProtocolBreakpoint.md)\>
 
+A promise that resolves to the Debug Adapter Protocol breakpoint or `undefined`.
+
 #### Defined in
 
-[index.d.ts:14134](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14134)
+[index.d.ts:14196](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14196)

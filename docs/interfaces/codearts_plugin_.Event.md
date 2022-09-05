@@ -16,18 +16,23 @@
 
 ▸ **Event**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `listener` | (`e`: `T`) => `any` |  |
-| `thisArgs?` | `any` |  |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |  |
+| `listener` | (`e`: `T`) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)

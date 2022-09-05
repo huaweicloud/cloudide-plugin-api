@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TestRunProfile
 
+A TestRunProfile describes one way to execute tests in a [TestController](codearts_plugin_.TestController.md).
+
 ## Table of contents
 
 ### Properties
@@ -12,12 +14,12 @@
 - [isDefault](codearts_plugin_.TestRunProfile.md#isdefault)
 - [kind](codearts_plugin_.TestRunProfile.md#kind)
 - [label](codearts_plugin_.TestRunProfile.md#label)
+- [runHandler](codearts_plugin_.TestRunProfile.md#runhandler)
 - [tag](codearts_plugin_.TestRunProfile.md#tag)
 
 ### Methods
 
 - [dispose](codearts_plugin_.TestRunProfile.md#dispose)
-- [runHandler](codearts_plugin_.TestRunProfile.md#runhandler)
 
 ## Properties
 
@@ -25,9 +27,14 @@
 
 • **configureHandler**: `undefined` \| () => `void`
 
+If this method is present, a configuration gear will be present in the
+UI, and this method will be invoked when it's clicked. When called,
+you can take other editor actions, such as showing a quick pick or
+opening a configuration file.
+
 #### Defined in
 
-[index.d.ts:15393](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15393)
+[index.d.ts:15455](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15455)
 
 ___
 
@@ -35,9 +42,15 @@ ___
 
 • **isDefault**: `boolean`
 
+Controls whether this profile is the default action that will
+be taken when its kind is actioned. For example, if the user clicks
+the generic "run all" button, then the default profile for
+[Run](../enums/codearts_plugin_.TestRunProfileKind.md#run) will be executed, although the
+user can configure this.
+
 #### Defined in
 
-[index.d.ts:15379](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15379)
+[index.d.ts:15441](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15441)
 
 ___
 
@@ -45,9 +58,12 @@ ___
 
 • `Readonly` **kind**: [`TestRunProfileKind`](../enums/codearts_plugin_.TestRunProfileKind.md)
 
+Configures what kind of execution this profile controls. If there
+are no profiles for a kind, it will not be available in the UI.
+
 #### Defined in
 
-[index.d.ts:15370](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15370)
+[index.d.ts:15432](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15432)
 
 ___
 
@@ -55,9 +71,47 @@ ___
 
 • **label**: `string`
 
+Label shown to the user in the UI.
+
+Note that the label has some significance if the user requests that
+tests be re-run in a certain way. For example, if tests were run
+normally and the user requests to re-run them in debug mode, the editor
+will attempt use a configuration with the same label of the `Debug`
+kind. If there is no such configuration, the default will be used.
+
 #### Defined in
 
-[index.d.ts:15364](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15364)
+[index.d.ts:15426](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15426)
+
+___
+
+### runHandler
+
+• **runHandler**: (`request`: [`TestRunRequest`](../classes/codearts_plugin_.TestRunRequest.md), `token`: [`CancellationToken`](codearts_plugin_.CancellationToken.md)) => `void` \| [`Thenable`](Thenable.md)<`void`\>
+
+#### Type declaration
+
+▸ (`request`, `token`): `void` \| [`Thenable`](Thenable.md)<`void`\>
+
+Handler called to start a test run. When invoked, the function should call
+[createTestRun](codearts_plugin_.TestController.md#createtestrun) at least once, and all test runs
+associated with the request should be created before the function returns
+or the returned promise is resolved.
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `request` | [`TestRunRequest`](../classes/codearts_plugin_.TestRunRequest.md) | Request information for the test run. |
+| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | - |
+
+##### Returns
+
+`void` \| [`Thenable`](Thenable.md)<`void`\>
+
+#### Defined in
+
+[index.d.ts:15469](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15469)
 
 ___
 
@@ -65,9 +119,12 @@ ___
 
 • **tag**: `undefined` \| [`TestTag`](../classes/codearts_plugin_.TestTag.md)
 
+Associated tag for the profile. If this is set, only [TestItem](codearts_plugin_.TestItem.md)
+instances with the same tag will be eligible to execute in this profile.
+
 #### Defined in
 
-[index.d.ts:15385](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15385)
+[index.d.ts:15447](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15447)
 
 ## Methods
 
@@ -75,31 +132,12 @@ ___
 
 ▸ **dispose**(): `void`
 
+Deletes the run profile.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:15412](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15412)
-
-___
-
-### runHandler
-
-▸ **runHandler**(`request`, `token`): `void` \| [`Thenable`](Thenable.md)<`void`\>
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `request` | [`TestRunRequest`](../classes/codearts_plugin_.TestRunRequest.md) |  |
-| `token` | [`CancellationToken`](codearts_plugin_.CancellationToken.md) | - |
-
-#### Returns
-
-`void` \| [`Thenable`](Thenable.md)<`void`\>
-
-#### Defined in
-
-[index.d.ts:15407](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15407)
+[index.d.ts:15474](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15474)

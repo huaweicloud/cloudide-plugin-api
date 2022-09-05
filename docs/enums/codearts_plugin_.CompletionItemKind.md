@@ -4,9 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CompletionItemKind
 
+Completion item kinds.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Class](codearts_plugin_.CompletionItemKind.md#class)
 - [Color](codearts_plugin_.CompletionItemKind.md#color)
@@ -36,272 +38,272 @@
 - [Value](codearts_plugin_.CompletionItemKind.md#value)
 - [Variable](codearts_plugin_.CompletionItemKind.md#variable)
 
-## Enumeration members
+## Enumeration Members
 
 ### Class
 
-• **Class** = `Object` = `6`
+• **Class** = ``6``
 
 #### Defined in
 
-[index.d.ts:4213](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4213)
+[index.d.ts:4213](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4213)
 
 ___
 
 ### Color
 
-• **Color** = `Object` = `15`
+• **Color** = ``15``
 
 #### Defined in
 
-[index.d.ts:4222](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4222)
+[index.d.ts:4222](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4222)
 
 ___
 
 ### Constant
 
-• **Constant** = `Object` = `20`
+• **Constant** = ``20``
 
 #### Defined in
 
-[index.d.ts:4227](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4227)
+[index.d.ts:4227](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4227)
 
 ___
 
 ### Constructor
 
-• **Constructor** = `Object` = `3`
+• **Constructor** = ``3``
 
 #### Defined in
 
-[index.d.ts:4210](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4210)
+[index.d.ts:4210](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4210)
 
 ___
 
 ### Enum
 
-• **Enum** = `Object` = `12`
+• **Enum** = ``12``
 
 #### Defined in
 
-[index.d.ts:4219](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4219)
+[index.d.ts:4219](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4219)
 
 ___
 
 ### EnumMember
 
-• **EnumMember** = `Object` = `19`
+• **EnumMember** = ``19``
 
 #### Defined in
 
-[index.d.ts:4226](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4226)
+[index.d.ts:4226](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4226)
 
 ___
 
 ### Event
 
-• **Event** = `Object` = `22`
+• **Event** = ``22``
 
 #### Defined in
 
-[index.d.ts:4229](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4229)
+[index.d.ts:4229](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4229)
 
 ___
 
 ### Field
 
-• **Field** = `Object` = `4`
+• **Field** = ``4``
 
 #### Defined in
 
-[index.d.ts:4211](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4211)
+[index.d.ts:4211](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4211)
 
 ___
 
 ### File
 
-• **File** = `Object` = `16`
+• **File** = ``16``
 
 #### Defined in
 
-[index.d.ts:4224](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4224)
+[index.d.ts:4224](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4224)
 
 ___
 
 ### Folder
 
-• **Folder** = `Object` = `18`
+• **Folder** = ``18``
 
 #### Defined in
 
-[index.d.ts:4225](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4225)
+[index.d.ts:4225](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4225)
 
 ___
 
 ### Function
 
-• **Function** = `Object` = `2`
+• **Function** = ``2``
 
 #### Defined in
 
-[index.d.ts:4209](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4209)
+[index.d.ts:4209](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4209)
 
 ___
 
 ### Interface
 
-• **Interface** = `Object` = `7`
+• **Interface** = ``7``
 
 #### Defined in
 
-[index.d.ts:4214](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4214)
+[index.d.ts:4214](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4214)
 
 ___
 
 ### Issue
 
-• **Issue** = `Object` = `26`
+• **Issue** = ``26``
 
 #### Defined in
 
-[index.d.ts:4233](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4233)
+[index.d.ts:4233](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4233)
 
 ___
 
 ### Keyword
 
-• **Keyword** = `Object` = `13`
+• **Keyword** = ``13``
 
 #### Defined in
 
-[index.d.ts:4220](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4220)
+[index.d.ts:4220](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4220)
 
 ___
 
 ### Method
 
-• **Method** = `Object` = `1`
+• **Method** = ``1``
 
 #### Defined in
 
-[index.d.ts:4208](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4208)
+[index.d.ts:4208](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4208)
 
 ___
 
 ### Module
 
-• **Module** = `Object` = `8`
+• **Module** = ``8``
 
 #### Defined in
 
-[index.d.ts:4215](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4215)
+[index.d.ts:4215](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4215)
 
 ___
 
 ### Operator
 
-• **Operator** = `Object` = `23`
+• **Operator** = ``23``
 
 #### Defined in
 
-[index.d.ts:4230](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4230)
+[index.d.ts:4230](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4230)
 
 ___
 
 ### Property
 
-• **Property** = `Object` = `9`
+• **Property** = ``9``
 
 #### Defined in
 
-[index.d.ts:4216](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4216)
+[index.d.ts:4216](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4216)
 
 ___
 
 ### Reference
 
-• **Reference** = `Object` = `17`
+• **Reference** = ``17``
 
 #### Defined in
 
-[index.d.ts:4223](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4223)
+[index.d.ts:4223](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4223)
 
 ___
 
 ### Snippet
 
-• **Snippet** = `Object` = `14`
+• **Snippet** = ``14``
 
 #### Defined in
 
-[index.d.ts:4221](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4221)
+[index.d.ts:4221](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4221)
 
 ___
 
 ### Struct
 
-• **Struct** = `Object` = `21`
+• **Struct** = ``21``
 
 #### Defined in
 
-[index.d.ts:4228](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4228)
+[index.d.ts:4228](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4228)
 
 ___
 
 ### Text
 
-• **Text** = `Object` = `0`
+• **Text** = ``0``
 
 #### Defined in
 
-[index.d.ts:4207](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4207)
+[index.d.ts:4207](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4207)
 
 ___
 
 ### TypeParameter
 
-• **TypeParameter** = `Object` = `24`
+• **TypeParameter** = ``24``
 
 #### Defined in
 
-[index.d.ts:4231](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4231)
+[index.d.ts:4231](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4231)
 
 ___
 
 ### Unit
 
-• **Unit** = `Object` = `10`
+• **Unit** = ``10``
 
 #### Defined in
 
-[index.d.ts:4217](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4217)
+[index.d.ts:4217](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4217)
 
 ___
 
 ### User
 
-• **User** = `Object` = `25`
+• **User** = ``25``
 
 #### Defined in
 
-[index.d.ts:4232](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4232)
+[index.d.ts:4232](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4232)
 
 ___
 
 ### Value
 
-• **Value** = `Object` = `11`
+• **Value** = ``11``
 
 #### Defined in
 
-[index.d.ts:4218](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4218)
+[index.d.ts:4218](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4218)
 
 ___
 
 ### Variable
 
-• **Variable** = `Object` = `5`
+• **Variable** = ``5``
 
 #### Defined in
 
-[index.d.ts:4212](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4212)
+[index.d.ts:4212](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4212)

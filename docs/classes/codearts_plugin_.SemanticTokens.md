@@ -4,6 +4,13 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SemanticTokens
 
+Represents semantic tokens, either in a range or in an entire document.
+
+**`See`**
+
+ - [provideDocumentSemanticTokens](../interfaces/codearts_plugin_.DocumentSemanticTokensProvider.md#providedocumentsemantictokens) for an explanation of the format.
+ - [SemanticTokensBuilder](codearts_plugin_.SemanticTokensBuilder.md) for a helper to create an instance.
+
 ## Table of contents
 
 ### Constructors
@@ -30,7 +37,7 @@
 
 #### Defined in
 
-[index.d.ts:3748](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3748)
+[index.d.ts:3748](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3748)
 
 ## Properties
 
@@ -38,9 +45,15 @@
 
 • `Readonly` **data**: `Uint32Array`
 
+The actual tokens data.
+
+**`See`**
+
+[provideDocumentSemanticTokens](../interfaces/codearts_plugin_.DocumentSemanticTokensProvider.md#providedocumentsemantictokens) for an explanation of the format.
+
 #### Defined in
 
-[index.d.ts:3746](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3746)
+[index.d.ts:3746](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3746)
 
 ___
 
@@ -48,6 +61,10 @@ ___
 
 • `Readonly` **resultId**: `undefined` \| `string`
 
+The result id of the tokens.
+
+This is the id that will be passed to `DocumentSemanticTokensProvider.provideDocumentSemanticTokensEdits` (if implemented).
+
 #### Defined in
 
-[index.d.ts:3741](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3741)
+[index.d.ts:3741](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3741)

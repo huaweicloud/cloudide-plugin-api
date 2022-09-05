@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SecretStorage
 
+Represents a storage utility for secrets, information that is
+sensitive.
+
 ## Table of contents
 
 ### Properties
@@ -22,9 +25,11 @@
 
 • **onDidChange**: [`Event`](codearts_plugin_.Event.md)<[`SecretStorageChangeEvent`](codearts_plugin_.SecretStorageChangeEvent.md)\>
 
+Fires when a secret is stored or deleted.
+
 #### Defined in
 
-[index.d.ts:7054](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7054)
+[index.d.ts:7054](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7054)
 
 ## Methods
 
@@ -32,11 +37,13 @@
 
 ▸ **delete**(`key`): [`Thenable`](Thenable.md)<`void`\>
 
+Remove a secret from storage.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
+| `key` | `string` | The key the secret was stored under. |
 
 #### Returns
 
@@ -44,7 +51,7 @@
 
 #### Defined in
 
-[index.d.ts:7049](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7049)
+[index.d.ts:7049](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7049)
 
 ___
 
@@ -52,19 +59,24 @@ ___
 
 ▸ **get**(`key`): [`Thenable`](Thenable.md)<`undefined` \| `string`\>
 
+Retrieve a secret that was stored with key. Returns undefined if there
+is no password matching that key.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
+| `key` | `string` | The key the secret was stored under. |
 
 #### Returns
 
 [`Thenable`](Thenable.md)<`undefined` \| `string`\>
 
+The stored value or `undefined`.
+
 #### Defined in
 
-[index.d.ts:7036](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7036)
+[index.d.ts:7036](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7036)
 
 ___
 
@@ -72,12 +84,14 @@ ___
 
 ▸ **store**(`key`, `value`): [`Thenable`](Thenable.md)<`void`\>
 
+Store a secret under a given key.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` |  |
-| `value` | `string` |  |
+| `key` | `string` | The key to store the secret under. |
+| `value` | `string` | The secret. |
 
 #### Returns
 
@@ -85,4 +99,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7043](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7043)
+[index.d.ts:7043](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7043)

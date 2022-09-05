@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](_codearts_plugin_.md).tasks
 
+Namespace for tasks functionality.
+
 ## Table of contents
 
 ### Variables
@@ -24,11 +26,13 @@
 
 ### taskExecutions
 
-• **taskExecutions**: readonly [`TaskExecution`](../interfaces/codearts_plugin_.TaskExecution.md)[]
+• `Const` **taskExecutions**: readonly [`TaskExecution`](../interfaces/codearts_plugin_.TaskExecution.md)[]
+
+The currently active task executions or an empty array.
 
 #### Defined in
 
-[index.d.ts:7740](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7740)
+[index.d.ts:7740](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7740)
 
 ## Functions
 
@@ -36,11 +40,20 @@
 
 ▸ **executeTask**(`task`): [`Thenable`](../interfaces/Thenable.md)<[`TaskExecution`](../interfaces/codearts_plugin_.TaskExecution.md)\>
 
+Executes a task that is managed by the editor. The returned
+task execution can be used to terminate the task.
+
+**`Throws`**
+
+When running a ShellExecution or a ProcessExecution
+task in an environment where a new process cannot be started.
+In such an environment, only CustomExecution tasks can be run.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `task` | [`Task`](../classes/codearts_plugin_.Task.md) |  |
+| `task` | [`Task`](../classes/codearts_plugin_.Task.md) | the task to execute |
 
 #### Returns
 
@@ -48,7 +61,7 @@
 
 #### Defined in
 
-[index.d.ts:7735](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7735)
+[index.d.ts:7735](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7735)
 
 ___
 
@@ -56,11 +69,15 @@ ___
 
 ▸ **fetchTasks**(`filter?`): [`Thenable`](../interfaces/Thenable.md)<[`Task`](../classes/codearts_plugin_.Task.md)[]\>
 
+Fetches all tasks available in the systems. This includes tasks
+from `tasks.json` files as well as tasks from task providers
+contributed through extensions.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `filter?` | [`TaskFilter`](../interfaces/codearts_plugin_.TaskFilter.md) |  |
+| `filter?` | [`TaskFilter`](../interfaces/codearts_plugin_.TaskFilter.md) | Optional filter to select tasks of a certain type or version. |
 
 #### Returns
 
@@ -68,95 +85,115 @@ ___
 
 #### Defined in
 
-[index.d.ts:7723](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7723)
+[index.d.ts:7723](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7723)
 
 ___
 
 ### onDidEndTask
 
-▸ `Const` **onDidEndTask**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidEndTask**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TaskEndEvent`](../interfaces/codearts_plugin_.TaskEndEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TaskEndEvent`](../interfaces/codearts_plugin_.TaskEndEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:7750](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7750)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidEndTaskProcess
 
-▸ `Const` **onDidEndTaskProcess**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidEndTaskProcess**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TaskProcessEndEvent`](../interfaces/codearts_plugin_.TaskProcessEndEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TaskProcessEndEvent`](../interfaces/codearts_plugin_.TaskProcessEndEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:7764](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7764)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidStartTask
 
-▸ `Const` **onDidStartTask**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidStartTask**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TaskStartEvent`](../interfaces/codearts_plugin_.TaskStartEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TaskStartEvent`](../interfaces/codearts_plugin_.TaskStartEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:7745](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7745)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
 ### onDidStartTaskProcess
 
-▸ `Const` **onDidStartTaskProcess**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+▸ **onDidStartTaskProcess**(`listener`, `thisArgs?`, `disposables?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+A function that represents an event to which you subscribe by calling it with
+a listener function as argument.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `listener` | (`e`: [`TaskProcessStartEvent`](../interfaces/codearts_plugin_.TaskProcessStartEvent.md)) => `any` |
-| `thisArgs?` | `any` |
-| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `listener` | (`e`: [`TaskProcessStartEvent`](../interfaces/codearts_plugin_.TaskProcessStartEvent.md)) => `any` | The listener function will be called when the event happens. |
+| `thisArgs?` | `any` | The `this`-argument which will be used when calling the event listener. |
+| `disposables?` | [`Disposable`](../classes/codearts_plugin_.Disposable.md)[] | An array to which a [Disposable](../classes/codearts_plugin_.Disposable.md) will be added. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A disposable which unsubscribes the event listener.
+
 #### Defined in
 
-[index.d.ts:7757](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7757)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
 
 ___
 
@@ -164,17 +201,21 @@ ___
 
 ▸ **registerTaskProvider**(`type`, `provider`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+Register a task provider.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `type` | `string` |  |
-| `provider` | [`TaskProvider`](../interfaces/codearts_plugin_.TaskProvider.md)<[`Task`](../classes/codearts_plugin_.Task.md)\> |  |
+| `type` | `string` | The task kind type this provider is registered for. |
+| `provider` | [`TaskProvider`](../interfaces/codearts_plugin_.TaskProvider.md)<[`Task`](../classes/codearts_plugin_.Task.md)\> | A task provider. |
 
 #### Returns
 
 [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
+A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this provider when being disposed.
+
 #### Defined in
 
-[index.d.ts:7714](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7714)
+[index.d.ts:7714](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7714)

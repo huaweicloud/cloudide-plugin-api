@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).CustomDocument
 
+Represents a custom document used by a [`CustomEditorProvider`](codearts_plugin_.CustomEditorProvider.md).
+
+Custom documents are only used within a given `CustomEditorProvider`. The lifecycle of a `CustomDocument` is
+managed by the editor. When no more references remain to a `CustomDocument`, it is disposed of.
+
 ## Table of contents
 
 ### Properties
@@ -20,9 +25,11 @@
 
 • `Readonly` **uri**: [`Uri`](../classes/codearts_plugin_.Uri.md)
 
+The associated uri for this document.
+
 #### Defined in
 
-[index.d.ts:8696](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8696)
+[index.d.ts:8696](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8696)
 
 ## Methods
 
@@ -30,10 +37,15 @@
 
 ▸ **dispose**(): `void`
 
+Dispose of the custom document.
+
+This is invoked by the editor when there are no more references to a given `CustomDocument` (for example when
+all editors associated with the document have been closed.)
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:8704](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L8704)
+[index.d.ts:8704](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8704)

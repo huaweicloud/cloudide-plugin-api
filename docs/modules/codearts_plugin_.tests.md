@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](_codearts_plugin_.md).tests
 
+Namespace for testing functionality. Tests are published by registering
+[TestController](../interfaces/codearts_plugin_.TestController.md) instances, then adding [TestItems](../interfaces/codearts_plugin_.TestItem.md).
+Controllers may also describe how to run tests by creating one or more
+[TestRunProfile](../interfaces/codearts_plugin_.TestRunProfile.md) instances.
+
 ## Table of contents
 
 ### Functions
@@ -16,17 +21,21 @@
 
 ▸ **createTestController**(`id`, `label`): [`TestController`](../interfaces/codearts_plugin_.TestController.md)
 
+Creates a new test controller.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `id` | `string` |  |
-| `label` | `string` |  |
+| `id` | `string` | Identifier for the controller, must be globally unique. |
+| `label` | `string` | A human-readable label for the controller. |
 
 #### Returns
 
 [`TestController`](../interfaces/codearts_plugin_.TestController.md)
 
+An instance of the [TestController](../interfaces/codearts_plugin_.TestController.md).
+
 #### Defined in
 
-[index.d.ts:15320](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L15320)
+[index.d.ts:15382](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15382)

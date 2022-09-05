@@ -4,40 +4,42 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).LanguageStatusSeverity
 
+Represents the severity of a language status item.
+
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Error](codearts_plugin_.LanguageStatusSeverity.md#error)
 - [Information](codearts_plugin_.LanguageStatusSeverity.md#information)
 - [Warning](codearts_plugin_.LanguageStatusSeverity.md#warning)
 
-## Enumeration members
+## Enumeration Members
 
 ### Error
 
-• **Error** = `Object` = `2`
+• **Error** = ``2``
 
 #### Defined in
 
-[index.d.ts:6074](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6074)
+[index.d.ts:6074](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6074)
 
 ___
 
 ### Information
 
-• **Information** = `Object` = `0`
+• **Information** = ``0``
 
 #### Defined in
 
-[index.d.ts:6072](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6072)
+[index.d.ts:6072](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6072)
 
 ___
 
 ### Warning
 
-• **Warning** = `Object` = `1`
+• **Warning** = ``1``
 
 #### Defined in
 
-[index.d.ts:6073](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6073)
+[index.d.ts:6073](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6073)

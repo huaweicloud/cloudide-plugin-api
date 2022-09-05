@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SignatureHelp
 
+Signature help represents the signature of something
+callable. There can be multiple signatures but only one
+active and only one active parameter.
+
 ## Table of contents
 
 ### Constructors
@@ -28,9 +32,11 @@
 
 • **activeParameter**: `number`
 
+The active parameter of the active signature.
+
 #### Defined in
 
-[index.d.ts:4082](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4082)
+[index.d.ts:4082](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4082)
 
 ___
 
@@ -38,9 +44,11 @@ ___
 
 • **activeSignature**: `number`
 
+The active signature.
+
 #### Defined in
 
-[index.d.ts:4077](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4077)
+[index.d.ts:4077](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4077)
 
 ___
 
@@ -48,6 +56,8 @@ ___
 
 • **signatures**: [`SignatureInformation`](codearts_plugin_.SignatureInformation.md)[]
 
+One or more signatures.
+
 #### Defined in
 
-[index.d.ts:4072](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4072)
+[index.d.ts:4072](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4072)

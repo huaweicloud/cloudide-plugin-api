@@ -2,6 +2,11 @@
 
 # Namespace: "@codearts/plugin"
 
+*****************************************************************************
+Copyright (C) 2020. Huawei Technologies Co., Ltd. All rights reserved.
+SPDX-License-Identifier: MIT
+******************************************************************************
+
 ## Table of contents
 
 ### Namespaces
@@ -76,6 +81,7 @@
 - [TreeItemCollapsibleState](../enums/codearts_plugin_.TreeItemCollapsibleState.md)
 - [UIKind](../enums/codearts_plugin_.UIKind.md)
 - [ViewColumn](../enums/codearts_plugin_.ViewColumn.md)
+- [WebviewPanelTargetArea](../enums/codearts_plugin_.WebviewPanelTargetArea.md)
 
 ### Classes
 
@@ -234,6 +240,7 @@
 - [DefinitionProvider](../interfaces/codearts_plugin_.DefinitionProvider.md)
 - [DiagnosticChangeEvent](../interfaces/codearts_plugin_.DiagnosticChangeEvent.md)
 - [DiagnosticCollection](../interfaces/codearts_plugin_.DiagnosticCollection.md)
+- [DialogOptions](../interfaces/codearts_plugin_.DialogOptions.md)
 - [DocumentColorProvider](../interfaces/codearts_plugin_.DocumentColorProvider.md)
 - [DocumentFilter](../interfaces/codearts_plugin_.DocumentFilter.md)
 - [DocumentFormattingEditProvider](../interfaces/codearts_plugin_.DocumentFormattingEditProvider.md)
@@ -403,6 +410,7 @@
 - [WebviewPanelOptions](../interfaces/codearts_plugin_.WebviewPanelOptions.md)
 - [WebviewPanelSerializer](../interfaces/codearts_plugin_.WebviewPanelSerializer.md)
 - [WebviewPortMapping](../interfaces/codearts_plugin_.WebviewPortMapping.md)
+- [WebviewShowOptions](../interfaces/codearts_plugin_.WebviewShowOptions.md)
 - [WebviewView](../interfaces/codearts_plugin_.WebviewView.md)
 - [WebviewViewProvider](../interfaces/codearts_plugin_.WebviewViewProvider.md)
 - [WebviewViewResolveContext](../interfaces/codearts_plugin_.WebviewViewResolveContext.md)
@@ -414,7 +422,7 @@
 - [WorkspaceFoldersChangeEvent](../interfaces/codearts_plugin_.WorkspaceFoldersChangeEvent.md)
 - [WorkspaceSymbolProvider](../interfaces/codearts_plugin_.WorkspaceSymbolProvider.md)
 
-### Type aliases
+### Type Aliases
 
 - [CharacterPair](_codearts_plugin_.md#characterpair)
 - [ConfigurationScope](_codearts_plugin_.md#configurationscope)
@@ -432,15 +440,18 @@
 
 - [version](_codearts_plugin_.md#version)
 
-## Type aliases
+## Type Aliases
 
 ### CharacterPair
 
 Ƭ **CharacterPair**: [`string`, `string`]
 
+A tuple of two characters, like a pair of
+opening and closing brackets.
+
 #### Defined in
 
-[index.d.ts:5423](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L5423)
+[index.d.ts:5423](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5423)
 
 ___
 
@@ -448,9 +459,14 @@ ___
 
 Ƭ **ConfigurationScope**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| [`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md) \| [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) \| { `languageId`: `string` ; `uri?`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }
 
+The configuration scope which can be a
+a 'resource' or a languageId or both or
+a '[TextDocument](../interfaces/codearts_plugin_.TextDocument.md)' or
+a '[WorkspaceFolder](../interfaces/codearts_plugin_.WorkspaceFolder.md)'
+
 #### Defined in
 
-[index.d.ts:12212](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L12212)
+[index.d.ts:12274](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L12274)
 
 ___
 
@@ -460,7 +476,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14321](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L14321)
+[index.d.ts:14383](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14383)
 
 ___
 
@@ -468,9 +484,12 @@ ___
 
 Ƭ **Declaration**: [`Location`](../classes/codearts_plugin_.Location.md) \| [`Location`](../classes/codearts_plugin_.Location.md)[] \| [`LocationLink`](../interfaces/codearts_plugin_.LocationLink.md)[]
 
+The declaration of a symbol representation as one or many [locations](../classes/codearts_plugin_.Location.md)
+or [location links](../interfaces/codearts_plugin_.LocationLink.md).
+
 #### Defined in
 
-[index.d.ts:2714](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2714)
+[index.d.ts:2714](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2714)
 
 ___
 
@@ -478,9 +497,13 @@ ___
 
 Ƭ **Definition**: [`Location`](../classes/codearts_plugin_.Location.md) \| [`Location`](../classes/codearts_plugin_.Location.md)[]
 
+The definition of a symbol represented as one or many [locations](../classes/codearts_plugin_.Location.md).
+For most programming languages there is only one location at which a symbol is
+defined.
+
 #### Defined in
 
-[index.d.ts:2653](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2653)
+[index.d.ts:2653](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2653)
 
 ___
 
@@ -488,9 +511,14 @@ ___
 
 Ƭ **DefinitionLink**: [`LocationLink`](../interfaces/codearts_plugin_.LocationLink.md)
 
+Information about where a symbol is defined.
+
+Provides additional metadata over normal [Location](../classes/codearts_plugin_.Location.md) definitions, including the range of
+the defining symbol
+
 #### Defined in
 
-[index.d.ts:2646](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2646)
+[index.d.ts:2646](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2646)
 
 ___
 
@@ -498,9 +526,23 @@ ___
 
 Ƭ **DocumentSelector**: [`DocumentFilter`](../interfaces/codearts_plugin_.DocumentFilter.md) \| `string` \| `ReadonlyArray`<[`DocumentFilter`](../interfaces/codearts_plugin_.DocumentFilter.md) \| `string`\>
 
+A language selector is the combination of one or many language identifiers
+and [language filters](../interfaces/codearts_plugin_.DocumentFilter.md).
+
+*Note* that a document selector that is just a language identifier selects *all*
+documents, even those that are not saved on disk. Only use such selectors when
+a feature works without further context, e.g. without the need to resolve related
+'files'.
+
+**`Example`**
+
+```ts
+let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
+```
+
 #### Defined in
 
-[index.d.ts:2200](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2200)
+[index.d.ts:2200](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2200)
 
 ___
 
@@ -508,9 +550,25 @@ ___
 
 Ƭ **GlobPattern**: `string` \| [`RelativePattern`](../classes/codearts_plugin_.RelativePattern.md)
 
+A file glob pattern to match file paths against. This can either be a glob pattern string
+(like `**​/*.{ts,js}` or `*.{ts,js}`) or a [relative pattern](../classes/codearts_plugin_.RelativePattern.md).
+
+Glob patterns can have the following syntax:
+* `*` to match zero or more characters in a path segment
+* `?` to match on one character in a path segment
+* `**` to match any number of path segments, including none
+* `{}` to group conditions (e.g. `**​/*.{ts,js}` matches all TypeScript and JavaScript files)
+* `[]` to declare a range of characters to match in a path segment (e.g., `example.[0-9]` to match on `example.0`, `example.1`, …)
+* `[!...]` to negate a range of characters to match in a path segment (e.g., `example.[!0-9]` to match on `example.a`, `example.b`, but not `example.0`)
+
+Note: a backslash (``) is not valid within a glob pattern. If you have an existing file
+path to match against, consider to use the [relative pattern](../classes/codearts_plugin_.RelativePattern.md) support
+that takes care of converting any backslash into slash. Otherwise, make sure to convert
+any backslash to slash when creating the glob pattern.
+
 #### Defined in
 
-[index.d.ts:2144](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2144)
+[index.d.ts:2144](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2144)
 
 ___
 
@@ -518,9 +576,15 @@ ___
 
 Ƭ **InlineValue**: [`InlineValueText`](../classes/codearts_plugin_.InlineValueText.md) \| [`InlineValueVariableLookup`](../classes/codearts_plugin_.InlineValueVariableLookup.md) \| [`InlineValueEvaluatableExpression`](../classes/codearts_plugin_.InlineValueEvaluatableExpression.md)
 
+Inline value information can be provided by different means:
+- directly as a text value (class InlineValueText).
+- as a name to use for a variable lookup (class InlineValueVariableLookup)
+- as an evaluatable expression (class InlineValueEvaluatableExpression)
+The InlineValue types combines all inline value types into one type.
+
 #### Defined in
 
-[index.d.ts:3007](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L3007)
+[index.d.ts:3007](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3007)
 
 ___
 
@@ -528,15 +592,52 @@ ___
 
 Ƭ **MarkedString**: `string` \| { `language`: `string` ; `value`: `string`  }
 
+MarkedString can be used to render human-readable text. It is either a markdown string
+or a code-block that provides a language and a code snippet. Note that
+markdown strings will be sanitized - that means html will be escaped.
+
+**`Deprecated`**
+
+This type is deprecated, please use [`MarkdownString`](../classes/codearts_plugin_.MarkdownString.md) instead.
+
 #### Defined in
 
-[index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2828)
+[index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2828)
 
 ___
 
 ### ProviderResult
 
 Ƭ **ProviderResult**<`T`\>: `T` \| `undefined` \| ``null`` \| [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined` \| ``null``\>
+
+A provider result represents the values a provider, like the [`HoverProvider`](../interfaces/codearts_plugin_.HoverProvider.md),
+may return. For once this is the actual result type `T`, like `Hover`, or a thenable that resolves
+to that type `T`. In addition, `null` and `undefined` can be returned - either directly or from a
+thenable.
+
+The snippets below are all valid implementations of the [`HoverProvider`](../interfaces/codearts_plugin_.HoverProvider.md):
+
+```ts
+let a: HoverProvider = {
+	provideHover(doc, pos, token): ProviderResult<Hover> {
+		return new Hover('Hello World');
+	}
+}
+
+let b: HoverProvider = {
+	provideHover(doc, pos, token): ProviderResult<Hover> {
+		return new Promise(resolve => {
+			resolve(new Hover('Hello World'));
+	 	});
+	}
+}
+
+let c: HoverProvider = {
+	provideHover(doc, pos, token): ProviderResult<Hover> {
+		return; // undefined
+	}
+}
+```
 
 #### Type parameters
 
@@ -546,14 +647,16 @@ ___
 
 #### Defined in
 
-[index.d.ts:2232](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L2232)
+[index.d.ts:2232](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2232)
 
 ## Variables
 
 ### version
 
-• **version**: `string`
+• `Const` **version**: `string`
+
+The version of the editor.
 
 #### Defined in
 
-[index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L19)
+[index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L19)

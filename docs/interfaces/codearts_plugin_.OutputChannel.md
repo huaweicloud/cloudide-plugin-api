@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).OutputChannel
 
+An output channel is a container for readonly textual information.
+
+To get an instance of an `OutputChannel` use
+[createOutputChannel](../modules/codearts_plugin_.window.md#createoutputchannel).
+
 ## Table of contents
 
 ### Properties
@@ -26,9 +31,11 @@
 
 • `Readonly` **name**: `string`
 
+The human-readable name of this output channel.
+
 #### Defined in
 
-[index.d.ts:6211](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6211)
+[index.d.ts:6211](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6211)
 
 ## Methods
 
@@ -36,11 +43,13 @@
 
 ▸ **append**(`value`): `void`
 
+Append the given value to the channel.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string, falsy values will not be printed. |
 
 #### Returns
 
@@ -48,7 +57,7 @@
 
 #### Defined in
 
-[index.d.ts:6218](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6218)
+[index.d.ts:6218](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6218)
 
 ___
 
@@ -56,11 +65,14 @@ ___
 
 ▸ **appendLine**(`value`): `void`
 
+Append the given value and a line feed character
+to the channel.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string, falsy values will be printed. |
 
 #### Returns
 
@@ -68,7 +80,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6226](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6226)
+[index.d.ts:6226](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6226)
 
 ___
 
@@ -76,13 +88,15 @@ ___
 
 ▸ **clear**(): `void`
 
+Removes all output from the channel.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:6238](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6238)
+[index.d.ts:6238](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6238)
 
 ___
 
@@ -90,13 +104,15 @@ ___
 
 ▸ **dispose**(): `void`
 
+Dispose and free associated resources.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:6265](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6265)
+[index.d.ts:6265](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6265)
 
 ___
 
@@ -104,13 +120,15 @@ ___
 
 ▸ **hide**(): `void`
 
+Hide this channel from the UI.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:6260](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6260)
+[index.d.ts:6260](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6260)
 
 ___
 
@@ -118,11 +136,13 @@ ___
 
 ▸ **replace**(`value`): `void`
 
+Replaces all output from the channel with the given value.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` |  |
+| `value` | `string` | A string, falsy values will not be printed. |
 
 #### Returns
 
@@ -130,7 +150,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6233](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6233)
+[index.d.ts:6233](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6233)
 
 ___
 
@@ -138,11 +158,13 @@ ___
 
 ▸ **show**(`preserveFocus?`): `void`
 
+Reveal this channel in the UI.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `preserveFocus?` | `boolean` |  |
+| `preserveFocus?` | `boolean` | When `true` the channel will not take focus. |
 
 #### Returns
 
@@ -150,16 +172,22 @@ ___
 
 #### Defined in
 
-[index.d.ts:6245](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6245)
+[index.d.ts:6245](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6245)
 
 ▸ **show**(`column?`, `preserveFocus?`): `void`
 
+Reveal this channel in the UI.
+
+**`Deprecated`**
+
+Use the overload with just one parameter (`show(preserveFocus?: boolean): void`).
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `column?` | [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md) |  |
-| `preserveFocus?` | `boolean` |  |
+| `column?` | [`ViewColumn`](../enums/codearts_plugin_.ViewColumn.md) | This argument is **deprecated** and will be ignored. |
+| `preserveFocus?` | `boolean` | When `true` the channel will not take focus. |
 
 #### Returns
 
@@ -167,4 +195,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:6255](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L6255)
+[index.d.ts:6255](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6255)

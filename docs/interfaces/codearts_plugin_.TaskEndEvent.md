@@ -4,6 +4,10 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).TaskEndEvent
 
+An event signaling the end of an executed task.
+
+This interface is not intended to be implemented.
+
 ## Table of contents
 
 ### Properties
@@ -16,6 +20,8 @@
 
 • `Readonly` **execution**: [`TaskExecution`](codearts_plugin_.TaskExecution.md)
 
+The task item representing the task that finished.
+
 #### Defined in
 
-[index.d.ts:7652](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7652)
+[index.d.ts:7652](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7652)

@@ -4,6 +4,9 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).Disposable
 
+Represents a type which can release resources, such
+as event listening or a timer.
+
 ## Hierarchy
 
 - **`Disposable`**
@@ -31,15 +34,20 @@
 
 • **new Disposable**(`callOnDispose`)
 
+Creates a new disposable that calls the provided function
+on dispose.
+
+*Note* that an asynchronous function is not awaited.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `callOnDispose` | () => `any` |  |
+| `callOnDispose` | () => `any` | Function that disposes something. |
 
 #### Defined in
 
-[index.d.ts:1575](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1575)
+[index.d.ts:1575](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1575)
 
 ## Methods
 
@@ -47,13 +55,15 @@
 
 ▸ **dispose**(): `any`
 
+Dispose this object.
+
 #### Returns
 
 `any`
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1580)
 
 ___
 
@@ -61,16 +71,22 @@ ___
 
 ▸ `Static` **from**(...`disposableLikes`): [`Disposable`](codearts_plugin_.Disposable.md)
 
+Combine many disposable-likes into one. You can use this method when having objects with
+a dispose function which aren't instances of `Disposable`.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `...disposableLikes` | { `dispose`: () => `any`  }[] |  |
+| `...disposableLikes` | { `dispose`: () => `any`  }[] | Objects that have at least a `dispose`-function member. Note that asynchronous dispose-functions aren't awaited. |
 
 #### Returns
 
 [`Disposable`](codearts_plugin_.Disposable.md)
 
+Returns a new disposable which, upon dispose, will
+dispose all provided disposables.
+
 #### Defined in
 
-[index.d.ts:1565](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L1565)
+[index.d.ts:1565](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1565)

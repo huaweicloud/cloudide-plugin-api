@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).QuickInputButton
 
+Button for an action in a [QuickPick](codearts_plugin_.QuickPick.md) or [InputBox](codearts_plugin_.InputBox.md).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Readonly` **iconPath**: [`Uri`](../classes/codearts_plugin_.Uri.md) \| [`ThemeIcon`](../classes/codearts_plugin_.ThemeIcon.md) \| { `dark`: [`Uri`](../classes/codearts_plugin_.Uri.md) ; `light`: [`Uri`](../classes/codearts_plugin_.Uri.md)  }
 
+Icon for the button.
+
 #### Defined in
 
-[index.d.ts:11180](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11180)
+[index.d.ts:11242](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11242)
 
 ___
 
@@ -27,6 +31,8 @@ ___
 
 • `Optional` `Readonly` **tooltip**: `string`
 
+An optional tooltip.
+
 #### Defined in
 
-[index.d.ts:11185](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11185)
+[index.d.ts:11247](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11247)

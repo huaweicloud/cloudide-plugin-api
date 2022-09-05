@@ -4,6 +4,11 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileSystemError
 
+A type that filesystem providers should use to signal errors.
+
+This class has factory methods for common error-cases, like `FileNotFound` when
+a file or folder doesn't exist, use them like so: `throw vscode.FileSystemError.FileNotFound(someUri);`
+
 ## Hierarchy
 
 - `Error`
@@ -35,11 +40,13 @@
 
 • **new FileSystemError**(`messageOrUri?`)
 
+Creates a new filesystem error.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Overrides
 
@@ -47,7 +54,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7893](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7893)
+[index.d.ts:7893](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7893)
 
 ## Properties
 
@@ -55,9 +62,14 @@ Error.constructor
 
 • `Readonly` **code**: `string`
 
+A code that identifies this error.
+
+Possible values are names of errors, like [`FileNotFound`](codearts_plugin_.FileSystemError.md#filenotfound),
+or `Unknown` for unspecified errors.
+
 #### Defined in
 
-[index.d.ts:7901](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7901)
+[index.d.ts:7901](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7901)
 
 ## Methods
 
@@ -65,11 +77,14 @@ Error.constructor
 
 ▸ `Static` **FileExists**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that a file or folder already exists, e.g. when
+creating but not overwriting a file.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -77,7 +92,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7861](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7861)
+[index.d.ts:7861](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7861)
 
 ___
 
@@ -85,11 +100,13 @@ ___
 
 ▸ `Static` **FileIsADirectory**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that a file is a folder.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -97,7 +114,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7873](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7873)
+[index.d.ts:7873](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7873)
 
 ___
 
@@ -105,11 +122,13 @@ ___
 
 ▸ `Static` **FileNotADirectory**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that a file is not a folder.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -117,7 +136,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7867](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7867)
+[index.d.ts:7867](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7867)
 
 ___
 
@@ -125,11 +144,13 @@ ___
 
 ▸ `Static` **FileNotFound**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that a file or folder wasn't found.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -137,7 +158,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7854](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7854)
+[index.d.ts:7854](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7854)
 
 ___
 
@@ -145,11 +166,13 @@ ___
 
 ▸ `Static` **NoPermissions**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that an operation lacks required permissions.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -157,7 +180,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7879](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7879)
+[index.d.ts:7879](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7879)
 
 ___
 
@@ -165,11 +188,14 @@ ___
 
 ▸ `Static` **Unavailable**(`messageOrUri?`): [`FileSystemError`](codearts_plugin_.FileSystemError.md)
 
+Create an error to signal that the file system is unavailable or too busy to
+complete a request.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) |  |
+| `messageOrUri?` | `string` \| [`Uri`](codearts_plugin_.Uri.md) | Message or uri. |
 
 #### Returns
 
@@ -177,4 +203,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7886](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7886)
+[index.d.ts:7886](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7886)

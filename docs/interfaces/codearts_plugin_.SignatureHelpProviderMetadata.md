@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).SignatureHelpProviderMetadata
 
+Metadata about a registered [`SignatureHelpProvider`](codearts_plugin_.SignatureHelpProvider.md).
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,14 @@
 
 • `Readonly` **retriggerCharacters**: readonly `string`[]
 
+List of characters that re-trigger signature help.
+
+These trigger characters are only active when signature help is already showing. All trigger characters
+are also counted as re-trigger characters.
+
 #### Defined in
 
-[index.d.ts:4175](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4175)
+[index.d.ts:4175](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4175)
 
 ___
 
@@ -27,6 +34,8 @@ ___
 
 • `Readonly` **triggerCharacters**: readonly `string`[]
 
+List of characters that trigger signature help.
+
 #### Defined in
 
-[index.d.ts:4167](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L4167)
+[index.d.ts:4167](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4167)

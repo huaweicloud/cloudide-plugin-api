@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).ShellQuotingOptions
 
+The shell quoting options.
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,13 @@
 
 • `Optional` **escape**: `string` \| { `charsToEscape`: `string` ; `escapeChar`: `string`  }
 
+The character used to do character escaping. If a string is provided only spaces
+are escaped. If a `{ escapeChar, charsToEscape }` literal is provide all characters
+in `charsToEscape` are escaped using the `escapeChar`.
+
 #### Defined in
 
-[index.d.ts:7296](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7296)
+[index.d.ts:7296](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7296)
 
 ___
 
@@ -28,9 +34,11 @@ ___
 
 • `Optional` **strong**: `string`
 
+The character used for strong quoting. The string's length must be 1.
+
 #### Defined in
 
-[index.d.ts:7310](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7310)
+[index.d.ts:7310](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7310)
 
 ___
 
@@ -38,6 +46,8 @@ ___
 
 • `Optional` **weak**: `string`
 
+The character used for weak quoting. The string's length must be 1.
+
 #### Defined in
 
-[index.d.ts:7315](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L7315)
+[index.d.ts:7315](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7315)

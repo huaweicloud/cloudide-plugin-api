@@ -4,6 +4,12 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).FileWillCreateEvent
 
+An event that is fired when files are going to be created.
+
+To make modifications to the workspace before the files are created,
+call the [`waitUntil`](codearts_plugin_.FileWillCreateEvent.md#waituntil)-function with a
+thenable that resolves to a [workspace edit](../classes/codearts_plugin_.WorkspaceEdit.md).
+
 ## Table of contents
 
 ### Properties
@@ -21,9 +27,11 @@
 
 • `Readonly` **files**: readonly [`Uri`](../classes/codearts_plugin_.Uri.md)[]
 
+The files that are going to be created.
+
 #### Defined in
 
-[index.d.ts:11364](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11364)
+[index.d.ts:11426](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11426)
 
 ___
 
@@ -31,9 +39,11 @@ ___
 
 • `Readonly` **token**: [`CancellationToken`](codearts_plugin_.CancellationToken.md)
 
+A cancellation token.
+
 #### Defined in
 
-[index.d.ts:11359](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11359)
+[index.d.ts:11421](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11421)
 
 ## Methods
 
@@ -41,11 +51,26 @@ ___
 
 ▸ **waitUntil**(`thenable`): `void`
 
+Allows to pause the event and to apply a [workspace edit](../classes/codearts_plugin_.WorkspaceEdit.md).
+
+*Note:* This function can only be called during event dispatch and not
+in an asynchronous manner:
+
+```ts
+workspace.onWillCreateFiles(event => {
+	// async, will *throw* an error
+	setTimeout(() => event.waitUntil(promise));
+
+	// sync, OK
+	event.waitUntil(promise);
+})
+```
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `thenable` | [`Thenable`](Thenable.md)<[`WorkspaceEdit`](../classes/codearts_plugin_.WorkspaceEdit.md)\> |  |
+| `thenable` | [`Thenable`](Thenable.md)<[`WorkspaceEdit`](../classes/codearts_plugin_.WorkspaceEdit.md)\> | A thenable that delays saving. |
 
 #### Returns
 
@@ -53,15 +78,19 @@ ___
 
 #### Defined in
 
-[index.d.ts:11384](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11384)
+[index.d.ts:11446](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11446)
 
 ▸ **waitUntil**(`thenable`): `void`
 
+Allows to pause the event until the provided thenable resolves.
+
+*Note:* This function can only be called during event dispatch.
+
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `thenable` | [`Thenable`](Thenable.md)<`any`\> |  |
+| `thenable` | [`Thenable`](Thenable.md)<`any`\> | A thenable that delays saving. |
 
 #### Returns
 
@@ -69,4 +98,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:11393](https://github.com/huaweicloud/cloudide-plugin-api/blob/3b0eee8/index.d.ts#L11393)
+[index.d.ts:11455](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11455)
