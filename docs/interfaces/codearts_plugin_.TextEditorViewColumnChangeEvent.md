@@ -23,7 +23,7 @@ The [text editor](codearts_plugin_.TextEditor.md) for which the view column has 
 
 #### Defined in
 
-[index.d.ts:589](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L589)
+[index.d.ts:589](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L589)
 
 ___
 
@@ -35,4 +35,4 @@ The new value for the [text editor's view column](codearts_plugin_.TextEditor.md
 
 #### Defined in
 
-[index.d.ts:593](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L593)
+[index.d.ts:593](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L593)

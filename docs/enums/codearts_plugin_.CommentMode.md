@@ -23,7 +23,7 @@ Displays the comment editor
 
 #### Defined in
 
-[index.d.ts:14824](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14824)
+[index.d.ts:14990](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14990)
 
 ___
 
@@ -35,4 +35,4 @@ Displays the preview of the comment
 
 #### Defined in
 
-[index.d.ts:14829](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14829)
+[index.d.ts:14995](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14995)

@@ -41,7 +41,7 @@ requests and runs outside of the `runHandler`.
 
 #### Defined in
 
-[index.d.ts:15640](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15640)
+[index.d.ts:15848](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15848)
 
 ## Properties
 
@@ -57,7 +57,7 @@ not run excluded tests or any children of excluded tests.
 
 #### Defined in
 
-[index.d.ts:15626](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15626)
+[index.d.ts:15834](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15834)
 
 ___
 
@@ -75,7 +75,7 @@ items who have not yet been resolved.
 
 #### Defined in
 
-[index.d.ts:15617](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15617)
+[index.d.ts:15825](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15825)
 
 ___
 
@@ -89,4 +89,4 @@ programmatically create requests not associated with any profile.
 
 #### Defined in
 
-[index.d.ts:15633](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15633)
+[index.d.ts:15841](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15841)

@@ -34,7 +34,7 @@ Create a new linked editing ranges object.
 
 #### Defined in
 
-[index.d.ts:5385](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5385)
+[index.d.ts:5385](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5385)
 
 ## Properties
 
@@ -47,7 +47,7 @@ identical length and text content. The ranges cannot overlap.
 
 #### Defined in
 
-[index.d.ts:5391](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5391)
+[index.d.ts:5391](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5391)
 
 ___
 
@@ -60,4 +60,4 @@ If no pattern is provided, the language configuration's word pattern will be use
 
 #### Defined in
 
-[index.d.ts:5397](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5397)
+[index.d.ts:5397](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5397)

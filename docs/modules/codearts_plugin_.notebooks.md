@@ -43,7 +43,7 @@ Creates a new notebook controller.
 
 #### Defined in
 
-[index.d.ts:13819](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13819)
+[index.d.ts:13980](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13980)
 
 ___
 
@@ -71,7 +71,7 @@ A new notebook renderer messaging object.
 
 #### Defined in
 
-[index.d.ts:13840](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13840)
+[index.d.ts:14001](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14001)
 
 ___
 
@@ -96,4 +96,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13828](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13828)
+[index.d.ts:13989](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13989)

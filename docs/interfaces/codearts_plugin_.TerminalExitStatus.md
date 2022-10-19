@@ -26,4 +26,4 @@ The exit code that a terminal exited with, it can have the following values:
 
 #### Defined in
 
-[index.d.ts:10830](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10830)
+[index.d.ts:10983](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10983)

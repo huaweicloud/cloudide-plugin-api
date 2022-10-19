@@ -30,7 +30,7 @@ The affected notebook.
 
 #### Defined in
 
-[index.d.ts:13091](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13091)
+[index.d.ts:13252](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13252)
 
 ___
 
@@ -45,7 +45,7 @@ for detailed change information, like what edits have been performed.
 
 #### Defined in
 
-[index.d.ts:13099](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13099)
+[index.d.ts:13260](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13260)
 
 ___
 
@@ -57,7 +57,7 @@ The new execution summary of the cell or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13114](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13114)
+[index.d.ts:13275](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13275)
 
 ___
 
@@ -69,7 +69,7 @@ The new metadata of the cell or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13104](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13104)
+[index.d.ts:13265](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13265)
 
 ___
 
@@ -81,4 +81,4 @@ The new outputs of the cell or `undefined` when they did not change.
 
 #### Defined in
 
-[index.d.ts:13109](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13109)
+[index.d.ts:13270](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13270)

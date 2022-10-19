@@ -23,7 +23,7 @@ Extensions are accessed from a desktop application.
 
 #### Defined in
 
-[index.d.ts:8998](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8998)
+[index.d.ts:9036](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9036)
 
 ___
 
@@ -35,4 +35,4 @@ Extensions are accessed from a web browser.
 
 #### Defined in
 
-[index.d.ts:9003](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9003)
+[index.d.ts:9041](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9041)

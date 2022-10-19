@@ -29,7 +29,7 @@ the definition position.
 
 #### Defined in
 
-[index.d.ts:5812](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5812)
+[index.d.ts:5812](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5812)
 
 ___
 
@@ -41,7 +41,7 @@ The full target range of this link.
 
 #### Defined in
 
-[index.d.ts:5822](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5822)
+[index.d.ts:5822](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5822)
 
 ___
 
@@ -53,7 +53,7 @@ The span of this link.
 
 #### Defined in
 
-[index.d.ts:5827](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5827)
+[index.d.ts:5827](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5827)
 
 ___
 
@@ -65,4 +65,4 @@ The target resource identifier of this link.
 
 #### Defined in
 
-[index.d.ts:5817](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5817)
+[index.d.ts:5817](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5817)

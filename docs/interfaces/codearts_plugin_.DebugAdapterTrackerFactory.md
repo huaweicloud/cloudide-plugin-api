@@ -33,4 +33,4 @@ A [debug adapter tracker](codearts_plugin_.DebugAdapterTracker.md) or undefined.
 
 #### Defined in
 
-[index.d.ts:14444](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14444)
+[index.d.ts:14610](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14610)

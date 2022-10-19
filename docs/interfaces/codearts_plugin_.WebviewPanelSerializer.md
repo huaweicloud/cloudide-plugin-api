@@ -71,4 +71,4 @@ Thenable indicating that the webview has been fully restored.
 
 #### Defined in
 
-[index.d.ts:8529](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8529)
+[index.d.ts:8567](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8567)

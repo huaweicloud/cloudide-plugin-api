@@ -24,7 +24,7 @@ Signature help was triggered by the cursor moving or by the document content cha
 
 #### Defined in
 
-[index.d.ts:4102](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4102)
+[index.d.ts:4102](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4102)
 
 ___
 
@@ -36,7 +36,7 @@ Signature help was invoked manually by the user or by a command.
 
 #### Defined in
 
-[index.d.ts:4092](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4092)
+[index.d.ts:4092](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4092)
 
 ___
 
@@ -48,4 +48,4 @@ Signature help was triggered by a trigger character.
 
 #### Defined in
 
-[index.d.ts:4097](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4097)
+[index.d.ts:4097](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4097)

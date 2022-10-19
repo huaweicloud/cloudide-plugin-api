@@ -35,7 +35,7 @@ Accessibility information used when a screen reader interacts with this item
 
 #### Defined in
 
-[index.d.ts:6136](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6136)
+[index.d.ts:6136](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6136)
 
 ___
 
@@ -47,7 +47,7 @@ Controls whether the item is shown as "busy". Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:6126](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6126)
+[index.d.ts:6126](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6126)
 
 ___
 
@@ -59,7 +59,7 @@ A [`command`](codearts_plugin_.Command.md) for this item.
 
 #### Defined in
 
-[index.d.ts:6131](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6131)
+[index.d.ts:6131](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6131)
 
 ___
 
@@ -71,7 +71,7 @@ Optional, human-readable details for this item.
 
 #### Defined in
 
-[index.d.ts:6121](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6121)
+[index.d.ts:6121](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6121)
 
 ___
 
@@ -83,7 +83,7 @@ The identifier of this item.
 
 #### Defined in
 
-[index.d.ts:6086](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6086)
+[index.d.ts:6086](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6086)
 
 ___
 
@@ -95,7 +95,7 @@ The short name of this item, like 'Java Language Status', etc.
 
 #### Defined in
 
-[index.d.ts:6091](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6091)
+[index.d.ts:6091](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6091)
 
 ___
 
@@ -108,7 +108,7 @@ this item shows.
 
 #### Defined in
 
-[index.d.ts:6097](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6097)
+[index.d.ts:6097](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6097)
 
 ___
 
@@ -124,7 +124,7 @@ invalid configuration.
 
 #### Defined in
 
-[index.d.ts:6106](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6106)
+[index.d.ts:6106](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6106)
 
 ___
 
@@ -141,7 +141,7 @@ Where the icon-name is taken from the ThemeIcon [icon set](https://code.visualst
 
 #### Defined in
 
-[index.d.ts:6116](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6116)
+[index.d.ts:6116](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6116)
 
 ## Methods
 
@@ -157,4 +157,4 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6141](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6141)
+[index.d.ts:6141](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6141)

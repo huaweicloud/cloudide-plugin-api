@@ -31,7 +31,7 @@ Defaults to false.
 
 #### Defined in
 
-[index.d.ts:15151](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15151)
+[index.d.ts:15317](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15317)
 
 ___
 
@@ -54,7 +54,7 @@ Note: you cannot use this option with [silent](codearts_plugin_.AuthenticationGe
 
 #### Defined in
 
-[index.d.ts:15167](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15167)
+[index.d.ts:15333](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15333)
 
 ___
 
@@ -74,7 +74,7 @@ This defaults to false.
 
 #### Defined in
 
-[index.d.ts:15180](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15180)
+[index.d.ts:15346](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15346)
 
 ___
 
@@ -93,4 +93,4 @@ Note: you cannot use this option with any other options that prompt the user lik
 
 #### Defined in
 
-[index.d.ts:15192](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15192)
+[index.d.ts:15358](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15358)

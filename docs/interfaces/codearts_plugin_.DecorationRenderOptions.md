@@ -59,7 +59,7 @@ Defines the rendering options of the attachment that is inserted after the decor
 
 #### Defined in
 
-[index.d.ts:1028](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1028)
+[index.d.ts:1028](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1028)
 
 ___
 
@@ -76,7 +76,7 @@ Alternatively a color from the color registry can be [referenced](../classes/cod
 
 #### Defined in
 
-[index.d.ts:908](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L908)
+[index.d.ts:908](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L908)
 
 ___
 
@@ -92,7 +92,7 @@ Defines the rendering options of the attachment that is inserted before the deco
 
 #### Defined in
 
-[index.d.ts:1023](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1023)
+[index.d.ts:1023](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1023)
 
 ___
 
@@ -108,7 +108,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:936](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L936)
+[index.d.ts:936](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L936)
 
 ___
 
@@ -125,7 +125,7 @@ Better use 'border' for setting one or more of the individual border properties.
 
 #### Defined in
 
-[index.d.ts:942](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L942)
+[index.d.ts:942](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L942)
 
 ___
 
@@ -142,7 +142,7 @@ Better use 'border' for setting one or more of the individual border properties.
 
 #### Defined in
 
-[index.d.ts:948](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L948)
+[index.d.ts:948](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L948)
 
 ___
 
@@ -159,7 +159,7 @@ Better use 'border' for setting one or more of the individual border properties.
 
 #### Defined in
 
-[index.d.ts:954](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L954)
+[index.d.ts:954](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L954)
 
 ___
 
@@ -176,7 +176,7 @@ Better use 'border' for setting one or more of the individual border properties.
 
 #### Defined in
 
-[index.d.ts:960](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L960)
+[index.d.ts:960](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L960)
 
 ___
 
@@ -193,7 +193,7 @@ Better use 'border' for setting one or more of the individual border properties.
 
 #### Defined in
 
-[index.d.ts:966](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L966)
+[index.d.ts:966](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L966)
 
 ___
 
@@ -209,7 +209,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:991](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L991)
+[index.d.ts:991](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L991)
 
 ___
 
@@ -225,7 +225,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:986](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L986)
+[index.d.ts:986](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L986)
 
 ___
 
@@ -237,7 +237,7 @@ Overwrite options for dark themes.
 
 #### Defined in
 
-[index.d.ts:1112](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1112)
+[index.d.ts:1112](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1112)
 
 ___
 
@@ -253,7 +253,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:971](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L971)
+[index.d.ts:971](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L971)
 
 ___
 
@@ -269,7 +269,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:976](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L976)
+[index.d.ts:976](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L976)
 
 ___
 
@@ -285,7 +285,7 @@ An **absolute path** or an URI to an image to be rendered in the gutter.
 
 #### Defined in
 
-[index.d.ts:1006](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1006)
+[index.d.ts:1006](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1006)
 
 ___
 
@@ -303,7 +303,7 @@ For further information: https://msdn.microsoft.com/en-us/library/jj127316(v=vs.
 
 #### Defined in
 
-[index.d.ts:1013](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1013)
+[index.d.ts:1013](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1013)
 
 ___
 
@@ -316,7 +316,7 @@ Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:1091](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1091)
+[index.d.ts:1091](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1091)
 
 ___
 
@@ -332,7 +332,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:1001](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1001)
+[index.d.ts:1001](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1001)
 
 ___
 
@@ -344,7 +344,7 @@ Overwrite options for light themes.
 
 #### Defined in
 
-[index.d.ts:1107](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1107)
+[index.d.ts:1107](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1107)
 
 ___
 
@@ -360,7 +360,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:996](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L996)
+[index.d.ts:996](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L996)
 
 ___
 
@@ -376,7 +376,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:913](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L913)
+[index.d.ts:913](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L913)
 
 ___
 
@@ -393,7 +393,7 @@ Better use 'outline' for setting one or more of the individual outline propertie
 
 #### Defined in
 
-[index.d.ts:919](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L919)
+[index.d.ts:919](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L919)
 
 ___
 
@@ -410,7 +410,7 @@ Better use 'outline' for setting one or more of the individual outline propertie
 
 #### Defined in
 
-[index.d.ts:925](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L925)
+[index.d.ts:925](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L925)
 
 ___
 
@@ -427,7 +427,7 @@ Better use 'outline' for setting one or more of the individual outline propertie
 
 #### Defined in
 
-[index.d.ts:931](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L931)
+[index.d.ts:931](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L931)
 
 ___
 
@@ -443,7 +443,7 @@ The color of the decoration in the overview ruler. Use rgba() and define transpa
 
 #### Defined in
 
-[index.d.ts:1018](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1018)
+[index.d.ts:1018](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1018)
 
 ___
 
@@ -455,7 +455,7 @@ The position in the overview ruler where the decoration should be rendered.
 
 #### Defined in
 
-[index.d.ts:1102](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1102)
+[index.d.ts:1102](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1102)
 
 ___
 
@@ -468,7 +468,7 @@ Defaults to `DecorationRangeBehavior.OpenOpen`.
 
 #### Defined in
 
-[index.d.ts:1097](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1097)
+[index.d.ts:1097](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1097)
 
 ___
 
@@ -484,4 +484,4 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:981](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L981)
+[index.d.ts:981](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L981)

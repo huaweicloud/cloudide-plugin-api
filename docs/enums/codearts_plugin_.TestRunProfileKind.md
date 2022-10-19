@@ -22,7 +22,7 @@ The kind of executions that [TestRunProfiles](../interfaces/codearts_plugin_.Tes
 
 #### Defined in
 
-[index.d.ts:15391](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15391)
+[index.d.ts:15599](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15599)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15390](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15390)
+[index.d.ts:15598](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15598)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15389](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15389)
+[index.d.ts:15597](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15597)

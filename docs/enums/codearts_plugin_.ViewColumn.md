@@ -36,7 +36,7 @@ of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Ac
 
 #### Defined in
 
-[index.d.ts:6155](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6155)
+[index.d.ts:6155](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6155)
 
 ___
 
@@ -50,7 +50,7 @@ of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Be
 
 #### Defined in
 
-[index.d.ts:6161](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6161)
+[index.d.ts:6161](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6161)
 
 ___
 
@@ -62,7 +62,7 @@ The eighth editor column.
 
 #### Defined in
 
-[index.d.ts:6193](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6193)
+[index.d.ts:6193](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6193)
 
 ___
 
@@ -74,7 +74,7 @@ The fifth editor column.
 
 #### Defined in
 
-[index.d.ts:6181](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6181)
+[index.d.ts:6181](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6181)
 
 ___
 
@@ -86,7 +86,7 @@ The fourth editor column.
 
 #### Defined in
 
-[index.d.ts:6177](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6177)
+[index.d.ts:6177](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6177)
 
 ___
 
@@ -98,7 +98,7 @@ The ninth editor column.
 
 #### Defined in
 
-[index.d.ts:6197](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6197)
+[index.d.ts:6197](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6197)
 
 ___
 
@@ -110,7 +110,7 @@ The first editor column.
 
 #### Defined in
 
-[index.d.ts:6165](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6165)
+[index.d.ts:6165](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6165)
 
 ___
 
@@ -122,7 +122,7 @@ The seventh editor column.
 
 #### Defined in
 
-[index.d.ts:6189](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6189)
+[index.d.ts:6189](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6189)
 
 ___
 
@@ -134,7 +134,7 @@ The sixth editor column.
 
 #### Defined in
 
-[index.d.ts:6185](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6185)
+[index.d.ts:6185](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6185)
 
 ___
 
@@ -146,7 +146,7 @@ The third editor column.
 
 #### Defined in
 
-[index.d.ts:6173](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6173)
+[index.d.ts:6173](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6173)
 
 ___
 
@@ -158,4 +158,4 @@ The second editor column.
 
 #### Defined in
 
-[index.d.ts:6169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6169)
+[index.d.ts:6169](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6169)

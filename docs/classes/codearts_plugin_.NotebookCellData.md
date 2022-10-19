@@ -40,7 +40,7 @@ language identifier of its source.
 
 #### Defined in
 
-[index.d.ts:13390](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13390)
+[index.d.ts:13551](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13551)
 
 ## Properties
 
@@ -52,7 +52,7 @@ The execution summary of this cell data.
 
 #### Defined in
 
-[index.d.ts:13380](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13380)
+[index.d.ts:13541](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13541)
 
 ___
 
@@ -64,7 +64,7 @@ The [kind](../enums/codearts_plugin_.NotebookCellKind.md) of this cell data.
 
 #### Defined in
 
-[index.d.ts:13354](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13354)
+[index.d.ts:13515](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13515)
 
 ___
 
@@ -77,7 +77,7 @@ The language identifier of the source value of this cell data. Any value from
 
 #### Defined in
 
-[index.d.ts:13365](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13365)
+[index.d.ts:13526](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13526)
 
 ___
 
@@ -93,7 +93,7 @@ Arbitrary metadata of this cell data. Can be anything but must be JSON-stringify
 
 #### Defined in
 
-[index.d.ts:13375](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13375)
+[index.d.ts:13536](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13536)
 
 ___
 
@@ -105,7 +105,7 @@ The outputs of this cell data.
 
 #### Defined in
 
-[index.d.ts:13370](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13370)
+[index.d.ts:13531](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13531)
 
 ___
 
@@ -117,4 +117,4 @@ The source value of this cell data - either source code or formatted text.
 
 #### Defined in
 
-[index.d.ts:13359](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13359)
+[index.d.ts:13520](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13520)

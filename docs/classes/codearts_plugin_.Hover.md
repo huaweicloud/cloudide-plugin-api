@@ -35,7 +35,7 @@ Creates a new hover object.
 
 #### Defined in
 
-[index.d.ts:2854](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2854)
+[index.d.ts:2854](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2854)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The contents of this hover.
 
 #### Defined in
 
-[index.d.ts:2839](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2839)
+[index.d.ts:2839](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2839)
 
 ___
 
@@ -61,4 +61,4 @@ current position itself.
 
 #### Defined in
 
-[index.d.ts:2846](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2846)
+[index.d.ts:2846](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2846)

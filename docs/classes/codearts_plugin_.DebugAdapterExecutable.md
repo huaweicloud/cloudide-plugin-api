@@ -36,7 +36,7 @@ Creates a description for a debug adapter based on an executable program.
 
 #### Defined in
 
-[index.d.ts:14277](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14277)
+[index.d.ts:14443](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14443)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The arguments passed to the debug adapter executable. Defaults to an empty array
 
 #### Defined in
 
-[index.d.ts:14289](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14289)
+[index.d.ts:14455](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14455)
 
 ___
 
@@ -62,7 +62,7 @@ The special value 'node' will be mapped to the editor's built-in Node.js runtime
 
 #### Defined in
 
-[index.d.ts:14284](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14284)
+[index.d.ts:14450](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14450)
 
 ___
 
@@ -75,4 +75,4 @@ Defaults to undefined.
 
 #### Defined in
 
-[index.d.ts:14295](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14295)
+[index.d.ts:14461](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14461)

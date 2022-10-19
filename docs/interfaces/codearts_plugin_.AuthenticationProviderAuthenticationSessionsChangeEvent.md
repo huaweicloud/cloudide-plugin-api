@@ -24,7 +24,7 @@ The [AuthenticationSessions](codearts_plugin_.AuthenticationSession.md) of the [
 
 #### Defined in
 
-[index.d.ts:15238](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15238)
+[index.d.ts:15404](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15404)
 
 ___
 
@@ -38,7 +38,7 @@ access token being set for the session.
 
 #### Defined in
 
-[index.d.ts:15250](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15250)
+[index.d.ts:15416](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15416)
 
 ___
 
@@ -50,4 +50,4 @@ The [AuthenticationSessions](codearts_plugin_.AuthenticationSession.md) of the [
 
 #### Defined in
 
-[index.d.ts:15243](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15243)
+[index.d.ts:15409](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15409)

@@ -38,4 +38,4 @@ An instance of the [TestController](../interfaces/codearts_plugin_.TestControlle
 
 #### Defined in
 
-[index.d.ts:15382](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15382)
+[index.d.ts:15590](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15590)

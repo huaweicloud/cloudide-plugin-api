@@ -4,10 +4,7 @@
 
 ["@codearts/plugin"](../modules/_codearts_plugin_.md).DataTransferItem
 
-A class for encapsulating data transferred during a drag and drop event.
-
-You can use the `value` of the `DataTransferItem` to get back the object you put into it
-so long as the extension that created the `DataTransferItem` runs in the same extension host.
+Encapsulates data transferred during drag and drop operations.
 
 ## Table of contents
 
@@ -21,6 +18,7 @@ so long as the extension that created the `DataTransferItem` runs in the same ex
 
 ### Methods
 
+- [asFile](codearts_plugin_.DataTransferItem.md#asfile)
 - [asString](codearts_plugin_.DataTransferItem.md#asstring)
 
 ## Constructors
@@ -31,13 +29,13 @@ so long as the extension that created the `DataTransferItem` runs in the same ex
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `value` | `any` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `value` | `any` | Custom data stored on this item. Can be retrieved using [`value`](codearts_plugin_.DataTransferItem.md#value). |
 
 #### Defined in
 
-[index.d.ts:10169](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10169)
+[index.d.ts:10313](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10313)
 
 ## Properties
 
@@ -45,15 +43,45 @@ so long as the extension that created the `DataTransferItem` runs in the same ex
 
 • `Readonly` **value**: `any`
 
+Custom data stored on this item.
+
+You can use `value` to share data across operations. The original object can be retrieved so long as the extension that
+created the `DataTransferItem` runs in the same extension host.
+
 #### Defined in
 
-[index.d.ts:10168](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10168)
+[index.d.ts:10308](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10308)
 
 ## Methods
+
+### asFile
+
+▸ **asFile**(): `undefined` \| [`DataTransferFile`](../interfaces/codearts_plugin_.DataTransferFile.md)
+
+Try getting the [file](../interfaces/codearts_plugin_.DataTransferFile.md) associated with this data transfer item.
+
+Note that the file object is only valid for the scope of the drag and drop operation.
+
+#### Returns
+
+`undefined` \| [`DataTransferFile`](../interfaces/codearts_plugin_.DataTransferFile.md)
+
+The file for the data transfer or `undefined` if the item is either not a file or the
+file data cannot be accessed.
+
+#### Defined in
+
+[index.d.ts:10300](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10300)
+
+___
 
 ### asString
 
 ▸ **asString**(): [`Thenable`](../interfaces/Thenable.md)<`string`\>
+
+Get a string representation of this item.
+
+If [`value`](codearts_plugin_.DataTransferItem.md#value) is an object, this returns the result of json stringifying [`value`](codearts_plugin_.DataTransferItem.md#value) value.
 
 #### Returns
 
@@ -61,4 +89,4 @@ so long as the extension that created the `DataTransferItem` runs in the same ex
 
 #### Defined in
 
-[index.d.ts:10167](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10167)
+[index.d.ts:10290](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10290)

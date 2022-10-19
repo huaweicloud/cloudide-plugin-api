@@ -28,7 +28,7 @@ The trigger character is already in the document when the completion provider is
 
 #### Defined in
 
-[index.d.ts:4457](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4457)
+[index.d.ts:4457](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4457)
 
 ___
 
@@ -40,4 +40,4 @@ How the completion was triggered.
 
 #### Defined in
 
-[index.d.ts:4448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4448)
+[index.d.ts:4448](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4448)

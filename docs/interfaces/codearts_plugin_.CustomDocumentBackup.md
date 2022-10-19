@@ -28,7 +28,7 @@ This id is passed back to your extension in `openCustomDocument` when opening a 
 
 #### Defined in
 
-[index.d.ts:8767](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8767)
+[index.d.ts:8805](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8805)
 
 ## Methods
 
@@ -47,4 +47,4 @@ is made or when the file is saved.
 
 #### Defined in
 
-[index.d.ts:8775](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8775)
+[index.d.ts:8813](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8813)

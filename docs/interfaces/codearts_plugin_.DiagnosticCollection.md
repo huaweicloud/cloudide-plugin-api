@@ -11,6 +11,12 @@ diagnostics collection and a resource.
 To get an instance of a `DiagnosticCollection` use
 [createDiagnosticCollection](../modules/codearts_plugin_.languages.md#creatediagnosticcollection).
 
+## Hierarchy
+
+- `Iterable`<[uri: Uri, diagnostics: readonly Diagnostic[]]\>
+
+  ↳ **`DiagnosticCollection`**
+
 ## Table of contents
 
 ### Properties
@@ -39,7 +45,7 @@ name when defining [problem matchers](https://code.visualstudio.com/docs/editor/
 
 #### Defined in
 
-[index.d.ts:5998](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5998)
+[index.d.ts:5998](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5998)
 
 ## Methods
 
@@ -56,7 +62,7 @@ as calling `#set(undefined)`;
 
 #### Defined in
 
-[index.d.ts:6033](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6033)
+[index.d.ts:6033](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6033)
 
 ___
 
@@ -79,7 +85,7 @@ to the provided `uri`. The same as `#set(uri, undefined)`.
 
 #### Defined in
 
-[index.d.ts:6027](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6027)
+[index.d.ts:6027](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6027)
 
 ___
 
@@ -96,7 +102,7 @@ Dispose and free associated resources. Calls
 
 #### Defined in
 
-[index.d.ts:6065](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6065)
+[index.d.ts:6065](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6065)
 
 ___
 
@@ -119,7 +125,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:6041](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6041)
+[index.d.ts:6041](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6041)
 
 ___
 
@@ -144,7 +150,7 @@ An immutable array of [diagnostics](../classes/codearts_plugin_.Diagnostic.md) o
 
 #### Defined in
 
-[index.d.ts:6050](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6050)
+[index.d.ts:6050](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6050)
 
 ___
 
@@ -169,7 +175,7 @@ given resource.
 
 #### Defined in
 
-[index.d.ts:6059](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6059)
+[index.d.ts:6059](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6059)
 
 ___
 
@@ -193,7 +199,7 @@ existing diagnostics for that resource.
 
 #### Defined in
 
-[index.d.ts:6007](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6007)
+[index.d.ts:6007](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6007)
 
 ▸ **set**(`entries`): `void`
 
@@ -216,4 +222,4 @@ all previous but not subsequent diagnostics are removed.
 
 #### Defined in
 
-[index.d.ts:6019](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6019)
+[index.d.ts:6019](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6019)

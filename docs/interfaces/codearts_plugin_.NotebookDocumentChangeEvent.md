@@ -25,7 +25,7 @@ An array of [cell changes](codearts_plugin_.NotebookDocumentCellChange.md).
 
 #### Defined in
 
-[index.d.ts:13166](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13166)
+[index.d.ts:13327](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13327)
 
 ___
 
@@ -37,7 +37,7 @@ An array of content changes describing added or removed [cells](codearts_plugin_
 
 #### Defined in
 
-[index.d.ts:13161](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13161)
+[index.d.ts:13322](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13322)
 
 ___
 
@@ -49,7 +49,7 @@ The new metadata of the notebook or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13156](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13156)
+[index.d.ts:13317](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13317)
 
 ___
 
@@ -61,4 +61,4 @@ The affected notebook.
 
 #### Defined in
 
-[index.d.ts:13151](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13151)
+[index.d.ts:13312](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13312)

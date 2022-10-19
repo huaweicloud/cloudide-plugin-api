@@ -32,7 +32,7 @@ Constructs a webview tab input with the given view type.
 
 #### Defined in
 
-[index.d.ts:15973](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15973)
+[index.d.ts:16181](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16181)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The type of webview. Maps to [`WebviewPanel's viewType`](../interfaces/codearts_
 
 #### Defined in
 
-[index.d.ts:15968](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15968)
+[index.d.ts:16176](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16176)

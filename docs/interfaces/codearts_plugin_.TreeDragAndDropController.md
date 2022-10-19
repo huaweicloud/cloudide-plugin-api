@@ -37,7 +37,7 @@ The recommended mime type of the tree (`application/vnd.code.tree.<treeidlowerca
 
 #### Defined in
 
-[index.d.ts:10233](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10233)
+[index.d.ts:10386](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10386)
 
 ___
 
@@ -52,6 +52,8 @@ To support drops from trees, you will need to add the mime type of that tree.
 This includes drops from within the same tree.
 The mime type of a tree is recommended to be of the format `application/vnd.code.tree.<treeidlowercase>`.
 
+Use the special `files` mime type to support all types of dropped files [files](codearts_plugin_.DataTransferFile.md), regardless of the file's actual mime type.
+
 To learn the mime type of a dragged item:
 1. Set up your `DragAndDropController`
 2. Use the Developer: Set Log Level... command to set the level to "Debug"
@@ -61,7 +63,7 @@ Note that mime types that cannot be sent to the extension will be omitted.
 
 #### Defined in
 
-[index.d.ts:10225](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10225)
+[index.d.ts:10378](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10378)
 
 ## Methods
 
@@ -94,7 +96,7 @@ set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column
 
 #### Defined in
 
-[index.d.ts:10251](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10251)
+[index.d.ts:10404](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10404)
 
 ___
 
@@ -120,4 +122,4 @@ Extensions should fire [onDidChangeTreeData](codearts_plugin_.TreeDataProvider.m
 
 #### Defined in
 
-[index.d.ts:10262](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10262)
+[index.d.ts:10415](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10415)

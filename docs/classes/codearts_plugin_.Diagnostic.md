@@ -41,7 +41,7 @@ Creates a new diagnostic object.
 
 #### Defined in
 
-[index.d.ts:5980](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5980)
+[index.d.ts:5980](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5980)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Should be used for later processing, e.g. when providing [code actions](../inter
 
 #### Defined in
 
-[index.d.ts:5949](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5949)
+[index.d.ts:5949](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5949)
 
 ___
 
@@ -66,7 +66,7 @@ The human-readable message.
 
 #### Defined in
 
-[index.d.ts:5932](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5932)
+[index.d.ts:5932](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5932)
 
 ___
 
@@ -78,7 +78,7 @@ The range to which this diagnostic applies.
 
 #### Defined in
 
-[index.d.ts:5927](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5927)
+[index.d.ts:5927](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5927)
 
 ___
 
@@ -91,7 +91,7 @@ a scope collide all definitions can be marked via this property.
 
 #### Defined in
 
-[index.d.ts:5966](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5966)
+[index.d.ts:5966](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5966)
 
 ___
 
@@ -103,7 +103,7 @@ The severity, default is [error](../enums/codearts_plugin_.DiagnosticSeverity.md
 
 #### Defined in
 
-[index.d.ts:5937](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5937)
+[index.d.ts:5937](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5937)
 
 ___
 
@@ -116,7 +116,7 @@ diagnostic, e.g. 'typescript' or 'super lint'.
 
 #### Defined in
 
-[index.d.ts:5943](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5943)
+[index.d.ts:5943](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5943)
 
 ___
 
@@ -128,4 +128,4 @@ Additional metadata about the diagnostic.
 
 #### Defined in
 
-[index.d.ts:5971](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5971)
+[index.d.ts:5971](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5971)

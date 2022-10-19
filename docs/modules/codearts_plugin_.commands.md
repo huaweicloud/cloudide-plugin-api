@@ -84,7 +84,7 @@ the command handler function doesn't return anything.
 
 #### Defined in
 
-[index.d.ts:9255](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9255)
+[index.d.ts:9293](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9293)
 
 ___
 
@@ -109,7 +109,7 @@ Thenable that resolves to a list of command ids.
 
 #### Defined in
 
-[index.d.ts:9264](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9264)
+[index.d.ts:9302](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9302)
 
 ___
 
@@ -139,7 +139,7 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9222](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9222)
+[index.d.ts:9260](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9260)
 
 ___
 
@@ -172,4 +172,4 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9239](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9239)
+[index.d.ts:9277](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9277)

@@ -22,4 +22,4 @@ The key of the secret that has changed.
 
 #### Defined in
 
-[index.d.ts:7022](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7022)
+[index.d.ts:7022](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7022)

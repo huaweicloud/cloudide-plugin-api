@@ -41,7 +41,7 @@ before or equal to `end`, the values will be swapped.
 
 #### Defined in
 
-[index.d.ts:13218](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13218)
+[index.d.ts:13379](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13379)
 
 ## Properties
 
@@ -53,7 +53,7 @@ The exclusive end index of this range (zero-based).
 
 #### Defined in
 
-[index.d.ts:13204](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13204)
+[index.d.ts:13365](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13365)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13209](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13209)
+[index.d.ts:13370](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13370)
 
 ___
 
@@ -77,7 +77,7 @@ The zero-based start index of this range.
 
 #### Defined in
 
-[index.d.ts:13199](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13199)
+[index.d.ts:13360](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13360)
 
 ## Methods
 
@@ -104,4 +104,4 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:13227](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13227)
+[index.d.ts:13388](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13388)

@@ -35,76 +35,76 @@ To get an instance of a `FileSystemWatcher` use
 
 ### ignoreChangeEvents
 
-• **ignoreChangeEvents**: `boolean`
+• `Readonly` **ignoreChangeEvents**: `boolean`
 
 true if this file system watcher has been created such that
 it ignores change file system events.
 
 #### Defined in
 
-[index.d.ts:1655](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1655)
+[index.d.ts:1655](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1655)
 
 ___
 
 ### ignoreCreateEvents
 
-• **ignoreCreateEvents**: `boolean`
+• `Readonly` **ignoreCreateEvents**: `boolean`
 
 true if this file system watcher has been created such that
 it ignores creation file system events.
 
 #### Defined in
 
-[index.d.ts:1649](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1649)
+[index.d.ts:1649](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1649)
 
 ___
 
 ### ignoreDeleteEvents
 
-• **ignoreDeleteEvents**: `boolean`
+• `Readonly` **ignoreDeleteEvents**: `boolean`
 
 true if this file system watcher has been created such that
 it ignores delete file system events.
 
 #### Defined in
 
-[index.d.ts:1661](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1661)
+[index.d.ts:1661](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1661)
 
 ___
 
 ### onDidChange
 
-• **onDidChange**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
+• `Readonly` **onDidChange**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
 
 An event which fires on file/folder change.
 
 #### Defined in
 
-[index.d.ts:1671](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1671)
+[index.d.ts:1671](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1671)
 
 ___
 
 ### onDidCreate
 
-• **onDidCreate**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
+• `Readonly` **onDidCreate**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
 
 An event which fires on file/folder creation.
 
 #### Defined in
 
-[index.d.ts:1666](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1666)
+[index.d.ts:1666](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1666)
 
 ___
 
 ### onDidDelete
 
-• **onDidDelete**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
+• `Readonly` **onDidDelete**: [`Event`](codearts_plugin_.Event.md)<[`Uri`](../classes/codearts_plugin_.Uri.md)\>
 
 An event which fires on file/folder deletion.
 
 #### Defined in
 
-[index.d.ts:1676](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1676)
+[index.d.ts:1676](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1676)
 
 ## Methods
 
@@ -124,4 +124,4 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1580)

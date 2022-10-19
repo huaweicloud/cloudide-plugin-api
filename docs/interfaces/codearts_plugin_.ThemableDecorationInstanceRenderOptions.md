@@ -27,7 +27,7 @@ Defines the rendering options of the attachment that is inserted after the decor
 
 #### Defined in
 
-[index.d.ts:1146](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1146)
+[index.d.ts:1146](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1146)
 
 ___
 
@@ -39,4 +39,4 @@ Defines the rendering options of the attachment that is inserted before the deco
 
 #### Defined in
 
-[index.d.ts:1141](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1141)
+[index.d.ts:1141](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1141)

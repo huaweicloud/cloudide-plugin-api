@@ -36,7 +36,7 @@ Constructs a notebook diff tab input.
 
 #### Defined in
 
-[index.d.ts:16018](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16018)
+[index.d.ts:16226](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16226)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The uri of the modified notebook.
 
 #### Defined in
 
-[index.d.ts:16007](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16007)
+[index.d.ts:16215](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16215)
 
 ___
 
@@ -60,7 +60,7 @@ The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces
 
 #### Defined in
 
-[index.d.ts:16011](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16011)
+[index.d.ts:16219](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16219)
 
 ___
 
@@ -72,4 +72,4 @@ The uri of the original notebook.
 
 #### Defined in
 
-[index.d.ts:16003](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16003)
+[index.d.ts:16211](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16211)

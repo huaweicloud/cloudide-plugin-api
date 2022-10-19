@@ -25,7 +25,7 @@ Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:8354](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8354)
+[index.d.ts:8354](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8354)
 
 ___
 
@@ -50,4 +50,4 @@ your panel's context cannot be quickly saved and restored.
 
 #### Defined in
 
-[index.d.ts:8372](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8372)
+[index.d.ts:8372](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8372)

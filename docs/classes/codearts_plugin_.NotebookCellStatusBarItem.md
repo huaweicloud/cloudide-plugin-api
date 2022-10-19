@@ -38,7 +38,7 @@ Creates a new NotebookCellStatusBarItem.
 
 #### Defined in
 
-[index.d.ts:13779](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13779)
+[index.d.ts:13940](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13940)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Accessibility information used when a screen reader interacts with this item.
 
 #### Defined in
 
-[index.d.ts:13772](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13772)
+[index.d.ts:13933](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13933)
 
 ___
 
@@ -62,7 +62,7 @@ Whether the item is aligned to the left or right.
 
 #### Defined in
 
-[index.d.ts:13747](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13747)
+[index.d.ts:13908](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13908)
 
 ___
 
@@ -79,7 +79,7 @@ are used by the editor.
 
 #### Defined in
 
-[index.d.ts:13757](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13757)
+[index.d.ts:13918](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13918)
 
 ___
 
@@ -91,7 +91,7 @@ The priority of the item. A higher value item will be shown more to the left.
 
 #### Defined in
 
-[index.d.ts:13767](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13767)
+[index.d.ts:13928](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13928)
 
 ___
 
@@ -103,7 +103,7 @@ The text to show for the item.
 
 #### Defined in
 
-[index.d.ts:13742](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13742)
+[index.d.ts:13903](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13903)
 
 ___
 
@@ -115,4 +115,4 @@ A tooltip to show when the item is hovered.
 
 #### Defined in
 
-[index.d.ts:13762](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13762)
+[index.d.ts:13923](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13923)

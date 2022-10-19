@@ -33,4 +33,4 @@ A thenable that resolves to uri of the matching original resource.
 
 #### Defined in
 
-[index.d.ts:13873](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13873)
+[index.d.ts:14039](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14039)

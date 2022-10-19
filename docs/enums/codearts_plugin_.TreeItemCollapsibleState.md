@@ -24,7 +24,7 @@ Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:10499](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10499)
+[index.d.ts:10652](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10652)
 
 ___
 
@@ -36,7 +36,7 @@ Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:10503](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10503)
+[index.d.ts:10656](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10656)
 
 ___
 
@@ -48,4 +48,4 @@ Determines an item can be neither collapsed nor expanded. Implies it has no chil
 
 #### Defined in
 
-[index.d.ts:10495](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10495)
+[index.d.ts:10648](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10648)

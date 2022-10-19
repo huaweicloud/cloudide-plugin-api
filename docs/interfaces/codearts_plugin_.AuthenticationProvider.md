@@ -16,6 +16,7 @@ A provider for performing authentication to a service.
 
 - [createSession](codearts_plugin_.AuthenticationProvider.md#createsession)
 - [getSessions](codearts_plugin_.AuthenticationProvider.md#getsessions)
+- [getSignHeaders](codearts_plugin_.AuthenticationProvider.md#getsignheaders)
 - [removeSession](codearts_plugin_.AuthenticationProvider.md#removesession)
 
 ## Properties
@@ -29,7 +30,7 @@ within a session has changed.
 
 #### Defined in
 
-[index.d.ts:15261](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15261)
+[index.d.ts:15450](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15450)
 
 ## Methods
 
@@ -61,7 +62,7 @@ A promise that resolves to an authentication session.
 
 #### Defined in
 
-[index.d.ts:15284](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15284)
+[index.d.ts:15473](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15473)
 
 ___
 
@@ -85,7 +86,31 @@ A promise that resolves to an array of authentication sessions.
 
 #### Defined in
 
-[index.d.ts:15269](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15269)
+[index.d.ts:15458](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15458)
+
+___
+
+### getSignHeaders
+
+▸ `Optional` **getSignHeaders**(`options`): [`Thenable`](Thenable.md)<`undefined` \| [`SignedHeaders`](codearts_plugin_.SignedHeaders.md)\>
+
+Provide a signed http request header.
+
+Can use own crypto function to implement it.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [`SignRequestOptions`](codearts_plugin_.SignRequestOptions.md) | The params of http request to sign. |
+
+#### Returns
+
+[`Thenable`](Thenable.md)<`undefined` \| [`SignedHeaders`](codearts_plugin_.SignedHeaders.md)\>
+
+#### Defined in
+
+[index.d.ts:15491](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15491)
 
 ___
 
@@ -111,4 +136,4 @@ If a session cannot be removed, the provider should reject with an error message
 
 #### Defined in
 
-[index.d.ts:15294](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15294)
+[index.d.ts:15483](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15483)

@@ -36,7 +36,7 @@ Creates a new InlineValueEvaluatableExpression object.
 
 #### Defined in
 
-[index.d.ts:2997](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2997)
+[index.d.ts:2997](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2997)
 
 ## Properties
 
@@ -48,7 +48,7 @@ If specified the expression overrides the extracted expression.
 
 #### Defined in
 
-[index.d.ts:2990](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2990)
+[index.d.ts:2990](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2990)
 
 ___
 
@@ -61,4 +61,4 @@ The range is used to extract the evaluatable expression from the underlying docu
 
 #### Defined in
 
-[index.d.ts:2986](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2986)
+[index.d.ts:2986](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2986)

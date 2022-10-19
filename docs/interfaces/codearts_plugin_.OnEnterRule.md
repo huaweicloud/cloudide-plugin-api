@@ -25,7 +25,7 @@ The action to execute.
 
 #### Defined in
 
-[index.d.ts:5524](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5524)
+[index.d.ts:5524](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5524)
 
 ___
 
@@ -37,7 +37,7 @@ This rule will only execute if the text after the cursor matches this regular ex
 
 #### Defined in
 
-[index.d.ts:5516](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5516)
+[index.d.ts:5516](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5516)
 
 ___
 
@@ -49,7 +49,7 @@ This rule will only execute if the text before the cursor matches this regular e
 
 #### Defined in
 
-[index.d.ts:5512](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5512)
+[index.d.ts:5512](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5512)
 
 ___
 
@@ -61,4 +61,4 @@ This rule will only execute if the text above the current line matches this regu
 
 #### Defined in
 
-[index.d.ts:5520](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5520)
+[index.d.ts:5520](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5520)

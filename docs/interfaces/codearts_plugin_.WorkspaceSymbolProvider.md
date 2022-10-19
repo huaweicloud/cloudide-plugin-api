@@ -53,7 +53,7 @@ signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:3323](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3323)
+[index.d.ts:3323](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3323)
 
 ___
 
@@ -82,4 +82,4 @@ the given `symbol` is used.
 
 #### Defined in
 
-[index.d.ts:3337](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3337)
+[index.d.ts:3337](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3337)

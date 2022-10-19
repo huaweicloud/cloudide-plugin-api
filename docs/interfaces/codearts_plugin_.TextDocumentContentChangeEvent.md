@@ -25,7 +25,7 @@ The range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11291](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11291)
+[index.d.ts:11444](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11444)
 
 ___
 
@@ -37,7 +37,7 @@ The length of the range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11299](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11299)
+[index.d.ts:11452](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11452)
 
 ___
 
@@ -49,7 +49,7 @@ The offset of the range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11295](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11295)
+[index.d.ts:11448](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11448)
 
 ___
 
@@ -61,4 +61,4 @@ The new text for the range.
 
 #### Defined in
 
-[index.d.ts:11303](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11303)
+[index.d.ts:11456](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11456)

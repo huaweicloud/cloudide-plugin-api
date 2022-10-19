@@ -24,7 +24,7 @@ Always brings the terminal to front if the task is executed.
 
 #### Defined in
 
-[index.d.ts:7085](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7085)
+[index.d.ts:7085](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7085)
 
 ___
 
@@ -36,7 +36,7 @@ The terminal never comes to front when the task is executed.
 
 #### Defined in
 
-[index.d.ts:7096](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7096)
+[index.d.ts:7096](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7096)
 
 ___
 
@@ -49,4 +49,4 @@ Only brings the terminal to front if a problem is detected executing the task
 
 #### Defined in
 
-[index.d.ts:7091](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7091)
+[index.d.ts:7091](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7091)

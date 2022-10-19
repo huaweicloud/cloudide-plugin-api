@@ -44,7 +44,7 @@ Creates a new code lens object.
 
 #### Defined in
 
-[index.d.ts:2603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2603)
+[index.d.ts:2603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2603)
 
 ## Properties
 
@@ -56,7 +56,7 @@ The command this code lens represents.
 
 #### Defined in
 
-[index.d.ts:2590](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2590)
+[index.d.ts:2590](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2590)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:2595](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2595)
+[index.d.ts:2595](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2595)
 
 ___
 
@@ -80,4 +80,4 @@ The range in which this code lens is valid. Should only span a single line.
 
 #### Defined in
 
-[index.d.ts:2585](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L2585)
+[index.d.ts:2585](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2585)

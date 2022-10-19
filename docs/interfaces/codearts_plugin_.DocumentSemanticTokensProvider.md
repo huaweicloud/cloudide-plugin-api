@@ -28,7 +28,7 @@ An optional event to signal that the semantic tokens from this provider have cha
 
 #### Defined in
 
-[index.d.ts:3800](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3800)
+[index.d.ts:3800](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3800)
 
 ## Methods
 
@@ -109,7 +109,7 @@ of the first token, so it will be `10 - 5`. The third token is on a different li
 
 #### Defined in
 
-[index.d.ts:3861](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3861)
+[index.d.ts:3861](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3861)
 
 ___
 
@@ -159,4 +159,4 @@ It is possible to express these new tokens in terms of an edit applied to the pr
 
 #### Defined in
 
-[index.d.ts:3892](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3892)
+[index.d.ts:3892](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3892)

@@ -22,4 +22,4 @@ The files that got renamed.
 
 #### Defined in
 
-[index.d.ts:11586](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11586)
+[index.d.ts:11739](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11739)

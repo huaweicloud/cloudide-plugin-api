@@ -22,4 +22,4 @@ The files that got created.
 
 #### Defined in
 
-[index.d.ts:11466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11466)
+[index.d.ts:11619](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11619)

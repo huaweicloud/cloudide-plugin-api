@@ -23,7 +23,7 @@ The unique identifier of the account.
 
 #### Defined in
 
-[index.d.ts:15129](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15129)
+[index.d.ts:15295](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15295)
 
 ___
 
@@ -35,4 +35,4 @@ The human-readable name of the account.
 
 #### Defined in
 
-[index.d.ts:15134](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15134)
+[index.d.ts:15300](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15300)

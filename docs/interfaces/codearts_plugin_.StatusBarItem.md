@@ -38,7 +38,7 @@ Accessibility information used when a screen reader interacts with this StatusBa
 
 #### Defined in
 
-[index.d.ts:6381](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6381)
+[index.d.ts:6381](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6381)
 
 ___
 
@@ -50,7 +50,7 @@ The alignment of this item.
 
 #### Defined in
 
-[index.d.ts:6319](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6319)
+[index.d.ts:6319](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6319)
 
 ___
 
@@ -71,7 +71,7 @@ the `color` choice to ensure the entry is readable in all themes.
 
 #### Defined in
 
-[index.d.ts:6366](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6366)
+[index.d.ts:6366](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6366)
 
 ___
 
@@ -83,7 +83,7 @@ The foreground color for this entry.
 
 #### Defined in
 
-[index.d.ts:6352](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6352)
+[index.d.ts:6352](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6352)
 
 ___
 
@@ -100,7 +100,7 @@ are used by the editor.
 
 #### Defined in
 
-[index.d.ts:6376](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6376)
+[index.d.ts:6376](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6376)
 
 ___
 
@@ -115,7 +115,7 @@ method, the identifier will match the [extension identifier](codearts_plugin_.Ex
 
 #### Defined in
 
-[index.d.ts:6314](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6314)
+[index.d.ts:6314](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6314)
 
 ___
 
@@ -129,7 +129,7 @@ users can understand what the status bar item is about.
 
 #### Defined in
 
-[index.d.ts:6332](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6332)
+[index.d.ts:6332](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6332)
 
 ___
 
@@ -142,7 +142,7 @@ be shown more to the left.
 
 #### Defined in
 
-[index.d.ts:6325](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6325)
+[index.d.ts:6325](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6325)
 
 ___
 
@@ -159,7 +159,7 @@ Where the icon-name is taken from the ThemeIcon [icon set](https://code.visualst
 
 #### Defined in
 
-[index.d.ts:6342](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6342)
+[index.d.ts:6342](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6342)
 
 ___
 
@@ -171,7 +171,7 @@ The tooltip text when you hover over this entry.
 
 #### Defined in
 
-[index.d.ts:6347](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6347)
+[index.d.ts:6347](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6347)
 
 ## Methods
 
@@ -188,7 +188,7 @@ Dispose and free associated resources. Call
 
 #### Defined in
 
-[index.d.ts:6397](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6397)
+[index.d.ts:6397](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6397)
 
 ___
 
@@ -204,7 +204,7 @@ Hide the entry in the status bar.
 
 #### Defined in
 
-[index.d.ts:6391](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6391)
+[index.d.ts:6391](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6391)
 
 ___
 
@@ -220,4 +220,4 @@ Shows the entry in the status bar.
 
 #### Defined in
 
-[index.d.ts:6386](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6386)
+[index.d.ts:6386](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6386)

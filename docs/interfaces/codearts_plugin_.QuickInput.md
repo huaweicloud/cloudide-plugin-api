@@ -63,7 +63,7 @@ user input.
 
 #### Defined in
 
-[index.d.ts:11043](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11043)
+[index.d.ts:11196](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11196)
 
 ___
 
@@ -78,7 +78,7 @@ loading data for the next step in user input.
 
 #### Defined in
 
-[index.d.ts:11035](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11035)
+[index.d.ts:11188](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11188)
 
 ___
 
@@ -91,7 +91,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:11049](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11049)
+[index.d.ts:11202](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11202)
 
 ___
 
@@ -108,7 +108,7 @@ the user pressing Esc, some other input UI opening, etc.)
 
 #### Defined in
 
-[index.d.ts:11071](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11071)
+[index.d.ts:11224](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11224)
 
 ___
 
@@ -120,7 +120,7 @@ An optional current step count.
 
 #### Defined in
 
-[index.d.ts:11022](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11022)
+[index.d.ts:11175](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11175)
 
 ___
 
@@ -132,7 +132,7 @@ An optional title.
 
 #### Defined in
 
-[index.d.ts:11017](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11017)
+[index.d.ts:11170](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11170)
 
 ___
 
@@ -144,7 +144,7 @@ An optional total step count.
 
 #### Defined in
 
-[index.d.ts:11027](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11027)
+[index.d.ts:11180](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11180)
 
 ## Methods
 
@@ -163,7 +163,7 @@ accessed. Instead a new input UI should be created.
 
 #### Defined in
 
-[index.d.ts:11079](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11079)
+[index.d.ts:11232](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11232)
 
 ___
 
@@ -180,7 +180,7 @@ event.
 
 #### Defined in
 
-[index.d.ts:11061](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11061)
+[index.d.ts:11214](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11214)
 
 ___
 
@@ -197,4 +197,4 @@ UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) even
 
 #### Defined in
 
-[index.d.ts:11055](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11055)
+[index.d.ts:11208](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11208)

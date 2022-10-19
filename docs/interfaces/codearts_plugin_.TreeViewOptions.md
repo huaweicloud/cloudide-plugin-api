@@ -33,7 +33,7 @@ array containing all selected tree items.
 
 #### Defined in
 
-[index.d.ts:10116](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10116)
+[index.d.ts:10216](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10216)
 
 ___
 
@@ -45,7 +45,7 @@ An optional interface to implement drag and drop in the tree view.
 
 #### Defined in
 
-[index.d.ts:10121](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10121)
+[index.d.ts:10221](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10221)
 
 ___
 
@@ -57,7 +57,7 @@ Whether to show collapse all action or not.
 
 #### Defined in
 
-[index.d.ts:10109](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10109)
+[index.d.ts:10209](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10209)
 
 ___
 
@@ -69,4 +69,4 @@ A data provider that provides tree data.
 
 #### Defined in
 
-[index.d.ts:10104](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10104)
+[index.d.ts:10204](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10204)

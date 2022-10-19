@@ -22,4 +22,4 @@ Controls whether task variables are re-evaluated on rerun.
 
 #### Defined in
 
-[index.d.ts:7481](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7481)
+[index.d.ts:7481](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7481)

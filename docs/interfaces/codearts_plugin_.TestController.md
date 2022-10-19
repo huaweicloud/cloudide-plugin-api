@@ -37,7 +37,7 @@ This must be globally unique.
 
 #### Defined in
 
-[index.d.ts:15488](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15488)
+[index.d.ts:15696](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15696)
 
 ___
 
@@ -58,7 +58,7 @@ However, the editor may sometimes explicitly request children using the
 
 #### Defined in
 
-[index.d.ts:15507](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15507)
+[index.d.ts:15715](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15715)
 
 ___
 
@@ -70,7 +70,7 @@ Human-readable label for the test controller.
 
 #### Defined in
 
-[index.d.ts:15493](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15493)
+[index.d.ts:15701](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15701)
 
 ___
 
@@ -88,7 +88,7 @@ a [FileSystemWatcher](codearts_plugin_.FileSystemWatcher.md) for example, and us
 
 #### Defined in
 
-[index.d.ts:15553](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15553)
+[index.d.ts:15761](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15761)
 
 ___
 
@@ -126,7 +126,7 @@ the function returns or the returned thenable resolves.
 
 #### Defined in
 
-[index.d.ts:15540](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15540)
+[index.d.ts:15748](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15748)
 
 ## Methods
 
@@ -156,7 +156,7 @@ associated with this controller.
 
 #### Defined in
 
-[index.d.ts:15520](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15520)
+[index.d.ts:15728](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15728)
 
 ___
 
@@ -182,7 +182,7 @@ the [children](codearts_plugin_.TestItem.md#children) of an existing item, or in
 
 #### Defined in
 
-[index.d.ts:15588](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15588)
+[index.d.ts:15796](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15796)
 
 ___
 
@@ -216,7 +216,7 @@ from the moment this method is invoked until [end](codearts_plugin_.TestRun.md#e
 
 #### Defined in
 
-[index.d.ts:15576](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15576)
+[index.d.ts:15784](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15784)
 
 ___
 
@@ -233,4 +233,4 @@ and unpersisted results.
 
 #### Defined in
 
-[index.d.ts:15594](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15594)
+[index.d.ts:15802](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15802)

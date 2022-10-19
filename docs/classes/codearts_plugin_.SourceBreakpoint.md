@@ -51,7 +51,7 @@ Create a new breakpoint for a source location.
 
 #### Defined in
 
-[index.d.ts:14527](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14527)
+[index.d.ts:14693](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14693)
 
 ## Properties
 
@@ -67,7 +67,7 @@ An optional expression for conditional breakpoints.
 
 #### Defined in
 
-[index.d.ts:14502](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14502)
+[index.d.ts:14668](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14668)
 
 ___
 
@@ -83,7 +83,7 @@ Is breakpoint enabled.
 
 #### Defined in
 
-[index.d.ts:14498](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14498)
+[index.d.ts:14664](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14664)
 
 ___
 
@@ -99,7 +99,7 @@ An optional expression that controls how many hits of the breakpoint are ignored
 
 #### Defined in
 
-[index.d.ts:14506](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14506)
+[index.d.ts:14672](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14672)
 
 ___
 
@@ -115,7 +115,7 @@ The unique ID of the breakpoint.
 
 #### Defined in
 
-[index.d.ts:14494](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14494)
+[index.d.ts:14660](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14660)
 
 ___
 
@@ -127,7 +127,7 @@ The source and line position of this breakpoint.
 
 #### Defined in
 
-[index.d.ts:14522](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14522)
+[index.d.ts:14688](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14688)
 
 ___
 
@@ -143,4 +143,4 @@ An optional message that gets logged when this breakpoint is hit. Embedded expre
 
 #### Defined in
 
-[index.d.ts:14510](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14510)
+[index.d.ts:14676](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14676)

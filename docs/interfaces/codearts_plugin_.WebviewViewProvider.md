@@ -39,4 +39,4 @@ Optional thenable indicating that the view has been fully resolved.
 
 #### Defined in
 
-[index.d.ts:8652](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8652)
+[index.d.ts:8690](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8690)

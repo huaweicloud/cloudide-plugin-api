@@ -9,6 +9,7 @@
 ### Properties
 
 - [area](codearts_plugin_.WebviewShowOptions.md#area)
+- [iconPath](codearts_plugin_.WebviewShowOptions.md#iconpath)
 - [preserveFocus](codearts_plugin_.WebviewShowOptions.md#preservefocus)
 - [viewColumn](codearts_plugin_.WebviewShowOptions.md#viewcolumn)
 
@@ -20,7 +21,17 @@
 
 #### Defined in
 
-[index.d.ts:9302](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9302)
+[index.d.ts:9340](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9340)
+
+___
+
+### iconPath
+
+• `Optional` **iconPath**: [`Uri`](../classes/codearts_plugin_.Uri.md)
+
+#### Defined in
+
+[index.d.ts:9343](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9343)
 
 ___
 
@@ -30,7 +41,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9304](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9304)
+[index.d.ts:9342](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9342)
 
 ___
 
@@ -40,4 +51,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9303](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9303)
+[index.d.ts:9341](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9341)

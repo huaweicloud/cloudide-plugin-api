@@ -25,4 +25,4 @@ registered where some `FileStat` are not readonly.
 
 #### Defined in
 
-[index.d.ts:7800](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7800)
+[index.d.ts:7800](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7800)

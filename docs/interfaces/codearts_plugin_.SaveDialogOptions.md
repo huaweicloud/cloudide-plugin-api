@@ -25,7 +25,7 @@ The resource the dialog shows when opened.
 
 #### Defined in
 
-[index.d.ts:1912](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1912)
+[index.d.ts:1912](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1912)
 
 ___
 
@@ -48,7 +48,7 @@ like "TypeScript", and an array of extensions, e.g.
 
 #### Defined in
 
-[index.d.ts:1929](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1929)
+[index.d.ts:1929](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1929)
 
 ___
 
@@ -60,7 +60,7 @@ A human-readable string for the save button.
 
 #### Defined in
 
-[index.d.ts:1917](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1917)
+[index.d.ts:1917](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1917)
 
 ___
 
@@ -75,4 +75,4 @@ This parameter might be ignored, as not all operating systems display a title on
 
 #### Defined in
 
-[index.d.ts:1937](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1937)
+[index.d.ts:1937](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1937)

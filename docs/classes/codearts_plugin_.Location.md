@@ -35,7 +35,7 @@ Creates a new location object.
 
 #### Defined in
 
-[index.d.ts:5798](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5798)
+[index.d.ts:5798](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5798)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The document range of this location.
 
 #### Defined in
 
-[index.d.ts:5790](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5790)
+[index.d.ts:5790](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5790)
 
 ___
 
@@ -59,4 +59,4 @@ The resource identifier of this location.
 
 #### Defined in
 
-[index.d.ts:5785](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5785)
+[index.d.ts:5785](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5785)

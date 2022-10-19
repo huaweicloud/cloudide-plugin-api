@@ -43,7 +43,7 @@ The range or range and placeholder text of the identifier that is to be renamed.
 
 #### Defined in
 
-[index.d.ts:3676](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3676)
+[index.d.ts:3676](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3676)
 
 ___
 
@@ -72,4 +72,4 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:3661](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3661)
+[index.d.ts:3661](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3661)

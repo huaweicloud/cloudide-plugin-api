@@ -24,7 +24,7 @@ The task execution for which the process got started.
 
 #### Defined in
 
-[index.d.ts:7664](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7664)
+[index.d.ts:7664](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7664)
 
 ___
 
@@ -36,4 +36,4 @@ The underlying process id.
 
 #### Defined in
 
-[index.d.ts:7669](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7669)
+[index.d.ts:7669](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7669)

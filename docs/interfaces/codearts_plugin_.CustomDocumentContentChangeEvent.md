@@ -33,4 +33,4 @@ The document that the change is for.
 
 #### Defined in
 
-[index.d.ts:8755](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8755)
+[index.d.ts:8793](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8793)

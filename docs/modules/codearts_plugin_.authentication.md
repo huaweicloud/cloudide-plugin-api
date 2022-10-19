@@ -11,6 +11,7 @@ Namespace for authentication.
 ### Functions
 
 - [getSession](codearts_plugin_.authentication.md#getsession)
+- [getSignHeaders](codearts_plugin_.authentication.md#getsignheaders)
 - [onDidChangeSessions](codearts_plugin_.authentication.md#ondidchangesessions)
 - [registerAuthenticationProvider](codearts_plugin_.authentication.md#registerauthenticationprovider)
 
@@ -44,7 +45,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:15315](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15315)
+[index.d.ts:15512](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15512)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -72,7 +73,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:15330](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15330)
+[index.d.ts:15527](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15527)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -100,7 +101,35 @@ A thenable that resolves to an authentication session if available, or undefined
 
 #### Defined in
 
-[index.d.ts:15345](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15345)
+[index.d.ts:15542](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15542)
+
+___
+
+### getSignHeaders
+
+▸ **getSignHeaders**(`providerId`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`SignedHeaders`](../interfaces/codearts_plugin_.SignedHeaders.md) \| `undefined`\>
+
+Get signed request headers.
+
+There can only be one provider per id and an error is being thrown when an id
+has already been used by another provider. Ids are case-sensitive.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `providerId` | `string` | - |
+| `options` | [`SignRequestOptions`](../interfaces/codearts_plugin_.SignRequestOptions.md) | The params of http request to sign. |
+
+#### Returns
+
+[`Thenable`](../interfaces/Thenable.md)<[`SignedHeaders`](../interfaces/codearts_plugin_.SignedHeaders.md) \| `undefined`\>
+
+Signed request headers or undefined.
+
+#### Defined in
+
+[index.d.ts:15573](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15573)
 
 ___
 
@@ -127,7 +156,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
 
 ___
 
@@ -161,4 +190,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:15365](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15365)
+[index.d.ts:15562](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15562)

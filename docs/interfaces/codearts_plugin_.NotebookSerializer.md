@@ -41,7 +41,7 @@ Notebook data or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:13437](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13437)
+[index.d.ts:13598](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13598)
 
 ___
 
@@ -66,4 +66,4 @@ An array of bytes or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:13446](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13446)
+[index.d.ts:13607](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13607)

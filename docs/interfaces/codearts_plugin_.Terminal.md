@@ -35,7 +35,7 @@ folder the shell was launched in.
 
 #### Defined in
 
-[index.d.ts:6433](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6433)
+[index.d.ts:6433](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6433)
 
 ___
 
@@ -57,7 +57,7 @@ window.onDidCloseTerminal(t => {
 
 #### Defined in
 
-[index.d.ts:6448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6448)
+[index.d.ts:6448](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6448)
 
 ___
 
@@ -69,7 +69,7 @@ The name of the terminal.
 
 #### Defined in
 
-[index.d.ts:6421](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6421)
+[index.d.ts:6421](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6421)
 
 ___
 
@@ -81,7 +81,7 @@ The process ID of the shell process.
 
 #### Defined in
 
-[index.d.ts:6426](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6426)
+[index.d.ts:6426](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6426)
 
 ___
 
@@ -93,7 +93,7 @@ The current state of the [Terminal](codearts_plugin_.Terminal.md).
 
 #### Defined in
 
-[index.d.ts:6453](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6453)
+[index.d.ts:6453](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6453)
 
 ## Methods
 
@@ -109,7 +109,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6481](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6481)
+[index.d.ts:6481](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6481)
 
 ___
 
@@ -125,7 +125,7 @@ Hide the terminal panel if this terminal is currently showing.
 
 #### Defined in
 
-[index.d.ts:6476](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6476)
+[index.d.ts:6476](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6476)
 
 ___
 
@@ -149,7 +149,7 @@ Send text to the terminal. The text is written to the stdin of the underlying pt
 
 #### Defined in
 
-[index.d.ts:6464](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6464)
+[index.d.ts:6464](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6464)
 
 ___
 
@@ -171,4 +171,4 @@ Show the terminal panel and reveal this terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:6471](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6471)
+[index.d.ts:6471](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6471)

@@ -24,7 +24,7 @@ If omitted the tools current workspace root is used.
 
 #### Defined in
 
-[index.d.ts:7236](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7236)
+[index.d.ts:7236](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7236)
 
 ___
 
@@ -42,4 +42,4 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:7243](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7243)
+[index.d.ts:7243](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7243)

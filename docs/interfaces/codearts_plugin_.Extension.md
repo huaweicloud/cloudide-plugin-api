@@ -41,7 +41,7 @@ It is an invalid action to access this field before this extension has been acti
 
 #### Defined in
 
-[index.d.ts:6779](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6779)
+[index.d.ts:6779](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6779)
 
 ___
 
@@ -57,7 +57,7 @@ the value is [`UI`](../enums/codearts_plugin_.ExtensionKind.md#ui).
 
 #### Defined in
 
-[index.d.ts:6773](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6773)
+[index.d.ts:6773](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6773)
 
 ___
 
@@ -70,7 +70,7 @@ notation for [Extension.extensionUri.fsPath](codearts_plugin_.Extension.md#exten
 
 #### Defined in
 
-[index.d.ts:6754](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6754)
+[index.d.ts:6754](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6754)
 
 ___
 
@@ -82,7 +82,7 @@ The uri of the directory containing the extension.
 
 #### Defined in
 
-[index.d.ts:6748](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6748)
+[index.d.ts:6748](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6748)
 
 ___
 
@@ -94,7 +94,7 @@ The canonical extension identifier in the form of: `publisher.name`.
 
 #### Defined in
 
-[index.d.ts:6743](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6743)
+[index.d.ts:6743](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6743)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6759](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6759)
+[index.d.ts:6759](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6759)
 
 ___
 
@@ -118,7 +118,7 @@ The parsed contents of the extension's package.json.
 
 #### Defined in
 
-[index.d.ts:6764](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6764)
+[index.d.ts:6764](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6764)
 
 ## Methods
 
@@ -136,4 +136,4 @@ A promise that will resolve when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6786](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6786)
+[index.d.ts:6786](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6786)

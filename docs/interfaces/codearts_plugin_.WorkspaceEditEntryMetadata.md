@@ -27,7 +27,7 @@ A human-readable string which is rendered less prominent on the same line.
 
 #### Defined in
 
-[index.d.ts:3458](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3458)
+[index.d.ts:3458](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3458)
 
 ___
 
@@ -39,7 +39,7 @@ The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the e
 
 #### Defined in
 
-[index.d.ts:3463](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3463)
+[index.d.ts:3463](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3463)
 
 ___
 
@@ -51,7 +51,7 @@ A human-readable string which is rendered prominent.
 
 #### Defined in
 
-[index.d.ts:3453](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3453)
+[index.d.ts:3453](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3453)
 
 ___
 
@@ -63,4 +63,4 @@ A flag which indicates that user confirmation is needed.
 
 #### Defined in
 
-[index.d.ts:3448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3448)
+[index.d.ts:3448](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3448)

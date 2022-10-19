@@ -7,6 +7,12 @@
 Collection of test items, found in [children](codearts_plugin_.TestItem.md#children) and
 [items](codearts_plugin_.TestController.md#items).
 
+## Hierarchy
+
+- `Iterable`<[id: string, testItem: TestItem]\>
+
+  ↳ **`TestItemCollection`**
+
 ## Table of contents
 
 ### Properties
@@ -31,7 +37,7 @@ Gets the number of items in the collection.
 
 #### Defined in
 
-[index.d.ts:15737](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15737)
+[index.d.ts:15945](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15945)
 
 ## Methods
 
@@ -54,7 +60,7 @@ exists, it'll be replaced.
 
 #### Defined in
 
-[index.d.ts:15758](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15758)
+[index.d.ts:15966](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15966)
 
 ___
 
@@ -76,7 +82,7 @@ Removes a single test item from the collection.
 
 #### Defined in
 
-[index.d.ts:15764](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15764)
+[index.d.ts:15972](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15972)
 
 ___
 
@@ -91,7 +97,7 @@ Iterate over each entry in this collection.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `callback` | (`item`: [`TestItem`](codearts_plugin_.TestItem.md), `collection`: [`TestItemCollection`](codearts_plugin_.TestItemCollection.md)) => `unknown` | Function to execute for each entry. |
-| `thisArg?` | `unknown` | The `this` context used when invoking the handler function. |
+| `thisArg?` | `any` | The `this` context used when invoking the handler function. |
 
 #### Returns
 
@@ -99,7 +105,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:15751](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15751)
+[index.d.ts:15959](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15959)
 
 ___
 
@@ -123,7 +129,7 @@ The found item or undefined if it does not exist.
 
 #### Defined in
 
-[index.d.ts:15771](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15771)
+[index.d.ts:15979](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15979)
 
 ___
 
@@ -145,4 +151,4 @@ Replaces the items stored by the collection.
 
 #### Defined in
 
-[index.d.ts:15743](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L15743)
+[index.d.ts:15951](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15951)

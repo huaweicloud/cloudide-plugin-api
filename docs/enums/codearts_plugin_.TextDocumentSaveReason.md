@@ -24,7 +24,7 @@ Automatic after a delay.
 
 #### Defined in
 
-[index.d.ts:11350](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11350)
+[index.d.ts:11503](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11503)
 
 ___
 
@@ -36,7 +36,7 @@ When the editor lost focus.
 
 #### Defined in
 
-[index.d.ts:11355](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11355)
+[index.d.ts:11508](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11508)
 
 ___
 
@@ -49,4 +49,4 @@ or by an API call.
 
 #### Defined in
 
-[index.d.ts:11345](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L11345)
+[index.d.ts:11498](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11498)

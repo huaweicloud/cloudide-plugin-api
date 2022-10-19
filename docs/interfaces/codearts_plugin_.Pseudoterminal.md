@@ -47,7 +47,7 @@ vscode.window.createTerminal({ name: 'My terminal', pty });
 
 #### Defined in
 
-[index.d.ts:10751](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10751)
+[index.d.ts:10904](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10904)
 
 ___
 
@@ -85,7 +85,7 @@ vscode.window.createTerminal({ name: 'Exit example', pty });
 
 #### Defined in
 
-[index.d.ts:10731](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10731)
+[index.d.ts:10884](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10884)
 
 ___
 
@@ -120,7 +120,7 @@ vscode.window.createTerminal({ name: 'My terminal', pty });
 
 #### Defined in
 
-[index.d.ts:10700](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10700)
+[index.d.ts:10853](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10853)
 
 ___
 
@@ -156,7 +156,7 @@ writeEmitter.fire('\x1b[10;20H*');
 
 #### Defined in
 
-[index.d.ts:10672](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10672)
+[index.d.ts:10825](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10825)
 
 ## Methods
 
@@ -172,7 +172,7 @@ Implement to handle when the terminal is closed by an act of the user.
 
 #### Defined in
 
-[index.d.ts:10764](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10764)
+[index.d.ts:10917](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10917)
 
 ___
 
@@ -196,7 +196,7 @@ their corresponding VT sequence representation.
 
 #### Defined in
 
-[index.d.ts:10786](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10786)
+[index.d.ts:10939](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10939)
 
 ___
 
@@ -218,7 +218,7 @@ Implement to handle when the pty is open and ready to start firing events.
 
 #### Defined in
 
-[index.d.ts:10759](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10759)
+[index.d.ts:10912](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10912)
 
 ___
 
@@ -248,4 +248,4 @@ to react dimension changes.
 
 #### Defined in
 
-[index.d.ts:10801](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10801)
+[index.d.ts:10954](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10954)

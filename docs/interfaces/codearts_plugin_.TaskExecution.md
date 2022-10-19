@@ -29,7 +29,7 @@ The task that got started.
 
 #### Defined in
 
-[index.d.ts:7623](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7623)
+[index.d.ts:7623](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7623)
 
 ## Methods
 
@@ -45,4 +45,4 @@ Terminates the task execution.
 
 #### Defined in
 
-[index.d.ts:7628](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7628)
+[index.d.ts:7628](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7628)

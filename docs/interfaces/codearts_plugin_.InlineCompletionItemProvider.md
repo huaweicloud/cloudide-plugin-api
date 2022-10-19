@@ -44,4 +44,4 @@ An array of completion items or a thenable that resolves to an array of completi
 
 #### Defined in
 
-[index.d.ts:4532](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4532)
+[index.d.ts:4532](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4532)

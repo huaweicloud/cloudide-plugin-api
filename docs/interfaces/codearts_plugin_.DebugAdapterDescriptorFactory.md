@@ -44,4 +44,4 @@ a [debug adapter descriptor](../modules/_codearts_plugin_.md#debugadapterdescrip
 
 #### Defined in
 
-[index.d.ts:14403](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14403)
+[index.d.ts:14569](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14569)

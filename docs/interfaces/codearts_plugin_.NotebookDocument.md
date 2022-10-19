@@ -36,7 +36,7 @@ The number of cells in the notebook.
 
 #### Defined in
 
-[index.d.ts:13053](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13053)
+[index.d.ts:13214](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13214)
 
 ___
 
@@ -49,7 +49,7 @@ and won't be re-used when the same resource is opened again.
 
 #### Defined in
 
-[index.d.ts:13043](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13043)
+[index.d.ts:13204](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13204)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13032](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13032)
+[index.d.ts:13193](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13193)
 
 ___
 
@@ -73,7 +73,7 @@ Is this notebook representing an untitled file which has not been saved yet.
 
 #### Defined in
 
-[index.d.ts:13037](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13037)
+[index.d.ts:13198](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13198)
 
 ___
 
@@ -89,7 +89,7 @@ Arbitrary metadata for this notebook. Can be anything but must be JSON-stringify
 
 #### Defined in
 
-[index.d.ts:13048](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13048)
+[index.d.ts:13209](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13209)
 
 ___
 
@@ -101,7 +101,7 @@ The type of notebook.
 
 #### Defined in
 
-[index.d.ts:13021](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13021)
+[index.d.ts:13182](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13182)
 
 ___
 
@@ -120,7 +120,7 @@ saved on disk and therefore the `scheme` must be checked before trying to access
 
 #### Defined in
 
-[index.d.ts:13016](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13016)
+[index.d.ts:13177](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13177)
 
 ___
 
@@ -133,7 +133,7 @@ change, including undo/redo).
 
 #### Defined in
 
-[index.d.ts:13027](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13027)
+[index.d.ts:13188](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13188)
 
 ## Methods
 
@@ -157,7 +157,7 @@ A [cell](codearts_plugin_.NotebookCell.md).
 
 #### Defined in
 
-[index.d.ts:13061](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13061)
+[index.d.ts:13222](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13222)
 
 ___
 
@@ -182,7 +182,7 @@ The cells contained by the range or all cells.
 
 #### Defined in
 
-[index.d.ts:13070](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13070)
+[index.d.ts:13231](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13231)
 
 ___
 
@@ -201,4 +201,4 @@ has been saved. Will return false if the file was not dirty or when save failed.
 
 #### Defined in
 
-[index.d.ts:13078](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L13078)
+[index.d.ts:13239](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13239)

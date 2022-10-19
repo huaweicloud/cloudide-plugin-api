@@ -38,7 +38,7 @@ Creates a new color instance.
 
 #### Defined in
 
-[index.d.ts:4744](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4744)
+[index.d.ts:4744](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4744)
 
 ## Properties
 
@@ -50,7 +50,7 @@ The alpha component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4734](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4734)
+[index.d.ts:4734](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4734)
 
 ___
 
@@ -62,7 +62,7 @@ The blue component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4729](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4729)
+[index.d.ts:4729](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4729)
 
 ___
 
@@ -74,7 +74,7 @@ The green component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4724](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4724)
+[index.d.ts:4724](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4724)
 
 ___
 
@@ -86,4 +86,4 @@ The red component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4719](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4719)
+[index.d.ts:4719](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4719)

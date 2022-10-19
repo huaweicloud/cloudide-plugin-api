@@ -47,7 +47,7 @@ Creates a new completion list.
 
 #### Defined in
 
-[index.d.ts:4419](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4419)
+[index.d.ts:4419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4419)
 
 ## Properties
 
@@ -60,7 +60,7 @@ this list.
 
 #### Defined in
 
-[index.d.ts:4406](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4406)
+[index.d.ts:4406](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4406)
 
 ___
 
@@ -72,4 +72,4 @@ The completion items.
 
 #### Defined in
 
-[index.d.ts:4411](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4411)
+[index.d.ts:4411](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4411)

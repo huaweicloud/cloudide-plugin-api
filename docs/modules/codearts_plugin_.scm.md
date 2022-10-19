@@ -29,7 +29,7 @@ Use SourceControl.inputBox instead
 
 #### Defined in
 
-[index.d.ts:14085](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14085)
+[index.d.ts:14251](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14251)
 
 ## Functions
 
@@ -55,4 +55,4 @@ An instance of [source control](../interfaces/codearts_plugin_.SourceControl.md)
 
 #### Defined in
 
-[index.d.ts:14095](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L14095)
+[index.d.ts:14261](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14261)

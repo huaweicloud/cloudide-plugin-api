@@ -44,4 +44,4 @@ signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:3989](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3989)
+[index.d.ts:3989](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3989)

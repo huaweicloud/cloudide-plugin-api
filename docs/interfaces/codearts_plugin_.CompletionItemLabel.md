@@ -25,7 +25,7 @@ for fully qualified names or file path.
 
 #### Defined in
 
-[index.d.ts:4200](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4200)
+[index.d.ts:4200](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4200)
 
 ___
 
@@ -38,7 +38,7 @@ without any spacing. Should be used for function signatures or type annotations.
 
 #### Defined in
 
-[index.d.ts:4194](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4194)
+[index.d.ts:4194](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4194)
 
 ___
 
@@ -52,4 +52,4 @@ By default this is also the text that is inserted when this completion is select
 
 #### Defined in
 
-[index.d.ts:4188](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4188)
+[index.d.ts:4188](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4188)

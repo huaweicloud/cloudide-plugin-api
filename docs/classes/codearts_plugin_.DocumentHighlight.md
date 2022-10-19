@@ -36,7 +36,7 @@ Creates a new document highlight object.
 
 #### Defined in
 
-[index.d.ts:3098](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3098)
+[index.d.ts:3098](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3098)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The highlight kind, default is [text](../enums/codearts_plugin_.DocumentHighligh
 
 #### Defined in
 
-[index.d.ts:3090](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3090)
+[index.d.ts:3090](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3090)
 
 ___
 
@@ -60,4 +60,4 @@ The range this highlight applies to.
 
 #### Defined in
 
-[index.d.ts:3085](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L3085)
+[index.d.ts:3085](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3085)

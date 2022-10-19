@@ -1646,34 +1646,34 @@ declare module '@codearts/plugin' {
 		 * true if this file system watcher has been created such that
 		 * it ignores creation file system events.
 		 */
-		ignoreCreateEvents: boolean;
+		readonly ignoreCreateEvents: boolean;
 
 		/**
 		 * true if this file system watcher has been created such that
 		 * it ignores change file system events.
 		 */
-		ignoreChangeEvents: boolean;
+		readonly ignoreChangeEvents: boolean;
 
 		/**
 		 * true if this file system watcher has been created such that
 		 * it ignores delete file system events.
 		 */
-		ignoreDeleteEvents: boolean;
+		readonly ignoreDeleteEvents: boolean;
 
 		/**
 		 * An event which fires on file/folder creation.
 		 */
-		onDidCreate: Event<Uri>;
+		readonly onDidCreate: Event<Uri>;
 
 		/**
 		 * An event which fires on file/folder change.
 		 */
-		onDidChange: Event<Uri>;
+		readonly onDidChange: Event<Uri>;
 
 		/**
 		 * An event which fires on file/folder deletion.
 		 */
-		onDidDelete: Event<Uri>;
+		readonly onDidDelete: Event<Uri>;
 	}
 
 	/**
@@ -5988,7 +5988,7 @@ declare module '@codearts/plugin' {
 	 * To get an instance of a `DiagnosticCollection` use
 	 * {@link languages.createDiagnosticCollection createDiagnosticCollection}.
 	 */
-	export interface DiagnosticCollection {
+	export interface DiagnosticCollection extends Iterable<[uri: Uri, diagnostics: readonly Diagnostic[]]> {
 
 		/**
 		 * The name of this diagnostic collection, for instance `typescript`. Every diagnostic
@@ -8402,12 +8402,6 @@ declare module '@codearts/plugin' {
 		readonly options: WebviewPanelOptions;
 
 		/**
-         * this api is extended by huawei
-         * support area
-         */
-		readonly showOptions?: ViewColumn | { area: string, viewColumn: ViewColumn, preserveFocus?: boolean };
-
-		/**
 		 * Editor position of the panel. This property is only set if the webview is in
 		 * one of the editor view columns.
 		 */
@@ -8450,18 +8444,6 @@ declare module '@codearts/plugin' {
 		reveal(viewColumn?: ViewColumn, preserveFocus?: boolean): void;
 
 		/**
-         * Show the webview panel in a given column or area. this api is extended by huawei
-         *
-         * A webview panel may only show in a single column at a time. If it is already showing, this
-         * method moves it to a new column.
-         *
-         * @param area the area which webview panel will be attached to. support 'main'(default), 'left', 'right', 'bottom'
-         * @param viewColumn View column to show the panel in. Shows in the current `viewColumn` if undefined.
-         * @param preserveFocus When `true`, the webview will not take focus. when in left or right area, `true` will make panel collapsed.
-         */
-		reveal(area?: string, viewColumn?: ViewColumn, preserveFocus?: boolean): void;
-
-		/**
 		 * Dispose of the webview panel.
 		 *
 		 * This closes the panel if it showing and disposes of the resources owned by the webview.
@@ -8469,6 +8451,62 @@ declare module '@codearts/plugin' {
 		 * fire the `onDispose` event.
 		 */
 		dispose(): any;
+	}
+
+	/**
+	 * A dialog that contains a webview view.
+	 */
+	interface WebviewViewDialog extends Disposable {
+		/**
+		 * Fired when the webviewview dialog is disposed.
+		 *
+		 * This may be because the user closed the dialog or because `.dispose()` was
+		 * called on it.
+		 *
+		 */
+		readonly onDidDispose: Event<void>;
+	}
+
+	/**
+	 * A viewContainer that contains a webview.
+	 */
+	interface WebviewContainer {
+
+		/**
+		 * Identifies the type of the webview container.
+		 */
+		readonly viewType: string;
+
+		/**
+		 * Dispose of the container.
+		 */
+		dispose(): any;
+
+		/**
+		 * Webview of the container.
+		 */
+		webview: any;
+
+		/**
+		 * Fired when the container is disposed.
+		 *
+		 * This may be because the user closed the container or because `.dispose()` was
+		 * called on it.
+		 *
+		 * Trying to use the container after it has been disposed throws an exception.
+		 */
+		readonly onDidDispose: (handlerDispose: () => void) => void;
+
+		/**
+		 * Show the webview container in a given column.
+		 *
+		 * A webview container may only show in a single column at a time. If it is already showing, this
+		 * method moves it to a new column.
+		 *
+		 * @param viewColumn View column to show the panel in. Shows in the current `viewColumn` if undefined.
+		 * @param preserveFocus When `true`, the webview will not take focus.
+		 */
+		reveal(viewColumn?: ViewColumn, preserveFocus?: boolean): void;
 	}
 
 	/**
@@ -9302,40 +9340,59 @@ declare module '@codearts/plugin' {
 		area: WebviewPanelTargetArea;
 		viewColumn: ViewColumn;
 		preserveFocus?: boolean;
+		iconPath?: Uri;
 	}
 
 	/**
 	 * Represents options to create a webviewView dialog.
 	 */
 	export interface DialogOptions {
+
 		/**
 		 * Title displayed at the top of the dialog.
 		 */
-		title: string;
+		title?: string;
+
 		/**
 		 * Width of dialog content in pixels. Default is `500`.
 		 */
 		width?: number;
+
 		/**
 		 * Height of dialog content in pixels. Default is `300`.
 		 */
 		height?: number;
+
 		/**
 		 * Set the top position of the dialog relative to window in pixels. Centered by default.
 		 */
 		top?: number;
+
 		/**
 		 * Set the left position of the dialog relative to window in pixels. Centered by default.
 		 */
 		left?: number;
+
 		/**
 		 * Whether it's a dialog with a masked modal. Default is `false`.
 		 */
 		modal?: boolean;
+
 		/**
 		 * Whether to allow drag. Default is `false`.
 		 */
 		draggable?: boolean;
+
+		/**
+		 * Whether to hide the title bar of dialog. Default is `false`. Note that drag will not work without title bar.
+		 */
+		noTitleBar?: boolean;
+
+		/**
+		 * Enable close icon in the upper right corner of the dialog. Default is `true`.
+		 */
+		withCloseIcon?: boolean;
+
 		/**
 		 * @todo Implement this function.
 		 * Whether to allow resize the dialog. Default is `false`.
@@ -9465,6 +9522,11 @@ declare module '@codearts/plugin' {
 		 * An {@link Event} which fires when a terminal is disposed.
 		 */
 		export const onDidCloseTerminal: Event<Terminal>;
+
+		/**
+		 * An {@link Event} which fires when a terminal is renamed.
+		 */
+		export const onDidRenameTerminal: Event<Terminal>;
 
 		/**
 		 * An {@link Event} which fires when a {@link Terminal.state terminal's state} has changed.
@@ -9798,16 +9860,22 @@ declare module '@codearts/plugin' {
 		export function createWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { readonly viewColumn: ViewColumn; readonly preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
 
 		/**
-		 * Create and show a new webview panel. this api is extended by huawei
+		 * Compared with `createWebviewPanel`, webview be created not only in editor area, but also can be resided in a specify panel area.
 		 *
 		 * @param viewType Identifies the type of the webview panel.
 		 * @param title Title of the panel.
-		 * @param showOptions Where to show the webview in the editor. If preserveFocus is set, the new webview will not take focus.
+		 * @param showOptions where webview panel will be reside. If preserveFocus is set, the new webview will not take focus.
 		 * @param options Settings for the new panel.
 		 *
 		 * @return New webview panel.
 		 */
-		 export function createLightWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | { area: string, viewColumn?: ViewColumn, preserveFocus?: boolean }, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel;
+		export function createLightWebviewPanel(viewType: string, title: string, showOptions: WebviewShowOptions, options?: WebviewPanelOptions & WebviewOptions): WebviewContainer;
+
+		/**
+		 * CreateCloudWebviewPanel is the same as createLightWebviewPanel, used in cloudide plugins.
+		 * @deprecated Please use `createLightWebviewPanel`.
+		 */
+		export function createCloudWebviewPanel(viewType: string, title: string, showOptions: WebviewShowOptions, options?: WebviewPanelOptions & WebviewOptions): WebviewContainer;
 
 		/**
 		 * Set a message to the status bar. This is a short hand for the more powerful
@@ -10021,7 +10089,7 @@ declare module '@codearts/plugin' {
 		 *
 		 * @return Disposable that unregister the provider.
 		 */
-		export function createWebviewViewDialog(provider: WebviewViewProvider, dialogOptions: DialogOptions): Disposable;
+		export function createWebviewViewDialog(provider: WebviewViewProvider, dialogOptions: DialogOptions): WebviewViewDialog;
 
 		/**
 		 * Register a provider for custom editors for the `viewType` contributed by the `customEditors` extension point.
@@ -10091,6 +10159,38 @@ declare module '@codearts/plugin' {
 		 * An {@link Event} which fires when the active color theme is changed or has changes.
 		 */
 		export const onDidChangeActiveColorTheme: Event<ColorTheme>;
+
+		/**
+		 * Register a top level menu on titlepart area.
+		 * @param item The actual menu or submenu.
+		 * @param side The side of titlepart.
+		 */
+		export function registerMainMenu(item: MenuItem | SubmenuItem, side?: MenuSide): void;
+
+		/**
+		 * Register menu or submenu on custom menu id.
+		 * @param key Custom menu id.
+		 * @param item The actual menu or submenu.
+		 */
+		export function registerMenu(key: string, item: MenuItem | SubmenuItem): void;
+
+		/**
+		 * Register a custom menu id. Must call it before registerMenu
+		 * @param key custom menu id.
+		 */
+		export function registerMenuId(key: string): void;
+
+		/**
+		 * Unregister menu on left or right side of titlepart.
+		 * @param side The side of titlepart.
+		 */
+		export function unregisterMainMenu(side: MenuSide): void;
+
+		/**
+		 * Unregister a custom menu id.
+		 * @param key Custom menu id.
+		 */
+		export function unregisterMenu(key: string): void;
 	}
 
 	/**
@@ -10154,18 +10254,62 @@ declare module '@codearts/plugin' {
 		 * `true` if the {@link TreeView tree view} is visible otherwise `false`.
 		 */
 		readonly visible: boolean;
-
 	}
 
 	/**
-	 * A class for encapsulating data transferred during a drag and drop event.
-	 *
-	 * You can use the `value` of the `DataTransferItem` to get back the object you put into it
-	 * so long as the extension that created the `DataTransferItem` runs in the same extension host.
+	 * A file associated with a {@linkcode DataTransferItem}.
+	 */
+	export interface DataTransferFile {
+		/**
+		 * The name of the file.
+		 */
+		readonly name: string;
+
+		/**
+		 * The full file path of the file.
+		 *
+		 * May be `undefined` on web.
+		 */
+		readonly uri?: Uri;
+
+		/**
+		 * The full file contents of the file.
+		 */
+		data(): Thenable<Uint8Array>;
+	}
+
+	/**
+	 * Encapsulates data transferred during drag and drop operations.
 	 */
 	export class DataTransferItem {
+		/**
+		 * Get a string representation of this item.
+		 *
+		 * If {@linkcode DataTransferItem.value} is an object, this returns the result of json stringifying {@linkcode DataTransferItem.value} value.
+		 */
 		asString(): Thenable<string>;
+
+		/**
+		 * Try getting the {@link DataTransferFile file} associated with this data transfer item.
+		 *
+		 * Note that the file object is only valid for the scope of the drag and drop operation.
+		 *
+		 * @returns The file for the data transfer or `undefined` if the item is either not a file or the
+		 * file data cannot be accessed.
+		 */
+		asFile(): DataTransferFile | undefined;
+
+		/**
+		 * Custom data stored on this item.
+		 *
+		 * You can use `value` to share data across operations. The original object can be retrieved so long as the extension that
+		 * created the `DataTransferItem` runs in the same extension host.
+		 */
 		readonly value: any;
+
+		/**
+		 * @param value Custom data stored on this item. Can be retrieved using {@linkcode DataTransferItem.value}.
+		 */
 		constructor(value: any);
 	}
 
@@ -10176,14 +10320,14 @@ declare module '@codearts/plugin' {
 	 * data transfer. These additional mime types will only be included in the `handleDrop` when the the drag was initiated from
 	 * an element in the same drag and drop controller.
 	 */
-	export class DataTransfer {
+	export class DataTransfer implements Iterable<[mimeType: string, item: DataTransferItem]> {
 		/**
 		 * Retrieves the data transfer item for a given mime type.
 		 *
 		 * @param mimeType The mime type to get the data transfer item for, such as `text/plain` or `image/png`.
 		 *
 		 * Special mime types:
-		 * - `text/uri-list` — A string with `toString()`ed Uris separated by newlines. To specify a cursor position in the file,
+		 * - `text/uri-list` — A string with `toString()`ed Uris separated by `\r\n`. To specify a cursor position in the file,
 		 * set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column number.
 		 */
 		get(mimeType: string): DataTransferItem | undefined;
@@ -10197,9 +10341,16 @@ declare module '@codearts/plugin' {
 
 		/**
 		 * Allows iteration through the data transfer items.
+		 *
 		 * @param callbackfn Callback for iteration through the data transfer items.
+		 * @param thisArg The `this` context used when invoking the handler function.
 		 */
-		forEach(callbackfn: (value: DataTransferItem, key: string) => void): void;
+		forEach(callbackfn: (value: DataTransferItem, key: string, dataTransfer: DataTransfer) => void, thisArg?: any): void;
+
+		/**
+		 * Get a new iterator with the `[mime, item]` pairs for each element in this data transfer.
+		 */
+		[Symbol.iterator](): IterableIterator<[mimeType: string, item: DataTransferItem]>;
 	}
 
 	/**
@@ -10214,6 +10365,8 @@ declare module '@codearts/plugin' {
 		 * To support drops from trees, you will need to add the mime type of that tree.
 		 * This includes drops from within the same tree.
 		 * The mime type of a tree is recommended to be of the format `application/vnd.code.tree.<treeidlowercase>`.
+		 *
+		 * Use the special `files` mime type to support all types of dropped files {@link DataTransferFile files}, regardless of the file's actual mime type.
 		 *
 		 * To learn the mime type of a dragged item:
 		 * 1. Set up your `DragAndDropController`
@@ -10866,7 +11019,7 @@ declare module '@codearts/plugin' {
 	/**
 	 * A collection of mutations that an extension can apply to a process environment.
 	 */
-	export interface EnvironmentVariableCollection {
+	export interface EnvironmentVariableCollection extends Iterable<[variable: string, mutator: EnvironmentVariableMutator]> {
 		/**
 		 * Whether the collection should be cached for the workspace and applied to the terminal
 		 * across window reloads. When true the collection will be active immediately such when the
@@ -12224,6 +12377,14 @@ declare module '@codearts/plugin' {
 		 * @return The full configuration or a subset.
 		 */
 		export function getConfiguration(section?: string, scope?: ConfigurationScope | null): WorkspaceConfiguration;
+
+		/**
+		 * Update a configuration object.
+		 * @param target The configuration target.
+		 * @param key The key of configuration.
+		 * @param value The value of configuration, type could be string, boolean, and so on.
+		 */
+		export function updateConfigurationOption(target: ConfigurationTarget | null, key: string, value: any): Thenable<void>;
 
 		/**
 		 * An event that is emitted when the {@link WorkspaceConfiguration configuration} changed.
@@ -13856,6 +14017,11 @@ declare module '@codearts/plugin' {
 		placeholder: string;
 
 		/**
+		 * Controls whether the input box is enabled (default is `true`).
+		 */
+		enabled: boolean;
+
+		/**
 		 * Controls whether the input box is visible (default is `true`).
 		 */
 		visible: boolean;
@@ -14703,7 +14869,7 @@ declare module '@codearts/plugin' {
 		/**
 		 * Start debugging by using either a named launch or named compound configuration,
 		 * or by directly passing a {@link DebugConfiguration}.
-		 * The named configurations are looked up in '.vscode/launch.json' found in the given folder.
+		 * The named configurations are looked up in '.arts/launch.json' found in the given folder.
 		 * Before debugging starts, all unsaved files are saved and the launch configurations are brought up-to-date.
 		 * Folder specific variables used in the configuration (e.g. '${workspaceFolder}') are resolved against the given folder.
 		 * @param folder The {@link WorkspaceFolder workspace folder} for looking up named configurations and resolving variables or `undefined` for a non-folder setup.
@@ -15250,6 +15416,29 @@ declare module '@codearts/plugin' {
 		readonly changed: readonly AuthenticationSession[] | undefined;
 	}
 
+	export interface SignRequestOptions {
+		/**
+		 * http request method.
+		 */
+		method: string;
+		/**
+		 * http request url.
+		 */
+		url: string;
+		/**
+		 * http request headers.
+		 */
+		headers?: Record<string, string>;
+		/**
+		 * http request body.
+		 */
+		data?: string;
+	}
+
+	export interface SignedHeaders {
+		[header: string]: string;
+	}
+
 	/**
 	 * A provider for performing authentication to a service.
 	 */
@@ -15292,6 +15481,14 @@ declare module '@codearts/plugin' {
 		 * @param sessionId The id of the session to remove.
 		 */
 		removeSession(sessionId: string): Thenable<void>;
+		/**
+		 * Provide a signed http request header.
+		 *
+		 * Can use own crypto function to implement it.
+		 *
+		 * @param options The params of http request to sign.
+		 */
+		getSignHeaders?(options: SignRequestOptions): Thenable<SignedHeaders | undefined>;
 	}
 
 
@@ -15363,6 +15560,17 @@ declare module '@codearts/plugin' {
 		 * @return A {@link Disposable} that unregisters this provider when being disposed.
 		 */
 		export function registerAuthenticationProvider(id: string, label: string, provider: AuthenticationProvider, options?: AuthenticationProviderOptions): Disposable;
+		/**
+		 * Get signed request headers.
+		 *
+		 * There can only be one provider per id and an error is being thrown when an id
+		 * has already been used by another provider. Ids are case-sensitive.
+		 *
+		 * @param id The unique identifier of the provider.
+		 * @param options The params of http request to sign.
+		 * @return Signed request headers or undefined.
+		 */
+		export function getSignHeaders(providerId: string, options: SignRequestOptions): Thenable<SignedHeaders | undefined>;
 	}
 
 	/**
@@ -15730,7 +15938,7 @@ declare module '@codearts/plugin' {
 	 * Collection of test items, found in {@link TestItem.children} and
 	 * {@link TestController.items}.
 	 */
-	export interface TestItemCollection {
+	export interface TestItemCollection extends Iterable<[id: string, testItem: TestItem]> {
 		/**
 		 * Gets the number of items in the collection.
 		 */
@@ -15748,7 +15956,7 @@ declare module '@codearts/plugin' {
 		 * @param callback Function to execute for each entry.
 		 * @param thisArg The `this` context used when invoking the handler function.
 		 */
-		forEach(callback: (item: TestItem, collection: TestItemCollection) => unknown, thisArg?: unknown): void;
+		forEach(callback: (item: TestItem, collection: TestItemCollection) => unknown, thisArg?: any): void;
 
 		/**
 		 * Adds the test item to the children. If an item with the same ID already
@@ -16193,7 +16401,179 @@ declare module '@codearts/plugin' {
 	/**
 	 * Namespace for ui controls.
 	 */
-	export namespace ui { }
+	export namespace ui {
+		export interface Component {
+			/**
+			 * The unique id of control.
+			 */
+			id: string;
+
+			/**
+			 * The frontend module name corresponding to this control.
+			 */
+			ideuiModule: string;
+
+			/**
+			 * Dispose the control, and the module created by the frontend in browser will also be disposed together.
+			 */
+			dispose(): void;
+
+			/**
+			 * Fired when the control is mounted in front-end dom.
+			 */
+			onConnected: Event<void>;
+
+			/**
+			 * Fired when the control is unmounted in front-end dom.
+			 */
+			onDisconnected: Event<void>;
+
+			/**
+			 * Listen for events, the `eventType` here can only support the event type that the control encapsulates in the `mainthread`.
+			 */
+			on(eventType: string, eventhandler: (eventData: any) => void): void;
+		}
+
+		/**
+		 * Button Control.
+		 */
+		export interface Button extends Component {
+			enabled: boolean;
+			label: string;
+			onClick: Event<void>;
+			options: ButtonOptions;
+			focus(): void;
+			hasFocus(): boolean;
+		}
+
+		export interface ButtonOptions {
+			title?: boolean | string;
+			supportIcons?: boolean;
+			secondary?: boolean;
+			label?: string;
+		}
+
+		export namespace button {
+			export function create(options: ButtonOptions): Button;
+		}
+	}
+
+	export enum MenuSide {
+		LEFT = 0,
+		RIGHT = 1
+	}
+
+	export interface MenuThemeIcon {
+
+		/**
+		 * Icon id.
+		 */
+		readonly id: string;
+	}
+
+	export interface CommandAction {
+
+		/**
+		 * Command id.
+		 */
+		id: string;
+
+		/**
+		 * Title show on menu.
+		 */
+		title: string;
+
+		/**
+		 * Short title show on menu.
+		 */
+		shortTitle?: string;
+
+		/**
+		 * Menu category in submenu.
+		 */
+		category?: string;
+
+		/**
+		 * Tooltip title.
+		 */
+		tooltip?: string;
+
+		/**
+		 * Menu icon.
+		 */
+		icon?: MenuThemeIcon;
+
+		/**
+		 * Menu source.
+		 */
+		source?: string;
+
+		/**
+		 * ContextKey Expression.
+		 */
+		precondition?: string;
+
+		/**
+		 * ContextKey Expression.
+		 */
+		toggled?: string | { condition: string; icon?: MenuThemeIcon; tooltip?: string; title?: string };
+	}
+
+	export interface MenuItem {
+
+		/**
+		 * Command action.
+		 */
+		command: CommandAction;
+
+		/**
+		 * ContextKey Expression.
+		 */
+		when?: string;
+
+		/**
+		 * Menu show in group.
+		 */
+		group?: string;
+
+		/**
+		 * The menu shown order.
+		 */
+		order?: number;
+
+		/**
+		 * Arguments passed to command, will be spreaded as rest parameters if this is an array
+		 */
+		args?: any;
+	}
+
+	export interface SubmenuItem {
+
+		/**
+		 * Custom menu id.
+		 */
+		submenu: string;
+
+		/**
+		 * Title shown on menu.
+		 */
+		title: string;
+
+		/**
+		 * ContextKey Expression.
+		 */
+		when?: string;
+
+		/**
+		 * Menu show in group.
+		 */
+		group?: string;
+
+		/**
+		 * The menu shown order.
+		 */
+		order?: number;
+	}
 }
 
 /**

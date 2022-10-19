@@ -40,4 +40,4 @@ A list of ranges that can be edited together
 
 #### Defined in
 
-[index.d.ts:5416](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5416)
+[index.d.ts:5416](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5416)

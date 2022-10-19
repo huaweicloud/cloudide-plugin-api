@@ -23,7 +23,7 @@ The carriage return line feed `\r\n` sequence.
 
 #### Defined in
 
-[index.d.ts:1276](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1276)
+[index.d.ts:1276](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1276)
 
 ___
 
@@ -35,4 +35,4 @@ The line feed `\n` character.
 
 #### Defined in
 
-[index.d.ts:1272](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L1272)
+[index.d.ts:1272](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1272)

@@ -25,7 +25,7 @@ If a line matches this pattern, then all the lines after it should be unindented
 
 #### Defined in
 
-[index.d.ts:5448](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5448)
+[index.d.ts:5448](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5448)
 
 ___
 
@@ -37,7 +37,7 @@ If a line matches this pattern, then all the lines after it should be indented o
 
 #### Defined in
 
-[index.d.ts:5452](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5452)
+[index.d.ts:5452](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5452)
 
 ___
 
@@ -49,7 +49,7 @@ If a line matches this pattern, then **only the next line** after it should be i
 
 #### Defined in
 
-[index.d.ts:5456](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5456)
+[index.d.ts:5456](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5456)
 
 ___
 
@@ -61,4 +61,4 @@ If a line matches this pattern, then its indentation should not be changed and i
 
 #### Defined in
 
-[index.d.ts:5460](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5460)
+[index.d.ts:5460](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5460)

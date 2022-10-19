@@ -23,7 +23,7 @@ Destination port. The `webviewPort` is resolved to this port.
 
 #### Defined in
 
-[index.d.ts:8188](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8188)
+[index.d.ts:8188](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8188)
 
 ___
 
@@ -35,4 +35,4 @@ Localhost port to remap inside the webview.
 
 #### Defined in
 
-[index.d.ts:8183](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8183)
+[index.d.ts:8183](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8183)

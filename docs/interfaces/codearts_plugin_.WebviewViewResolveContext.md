@@ -54,4 +54,4 @@ editor restarts.
 
 #### Defined in
 
-[index.d.ts:8632](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8632)
+[index.d.ts:8670](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8670)

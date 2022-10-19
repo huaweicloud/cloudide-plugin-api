@@ -24,7 +24,7 @@ Global configuration
 
 #### Defined in
 
-[index.d.ts:5605](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5605)
+[index.d.ts:5605](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5605)
 
 ___
 
@@ -36,7 +36,7 @@ Workspace configuration
 
 #### Defined in
 
-[index.d.ts:5610](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5610)
+[index.d.ts:5610](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5610)
 
 ___
 
@@ -48,4 +48,4 @@ Workspace folder configuration
 
 #### Defined in
 
-[index.d.ts:5615](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L5615)
+[index.d.ts:5615](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5615)

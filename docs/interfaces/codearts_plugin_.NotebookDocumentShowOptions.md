@@ -25,7 +25,7 @@ An optional flag that when `true` will stop the [notebook editor](codearts_plugi
 
 #### Defined in
 
-[index.d.ts:835](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L835)
+[index.d.ts:835](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L835)
 
 ___
 
@@ -39,7 +39,7 @@ on the `workbench.editor.enablePreview`-setting.
 
 #### Defined in
 
-[index.d.ts:842](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L842)
+[index.d.ts:842](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L842)
 
 ___
 
@@ -51,7 +51,7 @@ An optional selection to apply for the document in the [notebook editor](codeart
 
 #### Defined in
 
-[index.d.ts:847](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L847)
+[index.d.ts:847](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L847)
 
 ___
 
@@ -67,4 +67,4 @@ editor to the side of the currently active one.
 
 #### Defined in
 
-[index.d.ts:830](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L830)
+[index.d.ts:830](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L830)

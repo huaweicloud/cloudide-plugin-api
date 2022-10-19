@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[index.d.ts:10479](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10479)
+[index.d.ts:10632](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10632)
 
 • **new TreeItem**(`resourceUri`, `collapsibleState?`)
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[index.d.ts:10485](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10485)
+[index.d.ts:10638](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10638)
 
 ## Properties
 
@@ -65,7 +65,7 @@ however, there are cases where a TreeItem is not displayed in a tree-like way wh
 
 #### Defined in
 
-[index.d.ts:10473](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10473)
+[index.d.ts:10626](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10626)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10446](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10446)
+[index.d.ts:10599](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10599)
 
 ___
 
@@ -93,7 +93,7 @@ appear consistent with how other built-in trees open editors.
 
 #### Defined in
 
-[index.d.ts:10441](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10441)
+[index.d.ts:10594](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10594)
 
 ___
 
@@ -120,7 +120,7 @@ This will show action `extension.deleteFolder` only for items with `contextValue
 
 #### Defined in
 
-[index.d.ts:10466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10466)
+[index.d.ts:10619](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10619)
 
 ___
 
@@ -133,7 +133,7 @@ When `true`, it is derived from [resourceUri](codearts_plugin_.TreeItem.md#resou
 
 #### Defined in
 
-[index.d.ts:10419](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10419)
+[index.d.ts:10572](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10572)
 
 ___
 
@@ -147,7 +147,7 @@ When a file or folder [ThemeIcon](codearts_plugin_.ThemeIcon.md) is specified, i
 
 #### Defined in
 
-[index.d.ts:10413](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10413)
+[index.d.ts:10566](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10566)
 
 ___
 
@@ -161,7 +161,7 @@ If not provided, an id is generated using the tree item's label. **Note** that w
 
 #### Defined in
 
-[index.d.ts:10406](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10406)
+[index.d.ts:10559](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10559)
 
 ___
 
@@ -173,7 +173,7 @@ A human-readable string describing this item. When `falsy`, it is derived from [
 
 #### Defined in
 
-[index.d.ts:10399](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10399)
+[index.d.ts:10552](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10552)
 
 ___
 
@@ -188,7 +188,7 @@ Will be used to derive the icon from current file icon theme, when [iconPath](co
 
 #### Defined in
 
-[index.d.ts:10427](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10427)
+[index.d.ts:10580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10580)
 
 ___
 
@@ -200,4 +200,4 @@ The tooltip text when you hover over this item.
 
 #### Defined in
 
-[index.d.ts:10432](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10432)
+[index.d.ts:10585](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10585)

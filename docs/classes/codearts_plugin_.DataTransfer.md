@@ -10,6 +10,10 @@ Drag and drop controllers that implement [`handleDrag`](../interfaces/codearts_p
 data transfer. These additional mime types will only be included in the `handleDrop` when the the drag was initiated from
 an element in the same drag and drop controller.
 
+## Implements
+
+- `Iterable`<[mimeType: string, item: DataTransferItem]\>
+
 ## Table of contents
 
 ### Constructors
@@ -18,6 +22,7 @@ an element in the same drag and drop controller.
 
 ### Methods
 
+- [[iterator]](codearts_plugin_.DataTransfer.md#[iterator])
 - [forEach](codearts_plugin_.DataTransfer.md#foreach)
 - [get](codearts_plugin_.DataTransfer.md#get)
 - [set](codearts_plugin_.DataTransfer.md#set)
@@ -30,9 +35,29 @@ an element in the same drag and drop controller.
 
 ## Methods
 
+### [iterator]
+
+▸ **[iterator]**(): `IterableIterator`<[mimeType: string, item: DataTransferItem]\>
+
+Get a new iterator with the `[mime, item]` pairs for each element in this data transfer.
+
+#### Returns
+
+`IterableIterator`<[mimeType: string, item: DataTransferItem]\>
+
+#### Implementation of
+
+Iterable.\_\_@iterator@10
+
+#### Defined in
+
+[index.d.ts:10353](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10353)
+
+___
+
 ### forEach
 
-▸ **forEach**(`callbackfn`): `void`
+▸ **forEach**(`callbackfn`, `thisArg?`): `void`
 
 Allows iteration through the data transfer items.
 
@@ -40,7 +65,8 @@ Allows iteration through the data transfer items.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `callbackfn` | (`value`: [`DataTransferItem`](codearts_plugin_.DataTransferItem.md), `key`: `string`) => `void` | Callback for iteration through the data transfer items. |
+| `callbackfn` | (`value`: [`DataTransferItem`](codearts_plugin_.DataTransferItem.md), `key`: `string`, `dataTransfer`: [`DataTransfer`](codearts_plugin_.DataTransfer.md)) => `void` | Callback for iteration through the data transfer items. |
+| `thisArg?` | `any` | The `this` context used when invoking the handler function. |
 
 #### Returns
 
@@ -48,7 +74,7 @@ Allows iteration through the data transfer items.
 
 #### Defined in
 
-[index.d.ts:10202](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10202)
+[index.d.ts:10348](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10348)
 
 ___
 
@@ -62,7 +88,7 @@ Retrieves the data transfer item for a given mime type.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `mimeType` | `string` | The mime type to get the data transfer item for, such as `text/plain` or `image/png`.  Special mime types: - `text/uri-list` — A string with `toString()`ed Uris separated by newlines. To specify a cursor position in the file, set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column number. |
+| `mimeType` | `string` | The mime type to get the data transfer item for, such as `text/plain` or `image/png`.  Special mime types: - `text/uri-list` — A string with `toString()`ed Uris separated by `\r\n`. To specify a cursor position in the file, set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column number. |
 
 #### Returns
 
@@ -70,7 +96,7 @@ Retrieves the data transfer item for a given mime type.
 
 #### Defined in
 
-[index.d.ts:10189](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10189)
+[index.d.ts:10333](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10333)
 
 ___
 
@@ -93,4 +119,4 @@ Sets a mime type to data transfer item mapping.
 
 #### Defined in
 
-[index.d.ts:10196](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10196)
+[index.d.ts:10340](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10340)

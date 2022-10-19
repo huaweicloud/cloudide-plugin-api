@@ -35,7 +35,7 @@ Creates a new inlay hint label part.
 
 #### Defined in
 
-[index.d.ts:4902](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4902)
+[index.d.ts:4902](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4902)
 
 ## Properties
 
@@ -53,7 +53,7 @@ when a label part defines [location](codearts_plugin_.InlayHintLabelPart.md#loca
 
 #### Defined in
 
-[index.d.ts:4895](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4895)
+[index.d.ts:4895](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4895)
 
 ___
 
@@ -74,7 +74,7 @@ the given location, and it shows a context menu with further code navigation com
 
 #### Defined in
 
-[index.d.ts:4884](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4884)
+[index.d.ts:4884](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4884)
 
 ___
 
@@ -89,7 +89,7 @@ The tooltip text when you hover over this label part.
 
 #### Defined in
 
-[index.d.ts:4870](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4870)
+[index.d.ts:4870](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4870)
 
 ___
 
@@ -101,4 +101,4 @@ The value of this label part.
 
 #### Defined in
 
-[index.d.ts:4862](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4862)
+[index.d.ts:4862](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4862)

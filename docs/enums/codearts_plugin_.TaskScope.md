@@ -23,7 +23,7 @@ The task is a global task. Global tasks are currently not supported.
 
 #### Defined in
 
-[index.d.ts:7466](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7466)
+[index.d.ts:7466](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7466)
 
 ___
 
@@ -35,4 +35,4 @@ The task is a workspace task
 
 #### Defined in
 
-[index.d.ts:7471](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L7471)
+[index.d.ts:7471](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7471)

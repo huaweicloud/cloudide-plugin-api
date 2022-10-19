@@ -14,10 +14,12 @@ Represents options to create a webviewView dialog.
 - [height](codearts_plugin_.DialogOptions.md#height)
 - [left](codearts_plugin_.DialogOptions.md#left)
 - [modal](codearts_plugin_.DialogOptions.md#modal)
+- [noTitleBar](codearts_plugin_.DialogOptions.md#notitlebar)
 - [resizeable](codearts_plugin_.DialogOptions.md#resizeable)
 - [title](codearts_plugin_.DialogOptions.md#title)
 - [top](codearts_plugin_.DialogOptions.md#top)
 - [width](codearts_plugin_.DialogOptions.md#width)
+- [withCloseIcon](codearts_plugin_.DialogOptions.md#withcloseicon)
 
 ## Properties
 
@@ -29,7 +31,7 @@ Whether to allow drag. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9338](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9338)
+[index.d.ts:9384](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9384)
 
 ___
 
@@ -41,7 +43,7 @@ Height of dialog content in pixels. Default is `300`.
 
 #### Defined in
 
-[index.d.ts:9322](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9322)
+[index.d.ts:9364](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9364)
 
 ___
 
@@ -53,7 +55,7 @@ Set the left position of the dialog relative to window in pixels. Centered by de
 
 #### Defined in
 
-[index.d.ts:9330](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9330)
+[index.d.ts:9374](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9374)
 
 ___
 
@@ -65,7 +67,19 @@ Whether it's a dialog with a masked modal. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9334](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9334)
+[index.d.ts:9379](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9379)
+
+___
+
+### noTitleBar
+
+• `Optional` **noTitleBar**: `boolean`
+
+Whether to hide the title bar of dialog. Default is `false`. Note that drag will not work without title bar.
+
+#### Defined in
+
+[index.d.ts:9389](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9389)
 
 ___
 
@@ -80,19 +94,19 @@ Whether to allow resize the dialog. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9343](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9343)
+[index.d.ts:9400](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9400)
 
 ___
 
 ### title
 
-• **title**: `string`
+• `Optional` **title**: `string`
 
 Title displayed at the top of the dialog.
 
 #### Defined in
 
-[index.d.ts:9314](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9314)
+[index.d.ts:9354](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9354)
 
 ___
 
@@ -104,7 +118,7 @@ Set the top position of the dialog relative to window in pixels. Centered by def
 
 #### Defined in
 
-[index.d.ts:9326](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9326)
+[index.d.ts:9369](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9369)
 
 ___
 
@@ -116,4 +130,16 @@ Width of dialog content in pixels. Default is `500`.
 
 #### Defined in
 
-[index.d.ts:9318](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L9318)
+[index.d.ts:9359](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9359)
+
+___
+
+### withCloseIcon
+
+• `Optional` **withCloseIcon**: `boolean`
+
+Enable close icon in the upper right corner of the dialog. Default is `true`.
+
+#### Defined in
+
+[index.d.ts:9394](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9394)

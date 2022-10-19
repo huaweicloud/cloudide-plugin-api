@@ -6,6 +6,12 @@
 
 A collection of mutations that an extension can apply to a process environment.
 
+## Hierarchy
+
+- `Iterable`<[variable: string, mutator: EnvironmentVariableMutator]\>
+
+  ↳ **`EnvironmentVariableCollection`**
+
 ## Table of contents
 
 ### Properties
@@ -36,7 +42,7 @@ is cleared. Defaults to true.
 
 #### Defined in
 
-[index.d.ts:10877](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10877)
+[index.d.ts:11030](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11030)
 
 ## Methods
 
@@ -62,7 +68,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:10899](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10899)
+[index.d.ts:11052](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11052)
 
 ___
 
@@ -78,7 +84,7 @@ Clears all mutators from this collection.
 
 #### Defined in
 
-[index.d.ts:10937](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10937)
+[index.d.ts:11090](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11090)
 
 ___
 
@@ -100,7 +106,7 @@ Deletes this collection's mutator for a variable.
 
 #### Defined in
 
-[index.d.ts:10932](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10932)
+[index.d.ts:11085](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11085)
 
 ___
 
@@ -123,7 +129,7 @@ Iterate over each mutator in this collection.
 
 #### Defined in
 
-[index.d.ts:10925](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10925)
+[index.d.ts:11078](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11078)
 
 ___
 
@@ -145,7 +151,7 @@ Gets the mutator that this collection applies to a variable, if any.
 
 #### Defined in
 
-[index.d.ts:10917](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10917)
+[index.d.ts:11070](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11070)
 
 ___
 
@@ -171,7 +177,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:10910](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10910)
+[index.d.ts:11063](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11063)
 
 ___
 
@@ -197,4 +203,4 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:10888](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L10888)
+[index.d.ts:11041](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11041)

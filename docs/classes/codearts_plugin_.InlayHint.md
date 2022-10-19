@@ -40,7 +40,7 @@ Creates a new inlay hint.
 
 #### Defined in
 
-[index.d.ts:4968](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4968)
+[index.d.ts:4968](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4968)
 
 ## Properties
 
@@ -52,7 +52,7 @@ The kind of this hint. The inlay hint kind defines the appearance of this inlay 
 
 #### Defined in
 
-[index.d.ts:4933](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4933)
+[index.d.ts:4933](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4933)
 
 ___
 
@@ -66,7 +66,7 @@ The label of this hint. A human readable string or an array of [label parts](cod
 
 #### Defined in
 
-[index.d.ts:4920](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4920)
+[index.d.ts:4920](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4920)
 
 ___
 
@@ -80,7 +80,7 @@ align/separate an inlay hint.
 
 #### Defined in
 
-[index.d.ts:4952](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4952)
+[index.d.ts:4952](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4952)
 
 ___
 
@@ -94,7 +94,7 @@ align/separate an inlay hint.
 
 #### Defined in
 
-[index.d.ts:4959](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4959)
+[index.d.ts:4959](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4959)
 
 ___
 
@@ -106,7 +106,7 @@ The position of this hint.
 
 #### Defined in
 
-[index.d.ts:4913](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4913)
+[index.d.ts:4913](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4913)
 
 ___
 
@@ -125,7 +125,7 @@ now part of the document and the inlay hint itself is now obsolete.
 
 #### Defined in
 
-[index.d.ts:4945](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4945)
+[index.d.ts:4945](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4945)
 
 ___
 
@@ -140,4 +140,4 @@ The tooltip text when you hover over this item.
 
 #### Defined in
 
-[index.d.ts:4928](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L4928)
+[index.d.ts:4928](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4928)

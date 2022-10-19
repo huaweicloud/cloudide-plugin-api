@@ -48,7 +48,7 @@ A Promise for the completion of which ever callback is executed.
 
 #### Defined in
 
-[index.d.ts:16212](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16212)
+[index.d.ts:16592](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16592)
 
 ▸ **then**<`TResult`\>(`onfulfilled?`, `onrejected?`): [`Thenable`](Thenable.md)<`TResult`\>
 
@@ -71,4 +71,4 @@ A Promise for the completion of which ever callback is executed.
 
 #### Defined in
 
-[index.d.ts:16213](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L16213)
+[index.d.ts:16593](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16593)

@@ -23,7 +23,7 @@ Label to be read out by a screen reader once the item has focus.
 
 #### Defined in
 
-[index.d.ts:6275](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6275)
+[index.d.ts:6275](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6275)
 
 ___
 
@@ -38,4 +38,4 @@ More about aria roles can be found here https://w3c.github.io/aria/#widget_roles
 
 #### Defined in
 
-[index.d.ts:6283](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L6283)
+[index.d.ts:6283](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6283)

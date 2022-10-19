@@ -66,7 +66,7 @@ An editor should only ever fire `CustomDocumentEditEvent` events, or only ever f
 
 #### Defined in
 
-[index.d.ts:8896](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8896)
+[index.d.ts:8934](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8934)
 
 ## Methods
 
@@ -101,7 +101,7 @@ rapidly edits the document, `backup` will not be invoked until the editing stops
 
 #### Defined in
 
-[index.d.ts:8969](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8969)
+[index.d.ts:9007](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9007)
 
 ___
 
@@ -138,7 +138,7 @@ The custom document.
 
 #### Defined in
 
-[index.d.ts:8842](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8842)
+[index.d.ts:8880](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8880)
 
 ___
 
@@ -170,7 +170,7 @@ Optional thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8861](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8861)
+[index.d.ts:8899](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8899)
 
 ___
 
@@ -202,7 +202,7 @@ Thenable signaling that the change has completed.
 
 #### Defined in
 
-[index.d.ts:8946](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8946)
+[index.d.ts:8984](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8984)
 
 ___
 
@@ -234,7 +234,7 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:8913](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8913)
+[index.d.ts:8951](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8951)
 
 ___
 
@@ -265,4 +265,4 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:8929](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L8929)
+[index.d.ts:8967](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8967)

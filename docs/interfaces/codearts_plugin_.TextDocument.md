@@ -43,7 +43,7 @@ used in this document.
 
 #### Defined in
 
-[index.d.ts:156](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L156)
+[index.d.ts:156](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L156)
 
 ___
 
@@ -56,7 +56,7 @@ notation for [TextDocument.uri.fsPath](codearts_plugin_.TextDocument.md#uri). In
 
 #### Defined in
 
-[index.d.ts:113](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L113)
+[index.d.ts:113](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L113)
 
 ___
 
@@ -69,7 +69,7 @@ and won't be re-used when the same resource is opened again.
 
 #### Defined in
 
-[index.d.ts:142](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L142)
+[index.d.ts:142](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L142)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:136](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L136)
+[index.d.ts:136](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L136)
 
 ___
 
@@ -95,7 +95,7 @@ to figure out where a document will be [saved](codearts_plugin_.FileSystemProvid
 
 #### Defined in
 
-[index.d.ts:120](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L120)
+[index.d.ts:120](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L120)
 
 ___
 
@@ -107,7 +107,7 @@ The identifier of the language associated with this document.
 
 #### Defined in
 
-[index.d.ts:125](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L125)
+[index.d.ts:125](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L125)
 
 ___
 
@@ -119,7 +119,7 @@ The number of lines in this document.
 
 #### Defined in
 
-[index.d.ts:161](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L161)
+[index.d.ts:161](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L161)
 
 ___
 
@@ -139,7 +139,7 @@ saved on disk and therefore the `scheme` must be checked before trying to access
 
 #### Defined in
 
-[index.d.ts:107](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L107)
+[index.d.ts:107](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L107)
 
 ___
 
@@ -152,7 +152,7 @@ change, including undo/redo).
 
 #### Defined in
 
-[index.d.ts:131](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L131)
+[index.d.ts:131](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L131)
 
 ## Methods
 
@@ -177,7 +177,7 @@ The text inside the provided range or the entire text.
 
 #### Defined in
 
-[index.d.ts:212](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L212)
+[index.d.ts:212](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L212)
 
 ___
 
@@ -213,7 +213,7 @@ A range spanning a word, or `undefined`.
 
 #### Defined in
 
-[index.d.ts:232](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L232)
+[index.d.ts:232](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L232)
 
 ___
 
@@ -239,7 +239,7 @@ A [line](codearts_plugin_.TextLine.md).
 
 #### Defined in
 
-[index.d.ts:171](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L171)
+[index.d.ts:171](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L171)
 
 ▸ **lineAt**(`position`): [`TextLine`](codearts_plugin_.TextLine.md)
 
@@ -267,7 +267,7 @@ A [line](codearts_plugin_.TextLine.md).
 
 #### Defined in
 
-[index.d.ts:185](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L185)
+[index.d.ts:185](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L185)
 
 ___
 
@@ -293,7 +293,7 @@ A valid zero-based offset.
 
 #### Defined in
 
-[index.d.ts:195](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L195)
+[index.d.ts:195](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L195)
 
 ___
 
@@ -317,7 +317,7 @@ A valid [Position](../classes/codearts_plugin_.Position.md).
 
 #### Defined in
 
-[index.d.ts:203](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L203)
+[index.d.ts:203](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L203)
 
 ___
 
@@ -336,7 +336,7 @@ has been saved. If the save failed, will return `false`.
 
 #### Defined in
 
-[index.d.ts:150](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L150)
+[index.d.ts:150](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L150)
 
 ___
 
@@ -360,7 +360,7 @@ The given position or a new, adjusted position.
 
 #### Defined in
 
-[index.d.ts:248](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L248)
+[index.d.ts:248](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L248)
 
 ___
 
@@ -384,4 +384,4 @@ The given range or a new, adjusted range.
 
 #### Defined in
 
-[index.d.ts:240](https://github.com/huaweicloud/cloudide-plugin-api/blob/a055dd0/index.d.ts#L240)
+[index.d.ts:240](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L240)
