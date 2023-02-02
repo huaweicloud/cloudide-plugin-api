@@ -31,7 +31,7 @@ The files that are going to be renamed.
 
 #### Defined in
 
-[index.d.ts:11699](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11699)
+[index.d.ts:11955](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11955)
 
 ___
 
@@ -43,7 +43,7 @@ A cancellation token.
 
 #### Defined in
 
-[index.d.ts:11694](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11694)
+[index.d.ts:11950](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11950)
 
 ## Methods
 
@@ -78,7 +78,7 @@ workspace.onWillCreateFiles(event => {
 
 #### Defined in
 
-[index.d.ts:11719](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11719)
+[index.d.ts:11975](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11975)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -98,4 +98,4 @@ Allows to pause the event until the provided thenable resolves.
 
 #### Defined in
 
-[index.d.ts:11728](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11728)
+[index.d.ts:11984](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11984)

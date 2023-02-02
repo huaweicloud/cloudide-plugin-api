@@ -37,7 +37,7 @@ Creates a new folding range.
 
 #### Defined in
 
-[index.d.ts:5041](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5041)
+[index.d.ts:5061](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5061)
 
 ## Properties
 
@@ -50,7 +50,7 @@ To be valid, the end must be zero or larger and smaller than the number of lines
 
 #### Defined in
 
-[index.d.ts:5023](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5023)
+[index.d.ts:5043](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5043)
 
 ___
 
@@ -66,7 +66,7 @@ If not set, the range is originated from a syntax element.
 
 #### Defined in
 
-[index.d.ts:5032](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5032)
+[index.d.ts:5052](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5052)
 
 ___
 
@@ -79,4 +79,4 @@ To be valid, the end must be zero or larger and smaller than the number of lines
 
 #### Defined in
 
-[index.d.ts:5017](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5017)
+[index.d.ts:5037](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5037)

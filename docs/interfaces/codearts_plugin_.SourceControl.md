@@ -39,7 +39,7 @@ in the Source Control input.
 
 #### Defined in
 
-[index.d.ts:14223](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14223)
+[index.d.ts:14780](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14780)
 
 ___
 
@@ -54,7 +54,7 @@ input with this value when appropriate.
 
 #### Defined in
 
-[index.d.ts:14215](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14215)
+[index.d.ts:14772](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14772)
 
 ___
 
@@ -71,7 +71,7 @@ If undefined, this source control will
 
 #### Defined in
 
-[index.d.ts:14202](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14202)
+[index.d.ts:14759](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14759)
 
 ___
 
@@ -83,7 +83,7 @@ The id of this source control.
 
 #### Defined in
 
-[index.d.ts:14177](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14177)
+[index.d.ts:14734](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14734)
 
 ___
 
@@ -95,7 +95,7 @@ The [input box](codearts_plugin_.SourceControlInputBox.md) for this source contr
 
 #### Defined in
 
-[index.d.ts:14192](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14192)
+[index.d.ts:14749](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14749)
 
 ___
 
@@ -107,7 +107,7 @@ The human-readable label of this source control.
 
 #### Defined in
 
-[index.d.ts:14182](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14182)
+[index.d.ts:14739](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14739)
 
 ___
 
@@ -119,7 +119,7 @@ An optional [quick diff provider](codearts_plugin_.QuickDiffProvider.md).
 
 #### Defined in
 
-[index.d.ts:14207](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14207)
+[index.d.ts:14764](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14764)
 
 ___
 
@@ -131,7 +131,7 @@ The (optional) Uri of the root of this source control.
 
 #### Defined in
 
-[index.d.ts:14187](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14187)
+[index.d.ts:14744](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14744)
 
 ___
 
@@ -145,7 +145,7 @@ These commands will be displayed in the editor's status bar.
 
 #### Defined in
 
-[index.d.ts:14230](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14230)
+[index.d.ts:14787](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14787)
 
 ## Methods
 
@@ -168,7 +168,7 @@ Create a new [resource group](codearts_plugin_.SourceControlResourceGroup.md).
 
 #### Defined in
 
-[index.d.ts:14235](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14235)
+[index.d.ts:14792](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14792)
 
 ___
 
@@ -184,4 +184,4 @@ Dispose this source control.
 
 #### Defined in
 
-[index.d.ts:14240](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14240)
+[index.d.ts:14797](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14797)

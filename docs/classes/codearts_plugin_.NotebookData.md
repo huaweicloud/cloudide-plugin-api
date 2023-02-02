@@ -40,7 +40,7 @@ Create new notebook data.
 
 #### Defined in
 
-[index.d.ts:13578](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13578)
+[index.d.ts:14135](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14135)
 
 ## Properties
 
@@ -52,7 +52,7 @@ The cell data of this notebook data.
 
 #### Defined in
 
-[index.d.ts:13566](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13566)
+[index.d.ts:14123](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14123)
 
 ___
 
@@ -68,4 +68,4 @@ Arbitrary metadata of notebook data.
 
 #### Defined in
 
-[index.d.ts:13571](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13571)
+[index.d.ts:14128](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14128)

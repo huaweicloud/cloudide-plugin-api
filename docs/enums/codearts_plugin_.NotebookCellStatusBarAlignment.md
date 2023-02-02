@@ -23,7 +23,7 @@ Aligned to the left side.
 
 #### Defined in
 
-[index.d.ts:13888](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13888)
+[index.d.ts:14445](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14445)
 
 ___
 
@@ -35,4 +35,4 @@ Aligned to the right side.
 
 #### Defined in
 
-[index.d.ts:13893](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13893)
+[index.d.ts:14450](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14450)

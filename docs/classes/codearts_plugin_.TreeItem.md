@@ -21,6 +21,7 @@
 - [id](codearts_plugin_.TreeItem.md#id)
 - [label](codearts_plugin_.TreeItem.md#label)
 - [resourceUri](codearts_plugin_.TreeItem.md#resourceuri)
+- [suffix](codearts_plugin_.TreeItem.md#suffix)
 - [tooltip](codearts_plugin_.TreeItem.md#tooltip)
 
 ## Constructors
@@ -38,7 +39,7 @@
 
 #### Defined in
 
-[index.d.ts:10632](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10632)
+[index.d.ts:10888](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10888)
 
 • **new TreeItem**(`resourceUri`, `collapsibleState?`)
 
@@ -51,7 +52,7 @@
 
 #### Defined in
 
-[index.d.ts:10638](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10638)
+[index.d.ts:10894](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10894)
 
 ## Properties
 
@@ -65,7 +66,7 @@ however, there are cases where a TreeItem is not displayed in a tree-like way wh
 
 #### Defined in
 
-[index.d.ts:10626](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10626)
+[index.d.ts:10877](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10877)
 
 ___
 
@@ -77,7 +78,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10599](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10599)
+[index.d.ts:10850](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10850)
 
 ___
 
@@ -93,7 +94,7 @@ appear consistent with how other built-in trees open editors.
 
 #### Defined in
 
-[index.d.ts:10594](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10594)
+[index.d.ts:10845](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10845)
 
 ___
 
@@ -120,7 +121,7 @@ This will show action `extension.deleteFolder` only for items with `contextValue
 
 #### Defined in
 
-[index.d.ts:10619](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10619)
+[index.d.ts:10870](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10870)
 
 ___
 
@@ -133,7 +134,7 @@ When `true`, it is derived from [resourceUri](codearts_plugin_.TreeItem.md#resou
 
 #### Defined in
 
-[index.d.ts:10572](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10572)
+[index.d.ts:10823](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10823)
 
 ___
 
@@ -147,7 +148,7 @@ When a file or folder [ThemeIcon](codearts_plugin_.ThemeIcon.md) is specified, i
 
 #### Defined in
 
-[index.d.ts:10566](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10566)
+[index.d.ts:10817](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10817)
 
 ___
 
@@ -161,7 +162,7 @@ If not provided, an id is generated using the tree item's label. **Note** that w
 
 #### Defined in
 
-[index.d.ts:10559](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10559)
+[index.d.ts:10810](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10810)
 
 ___
 
@@ -173,7 +174,7 @@ A human-readable string describing this item. When `falsy`, it is derived from [
 
 #### Defined in
 
-[index.d.ts:10552](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10552)
+[index.d.ts:10803](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10803)
 
 ___
 
@@ -188,7 +189,19 @@ Will be used to derive the icon from current file icon theme, when [iconPath](co
 
 #### Defined in
 
-[index.d.ts:10580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10580)
+[index.d.ts:10831](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10831)
+
+___
+
+### suffix
+
+• `Optional` **suffix**: `string`
+
+This field will be rendered at the end of the tree item.
+
+#### Defined in
+
+[index.d.ts:10882](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10882)
 
 ___
 
@@ -200,4 +213,4 @@ The tooltip text when you hover over this item.
 
 #### Defined in
 
-[index.d.ts:10585](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10585)
+[index.d.ts:10836](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10836)

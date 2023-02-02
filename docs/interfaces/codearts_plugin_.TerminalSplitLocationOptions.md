@@ -23,4 +23,4 @@ is in the panel or the editor area.
 
 #### Defined in
 
-[index.d.ts:6525](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6525)
+[index.d.ts:6580](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6580)

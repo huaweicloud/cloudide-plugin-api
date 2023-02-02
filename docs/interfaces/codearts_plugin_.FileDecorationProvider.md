@@ -33,7 +33,7 @@ An optional event to signal that decorations for one or many files have changed.
 
 #### Defined in
 
-[index.d.ts:6699](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6699)
+[index.d.ts:6754](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6754)
 
 ## Methods
 
@@ -62,4 +62,4 @@ A decoration or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:6712](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6712)
+[index.d.ts:6767](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6767)

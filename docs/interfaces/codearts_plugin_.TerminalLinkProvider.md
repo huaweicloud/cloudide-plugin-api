@@ -39,7 +39,7 @@ Handle an activated terminal link.
 
 #### Defined in
 
-[index.d.ts:6582](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6582)
+[index.d.ts:6637](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6637)
 
 ___
 
@@ -66,4 +66,4 @@ A list of terminal links for the given line.
 
 #### Defined in
 
-[index.d.ts:6576](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6576)
+[index.d.ts:6631](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6631)

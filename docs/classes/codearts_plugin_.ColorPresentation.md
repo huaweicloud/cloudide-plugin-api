@@ -39,7 +39,7 @@ Creates a new color presentation.
 
 #### Defined in
 
-[index.d.ts:4806](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4806)
+[index.d.ts:4826](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4826)
 
 ## Properties
 
@@ -52,7 +52,7 @@ selecting this color presentation. Edits must not overlap with the main [edit](c
 
 #### Defined in
 
-[index.d.ts:4799](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4799)
+[index.d.ts:4819](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4819)
 
 ___
 
@@ -66,7 +66,7 @@ this color presentation.
 
 #### Defined in
 
-[index.d.ts:4786](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4786)
+[index.d.ts:4806](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4806)
 
 ___
 
@@ -80,4 +80,4 @@ is used.
 
 #### Defined in
 
-[index.d.ts:4793](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4793)
+[index.d.ts:4813](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4813)

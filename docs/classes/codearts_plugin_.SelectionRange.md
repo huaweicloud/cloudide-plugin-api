@@ -35,7 +35,7 @@ Creates a new selection range.
 
 #### Defined in
 
-[index.d.ts:5114](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5114)
+[index.d.ts:5134](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5134)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The parent selection range containing this range.
 
 #### Defined in
 
-[index.d.ts:5106](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5106)
+[index.d.ts:5126](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5126)
 
 ___
 
@@ -59,4 +59,4 @@ The [Range](codearts_plugin_.Range.md) of this selection range.
 
 #### Defined in
 
-[index.d.ts:5101](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5101)
+[index.d.ts:5121](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5121)

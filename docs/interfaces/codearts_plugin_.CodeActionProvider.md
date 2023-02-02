@@ -51,7 +51,7 @@ We also support returning `Command` for legacy reasons, however all new extensio
 
 #### Defined in
 
-[index.d.ts:2502](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2502)
+[index.d.ts:2502](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2502)
 
 ___
 
@@ -83,4 +83,4 @@ The resolved code action or a thenable that resolves to such. It is OK to return
 
 #### Defined in
 
-[index.d.ts:2518](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2518)
+[index.d.ts:2518](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2518)

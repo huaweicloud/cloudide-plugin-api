@@ -24,7 +24,7 @@ Extension runs where the UI runs.
 
 #### Defined in
 
-[index.d.ts:6725](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6725)
+[index.d.ts:6780](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6780)
 
 ___
 
@@ -36,4 +36,4 @@ Extension runs where the remote extension host runs.
 
 #### Defined in
 
-[index.d.ts:6730](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6730)
+[index.d.ts:6785](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6785)

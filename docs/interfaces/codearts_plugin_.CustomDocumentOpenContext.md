@@ -26,7 +26,7 @@ from the user's workspace.
 
 #### Defined in
 
-[index.d.ts:8842](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8842)
+[index.d.ts:8897](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8897)
 
 ___
 
@@ -40,4 +40,4 @@ If this is provided, your extension should utilize this byte data rather than ex
 
 #### Defined in
 
-[index.d.ts:8849](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8849)
+[index.d.ts:8904](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8904)

@@ -31,7 +31,7 @@ The [text](codearts_plugin_.TextDocument.md) of this cell, represented as text d
 
 #### Defined in
 
-[index.d.ts:13145](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13145)
+[index.d.ts:13702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13702)
 
 ___
 
@@ -43,7 +43,7 @@ The most recent [execution summary](codearts_plugin_.NotebookCellExecutionSummar
 
 #### Defined in
 
-[index.d.ts:13160](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13160)
+[index.d.ts:13717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13717)
 
 ___
 
@@ -57,7 +57,7 @@ when the cell has been removed from its notebook.
 
 #### Defined in
 
-[index.d.ts:13130](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13130)
+[index.d.ts:13687](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13687)
 
 ___
 
@@ -69,7 +69,7 @@ The kind of this cell.
 
 #### Defined in
 
-[index.d.ts:13140](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13140)
+[index.d.ts:13697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13697)
 
 ___
 
@@ -85,7 +85,7 @@ The metadata of this cell. Can be anything but must be JSON-stringifyable.
 
 #### Defined in
 
-[index.d.ts:13150](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13150)
+[index.d.ts:13707](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13707)
 
 ___
 
@@ -97,7 +97,7 @@ The [notebook](codearts_plugin_.NotebookDocument.md) that contains this cell.
 
 #### Defined in
 
-[index.d.ts:13135](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13135)
+[index.d.ts:13692](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13692)
 
 ___
 
@@ -109,4 +109,4 @@ The outputs of this cell.
 
 #### Defined in
 
-[index.d.ts:13155](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13155)
+[index.d.ts:13712](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13712)

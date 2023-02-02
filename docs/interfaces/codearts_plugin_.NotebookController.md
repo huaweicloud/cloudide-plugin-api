@@ -47,7 +47,7 @@ The human-readable description which is rendered less prominent.
 
 #### Defined in
 
-[index.d.ts:13710](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13710)
+[index.d.ts:14267](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14267)
 
 ___
 
@@ -59,7 +59,7 @@ The human-readable detail which is rendered less prominent.
 
 #### Defined in
 
-[index.d.ts:13715](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13715)
+[index.d.ts:14272](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14272)
 
 ___
 
@@ -88,7 +88,7 @@ Run Selection etc. The execute handler is responsible for creating and managing 
 
 #### Defined in
 
-[index.d.ts:13742](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13742)
+[index.d.ts:14299](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14299)
 
 ___
 
@@ -103,7 +103,7 @@ stable identifiers across sessions.
 
 #### Defined in
 
-[index.d.ts:13678](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13678)
+[index.d.ts:14235](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14235)
 
 ___
 
@@ -138,7 +138,7 @@ only be used when tokens cannot be supported.
 
 #### Defined in
 
-[index.d.ts:13756](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13756)
+[index.d.ts:14313](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14313)
 
 ___
 
@@ -150,7 +150,7 @@ The human-readable label of this notebook controller.
 
 #### Defined in
 
-[index.d.ts:13705](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13705)
+[index.d.ts:14262](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14262)
 
 ___
 
@@ -162,7 +162,7 @@ The notebook type this controller is for.
 
 #### Defined in
 
-[index.d.ts:13683](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13683)
+[index.d.ts:14240](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14240)
 
 ___
 
@@ -181,7 +181,7 @@ controller is re-created or as a notebook is [opened](../modules/codearts_plugin
 
 #### Defined in
 
-[index.d.ts:13768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13768)
+[index.d.ts:14325](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14325)
 
 ___
 
@@ -205,7 +205,7 @@ myController.supportedLanguages = []; // falsy
 
 #### Defined in
 
-[index.d.ts:13700](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13700)
+[index.d.ts:14257](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14257)
 
 ___
 
@@ -218,7 +218,7 @@ editor can render placeholders for them.
 
 #### Defined in
 
-[index.d.ts:13721](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13721)
+[index.d.ts:14278](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14278)
 
 ## Methods
 
@@ -249,7 +249,7 @@ A notebook cell execution.
 
 #### Defined in
 
-[index.d.ts:13736](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13736)
+[index.d.ts:14293](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14293)
 
 ___
 
@@ -265,7 +265,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:13782](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13782)
+[index.d.ts:14339](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14339)
 
 ___
 
@@ -289,4 +289,4 @@ to be presented more prominent for some notebooks.
 
 #### Defined in
 
-[index.d.ts:13777](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13777)
+[index.d.ts:14334](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14334)

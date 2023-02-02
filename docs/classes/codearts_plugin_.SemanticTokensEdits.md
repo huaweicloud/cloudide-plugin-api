@@ -36,7 +36,7 @@ Represents edits to semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3768)
+[index.d.ts:3768](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3768)
 
 ## Properties
 
@@ -49,7 +49,7 @@ All edits refer to the initial data state.
 
 #### Defined in
 
-[index.d.ts:3766](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3766)
+[index.d.ts:3766](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3766)
 
 ___
 
@@ -63,4 +63,4 @@ This is the id that will be passed to `DocumentSemanticTokensProvider.provideDoc
 
 #### Defined in
 
-[index.d.ts:3761](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3761)
+[index.d.ts:3761](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3761)

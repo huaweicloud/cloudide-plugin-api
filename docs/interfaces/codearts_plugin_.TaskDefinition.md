@@ -39,4 +39,4 @@ usages and shouldn't be used by extensions.
 
 #### Defined in
 
-[index.d.ts:7220](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7220)
+[index.d.ts:7275](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7275)

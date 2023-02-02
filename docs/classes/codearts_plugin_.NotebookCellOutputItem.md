@@ -42,7 +42,7 @@ Create a new notebook cell output item.
 
 #### Defined in
 
-[index.d.ts:13468](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13468)
+[index.d.ts:14025](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14025)
 
 ## Properties
 
@@ -54,7 +54,7 @@ The data of this output item. Must always be an array of unsigned 8-bit integers
 
 #### Defined in
 
-[index.d.ts:13460](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13460)
+[index.d.ts:14017](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14017)
 
 ___
 
@@ -70,7 +70,7 @@ types and override existing types.
 
 #### Defined in
 
-[index.d.ts:13455](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13455)
+[index.d.ts:14012](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14012)
 
 ## Methods
 
@@ -95,7 +95,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:13446](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13446)
+[index.d.ts:14003](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14003)
 
 ___
 
@@ -125,7 +125,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:13419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13419)
+[index.d.ts:13976](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13976)
 
 ___
 
@@ -150,7 +150,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:13437](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13437)
+[index.d.ts:13994](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13994)
 
 ___
 
@@ -175,7 +175,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:13428](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13428)
+[index.d.ts:13985](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13985)
 
 ___
 
@@ -202,4 +202,4 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:13405](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13405)
+[index.d.ts:13962](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13962)

@@ -34,7 +34,7 @@ Constructs a new tab input for a notebook.
 
 #### Defined in
 
-[index.d.ts:16201](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16201)
+[index.d.ts:16991](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16991)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces
 
 #### Defined in
 
-[index.d.ts:16195](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16195)
+[index.d.ts:16985](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16985)
 
 ___
 
@@ -58,4 +58,4 @@ The uri that the tab is representing.
 
 #### Defined in
 
-[index.d.ts:16191](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16191)
+[index.d.ts:16981](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16981)

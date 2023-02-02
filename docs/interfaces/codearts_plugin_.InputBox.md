@@ -60,7 +60,7 @@ user input.
 
 #### Defined in
 
-[index.d.ts:11196](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11196)
+[index.d.ts:11452](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11452)
 
 ___
 
@@ -72,7 +72,7 @@ Buttons for actions in the UI.
 
 #### Defined in
 
-[index.d.ts:11367](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11367)
+[index.d.ts:11623](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11623)
 
 ___
 
@@ -91,7 +91,7 @@ loading data for the next step in user input.
 
 #### Defined in
 
-[index.d.ts:11188](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11188)
+[index.d.ts:11444](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11444)
 
 ___
 
@@ -108,7 +108,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:11202](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11202)
+[index.d.ts:11458](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11458)
 
 ___
 
@@ -120,7 +120,7 @@ An event signaling when the user indicated acceptance of the input value.
 
 #### Defined in
 
-[index.d.ts:11362](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11362)
+[index.d.ts:11618](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11618)
 
 ___
 
@@ -132,7 +132,7 @@ An event signaling when the value has changed.
 
 #### Defined in
 
-[index.d.ts:11357](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11357)
+[index.d.ts:11613](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11613)
 
 ___
 
@@ -153,7 +153,7 @@ the user pressing Esc, some other input UI opening, etc.)
 
 #### Defined in
 
-[index.d.ts:11224](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11224)
+[index.d.ts:11480](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11480)
 
 ___
 
@@ -165,7 +165,7 @@ An event signaling when a button was triggered.
 
 #### Defined in
 
-[index.d.ts:11372](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11372)
+[index.d.ts:11628](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11628)
 
 ___
 
@@ -177,7 +177,7 @@ If the input value should be hidden. Defaults to false.
 
 #### Defined in
 
-[index.d.ts:11352](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11352)
+[index.d.ts:11608](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11608)
 
 ___
 
@@ -189,7 +189,7 @@ Optional placeholder in the filter text.
 
 #### Defined in
 
-[index.d.ts:11347](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11347)
+[index.d.ts:11603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11603)
 
 ___
 
@@ -201,7 +201,7 @@ An optional prompt text providing some ask or explanation to the user.
 
 #### Defined in
 
-[index.d.ts:11377](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11377)
+[index.d.ts:11633](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11633)
 
 ___
 
@@ -217,7 +217,7 @@ An optional current step count.
 
 #### Defined in
 
-[index.d.ts:11175](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11175)
+[index.d.ts:11431](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11431)
 
 ___
 
@@ -233,7 +233,7 @@ An optional title.
 
 #### Defined in
 
-[index.d.ts:11170](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11170)
+[index.d.ts:11426](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11426)
 
 ___
 
@@ -249,7 +249,7 @@ An optional total step count.
 
 #### Defined in
 
-[index.d.ts:11180](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11180)
+[index.d.ts:11436](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11436)
 
 ___
 
@@ -263,7 +263,7 @@ Returning undefined clears the validation message.
 
 #### Defined in
 
-[index.d.ts:11384](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11384)
+[index.d.ts:11640](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11640)
 
 ___
 
@@ -275,7 +275,7 @@ Current input value.
 
 #### Defined in
 
-[index.d.ts:11342](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11342)
+[index.d.ts:11598](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11598)
 
 ## Methods
 
@@ -298,7 +298,7 @@ accessed. Instead a new input UI should be created.
 
 #### Defined in
 
-[index.d.ts:11232](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11232)
+[index.d.ts:11488](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11488)
 
 ___
 
@@ -319,7 +319,7 @@ event.
 
 #### Defined in
 
-[index.d.ts:11214](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11214)
+[index.d.ts:11470](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11470)
 
 ___
 
@@ -340,4 +340,4 @@ UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) even
 
 #### Defined in
 
-[index.d.ts:11208](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11208)
+[index.d.ts:11464](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11464)

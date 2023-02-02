@@ -52,7 +52,7 @@ if (folder) {
 
 #### Defined in
 
-[index.d.ts:2124](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2124)
+[index.d.ts:2124](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2124)
 
 ## Properties
 
@@ -73,7 +73,7 @@ This property is deprecated, please use [baseUri](codearts_plugin_.RelativePatte
 
 #### Defined in
 
-[index.d.ts:2091](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2091)
+[index.d.ts:2091](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2091)
 
 ___
 
@@ -85,7 +85,7 @@ A base file path to which this pattern will be matched against relatively.
 
 #### Defined in
 
-[index.d.ts:2079](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2079)
+[index.d.ts:2079](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2079)
 
 ___
 
@@ -101,4 +101,4 @@ the file glob pattern will match on `index.js`.
 
 #### Defined in
 
-[index.d.ts:2100](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2100)
+[index.d.ts:2100](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2100)

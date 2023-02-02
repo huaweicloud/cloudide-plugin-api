@@ -40,7 +40,7 @@ Creates a new TestMessage instance.
 
 #### Defined in
 
-[index.d.ts:16110](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16110)
+[index.d.ts:16675](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16675)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Actual test output. If given with [expectedOutput](codearts_plugin_.TestMessage.
 
 #### Defined in
 
-[index.d.ts:16091](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16091)
+[index.d.ts:16656](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16656)
 
 ___
 
@@ -64,7 +64,7 @@ Expected test output. If given with [actualOutput](codearts_plugin_.TestMessage.
 
 #### Defined in
 
-[index.d.ts:16086](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16086)
+[index.d.ts:16651](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16651)
 
 ___
 
@@ -76,7 +76,7 @@ Associated file location.
 
 #### Defined in
 
-[index.d.ts:16096](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16096)
+[index.d.ts:16661](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16661)
 
 ___
 
@@ -88,7 +88,7 @@ Human-readable message text to display.
 
 #### Defined in
 
-[index.d.ts:16081](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16081)
+[index.d.ts:16646](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16646)
 
 ## Methods
 
@@ -112,4 +112,4 @@ Creates a new TestMessage that will present as a diff in the editor.
 
 #### Defined in
 
-[index.d.ts:16104](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16104)
+[index.d.ts:16669](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16669)

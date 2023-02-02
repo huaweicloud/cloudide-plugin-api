@@ -25,7 +25,7 @@ shared with other tasks.
 
 #### Defined in
 
-[index.d.ts:7113](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7113)
+[index.d.ts:7168](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7168)
 
 ___
 
@@ -37,7 +37,7 @@ Creates a new panel whenever this task is executed.
 
 #### Defined in
 
-[index.d.ts:7118](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7118)
+[index.d.ts:7173](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7173)
 
 ___
 
@@ -49,4 +49,4 @@ Shares a panel with other tasks. This is the default.
 
 #### Defined in
 
-[index.d.ts:7107](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7107)
+[index.d.ts:7162](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7162)

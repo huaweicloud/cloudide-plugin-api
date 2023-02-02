@@ -37,7 +37,7 @@ The cancellation token of this source.
 
 #### Defined in
 
-[index.d.ts:1522](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1522)
+[index.d.ts:1522](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1522)
 
 ## Methods
 
@@ -53,7 +53,7 @@ Signal cancellation on the token.
 
 #### Defined in
 
-[index.d.ts:1527](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1527)
+[index.d.ts:1527](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1527)
 
 ___
 
@@ -69,4 +69,4 @@ Dispose object and free resources.
 
 #### Defined in
 
-[index.d.ts:1532](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1532)
+[index.d.ts:1532](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1532)

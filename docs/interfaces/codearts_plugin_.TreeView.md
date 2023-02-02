@@ -23,7 +23,9 @@ Represents a Tree view
 ### Properties
 
 - [description](codearts_plugin_.TreeView.md#description)
+- [focusedElements](codearts_plugin_.TreeView.md#focusedelements)
 - [message](codearts_plugin_.TreeView.md#message)
+- [onDidChangeFocus](codearts_plugin_.TreeView.md#ondidchangefocus)
 - [onDidChangeSelection](codearts_plugin_.TreeView.md#ondidchangeselection)
 - [onDidChangeVisibility](codearts_plugin_.TreeView.md#ondidchangevisibility)
 - [onDidCollapseElement](codearts_plugin_.TreeView.md#ondidcollapseelement)
@@ -48,7 +50,19 @@ Setting the title description to null, undefined, or empty string will remove th
 
 #### Defined in
 
-[index.d.ts:10469](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10469)
+[index.d.ts:10720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10720)
+
+___
+
+### focusedElements
+
+• `Readonly` **focusedElements**: readonly `T`[]
+
+Currently focused elements.
+
+#### Defined in
+
+[index.d.ts:10687](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10687)
 
 ___
 
@@ -61,7 +75,19 @@ Setting the message to null, undefined, or empty string will remove the message 
 
 #### Defined in
 
-[index.d.ts:10457](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10457)
+[index.d.ts:10708](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10708)
+
+___
+
+### onDidChangeFocus
+
+• `Readonly` **onDidChangeFocus**: [`Event`](codearts_plugin_.Event.md)<[`TreeViewFocusChangeEvent`](codearts_plugin_.TreeViewFocusChangeEvent.md)<`T`\>\>
+
+Event that is fired when the [focused elements](codearts_plugin_.TreeView.md#focusedelements) have changed
+
+#### Defined in
+
+[index.d.ts:10692](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10692)
 
 ___
 
@@ -73,7 +99,7 @@ Event that is fired when the [selection](codearts_plugin_.TreeView.md#selection)
 
 #### Defined in
 
-[index.d.ts:10441](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10441)
+[index.d.ts:10682](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10682)
 
 ___
 
@@ -85,7 +111,7 @@ Event that is fired when [visibility](codearts_plugin_.TreeView.md#visible) has 
 
 #### Defined in
 
-[index.d.ts:10451](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10451)
+[index.d.ts:10702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10702)
 
 ___
 
@@ -97,7 +123,7 @@ Event that is fired when an element is collapsed
 
 #### Defined in
 
-[index.d.ts:10431](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10431)
+[index.d.ts:10672](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10672)
 
 ___
 
@@ -109,7 +135,7 @@ Event that is fired when an element is expanded
 
 #### Defined in
 
-[index.d.ts:10426](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10426)
+[index.d.ts:10667](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10667)
 
 ___
 
@@ -121,7 +147,7 @@ Currently selected elements.
 
 #### Defined in
 
-[index.d.ts:10436](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10436)
+[index.d.ts:10677](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10677)
 
 ___
 
@@ -134,7 +160,7 @@ Changes to the title property will be properly reflected in the UI in the title 
 
 #### Defined in
 
-[index.d.ts:10463](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10463)
+[index.d.ts:10714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10714)
 
 ___
 
@@ -146,7 +172,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10446](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10446)
+[index.d.ts:10697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10697)
 
 ## Methods
 
@@ -166,7 +192,7 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1580)
 
 ___
 
@@ -201,4 +227,4 @@ In order to expand the revealed element, set the option `expand` to `true`. To e
 
 #### Defined in
 
-[index.d.ts:10483](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10483)
+[index.d.ts:10734](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10734)

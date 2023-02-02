@@ -35,7 +35,7 @@ Creates a new parameter information object.
 
 #### Defined in
 
-[index.d.ts:4019](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4019)
+[index.d.ts:4019](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4019)
 
 ## Properties
 
@@ -48,7 +48,7 @@ in the UI but can be omitted.
 
 #### Defined in
 
-[index.d.ts:4011](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4011)
+[index.d.ts:4011](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4011)
 
 ___
 
@@ -64,4 +64,4 @@ a substring of its containing signature information's [label](codearts_plugin_.S
 
 #### Defined in
 
-[index.d.ts:4005](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4005)
+[index.d.ts:4005](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4005)

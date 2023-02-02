@@ -25,7 +25,7 @@ Diagnostics with this tag are rendered with a strike through.
 
 #### Defined in
 
-[index.d.ts:5915](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5915)
+[index.d.ts:5943](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5943)
 
 ___
 
@@ -44,4 +44,4 @@ instead of fading it out.
 
 #### Defined in
 
-[index.d.ts:5908](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5908)
+[index.d.ts:5936](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5936)

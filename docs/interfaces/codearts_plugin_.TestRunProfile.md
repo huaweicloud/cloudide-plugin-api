@@ -34,7 +34,7 @@ opening a configuration file.
 
 #### Defined in
 
-[index.d.ts:15663](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15663)
+[index.d.ts:16220](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16220)
 
 ___
 
@@ -50,7 +50,7 @@ user can configure this.
 
 #### Defined in
 
-[index.d.ts:15649](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15649)
+[index.d.ts:16206](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16206)
 
 ___
 
@@ -63,7 +63,7 @@ are no profiles for a kind, it will not be available in the UI.
 
 #### Defined in
 
-[index.d.ts:15640](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15640)
+[index.d.ts:16197](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16197)
 
 ___
 
@@ -81,7 +81,7 @@ kind. If there is no such configuration, the default will be used.
 
 #### Defined in
 
-[index.d.ts:15634](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15634)
+[index.d.ts:16191](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16191)
 
 ___
 
@@ -111,7 +111,7 @@ or the returned promise is resolved.
 
 #### Defined in
 
-[index.d.ts:15677](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15677)
+[index.d.ts:16234](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16234)
 
 ___
 
@@ -124,7 +124,7 @@ instances with the same tag will be eligible to execute in this profile.
 
 #### Defined in
 
-[index.d.ts:15655](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15655)
+[index.d.ts:16212](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16212)
 
 ## Methods
 
@@ -140,4 +140,4 @@ Deletes the run profile.
 
 #### Defined in
 
-[index.d.ts:15682](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15682)
+[index.d.ts:16239](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16239)

@@ -50,7 +50,7 @@ the change in an editor for example.
 
 #### Defined in
 
-[index.d.ts:7965](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7965)
+[index.d.ts:8020](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8020)
 
 ## Methods
 
@@ -92,7 +92,7 @@ the copy operation.
 
 #### Defined in
 
-[index.d.ts:8079](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8079)
+[index.d.ts:8134](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8134)
 
 ___
 
@@ -126,7 +126,7 @@ Create a new directory (Note, that new files are created via `write`-calls).
 
 #### Defined in
 
-[index.d.ts:8020](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8020)
+[index.d.ts:8075](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8075)
 
 ___
 
@@ -158,7 +158,7 @@ Delete a file.
 
 #### Defined in
 
-[index.d.ts:8052](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8052)
+[index.d.ts:8107](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8107)
 
 ___
 
@@ -186,7 +186,7 @@ An array of name/type-tuples or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8010](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8010)
+[index.d.ts:8065](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8065)
 
 ___
 
@@ -214,7 +214,7 @@ An array of bytes or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8029](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8029)
+[index.d.ts:8084](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8084)
 
 ___
 
@@ -255,7 +255,7 @@ Rename a file or folder.
 
 #### Defined in
 
-[index.d.ts:8065](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8065)
+[index.d.ts:8120](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8120)
 
 ___
 
@@ -287,7 +287,7 @@ The file metadata about the file.
 
 #### Defined in
 
-[index.d.ts:8001](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8001)
+[index.d.ts:8056](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8056)
 
 ___
 
@@ -328,7 +328,7 @@ A disposable that tells the provider to stop watching the `uri`.
 
 #### Defined in
 
-[index.d.ts:7988](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7988)
+[index.d.ts:8043](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8043)
 
 ___
 
@@ -370,4 +370,4 @@ Write data to a file, replacing its entire contents.
 
 #### Defined in
 
-[index.d.ts:8042](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8042)
+[index.d.ts:8097](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8097)

@@ -49,7 +49,7 @@ on dispose.
 
 #### Defined in
 
-[index.d.ts:1575](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1575)
+[index.d.ts:1575](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1575)
 
 ## Methods
 
@@ -65,7 +65,7 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1580)
 
 ___
 
@@ -91,4 +91,4 @@ dispose all provided disposables.
 
 #### Defined in
 
-[index.d.ts:1565](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1565)
+[index.d.ts:1565](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1565)

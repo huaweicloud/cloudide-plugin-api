@@ -33,7 +33,7 @@ Defaults to true.
 
 #### Defined in
 
-[index.d.ts:15028](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15028)
+[index.d.ts:15585](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15585)
 
 ___
 
@@ -46,7 +46,7 @@ Defaults to Collapsed.
 
 #### Defined in
 
-[index.d.ts:15022](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15022)
+[index.d.ts:15579](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15579)
 
 ___
 
@@ -58,7 +58,7 @@ The ordered comments of the thread.
 
 #### Defined in
 
-[index.d.ts:15016](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15016)
+[index.d.ts:15573](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15573)
 
 ___
 
@@ -85,7 +85,7 @@ This will show action `extension.deleteCommentThread` only for comment threads w
 
 #### Defined in
 
-[index.d.ts:15048](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15048)
+[index.d.ts:15605](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15605)
 
 ___
 
@@ -97,7 +97,7 @@ The optional human-readable label describing the [Comment Thread](codearts_plugi
 
 #### Defined in
 
-[index.d.ts:15053](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15053)
+[index.d.ts:15610](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15610)
 
 ___
 
@@ -110,7 +110,7 @@ at the last line of the range.
 
 #### Defined in
 
-[index.d.ts:15011](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15011)
+[index.d.ts:15568](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15568)
 
 ___
 
@@ -122,7 +122,7 @@ The uri of the document the thread has been created on.
 
 #### Defined in
 
-[index.d.ts:15005](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15005)
+[index.d.ts:15562](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15562)
 
 ## Methods
 
@@ -140,4 +140,4 @@ Once disposed, this comment thread will be removed from visible editors and Comm
 
 #### Defined in
 
-[index.d.ts:15060](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15060)
+[index.d.ts:15617](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15617)

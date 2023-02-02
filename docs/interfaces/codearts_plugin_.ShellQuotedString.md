@@ -23,7 +23,7 @@ The quoting style to use.
 
 #### Defined in
 
-[index.d.ts:7397](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7397)
+[index.d.ts:7452](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7452)
 
 ___
 
@@ -35,4 +35,4 @@ The actual string value.
 
 #### Defined in
 
-[index.d.ts:7392](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7392)
+[index.d.ts:7447](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7447)

@@ -24,7 +24,7 @@ The task execution for which the process got started.
 
 #### Defined in
 
-[index.d.ts:7681](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7681)
+[index.d.ts:7736](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7736)
 
 ___
 
@@ -36,4 +36,4 @@ The process's exit code. Will be `undefined` when the task is terminated.
 
 #### Defined in
 
-[index.d.ts:7686](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7686)
+[index.d.ts:7741](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7741)

@@ -24,7 +24,7 @@ Read-access of a symbol, like reading a variable.
 
 #### Defined in
 
-[index.d.ts:3067](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3067)
+[index.d.ts:3067](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3067)
 
 ___
 
@@ -36,7 +36,7 @@ A textual occurrence.
 
 #### Defined in
 
-[index.d.ts:3062](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3062)
+[index.d.ts:3062](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3062)
 
 ___
 
@@ -48,4 +48,4 @@ Write-access of a symbol, like writing to a variable.
 
 #### Defined in
 
-[index.d.ts:3072](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3072)
+[index.d.ts:3072](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3072)

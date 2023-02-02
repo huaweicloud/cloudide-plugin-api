@@ -31,7 +31,7 @@ Note: this property is ignored when [kind](codearts_plugin_.QuickPickItem.md#kin
 
 #### Defined in
 
-[index.d.ts:1778](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1778)
+[index.d.ts:1778](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1778)
 
 ___
 
@@ -48,7 +48,7 @@ Note: this property is ignored when [kind](codearts_plugin_.QuickPickItem.md#kin
 
 #### Defined in
 
-[index.d.ts:1788](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1788)
+[index.d.ts:1788](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1788)
 
 ___
 
@@ -63,7 +63,7 @@ Note: this property is ignored when [kind](codearts_plugin_.QuickPickItem.md#kin
 
 #### Defined in
 
-[index.d.ts:1751](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1751)
+[index.d.ts:1751](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1751)
 
 ___
 
@@ -78,7 +78,7 @@ Note: this property is ignored when [kind](codearts_plugin_.QuickPickItem.md#kin
 
 #### Defined in
 
-[index.d.ts:1759](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1759)
+[index.d.ts:1759](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1759)
 
 ___
 
@@ -91,7 +91,7 @@ the default is [Default](../enums/codearts_plugin_.QuickPickItemKind.md#default)
 
 #### Defined in
 
-[index.d.ts:1743](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1743)
+[index.d.ts:1743](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1743)
 
 ___
 
@@ -104,7 +104,7 @@ the `$(<name>)`-syntax.
 
 #### Defined in
 
-[index.d.ts:1737](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1737)
+[index.d.ts:1737](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1737)
 
 ___
 
@@ -125,4 +125,4 @@ Note: this property is ignored when [kind](codearts_plugin_.QuickPickItem.md#kin
 
 #### Defined in
 
-[index.d.ts:1771](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1771)
+[index.d.ts:1771](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1771)

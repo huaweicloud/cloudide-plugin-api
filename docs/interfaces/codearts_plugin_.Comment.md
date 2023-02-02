@@ -28,7 +28,7 @@ The [author information](codearts_plugin_.CommentAuthorInformation.md) of the co
 
 #### Defined in
 
-[index.d.ts:15120](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15120)
+[index.d.ts:15677](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15677)
 
 ___
 
@@ -40,7 +40,7 @@ The human-readable comment body
 
 #### Defined in
 
-[index.d.ts:15110](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15110)
+[index.d.ts:15667](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15667)
 
 ___
 
@@ -67,7 +67,7 @@ This will show action `extension.deleteComment` only for comments with `contextV
 
 #### Defined in
 
-[index.d.ts:15140](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15140)
+[index.d.ts:15697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15697)
 
 ___
 
@@ -80,7 +80,7 @@ Label will be rendered next to authorName if exists.
 
 #### Defined in
 
-[index.d.ts:15151](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15151)
+[index.d.ts:15708](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15708)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15115](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15115)
+[index.d.ts:15672](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15672)
 
 ___
 
@@ -104,7 +104,7 @@ Optional reactions of the [Comment](codearts_plugin_.Comment.md)
 
 #### Defined in
 
-[index.d.ts:15145](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15145)
+[index.d.ts:15702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15702)
 
 ___
 
@@ -117,4 +117,4 @@ The date will be formatted according to the user's locale and settings.
 
 #### Defined in
 
-[index.d.ts:15157](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15157)
+[index.d.ts:15714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15714)

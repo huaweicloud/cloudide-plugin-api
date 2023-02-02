@@ -33,7 +33,7 @@ Creates a new list of inline completion items.
 
 #### Defined in
 
-[index.d.ts:4548](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4548)
+[index.d.ts:4568](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4568)
 
 ## Properties
 
@@ -45,4 +45,4 @@ The inline completion items.
 
 #### Defined in
 
-[index.d.ts:4543](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4543)
+[index.d.ts:4563](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4563)

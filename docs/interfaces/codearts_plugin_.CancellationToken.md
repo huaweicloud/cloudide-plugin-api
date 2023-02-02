@@ -28,7 +28,7 @@ Is `true` when the token has been cancelled, `false` otherwise.
 
 #### Defined in
 
-[index.d.ts:1506](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1506)
+[index.d.ts:1506](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1506)
 
 ___
 
@@ -40,4 +40,4 @@ An [Event](codearts_plugin_.Event.md) which fires upon cancellation.
 
 #### Defined in
 
-[index.d.ts:1511](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1511)
+[index.d.ts:1511](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1511)

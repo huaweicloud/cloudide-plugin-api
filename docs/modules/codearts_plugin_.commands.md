@@ -44,6 +44,7 @@ Second, bind the command identifier to a title under which it will show in the p
 ### Functions
 
 - [executeCommand](codearts_plugin_.commands.md#executecommand)
+- [getCommandPaletteCommands](codearts_plugin_.commands.md#getcommandpalettecommands)
 - [getCommands](codearts_plugin_.commands.md#getcommands)
 - [registerCommand](codearts_plugin_.commands.md#registercommand)
 - [registerTextEditorCommand](codearts_plugin_.commands.md#registertexteditorcommand)
@@ -84,7 +85,23 @@ the command handler function doesn't return anything.
 
 #### Defined in
 
-[index.d.ts:9293](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9293)
+[index.d.ts:9348](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9348)
+
+___
+
+### getCommandPaletteCommands
+
+▸ **getCommandPaletteCommands**(): [`Thenable`](../interfaces/Thenable.md)<[`CommandInfo`](../interfaces/codearts_plugin_.CommandInfo.md)[]\>
+
+Return the list of commands available in command palette with more information about each one.
+
+#### Returns
+
+[`Thenable`](../interfaces/Thenable.md)<[`CommandInfo`](../interfaces/codearts_plugin_.CommandInfo.md)[]\>
+
+#### Defined in
+
+[index.d.ts:9362](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9362)
 
 ___
 
@@ -109,7 +126,7 @@ Thenable that resolves to a list of command ids.
 
 #### Defined in
 
-[index.d.ts:9302](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9302)
+[index.d.ts:9357](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9357)
 
 ___
 
@@ -139,7 +156,7 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9260](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9260)
+[index.d.ts:9315](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9315)
 
 ___
 
@@ -172,4 +189,4 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9277](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9277)
+[index.d.ts:9332](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9332)

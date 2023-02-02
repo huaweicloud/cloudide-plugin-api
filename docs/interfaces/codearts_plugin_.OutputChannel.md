@@ -35,7 +35,7 @@ The human-readable name of this output channel.
 
 #### Defined in
 
-[index.d.ts:6211](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6211)
+[index.d.ts:6239](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6239)
 
 ## Methods
 
@@ -57,7 +57,7 @@ Append the given value to the channel.
 
 #### Defined in
 
-[index.d.ts:6218](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6218)
+[index.d.ts:6246](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6246)
 
 ___
 
@@ -80,7 +80,7 @@ to the channel.
 
 #### Defined in
 
-[index.d.ts:6226](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6226)
+[index.d.ts:6254](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6254)
 
 ___
 
@@ -96,7 +96,7 @@ Removes all output from the channel.
 
 #### Defined in
 
-[index.d.ts:6238](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6238)
+[index.d.ts:6266](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6266)
 
 ___
 
@@ -112,7 +112,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6265](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6265)
+[index.d.ts:6293](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6293)
 
 ___
 
@@ -128,7 +128,7 @@ Hide this channel from the UI.
 
 #### Defined in
 
-[index.d.ts:6260](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6260)
+[index.d.ts:6288](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6288)
 
 ___
 
@@ -150,7 +150,7 @@ Replaces all output from the channel with the given value.
 
 #### Defined in
 
-[index.d.ts:6233](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6233)
+[index.d.ts:6261](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6261)
 
 ___
 
@@ -172,7 +172,7 @@ Reveal this channel in the UI.
 
 #### Defined in
 
-[index.d.ts:6245](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6245)
+[index.d.ts:6273](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6273)
 
 ▸ **show**(`column?`, `preserveFocus?`): `void`
 
@@ -195,4 +195,4 @@ Use the overload with just one parameter (`show(preserveFocus?: boolean): void`)
 
 #### Defined in
 
-[index.d.ts:6255](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6255)
+[index.d.ts:6283](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6283)

@@ -25,7 +25,7 @@ An array of diagnostics.
 
 #### Defined in
 
-[index.d.ts:2389](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2389)
+[index.d.ts:2389](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2389)
 
 ___
 
@@ -39,7 +39,7 @@ Actions not of this kind are filtered out before being shown by the [lightbulb](
 
 #### Defined in
 
-[index.d.ts:2396](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2396)
+[index.d.ts:2396](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2396)
 
 ___
 
@@ -51,4 +51,4 @@ The reason why code actions were requested.
 
 #### Defined in
 
-[index.d.ts:2384](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2384)
+[index.d.ts:2384](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2384)

@@ -36,7 +36,7 @@ Creates a new document link.
 
 #### Defined in
 
-[index.d.ts:4679](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4679)
+[index.d.ts:4699](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4699)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The range this link applies to.
 
 #### Defined in
 
-[index.d.ts:4657](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4657)
+[index.d.ts:4677](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4677)
 
 ___
 
@@ -60,7 +60,7 @@ The uri this link points to.
 
 #### Defined in
 
-[index.d.ts:4662](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4662)
+[index.d.ts:4682](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4682)
 
 ___
 
@@ -76,4 +76,4 @@ user settings, and localization.
 
 #### Defined in
 
-[index.d.ts:4671](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4671)
+[index.d.ts:4691](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4691)

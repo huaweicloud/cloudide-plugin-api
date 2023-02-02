@@ -23,6 +23,8 @@ in the editor.
 
 - [isIncomplete](codearts_plugin_.CompletionList.md#isincomplete)
 - [items](codearts_plugin_.CompletionList.md#items)
+- [onDidRecieveUpdate](codearts_plugin_.CompletionList.md#ondidrecieveupdate)
+- [unlock](codearts_plugin_.CompletionList.md#unlock)
 
 ## Constructors
 
@@ -47,7 +49,7 @@ Creates a new completion list.
 
 #### Defined in
 
-[index.d.ts:4419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4419)
+[index.d.ts:4439](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4439)
 
 ## Properties
 
@@ -60,7 +62,7 @@ this list.
 
 #### Defined in
 
-[index.d.ts:4406](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4406)
+[index.d.ts:4406](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4406)
 
 ___
 
@@ -72,4 +74,45 @@ The completion items.
 
 #### Defined in
 
-[index.d.ts:4411](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4411)
+[index.d.ts:4411](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4411)
+
+___
+
+### onDidRecieveUpdate
+
+• `Optional` **onDidRecieveUpdate**: [`Event`](../interfaces/codearts_plugin_.Event.md)<`undefined` \| ``null`` \| `void` \| `T` \| `T`[]\>
+
+Allows to update completion list. Must be used in conjunction with BufferingEventEmitter buffering event emitter and [unlock](codearts_plugin_.CompletionList.md#unlock) helper method.
+
+#### Defined in
+
+[index.d.ts:4418](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4418)
+
+___
+
+### unlock
+
+• `Optional` **unlock**: () => `void`
+
+#### Type declaration
+
+▸ (): `void`
+
+In case [update event](codearts_plugin_.CompletionList.md#ondidrecieveupdate) is defined, this method will be called by consumer when it is ready
+to listen. Must be used in conjunction with BufferingEventEmitter buffering event emitter.
+
+Example:
+
+```ts
+   const _onDidRecieveUpdate = new vscode.BufferingEventEmitter<vscode.CompletionItem[]>();
+	  list.onDidRecieveUpdate = _onDidRecieveUpdate.event;
+	  list.unlock = () => _onDidRecieveUpdate.unlock();
+```
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:4431](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4431)

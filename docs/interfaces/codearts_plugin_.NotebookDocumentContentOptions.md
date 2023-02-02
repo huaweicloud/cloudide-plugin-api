@@ -34,7 +34,7 @@ set to true.
 
 #### Defined in
 
-[index.d.ts:13630](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13630)
+[index.d.ts:14187](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14187)
 
 ___
 
@@ -53,7 +53,7 @@ set to true.
 
 #### Defined in
 
-[index.d.ts:13638](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13638)
+[index.d.ts:14195](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14195)
 
 ___
 
@@ -67,4 +67,4 @@ persist the outputs in the file document, this should be set to true.
 
 #### Defined in
 
-[index.d.ts:13622](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13622)
+[index.d.ts:14179](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14179)

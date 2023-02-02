@@ -24,7 +24,7 @@ The overview ruler supports three lanes.
 
 #### Defined in
 
-[index.d.ts:730](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L730)
+[index.d.ts:730](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L730)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:732](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L732)
+[index.d.ts:732](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L732)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:729](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L729)
+[index.d.ts:729](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L729)
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:731](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L731)
+[index.d.ts:731](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L731)

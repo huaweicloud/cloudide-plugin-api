@@ -4411,6 +4411,26 @@ declare module '@codearts/plugin' {
 		items: T[];
 
 		/**
+		 * @experimental Allows to update completion list. Must be used in conjunction with {@link BufferingEventEmitter buffering event emitter} and {@link CompletionList.unlock unlock} helper method.
+		 */
+		// TODO: unclear linting error.
+		// eslint-disable-next-line vscode-dts-event-naming
+		onDidRecieveUpdate?: Event<T | T[] | undefined | null | void>;
+		/**
+		 * @experimental In case {@link CompletionList.onDidRecieveUpdate update event} is defined, this method will be called by consumer when it is ready
+		 * to listen. Must be used in conjunction with {@link BufferingEventEmitter buffering event emitter}.
+		 *
+		 * Example:
+		 *
+		 * ```ts
+		 *    const _onDidRecieveUpdate = new vscode.BufferingEventEmitter<vscode.CompletionItem[]>();
+		 *	  list.onDidRecieveUpdate = _onDidRecieveUpdate.event;
+		 *	  list.unlock = () => _onDidRecieveUpdate.unlock();
+		 * ```
+		 */
+		unlock?: () => void;
+
+		/**
 		 * Creates a new completion list.
 		 *
 		 * @param items The completion items.
@@ -5768,6 +5788,14 @@ declare module '@codearts/plugin' {
 		update(section: string, value: any, configurationTarget?: ConfigurationTarget | boolean | null, overrideInLanguage?: boolean): Thenable<void>;
 
 		/**
+		 * Display error information in the configuration of the target section.
+		 *
+		 * @param section Configuration name, supports _dotted_ names.
+		 * @param errorMessage Verification failure error message.
+		 */
+		verify(section: string, errorMessage: string, provider: () => {}): void;
+
+		/**
 		 * Readable dictionary that backs this configuration.
 		 */
 		readonly [key: string]: any;
@@ -6411,9 +6439,30 @@ declare module '@codearts/plugin' {
 	}
 
 	/**
+	 * Terminal Icon Color Enumeration
+	 */
+	export enum TerminalAnsiColorId {
+		MediumTurquoise = 'terminal.ansiMediumTurquoise',
+		Chocolate = 'terminal.ansiChocolate',
+		MediumOrchid = 'terminal.ansiMediumOrchid',
+		RoyalBlue = 'terminal.ansiRoyalBlue',
+		NavajoWhite = 'terminal.ansiNavajoWhite',
+		DarkSeaGreen = 'terminal.ansiDarkSeaGreen',
+		MediumSlateBlue = 'terminal.ansiMediumSlateBlue',
+		PaleVioletRed = 'terminal.ansiPaleVioletRed',
+		SpringGreen = 'terminal.ansiSpringGreen',
+		LightSkyBlue = 'terminal.ansiLightSkyBlue'
+	}
+
+	/**
 	 * An individual terminal instance within the integrated terminal.
 	 */
 	export interface Terminal {
+
+		/**
+		 * The unique id of the terminal.
+		 */
+		readonly id: Thenable<string>;
 
 		/**
 		 * The name of the terminal.
@@ -6462,6 +6511,12 @@ declare module '@codearts/plugin' {
 		 * depending on the platform. This defaults to `true`.
 		 */
 		sendText(text: string, addNewLine?: boolean): void;
+
+		/**
+		 * Change the color of the terminal icon.
+		 * @param colorId Terminal Icon Color Enumeration
+		 */
+		setColor(colorId: TerminalAnsiColorId): void;
 
 		/**
 		 * Show the terminal panel and reveal this terminal in the UI.
@@ -9300,6 +9355,11 @@ declare module '@codearts/plugin' {
 		 * @return Thenable that resolves to a list of command ids.
 		 */
 		export function getCommands(filterInternal?: boolean): Thenable<string[]>;
+
+		/**
+		* Return the list of commands available in command palette with more information about each one.
+		*/
+		export function getCommandPaletteCommands(): Thenable<CommandInfo[]>;
 	}
 
 	/**
@@ -9401,11 +9461,127 @@ declare module '@codearts/plugin' {
 	}
 
 	/**
+	 * ID of the built-in view container of the vscode.
+	 */
+	export enum ViewContainerId {
+		SEARCH = 'workbench.view.search',
+		EXPLORER = 'workbench.view.explorer',
+		SCM = 'workbench.view.scm',
+		DEBUG = 'workbench.view.debug',
+		TOOLBOX = 'workbench.view.toolbox',
+		EXTENSION = 'workbench.view.extensions',
+		NOTIFICATIONS = 'workbench.view.events',
+		OUTPUT = 'workbench.panel.output',
+		DEBUGCONSOLE = 'workbench.panel.repl',
+		TERMINAL = 'terminal',
+		PROBLEMS = 'workbench.panel.markers'
+	}
+
+	/**
+	 * Id of the view contributed using the extension point `views`.
+	 */
+	export interface View {
+		viewId: string;
+	}
+
+	/**
+	 * ID of the ViewContainer.
+	 */
+	export interface ViewContainer {
+		viewContainerId: ViewContainerId | string;
+	}
+
+	/**
+	 * Location where Actions are registered.
+	 */
+	export type ViewLocation = View | ViewContainer | 'editor';
+
+	/**
+	 * Options of project wizard.
+	 */
+	export interface ProjectWizardOptions {
+
+		/**
+		 * The icon path for project wizard, which will show with the label.
+		 */
+		iconPath?: Uri;
+
+		/**
+		 * Controls if the webview element itself (iframe) is kept around even when the view
+		 * is no longer visible.
+		 *
+		 * Normally the webview's html context is created when the view becomes visible
+		 * and destroyed when it is hidden. Extensions that have complex state
+		 * or UI can set the `retainContextWhenHidden` to make the editor keep the webview
+		 * context around, even when the webview moves to a background tab. When a webview using
+		 * `retainContextWhenHidden` becomes hidden, its scripts and other dynamic content are suspended.
+		 * When the view becomes visible again, the context is automatically restored
+		 * in the exact same state it was in originally. You cannot send messages to a
+		 * hidden webview, even with `retainContextWhenHidden` enabled.
+		 *
+		 * `retainContextWhenHidden` has a high memory overhead and should only be used if
+		 * your view's context cannot be quickly saved and restored.
+		 */
+		retainContextWhenHidden?: boolean;
+
+		/**
+		 * The index of project wizard,The value ranges from 0 to 2^32-2.
+		 * Sort from min to max.
+		 * If not defined, sort to the end.
+		 */
+		index?: number;
+	}
+
+	/**
+	 * Return value for the `onDidChangeTerminalColor` method call.
+	 */
+	export interface TerminalColorChangeEvent {
+		instance: Terminal;
+		colorId: string;
+	}
+
+	/**
 	 * Namespace for dealing with the current window of the editor. That is visible
 	 * and active editors, as well as, UI elements to show messages, selections, and
 	 * asking for user input.
 	 */
 	export namespace window {
+
+		/**
+		 * Register actions to specific view using location which support view, viewContainer or editor
+		 * @param location Location where Actions are registered.
+		 * @param actionViewItems Components to be registered.
+		 * @return Disposable which unregisters this command on disposal.
+		 */
+		export function registerViewTitleActions(location: ViewLocation, actionViewItems: ui.ActionViewItem | ui.ActionViewItem[]): Disposable;
+
+		/**
+		 * Register the subtitle of a non-built-in container. If the container does not have a subtitle, add it. If the container already has a subtitle, update it.
+		 *
+		 * **Example:** Register a subtitle 'subTitle' in 'package-explorer' extension.
+		 * ```typescript
+		 * const viewContainerId = 'package-explorer';
+		 * vscode.window.registerViewContainerSubTitle(viewContainerId, 'subTitle' });
+		 * ```
+		 *
+		 * @param viewContainerId ID of the ViewContainer.
+		 * @param title Subtitle of the container to be registered.
+		 */
+		export function registerViewContainerSubTitle(viewContainerId: string, title: string): Disposable;
+
+		/**
+		 * Register components to editor gutter in batches
+		 * @param filePath File path of document where components are registered.
+		 * (Notes:
+		 * 		The value of this arg should be the same with 'editor.document.uri.fsPath'.)
+		 * @param components Components to be registered in batches.
+		 * (Notes:
+		 * 		1. The array stores components in different positions of the filePath.
+		 *		2. If this arg is an empty array, the components of the filePath will be unregistered.
+		 *		3. If this arg is not an empty array, all components of the filePath that have been registered last time will be unregistered and replaced by components that are going to be registered this time.)
+		 * @return Disposable which unregisters this command on disposal.
+		 */
+		export function registerComponentsInEditorGutter(filePath: string, components: ui.Component[]): Disposable;
 
 		/**
 		 * Represents the grid widget within the main editor area
@@ -9527,6 +9703,11 @@ declare module '@codearts/plugin' {
 		 * An {@link Event} which fires when a terminal is renamed.
 		 */
 		export const onDidRenameTerminal: Event<Terminal>;
+
+		/**
+		 * An {@link Event} which fires when a terminal is changing the color.
+		 */
+		export const onDidChangeTerminalColor: Event<TerminalColorChangeEvent>;
 
 		/**
 		 * An {@link Event} which fires when a {@link Terminal.state terminal's state} has changed.
@@ -9994,6 +10175,14 @@ declare module '@codearts/plugin' {
 		export function createTerminal(options: ExtensionTerminalOptions): Terminal;
 
 		/**
+		 * Get terminal by it's unique id.
+		 *
+		 * @param id The unique id for terminal
+		 * @return Terminal or undefined.
+		 */
+		export function getTerminalById(id: string): Terminal | undefined;
+
+		/**
 		 * Register a {@link TreeDataProvider} for the view contributed using the extension point `views`.
 		 * This will allow you to contribute data to the {@link TreeView} and update if the data changes.
 		 *
@@ -10083,10 +10272,19 @@ declare module '@codearts/plugin' {
 		}): Disposable;
 
 		/**
+		 * Register a provider for project wizard with webview view.
+		 *
+		 * @param id Unique id of the project wizard.
+		 * @param label Label of the project wizard, like 'java', 'c++'.
+		 * @param provider Webview view provider.
+		 * @param options {@link ProjectWizardOptions} Options of the project wizard.
+		 * @return Disposable that unregisters the provider.
+		 */
+		export function registerProjectWizardProvider(id: string, label: string, provider: WebviewViewProvider, options?: ProjectWizardOptions): Disposable;
+
+		/**
 		 * Create and open a dialog with an webview view.
-		 *
 		 * @param provider Provider for the webview views.
-		 *
 		 * @return Disposable that unregister the provider.
 		 */
 		export function createWebviewViewDialog(provider: WebviewViewProvider, dialogOptions: DialogOptions): WebviewViewDialog;
@@ -10162,35 +10360,66 @@ declare module '@codearts/plugin' {
 
 		/**
 		 * Register a top level menu on titlepart area.
+		 * @deprecated Recommend to use registerMenu.
 		 * @param item The actual menu or submenu.
 		 * @param side The side of titlepart.
 		 */
 		export function registerMainMenu(item: MenuItem | SubmenuItem, side?: MenuSide): void;
 
 		/**
-		 * Register menu or submenu on custom menu id.
-		 * @param key Custom menu id.
+		 * Register menu or submenu using menu id.
+		 *
+		 * *Note* that if the {@link id menuId} is not registered before, it will be registered automatically.
+		 * Make sure a {@link id menuId} is already registered before using it.
+		 *
+		 * **Example:** Register a submenu 'Hello' in 'File' menu, and menu 'Command Palette' under 'Hello'.
+		 * ```typescript
+		 * // Register a menu 'Command Palette' under submenu 'Hello', the menuId 'HelloMenuId' will be registered automatically
+		 * vscode.window.registerMenu('HelloMenuId', { command: { id: 'workbench.action.showCommands', title: 'Command Palette'} });
+		 *
+		 * // Register the submenu 'Hello' in 'File' menu for which the menuId is 'MenubarFileMenu'
+		 * vscode.window.registerMenu('MenubarFileMenu', { submenu: 'HelloMenuId', title: 'Hello' });
+		 * ```
+		 *
+		 * @param id Menu id.
 		 * @param item The actual menu or submenu.
 		 */
-		export function registerMenu(key: string, item: MenuItem | SubmenuItem): void;
+		export function registerMenu(id: string, item: MenuItem | SubmenuItem): void;
 
 		/**
 		 * Register a custom menu id. Must call it before registerMenu
-		 * @param key custom menu id.
+		 * @deprecated Recommend to use registerMenu. Now registerMenu will register id automatically.
+		 * @param id custom menu id.
 		 */
-		export function registerMenuId(key: string): void;
+		export function registerMenuId(id: string): void;
 
 		/**
 		 * Unregister menu on left or right side of titlepart.
+		 * @deprecated Recommend to use unregisterMenu.
 		 * @param side The side of titlepart.
 		 */
 		export function unregisterMainMenu(side: MenuSide): void;
 
 		/**
-		 * Unregister a custom menu id.
-		 * @param key Custom menu id.
+		 * Unregister a menu. Extensions can not remove submenus registered by core and can only remove menus registered
+		 * by extensions.
+		 * @param id Custom submenu id.
 		 */
-		export function unregisterMenu(key: string): void;
+		export function unregisterMenu(id: string): void;
+
+		/**
+		 * Show simple code message tip in the active editor
+		 * @param message
+		 * @param position Editor position. If the input line number or character number exceeds the maximum, the
+		 * tip will display at the end of the code area. If the number is less than 0, it will be set to 0.
+		 * @param options {@link CodeTipOptions CodeTipOptions} to configure the behavior of showing the code tip
+		 */
+		export function showCodeTip(message: string, position: Position, options?: CodeTipOptions): void;
+
+		/**
+		 * An array of resource uri which are selected in explorer.
+		 */
+		export const selectedResources: Uri[];
 	}
 
 	/**
@@ -10242,6 +10471,18 @@ declare module '@codearts/plugin' {
 		 * Selected elements.
 		 */
 		readonly selection: readonly T[];
+
+	}
+
+	/**
+	 * The event that is fired when there is a change in {@link TreeView.focusedElements tree view's focused elements}
+	 */
+	export interface TreeViewFocusChangeEvent<T> {
+
+		/**
+		 * Focused elements.
+		 */
+		readonly focusedElements: readonly T[];
 
 	}
 
@@ -10441,6 +10682,16 @@ declare module '@codearts/plugin' {
 		readonly onDidChangeSelection: Event<TreeViewSelectionChangeEvent<T>>;
 
 		/**
+		 * Currently focused elements.
+		 */
+		readonly focusedElements: readonly T[];
+
+		/**
+		 * Event that is fired when the {@link TreeView.focusedElements focused elements} have changed
+		 */
+		readonly onDidChangeFocus: Event<TreeViewFocusChangeEvent<T>>;
+
+		/**
 		 * `true` if the {@link TreeView tree view} is visible otherwise `false`.
 		 */
 		readonly visible: boolean;
@@ -10624,6 +10875,11 @@ declare module '@codearts/plugin' {
 		 * however, there are cases where a TreeItem is not displayed in a tree-like way where setting the `role` may make sense.
 		 */
 		accessibilityInformation?: AccessibilityInformation;
+
+		/**
+		 * This field will be rendered at the end of the tree item.
+		*/
+		suffix?: string;
 
 		/**
 		 * @param label A human-readable string describing this item
@@ -11780,6 +12036,55 @@ declare module '@codearts/plugin' {
 		readonly index: number;
 	}
 
+	export enum ScopeType {
+
+		/**
+		 * Settings that apply to all instances of CodeArts and can only be configured in user settings.
+		 */
+		Application = 'application',
+
+		/**
+		 * Machine specific settings that can be set only in user settings or only in remote settings,
+		 * For example, an installation path which shouldn't be shared across machines.
+		 */
+		Machine = 'machine',
+
+		/**
+		 *  Machine specific settings that can be overridden by workspace or folder settings.
+		 */
+		MachineOverridable = 'machine-overridable',
+
+		/**
+		 * Windows (instance) specific settings which can be configured in user, workspace, or remote settings.
+		 */
+		Window = 'window',
+
+		/**
+		 * Resource settings, which apply to files and folders, and can be configured in all settings levels, even folder settings.
+		 */
+		Resource = 'resource',
+
+		/**
+		 * Resource settings that can be overridable at a language level.
+		 */
+		LanguageOverridable = 'language-overridable'
+	}
+
+	/**
+	 * Enumeration of the browse type
+	 */
+	export enum ConfigurationBrowseType {
+		File = 'file',
+		Folder = 'folder'
+	}
+
+	/**
+	 * Enumeration of the editPresentation type
+	 */
+	export enum EditPresentationTypes {
+		Multiline = 'multilineText',
+		Singleline = 'singlelineText'
+	}
 	/**
 	 * Namespace for dealing with the current workspace. A workspace is the collection of one
 	 * or more folders that are opened in an editor window (instance).
@@ -12362,6 +12667,258 @@ declare module '@codearts/plugin' {
 		 * *Note 2:* When renaming a folder with children only one event is fired.
 		 */
 		export const onDidRenameFiles: Event<FileRenameEvent>;
+
+		/**
+		* Register configurations.
+		* @param configuration The configurations to be added to the input parameter.
+		* @return A {@link Disposable} that deregister this configurations when being disposed.
+		* This API complies with the JSONSchema specification and extends the configuration based on this specification.
+		*/
+		export function registerConfiguration(configuration: ConfigurationPropertySchema | ConfigurationPropertySchema[]): Disposable;
+
+		export interface ConfigurationPropertySchema extends JSONSchema {
+
+			/**
+			 * Configuration scopes determine when a setting is available to the user through the Settings editor and whether the setting is applicable.
+			 * If no scope is declared, the default is window.
+			 */
+			scope?: ConfigurationScope;
+
+			/**
+			 * When restricted, value of this configuration will be read only from trusted sources.
+			 * For eg., If the workspace is not trusted, then the value of this configuration is not read from workspace settings file.
+			 */
+			restricted?: boolean;
+
+			/**
+			 * When `false` this property is excluded from the registry. Default is to include.
+			 */
+			included?: boolean;
+
+			/**
+			 * List of tags associated to the property.
+			 *  - A tag can be used for filtering
+			 *  - Use `experimental` tag for marking the setting as experimental. **Note:** Defaults of experimental settings can be changed by the running experiments.
+			 */
+			tags?: string[];
+
+			/**
+			 * When enabled this setting is ignored during sync and user can override this.
+			 */
+			ignoreSync?: boolean;
+
+			/**
+			 * When enabled this setting is ignored during sync and user cannot override this.
+			 */
+			disallowSyncIgnore?: boolean;
+
+			/**
+			 * Labels for enumeration items
+			 */
+			enumItemLabels?: string[];
+
+			/**
+			 * When specified, controls the presentation format of string settings.
+			 * Otherwise, the presentation format defaults to `singleline`.
+			 */
+			editPresentation?: EditPresentationTypes;
+
+			/**
+			 * When specified, gives an order number for the setting
+			 * within the settings editor. Otherwise, the setting is placed at the end.
+			 */
+			order?: number;
+
+			/**
+			 * When specified, this setting's value can always be overwritten by
+			 * a system-wide policy.
+			 */
+			policy?: Policy;
+
+			/**
+			 * "file" | "folder"
+			 */
+			browse?: ConfigurationBrowseType;
+		}
+
+		export interface JSONSchema {
+			id?: string;
+			$id?: string;
+			$schema?: string;
+
+			/**
+			 * {@linkcode type} The value of type is dynamically displayed in Settings based on the transferred value.
+			 * When type is set to string or number, the input box of the corresponding type is generated on the Settings page.
+			 * When type is set to boolean, a checkbox is generated on the settings page.
+			 * {@linkcode JSONSchemaType.array} Some object and array type settings will be rendered in the settings UI. Simple arrays of number, string, or boolean will be rendered as editable lists.
+			 * {@linkcode JSONSchemaType.object} Objects that have properties of type string, number, integer, and/or boolean will be rendered as editable grids of keys and values.
+			 * Object settings should also have additionalProperties set to either false, or an object with an appropriate type property, to render in the UI.
+			 * If an object or array type setting can also contain other types like nested objects, arrays, or null,
+			 * then the value won't be rendered in the settings UI and can only be modified by editing the JSON directly.
+			 * Users will see a link to Edit in settings.json
+			 */
+			type?: JSONSchemaType | JSONSchemaType[];
+			title?: string;
+
+			/**
+			 * For defining the default value of a property.
+			 */
+			default?: any;
+			definitions?: JSONSchemaMap;
+
+			/**
+			 * Your description appears after the title and before the input field,
+			 * except for booleans, where the description is used as the label for the checkbox.
+			 * For markdownDescription, in order to add newlines or multiple paragraphs, use the string \n\n to separate the paragraphs instead of just \n.
+			 */
+			description?: string;
+			properties?: JSONSchemaMap;
+			patternProperties?: JSONSchemaMap;
+
+			/**
+			 * {@linkcode additionalProperties}{@linkcode ConfigurationType}
+			 * Either a schema or a boolean. If a schema, then used to validate all properties not matched by 'properties' or 'patternProperties'.
+			 * If false, then any properties not matched by either will cause this schema to fail.
+			 */
+			additionalProperties?: boolean | JSONSchema;
+			minProperties?: number;
+			maxProperties?: number;
+			dependencies?: JSONSchemaMap | { [prop: string]: string[] };
+			items?: JSONSchema | JSONSchema[];
+
+			/**
+			 * For restricting array min length.
+			*/
+			minItems?: number;
+
+			/**
+			 * For restricting array max length.
+			 */
+			maxItems?: number;
+			uniqueItems?: boolean;
+			additionalItems?: boolean | JSONSchema;
+
+			/**
+			 * For restricting strings to a given regular expression.
+			 */
+			pattern?: string;
+
+			/**
+			 * For restricting string min length
+			 */
+			minLength?: number;
+
+			/**
+			 * For restricting string max length
+			 */
+			maxLength?: number;
+
+			/**
+			 * For restricting numeric min values.
+			 */
+			minimum?: number;
+
+			/**
+			 * For restricting numeric max values.
+			 */
+			maximum?: number;
+			exclusiveMinimum?: boolean | number;
+			exclusiveMaximum?: boolean | number;
+			multipleOf?: number;
+			required?: string[];
+			$ref?: string;
+			anyOf?: JSONSchema[];
+			allOf?: JSONSchema[];
+			oneOf?: JSONSchema[];
+			not?: JSONSchema;
+
+			/**
+			 * If you provide an array of items under the enum property, the settings UI will render a dropdown menu.
+			 */
+			enum?: any[];
+			format?: string;
+			const?: any;
+			contains?: JSONSchema;
+			propertyNames?: JSONSchema;
+			examples?: any[];
+			$comment?: string;
+			if?: JSONSchema;
+			then?: JSONSchema;
+			else?: JSONSchema;
+			unevaluatedProperties?: boolean | JSONSchema;
+			unevaluatedItems?: boolean | JSONSchema;
+			minContains?: number;
+			maxContains?: number;
+			deprecated?: boolean;
+			dependentRequired?: { [prop: string]: string[] };
+			dependentSchemas?: JSONSchemaMap;
+			$defs?: { [name: string]: JSONSchema };
+			$anchor?: string;
+			$recursiveRef?: string;
+			$recursiveAnchor?: string;
+			$vocabulary?: any;
+			prefixItems?: JSONSchema[];
+			$dynamicRef?: string;
+			$dynamicAnchor?: string;
+			defaultSnippets?: JSONSchemaSnippet[];
+			errorMessage?: string;
+
+			/**
+			 * For giving a tailored error message when a pattern does not match.
+			 */
+			patternErrorMessage?: string;
+			deprecationMessage?: string;
+			markdownDeprecationMessage?: string;
+			enumDescriptions?: string[];
+			markdownEnumDescriptions?: string[];
+			markdownDescription?: string;
+			doNotSuggest?: boolean;
+			suggestSortText?: string;
+			allowComments?: boolean;
+			allowTrailingCommas?: boolean;
+
+			/**
+			 * Subtitle, which can be used as a secondary tree title
+			 */
+			subTitle?: string;
+		}
+
+		export interface JSONSchemaMap {
+			/**
+			 * {@linkcode [name:string]} is used as configuration key.In the settings UI, your configuration key will be used to namespace and construct a title.
+			 * Though an extension can contain multiple categories of settings, each setting of the extension must still have its own unique key.
+			 * Capital letters in your key are used to indicate word breaks.
+			 * e.g. codeartsPluginDemo.test.breadCrum1.breadCrum2
+			 *  =>  Codearts Plugin Demo > Test > Bread Crum1:Bread Crum2
+			 */
+			[name: string]: JSONSchema;
+		}
+
+		export interface Policy {
+
+			/**
+			 * The policy name.
+			 */
+			readonly name: string;
+
+			/**
+			 * The Code version in which this policy was introduced.
+			 */
+			readonly minimumVersion: `${number}.${number}`;
+		}
+
+		export interface JSONSchemaSnippet {
+			label?: string;
+			description?: string;
+			body?: any; // a object that will be JSON stringified
+			bodyText?: string; // an already stringified JSON object that can contain new lines (\n) and tabs (\t)
+		}
+
+		/**
+		 * Type in JSONSchema
+		 */
+		export type JSONSchemaType = 'string' | 'number' | 'integer' | 'boolean' | 'null' | 'array' | 'object';
+
 
 		/**
 		 * Get a workspace configuration object.
@@ -15792,8 +16349,9 @@ declare module '@codearts/plugin' {
 		 * in the {@link TestItemCollection} it's added to.
 		 * @param label Human-readable label of the test item.
 		 * @param uri URI this TestItem is associated with. May be a file or directory.
+		 * @param testItemLevel the hierarchical relationship of the current TestItem.
 		 */
-		createTestItem(id: string, label: string, uri?: Uri): TestItem;
+		createTestItem(id: string, label: string, uri?: Uri, testItemLevel?: string): TestItem;
 
 		/**
 		 * Unregisters the test controller, disposing of its associated tests
@@ -15912,8 +16470,9 @@ declare module '@codearts/plugin' {
 		 * Indicates a test has passed.
 		 * @param test Test item to update.
 		 * @param duration How long the test took to execute, in milliseconds.
+		 * @param message Messages associated with the test.
 		 */
-		passed(test: TestItem, duration?: number): void;
+		passed(test: TestItem, duration?: number, message?: TestMessage | readonly TestMessage[]): void;
 
 		/**
 		 * Appends raw output from the test runner. On the user's request, the
@@ -16068,6 +16627,12 @@ declare module '@codearts/plugin' {
 		 * test discovery, such as syntax errors.
 		 */
 		error: string | MarkdownString | undefined;
+
+		/**
+		 * Record the test level of the current project,
+		 * referring to the hierarchical relationship of the current item
+		 */
+		testItemLevel?: string;
 	}
 
 	/**
@@ -16108,6 +16673,231 @@ declare module '@codearts/plugin' {
 		 * @param message The message to show to the user.
 		 */
 		constructor(message: string | MarkdownString);
+	}
+
+	/**
+	 * Namespace for build functionality. Handlers are published by registering
+	 * {@link BuildController} instances.
+	 */
+	export namespace build {
+		/**
+		 * Creates a new build controller.
+		 *
+		 * @param id Identifier for the controller, must be globally unique.
+		 * @param label A human-readable label for the controller.
+		 * @returns An instance of the {@link BuildController}.
+		*/
+		export function createBuildController(id: string, label: string, options?: BuildOption): BuildController;
+	}
+
+	export interface BuildProfile {
+		/**
+		 * Label shown to the user in the UI.
+		 *
+		 * Note that the label has some significance if the user requests that
+		 * project be built in a certain way.If there is no such configuration,
+		 * the default will be used.
+		 */
+		label: string;
+
+		/**
+		 * Controls whether this profile is the default action that will
+		 * be taken when its kind is actioned. For example, if the user clicks
+		 * the generic "build" button, then the default profile will be executed,
+		 * although the user can configure this.
+		 */
+		isDefault: boolean;
+
+		/**
+		 * If this method is present, a configuration gear will be present in the
+		 * UI, and this method will be invoked when it's clicked. When called,
+		 * you can take other editor actions, such as showing a quick pick or
+		 * opening a configuration file.
+		 */
+		configureHandler: (() => void) | undefined;
+
+		/**
+		 * Handler called to start a build run.
+		 * This function returns a method that is Thenable.
+		 * When the result is not yet returned, the build program is in a suspending state.
+		 * When it returns true or undefined, it refreshes the build status.
+		 * When it returns false, it does not change build the status.
+		 */
+		buildHandler: (request: BuildRequestType) => Thenable<boolean | void> | void;
+
+		/**
+		 * Deletes the build profile.
+		 */
+		dispose(): void;
+	}
+
+	export enum BuildRequestType {
+		BUILD = 0,
+		REBUILD = 1,
+		STOPBUILD = 2
+	}
+
+	export interface BuildProfileOptions {
+		label: string;
+		buildHandler: (request: BuildRequestType) => Thenable<void> | void;
+		isDefault?: boolean;
+		registeredRequestType?: BuildRequestType[];
+	}
+
+	export interface BuildController {
+		/*workspace*
+		 * The id of the controller passed in {@link vscode.build.createBuildController}.
+		 * This must be globally unique.
+		 */
+		readonly id: string;
+
+		/**
+		 * Human-readable label for the build controller.
+		 */
+		label: string;
+
+		/**
+		 * Creates a profile used for running builds. Extensions must create
+		 * at least one profile in order for builds to be run.
+		 * @param options.label A human-readable label for this profile.
+		 * @param options.buildHandler Function called to start a build.
+		 * @param options.isDefault Whether this is the default action for its kind.
+		 * @param options.registeredRequestType The BuildRequestTypes that the created buildProfile will execute, This is a remedial parameter, he needs to be the same as the BuildRequestTypes actually executed.
+		 * @returns An instance of a {@link BuildProfile}, which is automatically
+		 * associated with this controller.
+		 */
+		createBuildProfile(options: BuildProfileOptions): BuildProfile;
+
+		/**
+		 * open build view output.
+		 */
+		openBuildOutput(): void;
+
+		/**
+		 * add a message to build view output.
+		 */
+		addBuildOutputMessage(message: BuildMessage): void;
+
+		/**
+		 * show build items in build view output.
+		 */
+		showBuildMessageItems(message: BuildMessage): void;
+
+		/**
+		 * update current BuildContoller tree
+		 * @param data
+		 * @param onlyUpdateMessage only update Build message can not refresh treeView
+		 */
+		updateBuildData(data: BuildDataItem[], onlyUpdateMessage?: boolean): void;
+
+		/**
+		 * Unregisters the build controller, disposing of its associated builds
+		 * and unpersisted results.
+		 */
+		dispose(): void;
+	}
+
+	export interface BuildMessage {
+		/**
+		 * You can use \r\n or \n in `message` and they will be normalized to the current build output terminal.
+		 */
+		message: string;
+
+		/**
+		 * Whether the input build message is the last one of the current build task, the value is 'false' by default.
+		 * Please make sure that the current task must have the last message,
+		 * otherwise the current output will not be cleared when the next build task starts outputting the log.
+		 */
+		isEnd?: boolean;
+	}
+
+	export interface BuildDataItem {
+		/**
+		 * when treeview focus show related BuildMessage {@link BuildMessage}.message
+		 */
+		message?: string;
+
+		/**
+		 * add children
+		 */
+		children?: BuildDataItem[];
+
+		/**
+		 * A human-readable string describing this item. When `falsy`, it is derived from {@link TreeItem.resourceUri resourceUri}.
+		 */
+		label?: string | TreeItemLabel;
+
+		/**
+		 * The icon path or {@link ThemeIcon} for the tree item.
+		 * When `falsy`, {@link ThemeIcon.Folder Folder Theme Icon} is assigned, if item is collapsible otherwise {@link ThemeIcon.File File Theme Icon}.
+		 * When a file or folder {@link ThemeIcon} is specified, icon is derived from the current file icon theme for the specified theme icon using {@link TreeItem.resourceUri resourceUri} (if provided).
+		 */
+		iconPath?: string | Uri | { light: string | Uri; dark: string | Uri } | ThemeIcon;
+
+		/**
+		 * A human-readable string which is rendered less prominent.
+		 * When `true`, it is derived from {@link TreeItem.resourceUri resourceUri} and when `falsy`, it is not shown.
+		 */
+		description?: string | boolean;
+
+		/**
+		 * The {@link Uri} of the resource representing this item.
+		 *
+		 * Will be used to derive the {@link TreeItem.label label}, when it is not provided.
+		 * Will be used to derive the icon from current file icon theme, when {@link TreeItem.iconPath iconPath} has {@link ThemeIcon} value.
+		 */
+		resourceUri?: Uri;
+
+		/**
+		 * The tooltip text when you hover over this item.
+		 */
+		tooltip?: string | MarkdownString | undefined;
+
+		/**
+		 * The {@link Command} that should be executed when the tree item is selected.
+		 *
+		 * Please use `vscode.open` or `vscode.diff` as command IDs when the tree item is opening
+		 * something in the editor. Using these commands ensures that the resulting editor will
+		 * appear consistent with how other built-in trees open editors.
+		 */
+		command?: Command;
+
+		/**
+		 * {@link TreeItemCollapsibleState} of the tree item.
+		 */
+		collapsibleState?: TreeItemCollapsibleState;
+
+		/**
+		 * Accessibility information used when screen reader interacts with this tree item.
+		 * Generally, a TreeItem has no need to set the `role` of the accessibilityInformation;
+		 * however, there are cases where a TreeItem is not displayed in a tree-like way where setting the `role` may make sense.
+		 */
+		accessibilityInformation?: AccessibilityInformation;
+
+		/**
+		 * This field will be rendered at the end of the tree item.
+		*/
+		suffix?: string;
+
+		/**
+		 * The {@link Uri} of the resource representing this item.
+		 * For open the resource file of this item.
+		 * Use uri when resourceUri does not exist.
+		 */
+		uri?: Uri;
+
+		/**
+		 * Location of the test item in its {@link BuildDataItem.uri uri}.
+		 * This is only meaningful if the `uri` points to a file.
+		 */
+		range?: Range;
+	}
+
+	export interface BuildOption {
+		/**
+		 * build DataProvider nodes
+		 */
+		data: BuildDataItem[];
 	}
 
 	/**
@@ -16438,23 +17228,373 @@ declare module '@codearts/plugin' {
 		 * Button Control.
 		 */
 		export interface Button extends Component {
+			/**
+			 * Sets the button invalid status.
+			 */
 			enabled: boolean;
+
+			/**
+			 * Sets the button label.
+			 */
 			label: string;
+
+			/**
+			 * Callback when a button is clicked.
+			 */
 			onClick: Event<void>;
+
+			/**
+			 * Parameters required for creating a Button component.
+			 */
 			options: ButtonOptions;
+
+			/**
+			 * Focus the button.
+			 */
 			focus(): void;
+
+			/**
+			 * Indicates whether the button is focused.
+			 */
 			hasFocus(): boolean;
 		}
 
+		/**
+		 * Parameters required for creating a Button component.
+		 */
 		export interface ButtonOptions {
+			/**
+			 * Text displayed when you slide the mouse over the button.
+			 */
 			title?: boolean | string;
-			supportIcons?: boolean;
+
+			/**
+			 * Adjusts the button width to its parent width.
+			 */
+			block?: boolean;
+
+			/**
+			 * Set the button type to secondary button.
+			 */
 			secondary?: boolean;
+
+			/**
+			 * Contents displayed on the button.
+			 */
 			label?: string;
 		}
 
+		/**
+		 * Namespace for button.
+		 */
 		export namespace button {
-			export function create(options: ButtonOptions): Button;
+			/**
+			 * @param options Parameters required for creating a Button component.
+			 * @returns A promise that resolves to `Button` when the button component is created.
+			 */
+			export function create(options: ButtonOptions): Thenable<Button>;
+		}
+
+		/**
+		 * ActionViewItem Control.
+		 */
+		export interface ActionViewItem extends Component {
+			/**
+			 * The unique id of ActionViewItem control.
+			 */
+			id: string;
+
+			/**
+			 * Action parameters.
+			 */
+			action: ActionOptions;
+
+			/**
+			 * Configuration parameters of the ActionViewItem component.
+			 */
+			options: ActionViewItemOptions;
+
+			/**
+			 * Callback when a ActionViewItem is clicked.
+			 */
+			onClick: Event<void>;
+
+			/**
+			 * Render an html element from the action view item element.
+			 */
+			render(): void;
+
+			/**
+			 * Focus the current item element.
+			 */
+			focus(): void;
+
+			/**
+			 * 	Determine whether the current element is focused.
+			 */
+			isFocused(): boolean;
+
+			/**
+			 * Blur the current item element.
+			 */
+			blur(): void;
+
+			/**
+			 * Event for modifying item focusable when dot is set.
+			 */
+			setFocusable(): void;
+
+			/**
+			 * Update the class of the current item.
+			 */
+			updateClass(): void;
+
+			/**
+			 * Update the label of the current item.
+			 */
+			updateLabel(): void;
+
+			/**
+			 * Update the tooltip of the current item.
+			 */
+			updateTooltip(): void;
+
+			/**
+			 * Destroy the component.
+			 */
+			dispose(): void;
+
+			/**
+			 * Obtains the order of the current component.
+			 */
+			order(): number;
+		}
+
+		/**
+		 * Action parameters.
+		 */
+		export interface ActionOptions {
+			/**
+			 * Action Id.
+			 */
+			readonly id: string;
+
+			/**
+			 * Contents displayed on the ActionViewItem.
+			 */
+			label: string;
+
+			/**
+			 *  Text displayed when you slide the mouse over the ActionViewItem.
+			 */
+			tooltip: string;
+
+			/**
+			 * Sets the class name of the icon, eg. `codicon codicon-add`.
+			 */
+			class: string | undefined;
+
+			/**
+			 * Sets the ActionViewItem invalid status.
+			 */
+			enabled: boolean;
+
+			/**
+			 * Is it selected.
+			 */
+			checked?: boolean;
+
+			/**
+			 * Order to insert into the actionbar, the value starts from 0 by default.
+			 */
+			order?: number;
+		}
+
+		export interface BaseActionViewItemOptions {
+			/**
+			 * Is it possible to drag.
+			 */
+			draggable?: boolean;
+
+			/**
+			 * Is it the menu.
+			 */
+			isMenu?: boolean;
+		}
+
+		/**
+		 * Configuration parameters of the ActionViewItem component.
+		 */
+		export interface ActionViewItemOptions extends BaseActionViewItemOptions {
+			/**
+			 * Display icon.
+			 */
+			icon?: boolean;
+
+			/**
+			 * Display label.
+			 */
+			label?: boolean;
+
+			/**
+			 * Shortcut Keys.
+			 */
+			keybinding?: string | null;
+
+			/**
+			 * Indicates whether to display or hide the component. If the value is true, the component cannot be hidden.
+			 */
+			alwaysVisible?: boolean;
+
+			/**
+			 * Vertical or horizontal mode.
+			 */
+			verticalMode?: boolean;
+		}
+
+		/**
+		 * Namespace for actionViewItem.
+		 */
+		export namespace actionViewItem {
+			/**
+			 * @param action Action parameters required for creating a actionViewItem component.
+			 * @param options Configuration parameters of the ActionViewItem component.
+			 * @returns A promise that resolves to `actionViewItem` when the actionViewItem component is created.
+			 */
+			export function create(action: ActionOptions, options?: ActionViewItemOptions): Thenable<ActionViewItem>;
+		}
+
+
+		/**
+		 * DropdownMenuActionViewItem Control.
+		 */
+		export interface DropdownMenuActionViewItem extends Component {
+			/**
+			 * The unique id of DropdownMenuActionViewItem control.
+			 */
+			id: string;
+
+			/**
+			 * Action parameters.
+			 */
+			action: DropdownMenuInEditorOptions;
+
+			/**
+			 * Menu action parameters.
+			 */
+			menuActions: ActionViewItemAsDropdownMenuItemOptions[];
+
+			/**
+			 * Render an html element from the dropdownMenuActionViewItem element.
+			 */
+			render(): void;
+
+			/**
+			 * Focus the current item element.
+			 */
+			focus(): void;
+
+			/**
+			 * 	Determine whether the current element is focused.
+			 */
+			isFocused(): boolean;
+
+			/**
+			 * Blur the current item element.
+			 */
+			blur(): void;
+
+			/**
+			 * Event for modifying item focusable when dot is set.
+			 */
+			setFocusable(): void;
+
+			/**
+			 * Update the class of the current item.
+			 */
+			updateClass(): void;
+
+			/**
+			 * Update the label of the current item.
+			 */
+			updateLabel(): void;
+
+			/**
+			 * Update the tooltip of the current item.
+			 */
+			updateTooltip(): void;
+
+			/**
+			 * Destroy the component.
+			 */
+			dispose(): void;
+		}
+
+		/**
+		 * Parameters required for creating a DropdownMenuActionViewItem component.
+		 */
+		export interface DropdownMenuInEditorOptions {
+			/**
+			 * Action Id.
+			 */
+			id?: string;
+
+			/**
+			 * Contents displayed on the DropdownMenuActionViewItem.
+			 */
+			label: string;
+
+			/**
+			 * Text displayed when you slide the mouse over the DropdownMenuActionViewItem.
+			 */
+			tooltip: string;
+
+			/**
+			 * Set the class name of the icon, eg. `codicon codicon-add`.
+			 */
+			class: string | undefined;
+
+			/**
+			 * Set the DropdownMenuActionViewItem invalid status.
+			 */
+			enabled?: boolean;
+
+			/**
+			 * Is it selected.
+			 */
+			checked?: boolean;
+
+			/**
+			 * Order to insert into the actionbar.
+			 */
+			order?: number;
+
+			/**
+			* line number of the editor.
+			*/
+			lineNumber?: number;
+		}
+
+		/**
+		 * Infomation of the custom dropdown menu item component, eg. actionViewItem.
+		 */
+		export interface ActionViewItemAsDropdownMenuItemOptions {
+			/**
+			 * ActionViewItem Id.
+			 */
+			actionViewItemId: string;
+		}
+
+		/**
+		 * Namespace for dropdownMenuActionViewItem.
+		 */
+		export namespace dropdownMenuActionViewItem {
+			/**
+			 * @param action Action parameters required for creating a dropdownMenuActionViewItem component.
+			 * @param actionViewItemAsDropdownMenuItemOptions Configuration parameters of the custom dropdown menu item component.
+			 * @returns A promise that resolves to `dropdownMenuActionViewItem` when the dropdownMenuActionViewItem component is created.
+			 */
+			export function create(action: ui.DropdownMenuInEditorOptions, actionViewItemAsDropdownMenuItemOptions: ui.ActionViewItemAsDropdownMenuItemOptions[]): Thenable<DropdownMenuActionViewItem>;
 		}
 	}
 
@@ -16573,6 +17713,41 @@ declare module '@codearts/plugin' {
 		 * The menu shown order.
 		 */
 		order?: number;
+
+		/**
+		 * Menu icon.
+		 */
+		icon?: MenuThemeIcon;
+	}
+
+	/**
+	 * Represents options for {@link window.showCodeTip showCodeTip}
+	 */
+	export interface CodeTipOptions {
+		/**
+		 * The severity of the message. Default to {@link CodeTipSeverity.Info Info}
+		 */
+		severity?: CodeTipSeverity;
+
+		/**
+		 * Show time(millisecond). Default to 3000. Set to -1 to always show the tip till hide event is triggered.
+		 */
+		showTime?: number;
+	}
+
+	/**
+	 * Represents the severity of code tip.
+	 */
+	export enum CodeTipSeverity {
+		Info = 1,
+		Warning = 2,
+		Error = 3
+	}
+
+	export interface CommandInfo {
+		id: string;
+		title: string;
+		keybinding?: string;
 	}
 }
 

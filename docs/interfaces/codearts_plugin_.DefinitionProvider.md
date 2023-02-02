@@ -39,4 +39,4 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:2671](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2671)
+[index.d.ts:2671](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2671)

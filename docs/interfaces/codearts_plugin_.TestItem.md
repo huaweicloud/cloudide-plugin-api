@@ -24,6 +24,7 @@ they both have similar capabilities.
 - [range](codearts_plugin_.TestItem.md#range)
 - [sortText](codearts_plugin_.TestItem.md#sorttext)
 - [tags](codearts_plugin_.TestItem.md#tags)
+- [testItemLevel](codearts_plugin_.TestItem.md#testitemlevel)
 - [uri](codearts_plugin_.TestItem.md#uri)
 
 ## Properties
@@ -39,7 +40,7 @@ Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:16038](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16038)
+[index.d.ts:16597](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16597)
 
 ___
 
@@ -57,7 +58,7 @@ Default to `false`.
 
 #### Defined in
 
-[index.d.ts:16030](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16030)
+[index.d.ts:16589](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16589)
 
 ___
 
@@ -70,7 +71,7 @@ individual test cases or nested suites.
 
 #### Defined in
 
-[index.d.ts:16006](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16006)
+[index.d.ts:16565](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16565)
 
 ___
 
@@ -82,7 +83,7 @@ Optional description that appears next to the label.
 
 #### Defined in
 
-[index.d.ts:16048](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16048)
+[index.d.ts:16607](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16607)
 
 ___
 
@@ -97,7 +98,7 @@ test discovery, such as syntax errors.
 
 #### Defined in
 
-[index.d.ts:16070](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16070)
+[index.d.ts:16629](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16629)
 
 ___
 
@@ -112,7 +113,7 @@ and must be unique among its parent's direct children.
 
 #### Defined in
 
-[index.d.ts:15995](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15995)
+[index.d.ts:16554](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16554)
 
 ___
 
@@ -124,7 +125,7 @@ Display name describing the test case.
 
 #### Defined in
 
-[index.d.ts:16043](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16043)
+[index.d.ts:16602](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16602)
 
 ___
 
@@ -138,7 +139,7 @@ aren't yet included in another item's [children](codearts_plugin_.TestItem.md#ch
 
 #### Defined in
 
-[index.d.ts:16013](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16013)
+[index.d.ts:16572](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16572)
 
 ___
 
@@ -152,7 +153,7 @@ This is only meaningful if the `uri` points to a file.
 
 #### Defined in
 
-[index.d.ts:16062](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16062)
+[index.d.ts:16621](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16621)
 
 ___
 
@@ -166,7 +167,7 @@ is used.
 
 #### Defined in
 
-[index.d.ts:16055](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16055)
+[index.d.ts:16614](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16614)
 
 ___
 
@@ -179,7 +180,20 @@ TestRunProfile.tags, or simply as an organizational feature.
 
 #### Defined in
 
-[index.d.ts:16019](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16019)
+[index.d.ts:16578](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16578)
+
+___
+
+### testItemLevel
+
+• `Optional` **testItemLevel**: `string`
+
+Record the test level of the current project,
+referring to the hierarchical relationship of the current item
+
+#### Defined in
+
+[index.d.ts:16635](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16635)
 
 ___
 
@@ -191,4 +205,4 @@ URI this `TestItem` is associated with. May be a file or directory.
 
 #### Defined in
 
-[index.d.ts:16000](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16000)
+[index.d.ts:16559](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16559)

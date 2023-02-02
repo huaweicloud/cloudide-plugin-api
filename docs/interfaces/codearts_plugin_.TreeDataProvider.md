@@ -37,7 +37,7 @@ To signal that root has changed, do not pass any argument or pass `undefined` or
 
 #### Defined in
 
-[index.d.ts:10495](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10495)
+[index.d.ts:10746](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10746)
 
 ## Methods
 
@@ -61,7 +61,7 @@ Children of `element` or root if no element is passed.
 
 #### Defined in
 
-[index.d.ts:10511](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10511)
+[index.d.ts:10762](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10762)
 
 ___
 
@@ -88,7 +88,7 @@ Parent of `element`.
 
 #### Defined in
 
-[index.d.ts:10522](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10522)
+[index.d.ts:10773](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10773)
 
 ___
 
@@ -112,7 +112,7 @@ TreeItem representation of the element.
 
 #### Defined in
 
-[index.d.ts:10503](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10503)
+[index.d.ts:10754](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10754)
 
 ___
 
@@ -151,4 +151,4 @@ The resolved tree item or a thenable that resolves to such. It is OK to return t
 
 #### Defined in
 
-[index.d.ts:10545](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10545)
+[index.d.ts:10796](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10796)

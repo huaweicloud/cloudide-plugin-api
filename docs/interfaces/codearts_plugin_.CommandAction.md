@@ -28,7 +28,7 @@ Menu category in submenu.
 
 #### Defined in
 
-[index.d.ts:16494](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16494)
+[index.d.ts:17634](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17634)
 
 ___
 
@@ -40,7 +40,7 @@ Menu icon.
 
 #### Defined in
 
-[index.d.ts:16504](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16504)
+[index.d.ts:17644](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17644)
 
 ___
 
@@ -52,7 +52,7 @@ Command id.
 
 #### Defined in
 
-[index.d.ts:16479](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16479)
+[index.d.ts:17619](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17619)
 
 ___
 
@@ -64,7 +64,7 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:16514](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16514)
+[index.d.ts:17654](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17654)
 
 ___
 
@@ -76,7 +76,7 @@ Short title show on menu.
 
 #### Defined in
 
-[index.d.ts:16489](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16489)
+[index.d.ts:17629](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17629)
 
 ___
 
@@ -88,7 +88,7 @@ Menu source.
 
 #### Defined in
 
-[index.d.ts:16509](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16509)
+[index.d.ts:17649](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17649)
 
 ___
 
@@ -100,7 +100,7 @@ Title show on menu.
 
 #### Defined in
 
-[index.d.ts:16484](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16484)
+[index.d.ts:17624](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17624)
 
 ___
 
@@ -112,7 +112,7 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:16519](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16519)
+[index.d.ts:17659](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17659)
 
 ___
 
@@ -124,4 +124,4 @@ Tooltip title.
 
 #### Defined in
 
-[index.d.ts:16499](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16499)
+[index.d.ts:17639](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17639)

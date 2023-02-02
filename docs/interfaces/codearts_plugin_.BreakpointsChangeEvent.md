@@ -24,7 +24,7 @@ Added breakpoints.
 
 #### Defined in
 
-[index.d.ts:14640](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14640)
+[index.d.ts:15197](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15197)
 
 ___
 
@@ -36,7 +36,7 @@ Changed breakpoints.
 
 #### Defined in
 
-[index.d.ts:14650](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14650)
+[index.d.ts:15207](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15207)
 
 ___
 
@@ -48,4 +48,4 @@ Removed breakpoints.
 
 #### Defined in
 
-[index.d.ts:14645](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14645)
+[index.d.ts:15202](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15202)

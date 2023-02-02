@@ -38,9 +38,11 @@ Button Control.
 
 • **enabled**: `boolean`
 
+Sets the button invalid status.
+
 #### Defined in
 
-[index.d.ts:16441](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16441)
+[index.d.ts:17234](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17234)
 
 ___
 
@@ -56,7 +58,7 @@ The unique id of control.
 
 #### Defined in
 
-[index.d.ts:16409](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16409)
+[index.d.ts:17199](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17199)
 
 ___
 
@@ -72,7 +74,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:16414](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16414)
+[index.d.ts:17204](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17204)
 
 ___
 
@@ -80,9 +82,11 @@ ___
 
 • **label**: `string`
 
+Sets the button label.
+
 #### Defined in
 
-[index.d.ts:16442](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16442)
+[index.d.ts:17239](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17239)
 
 ___
 
@@ -90,9 +94,11 @@ ___
 
 • **onClick**: [`Event`](codearts_plugin_.Event.md)<`void`\>
 
+Callback when a button is clicked.
+
 #### Defined in
 
-[index.d.ts:16443](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16443)
+[index.d.ts:17244](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17244)
 
 ___
 
@@ -108,7 +114,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:16424](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16424)
+[index.d.ts:17214](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17214)
 
 ___
 
@@ -124,7 +130,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:16429](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16429)
+[index.d.ts:17219](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17219)
 
 ___
 
@@ -132,9 +138,11 @@ ___
 
 • **options**: [`ButtonOptions`](codearts_plugin_.ui.ButtonOptions.md)
 
+Parameters required for creating a Button component.
+
 #### Defined in
 
-[index.d.ts:16444](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16444)
+[index.d.ts:17249](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17249)
 
 ## Methods
 
@@ -154,7 +162,7 @@ Dispose the control, and the module created by the frontend in browser will also
 
 #### Defined in
 
-[index.d.ts:16419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16419)
+[index.d.ts:17209](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17209)
 
 ___
 
@@ -162,13 +170,15 @@ ___
 
 ▸ **focus**(): `void`
 
+Focus the button.
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[index.d.ts:16445](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16445)
+[index.d.ts:17254](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17254)
 
 ___
 
@@ -176,13 +186,15 @@ ___
 
 ▸ **hasFocus**(): `boolean`
 
+Indicates whether the button is focused.
+
 #### Returns
 
 `boolean`
 
 #### Defined in
 
-[index.d.ts:16446](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16446)
+[index.d.ts:17259](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17259)
 
 ___
 
@@ -209,4 +221,4 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:16434](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16434)
+[index.d.ts:17224](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17224)

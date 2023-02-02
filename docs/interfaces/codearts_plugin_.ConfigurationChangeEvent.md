@@ -36,4 +36,4 @@ If scope is provided, checks if the section has changed for resources under the 
 
 #### Defined in
 
-[index.d.ts:12450](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12450)
+[index.d.ts:13007](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13007)

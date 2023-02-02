@@ -24,7 +24,7 @@ Event specific information.
 
 #### Defined in
 
-[index.d.ts:14382](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14382)
+[index.d.ts:14939](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14939)
 
 ___
 
@@ -36,7 +36,7 @@ Type of event.
 
 #### Defined in
 
-[index.d.ts:14377](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14377)
+[index.d.ts:14934](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14934)
 
 ___
 
@@ -48,4 +48,4 @@ The [debug session](codearts_plugin_.DebugSession.md) for which the custom event
 
 #### Defined in
 
-[index.d.ts:14372](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14372)
+[index.d.ts:14929](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14929)

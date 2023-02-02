@@ -51,7 +51,7 @@ Iterable.\_\_@iterator@10
 
 #### Defined in
 
-[index.d.ts:10353](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10353)
+[index.d.ts:10594](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10594)
 
 ___
 
@@ -74,7 +74,7 @@ Allows iteration through the data transfer items.
 
 #### Defined in
 
-[index.d.ts:10348](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10348)
+[index.d.ts:10589](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10589)
 
 ___
 
@@ -96,7 +96,7 @@ Retrieves the data transfer item for a given mime type.
 
 #### Defined in
 
-[index.d.ts:10333](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10333)
+[index.d.ts:10574](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10574)
 
 ___
 
@@ -119,4 +119,4 @@ Sets a mime type to data transfer item mapping.
 
 #### Defined in
 
-[index.d.ts:10340](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10340)
+[index.d.ts:10581](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10581)

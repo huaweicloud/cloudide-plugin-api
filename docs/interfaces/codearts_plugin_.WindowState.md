@@ -22,4 +22,4 @@ Whether the current window is focused.
 
 #### Defined in
 
-[index.d.ts:9313](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9313)
+[index.d.ts:9373](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9373)

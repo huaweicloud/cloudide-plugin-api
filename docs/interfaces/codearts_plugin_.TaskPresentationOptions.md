@@ -27,7 +27,7 @@ Controls whether the terminal is cleared before executing the task.
 
 #### Defined in
 
-[index.d.ts:7157](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7157)
+[index.d.ts:7212](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7212)
 
 ___
 
@@ -40,7 +40,7 @@ in the user interface.
 
 #### Defined in
 
-[index.d.ts:7135](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7135)
+[index.d.ts:7190](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7190)
 
 ___
 
@@ -52,7 +52,7 @@ Controls whether the panel showing the task output is taking focus.
 
 #### Defined in
 
-[index.d.ts:7140](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7140)
+[index.d.ts:7195](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7195)
 
 ___
 
@@ -66,7 +66,7 @@ every task execution (new). Defaults to `TaskInstanceKind.Shared`
 
 #### Defined in
 
-[index.d.ts:7147](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7147)
+[index.d.ts:7202](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7202)
 
 ___
 
@@ -79,7 +79,7 @@ Defaults to `RevealKind.Always`.
 
 #### Defined in
 
-[index.d.ts:7129](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7129)
+[index.d.ts:7184](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7184)
 
 ___
 
@@ -91,4 +91,4 @@ Controls whether to show the "Terminal will be reused by tasks, press any key to
 
 #### Defined in
 
-[index.d.ts:7152](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7152)
+[index.d.ts:7207](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7207)

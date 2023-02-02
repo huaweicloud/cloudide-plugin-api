@@ -27,7 +27,7 @@ Render the cursor as a block filled.
 
 #### Defined in
 
-[index.d.ts:607](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L607)
+[index.d.ts:607](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L607)
 
 ___
 
@@ -39,7 +39,7 @@ Render the cursor as a block outlined.
 
 #### Defined in
 
-[index.d.ts:619](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L619)
+[index.d.ts:619](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L619)
 
 ___
 
@@ -51,7 +51,7 @@ Render the cursor as a vertical thick line.
 
 #### Defined in
 
-[index.d.ts:603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L603)
+[index.d.ts:603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L603)
 
 ___
 
@@ -63,7 +63,7 @@ Render the cursor as a vertical thin line.
 
 #### Defined in
 
-[index.d.ts:615](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L615)
+[index.d.ts:615](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L615)
 
 ___
 
@@ -75,7 +75,7 @@ Render the cursor as a thick horizontal line.
 
 #### Defined in
 
-[index.d.ts:611](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L611)
+[index.d.ts:611](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L611)
 
 ___
 
@@ -87,4 +87,4 @@ Render the cursor as a thin horizontal line.
 
 #### Defined in
 
-[index.d.ts:623](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L623)
+[index.d.ts:623](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L623)

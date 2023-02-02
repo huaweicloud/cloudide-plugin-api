@@ -32,4 +32,4 @@ extension should return the Pseudoterminal it will "run in". The task should wai
 
 #### Defined in
 
-[index.d.ts:7456](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7456)
+[index.d.ts:7511](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7511)

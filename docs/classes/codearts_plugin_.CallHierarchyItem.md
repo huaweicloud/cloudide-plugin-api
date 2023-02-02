@@ -44,7 +44,7 @@ Creates a new call hierarchy item.
 
 #### Defined in
 
-[index.d.ts:5178](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5178)
+[index.d.ts:5198](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5198)
 
 ## Properties
 
@@ -56,7 +56,7 @@ More detail for this item, e.g. the signature of a function.
 
 #### Defined in
 
-[index.d.ts:5157](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5157)
+[index.d.ts:5177](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5177)
 
 ___
 
@@ -68,7 +68,7 @@ The kind of this item.
 
 #### Defined in
 
-[index.d.ts:5147](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5147)
+[index.d.ts:5167](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5167)
 
 ___
 
@@ -80,7 +80,7 @@ The name of this item.
 
 #### Defined in
 
-[index.d.ts:5142](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5142)
+[index.d.ts:5162](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5162)
 
 ___
 
@@ -92,7 +92,7 @@ The range enclosing this symbol not including leading/trailing whitespace but ev
 
 #### Defined in
 
-[index.d.ts:5167](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5167)
+[index.d.ts:5187](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5187)
 
 ___
 
@@ -105,7 +105,7 @@ Must be contained by the [`range`](codearts_plugin_.CallHierarchyItem.md#range).
 
 #### Defined in
 
-[index.d.ts:5173](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5173)
+[index.d.ts:5193](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5193)
 
 ___
 
@@ -117,7 +117,7 @@ Tags for this item.
 
 #### Defined in
 
-[index.d.ts:5152](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5152)
+[index.d.ts:5172](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5172)
 
 ___
 
@@ -129,4 +129,4 @@ The resource identifier of this item.
 
 #### Defined in
 
-[index.d.ts:5162](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5162)
+[index.d.ts:5182](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5182)

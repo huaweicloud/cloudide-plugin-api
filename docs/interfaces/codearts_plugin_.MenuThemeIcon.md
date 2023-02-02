@@ -20,4 +20,4 @@ Icon id.
 
 #### Defined in
 
-[index.d.ts:16471](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16471)
+[index.d.ts:17611](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17611)

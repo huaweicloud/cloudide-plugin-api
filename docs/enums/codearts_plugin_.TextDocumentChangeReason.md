@@ -21,7 +21,7 @@ The text change is caused by an redo operation.
 
 #### Defined in
 
-[index.d.ts:11464](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11464)
+[index.d.ts:11720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11720)
 
 ___
 
@@ -33,4 +33,4 @@ The text change is caused by an undo operation.
 
 #### Defined in
 
-[index.d.ts:11461](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11461)
+[index.d.ts:11717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11717)

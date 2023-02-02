@@ -34,7 +34,7 @@ Creates a shell execution with a full command line.
 
 #### Defined in
 
-[index.d.ts:7407](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7407)
+[index.d.ts:7462](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7462)
 
 • **new ShellExecution**(`command`, `args`, `options?`)
 
@@ -53,7 +53,7 @@ use the constructor that creates a `ShellExecution` with the full command line.
 
 #### Defined in
 
-[index.d.ts:7419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7419)
+[index.d.ts:7474](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7474)
 
 ## Properties
 
@@ -65,7 +65,7 @@ The shell args. Is `undefined` if created with a full command line.
 
 #### Defined in
 
-[index.d.ts:7434](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7434)
+[index.d.ts:7489](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7489)
 
 ___
 
@@ -77,7 +77,7 @@ The shell command. Is `undefined` if created with a full command line.
 
 #### Defined in
 
-[index.d.ts:7429](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7429)
+[index.d.ts:7484](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7484)
 
 ___
 
@@ -89,7 +89,7 @@ The shell command line. Is `undefined` if created with a command and arguments.
 
 #### Defined in
 
-[index.d.ts:7424](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7424)
+[index.d.ts:7479](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7479)
 
 ___
 
@@ -102,4 +102,4 @@ Defaults to undefined.
 
 #### Defined in
 
-[index.d.ts:7440](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7440)
+[index.d.ts:7495](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7495)

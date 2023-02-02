@@ -9,6 +9,7 @@
 ### Properties
 
 - [group](codearts_plugin_.SubmenuItem.md#group)
+- [icon](codearts_plugin_.SubmenuItem.md#icon)
 - [order](codearts_plugin_.SubmenuItem.md#order)
 - [submenu](codearts_plugin_.SubmenuItem.md#submenu)
 - [title](codearts_plugin_.SubmenuItem.md#title)
@@ -24,7 +25,19 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:16570](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16570)
+[index.d.ts:17710](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17710)
+
+___
+
+### icon
+
+• `Optional` **icon**: [`MenuThemeIcon`](codearts_plugin_.MenuThemeIcon.md)
+
+Menu icon.
+
+#### Defined in
+
+[index.d.ts:17720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17720)
 
 ___
 
@@ -36,7 +49,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:16575](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16575)
+[index.d.ts:17715](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17715)
 
 ___
 
@@ -48,7 +61,7 @@ Custom menu id.
 
 #### Defined in
 
-[index.d.ts:16555](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16555)
+[index.d.ts:17695](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17695)
 
 ___
 
@@ -60,7 +73,7 @@ Title shown on menu.
 
 #### Defined in
 
-[index.d.ts:16560](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16560)
+[index.d.ts:17700](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17700)
 
 ___
 
@@ -72,4 +85,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:16565](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16565)
+[index.d.ts:17705](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17705)

@@ -48,7 +48,7 @@ The number of affected resources of textual or resource changes.
 
 #### Defined in
 
-[index.d.ts:3477](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3477)
+[index.d.ts:3477](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3477)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Create a regular file.
 
 #### Defined in
 
-[index.d.ts:3542](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3542)
+[index.d.ts:3542](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3542)
 
 ___
 
@@ -98,7 +98,7 @@ Delete the text at the given range.
 
 #### Defined in
 
-[index.d.ts:3506](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3506)
+[index.d.ts:3506](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3506)
 
 ___
 
@@ -124,7 +124,7 @@ Delete a file or folder.
 
 #### Defined in
 
-[index.d.ts:3550](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3550)
+[index.d.ts:3550](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3550)
 
 ___
 
@@ -142,7 +142,7 @@ A shallow copy of `[Uri, TextEdit[]]`-tuples.
 
 #### Defined in
 
-[index.d.ts:3568](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3568)
+[index.d.ts:3568](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3568)
 
 ___
 
@@ -166,7 +166,7 @@ An array of text edits.
 
 #### Defined in
 
-[index.d.ts:3530](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3530)
+[index.d.ts:3530](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3530)
 
 ___
 
@@ -190,7 +190,7 @@ Check if a text edit for a resource exists.
 
 #### Defined in
 
-[index.d.ts:3514](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3514)
+[index.d.ts:3514](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3514)
 
 ___
 
@@ -215,7 +215,7 @@ Insert the given text at the given position.
 
 #### Defined in
 
-[index.d.ts:3497](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3497)
+[index.d.ts:3497](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3497)
 
 ___
 
@@ -242,7 +242,7 @@ Rename a file or folder.
 
 #### Defined in
 
-[index.d.ts:3561](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3561)
+[index.d.ts:3561](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3561)
 
 ___
 
@@ -267,7 +267,7 @@ Replace the given range with given text for the given resource.
 
 #### Defined in
 
-[index.d.ts:3487](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3487)
+[index.d.ts:3487](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3487)
 
 ___
 
@@ -290,4 +290,4 @@ Set (and replace) text edits for a resource.
 
 #### Defined in
 
-[index.d.ts:3522](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3522)
+[index.d.ts:3522](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3522)

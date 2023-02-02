@@ -22,4 +22,4 @@ The [AuthenticationProvider](codearts_plugin_.AuthenticationProvider.md) that ha
 
 #### Defined in
 
-[index.d.ts:15383](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15383)
+[index.d.ts:15940](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15940)

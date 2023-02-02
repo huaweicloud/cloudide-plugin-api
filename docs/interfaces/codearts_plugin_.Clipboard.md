@@ -29,7 +29,7 @@ A thenable that resolves to a string.
 
 #### Defined in
 
-[index.d.ts:9019](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9019)
+[index.d.ts:9074](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9074)
 
 ___
 
@@ -53,4 +53,4 @@ A thenable that resolves when writing happened.
 
 #### Defined in
 
-[index.d.ts:9025](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9025)
+[index.d.ts:9080](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9080)

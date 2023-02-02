@@ -23,4 +23,4 @@ If not specified, will default to false.
 
 #### Defined in
 
-[index.d.ts:15394](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15394)
+[index.d.ts:15951](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15951)

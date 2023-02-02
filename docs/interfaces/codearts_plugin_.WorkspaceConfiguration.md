@@ -78,6 +78,7 @@ Refer to [Settings](https://code.visualstudio.com/docs/getstarted/settings) for 
 - [has](codearts_plugin_.WorkspaceConfiguration.md#has)
 - [inspect](codearts_plugin_.WorkspaceConfiguration.md#inspect)
 - [update](codearts_plugin_.WorkspaceConfiguration.md#update)
+- [verify](codearts_plugin_.WorkspaceConfiguration.md#verify)
 
 ## Methods
 
@@ -107,7 +108,7 @@ The value `section` denotes or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5689](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5689)
+[index.d.ts:5709](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5709)
 
 ▸ **get**<`T`\>(`section`, `defaultValue`): `T`
 
@@ -134,7 +135,7 @@ The value `section` denotes or the default.
 
 #### Defined in
 
-[index.d.ts:5698](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5698)
+[index.d.ts:5718](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5718)
 
 ___
 
@@ -158,7 +159,7 @@ Check if this configuration has a certain value.
 
 #### Defined in
 
-[index.d.ts:5706](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5706)
+[index.d.ts:5726](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5726)
 
 ___
 
@@ -196,7 +197,7 @@ Information about a configuration setting or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5722](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5722)
+[index.d.ts:5742](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5742)
 
 ___
 
@@ -239,4 +240,28 @@ error while updating
 
 #### Defined in
 
-[index.d.ts:5768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5768)
+[index.d.ts:5788](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5788)
+
+___
+
+### verify
+
+▸ **verify**(`section`, `errorMessage`, `provider`): `void`
+
+Display error information in the configuration of the target section.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `section` | `string` | Configuration name, supports _dotted_ names. |
+| `errorMessage` | `string` | Verification failure error message. |
+| `provider` | () => {} | - |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:5796](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5796)

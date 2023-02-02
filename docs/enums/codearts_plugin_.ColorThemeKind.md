@@ -23,7 +23,7 @@ Represents a color theme kind.
 
 #### Defined in
 
-[index.d.ts:7062](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7062)
+[index.d.ts:7117](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7117)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7063](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7063)
+[index.d.ts:7118](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7118)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7064](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7064)
+[index.d.ts:7119](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7119)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7061](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7061)
+[index.d.ts:7116](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7116)

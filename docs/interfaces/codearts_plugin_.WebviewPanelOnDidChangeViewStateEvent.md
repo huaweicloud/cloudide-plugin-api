@@ -22,4 +22,4 @@ Webview panel whose view state changed.
 
 #### Defined in
 
-[index.d.ts:8519](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8519)
+[index.d.ts:8574](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8574)

@@ -23,7 +23,7 @@ http request body.
 
 #### Defined in
 
-[index.d.ts:15435](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15435)
+[index.d.ts:15992](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15992)
 
 ___
 
@@ -35,7 +35,7 @@ http request headers.
 
 #### Defined in
 
-[index.d.ts:15431](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15431)
+[index.d.ts:15988](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15988)
 
 ___
 
@@ -47,7 +47,7 @@ http request method.
 
 #### Defined in
 
-[index.d.ts:15423](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15423)
+[index.d.ts:15980](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15980)
 
 ___
 
@@ -59,4 +59,4 @@ http request url.
 
 #### Defined in
 
-[index.d.ts:15427](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15427)
+[index.d.ts:15984](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15984)

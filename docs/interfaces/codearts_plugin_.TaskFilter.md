@@ -21,7 +21,7 @@ The task type to return;
 
 #### Defined in
 
-[index.d.ts:7699](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7699)
+[index.d.ts:7754](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7754)
 
 ___
 
@@ -34,4 +34,4 @@ The string support the package.json semver notation.
 
 #### Defined in
 
-[index.d.ts:7694](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7694)
+[index.d.ts:7749](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7749)

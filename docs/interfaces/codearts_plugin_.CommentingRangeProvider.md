@@ -33,4 +33,4 @@ Provide a list of ranges which allow new comment threads creation or null for a 
 
 #### Defined in
 
-[index.d.ts:15182](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15182)
+[index.d.ts:15739](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15739)

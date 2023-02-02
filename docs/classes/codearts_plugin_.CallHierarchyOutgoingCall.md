@@ -34,7 +34,7 @@ Create a new call object.
 
 #### Defined in
 
-[index.d.ts:5229](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5229)
+[index.d.ts:5249](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5249)
 
 ## Properties
 
@@ -48,7 +48,7 @@ and not [`this.to`](codearts_plugin_.CallHierarchyOutgoingCall.md#to).
 
 #### Defined in
 
-[index.d.ts:5221](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5221)
+[index.d.ts:5241](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5241)
 
 ___
 
@@ -60,4 +60,4 @@ The item that is called.
 
 #### Defined in
 
-[index.d.ts:5214](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5214)
+[index.d.ts:5234](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5234)

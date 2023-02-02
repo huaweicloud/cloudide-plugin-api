@@ -55,7 +55,7 @@ The lack of a result can be signaled by returning `undefined`, `null`, or an emp
 
 #### Defined in
 
-[index.d.ts:4486](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4486)
+[index.d.ts:4506](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4506)
 
 ___
 
@@ -92,4 +92,4 @@ The resolved completion item or a thenable that resolves to of such. It is OK to
 
 #### Defined in
 
-[index.d.ts:4507](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4507)
+[index.d.ts:4527](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4527)

@@ -24,7 +24,7 @@ This value has no effect for sessions which do not have a parent session.
 
 #### Defined in
 
-[index.d.ts:14724](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14724)
+[index.d.ts:15281](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15281)
 
 ___
 
@@ -36,4 +36,4 @@ Debug session should have a separate debug console.
 
 #### Defined in
 
-[index.d.ts:14718](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14718)
+[index.d.ts:15275](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15275)

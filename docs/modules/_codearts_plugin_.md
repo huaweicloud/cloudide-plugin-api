@@ -12,6 +12,7 @@ SPDX-License-Identifier: MIT
 ### Namespaces
 
 - [authentication](codearts_plugin_.authentication.md)
+- [build](codearts_plugin_.build.md)
 - [commands](codearts_plugin_.commands.md)
 - [comments](codearts_plugin_.comments.md)
 - [debug](codearts_plugin_.debug.md)
@@ -28,13 +29,16 @@ SPDX-License-Identifier: MIT
 
 ### Enumerations
 
+- [BuildRequestType](../enums/codearts_plugin_.BuildRequestType.md)
 - [CodeActionTriggerKind](../enums/codearts_plugin_.CodeActionTriggerKind.md)
+- [CodeTipSeverity](../enums/codearts_plugin_.CodeTipSeverity.md)
 - [ColorThemeKind](../enums/codearts_plugin_.ColorThemeKind.md)
 - [CommentMode](../enums/codearts_plugin_.CommentMode.md)
 - [CommentThreadCollapsibleState](../enums/codearts_plugin_.CommentThreadCollapsibleState.md)
 - [CompletionItemKind](../enums/codearts_plugin_.CompletionItemKind.md)
 - [CompletionItemTag](../enums/codearts_plugin_.CompletionItemTag.md)
 - [CompletionTriggerKind](../enums/codearts_plugin_.CompletionTriggerKind.md)
+- [ConfigurationBrowseType](../enums/codearts_plugin_.ConfigurationBrowseType.md)
 - [ConfigurationTarget](../enums/codearts_plugin_.ConfigurationTarget.md)
 - [DebugConfigurationProviderTriggerKind](../enums/codearts_plugin_.DebugConfigurationProviderTriggerKind.md)
 - [DebugConsoleMode](../enums/codearts_plugin_.DebugConsoleMode.md)
@@ -42,6 +46,7 @@ SPDX-License-Identifier: MIT
 - [DiagnosticSeverity](../enums/codearts_plugin_.DiagnosticSeverity.md)
 - [DiagnosticTag](../enums/codearts_plugin_.DiagnosticTag.md)
 - [DocumentHighlightKind](../enums/codearts_plugin_.DocumentHighlightKind.md)
+- [EditPresentationTypes](../enums/codearts_plugin_.EditPresentationTypes.md)
 - [EndOfLine](../enums/codearts_plugin_.EndOfLine.md)
 - [EnvironmentVariableMutatorType](../enums/codearts_plugin_.EnvironmentVariableMutatorType.md)
 - [ExtensionKind](../enums/codearts_plugin_.ExtensionKind.md)
@@ -63,6 +68,7 @@ SPDX-License-Identifier: MIT
 - [OverviewRulerLane](../enums/codearts_plugin_.OverviewRulerLane.md)
 - [ProgressLocation](../enums/codearts_plugin_.ProgressLocation.md)
 - [QuickPickItemKind](../enums/codearts_plugin_.QuickPickItemKind.md)
+- [ScopeType](../enums/codearts_plugin_.ScopeType.md)
 - [ShellQuoting](../enums/codearts_plugin_.ShellQuoting.md)
 - [SignatureHelpTriggerKind](../enums/codearts_plugin_.SignatureHelpTriggerKind.md)
 - [StatusBarAlignment](../enums/codearts_plugin_.StatusBarAlignment.md)
@@ -71,6 +77,7 @@ SPDX-License-Identifier: MIT
 - [TaskPanelKind](../enums/codearts_plugin_.TaskPanelKind.md)
 - [TaskRevealKind](../enums/codearts_plugin_.TaskRevealKind.md)
 - [TaskScope](../enums/codearts_plugin_.TaskScope.md)
+- [TerminalAnsiColorId](../enums/codearts_plugin_.TerminalAnsiColorId.md)
 - [TerminalLocation](../enums/codearts_plugin_.TerminalLocation.md)
 - [TestRunProfileKind](../enums/codearts_plugin_.TestRunProfileKind.md)
 - [TextDocumentChangeReason](../enums/codearts_plugin_.TextDocumentChangeReason.md)
@@ -82,6 +89,7 @@ SPDX-License-Identifier: MIT
 - [TreeItemCollapsibleState](../enums/codearts_plugin_.TreeItemCollapsibleState.md)
 - [UIKind](../enums/codearts_plugin_.UIKind.md)
 - [ViewColumn](../enums/codearts_plugin_.ViewColumn.md)
+- [ViewContainerId](../enums/codearts_plugin_.ViewContainerId.md)
 - [WebviewPanelTargetArea](../enums/codearts_plugin_.WebviewPanelTargetArea.md)
 
 ### Classes
@@ -189,6 +197,12 @@ SPDX-License-Identifier: MIT
 - [AuthenticationSessionAccountInformation](../interfaces/codearts_plugin_.AuthenticationSessionAccountInformation.md)
 - [AuthenticationSessionsChangeEvent](../interfaces/codearts_plugin_.AuthenticationSessionsChangeEvent.md)
 - [BreakpointsChangeEvent](../interfaces/codearts_plugin_.BreakpointsChangeEvent.md)
+- [BuildController](../interfaces/codearts_plugin_.BuildController.md)
+- [BuildDataItem](../interfaces/codearts_plugin_.BuildDataItem.md)
+- [BuildMessage](../interfaces/codearts_plugin_.BuildMessage.md)
+- [BuildOption](../interfaces/codearts_plugin_.BuildOption.md)
+- [BuildProfile](../interfaces/codearts_plugin_.BuildProfile.md)
+- [BuildProfileOptions](../interfaces/codearts_plugin_.BuildProfileOptions.md)
 - [CallHierarchyProvider](../interfaces/codearts_plugin_.CallHierarchyProvider.md)
 - [CancellationToken](../interfaces/codearts_plugin_.CancellationToken.md)
 - [Clipboard](../interfaces/codearts_plugin_.Clipboard.md)
@@ -196,9 +210,11 @@ SPDX-License-Identifier: MIT
 - [CodeActionProvider](../interfaces/codearts_plugin_.CodeActionProvider.md)
 - [CodeActionProviderMetadata](../interfaces/codearts_plugin_.CodeActionProviderMetadata.md)
 - [CodeLensProvider](../interfaces/codearts_plugin_.CodeLensProvider.md)
+- [CodeTipOptions](../interfaces/codearts_plugin_.CodeTipOptions.md)
 - [ColorTheme](../interfaces/codearts_plugin_.ColorTheme.md)
 - [Command](../interfaces/codearts_plugin_.Command.md)
 - [CommandAction](../interfaces/codearts_plugin_.CommandAction.md)
+- [CommandInfo](../interfaces/codearts_plugin_.CommandInfo.md)
 - [Comment](../interfaces/codearts_plugin_.Comment.md)
 - [CommentAuthorInformation](../interfaces/codearts_plugin_.CommentAuthorInformation.md)
 - [CommentController](../interfaces/codearts_plugin_.CommentController.md)
@@ -320,6 +336,7 @@ SPDX-License-Identifier: MIT
 - [ProcessExecutionOptions](../interfaces/codearts_plugin_.ProcessExecutionOptions.md)
 - [Progress](../interfaces/codearts_plugin_.Progress.md)
 - [ProgressOptions](../interfaces/codearts_plugin_.ProgressOptions.md)
+- [ProjectWizardOptions](../interfaces/codearts_plugin_.ProjectWizardOptions.md)
 - [Pseudoterminal](../interfaces/codearts_plugin_.Pseudoterminal.md)
 - [QuickDiffProvider](../interfaces/codearts_plugin_.QuickDiffProvider.md)
 - [QuickInput](../interfaces/codearts_plugin_.QuickInput.md)
@@ -368,6 +385,7 @@ SPDX-License-Identifier: MIT
 - [TaskProvider](../interfaces/codearts_plugin_.TaskProvider.md)
 - [TaskStartEvent](../interfaces/codearts_plugin_.TaskStartEvent.md)
 - [Terminal](../interfaces/codearts_plugin_.Terminal.md)
+- [TerminalColorChangeEvent](../interfaces/codearts_plugin_.TerminalColorChangeEvent.md)
 - [TerminalDimensions](../interfaces/codearts_plugin_.TerminalDimensions.md)
 - [TerminalEditorLocationOptions](../interfaces/codearts_plugin_.TerminalEditorLocationOptions.md)
 - [TerminalExitStatus](../interfaces/codearts_plugin_.TerminalExitStatus.md)
@@ -405,12 +423,15 @@ SPDX-License-Identifier: MIT
 - [TreeItemLabel](../interfaces/codearts_plugin_.TreeItemLabel.md)
 - [TreeView](../interfaces/codearts_plugin_.TreeView.md)
 - [TreeViewExpansionEvent](../interfaces/codearts_plugin_.TreeViewExpansionEvent.md)
+- [TreeViewFocusChangeEvent](../interfaces/codearts_plugin_.TreeViewFocusChangeEvent.md)
 - [TreeViewOptions](../interfaces/codearts_plugin_.TreeViewOptions.md)
 - [TreeViewSelectionChangeEvent](../interfaces/codearts_plugin_.TreeViewSelectionChangeEvent.md)
 - [TreeViewVisibilityChangeEvent](../interfaces/codearts_plugin_.TreeViewVisibilityChangeEvent.md)
 - [TypeDefinitionProvider](../interfaces/codearts_plugin_.TypeDefinitionProvider.md)
 - [TypeHierarchyProvider](../interfaces/codearts_plugin_.TypeHierarchyProvider.md)
 - [UriHandler](../interfaces/codearts_plugin_.UriHandler.md)
+- [View](../interfaces/codearts_plugin_.View.md)
+- [ViewContainer](../interfaces/codearts_plugin_.ViewContainer.md)
 - [Webview](../interfaces/codearts_plugin_.Webview.md)
 - [WebviewContainer](../interfaces/codearts_plugin_.WebviewContainer.md)
 - [WebviewOptions](../interfaces/codearts_plugin_.WebviewOptions.md)
@@ -445,6 +466,7 @@ SPDX-License-Identifier: MIT
 - [InlineValue](_codearts_plugin_.md#inlinevalue)
 - [MarkedString](_codearts_plugin_.md#markedstring)
 - [ProviderResult](_codearts_plugin_.md#providerresult)
+- [ViewLocation](_codearts_plugin_.md#viewlocation)
 
 ### Variables
 
@@ -461,7 +483,7 @@ opening and closing brackets.
 
 #### Defined in
 
-[index.d.ts:5423](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5423)
+[index.d.ts:5443](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5443)
 
 ___
 
@@ -476,7 +498,7 @@ a '[WorkspaceFolder](../interfaces/codearts_plugin_.WorkspaceFolder.md)'
 
 #### Defined in
 
-[index.d.ts:12435](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12435)
+[index.d.ts:12992](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12992)
 
 ___
 
@@ -486,7 +508,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:14549](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14549)
+[index.d.ts:15106](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15106)
 
 ___
 
@@ -499,7 +521,7 @@ or [location links](../interfaces/codearts_plugin_.LocationLink.md).
 
 #### Defined in
 
-[index.d.ts:2714](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2714)
+[index.d.ts:2714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2714)
 
 ___
 
@@ -513,7 +535,7 @@ defined.
 
 #### Defined in
 
-[index.d.ts:2653](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2653)
+[index.d.ts:2653](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2653)
 
 ___
 
@@ -528,7 +550,7 @@ the defining symbol
 
 #### Defined in
 
-[index.d.ts:2646](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2646)
+[index.d.ts:2646](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2646)
 
 ___
 
@@ -552,7 +574,7 @@ let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
 
 #### Defined in
 
-[index.d.ts:2200](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2200)
+[index.d.ts:2200](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2200)
 
 ___
 
@@ -578,7 +600,7 @@ any backslash to slash when creating the glob pattern.
 
 #### Defined in
 
-[index.d.ts:2144](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2144)
+[index.d.ts:2144](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2144)
 
 ___
 
@@ -594,7 +616,7 @@ The InlineValue types combines all inline value types into one type.
 
 #### Defined in
 
-[index.d.ts:3007](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3007)
+[index.d.ts:3007](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3007)
 
 ___
 
@@ -612,7 +634,7 @@ This type is deprecated, please use [`MarkdownString`](../classes/codearts_plugi
 
 #### Defined in
 
-[index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2828)
+[index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2828)
 
 ___
 
@@ -657,7 +679,19 @@ let c: HoverProvider = {
 
 #### Defined in
 
-[index.d.ts:2232](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2232)
+[index.d.ts:2232](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2232)
+
+___
+
+### ViewLocation
+
+Ƭ **ViewLocation**: [`View`](../interfaces/codearts_plugin_.View.md) \| [`ViewContainer`](../interfaces/codearts_plugin_.ViewContainer.md) \| ``"editor"``
+
+Location where Actions are registered.
+
+#### Defined in
+
+[index.d.ts:9497](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9497)
 
 ## Variables
 
@@ -669,4 +703,4 @@ The version of the editor.
 
 #### Defined in
 
-[index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L19)
+[index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L19)

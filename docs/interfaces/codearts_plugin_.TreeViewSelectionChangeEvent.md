@@ -28,4 +28,4 @@ Selected elements.
 
 #### Defined in
 
-[index.d.ts:10244](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10244)
+[index.d.ts:10473](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10473)

@@ -32,7 +32,7 @@ An optional event to signal that inline values have changed.
 
 #### Defined in
 
-[index.d.ts:3037](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3037)
+[index.d.ts:3037](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3037)
 
 ## Methods
 
@@ -62,4 +62,4 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:3051](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3051)
+[index.d.ts:3051](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3051)

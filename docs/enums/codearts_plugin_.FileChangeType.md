@@ -24,7 +24,7 @@ The contents or metadata of a file have changed.
 
 #### Defined in
 
-[index.d.ts:7912](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7912)
+[index.d.ts:7967](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7967)
 
 ___
 
@@ -36,7 +36,7 @@ A file has been created.
 
 #### Defined in
 
-[index.d.ts:7917](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7917)
+[index.d.ts:7972](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7972)
 
 ___
 
@@ -48,4 +48,4 @@ A file has been deleted.
 
 #### Defined in
 
-[index.d.ts:7922](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7922)
+[index.d.ts:7977](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7977)

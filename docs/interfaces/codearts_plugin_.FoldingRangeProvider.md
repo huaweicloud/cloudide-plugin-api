@@ -27,7 +27,7 @@ An optional event to signal that the folding ranges from this provider have chan
 
 #### Defined in
 
-[index.d.ts:5080](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5080)
+[index.d.ts:5100](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5100)
 
 ## Methods
 
@@ -52,4 +52,4 @@ does not want to participate or was cancelled.
 
 #### Defined in
 
-[index.d.ts:5089](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5089)
+[index.d.ts:5109](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5109)

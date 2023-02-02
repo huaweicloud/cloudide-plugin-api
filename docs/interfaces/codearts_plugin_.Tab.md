@@ -30,7 +30,7 @@ The group which the tab belongs to.
 
 #### Defined in
 
-[index.d.ts:16254](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16254)
+[index.d.ts:17044](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17044)
 
 ___
 
@@ -43,7 +43,7 @@ Resource and other useful properties are defined on the tab kind.
 
 #### Defined in
 
-[index.d.ts:16260](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16260)
+[index.d.ts:17050](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17050)
 
 ___
 
@@ -56,7 +56,7 @@ This is dictated by being the selected tab in the group.
 
 #### Defined in
 
-[index.d.ts:16266](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16266)
+[index.d.ts:17056](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17056)
 
 ___
 
@@ -68,7 +68,7 @@ Whether or not the dirty indicator is present on the tab.
 
 #### Defined in
 
-[index.d.ts:16271](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16271)
+[index.d.ts:17061](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17061)
 
 ___
 
@@ -80,7 +80,7 @@ Whether or not the tab is pinned (pin icon is present).
 
 #### Defined in
 
-[index.d.ts:16276](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16276)
+[index.d.ts:17066](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17066)
 
 ___
 
@@ -92,7 +92,7 @@ Whether or not the tab is in preview mode.
 
 #### Defined in
 
-[index.d.ts:16281](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16281)
+[index.d.ts:17071](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17071)
 
 ___
 
@@ -104,4 +104,4 @@ The text displayed on the tab.
 
 #### Defined in
 
-[index.d.ts:16249](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16249)
+[index.d.ts:17039](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17039)

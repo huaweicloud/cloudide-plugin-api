@@ -37,7 +37,7 @@ This must be globally unique.
 
 #### Defined in
 
-[index.d.ts:15696](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15696)
+[index.d.ts:16253](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16253)
 
 ___
 
@@ -58,7 +58,7 @@ However, the editor may sometimes explicitly request children using the
 
 #### Defined in
 
-[index.d.ts:15715](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15715)
+[index.d.ts:16272](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16272)
 
 ___
 
@@ -70,7 +70,7 @@ Human-readable label for the test controller.
 
 #### Defined in
 
-[index.d.ts:15701](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15701)
+[index.d.ts:16258](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16258)
 
 ___
 
@@ -88,7 +88,7 @@ a [FileSystemWatcher](codearts_plugin_.FileSystemWatcher.md) for example, and us
 
 #### Defined in
 
-[index.d.ts:15761](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15761)
+[index.d.ts:16318](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16318)
 
 ___
 
@@ -126,7 +126,7 @@ the function returns or the returned thenable resolves.
 
 #### Defined in
 
-[index.d.ts:15748](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15748)
+[index.d.ts:16305](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16305)
 
 ## Methods
 
@@ -156,13 +156,13 @@ associated with this controller.
 
 #### Defined in
 
-[index.d.ts:15728](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15728)
+[index.d.ts:16285](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16285)
 
 ___
 
 ### createTestItem
 
-▸ **createTestItem**(`id`, `label`, `uri?`): [`TestItem`](codearts_plugin_.TestItem.md)
+▸ **createTestItem**(`id`, `label`, `uri?`, `testItemLevel?`): [`TestItem`](codearts_plugin_.TestItem.md)
 
 Creates a new managed [TestItem](codearts_plugin_.TestItem.md) instance. It can be added into
 the [children](codearts_plugin_.TestItem.md#children) of an existing item, or into the
@@ -175,6 +175,7 @@ the [children](codearts_plugin_.TestItem.md#children) of an existing item, or in
 | `id` | `string` | Identifier for the TestItem. The test item's ID must be unique in the [TestItemCollection](codearts_plugin_.TestItemCollection.md) it's added to. |
 | `label` | `string` | Human-readable label of the test item. |
 | `uri?` | [`Uri`](../classes/codearts_plugin_.Uri.md) | URI this TestItem is associated with. May be a file or directory. |
+| `testItemLevel?` | `string` | the hierarchical relationship of the current TestItem. |
 
 #### Returns
 
@@ -182,7 +183,7 @@ the [children](codearts_plugin_.TestItem.md#children) of an existing item, or in
 
 #### Defined in
 
-[index.d.ts:15796](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15796)
+[index.d.ts:16354](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16354)
 
 ___
 
@@ -216,7 +217,7 @@ from the moment this method is invoked until [end](codearts_plugin_.TestRun.md#e
 
 #### Defined in
 
-[index.d.ts:15784](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15784)
+[index.d.ts:16341](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16341)
 
 ___
 
@@ -233,4 +234,4 @@ and unpersisted results.
 
 #### Defined in
 
-[index.d.ts:15802](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15802)
+[index.d.ts:16360](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16360)

@@ -36,7 +36,7 @@ Whether the panel is active (focused by the user).
 
 #### Defined in
 
-[index.d.ts:8413](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8413)
+[index.d.ts:8468](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8468)
 
 ___
 
@@ -48,7 +48,7 @@ Icon for the panel shown in UI.
 
 #### Defined in
 
-[index.d.ts:8392](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8392)
+[index.d.ts:8447](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8447)
 
 ___
 
@@ -60,7 +60,7 @@ Fired when the panel's view state changes.
 
 #### Defined in
 
-[index.d.ts:8423](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8423)
+[index.d.ts:8478](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8478)
 
 ___
 
@@ -77,7 +77,7 @@ Trying to use the panel after it has been disposed throws an exception.
 
 #### Defined in
 
-[index.d.ts:8433](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8433)
+[index.d.ts:8488](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8488)
 
 ___
 
@@ -89,7 +89,7 @@ Content settings for the webview panel.
 
 #### Defined in
 
-[index.d.ts:8402](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8402)
+[index.d.ts:8457](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8457)
 
 ___
 
@@ -101,7 +101,7 @@ Title of the panel shown in UI.
 
 #### Defined in
 
-[index.d.ts:8387](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8387)
+[index.d.ts:8442](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8442)
 
 ___
 
@@ -114,7 +114,7 @@ one of the editor view columns.
 
 #### Defined in
 
-[index.d.ts:8408](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8408)
+[index.d.ts:8463](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8463)
 
 ___
 
@@ -126,7 +126,7 @@ Identifies the type of the webview panel, such as `'markdown.preview'`.
 
 #### Defined in
 
-[index.d.ts:8382](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8382)
+[index.d.ts:8437](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8437)
 
 ___
 
@@ -138,7 +138,7 @@ Whether the panel is visible.
 
 #### Defined in
 
-[index.d.ts:8418](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8418)
+[index.d.ts:8473](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8473)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8397](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8397)
+[index.d.ts:8452](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8452)
 
 ## Methods
 
@@ -170,7 +170,7 @@ fire the `onDispose` event.
 
 #### Defined in
 
-[index.d.ts:8453](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8453)
+[index.d.ts:8508](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8508)
 
 ___
 
@@ -196,4 +196,4 @@ method moves it to a new column.
 
 #### Defined in
 
-[index.d.ts:8444](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8444)
+[index.d.ts:8499](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8499)

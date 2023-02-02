@@ -31,7 +31,7 @@ The document that will be saved.
 
 #### Defined in
 
-[index.d.ts:11523](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11523)
+[index.d.ts:11779](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11779)
 
 ___
 
@@ -43,7 +43,7 @@ The reason why save was triggered.
 
 #### Defined in
 
-[index.d.ts:11528](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11528)
+[index.d.ts:11784](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11784)
 
 ## Methods
 
@@ -80,7 +80,7 @@ workspace.onWillSaveTextDocument(event => {
 
 #### Defined in
 
-[index.d.ts:11550](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11550)
+[index.d.ts:11806](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11806)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -100,4 +100,4 @@ Allows to pause the event loop until the provided thenable resolved.
 
 #### Defined in
 
-[index.d.ts:11559](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11559)
+[index.d.ts:11815](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11815)

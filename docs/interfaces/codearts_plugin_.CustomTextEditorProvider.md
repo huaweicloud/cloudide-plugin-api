@@ -43,4 +43,4 @@ Thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8721](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8721)
+[index.d.ts:8776](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8776)

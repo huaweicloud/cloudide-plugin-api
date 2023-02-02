@@ -22,4 +22,4 @@ A human-readable string that is shown when multiple outlines trees show for one 
 
 #### Defined in
 
-[index.d.ts:3297](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3297)
+[index.d.ts:3297](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3297)

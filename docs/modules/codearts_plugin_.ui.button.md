@@ -4,6 +4,8 @@
 
 ["@codearts/plugin"](_codearts_plugin_.md).[ui](codearts_plugin_.ui.md).button
 
+Namespace for button.
+
 ## Table of contents
 
 ### Functions
@@ -14,18 +16,20 @@
 
 ### create
 
-▸ **create**(`options`): [`Button`](../interfaces/codearts_plugin_.ui.Button-1.md)
+▸ **create**(`options`): [`Thenable`](../interfaces/Thenable.md)<[`Button`](../interfaces/codearts_plugin_.ui.Button-1.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options` | [`ButtonOptions`](../interfaces/codearts_plugin_.ui.ButtonOptions.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [`ButtonOptions`](../interfaces/codearts_plugin_.ui.ButtonOptions.md) | Parameters required for creating a Button component. |
 
 #### Returns
 
-[`Button`](../interfaces/codearts_plugin_.ui.Button-1.md)
+[`Thenable`](../interfaces/Thenable.md)<[`Button`](../interfaces/codearts_plugin_.ui.Button-1.md)\>
+
+A promise that resolves to `Button` when the button component is created.
 
 #### Defined in
 
-[index.d.ts:16457](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16457)
+[index.d.ts:17295](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17295)
