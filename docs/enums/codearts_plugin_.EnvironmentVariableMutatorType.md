@@ -24,7 +24,7 @@ Append to the end of the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:10997](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10997)
+[index.d.ts:11168](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11168)
 
 ___
 
@@ -36,7 +36,7 @@ Prepend to the start of the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:11001](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11001)
+[index.d.ts:11172](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11172)
 
 ___
 
@@ -48,4 +48,4 @@ Replace the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:10993](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10993)
+[index.d.ts:11164](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11164)

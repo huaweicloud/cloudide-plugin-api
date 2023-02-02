@@ -23,7 +23,7 @@ In the editor area
 
 #### Defined in
 
-[index.d.ts:6495](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6495)
+[index.d.ts:6520](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6520)
 
 ___
 
@@ -35,4 +35,4 @@ In the terminal view
 
 #### Defined in
 
-[index.d.ts:6491](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6491)
+[index.d.ts:6516](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6516)

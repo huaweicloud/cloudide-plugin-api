@@ -34,7 +34,7 @@ At most one documentation entry will be shown per provider.
 
 #### Defined in
 
-[index.d.ts:2549](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2549)
+[index.d.ts:2549](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2549)
 
 ___
 
@@ -51,4 +51,4 @@ such as `[CodeActionKind.Refactor.Extract.append('function'), CodeActionKind.Ref
 
 #### Defined in
 
-[index.d.ts:2533](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2533)
+[index.d.ts:2533](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2533)

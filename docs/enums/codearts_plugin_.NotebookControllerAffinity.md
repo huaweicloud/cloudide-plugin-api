@@ -27,7 +27,7 @@ Default affinity.
 
 #### Defined in
 
-[index.d.ts:13650](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13650)
+[index.d.ts:13821](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13821)
 
 ___
 
@@ -39,4 +39,4 @@ A controller is preferred for a notebook.
 
 #### Defined in
 
-[index.d.ts:13654](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13654)
+[index.d.ts:13825](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13825)

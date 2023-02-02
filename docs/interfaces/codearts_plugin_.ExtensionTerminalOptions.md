@@ -29,7 +29,7 @@ recommended for the best contrast and consistency across themes.
 
 #### Defined in
 
-[index.d.ts:10780](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10780)
+[index.d.ts:10951](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10951)
 
 ___
 
@@ -41,7 +41,7 @@ The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the t
 
 #### Defined in
 
-[index.d.ts:10773](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10773)
+[index.d.ts:10944](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10944)
 
 ___
 
@@ -54,7 +54,7 @@ This will only take effect when `terminal.integrated.enablePersistentSessions` i
 
 #### Defined in
 
-[index.d.ts:10791](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10791)
+[index.d.ts:10962](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10962)
 
 ___
 
@@ -66,7 +66,7 @@ The [TerminalLocation](../enums/codearts_plugin_.TerminalLocation.md) or [Termin
 
 #### Defined in
 
-[index.d.ts:10785](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10785)
+[index.d.ts:10956](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10956)
 
 ___
 
@@ -78,7 +78,7 @@ A human-readable string which will be used to represent the terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:10762](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10762)
+[index.d.ts:10933](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10933)
 
 ___
 
@@ -91,4 +91,4 @@ control a terminal.
 
 #### Defined in
 
-[index.d.ts:10768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10768)
+[index.d.ts:10939](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10939)

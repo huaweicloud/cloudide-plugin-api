@@ -27,7 +27,7 @@ A directory.
 
 #### Defined in
 
-[index.d.ts:7784](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7784)
+[index.d.ts:7809](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7809)
 
 ___
 
@@ -39,7 +39,7 @@ A regular file.
 
 #### Defined in
 
-[index.d.ts:7780](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7780)
+[index.d.ts:7805](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7805)
 
 ___
 
@@ -51,7 +51,7 @@ A symbolic link to a file.
 
 #### Defined in
 
-[index.d.ts:7788](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7788)
+[index.d.ts:7813](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7813)
 
 ___
 
@@ -63,4 +63,4 @@ The file type is unknown.
 
 #### Defined in
 
-[index.d.ts:7776](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7776)
+[index.d.ts:7801](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7801)

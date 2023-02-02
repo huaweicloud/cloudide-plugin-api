@@ -35,7 +35,7 @@ called on it.
 
 #### Defined in
 
-[index.d.ts:8467](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8467)
+[index.d.ts:8492](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8492)
 
 ## Methods
 
@@ -55,4 +55,4 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1580)

@@ -27,7 +27,7 @@ If omitted the tools current workspace root is used.
 
 #### Defined in
 
-[index.d.ts:7344](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7344)
+[index.d.ts:7369](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7369)
 
 ___
 
@@ -45,7 +45,7 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:7351](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7351)
+[index.d.ts:7376](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7376)
 
 ___
 
@@ -57,7 +57,7 @@ The shell executable.
 
 #### Defined in
 
-[index.d.ts:7325](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7325)
+[index.d.ts:7350](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7350)
 
 ___
 
@@ -72,7 +72,7 @@ argument to execute a command, `PowerShell` requires `-Command` and `cmd` requir
 
 #### Defined in
 
-[index.d.ts:7333](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7333)
+[index.d.ts:7358](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7358)
 
 ___
 
@@ -84,4 +84,4 @@ The shell quotes supported by this shell.
 
 #### Defined in
 
-[index.d.ts:7338](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7338)
+[index.d.ts:7363](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7363)

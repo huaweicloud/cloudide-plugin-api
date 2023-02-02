@@ -22,4 +22,4 @@ An array of resources for which diagnostics have changed.
 
 #### Defined in
 
-[index.d.ts:5838](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5838)
+[index.d.ts:5858](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5858)

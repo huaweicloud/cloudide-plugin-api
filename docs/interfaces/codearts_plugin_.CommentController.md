@@ -34,7 +34,7 @@ If not provided, users can leave comments in any document opened in the editor.
 
 #### Defined in
 
-[index.d.ts:15225](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15225)
+[index.d.ts:15396](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15396)
 
 ___
 
@@ -46,7 +46,7 @@ The id of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15208](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15208)
+[index.d.ts:15379](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15379)
 
 ___
 
@@ -58,7 +58,7 @@ The human-readable label of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15213](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15213)
+[index.d.ts:15384](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15384)
 
 ___
 
@@ -70,7 +70,7 @@ Comment controller options
 
 #### Defined in
 
-[index.d.ts:15218](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15218)
+[index.d.ts:15389](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15389)
 
 ___
 
@@ -97,7 +97,7 @@ Optional reaction handler for creating and deleting reactions on a [Comment](cod
 
 #### Defined in
 
-[index.d.ts:15240](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15240)
+[index.d.ts:15411](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15411)
 
 ## Methods
 
@@ -122,7 +122,7 @@ and Comments Panel once created.
 
 #### Defined in
 
-[index.d.ts:15235](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15235)
+[index.d.ts:15406](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15406)
 
 ___
 
@@ -141,4 +141,4 @@ and Comments Panel.
 
 #### Defined in
 
-[index.d.ts:15248](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15248)
+[index.d.ts:15419](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15419)

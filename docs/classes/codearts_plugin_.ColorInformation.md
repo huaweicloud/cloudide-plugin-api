@@ -34,7 +34,7 @@ Creates a new color range.
 
 #### Defined in
 
-[index.d.ts:4768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4768)
+[index.d.ts:4788](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4788)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The actual color value for this color range.
 
 #### Defined in
 
-[index.d.ts:4760](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4760)
+[index.d.ts:4780](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4780)
 
 ___
 
@@ -58,4 +58,4 @@ The range in the document where this color appears.
 
 #### Defined in
 
-[index.d.ts:4755](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4755)
+[index.d.ts:4775](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4775)

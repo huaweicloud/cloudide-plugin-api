@@ -29,4 +29,4 @@ Creates a reference to a theme color.
 
 #### Defined in
 
-[index.d.ts:860](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L860)
+[index.d.ts:860](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L860)

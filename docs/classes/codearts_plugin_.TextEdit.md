@@ -43,7 +43,7 @@ Create a new TextEdit.
 
 #### Defined in
 
-[index.d.ts:3435](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3435)
+[index.d.ts:3435](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3435)
 
 ## Properties
 
@@ -58,7 +58,7 @@ whole document.
 
 #### Defined in
 
-[index.d.ts:3427](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3427)
+[index.d.ts:3427](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3427)
 
 ___
 
@@ -70,7 +70,7 @@ The string this edit will insert.
 
 #### Defined in
 
-[index.d.ts:3419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3419)
+[index.d.ts:3419](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3419)
 
 ___
 
@@ -82,7 +82,7 @@ The range this edit applies to.
 
 #### Defined in
 
-[index.d.ts:3414](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3414)
+[index.d.ts:3414](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3414)
 
 ## Methods
 
@@ -106,7 +106,7 @@ A new text edit object.
 
 #### Defined in
 
-[index.d.ts:3401](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3401)
+[index.d.ts:3401](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3401)
 
 ___
 
@@ -131,7 +131,7 @@ A new text edit object.
 
 #### Defined in
 
-[index.d.ts:3393](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3393)
+[index.d.ts:3393](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3393)
 
 ___
 
@@ -156,7 +156,7 @@ A new text edit object.
 
 #### Defined in
 
-[index.d.ts:3384](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3384)
+[index.d.ts:3384](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3384)
 
 ___
 
@@ -180,4 +180,4 @@ A new text edit object.
 
 #### Defined in
 
-[index.d.ts:3409](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3409)
+[index.d.ts:3409](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3409)

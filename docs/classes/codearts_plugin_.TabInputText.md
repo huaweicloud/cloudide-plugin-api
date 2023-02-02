@@ -32,7 +32,7 @@ Constructs a text tab input with the given URI.
 
 #### Defined in
 
-[index.d.ts:16125](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16125)
+[index.d.ts:16296](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16296)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The uri represented by the tab.
 
 #### Defined in
 
-[index.d.ts:16120](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16120)
+[index.d.ts:16291](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16291)

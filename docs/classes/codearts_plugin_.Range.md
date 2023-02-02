@@ -56,7 +56,7 @@ before or equal to `end`, the values will be swapped.
 
 #### Defined in
 
-[index.d.ts:397](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L397)
+[index.d.ts:397](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L397)
 
 • **new Range**(`startLine`, `startCharacter`, `endLine`, `endCharacter`)
 
@@ -74,7 +74,7 @@ using `new Range(new Position(startLine, startCharacter), new Position(endLine, 
 
 #### Defined in
 
-[index.d.ts:408](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L408)
+[index.d.ts:408](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L408)
 
 ## Properties
 
@@ -86,7 +86,7 @@ The end position. It is after or equal to [start](codearts_plugin_.Range.md#star
 
 #### Defined in
 
-[index.d.ts:388](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L388)
+[index.d.ts:388](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L388)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:413](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L413)
+[index.d.ts:413](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L413)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:418](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L418)
+[index.d.ts:418](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L418)
 
 ___
 
@@ -122,7 +122,7 @@ The start position. It is before or equal to [end](codearts_plugin_.Range.md#end
 
 #### Defined in
 
-[index.d.ts:383](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L383)
+[index.d.ts:383](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L383)
 
 ## Methods
 
@@ -147,7 +147,7 @@ to this range.
 
 #### Defined in
 
-[index.d.ts:427](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L427)
+[index.d.ts:427](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L427)
 
 ___
 
@@ -173,7 +173,7 @@ return undefined when there is no overlap.
 
 #### Defined in
 
-[index.d.ts:446](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L446)
+[index.d.ts:446](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L446)
 
 ___
 
@@ -198,7 +198,7 @@ start and end of this range.
 
 #### Defined in
 
-[index.d.ts:436](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L436)
+[index.d.ts:436](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L436)
 
 ___
 
@@ -222,7 +222,7 @@ A range of smaller start position and the greater end position.
 
 #### Defined in
 
-[index.d.ts:454](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L454)
+[index.d.ts:454](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L454)
 
 ___
 
@@ -248,7 +248,7 @@ If start and end are not different `this` range will be returned.
 
 #### Defined in
 
-[index.d.ts:464](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L464)
+[index.d.ts:464](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L464)
 
 ▸ **with**(`change`): [`Range`](codearts_plugin_.Range.md)
 
@@ -271,4 +271,4 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:473](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L473)
+[index.d.ts:473](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L473)

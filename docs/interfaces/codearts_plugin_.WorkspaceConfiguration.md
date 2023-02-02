@@ -107,7 +107,7 @@ The value `section` denotes or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5689](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5689)
+[index.d.ts:5709](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5709)
 
 ▸ **get**<`T`\>(`section`, `defaultValue`): `T`
 
@@ -134,7 +134,7 @@ The value `section` denotes or the default.
 
 #### Defined in
 
-[index.d.ts:5698](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5698)
+[index.d.ts:5718](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5718)
 
 ___
 
@@ -158,7 +158,7 @@ Check if this configuration has a certain value.
 
 #### Defined in
 
-[index.d.ts:5706](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5706)
+[index.d.ts:5726](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5726)
 
 ___
 
@@ -196,7 +196,7 @@ Information about a configuration setting or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5722](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5722)
+[index.d.ts:5742](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5742)
 
 ___
 
@@ -239,4 +239,4 @@ error while updating
 
 #### Defined in
 
-[index.d.ts:5768](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5768)
+[index.d.ts:5788](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5788)

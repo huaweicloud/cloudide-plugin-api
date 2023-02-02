@@ -26,7 +26,7 @@ A trigger kind is used when registering a `DebugConfigurationProvider` with [reg
 
 #### Defined in
 
-[index.d.ts:14780](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14780)
+[index.d.ts:14951](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14951)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:14776](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14776)
+[index.d.ts:14947](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14947)

@@ -26,7 +26,7 @@ are also counted as re-trigger characters.
 
 #### Defined in
 
-[index.d.ts:4175](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4175)
+[index.d.ts:4175](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4175)
 
 ___
 
@@ -38,4 +38,4 @@ List of characters that trigger signature help.
 
 #### Defined in
 
-[index.d.ts:4167](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4167)
+[index.d.ts:4167](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4167)

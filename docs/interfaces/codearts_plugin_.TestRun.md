@@ -35,7 +35,7 @@ Whether the test run will be persisted across reloads by the editor.
 
 #### Defined in
 
-[index.d.ts:15871](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15871)
+[index.d.ts:16042](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16042)
 
 ___
 
@@ -49,7 +49,7 @@ tests are run across multiple platforms, for example.
 
 #### Defined in
 
-[index.d.ts:15860](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15860)
+[index.d.ts:16031](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16031)
 
 ___
 
@@ -62,7 +62,7 @@ canceled from the UI.
 
 #### Defined in
 
-[index.d.ts:15866](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15866)
+[index.d.ts:16037](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16037)
 
 ## Methods
 
@@ -88,7 +88,7 @@ such as colors and text styles, are supported.
 
 #### Defined in
 
-[index.d.ts:15928](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15928)
+[index.d.ts:16099](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16099)
 
 ___
 
@@ -105,7 +105,7 @@ states have not been updated will have their state reset.
 
 #### Defined in
 
-[index.d.ts:15934](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15934)
+[index.d.ts:16105](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16105)
 
 ___
 
@@ -127,7 +127,7 @@ Indicates a test is queued for later execution.
 
 #### Defined in
 
-[index.d.ts:15877](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15877)
+[index.d.ts:16048](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16048)
 
 ___
 
@@ -154,7 +154,7 @@ executed at all, from a compilation error for example.
 
 #### Defined in
 
-[index.d.ts:15909](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15909)
+[index.d.ts:16080](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16080)
 
 ___
 
@@ -179,7 +179,7 @@ Indicates a test has failed. You should pass one or more
 
 #### Defined in
 
-[index.d.ts:15898](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15898)
+[index.d.ts:16069](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16069)
 
 ___
 
@@ -202,7 +202,7 @@ Indicates a test has passed.
 
 #### Defined in
 
-[index.d.ts:15916](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15916)
+[index.d.ts:16087](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16087)
 
 ___
 
@@ -224,7 +224,7 @@ Indicates a test has been skipped.
 
 #### Defined in
 
-[index.d.ts:15889](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15889)
+[index.d.ts:16060](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16060)
 
 ___
 
@@ -246,4 +246,4 @@ Indicates a test has started running.
 
 #### Defined in
 
-[index.d.ts:15883](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15883)
+[index.d.ts:16054](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16054)

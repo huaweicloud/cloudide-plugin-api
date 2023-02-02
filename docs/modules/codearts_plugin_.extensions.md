@@ -56,7 +56,7 @@ All extensions currently known to the system.
 
 #### Defined in
 
-[index.d.ts:14959](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14959)
+[index.d.ts:15130](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15130)
 
 ## Functions
 
@@ -86,7 +86,7 @@ An extension or `undefined`.
 
 #### Defined in
 
-[index.d.ts:14954](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14954)
+[index.d.ts:15125](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15125)
 
 ___
 
@@ -113,4 +113,4 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)

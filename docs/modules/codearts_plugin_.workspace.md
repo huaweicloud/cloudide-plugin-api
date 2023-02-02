@@ -81,7 +81,7 @@ file.
 
 #### Defined in
 
-[index.d.ts:11807](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11807)
+[index.d.ts:11978](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11978)
 
 ___
 
@@ -93,7 +93,7 @@ When true, the user has explicitly trusted the contents of the workspace.
 
 #### Defined in
 
-[index.d.ts:12421](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12421)
+[index.d.ts:12592](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12592)
 
 ___
 
@@ -109,7 +109,7 @@ the concept of workspaces.
 
 #### Defined in
 
-[index.d.ts:11836](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11836)
+[index.d.ts:12007](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12007)
 
 ___
 
@@ -121,7 +121,7 @@ All notebook documents currently known to the editor.
 
 #### Defined in
 
-[index.d.ts:12230](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12230)
+[index.d.ts:12401](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12401)
 
 ___
 
@@ -141,7 +141,7 @@ Use [`workspaceFolders`](codearts_plugin_.workspace.md#workspacefolders) instead
 
 #### Defined in
 
-[index.d.ts:11818](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11818)
+[index.d.ts:11989](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11989)
 
 ___
 
@@ -153,7 +153,7 @@ All text documents currently known to the editor.
 
 #### Defined in
 
-[index.d.ts:12121](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12121)
+[index.d.ts:12292](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12292)
 
 ___
 
@@ -194,7 +194,7 @@ well as an untitled or saved workspace.
 
 #### Defined in
 
-[index.d.ts:11870](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11870)
+[index.d.ts:12041](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12041)
 
 ___
 
@@ -210,7 +210,7 @@ on workspaces.
 
 #### Defined in
 
-[index.d.ts:11827](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11827)
+[index.d.ts:11998](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11998)
 
 ## Functions
 
@@ -244,7 +244,7 @@ A thenable that resolves when the edit could be applied.
 
 #### Defined in
 
-[index.d.ts:12116](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12116)
+[index.d.ts:12287](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12287)
 
 ___
 
@@ -272,7 +272,7 @@ A path relative to the root or the input.
 
 #### Defined in
 
-[index.d.ts:11904](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11904)
+[index.d.ts:12075](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12075)
 
 ___
 
@@ -411,7 +411,7 @@ A new file system watcher instance. Must be disposed when no longer needed.
 
 #### Defined in
 
-[index.d.ts:12070](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12070)
+[index.d.ts:12241](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12241)
 
 ___
 
@@ -445,7 +445,7 @@ A thenable that resolves to an array of resource identifiers. Will return no res
 
 #### Defined in
 
-[index.d.ts:12089](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12089)
+[index.d.ts:12260](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12260)
 
 ___
 
@@ -476,7 +476,7 @@ The full configuration or a subset.
 
 #### Defined in
 
-[index.d.ts:12379](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12379)
+[index.d.ts:12550](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12550)
 
 ___
 
@@ -502,7 +502,7 @@ A workspace folder or `undefined`
 
 #### Defined in
 
-[index.d.ts:11890](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11890)
+[index.d.ts:12061](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12061)
 
 ___
 
@@ -529,7 +529,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -556,7 +556,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -583,7 +583,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -610,7 +610,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -637,7 +637,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -664,7 +664,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -691,7 +691,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -718,7 +718,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -745,7 +745,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -772,7 +772,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -799,7 +799,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -826,7 +826,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -853,7 +853,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -880,7 +880,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -907,7 +907,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -934,7 +934,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -961,7 +961,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -988,7 +988,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -1019,7 +1019,7 @@ A promise that resolves to a [notebook](../interfaces/codearts_plugin_.NotebookD
 
 #### Defined in
 
-[index.d.ts:12245](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12245)
+[index.d.ts:12416](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12416)
 
 ▸ **openNotebookDocument**(`notebookType`, `content?`): [`Thenable`](../interfaces/Thenable.md)<[`NotebookDocument`](../interfaces/codearts_plugin_.NotebookDocument.md)\>
 
@@ -1045,7 +1045,7 @@ A promise that resolves to a [notebook](../interfaces/codearts_plugin_.NotebookD
 
 #### Defined in
 
-[index.d.ts:12256](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12256)
+[index.d.ts:12427](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12427)
 
 ___
 
@@ -1082,7 +1082,7 @@ A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocum
 
 #### Defined in
 
-[index.d.ts:12142](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12142)
+[index.d.ts:12313](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12313)
 
 ▸ **openTextDocument**(`fileName`): [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
@@ -1106,7 +1106,7 @@ A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocum
 
 #### Defined in
 
-[index.d.ts:12151](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12151)
+[index.d.ts:12322](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12322)
 
 ▸ **openTextDocument**(`options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextDocument`](../interfaces/codearts_plugin_.TextDocument.md)\>
 
@@ -1130,7 +1130,7 @@ A promise that resolves to a [document](../interfaces/codearts_plugin_.TextDocum
 
 #### Defined in
 
-[index.d.ts:12161](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12161)
+[index.d.ts:12332](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12332)
 
 ___
 
@@ -1161,7 +1161,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12416](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12416)
+[index.d.ts:12587](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12587)
 
 ___
 
@@ -1190,7 +1190,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12279](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12279)
+[index.d.ts:12450](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12450)
 
 ___
 
@@ -1219,7 +1219,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12403](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12403)
+[index.d.ts:12574](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12574)
 
 ___
 
@@ -1246,7 +1246,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12172](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12172)
+[index.d.ts:12343](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12343)
 
 ___
 
@@ -1271,7 +1271,7 @@ for any file that failed to save.
 
 #### Defined in
 
-[index.d.ts:12098](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12098)
+[index.d.ts:12269](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12269)
 
 ___
 
@@ -1295,7 +1295,7 @@ Update a configuration object.
 
 #### Defined in
 
-[index.d.ts:12387](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12387)
+[index.d.ts:12558](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12558)
 
 ___
 
@@ -1352,4 +1352,4 @@ in invalid workspace folder state (e.g. 2 folders with the same URI).
 
 #### Defined in
 
-[index.d.ts:11947](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11947)
+[index.d.ts:12118](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12118)

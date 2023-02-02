@@ -28,4 +28,4 @@ before writing the backup to this location.
 
 #### Defined in
 
-[index.d.ts:8829](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8829)
+[index.d.ts:8854](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8854)

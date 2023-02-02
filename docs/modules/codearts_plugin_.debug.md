@@ -41,7 +41,7 @@ If no debug session is active, output sent to the debug console is not shown.
 
 #### Defined in
 
-[index.d.ts:14799](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14799)
+[index.d.ts:14970](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14970)
 
 ___
 
@@ -55,7 +55,7 @@ If no debug session is active, the value is `undefined`.
 
 #### Defined in
 
-[index.d.ts:14793](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14793)
+[index.d.ts:14964](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14964)
 
 ___
 
@@ -67,7 +67,7 @@ List of breakpoints.
 
 #### Defined in
 
-[index.d.ts:14804](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14804)
+[index.d.ts:14975](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14975)
 
 ## Functions
 
@@ -89,7 +89,7 @@ Add breakpoints.
 
 #### Defined in
 
-[index.d.ts:14892](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14892)
+[index.d.ts:15063](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15063)
 
 ___
 
@@ -118,7 +118,7 @@ A uri that can be used to load the contents of the source.
 
 #### Defined in
 
-[index.d.ts:14911](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14911)
+[index.d.ts:15082](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15082)
 
 ___
 
@@ -145,7 +145,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -172,7 +172,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -199,7 +199,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -226,7 +226,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -253,7 +253,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -280,7 +280,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:14858](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14858)
+[index.d.ts:15029](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15029)
 
 ___
 
@@ -305,7 +305,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:14867](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14867)
+[index.d.ts:15038](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15038)
 
 ___
 
@@ -337,7 +337,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:14847](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14847)
+[index.d.ts:15018](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15018)
 
 ___
 
@@ -359,7 +359,7 @@ Remove breakpoints.
 
 #### Defined in
 
-[index.d.ts:14898](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14898)
+[index.d.ts:15069](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15069)
 
 ___
 
@@ -389,7 +389,7 @@ A thenable that resolves when debugging could be successfully started.
 
 #### Defined in
 
-[index.d.ts:14880](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14880)
+[index.d.ts:15051](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15051)
 
 ___
 
@@ -411,4 +411,4 @@ Stop the given debug session or stop all debug sessions if session is omitted.
 
 #### Defined in
 
-[index.d.ts:14886](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14886)
+[index.d.ts:15057](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15057)

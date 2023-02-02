@@ -45,7 +45,7 @@ to be applied to terminal environment variables.
 
 #### Defined in
 
-[index.d.ts:6878](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6878)
+[index.d.ts:6903](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6903)
 
 ___
 
@@ -57,7 +57,7 @@ The current `Extension` instance.
 
 #### Defined in
 
-[index.d.ts:6969](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6969)
+[index.d.ts:6994](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6994)
 
 ___
 
@@ -71,7 +71,7 @@ other extensions in the host run in `ExtensionMode.Release`.
 
 #### Defined in
 
-[index.d.ts:6964](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6964)
+[index.d.ts:6989](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6989)
 
 ___
 
@@ -84,7 +84,7 @@ notation for [ExtensionContext.extensionUri.fsPath](codearts_plugin_.TextDocumen
 
 #### Defined in
 
-[index.d.ts:6872](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6872)
+[index.d.ts:6897](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6897)
 
 ___
 
@@ -96,7 +96,7 @@ The uri of the directory containing the extension.
 
 #### Defined in
 
-[index.d.ts:6866](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6866)
+[index.d.ts:6891](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6891)
 
 ___
 
@@ -109,7 +109,7 @@ of the current opened [workspace](../modules/codearts_plugin_.workspace.md#works
 
 #### Defined in
 
-[index.d.ts:6840](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6840)
+[index.d.ts:6865](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6865)
 
 ___
 
@@ -129,7 +129,7 @@ Use [globalStorageUri](codearts_plugin_.ExtensionContext.md#globalstorageuri) in
 
 #### Defined in
 
-[index.d.ts:6938](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6938)
+[index.d.ts:6963](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6963)
 
 ___
 
@@ -150,7 +150,7 @@ Use [`globalState`](codearts_plugin_.ExtensionContext.md#globalstate) to store k
 
 #### Defined in
 
-[index.d.ts:6927](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6927)
+[index.d.ts:6952](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6952)
 
 ___
 
@@ -168,7 +168,7 @@ Use [logUri](codearts_plugin_.ExtensionContext.md#loguri) instead.
 
 #### Defined in
 
-[index.d.ts:6957](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6957)
+[index.d.ts:6982](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6982)
 
 ___
 
@@ -187,7 +187,7 @@ the parent directory is guaranteed to be existent.
 
 #### Defined in
 
-[index.d.ts:6948](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6948)
+[index.d.ts:6973](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6973)
 
 ___
 
@@ -200,7 +200,7 @@ current opened [workspace](../modules/codearts_plugin_.workspace.md#workspacefol
 
 #### Defined in
 
-[index.d.ts:6861](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6861)
+[index.d.ts:6886](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6886)
 
 ___
 
@@ -221,7 +221,7 @@ Use [storageUri](codearts_plugin_.ExtensionContext.md#storageuri) instead.
 
 #### Defined in
 
-[index.d.ts:6915](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6915)
+[index.d.ts:6940](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6940)
 
 ___
 
@@ -244,7 +244,7 @@ Use [`workspaceState`](codearts_plugin_.ExtensionContext.md#workspacestate) or
 
 #### Defined in
 
-[index.d.ts:6903](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6903)
+[index.d.ts:6928](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6928)
 
 ___
 
@@ -259,7 +259,7 @@ extension is deactivated the disposables will be disposed.
 
 #### Defined in
 
-[index.d.ts:6828](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6828)
+[index.d.ts:6853](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6853)
 
 ___
 
@@ -272,7 +272,7 @@ of the currently opened [workspace](../modules/codearts_plugin_.workspace.md#wor
 
 #### Defined in
 
-[index.d.ts:6834](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6834)
+[index.d.ts:6859](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6859)
 
 ## Methods
 
@@ -299,4 +299,4 @@ The absolute path of the resource.
 
 #### Defined in
 
-[index.d.ts:6889](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6889)
+[index.d.ts:6914](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6914)

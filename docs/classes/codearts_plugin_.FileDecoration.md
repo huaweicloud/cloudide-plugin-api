@@ -37,7 +37,7 @@ Creates a new decoration.
 
 #### Defined in
 
-[index.d.ts:6683](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6683)
+[index.d.ts:6708](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6708)
 
 ## Properties
 
@@ -49,7 +49,7 @@ A very short string that represents this decoration.
 
 #### Defined in
 
-[index.d.ts:6658](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6658)
+[index.d.ts:6683](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6683)
 
 ___
 
@@ -61,7 +61,7 @@ The color of this decoration.
 
 #### Defined in
 
-[index.d.ts:6668](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6668)
+[index.d.ts:6693](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6693)
 
 ___
 
@@ -74,7 +74,7 @@ propagated to its parents.
 
 #### Defined in
 
-[index.d.ts:6674](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6674)
+[index.d.ts:6699](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6699)
 
 ___
 
@@ -86,4 +86,4 @@ A human-readable tooltip for this decoration.
 
 #### Defined in
 
-[index.d.ts:6663](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6663)
+[index.d.ts:6688](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6688)

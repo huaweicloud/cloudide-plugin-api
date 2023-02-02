@@ -34,7 +34,7 @@ Creates a new TestTag instance.
 
 #### Defined in
 
-[index.d.ts:15618](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15618)
+[index.d.ts:15789](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15789)
 
 ## Properties
 
@@ -47,4 +47,4 @@ to be identical.
 
 #### Defined in
 
-[index.d.ts:15612](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15612)
+[index.d.ts:15783](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15783)

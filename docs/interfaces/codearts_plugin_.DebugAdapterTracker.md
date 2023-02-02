@@ -37,7 +37,7 @@ The debug adapter has sent a Debug Adapter Protocol message to the editor.
 
 #### Defined in
 
-[index.d.ts:14587](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14587)
+[index.d.ts:14758](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14758)
 
 ___
 
@@ -59,7 +59,7 @@ An error with the debug adapter has occurred.
 
 #### Defined in
 
-[index.d.ts:14595](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14595)
+[index.d.ts:14766](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14766)
 
 ___
 
@@ -82,7 +82,7 @@ The debug adapter has exited with the given exit code or signal.
 
 #### Defined in
 
-[index.d.ts:14599](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14599)
+[index.d.ts:14770](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14770)
 
 ___
 
@@ -104,7 +104,7 @@ The debug adapter is about to receive a Debug Adapter Protocol message from the 
 
 #### Defined in
 
-[index.d.ts:14583](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14583)
+[index.d.ts:14754](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14754)
 
 ___
 
@@ -120,7 +120,7 @@ A session with the debug adapter is about to be started.
 
 #### Defined in
 
-[index.d.ts:14579](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14579)
+[index.d.ts:14750](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14750)
 
 ___
 
@@ -136,4 +136,4 @@ The debug adapter session is about to be stopped.
 
 #### Defined in
 
-[index.d.ts:14591](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14591)
+[index.d.ts:14762](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14762)

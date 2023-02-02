@@ -96,7 +96,7 @@ A new diagnostic collection.
 
 #### Defined in
 
-[index.d.ts:12576](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12576)
+[index.d.ts:12747](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12747)
 
 ___
 
@@ -119,7 +119,7 @@ Creates a new [language status item](../interfaces/codearts_plugin_.LanguageStat
 
 #### Defined in
 
-[index.d.ts:12584](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12584)
+[index.d.ts:12755](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12755)
 
 ___
 
@@ -143,7 +143,7 @@ An array of [diagnostics](../classes/codearts_plugin_.Diagnostic.md) objects or 
 
 #### Defined in
 
-[index.d.ts:12561](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12561)
+[index.d.ts:12732](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12732)
 
 ▸ **getDiagnostics**(): [[`Uri`](../classes/codearts_plugin_.Uri.md), [`Diagnostic`](../classes/codearts_plugin_.Diagnostic.md)[]][]
 
@@ -157,7 +157,7 @@ An array of uri-diagnostics tuples or an empty array.
 
 #### Defined in
 
-[index.d.ts:12568](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12568)
+[index.d.ts:12739](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12739)
 
 ___
 
@@ -175,7 +175,7 @@ Promise resolving to an array of identifier strings.
 
 #### Defined in
 
-[index.d.ts:12487](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12487)
+[index.d.ts:12658](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12658)
 
 ___
 
@@ -238,7 +238,7 @@ A number `>0` when the selector matches and `0` when the selector does not match
 
 #### Defined in
 
-[index.d.ts:12547](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12547)
+[index.d.ts:12718](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12718)
 
 ___
 
@@ -265,7 +265,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -290,7 +290,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12973](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12973)
+[index.d.ts:13144](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13144)
 
 ___
 
@@ -320,7 +320,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12632](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12632)
+[index.d.ts:12803](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12803)
 
 ___
 
@@ -349,7 +349,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12645](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12645)
+[index.d.ts:12816](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12816)
 
 ___
 
@@ -378,7 +378,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12921](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12921)
+[index.d.ts:13092](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13092)
 
 ___
 
@@ -415,7 +415,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12605](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12605)
+[index.d.ts:12776](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12776)
 
 ___
 
@@ -444,7 +444,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12697](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12697)
+[index.d.ts:12868](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12868)
 
 ___
 
@@ -473,7 +473,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12658](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12658)
+[index.d.ts:12829](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12829)
 
 ___
 
@@ -502,7 +502,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12847](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12847)
+[index.d.ts:13018](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13018)
 
 ___
 
@@ -531,7 +531,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12750](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12750)
+[index.d.ts:12921](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12921)
 
 ___
 
@@ -560,7 +560,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12908](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12908)
+[index.d.ts:13079](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13079)
 
 ___
 
@@ -593,7 +593,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12864](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12864)
+[index.d.ts:13035](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13035)
 
 ___
 
@@ -629,7 +629,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12834](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12834)
+[index.d.ts:13005](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13005)
 
 ___
 
@@ -659,7 +659,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12815](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12815)
+[index.d.ts:12986](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12986)
 
 ___
 
@@ -689,7 +689,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12764](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12764)
+[index.d.ts:12935](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12935)
 
 ___
 
@@ -717,7 +717,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12722](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12722)
+[index.d.ts:12893](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12893)
 
 ___
 
@@ -750,7 +750,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12951](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12951)
+[index.d.ts:13122](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13122)
 
 ___
 
@@ -779,7 +779,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12710](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12710)
+[index.d.ts:12881](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12881)
 
 ___
 
@@ -808,7 +808,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12671](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12671)
+[index.d.ts:12842](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12842)
 
 ___
 
@@ -837,7 +837,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12934](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12934)
+[index.d.ts:13105](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13105)
 
 ___
 
@@ -866,7 +866,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12618](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12618)
+[index.d.ts:12789](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12789)
 
 ___
 
@@ -897,7 +897,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12737](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12737)
+[index.d.ts:12908](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12908)
 
 ___
 
@@ -926,7 +926,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12995](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12995)
+[index.d.ts:13166](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13166)
 
 ___
 
@@ -957,7 +957,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12879](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12879)
+[index.d.ts:13050](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13050)
 
 ___
 
@@ -986,7 +986,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12789](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12789)
+[index.d.ts:12960](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12960)
 
 ___
 
@@ -1015,7 +1015,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12802](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12802)
+[index.d.ts:12973](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12973)
 
 ___
 
@@ -1044,7 +1044,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12964](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12964)
+[index.d.ts:13135](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13135)
 
 ___
 
@@ -1074,7 +1074,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12894](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12894)
+[index.d.ts:13065](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13065)
 
 ▸ **registerSignatureHelpProvider**(`selector`, `provider`, `metadata`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1092,7 +1092,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12895](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12895)
+[index.d.ts:13066](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13066)
 
 ___
 
@@ -1121,7 +1121,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12684](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12684)
+[index.d.ts:12855](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12855)
 
 ___
 
@@ -1146,7 +1146,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12982](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12982)
+[index.d.ts:13153](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13153)
 
 ___
 
@@ -1174,7 +1174,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:12776](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12776)
+[index.d.ts:12947](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12947)
 
 ___
 
@@ -1199,7 +1199,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unsets this confi
 
 #### Defined in
 
-[index.d.ts:13004](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13004)
+[index.d.ts:13175](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13175)
 
 ___
 
@@ -1228,4 +1228,4 @@ A thenable that resolves with the updated document.
 
 #### Defined in
 
-[index.d.ts:12500](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L12500)
+[index.d.ts:12671](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L12671)

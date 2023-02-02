@@ -29,7 +29,7 @@ Fires when a secret is stored or deleted.
 
 #### Defined in
 
-[index.d.ts:7054](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7054)
+[index.d.ts:7079](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7079)
 
 ## Methods
 
@@ -51,7 +51,7 @@ Remove a secret from storage.
 
 #### Defined in
 
-[index.d.ts:7049](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7049)
+[index.d.ts:7074](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7074)
 
 ___
 
@@ -76,7 +76,7 @@ The stored value or `undefined`.
 
 #### Defined in
 
-[index.d.ts:7036](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7036)
+[index.d.ts:7061](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7061)
 
 ___
 
@@ -99,4 +99,4 @@ Store a secret under a given key.
 
 #### Defined in
 
-[index.d.ts:7043](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7043)
+[index.d.ts:7068](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7068)

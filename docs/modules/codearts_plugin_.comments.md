@@ -33,4 +33,4 @@ An instance of [comment controller](../interfaces/codearts_plugin_.CommentContro
 
 #### Defined in
 
-[index.d.ts:15259](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15259)
+[index.d.ts:15430](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15430)

@@ -25,7 +25,7 @@ Something not allowed by the rules of a language or other means.
 
 #### Defined in
 
-[index.d.ts:5849](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5849)
+[index.d.ts:5869](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5869)
 
 ___
 
@@ -38,7 +38,7 @@ a refactoring.
 
 #### Defined in
 
-[index.d.ts:5865](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5865)
+[index.d.ts:5885](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5885)
 
 ___
 
@@ -50,7 +50,7 @@ Something to inform about but not a problem.
 
 #### Defined in
 
-[index.d.ts:5859](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5859)
+[index.d.ts:5879](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5879)
 
 ___
 
@@ -62,4 +62,4 @@ Something suspicious but allowed.
 
 #### Defined in
 
-[index.d.ts:5854](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5854)
+[index.d.ts:5874](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5874)

@@ -38,7 +38,7 @@ Represents an edit to semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3789](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3789)
+[index.d.ts:3789](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3789)
 
 ## Properties
 
@@ -50,7 +50,7 @@ The elements to insert.
 
 #### Defined in
 
-[index.d.ts:3787](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3787)
+[index.d.ts:3787](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3787)
 
 ___
 
@@ -62,7 +62,7 @@ The count of elements to remove.
 
 #### Defined in
 
-[index.d.ts:3783](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3783)
+[index.d.ts:3783](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3783)
 
 ___
 
@@ -74,4 +74,4 @@ The start offset of the edit.
 
 #### Defined in
 
-[index.d.ts:3779](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3779)
+[index.d.ts:3779](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3779)

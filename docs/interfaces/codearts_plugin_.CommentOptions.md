@@ -23,7 +23,7 @@ An optional string to show as placeholder in the comment input box when it's foc
 
 #### Defined in
 
-[index.d.ts:15197](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15197)
+[index.d.ts:15368](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15368)
 
 ___
 
@@ -35,4 +35,4 @@ An optional string to show on the comment input box when it's collapsed.
 
 #### Defined in
 
-[index.d.ts:15192](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15192)
+[index.d.ts:15363](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15363)

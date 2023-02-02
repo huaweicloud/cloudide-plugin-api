@@ -16,6 +16,7 @@ asking for user input.
 - [activeNotebookEditor](codearts_plugin_.window.md#activenotebookeditor)
 - [activeTerminal](codearts_plugin_.window.md#activeterminal)
 - [activeTextEditor](codearts_plugin_.window.md#activetexteditor)
+- [selectedResources](codearts_plugin_.window.md#selectedresources)
 - [state](codearts_plugin_.window.md#state)
 - [tabGroups](codearts_plugin_.window.md#tabgroups)
 - [terminals](codearts_plugin_.window.md#terminals)
@@ -35,6 +36,7 @@ asking for user input.
 - [createTreeView](codearts_plugin_.window.md#createtreeview)
 - [createWebviewPanel](codearts_plugin_.window.md#createwebviewpanel)
 - [createWebviewViewDialog](codearts_plugin_.window.md#createwebviewviewdialog)
+- [getTerminalById](codearts_plugin_.window.md#getterminalbyid)
 - [onDidChangeActiveColorTheme](codearts_plugin_.window.md#ondidchangeactivecolortheme)
 - [onDidChangeActiveNotebookEditor](codearts_plugin_.window.md#ondidchangeactivenotebookeditor)
 - [onDidChangeActiveTerminal](codearts_plugin_.window.md#ondidchangeactiveterminal)
@@ -57,13 +59,16 @@ asking for user input.
 - [registerMainMenu](codearts_plugin_.window.md#registermainmenu)
 - [registerMenu](codearts_plugin_.window.md#registermenu)
 - [registerMenuId](codearts_plugin_.window.md#registermenuid)
+- [registerProjectWizardProvider](codearts_plugin_.window.md#registerprojectwizardprovider)
 - [registerTerminalLinkProvider](codearts_plugin_.window.md#registerterminallinkprovider)
 - [registerTerminalProfileProvider](codearts_plugin_.window.md#registerterminalprofileprovider)
 - [registerTreeDataProvider](codearts_plugin_.window.md#registertreedataprovider)
 - [registerUriHandler](codearts_plugin_.window.md#registerurihandler)
+- [registerViewTitleActions](codearts_plugin_.window.md#registerviewtitleactions)
 - [registerWebviewPanelSerializer](codearts_plugin_.window.md#registerwebviewpanelserializer)
 - [registerWebviewViewProvider](codearts_plugin_.window.md#registerwebviewviewprovider)
 - [setStatusBarMessage](codearts_plugin_.window.md#setstatusbarmessage)
+- [showCodeTip](codearts_plugin_.window.md#showcodetip)
 - [showErrorMessage](codearts_plugin_.window.md#showerrormessage)
 - [showInformationMessage](codearts_plugin_.window.md#showinformationmessage)
 - [showInputBox](codearts_plugin_.window.md#showinputbox)
@@ -90,7 +95,7 @@ theme can be changed via the `workbench.colorTheme` setting.
 
 #### Defined in
 
-[index.d.ts:10156](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10156)
+[index.d.ts:10274](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10274)
 
 ___
 
@@ -104,7 +109,7 @@ input most recently.
 
 #### Defined in
 
-[index.d.ts:9476](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9476)
+[index.d.ts:9577](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9577)
 
 ___
 
@@ -117,7 +122,7 @@ currently has focus or most recently had focus.
 
 #### Defined in
 
-[index.d.ts:9506](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9506)
+[index.d.ts:9607](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9607)
 
 ___
 
@@ -131,7 +136,19 @@ input most recently.
 
 #### Defined in
 
-[index.d.ts:9420](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9420)
+[index.d.ts:9521](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9521)
+
+___
+
+### selectedResources
+
+• `Const` **selectedResources**: [`Uri`](../classes/codearts_plugin_.Uri.md)[]
+
+An array of resource uri which are selected in explorer.
+
+#### Defined in
+
+[index.d.ts:10342](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10342)
 
 ___
 
@@ -143,7 +160,7 @@ Represents the current window's state.
 
 #### Defined in
 
-[index.d.ts:9539](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9539)
+[index.d.ts:9640](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9640)
 
 ___
 
@@ -155,7 +172,7 @@ Represents the grid widget within the main editor area
 
 #### Defined in
 
-[index.d.ts:9413](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9413)
+[index.d.ts:9514](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9514)
 
 ___
 
@@ -167,7 +184,7 @@ The currently opened terminals or an empty array.
 
 #### Defined in
 
-[index.d.ts:9500](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9500)
+[index.d.ts:9601](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9601)
 
 ___
 
@@ -179,7 +196,7 @@ The currently visible [notebook editors](../interfaces/codearts_plugin_.Notebook
 
 #### Defined in
 
-[index.d.ts:9463](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9463)
+[index.d.ts:9564](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9564)
 
 ___
 
@@ -191,7 +208,7 @@ The currently visible editors or an empty array.
 
 #### Defined in
 
-[index.d.ts:9425](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9425)
+[index.d.ts:9526](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9526)
 
 ## Functions
 
@@ -220,7 +237,7 @@ Please use `createLightWebviewPanel`.
 
 #### Defined in
 
-[index.d.ts:9878](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9878)
+[index.d.ts:9979](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9979)
 
 ___
 
@@ -242,7 +259,7 @@ A new [InputBox](../interfaces/codearts_plugin_.InputBox.md).
 
 #### Defined in
 
-[index.d.ts:9836](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9836)
+[index.d.ts:9937](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9937)
 
 ___
 
@@ -269,7 +286,7 @@ New webview panel.
 
 #### Defined in
 
-[index.d.ts:9872](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9872)
+[index.d.ts:9973](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9973)
 
 ___
 
@@ -296,7 +313,7 @@ and use the language id to contribute language features like syntax coloring, co
 
 #### Defined in
 
-[index.d.ts:9848](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9848)
+[index.d.ts:9949](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9949)
 
 ___
 
@@ -325,7 +342,7 @@ A new [QuickPick](../interfaces/codearts_plugin_.QuickPick.md).
 
 #### Defined in
 
-[index.d.ts:9825](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9825)
+[index.d.ts:9926](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9926)
 
 ___
 
@@ -350,7 +367,7 @@ A new status bar item.
 
 #### Defined in
 
-[index.d.ts:9952](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9952)
+[index.d.ts:10053](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10053)
 
 ▸ **createStatusBarItem**(`id`, `alignment?`, `priority?`): [`StatusBarItem`](../interfaces/codearts_plugin_.StatusBarItem.md)
 
@@ -372,7 +389,7 @@ A new status bar item.
 
 #### Defined in
 
-[index.d.ts:9962](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9962)
+[index.d.ts:10063](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10063)
 
 ___
 
@@ -403,7 +420,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:9976](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9976)
+[index.d.ts:10077](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10077)
 
 ▸ **createTerminal**(`options`): [`Terminal`](../interfaces/codearts_plugin_.Terminal.md)
 
@@ -427,7 +444,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:9985](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9985)
+[index.d.ts:10086](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10086)
 
 ▸ **createTerminal**(`options`): [`Terminal`](../interfaces/codearts_plugin_.Terminal.md)
 
@@ -447,7 +464,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:9994](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9994)
+[index.d.ts:10095](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10095)
 
 ___
 
@@ -471,7 +488,7 @@ A new decoration type instance.
 
 #### Defined in
 
-[index.d.ts:9597](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9597)
+[index.d.ts:9698](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9698)
 
 ___
 
@@ -502,7 +519,7 @@ a [TreeView](../interfaces/codearts_plugin_.TreeView.md).
 
 #### Defined in
 
-[index.d.ts:10013](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10013)
+[index.d.ts:10122](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10122)
 
 ___
 
@@ -529,7 +546,7 @@ New webview panel.
 
 #### Defined in
 
-[index.d.ts:9860](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9860)
+[index.d.ts:9961](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9961)
 
 ___
 
@@ -554,7 +571,31 @@ Disposable that unregister the provider.
 
 #### Defined in
 
-[index.d.ts:10092](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10092)
+[index.d.ts:10210](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10210)
+
+___
+
+### getTerminalById
+
+▸ **getTerminalById**(`id`): [`Terminal`](../interfaces/codearts_plugin_.Terminal.md) \| `undefined`
+
+Get terminal by it's unique id.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | The unique id for terminal |
+
+#### Returns
+
+[`Terminal`](../interfaces/codearts_plugin_.Terminal.md) \| `undefined`
+
+Terminal or undefined.
+
+#### Defined in
+
+[index.d.ts:10103](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10103)
 
 ___
 
@@ -581,7 +622,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -608,7 +649,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -635,7 +676,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -662,7 +703,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -689,7 +730,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -716,7 +757,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -743,7 +784,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -770,7 +811,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -797,7 +838,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -824,7 +865,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -851,7 +892,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -878,7 +919,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -905,7 +946,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -932,7 +973,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -959,7 +1000,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -986,7 +1027,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -1013,7 +1054,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -1045,7 +1086,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10108](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10108)
+[index.d.ts:10226](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10226)
 
 ___
 
@@ -1069,7 +1110,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters the p
 
 #### Defined in
 
-[index.d.ts:10150](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10150)
+[index.d.ts:10268](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10268)
 
 ___
 
@@ -1078,6 +1119,10 @@ ___
 ▸ **registerMainMenu**(`item`, `side?`): `void`
 
 Register a top level menu on titlepart area.
+
+**`Deprecated`**
+
+Recommend to use registerMenu.
 
 #### Parameters
 
@@ -1092,21 +1137,33 @@ Register a top level menu on titlepart area.
 
 #### Defined in
 
-[index.d.ts:10168](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10168)
+[index.d.ts:10287](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10287)
 
 ___
 
 ### registerMenu
 
-▸ **registerMenu**(`key`, `item`): `void`
+▸ **registerMenu**(`id`, `item`): `void`
 
-Register menu or submenu on custom menu id.
+Register menu or submenu using menu id.
+
+*Note* that if the menuId is not registered before, it will be registered automatically.
+Make sure a menuId is already registered before using it.
+
+**Example:** Register a submenu 'Hello' in 'File' menu, and menu 'Command Palette' under 'Hello'.
+```typescript
+// Register a menu 'Command Palette' under submenu 'Hello', the menuId 'HelloMenuId' will be registered automatically
+vscode.window.registerMenu('HelloMenuId', { command: { id: 'workbench.action.showCommands', title: 'Command Palette'} });
+
+// Register the submenu 'Hello' in 'File' menu for which the menuId is 'MenubarFileMenu'
+vscode.window.registerMenu('MenubarFileMenu', { submenu: 'HelloMenuId', title: 'Hello' });
+```
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` | Custom menu id. |
+| `id` | `string` | Menu id. |
 | `item` | [`MenuItem`](../interfaces/codearts_plugin_.MenuItem.md) \| [`SubmenuItem`](../interfaces/codearts_plugin_.SubmenuItem.md) | The actual menu or submenu. |
 
 #### Returns
@@ -1115,21 +1172,25 @@ Register menu or submenu on custom menu id.
 
 #### Defined in
 
-[index.d.ts:10175](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10175)
+[index.d.ts:10307](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10307)
 
 ___
 
 ### registerMenuId
 
-▸ **registerMenuId**(`key`): `void`
+▸ **registerMenuId**(`id`): `void`
 
 Register a custom menu id. Must call it before registerMenu
+
+**`Deprecated`**
+
+Recommend to use registerMenu. Now registerMenu will register id automatically.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` | custom menu id. |
+| `id` | `string` | custom menu id. |
 
 #### Returns
 
@@ -1137,7 +1198,34 @@ Register a custom menu id. Must call it before registerMenu
 
 #### Defined in
 
-[index.d.ts:10181](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10181)
+[index.d.ts:10314](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10314)
+
+___
+
+### registerProjectWizardProvider
+
+▸ **registerProjectWizardProvider**(`id`, `label`, `provider`, `options?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Register a provider for project wizard with webview view.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | Unique id of the project wizard. |
+| `label` | `string` | Label of the project wizard, like 'java', 'c++'. |
+| `provider` | [`WebviewViewProvider`](../interfaces/codearts_plugin_.WebviewViewProvider.md) | Webview view provider. |
+| `options?` | [`ProjectWizardOptions`](../interfaces/codearts_plugin_.ProjectWizardOptions.md) | [ProjectWizardOptions](../interfaces/codearts_plugin_.ProjectWizardOptions.md) Options of the project wizard. |
+
+#### Returns
+
+[`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Disposable that unregisters the provider.
+
+#### Defined in
+
+[index.d.ts:10203](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10203)
 
 ___
 
@@ -1161,7 +1249,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10136](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10136)
+[index.d.ts:10254](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10254)
 
 ___
 
@@ -1184,7 +1272,7 @@ Registers a provider for a contributed terminal profile.
 
 #### Defined in
 
-[index.d.ts:10143](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10143)
+[index.d.ts:10261](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10261)
 
 ___
 
@@ -1216,7 +1304,7 @@ This will allow you to contribute data to the [TreeView](../interfaces/codearts_
 
 #### Defined in
 
-[index.d.ts:10005](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10005)
+[index.d.ts:10114](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10114)
 
 ___
 
@@ -1254,7 +1342,32 @@ the current extension is about to be handled.
 
 #### Defined in
 
-[index.d.ts:10036](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10036)
+[index.d.ts:10145](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10145)
+
+___
+
+### registerViewTitleActions
+
+▸ **registerViewTitleActions**(`location`, `actionViewItems`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Register actions to specific view using location which support view, viewContainer or editor
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `location` | [`ViewLocation`](_codearts_plugin_.md#viewlocation) | Location where Actions are registered. |
+| `actionViewItems` | [`ActionViewItem`](../interfaces/codearts_plugin_.ui.ActionViewItem-1.md) \| [`ActionViewItem`](../interfaces/codearts_plugin_.ui.ActionViewItem-1.md)[] | Components to be registered. |
+
+#### Returns
+
+[`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Disposable which unregisters this command on disposal.
+
+#### Defined in
+
+[index.d.ts:9509](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9509)
 
 ___
 
@@ -1282,7 +1395,7 @@ Only a single serializer may be registered at a time for a given `viewType`.
 
 #### Defined in
 
-[index.d.ts:10049](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10049)
+[index.d.ts:10158](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10158)
 
 ___
 
@@ -1310,7 +1423,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10060](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10060)
+[index.d.ts:10169](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10169)
 
 ___
 
@@ -1336,7 +1449,7 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:9888](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9888)
+[index.d.ts:9989](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9989)
 
 ▸ **setStatusBarMessage**(`text`, `hideWhenDone`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1358,7 +1471,7 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:9898](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9898)
+[index.d.ts:9999](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9999)
 
 ▸ **setStatusBarMessage**(`text`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1382,7 +1495,31 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:9910](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9910)
+[index.d.ts:10011](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10011)
+
+___
+
+### showCodeTip
+
+▸ **showCodeTip**(`message`, `position`, `options?`): `void`
+
+Show simple code message tip in the active editor
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `message` | `string` |  |
+| `position` | [`Position`](../classes/codearts_plugin_.Position.md) | Editor position. If the input line number or character number exceeds the maximum, the tip will display at the end of the code area. If the number is less than 0, it will be set to 0. |
+| `options?` | [`CodeTipOptions`](../interfaces/codearts_plugin_.CodeTipOptions.md) | [CodeTipOptions](../interfaces/codearts_plugin_.CodeTipOptions.md) to configure the behavior of showing the code tip |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:10337](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10337)
 
 ___
 
@@ -1417,7 +1554,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9698](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9698)
+[index.d.ts:9799](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9799)
 
 ▸ **showErrorMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1449,7 +1586,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9710](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9710)
+[index.d.ts:9811](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9811)
 
 ▸ **showErrorMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1480,7 +1617,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9721](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9721)
+[index.d.ts:9822](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9822)
 
 ▸ **showErrorMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1512,7 +1649,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9733](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9733)
+[index.d.ts:9834](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9834)
 
 ___
 
@@ -1544,7 +1681,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9607](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9607)
+[index.d.ts:9708](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9708)
 
 ▸ **showInformationMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1573,7 +1710,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9618](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9618)
+[index.d.ts:9719](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9719)
 
 ▸ **showInformationMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1604,7 +1741,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9629](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9629)
+[index.d.ts:9730](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9730)
 
 ▸ **showInformationMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1636,7 +1773,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9641](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9641)
+[index.d.ts:9742](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9742)
 
 ___
 
@@ -1665,7 +1802,7 @@ A promise that resolves to a string the user provided or to `undefined` in case 
 
 #### Defined in
 
-[index.d.ts:9813](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9813)
+[index.d.ts:9914](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9914)
 
 ___
 
@@ -1690,7 +1827,7 @@ A promise that resolves to an [notebook editor](../interfaces/codearts_plugin_.N
 
 #### Defined in
 
-[index.d.ts:9589](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9589)
+[index.d.ts:9690](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9690)
 
 ___
 
@@ -1715,7 +1852,7 @@ A promise that resolves to the selected resources or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9791](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9791)
+[index.d.ts:9892](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9892)
 
 ___
 
@@ -1741,7 +1878,7 @@ A promise that resolves to the selected items or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9743](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9743)
+[index.d.ts:9844](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9844)
 
 ▸ **showQuickPick**(`items`, `options?`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`string` \| `undefined`\>
 
@@ -1763,7 +1900,7 @@ A promise that resolves to the selection or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9753](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9753)
+[index.d.ts:9854](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9854)
 
 ▸ **showQuickPick**<`T`\>(`items`, `options`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`T`[] \| `undefined`\>
 
@@ -1791,7 +1928,7 @@ A promise that resolves to the selected items or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9763](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9763)
+[index.d.ts:9864](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9864)
 
 ▸ **showQuickPick**<`T`\>(`items`, `options?`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1819,7 +1956,7 @@ A promise that resolves to the selected item or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9773](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9773)
+[index.d.ts:9874](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9874)
 
 ___
 
@@ -1844,7 +1981,7 @@ A promise that resolves to the selected resource or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9800](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9800)
+[index.d.ts:9901](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9901)
 
 ___
 
@@ -1871,7 +2008,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9558](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9558)
+[index.d.ts:9659](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9659)
 
 ▸ **showTextDocument**(`document`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextEditor`](../interfaces/codearts_plugin_.TextEditor.md)\>
 
@@ -1893,7 +2030,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9568](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9568)
+[index.d.ts:9669](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9669)
 
 ▸ **showTextDocument**(`uri`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextEditor`](../interfaces/codearts_plugin_.TextEditor.md)\>
 
@@ -1918,7 +2055,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9579](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9579)
+[index.d.ts:9680](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9680)
 
 ___
 
@@ -1953,7 +2090,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9652](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9652)
+[index.d.ts:9753](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9753)
 
 ▸ **showWarningMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1985,7 +2122,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9664](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9664)
+[index.d.ts:9765](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9765)
 
 ▸ **showWarningMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2016,7 +2153,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9675](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9675)
+[index.d.ts:9776](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9776)
 
 ▸ **showWarningMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2048,7 +2185,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9687](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9687)
+[index.d.ts:9788](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9788)
 
 ___
 
@@ -2073,7 +2210,7 @@ A promise that resolves to the workspace folder or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9782](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9782)
+[index.d.ts:9883](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9883)
 
 ___
 
@@ -2082,6 +2219,10 @@ ___
 ▸ **unregisterMainMenu**(`side`): `void`
 
 Unregister menu on left or right side of titlepart.
+
+**`Deprecated`**
+
+Recommend to use unregisterMenu.
 
 #### Parameters
 
@@ -2095,21 +2236,22 @@ Unregister menu on left or right side of titlepart.
 
 #### Defined in
 
-[index.d.ts:10187](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10187)
+[index.d.ts:10321](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10321)
 
 ___
 
 ### unregisterMenu
 
-▸ **unregisterMenu**(`key`): `void`
+▸ **unregisterMenu**(`id`): `void`
 
-Unregister a custom menu id.
+Unregister a menu. Extensions can not remove submenus registered by core and can only remove menus registered
+by extensions.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | `string` | Custom menu id. |
+| `id` | `string` | Custom submenu id. |
 
 #### Returns
 
@@ -2117,7 +2259,7 @@ Unregister a custom menu id.
 
 #### Defined in
 
-[index.d.ts:10193](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10193)
+[index.d.ts:10328](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10328)
 
 ___
 
@@ -2150,7 +2292,7 @@ The thenable the task-callback returned.
 
 #### Defined in
 
-[index.d.ts:9943](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9943)
+[index.d.ts:10044](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10044)
 
 ___
 
@@ -2185,4 +2327,4 @@ The thenable the task did return.
 
 #### Defined in
 
-[index.d.ts:9922](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9922)
+[index.d.ts:10023](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10023)

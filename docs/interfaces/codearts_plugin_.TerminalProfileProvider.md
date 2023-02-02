@@ -35,4 +35,4 @@ The terminal profile.
 
 #### Defined in
 
-[index.d.ts:6631](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6631)
+[index.d.ts:6656](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6656)

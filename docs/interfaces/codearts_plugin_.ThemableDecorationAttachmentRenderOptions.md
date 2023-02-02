@@ -31,7 +31,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1068](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1068)
+[index.d.ts:1068](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1068)
 
 ___
 
@@ -43,7 +43,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1044](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1044)
+[index.d.ts:1044](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1044)
 
 ___
 
@@ -55,7 +55,7 @@ CSS styling property that will be applied to text enclosed by a decoration.
 
 #### Defined in
 
-[index.d.ts:1048](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1048)
+[index.d.ts:1048](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1048)
 
 ___
 
@@ -67,7 +67,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1064](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1064)
+[index.d.ts:1064](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1064)
 
 ___
 
@@ -80,7 +80,7 @@ or a text can be shown, but not both.
 
 #### Defined in
 
-[index.d.ts:1040](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1040)
+[index.d.ts:1040](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1040)
 
 ___
 
@@ -92,7 +92,7 @@ Defines a text content that is shown in the attachment. Either an icon or a text
 
 #### Defined in
 
-[index.d.ts:1035](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1035)
+[index.d.ts:1035](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1035)
 
 ___
 
@@ -104,7 +104,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1052](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1052)
+[index.d.ts:1052](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1052)
 
 ___
 
@@ -116,7 +116,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1056](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1056)
+[index.d.ts:1056](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1056)
 
 ___
 
@@ -128,7 +128,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1080](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1080)
+[index.d.ts:1080](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1080)
 
 ___
 
@@ -140,7 +140,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1072](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1072)
+[index.d.ts:1072](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1072)
 
 ___
 
@@ -152,7 +152,7 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1060](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1060)
+[index.d.ts:1060](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1060)
 
 ___
 
@@ -164,4 +164,4 @@ CSS styling property that will be applied to the decoration attachment.
 
 #### Defined in
 
-[index.d.ts:1076](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1076)
+[index.d.ts:1076](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1076)

@@ -39,7 +39,7 @@ and various editor features, like automatic bracket insertion, automatic indenta
 
 #### Defined in
 
-[index.d.ts:5589](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5589)
+[index.d.ts:5609](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5609)
 
 ___
 
@@ -66,7 +66,7 @@ Will be replaced by a better API soon.
 
 #### Defined in
 
-[index.d.ts:5563](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5563)
+[index.d.ts:5583](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5583)
 
 ___
 
@@ -79,7 +79,7 @@ This configuration implicitly affects pressing Enter around these brackets.
 
 #### Defined in
 
-[index.d.ts:5540](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5540)
+[index.d.ts:5560](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5560)
 
 ___
 
@@ -91,7 +91,7 @@ The language's comment settings.
 
 #### Defined in
 
-[index.d.ts:5535](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5535)
+[index.d.ts:5555](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5555)
 
 ___
 
@@ -103,7 +103,7 @@ The language's indentation settings.
 
 #### Defined in
 
-[index.d.ts:5552](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5552)
+[index.d.ts:5572](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5572)
 
 ___
 
@@ -115,7 +115,7 @@ The language's rules to be evaluated when pressing Enter.
 
 #### Defined in
 
-[index.d.ts:5556](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5556)
+[index.d.ts:5576](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5576)
 
 ___
 
@@ -131,4 +131,4 @@ e.g.: A regex that matches anything except known separators (and dot is allowed 
 
 #### Defined in
 
-[index.d.ts:5548](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5548)
+[index.d.ts:5568](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5568)

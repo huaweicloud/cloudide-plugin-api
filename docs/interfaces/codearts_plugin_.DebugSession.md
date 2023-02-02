@@ -35,7 +35,7 @@ The "resolved" [debug configuration](codearts_plugin_.DebugConfiguration.md) of 
 
 #### Defined in
 
-[index.d.ts:14348](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14348)
+[index.d.ts:14519](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14519)
 
 ___
 
@@ -47,7 +47,7 @@ The unique ID of this debug session.
 
 #### Defined in
 
-[index.d.ts:14318](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14318)
+[index.d.ts:14489](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14489)
 
 ___
 
@@ -60,7 +60,7 @@ Any changes will be properly reflected in the UI.
 
 #### Defined in
 
-[index.d.ts:14335](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14335)
+[index.d.ts:14506](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14506)
 
 ___
 
@@ -76,7 +76,7 @@ DebugSessionOptions.parentSession
 
 #### Defined in
 
-[index.d.ts:14329](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14329)
+[index.d.ts:14500](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14500)
 
 ___
 
@@ -88,7 +88,7 @@ The debug session's type from the [debug configuration](codearts_plugin_.DebugCo
 
 #### Defined in
 
-[index.d.ts:14323](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14323)
+[index.d.ts:14494](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14494)
 
 ___
 
@@ -100,7 +100,7 @@ The workspace folder of this session or `undefined` for a folderless setup.
 
 #### Defined in
 
-[index.d.ts:14340](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14340)
+[index.d.ts:14511](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14511)
 
 ## Methods
 
@@ -123,7 +123,7 @@ Send a custom request to the debug adapter.
 
 #### Defined in
 
-[index.d.ts:14353](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14353)
+[index.d.ts:14524](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14524)
 
 ___
 
@@ -148,4 +148,4 @@ A promise that resolves to the Debug Adapter Protocol breakpoint or `undefined`.
 
 #### Defined in
 
-[index.d.ts:14362](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14362)
+[index.d.ts:14533](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14533)

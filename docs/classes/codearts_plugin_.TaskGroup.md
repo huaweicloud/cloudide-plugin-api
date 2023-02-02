@@ -37,7 +37,7 @@ A grouping for tasks. The editor by default supports the
 
 #### Defined in
 
-[index.d.ts:7197](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7197)
+[index.d.ts:7222](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7222)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The ID of the task group. Is one of TaskGroup.Clean.id, TaskGroup.Build.id, Task
 
 #### Defined in
 
-[index.d.ts:7195](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7195)
+[index.d.ts:7220](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7220)
 
 ___
 
@@ -62,7 +62,7 @@ This property cannot be set through API, and is controlled by a user's task conf
 
 #### Defined in
 
-[index.d.ts:7190](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7190)
+[index.d.ts:7215](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7215)
 
 ___
 
@@ -74,7 +74,7 @@ The build task group;
 
 #### Defined in
 
-[index.d.ts:7174](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7174)
+[index.d.ts:7199](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7199)
 
 ___
 
@@ -86,7 +86,7 @@ The clean task group;
 
 #### Defined in
 
-[index.d.ts:7169](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7169)
+[index.d.ts:7194](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7194)
 
 ___
 
@@ -98,7 +98,7 @@ The rebuild all task group;
 
 #### Defined in
 
-[index.d.ts:7179](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7179)
+[index.d.ts:7204](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7204)
 
 ___
 
@@ -110,4 +110,4 @@ The test all task group;
 
 #### Defined in
 
-[index.d.ts:7184](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7184)
+[index.d.ts:7209](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7209)

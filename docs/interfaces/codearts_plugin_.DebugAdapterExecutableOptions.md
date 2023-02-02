@@ -23,7 +23,7 @@ The current working directory for the executed debug adapter.
 
 #### Defined in
 
-[index.d.ts:14479](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14479)
+[index.d.ts:14650](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14650)
 
 ___
 
@@ -41,4 +41,4 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:14474](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14474)
+[index.d.ts:14645](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14645)

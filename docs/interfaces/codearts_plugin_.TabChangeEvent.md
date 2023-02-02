@@ -25,7 +25,7 @@ their [active](codearts_plugin_.Tab.md#isactive) state.
 
 #### Defined in
 
-[index.d.ts:16300](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16300)
+[index.d.ts:16471](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16471)
 
 ___
 
@@ -37,7 +37,7 @@ The tabs that have been closed.
 
 #### Defined in
 
-[index.d.ts:16295](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16295)
+[index.d.ts:16466](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16466)
 
 ___
 
@@ -49,4 +49,4 @@ The tabs that have been opened.
 
 #### Defined in
 
-[index.d.ts:16291](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16291)
+[index.d.ts:16462](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16462)

@@ -32,7 +32,7 @@ Creates a new terminal profile.
 
 #### Defined in
 
-[index.d.ts:6647](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6647)
+[index.d.ts:6672](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6672)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The options that the terminal will launch with.
 
 #### Defined in
 
-[index.d.ts:6641](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6641)
+[index.d.ts:6666](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6666)

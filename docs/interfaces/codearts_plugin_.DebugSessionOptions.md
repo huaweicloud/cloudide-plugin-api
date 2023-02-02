@@ -28,7 +28,7 @@ If compact is true, debug sessions with a single child are hidden in the CALL ST
 
 #### Defined in
 
-[index.d.ts:14763](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14763)
+[index.d.ts:14934](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14934)
 
 ___
 
@@ -42,7 +42,7 @@ Defaults to Separate.
 
 #### Defined in
 
-[index.d.ts:14750](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14750)
+[index.d.ts:14921](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14921)
 
 ___
 
@@ -56,7 +56,7 @@ This property is ignored if the session has no parent session.
 
 #### Defined in
 
-[index.d.ts:14743](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14743)
+[index.d.ts:14914](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14914)
 
 ___
 
@@ -69,7 +69,7 @@ When this property is not specified, the value from the parent session (if there
 
 #### Defined in
 
-[index.d.ts:14756](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14756)
+[index.d.ts:14927](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14927)
 
 ___
 
@@ -82,4 +82,4 @@ When specified the newly created debug session is registered as a "child" sessio
 
 #### Defined in
 
-[index.d.ts:14736](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14736)
+[index.d.ts:14907](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14907)

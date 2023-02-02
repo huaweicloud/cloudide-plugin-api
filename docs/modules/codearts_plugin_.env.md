@@ -43,7 +43,7 @@ does not provide that information
 
 #### Defined in
 
-[index.d.ts:9068](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9068)
+[index.d.ts:9093](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9093)
 
 ___
 
@@ -55,7 +55,7 @@ The application name of the editor, like 'VS Code'.
 
 #### Defined in
 
-[index.d.ts:9052](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9052)
+[index.d.ts:9077](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9077)
 
 ___
 
@@ -70,7 +70,7 @@ environment that has no representation of an application root folder.
 
 #### Defined in
 
-[index.d.ts:9060](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9060)
+[index.d.ts:9085](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9085)
 
 ___
 
@@ -82,7 +82,7 @@ The system clipboard.
 
 #### Defined in
 
-[index.d.ts:9083](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9083)
+[index.d.ts:9108](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9108)
 
 ___
 
@@ -95,7 +95,7 @@ Indicates that this is a fresh install of the application.
 
 #### Defined in
 
-[index.d.ts:9100](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9100)
+[index.d.ts:9125](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9125)
 
 ___
 
@@ -108,7 +108,7 @@ Can be observed to determine if the extension should send telemetry.
 
 #### Defined in
 
-[index.d.ts:9106](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9106)
+[index.d.ts:9131](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9131)
 
 ___
 
@@ -120,7 +120,7 @@ Represents the preferred user-language, like `de-CH`, `fr`, or `en-US`.
 
 #### Defined in
 
-[index.d.ts:9078](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9078)
+[index.d.ts:9103](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9103)
 
 ___
 
@@ -132,7 +132,7 @@ A unique identifier for the computer.
 
 #### Defined in
 
-[index.d.ts:9088](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9088)
+[index.d.ts:9113](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9113)
 
 ___
 
@@ -150,7 +150,7 @@ a specific extension runs remote or not.
 
 #### Defined in
 
-[index.d.ts:9123](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9123)
+[index.d.ts:9148](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9148)
 
 ___
 
@@ -163,7 +163,7 @@ Changes each time the editor is started.
 
 #### Defined in
 
-[index.d.ts:9094](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9094)
+[index.d.ts:9119](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9119)
 
 ___
 
@@ -177,7 +177,7 @@ environments that do not support a shell the value is the empty string.
 
 #### Defined in
 
-[index.d.ts:9130](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9130)
+[index.d.ts:9155](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9155)
 
 ___
 
@@ -191,7 +191,7 @@ from a desktop application or a web browser.
 
 #### Defined in
 
-[index.d.ts:9137](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9137)
+[index.d.ts:9162](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9162)
 
 ___
 
@@ -203,7 +203,7 @@ The custom uri scheme the editor registers to in the operating system.
 
 #### Defined in
 
-[index.d.ts:9073](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9073)
+[index.d.ts:9098](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9098)
 
 ## Functions
 
@@ -275,7 +275,7 @@ A uri that can be used on the client machine.
 
 #### Defined in
 
-[index.d.ts:9207](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9207)
+[index.d.ts:9232](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9232)
 
 ___
 
@@ -302,7 +302,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -333,4 +333,4 @@ A promise indicating if open was successful.
 
 #### Defined in
 
-[index.d.ts:9152](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9152)
+[index.d.ts:9177](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9177)

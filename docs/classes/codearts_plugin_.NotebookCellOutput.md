@@ -36,7 +36,7 @@ Create new notebook output.
 
 #### Defined in
 
-[index.d.ts:13504](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13504)
+[index.d.ts:13675](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13675)
 
 ## Properties
 
@@ -58,7 +58,7 @@ new vscode.NotebookCellOutput([
 
 #### Defined in
 
-[index.d.ts:13491](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13491)
+[index.d.ts:13662](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13662)
 
 ___
 
@@ -74,4 +74,4 @@ Arbitrary metadata for this cell output. Can be anything but must be JSON-string
 
 #### Defined in
 
-[index.d.ts:13496](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13496)
+[index.d.ts:13667](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13667)

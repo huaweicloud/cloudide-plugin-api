@@ -28,7 +28,7 @@ The name of the debug session.
 
 #### Defined in
 
-[index.d.ts:14297](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14297)
+[index.d.ts:14468](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14468)
 
 ___
 
@@ -40,7 +40,7 @@ The request type of the debug session.
 
 #### Defined in
 
-[index.d.ts:14302](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14302)
+[index.d.ts:14473](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14473)
 
 ___
 
@@ -52,4 +52,4 @@ The type of the debug session.
 
 #### Defined in
 
-[index.d.ts:14292](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14292)
+[index.d.ts:14463](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14463)

@@ -34,7 +34,7 @@ An optional event to signal that inlay hints from this provider have changed.
 
 #### Defined in
 
-[index.d.ts:4980](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4980)
+[index.d.ts:5000](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5000)
 
 ## Methods
 
@@ -62,7 +62,7 @@ An array of inlay hints or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:4992](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4992)
+[index.d.ts:5012](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5012)
 
 ___
 
@@ -90,4 +90,4 @@ The resolved inlay hint or a thenable that resolves to such. It is OK to return 
 
 #### Defined in
 
-[index.d.ts:5004](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5004)
+[index.d.ts:5024](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5024)

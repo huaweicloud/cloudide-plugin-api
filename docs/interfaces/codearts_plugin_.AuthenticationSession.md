@@ -25,7 +25,7 @@ The access token.
 
 #### Defined in
 
-[index.d.ts:15274](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15274)
+[index.d.ts:15445](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15445)
 
 ___
 
@@ -37,7 +37,7 @@ The account associated with the session.
 
 #### Defined in
 
-[index.d.ts:15279](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15279)
+[index.d.ts:15450](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15450)
 
 ___
 
@@ -49,7 +49,7 @@ The identifier of the authentication session.
 
 #### Defined in
 
-[index.d.ts:15269](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15269)
+[index.d.ts:15440](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15440)
 
 ___
 
@@ -62,4 +62,4 @@ are defined by the [AuthenticationProvider](codearts_plugin_.AuthenticationProvi
 
 #### Defined in
 
-[index.d.ts:15285](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15285)
+[index.d.ts:15456](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15456)

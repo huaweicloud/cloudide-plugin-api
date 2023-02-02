@@ -37,7 +37,7 @@ The recommended mime type of the tree (`application/vnd.code.tree.<treeidlowerca
 
 #### Defined in
 
-[index.d.ts:10386](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10386)
+[index.d.ts:10547](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10547)
 
 ___
 
@@ -63,7 +63,7 @@ Note that mime types that cannot be sent to the extension will be omitted.
 
 #### Defined in
 
-[index.d.ts:10378](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10378)
+[index.d.ts:10539](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10539)
 
 ## Methods
 
@@ -96,7 +96,7 @@ set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column
 
 #### Defined in
 
-[index.d.ts:10404](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10404)
+[index.d.ts:10565](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10565)
 
 ___
 
@@ -122,4 +122,4 @@ Extensions should fire [onDidChangeTreeData](codearts_plugin_.TreeDataProvider.m
 
 #### Defined in
 
-[index.d.ts:10415](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10415)
+[index.d.ts:10576](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10576)

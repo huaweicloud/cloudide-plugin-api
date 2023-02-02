@@ -34,7 +34,7 @@ Create a description for a debug adapter running as a socket based server.
 
 #### Defined in
 
-[index.d.ts:14500](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14500)
+[index.d.ts:14671](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14671)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The host.
 
 #### Defined in
 
-[index.d.ts:14495](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14495)
+[index.d.ts:14666](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14666)
 
 ___
 
@@ -58,4 +58,4 @@ The port.
 
 #### Defined in
 
-[index.d.ts:14490](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14490)
+[index.d.ts:14661](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14661)

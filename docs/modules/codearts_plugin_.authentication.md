@@ -45,7 +45,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:15512](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15512)
+[index.d.ts:15683](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15683)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -73,7 +73,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:15527](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15527)
+[index.d.ts:15698](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15698)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -101,7 +101,7 @@ A thenable that resolves to an authentication session if available, or undefined
 
 #### Defined in
 
-[index.d.ts:15542](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15542)
+[index.d.ts:15713](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15713)
 
 ___
 
@@ -129,7 +129,7 @@ Signed request headers or undefined.
 
 #### Defined in
 
-[index.d.ts:15573](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15573)
+[index.d.ts:15744](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15744)
 
 ___
 
@@ -156,7 +156,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1603)
 
 ___
 
@@ -190,4 +190,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:15562](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15562)
+[index.d.ts:15733](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15733)

@@ -37,7 +37,7 @@ Gets the number of items in the collection.
 
 #### Defined in
 
-[index.d.ts:15945](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15945)
+[index.d.ts:16116](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16116)
 
 ## Methods
 
@@ -60,7 +60,7 @@ exists, it'll be replaced.
 
 #### Defined in
 
-[index.d.ts:15966](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15966)
+[index.d.ts:16137](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16137)
 
 ___
 
@@ -82,7 +82,7 @@ Removes a single test item from the collection.
 
 #### Defined in
 
-[index.d.ts:15972](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15972)
+[index.d.ts:16143](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16143)
 
 ___
 
@@ -105,7 +105,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:15959](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15959)
+[index.d.ts:16130](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16130)
 
 ___
 
@@ -129,7 +129,7 @@ The found item or undefined if it does not exist.
 
 #### Defined in
 
-[index.d.ts:15979](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15979)
+[index.d.ts:16150](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16150)
 
 ___
 
@@ -151,4 +151,4 @@ Replaces the items stored by the collection.
 
 #### Defined in
 
-[index.d.ts:15951](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15951)
+[index.d.ts:16122](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16122)

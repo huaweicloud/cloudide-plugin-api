@@ -25,7 +25,7 @@ Whether the [author](codearts_plugin_.CommentAuthorInformation.md) of the commen
 
 #### Defined in
 
-[index.d.ts:15100](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15100)
+[index.d.ts:15271](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15271)
 
 ___
 
@@ -37,7 +37,7 @@ The number of users who have reacted to this reaction
 
 #### Defined in
 
-[index.d.ts:15095](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15095)
+[index.d.ts:15266](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15266)
 
 ___
 
@@ -49,7 +49,7 @@ Icon for the reaction shown in UI.
 
 #### Defined in
 
-[index.d.ts:15090](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15090)
+[index.d.ts:15261](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15261)
 
 ___
 
@@ -61,4 +61,4 @@ The human-readable label for the reaction
 
 #### Defined in
 
-[index.d.ts:15085](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L15085)
+[index.d.ts:15256](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15256)

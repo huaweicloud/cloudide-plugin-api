@@ -36,7 +36,7 @@ The active parameter of the active signature.
 
 #### Defined in
 
-[index.d.ts:4082](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4082)
+[index.d.ts:4082](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4082)
 
 ___
 
@@ -48,7 +48,7 @@ The active signature.
 
 #### Defined in
 
-[index.d.ts:4077](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4077)
+[index.d.ts:4077](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4077)
 
 ___
 
@@ -60,4 +60,4 @@ One or more signatures.
 
 #### Defined in
 
-[index.d.ts:4072](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4072)
+[index.d.ts:4072](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4072)

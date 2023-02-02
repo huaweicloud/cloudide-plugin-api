@@ -23,7 +23,7 @@ The number of columns in the terminal.
 
 #### Defined in
 
-[index.d.ts:10964](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10964)
+[index.d.ts:11135](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11135)
 
 ___
 
@@ -35,4 +35,4 @@ The number of rows in the terminal.
 
 #### Defined in
 
-[index.d.ts:10969](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10969)
+[index.d.ts:11140](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11140)

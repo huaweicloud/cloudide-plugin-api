@@ -24,7 +24,7 @@ Arguments passed to command, will be spreaded as rest parameters if this is an a
 
 #### Defined in
 
-[index.d.ts:16547](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16547)
+[index.d.ts:16935](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16935)
 
 ___
 
@@ -36,7 +36,7 @@ Command action.
 
 #### Defined in
 
-[index.d.ts:16527](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16527)
+[index.d.ts:16915](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16915)
 
 ___
 
@@ -48,7 +48,7 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:16537](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16537)
+[index.d.ts:16925](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16925)
 
 ___
 
@@ -60,7 +60,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:16542](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16542)
+[index.d.ts:16930](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16930)
 
 ___
 
@@ -72,4 +72,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:16532](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16532)
+[index.d.ts:16920](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16920)

@@ -27,7 +27,7 @@ Prefer spaces over tabs.
 
 #### Defined in
 
-[index.d.ts:3919](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3919)
+[index.d.ts:3919](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3919)
 
 ___
 
@@ -39,4 +39,4 @@ Size of a tab in spaces.
 
 #### Defined in
 
-[index.d.ts:3914](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L3914)
+[index.d.ts:3914](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L3914)

@@ -35,7 +35,7 @@ recommended for the best contrast and consistency across themes.
 
 #### Defined in
 
-[index.d.ts:10741](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10741)
+[index.d.ts:10912](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10912)
 
 ___
 
@@ -47,7 +47,7 @@ A path or Uri for the current working directory to be used for the terminal.
 
 #### Defined in
 
-[index.d.ts:10699](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10699)
+[index.d.ts:10870](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10870)
 
 ___
 
@@ -63,7 +63,7 @@ Object with environment variables that will be added to the editor process.
 
 #### Defined in
 
-[index.d.ts:10704](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10704)
+[index.d.ts:10875](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10875)
 
 ___
 
@@ -79,7 +79,7 @@ as normal.
 
 #### Defined in
 
-[index.d.ts:10722](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10722)
+[index.d.ts:10893](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10893)
 
 ___
 
@@ -91,7 +91,7 @@ The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the t
 
 #### Defined in
 
-[index.d.ts:10734](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10734)
+[index.d.ts:10905](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10905)
 
 ___
 
@@ -104,7 +104,7 @@ This will only take effect when `terminal.integrated.enablePersistentSessions` i
 
 #### Defined in
 
-[index.d.ts:10752](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10752)
+[index.d.ts:10923](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10923)
 
 ___
 
@@ -116,7 +116,7 @@ The [TerminalLocation](../enums/codearts_plugin_.TerminalLocation.md) or [Termin
 
 #### Defined in
 
-[index.d.ts:10746](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10746)
+[index.d.ts:10917](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10917)
 
 ___
 
@@ -130,7 +130,7 @@ a setting text style.
 
 #### Defined in
 
-[index.d.ts:10729](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10729)
+[index.d.ts:10900](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10900)
 
 ___
 
@@ -142,7 +142,7 @@ A human-readable string which will be used to represent the terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:10683](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10683)
+[index.d.ts:10854](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10854)
 
 ___
 
@@ -155,7 +155,7 @@ specifying shell args in [command-line format](https://msdn.microsoft.com/en-au/
 
 #### Defined in
 
-[index.d.ts:10694](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10694)
+[index.d.ts:10865](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10865)
 
 ___
 
@@ -167,7 +167,7 @@ A path to a custom shell executable to be used in the terminal.
 
 #### Defined in
 
-[index.d.ts:10688](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10688)
+[index.d.ts:10859](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10859)
 
 ___
 
@@ -183,4 +183,4 @@ must be provided as nothing will be inherited from the process or any configurat
 
 #### Defined in
 
-[index.d.ts:10713](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L10713)
+[index.d.ts:10884](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L10884)

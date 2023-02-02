@@ -29,7 +29,7 @@ The currently active group.
 
 #### Defined in
 
-[index.d.ts:16368](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16368)
+[index.d.ts:16539](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16539)
 
 ___
 
@@ -41,7 +41,7 @@ All the groups within the group container.
 
 #### Defined in
 
-[index.d.ts:16363](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16363)
+[index.d.ts:16534](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16534)
 
 ___
 
@@ -53,7 +53,7 @@ An [event](codearts_plugin_.Event.md) which fires when [tab groups](codearts_plu
 
 #### Defined in
 
-[index.d.ts:16373](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16373)
+[index.d.ts:16544](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16544)
 
 ___
 
@@ -65,7 +65,7 @@ An [event](codearts_plugin_.Event.md) which fires when [tabs](codearts_plugin_.T
 
 #### Defined in
 
-[index.d.ts:16378](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16378)
+[index.d.ts:16549](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16549)
 
 ## Methods
 
@@ -92,7 +92,7 @@ A promise that resolves to `true` when all tabs have been closed.
 
 #### Defined in
 
-[index.d.ts:16389](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16389)
+[index.d.ts:16560](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16560)
 
 ▸ **close**(`tabGroup`, `preserveFocus?`): [`Thenable`](Thenable.md)<`boolean`\>
 
@@ -114,4 +114,4 @@ A promise that resolves to `true` when all tab groups have been closed.
 
 #### Defined in
 
-[index.d.ts:16398](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16398)
+[index.d.ts:16569](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16569)

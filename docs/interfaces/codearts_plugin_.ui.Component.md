@@ -10,6 +10,8 @@
 
   ↳ [`Button`](codearts_plugin_.ui.Button-1.md)
 
+  ↳ [`ActionViewItem`](codearts_plugin_.ui.ActionViewItem-1.md)
+
 ## Table of contents
 
 ### Properties
@@ -34,7 +36,7 @@ The unique id of control.
 
 #### Defined in
 
-[index.d.ts:16409](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16409)
+[index.d.ts:16580](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16580)
 
 ___
 
@@ -46,7 +48,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:16414](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16414)
+[index.d.ts:16585](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16585)
 
 ___
 
@@ -58,7 +60,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:16424](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16424)
+[index.d.ts:16595](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16595)
 
 ___
 
@@ -70,7 +72,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:16429](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16429)
+[index.d.ts:16600](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16600)
 
 ## Methods
 
@@ -86,7 +88,7 @@ Dispose the control, and the module created by the frontend in browser will also
 
 #### Defined in
 
-[index.d.ts:16419](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16419)
+[index.d.ts:16590](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16590)
 
 ___
 
@@ -109,4 +111,4 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:16434](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16434)
+[index.d.ts:16605](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16605)

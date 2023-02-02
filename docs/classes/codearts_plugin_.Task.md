@@ -47,7 +47,7 @@ Creates a new task.
 
 #### Defined in
 
-[index.d.ts:7501](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7501)
+[index.d.ts:7526](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7526)
 
 • **new Task**(`taskDefinition`, `name`, `source`, `execution?`, `problemMatchers?`)
 
@@ -69,7 +69,7 @@ Use the new constructors that allow specifying a scope for the task.
 
 #### Defined in
 
-[index.d.ts:7516](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7516)
+[index.d.ts:7541](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7541)
 
 ## Properties
 
@@ -81,7 +81,7 @@ The task's definition.
 
 #### Defined in
 
-[index.d.ts:7521](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7521)
+[index.d.ts:7546](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7546)
 
 ___
 
@@ -95,7 +95,7 @@ via the `$(<name>)`-syntax.
 
 #### Defined in
 
-[index.d.ts:7538](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7538)
+[index.d.ts:7563](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7563)
 
 ___
 
@@ -107,7 +107,7 @@ The task's execution engine
 
 #### Defined in
 
-[index.d.ts:7543](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7543)
+[index.d.ts:7568](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7568)
 
 ___
 
@@ -122,7 +122,7 @@ belong to any special group.
 
 #### Defined in
 
-[index.d.ts:7562](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7562)
+[index.d.ts:7587](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7587)
 
 ___
 
@@ -134,7 +134,7 @@ Whether the task is a background task or not.
 
 #### Defined in
 
-[index.d.ts:7548](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7548)
+[index.d.ts:7573](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7573)
 
 ___
 
@@ -146,7 +146,7 @@ The task's name
 
 #### Defined in
 
-[index.d.ts:7531](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7531)
+[index.d.ts:7556](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7556)
 
 ___
 
@@ -158,7 +158,7 @@ The presentation options. Defaults to an empty literal.
 
 #### Defined in
 
-[index.d.ts:7567](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7567)
+[index.d.ts:7592](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7592)
 
 ___
 
@@ -171,7 +171,7 @@ array.
 
 #### Defined in
 
-[index.d.ts:7573](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7573)
+[index.d.ts:7598](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7598)
 
 ___
 
@@ -183,7 +183,7 @@ Run options for the task
 
 #### Defined in
 
-[index.d.ts:7578](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7578)
+[index.d.ts:7603](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7603)
 
 ___
 
@@ -195,7 +195,7 @@ The task's scope.
 
 #### Defined in
 
-[index.d.ts:7526](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7526)
+[index.d.ts:7551](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7551)
 
 ___
 
@@ -208,4 +208,4 @@ or 'npm'. Supports rendering of [theme icons](codearts_plugin_.ThemeIcon.md) via
 
 #### Defined in
 
-[index.d.ts:7554](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7554)
+[index.d.ts:7579](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7579)

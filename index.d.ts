@@ -4411,6 +4411,26 @@ declare module '@codearts/plugin' {
 		items: T[];
 
 		/**
+		 * @experimental Allows to update completion list. Must be used in conjunction with {@link BufferingEventEmitter buffering event emitter} and {@link CompletionList.unlock unlock} helper method.
+		 */
+		// TODO: unclear linting error.
+		// eslint-disable-next-line vscode-dts-event-naming
+		onDidRecieveUpdate?: Event<T | T[] | undefined | null | void>;
+		/**
+		 * @experimental In case {@link CompletionList.onDidRecieveUpdate update event} is defined, this method will be called by consumer when it is ready
+		 * to listen. Must be used in conjunction with {@link BufferingEventEmitter buffering event emitter}.
+		 *
+		 * Example:
+		 *
+		 * ```ts
+		 *    const _onDidRecieveUpdate = new vscode.BufferingEventEmitter<vscode.CompletionItem[]>();
+		 *	  list.onDidRecieveUpdate = _onDidRecieveUpdate.event;
+		 *	  list.unlock = () => _onDidRecieveUpdate.unlock();
+		 * ```
+		 */
+		unlock?: () => void;
+
+		/**
 		 * Creates a new completion list.
 		 *
 		 * @param items The completion items.
@@ -6414,6 +6434,11 @@ declare module '@codearts/plugin' {
 	 * An individual terminal instance within the integrated terminal.
 	 */
 	export interface Terminal {
+
+		/**
+		 * The unique id of the terminal.
+		 */
+		readonly id: Thenable<string>;
 
 		/**
 		 * The name of the terminal.
@@ -9300,6 +9325,11 @@ declare module '@codearts/plugin' {
 		 * @return Thenable that resolves to a list of command ids.
 		 */
 		export function getCommands(filterInternal?: boolean): Thenable<string[]>;
+
+		/**
+		* Return the list of commands available in command palette with more information about each one.
+		*/
+		export function getCommandPaletteCommands(): Thenable<CommandInfo[]>;
 	}
 
 	/**
@@ -9401,11 +9431,82 @@ declare module '@codearts/plugin' {
 	}
 
 	/**
+	 * ID of the built-in view container of the vscode.
+	 */
+	export enum ViewContainerId {
+		SEARCH = 'workbench.view.search',
+		EXPLORER = 'workbench.view.explorer',
+		SCM = 'workbench.view.scm',
+		DEBUG = 'workbench.view.debug',
+		EXTENSION = 'workbench.view.extensions',
+		OUTPUT = 'workbench.panel.output',
+		DEBUGCONSOLE = 'workbench.panel.repl',
+		TERMINAL = 'terminal',
+		PROBLEMS = 'workbench.panel.markers'
+	}
+
+	/**
+	 * Id of the view contributed using the extension point `views`.
+	 */
+	export interface View {
+		viewId: string;
+	}
+
+	/**
+	 * ID of the ViewContainer.
+	 */
+	export interface ViewContainer {
+		viewContainerId: ViewContainerId | string;
+	}
+
+	/**
+	 * Location where Actions are registered.
+	 */
+	export type ViewLocation = View | ViewContainer | 'editor';
+
+	/**
+	 * Options of project wizard.
+	 */
+	export interface ProjectWizardOptions {
+
+		/**
+		 * The icon path for project wizard, which will show with the label.
+		 */
+		iconPath?: Uri;
+
+		/**
+		 * Controls if the webview element itself (iframe) is kept around even when the view
+		 * is no longer visible.
+		 *
+		 * Normally the webview's html context is created when the view becomes visible
+		 * and destroyed when it is hidden. Extensions that have complex state
+		 * or UI can set the `retainContextWhenHidden` to make the editor keep the webview
+		 * context around, even when the webview moves to a background tab. When a webview using
+		 * `retainContextWhenHidden` becomes hidden, its scripts and other dynamic content are suspended.
+		 * When the view becomes visible again, the context is automatically restored
+		 * in the exact same state it was in originally. You cannot send messages to a
+		 * hidden webview, even with `retainContextWhenHidden` enabled.
+		 *
+		 * `retainContextWhenHidden` has a high memory overhead and should only be used if
+		 * your view's context cannot be quickly saved and restored.
+		 */
+		retainContextWhenHidden?: boolean;
+	}
+
+	/**
 	 * Namespace for dealing with the current window of the editor. That is visible
 	 * and active editors, as well as, UI elements to show messages, selections, and
 	 * asking for user input.
 	 */
 	export namespace window {
+
+		/**
+		 * Register actions to specific view using location which support view, viewContainer or editor
+		 * @param location Location where Actions are registered.
+		 * @param actionViewItems Components to be registered.
+		 * @return Disposable which unregisters this command on disposal.
+		 */
+		export function registerViewTitleActions(location: ViewLocation, actionViewItems: ui.ActionViewItem | ui.ActionViewItem[]): Disposable;
 
 		/**
 		 * Represents the grid widget within the main editor area
@@ -9994,6 +10095,14 @@ declare module '@codearts/plugin' {
 		export function createTerminal(options: ExtensionTerminalOptions): Terminal;
 
 		/**
+		 * Get terminal by it's unique id.
+		 *
+		 * @param id The unique id for terminal
+		 * @return Terminal or undefined.
+		 */
+		export function getTerminalById(id: string): Terminal | undefined;
+
+		/**
 		 * Register a {@link TreeDataProvider} for the view contributed using the extension point `views`.
 		 * This will allow you to contribute data to the {@link TreeView} and update if the data changes.
 		 *
@@ -10083,10 +10192,19 @@ declare module '@codearts/plugin' {
 		}): Disposable;
 
 		/**
+		 * Register a provider for project wizard with webview view.
+		 *
+		 * @param id Unique id of the project wizard.
+		 * @param label Label of the project wizard, like 'java', 'c++'.
+		 * @param provider Webview view provider.
+		 * @param options {@link ProjectWizardOptions} Options of the project wizard.
+		 * @return Disposable that unregisters the provider.
+		 */
+		export function registerProjectWizardProvider(id: string, label: string, provider: WebviewViewProvider, options?: ProjectWizardOptions): Disposable;
+
+		/**
 		 * Create and open a dialog with an webview view.
-		 *
 		 * @param provider Provider for the webview views.
-		 *
 		 * @return Disposable that unregister the provider.
 		 */
 		export function createWebviewViewDialog(provider: WebviewViewProvider, dialogOptions: DialogOptions): WebviewViewDialog;
@@ -10162,35 +10280,66 @@ declare module '@codearts/plugin' {
 
 		/**
 		 * Register a top level menu on titlepart area.
+		 * @deprecated Recommend to use registerMenu.
 		 * @param item The actual menu or submenu.
 		 * @param side The side of titlepart.
 		 */
 		export function registerMainMenu(item: MenuItem | SubmenuItem, side?: MenuSide): void;
 
 		/**
-		 * Register menu or submenu on custom menu id.
-		 * @param key Custom menu id.
+		 * Register menu or submenu using menu id.
+		 *
+		 * *Note* that if the {@link id menuId} is not registered before, it will be registered automatically.
+		 * Make sure a {@link id menuId} is already registered before using it.
+		 *
+		 * **Example:** Register a submenu 'Hello' in 'File' menu, and menu 'Command Palette' under 'Hello'.
+		 * ```typescript
+		 * // Register a menu 'Command Palette' under submenu 'Hello', the menuId 'HelloMenuId' will be registered automatically
+		 * vscode.window.registerMenu('HelloMenuId', { command: { id: 'workbench.action.showCommands', title: 'Command Palette'} });
+		 *
+		 * // Register the submenu 'Hello' in 'File' menu for which the menuId is 'MenubarFileMenu'
+		 * vscode.window.registerMenu('MenubarFileMenu', { submenu: 'HelloMenuId', title: 'Hello' });
+		 * ```
+		 *
+		 * @param id Menu id.
 		 * @param item The actual menu or submenu.
 		 */
-		export function registerMenu(key: string, item: MenuItem | SubmenuItem): void;
+		export function registerMenu(id: string, item: MenuItem | SubmenuItem): void;
 
 		/**
 		 * Register a custom menu id. Must call it before registerMenu
-		 * @param key custom menu id.
+		 * @deprecated Recommend to use registerMenu. Now registerMenu will register id automatically.
+		 * @param id custom menu id.
 		 */
-		export function registerMenuId(key: string): void;
+		export function registerMenuId(id: string): void;
 
 		/**
 		 * Unregister menu on left or right side of titlepart.
+		 * @deprecated Recommend to use unregisterMenu.
 		 * @param side The side of titlepart.
 		 */
 		export function unregisterMainMenu(side: MenuSide): void;
 
 		/**
-		 * Unregister a custom menu id.
-		 * @param key Custom menu id.
+		 * Unregister a menu. Extensions can not remove submenus registered by core and can only remove menus registered
+		 * by extensions.
+		 * @param id Custom submenu id.
 		 */
-		export function unregisterMenu(key: string): void;
+		export function unregisterMenu(id: string): void;
+
+		/**
+		 * Show simple code message tip in the active editor
+		 * @param message
+		 * @param position Editor position. If the input line number or character number exceeds the maximum, the
+		 * tip will display at the end of the code area. If the number is less than 0, it will be set to 0.
+		 * @param options {@link CodeTipOptions CodeTipOptions} to configure the behavior of showing the code tip
+		 */
+		export function showCodeTip(message: string, position: Position, options?: CodeTipOptions): void;
+
+		/**
+		 * An array of resource uri which are selected in explorer.
+		 */
+		export const selectedResources: Uri[];
 	}
 
 	/**
@@ -10242,6 +10391,18 @@ declare module '@codearts/plugin' {
 		 * Selected elements.
 		 */
 		readonly selection: readonly T[];
+
+	}
+
+	/**
+	 * The event that is fired when there is a change in {@link TreeView.focusedElements tree view's focused elements}
+	 */
+	export interface TreeViewFocusChangeEvent<T> {
+
+		/**
+		 * Focused elements.
+		 */
+		readonly focusedElements: readonly T[];
 
 	}
 
@@ -10439,6 +10600,16 @@ declare module '@codearts/plugin' {
 		 * Event that is fired when the {@link TreeView.selection selection} has changed
 		 */
 		readonly onDidChangeSelection: Event<TreeViewSelectionChangeEvent<T>>;
+
+		/**
+		 * Currently focused elements.
+		 */
+		readonly focusedElements: readonly T[];
+
+		/**
+		 * Event that is fired when the {@link TreeView.focusedElements focused elements} have changed
+		 */
+		readonly onDidChangeFocus: Event<TreeViewFocusChangeEvent<T>>;
 
 		/**
 		 * `true` if the {@link TreeView tree view} is visible otherwise `false`.
@@ -16438,23 +16609,240 @@ declare module '@codearts/plugin' {
 		 * Button Control.
 		 */
 		export interface Button extends Component {
+			/**
+			 * Sets the button invalid status.
+			 */
 			enabled: boolean;
+
+			/**
+			 * Sets the button label.
+			 */
 			label: string;
+
+			/**
+			 * Callback when a button is clicked.
+			 */
 			onClick: Event<void>;
+
+			/**
+			 * Parameters required for creating a Button component.
+			 */
 			options: ButtonOptions;
+
+			/**
+			 * Focus the button.
+			 */
 			focus(): void;
+
+			/**
+			 * Indicates whether the button is focused.
+			 */
 			hasFocus(): boolean;
 		}
 
+		/**
+		 * Parameters required for creating a Button component.
+		 */
 		export interface ButtonOptions {
+			/**
+			 * Text displayed when you slide the mouse over the button.
+			 */
 			title?: boolean | string;
-			supportIcons?: boolean;
+
+			/**
+			 * Adjusts the button width to its parent width.
+			 */
+			block?: boolean;
+
+			/**
+			 * Set the button type to secondary button.
+			 */
 			secondary?: boolean;
+
+			/**
+			 * Contents displayed on the button.
+			 */
 			label?: string;
 		}
 
+		/**
+		 * Namespace for button.
+		 */
 		export namespace button {
-			export function create(options: ButtonOptions): Button;
+			/**
+			 * @param options Parameters required for creating a Button component.
+			 * @returns A promise that resolves to `Button` when the button component is created.
+			 */
+			export function create(options: ButtonOptions): Thenable<Button>;
+		}
+
+		/**
+		 * ActionViewItem Control.
+		 */
+		export interface ActionViewItem extends Component {
+			/**
+			 * The unique id of ActionViewItem control.
+			 */
+			id: string;
+
+			/**
+			 * Action parameters.
+			 */
+			action: ActionOptions;
+
+			/**
+			 * Configuration parameters of the ActionViewItem component.
+			 */
+			options: ActionViewItemOptions;
+
+			/**
+			 * Callback when a ActionViewItem is clicked.
+			 */
+			onClick: Event<void>;
+
+			/**
+			 * Render an html element from the action view item element.
+			 */
+			render(): void;
+
+			/**
+			 * Focus the current item element.
+			 */
+			focus(): void;
+
+			/**
+			 * 	Determine whether the current element is focused.
+			 */
+			isFocused(): boolean;
+
+			/**
+			 * Blur the current item element.
+			 */
+			blur(): void;
+
+			/**
+			 * Event for modifying item focusable when dot is set.
+			 */
+			setFocusable(): void;
+
+			/**
+			 * Update the class of the current item.
+			 */
+			updateClass(): void;
+
+			/**
+			 * Update the label of the current item.
+			 */
+			updateLabel(): void;
+
+			/**
+			 * Update the tooltip of the current item.
+			 */
+			updateTooltip(): void;
+
+			/**
+			 * Destroy the component.
+			 */
+			dispose(): void;
+
+			/**
+			 * Obtains the order of the current component.
+			 */
+			order(): number;
+		}
+
+		/**
+		 * Action parameters.
+		 */
+		export interface ActionOptions {
+			/**
+			 * Action Id.
+			 */
+			readonly id: string;
+
+			/**
+			 * Contents displayed on the ActionViewItem.
+			 */
+			label: string;
+
+			/**
+			 *  Text displayed when you slide the mouse over the ActionViewItem.
+			 */
+			tooltip: string;
+
+			/**
+			 * Sets the class name of the icon, eg. `codicon codicon-add`.
+			 */
+			class: string | undefined;
+
+			/**
+			 * Sets the ActionViewItem invalid status.
+			 */
+			enabled: boolean;
+
+			/**
+			 * Is it selected.
+			 */
+			checked?: boolean;
+
+			/**
+			 * Order to insert into the actionbar
+			 */
+			order?: number;
+		}
+
+		export interface BaseActionViewItemOptions {
+			/**
+			 * Is it possible to drag.
+			 */
+			draggable?: boolean;
+
+			/**
+			 * Is it the menu.
+			 */
+			isMenu?: boolean;
+		}
+
+		/**
+		 * Configuration parameters of the ActionViewItem component.
+		 */
+		export interface ActionViewItemOptions extends BaseActionViewItemOptions {
+			/**
+			 * Display icon.
+			 */
+			icon?: boolean;
+
+			/**
+			 * Display label.
+			 */
+			label?: boolean;
+
+			/**
+			 * Shortcut Keys.
+			 */
+			keybinding?: string | null;
+
+			/**
+			 * Indicates whether to display or hide the component. If the value is true, the component cannot be hidden.
+			 */
+			alwaysVisible?: boolean;
+
+			/**
+			 * Vertical or horizontal mode.
+			 */
+			verticalMode?: boolean;
+		}
+
+		/**
+		 * Namespace for actionViewItem.
+		 */
+		export namespace actionViewItem {
+			/**
+			 * @param action Action parameters required for creating a actionViewItem component.
+			 * @param options Configuration parameters of the ActionViewItem component.
+			 * @returns A promise that resolves to `actionViewItem` when the actionViewItem component is created.
+			 */
+			export function create(action: ActionOptions, options: ActionViewItemOptions): Thenable<ActionViewItem>;
 		}
 	}
 
@@ -16573,6 +16961,36 @@ declare module '@codearts/plugin' {
 		 * The menu shown order.
 		 */
 		order?: number;
+	}
+
+	/**
+	 * Represents options for {@link window.showCodeTip showCodeTip}
+	 */
+	export interface CodeTipOptions {
+		/**
+		 * The severity of the message. Default to {@link CodeTipSeverity.Info Info}
+		 */
+		severity?: CodeTipSeverity;
+
+		/**
+		 * Show time(millisecond). Default to 3000. Set to -1 to always show the tip till hide event is triggered.
+		 */
+		showTime?: number;
+	}
+
+	/**
+	 * Represents the severity of code tip.
+	 */
+	export enum CodeTipSeverity {
+		Info = 1,
+		Warning = 2,
+		Error = 3
+	}
+
+	export interface CommandInfo {
+		id: string;
+		title: string;
+		keybinding?: string;
 	}
 }
 

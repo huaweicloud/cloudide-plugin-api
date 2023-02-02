@@ -24,7 +24,7 @@ The order in which the execution happened.
 
 #### Defined in
 
-[index.d.ts:13338](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13338)
+[index.d.ts:13509](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13509)
 
 ___
 
@@ -36,7 +36,7 @@ If the execution finished successfully.
 
 #### Defined in
 
-[index.d.ts:13343](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13343)
+[index.d.ts:13514](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13514)
 
 ___
 
@@ -55,4 +55,4 @@ The times at which execution started and ended, as unix timestamps
 
 #### Defined in
 
-[index.d.ts:13348](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L13348)
+[index.d.ts:13519](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L13519)

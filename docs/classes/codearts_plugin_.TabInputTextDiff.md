@@ -35,7 +35,7 @@ Constructs a new text diff tab input with the given URIs.
 
 #### Defined in
 
-[index.d.ts:16146](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16146)
+[index.d.ts:16317](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16317)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The uri of the modified text resource.
 
 #### Defined in
 
-[index.d.ts:16140](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16140)
+[index.d.ts:16311](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16311)
 
 ___
 
@@ -59,4 +59,4 @@ The uri of the original text resource.
 
 #### Defined in
 
-[index.d.ts:16136](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16136)
+[index.d.ts:16307](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16307)

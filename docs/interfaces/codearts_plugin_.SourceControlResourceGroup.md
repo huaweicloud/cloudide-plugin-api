@@ -31,7 +31,7 @@ no [source control resource states](codearts_plugin_.SourceControlResourceState.
 
 #### Defined in
 
-[index.d.ts:14154](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14154)
+[index.d.ts:14325](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14325)
 
 ___
 
@@ -43,7 +43,7 @@ The id of this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14143](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14143)
+[index.d.ts:14314](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14314)
 
 ___
 
@@ -55,7 +55,7 @@ The label of this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14148](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14148)
+[index.d.ts:14319](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14319)
 
 ___
 
@@ -68,7 +68,7 @@ This group's collection of
 
 #### Defined in
 
-[index.d.ts:14160](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14160)
+[index.d.ts:14331](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14331)
 
 ## Methods
 
@@ -84,4 +84,4 @@ Dispose this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14165](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14165)
+[index.d.ts:14336](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L14336)

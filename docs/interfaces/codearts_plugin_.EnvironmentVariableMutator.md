@@ -23,7 +23,7 @@ The type of mutation that will occur to the variable.
 
 #### Defined in
 
-[index.d.ts:11011](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11011)
+[index.d.ts:11182](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11182)
 
 ___
 
@@ -35,4 +35,4 @@ The value to use for the variable.
 
 #### Defined in
 
-[index.d.ts:11016](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11016)
+[index.d.ts:11187](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11187)

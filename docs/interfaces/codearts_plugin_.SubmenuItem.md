@@ -24,7 +24,7 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:16570](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16570)
+[index.d.ts:16958](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16958)
 
 ___
 
@@ -36,7 +36,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:16575](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16575)
+[index.d.ts:16963](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16963)
 
 ___
 
@@ -48,7 +48,7 @@ Custom menu id.
 
 #### Defined in
 
-[index.d.ts:16555](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16555)
+[index.d.ts:16943](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16943)
 
 ___
 
@@ -60,7 +60,7 @@ Title shown on menu.
 
 #### Defined in
 
-[index.d.ts:16560](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16560)
+[index.d.ts:16948](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16948)
 
 ___
 
@@ -72,4 +72,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:16565](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16565)
+[index.d.ts:16953](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16953)

@@ -27,7 +27,7 @@ Kind for folding range representing a comment.
 
 #### Defined in
 
-[index.d.ts:5054](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5054)
+[index.d.ts:5074](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5074)
 
 ___
 
@@ -39,7 +39,7 @@ Kind for folding range representing a import.
 
 #### Defined in
 
-[index.d.ts:5058](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5058)
+[index.d.ts:5078](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5078)
 
 ___
 
@@ -51,4 +51,4 @@ Kind for folding range representing regions originating from folding markers lik
 
 #### Defined in
 
-[index.d.ts:5062](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5062)
+[index.d.ts:5082](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5082)

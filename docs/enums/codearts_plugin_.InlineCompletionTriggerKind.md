@@ -24,7 +24,7 @@ It is sufficient to return a single completion item in this case.
 
 #### Defined in
 
-[index.d.ts:4602](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4602)
+[index.d.ts:4622](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4622)
 
 ___
 
@@ -37,4 +37,4 @@ Return multiple completion items to enable cycling through them.
 
 #### Defined in
 
-[index.d.ts:4596](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L4596)
+[index.d.ts:4616](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L4616)

@@ -36,4 +36,4 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:1547](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1547)
+[index.d.ts:1547](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1547)

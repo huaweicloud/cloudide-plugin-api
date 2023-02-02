@@ -24,7 +24,7 @@ An array of content changes.
 
 #### Defined in
 
-[index.d.ts:11480](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11480)
+[index.d.ts:11651](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11651)
 
 ___
 
@@ -36,7 +36,7 @@ The affected document.
 
 #### Defined in
 
-[index.d.ts:11475](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11475)
+[index.d.ts:11646](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11646)
 
 ___
 
@@ -49,4 +49,4 @@ Is `undefined` if the reason is not known.
 
 #### Defined in
 
-[index.d.ts:11486](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11486)
+[index.d.ts:11657](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11657)

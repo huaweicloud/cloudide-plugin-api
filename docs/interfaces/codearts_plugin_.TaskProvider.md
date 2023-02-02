@@ -42,7 +42,7 @@ an array of tasks
 
 #### Defined in
 
-[index.d.ts:7591](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7591)
+[index.d.ts:7616](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7616)
 
 ___
 
@@ -77,4 +77,4 @@ The resolved task
 
 #### Defined in
 
-[index.d.ts:7610](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7610)
+[index.d.ts:7635](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7635)

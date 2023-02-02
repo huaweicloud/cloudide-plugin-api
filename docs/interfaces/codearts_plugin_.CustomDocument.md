@@ -29,7 +29,7 @@ The associated uri for this document.
 
 #### Defined in
 
-[index.d.ts:8734](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8734)
+[index.d.ts:8759](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8759)
 
 ## Methods
 
@@ -48,4 +48,4 @@ all editors associated with the document have been closed.)
 
 #### Defined in
 
-[index.d.ts:8742](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8742)
+[index.d.ts:8767](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8767)

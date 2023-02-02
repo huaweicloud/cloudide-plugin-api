@@ -54,7 +54,7 @@ The event listeners can subscribe to.
 
 #### Defined in
 
-[index.d.ts:1620](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1620)
+[index.d.ts:1620](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1620)
 
 ## Methods
 
@@ -70,7 +70,7 @@ Dispose this object and free resources.
 
 #### Defined in
 
-[index.d.ts:1633](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1633)
+[index.d.ts:1633](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1633)
 
 ___
 
@@ -93,4 +93,4 @@ of one or more listener will not fail this function call.
 
 #### Defined in
 
-[index.d.ts:1628](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L1628)
+[index.d.ts:1628](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L1628)

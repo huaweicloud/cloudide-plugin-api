@@ -23,7 +23,7 @@ Added workspace folders.
 
 #### Defined in
 
-[index.d.ts:11749](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11749)
+[index.d.ts:11920](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11920)
 
 ___
 
@@ -35,4 +35,4 @@ Removed workspace folders.
 
 #### Defined in
 
-[index.d.ts:11754](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11754)
+[index.d.ts:11925](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11925)

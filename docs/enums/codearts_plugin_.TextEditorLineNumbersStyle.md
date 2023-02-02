@@ -24,7 +24,7 @@ Do not render the line numbers.
 
 #### Defined in
 
-[index.d.ts:633](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L633)
+[index.d.ts:633](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L633)
 
 ___
 
@@ -36,7 +36,7 @@ Render the line numbers.
 
 #### Defined in
 
-[index.d.ts:637](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L637)
+[index.d.ts:637](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L637)
 
 ___
 
@@ -48,4 +48,4 @@ Render the line numbers with values relative to the primary cursor location.
 
 #### Defined in
 
-[index.d.ts:641](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L641)
+[index.d.ts:641](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L641)

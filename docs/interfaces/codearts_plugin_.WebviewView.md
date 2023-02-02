@@ -32,7 +32,7 @@ Human-readable string which is rendered less prominently in the title.
 
 #### Defined in
 
-[index.d.ts:8594](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8594)
+[index.d.ts:8619](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8619)
 
 ___
 
@@ -51,7 +51,7 @@ Note that hiding a view using the context menu instead disposes of the view and 
 
 #### Defined in
 
-[index.d.ts:8623](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8623)
+[index.d.ts:8648](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8648)
 
 ___
 
@@ -68,7 +68,7 @@ Trying to use the view after it has been disposed throws an exception.
 
 #### Defined in
 
-[index.d.ts:8604](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8604)
+[index.d.ts:8629](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8629)
 
 ___
 
@@ -82,7 +82,7 @@ The view title is initially taken from the extension `package.json` contribution
 
 #### Defined in
 
-[index.d.ts:8589](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8589)
+[index.d.ts:8614](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8614)
 
 ___
 
@@ -94,7 +94,7 @@ Identifies the type of the webview view, such as `'hexEditor.dataView'`.
 
 #### Defined in
 
-[index.d.ts:8577](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8577)
+[index.d.ts:8602](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8602)
 
 ___
 
@@ -108,7 +108,7 @@ Views are visible when they are on the screen and expanded.
 
 #### Defined in
 
-[index.d.ts:8611](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8611)
+[index.d.ts:8636](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8636)
 
 ___
 
@@ -120,7 +120,7 @@ The underlying webview for the view.
 
 #### Defined in
 
-[index.d.ts:8582](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8582)
+[index.d.ts:8607](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8607)
 
 ## Methods
 
@@ -144,4 +144,4 @@ If the view is collapsed, this will expand it.
 
 #### Defined in
 
-[index.d.ts:8632](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8632)
+[index.d.ts:8657](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8657)

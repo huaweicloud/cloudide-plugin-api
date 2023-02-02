@@ -22,7 +22,7 @@ Represents the severity of a language status item.
 
 #### Defined in
 
-[index.d.ts:6074](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6074)
+[index.d.ts:6094](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6094)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6072](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6072)
+[index.d.ts:6092](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6092)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:6073](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L6073)
+[index.d.ts:6093](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L6093)

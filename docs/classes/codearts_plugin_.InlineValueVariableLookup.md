@@ -38,7 +38,7 @@ Creates a new InlineValueVariableLookup object.
 
 #### Defined in
 
-[index.d.ts:2973](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2973)
+[index.d.ts:2973](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2973)
 
 ## Properties
 
@@ -50,7 +50,7 @@ How to perform the lookup.
 
 #### Defined in
 
-[index.d.ts:2965](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2965)
+[index.d.ts:2965](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2965)
 
 ___
 
@@ -63,7 +63,7 @@ The range is used to extract the variable name from the underlying document.
 
 #### Defined in
 
-[index.d.ts:2957](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2957)
+[index.d.ts:2957](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2957)
 
 ___
 
@@ -75,4 +75,4 @@ If specified the name of the variable to look up.
 
 #### Defined in
 
-[index.d.ts:2961](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L2961)
+[index.d.ts:2961](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L2961)

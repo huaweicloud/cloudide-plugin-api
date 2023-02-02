@@ -23,7 +23,7 @@ Icon for the button.
 
 #### Defined in
 
-[index.d.ts:11395](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11395)
+[index.d.ts:11566](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11566)
 
 ___
 
@@ -35,4 +35,4 @@ An optional tooltip.
 
 #### Defined in
 
-[index.d.ts:11400](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11400)
+[index.d.ts:11571](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11571)

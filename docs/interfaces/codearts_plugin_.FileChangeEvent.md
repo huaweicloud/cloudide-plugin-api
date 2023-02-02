@@ -23,7 +23,7 @@ The type of change.
 
 #### Defined in
 
-[index.d.ts:7933](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7933)
+[index.d.ts:7958](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7958)
 
 ___
 
@@ -35,4 +35,4 @@ The uri of the file that has changed.
 
 #### Defined in
 
-[index.d.ts:7938](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7938)
+[index.d.ts:7963](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7963)

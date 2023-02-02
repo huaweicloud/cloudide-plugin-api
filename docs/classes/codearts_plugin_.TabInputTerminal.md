@@ -22,4 +22,4 @@ Constructs a terminal tab input.
 
 #### Defined in
 
-[index.d.ts:16236](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L16236)
+[index.d.ts:16407](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L16407)

@@ -31,7 +31,7 @@ The files that are going to be deleted.
 
 #### Defined in
 
-[index.d.ts:11639](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11639)
+[index.d.ts:11810](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11810)
 
 ___
 
@@ -43,7 +43,7 @@ A cancellation token.
 
 #### Defined in
 
-[index.d.ts:11634](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11634)
+[index.d.ts:11805](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11805)
 
 ## Methods
 
@@ -78,7 +78,7 @@ workspace.onWillCreateFiles(event => {
 
 #### Defined in
 
-[index.d.ts:11659](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11659)
+[index.d.ts:11830](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11830)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -98,4 +98,4 @@ Allows to pause the event until the provided thenable resolves.
 
 #### Defined in
 
-[index.d.ts:11668](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11668)
+[index.d.ts:11839](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11839)

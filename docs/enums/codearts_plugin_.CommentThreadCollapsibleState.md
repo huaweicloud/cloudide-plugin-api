@@ -23,7 +23,7 @@ Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:14975](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14975)
+[index.d.ts:15146](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15146)
 
 ___
 
@@ -35,4 +35,4 @@ Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:14980](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L14980)
+[index.d.ts:15151](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L15151)

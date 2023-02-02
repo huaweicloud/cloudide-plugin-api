@@ -40,4 +40,4 @@ Handle the provided system-wide [Uri](../classes/codearts_plugin_.Uri.md).
 
 #### Defined in
 
-[index.d.ts:9328](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L9328)
+[index.d.ts:9358](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L9358)

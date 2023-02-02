@@ -24,4 +24,4 @@ The task item representing the task that finished.
 
 #### Defined in
 
-[index.d.ts:7652](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L7652)
+[index.d.ts:7677](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L7677)

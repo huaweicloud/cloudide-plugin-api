@@ -23,7 +23,7 @@ The block comment character pair, like `/* block comment *&#47;`
 
 #### Defined in
 
-[index.d.ts:5438](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5438)
+[index.d.ts:5458](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5458)
 
 ___
 
@@ -35,4 +35,4 @@ The line comment token, like `// this is a comment`
 
 #### Defined in
 
-[index.d.ts:5433](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L5433)
+[index.d.ts:5453](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L5453)

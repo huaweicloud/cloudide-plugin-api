@@ -26,7 +26,7 @@ progress but does not support rendering of icons.
 
 #### Defined in
 
-[index.d.ts:11116](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11116)
+[index.d.ts:11287](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11287)
 
 ___
 
@@ -40,7 +40,7 @@ a label to describe the operation.
 
 #### Defined in
 
-[index.d.ts:11104](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11104)
+[index.d.ts:11275](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11275)
 
 ___
 
@@ -53,4 +53,4 @@ Supports rendering of [theme icons](../classes/codearts_plugin_.ThemeIcon.md) vi
 
 #### Defined in
 
-[index.d.ts:11110](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L11110)
+[index.d.ts:11281](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L11281)

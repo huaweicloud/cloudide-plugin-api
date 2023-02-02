@@ -48,7 +48,7 @@ Trying to use the container after it has been disposed throws an exception.
 
 #### Defined in
 
-[index.d.ts:8498](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8498)
+[index.d.ts:8523](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8523)
 
 ___
 
@@ -60,7 +60,7 @@ Identifies the type of the webview container.
 
 #### Defined in
 
-[index.d.ts:8478](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8478)
+[index.d.ts:8503](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8503)
 
 ___
 
@@ -72,7 +72,7 @@ Webview of the container.
 
 #### Defined in
 
-[index.d.ts:8488](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8488)
+[index.d.ts:8513](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8513)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Dispose of the container.
 
 #### Defined in
 
-[index.d.ts:8483](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8483)
+[index.d.ts:8508](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8508)
 
 ___
 
@@ -114,4 +114,4 @@ method moves it to a new column.
 
 #### Defined in
 
-[index.d.ts:8509](https://github.com/huaweicloud/cloudide-plugin-api/blob/5055bbd/index.d.ts#L8509)
+[index.d.ts:8534](https://github.com/huaweicloud/cloudide-plugin-api/blob/4d28848/index.d.ts#L8534)
