@@ -28,6 +28,6 @@ Options to configure the behavior of the message.
 
 • `Optional` **modal**: boolean
 
-*Defined in [index.d.ts:1807](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1807)*
+*Defined in [index.d.ts:1963](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1963)*
 
 Indicates that this message should be modal.

@@ -32,7 +32,7 @@ An individual terminal instance within the integrated terminal.
 
 • `Readonly` **creationOptions**: Readonly\<[TerminalOptions](_index_d_._plugin_.terminaloptions.md) \| [ExtensionTerminalOptions](_index_d_._plugin_.extensionterminaloptions.md)>
 
-*Defined in [index.d.ts:5306](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5306)*
+*Defined in [index.d.ts:5638](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5638)*
 
 The object used to initialize the terminal, this is useful for example to detecting the
 shell type of when the terminal was not launched by this extension or for detecting what
@@ -44,7 +44,7 @@ ___
 
 • `Readonly` **exitStatus**: [TerminalExitStatus](_index_d_._plugin_.terminalexitstatus.md) \| undefined
 
-*Defined in [index.d.ts:5321](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5321)*
+*Defined in [index.d.ts:5653](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5653)*
 
 The exit status of the terminal, this will be undefined while the terminal is active.
 
@@ -64,7 +64,7 @@ ___
 
 • `Readonly` **name**: string
 
-*Defined in [index.d.ts:5294](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5294)*
+*Defined in [index.d.ts:5626](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5626)*
 
 The name of the terminal.
 
@@ -74,7 +74,7 @@ ___
 
 • `Readonly` **processId**: [Thenable](_index_d_.thenable.md)\<number \| undefined>
 
-*Defined in [index.d.ts:5299](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5299)*
+*Defined in [index.d.ts:5631](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5631)*
 
 The process ID of the shell process.
 
@@ -84,7 +84,7 @@ The process ID of the shell process.
 
 ▸ **dispose**(): void
 
-*Defined in [index.d.ts:5349](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5349)*
+*Defined in [index.d.ts:5681](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5681)*
 
 Dispose and free associated resources.
 
@@ -96,7 +96,7 @@ ___
 
 ▸ **hide**(): void
 
-*Defined in [index.d.ts:5344](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5344)*
+*Defined in [index.d.ts:5676](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5676)*
 
 Hide the terminal panel if this terminal is currently showing.
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **sendText**(`text`: string, `addNewLine?`: boolean): void
 
-*Defined in [index.d.ts:5332](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5332)*
+*Defined in [index.d.ts:5664](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5664)*
 
 Send text to the terminal. The text is written to the stdin of the underlying pty process
 (shell) of the terminal.
@@ -128,7 +128,7 @@ ___
 
 ▸ **show**(`preserveFocus?`: boolean): void
 
-*Defined in [index.d.ts:5339](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5339)*
+*Defined in [index.d.ts:5671](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5671)*
 
 Show the terminal panel and reveal this terminal in the UI.
 

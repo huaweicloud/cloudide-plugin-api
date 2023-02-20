@@ -23,7 +23,7 @@ The clipboard provides read and write access to the system's clipboard.
 
 ▸ **readText**(): [Thenable](_index_d_.thenable.md)\<string>
 
-*Defined in [index.d.ts:6943](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6943)*
+*Defined in [index.d.ts:7957](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7957)*
 
 Read the current clipboard contents as text.
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **writeText**(`value`: string): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6949](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6949)*
+*Defined in [index.d.ts:7963](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7963)*
 
 Writes text into the clipboard.
 

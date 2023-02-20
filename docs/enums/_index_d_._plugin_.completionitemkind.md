@@ -44,7 +44,7 @@ Completion item kinds.
 
 •  **Class**:  = 6
 
-*Defined in [index.d.ts:3692](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3692)*
+*Defined in [index.d.ts:3922](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3922)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 •  **Color**:  = 15
 
-*Defined in [index.d.ts:3701](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3701)*
+*Defined in [index.d.ts:3931](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3931)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 •  **Constant**:  = 20
 
-*Defined in [index.d.ts:3706](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3706)*
+*Defined in [index.d.ts:3936](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3936)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 •  **Constructor**:  = 3
 
-*Defined in [index.d.ts:3689](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3689)*
+*Defined in [index.d.ts:3919](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3919)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 •  **Enum**:  = 12
 
-*Defined in [index.d.ts:3698](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3698)*
+*Defined in [index.d.ts:3928](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3928)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 •  **EnumMember**:  = 19
 
-*Defined in [index.d.ts:3705](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3705)*
+*Defined in [index.d.ts:3935](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3935)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 •  **Event**:  = 22
 
-*Defined in [index.d.ts:3708](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3708)*
+*Defined in [index.d.ts:3938](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3938)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 •  **Field**:  = 4
 
-*Defined in [index.d.ts:3690](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3690)*
+*Defined in [index.d.ts:3920](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3920)*
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 •  **File**:  = 16
 
-*Defined in [index.d.ts:3703](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3703)*
+*Defined in [index.d.ts:3933](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3933)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 •  **Folder**:  = 18
 
-*Defined in [index.d.ts:3704](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3704)*
+*Defined in [index.d.ts:3934](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3934)*
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 •  **Function**:  = 2
 
-*Defined in [index.d.ts:3688](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3688)*
+*Defined in [index.d.ts:3918](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3918)*
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 •  **Interface**:  = 7
 
-*Defined in [index.d.ts:3693](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3693)*
+*Defined in [index.d.ts:3923](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3923)*
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 •  **Issue**:  = 26
 
-*Defined in [index.d.ts:3712](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3712)*
+*Defined in [index.d.ts:3942](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3942)*
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 •  **Keyword**:  = 13
 
-*Defined in [index.d.ts:3699](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3699)*
+*Defined in [index.d.ts:3929](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3929)*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 •  **Method**:  = 1
 
-*Defined in [index.d.ts:3687](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3687)*
+*Defined in [index.d.ts:3917](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3917)*
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 •  **Module**:  = 8
 
-*Defined in [index.d.ts:3694](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3694)*
+*Defined in [index.d.ts:3924](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3924)*
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 •  **Operator**:  = 23
 
-*Defined in [index.d.ts:3709](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3709)*
+*Defined in [index.d.ts:3939](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3939)*
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 •  **Property**:  = 9
 
-*Defined in [index.d.ts:3695](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3695)*
+*Defined in [index.d.ts:3925](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3925)*
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 •  **Reference**:  = 17
 
-*Defined in [index.d.ts:3702](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3702)*
+*Defined in [index.d.ts:3932](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3932)*
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 •  **Snippet**:  = 14
 
-*Defined in [index.d.ts:3700](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3700)*
+*Defined in [index.d.ts:3930](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3930)*
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 •  **Struct**:  = 21
 
-*Defined in [index.d.ts:3707](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3707)*
+*Defined in [index.d.ts:3937](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3937)*
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 •  **Text**:  = 0
 
-*Defined in [index.d.ts:3686](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3686)*
+*Defined in [index.d.ts:3916](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3916)*
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 •  **TypeParameter**:  = 24
 
-*Defined in [index.d.ts:3710](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3710)*
+*Defined in [index.d.ts:3940](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3940)*
 
 ___
 
@@ -228,7 +228,7 @@ ___
 
 •  **Unit**:  = 10
 
-*Defined in [index.d.ts:3696](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3696)*
+*Defined in [index.d.ts:3926](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3926)*
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 •  **User**:  = 25
 
-*Defined in [index.d.ts:3711](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3711)*
+*Defined in [index.d.ts:3941](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3941)*
 
 ___
 
@@ -244,7 +244,7 @@ ___
 
 •  **Value**:  = 11
 
-*Defined in [index.d.ts:3697](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3697)*
+*Defined in [index.d.ts:3927](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3927)*
 
 ___
 
@@ -252,4 +252,4 @@ ___
 
 •  **Variable**:  = 5
 
-*Defined in [index.d.ts:3691](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3691)*
+*Defined in [index.d.ts:3921](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3921)*

@@ -31,7 +31,7 @@ Options to configure the behavior of the input box UI.
 
 • `Optional` **ignoreFocusOut**: boolean
 
-*Defined in [index.d.ts:1846](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1846)*
+*Defined in [index.d.ts:2002](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2002)*
 
 Set to `true` to keep the input box open when focus moves to another part of the editor or to another window.
 
@@ -41,7 +41,7 @@ ___
 
 • `Optional` **password**: boolean
 
-*Defined in [index.d.ts:1841](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1841)*
+*Defined in [index.d.ts:1997](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1997)*
 
 Controls if a password input is shown. Password input hides the typed text.
 
@@ -51,7 +51,7 @@ ___
 
 • `Optional` **placeHolder**: string
 
-*Defined in [index.d.ts:1836](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1836)*
+*Defined in [index.d.ts:1992](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1992)*
 
 An optional string to show as placeholder in the input box to guide the user what to type.
 
@@ -61,7 +61,7 @@ ___
 
 • `Optional` **prompt**: string
 
-*Defined in [index.d.ts:1831](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1831)*
+*Defined in [index.d.ts:1987](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1987)*
 
 The text to display underneath the input box.
 
@@ -71,7 +71,7 @@ ___
 
 • `Optional` **value**: string
 
-*Defined in [index.d.ts:1818](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1818)*
+*Defined in [index.d.ts:1974](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1974)*
 
 The value to prefill in the input box.
 
@@ -81,7 +81,7 @@ ___
 
 • `Optional` **valueSelection**: [number, number]
 
-*Defined in [index.d.ts:1826](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1826)*
+*Defined in [index.d.ts:1982](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1982)*
 
 Selection of the prefilled [`value`](#InputBoxOptions.value). Defined as tuple of two number where the
 first is the inclusive start index and the second the exclusive end index. When `undefined` the whole
@@ -94,7 +94,7 @@ otherwise the defined range will be selected.
 
 ▸ `Optional`**validateInput**(`value`: string): string \| undefined \| null \| [Thenable](_index_d_.thenable.md)\<string \| undefined \| null>
 
-*Defined in [index.d.ts:1856](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1856)*
+*Defined in [index.d.ts:2012](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2012)*
 
 An optional function that will be called to validate input and to give a hint
 to the user.

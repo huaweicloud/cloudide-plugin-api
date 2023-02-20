@@ -53,7 +53,7 @@ applied as provided.
 
 \+ **new CompletionItem**(`label`: string, `kind?`: [CompletionItemKind](../enums/_index_d_._plugin_.completionitemkind.md)): [CompletionItem](_index_d_._plugin_.completionitem.md)
 
-*Defined in [index.d.ts:3851](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3851)*
+*Defined in [index.d.ts:4091](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4091)*
 
 Creates a new completion item.
 
@@ -75,7 +75,7 @@ Name | Type | Description |
 
 • `Optional` **additionalTextEdits**: [TextEdit](_index_d_._plugin_.textedit.md)[]
 
-*Defined in [index.d.ts:3844](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3844)*
+*Defined in [index.d.ts:4084](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4084)*
 
 An optional array of additional [text edits](#TextEdit) that are applied when
 selecting this completion. Edits must not overlap with the main [edit](#CompletionItem.textEdit)
@@ -87,7 +87,7 @@ ___
 
 • `Optional` **command**: [Command](../interfaces/_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:3851](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3851)*
+*Defined in [index.d.ts:4091](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4091)*
 
 An optional [command](#Command) that is executed *after* inserting this completion. *Note* that
 additional modifications to the current document should be described with the
@@ -99,7 +99,7 @@ ___
 
 • `Optional` **commitCharacters**: string[]
 
-*Defined in [index.d.ts:3818](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3818)*
+*Defined in [index.d.ts:4058](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4058)*
 
 An optional set of characters that when pressed while this completion is active will accept it first and
 then type that character. *Note* that all commit characters should have `length=1` and that superfluous
@@ -111,7 +111,7 @@ ___
 
 • `Optional` **detail**: string
 
-*Defined in [index.d.ts:3765](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3765)*
+*Defined in [index.d.ts:3995](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3995)*
 
 A human-readable string with additional information
 about this item, like type or symbol information.
@@ -122,7 +122,7 @@ ___
 
 • `Optional` **documentation**: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md)
 
-*Defined in [index.d.ts:3770](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3770)*
+*Defined in [index.d.ts:4000](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4000)*
 
 A human-readable string that represents a doc-comment.
 
@@ -132,11 +132,14 @@ ___
 
 • `Optional` **filterText**: string
 
-*Defined in [index.d.ts:3784](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3784)*
+*Defined in [index.d.ts:4024](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4024)*
 
 A string that should be used when filtering a set of
 completion items. When `falsy` the [label](#CompletionItem.label)
 is used.
+
+Note that the filter text is matched against the leading word (prefix) which is defined
+by the [`range`](#CompletionItem.range)-property.
 
 ___
 
@@ -144,7 +147,7 @@ ___
 
 • `Optional` **insertText**: string \| [SnippetString](_index_d_._plugin_.snippetstring.md)
 
-*Defined in [index.d.ts:3798](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3798)*
+*Defined in [index.d.ts:4038](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4038)*
 
 A string or snippet that should be inserted in a document when selecting
 this completion. When `falsy` the [label](#CompletionItem.label)
@@ -156,7 +159,7 @@ ___
 
 • `Optional` **keepWhitespace**: boolean
 
-*Defined in [index.d.ts:3825](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3825)*
+*Defined in [index.d.ts:4065](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4065)*
 
 Keep whitespace of the [insertText](#CompletionItem.insertText) as is. By default, the editor adjusts leading
 whitespace of new lines so that they match the indentation of the line for which the item is accepted - setting
@@ -168,7 +171,7 @@ ___
 
 • `Optional` **kind**: [CompletionItemKind](../enums/_index_d_._plugin_.completionitemkind.md)
 
-*Defined in [index.d.ts:3754](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3754)*
+*Defined in [index.d.ts:3984](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3984)*
 
 The kind of this completion item. Based on the kind
 an icon is chosen by the editor.
@@ -179,7 +182,7 @@ ___
 
 •  **label**: string
 
-*Defined in [index.d.ts:3748](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3748)*
+*Defined in [index.d.ts:3978](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3978)*
 
 The label of this completion item. By default
 this is also the text that is inserted when selecting
@@ -191,7 +194,7 @@ ___
 
 • `Optional` **preselect**: boolean
 
-*Defined in [index.d.ts:3791](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3791)*
+*Defined in [index.d.ts:4031](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4031)*
 
 Select this item when showing. *Note* that only one completion item can be selected and
 that the editor decides which item that is. The rule is that the *first* item of those
@@ -203,7 +206,7 @@ ___
 
 • `Optional` **range**: [Range](_index_d_._plugin_.range.md) \| { inserting: [Range](_index_d_._plugin_.range.md) ; replacing: [Range](_index_d_._plugin_.range.md)  }
 
-*Defined in [index.d.ts:3811](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3811)*
+*Defined in [index.d.ts:4051](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4051)*
 
 A range or a insert and replace range selecting the text that should be replaced by this completion item.
 
@@ -221,11 +224,18 @@ ___
 
 • `Optional` **sortText**: string
 
-*Defined in [index.d.ts:3777](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3777)*
+*Defined in [index.d.ts:4014](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4014)*
 
 A string that should be used when comparing this item
 with other items. When `falsy` the [label](#CompletionItem.label)
 is used.
+
+Note that `sortText` is only used for the initial ordering of completion
+items. When having a leading word (prefix) ordering is based on how
+well completions match that prefix and the initial ordering is only used
+when completions match equally well. The prefix is defined by the
+[`range`](#CompletionItem.range)-property and can therefore be different
+for each completion.
 
 ___
 
@@ -233,7 +243,7 @@ ___
 
 • `Optional` **tags**: ReadonlyArray\<[CompletionItemTag](../enums/_index_d_._plugin_.completionitemtag.md)>
 
-*Defined in [index.d.ts:3759](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3759)*
+*Defined in [index.d.ts:3989](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3989)*
 
 Tags for this completion item.
 
@@ -243,13 +253,13 @@ ___
 
 • `Optional` **textEdit**: [TextEdit](_index_d_._plugin_.textedit.md)
 
-*Defined in [index.d.ts:3837](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3837)*
+*Defined in [index.d.ts:4077](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4077)*
 
 **`deprecated`** Use `CompletionItem.insertText` and `CompletionItem.range` instead.
 
-~~An [edit](#TextEdit) which is applied to a document when selecting
+An [edit](#TextEdit) which is applied to a document when selecting
 this completion. When an edit is provided the value of
-[insertText](#CompletionItem.insertText) is ignored.~~
+[insertText](#CompletionItem.insertText) is ignored.
 
-~~The [range](#Range) of the edit must be single-line and on the same
-line completions were [requested](#CompletionItemProvider.provideCompletionItems) at.~~
+The [range](#Range) of the edit must be single-line and on the same
+line completions were [requested](#CompletionItemProvider.provideCompletionItems) at.

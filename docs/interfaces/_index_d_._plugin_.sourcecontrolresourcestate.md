@@ -16,6 +16,7 @@ resource within a certain [source control group](#SourceControlResourceGroup).
 ### Properties
 
 * [command](_index_d_._plugin_.sourcecontrolresourcestate.md#command)
+* [contextValue](_index_d_._plugin_.sourcecontrolresourcestate.md#contextvalue)
 * [decorations](_index_d_._plugin_.sourcecontrolresourcestate.md#decorations)
 * [resourceUri](_index_d_._plugin_.sourcecontrolresourcestate.md#resourceuri)
 
@@ -25,10 +26,35 @@ resource within a certain [source control group](#SourceControlResourceGroup).
 
 • `Optional` `Readonly` **command**: [Command](_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:9946](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9946)*
+*Defined in [index.d.ts:11356](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11356)*
 
 The [command](#Command) which should be run when the resource
 state is open in the Source Control viewlet.
+
+___
+
+### contextValue
+
+• `Optional` `Readonly` **contextValue**: string
+
+*Defined in [index.d.ts:11382](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11382)*
+
+Context value of the resource state. This can be used to contribute resource specific actions.
+For example, if a resource is given a context value as `diffable`. When contributing actions to `scm/resourceState/context`
+using `menus` extension point, you can specify context value for key `scmResourceState` in `when` expressions, like `scmResourceState == diffable`.
+```
+	"contributes": {
+		"menus": {
+			"scm/resourceState/context": [
+				{
+					"command": "extension.diff",
+					"when": "scmResourceState == diffable"
+				}
+			]
+		}
+	}
+```
+This will show action `extension.diff` only for resources with `contextValue` is `diffable`.
 
 ___
 
@@ -36,7 +62,7 @@ ___
 
 • `Optional` `Readonly` **decorations**: [SourceControlResourceDecorations](_index_d_._plugin_.sourcecontrolresourcedecorations.md)
 
-*Defined in [index.d.ts:9952](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9952)*
+*Defined in [index.d.ts:11362](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11362)*
 
 The [decorations](#SourceControlResourceDecorations) for this source control
 resource state.
@@ -47,6 +73,6 @@ ___
 
 • `Readonly` **resourceUri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:9940](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9940)*
+*Defined in [index.d.ts:11350](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11350)*
 
 The [uri](#Uri) of the underlying resource inside the workspace.

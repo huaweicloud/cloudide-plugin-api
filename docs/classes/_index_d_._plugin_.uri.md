@@ -41,7 +41,7 @@ or another resource, like untitled resources.
 
 \+ `Private`**new Uri**(`scheme`: string, `authority`: string, `path`: string, `query`: string, `fragment`: string): [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1309](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1309)*
+*Defined in [index.d.ts:1433](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1433)*
 
 Use the `file` and `parse` factory functions to create new `Uri` objects.
 
@@ -63,7 +63,7 @@ Name | Type |
 
 • `Readonly` **authority**: string
 
-*Defined in [index.d.ts:1326](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1326)*
+*Defined in [index.d.ts:1450](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1450)*
 
 Authority is the `www.msft.com` part of `http://www.msft.com/some/path?query#fragment`.
 The part between the first double slashes and the next slash.
@@ -74,7 +74,7 @@ ___
 
 • `Readonly` **fragment**: string
 
-*Defined in [index.d.ts:1341](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1341)*
+*Defined in [index.d.ts:1465](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1465)*
 
 Fragment is the `fragment` part of `http://www.msft.com/some/path?query#fragment`.
 
@@ -84,7 +84,7 @@ ___
 
 • `Readonly` **fsPath**: string
 
-*Defined in [index.d.ts:1363](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1363)*
+*Defined in [index.d.ts:1487](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1487)*
 
 The string representing the corresponding file system path of this Uri.
 
@@ -111,7 +111,7 @@ ___
 
 • `Readonly` **path**: string
 
-*Defined in [index.d.ts:1331](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1331)*
+*Defined in [index.d.ts:1455](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1455)*
 
 Path is the `/some/path` part of `http://www.msft.com/some/path?query#fragment`.
 
@@ -121,7 +121,7 @@ ___
 
 • `Readonly` **query**: string
 
-*Defined in [index.d.ts:1336](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1336)*
+*Defined in [index.d.ts:1460](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1460)*
 
 Query is the `query` part of `http://www.msft.com/some/path?query#fragment`.
 
@@ -131,7 +131,7 @@ ___
 
 • `Readonly` **scheme**: string
 
-*Defined in [index.d.ts:1320](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1320)*
+*Defined in [index.d.ts:1444](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1444)*
 
 Scheme is the `http` part of `http://www.msft.com/some/path?query#fragment`.
 The part before the first colon.
@@ -142,7 +142,7 @@ The part before the first colon.
 
 ▸ **toJSON**(): any
 
-*Defined in [index.d.ts:1405](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1405)*
+*Defined in [index.d.ts:1529](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1529)*
 
 Returns a JSON representation of this Uri.
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **toString**(`skipEncoding?`: boolean): string
 
-*Defined in [index.d.ts:1398](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1398)*
+*Defined in [index.d.ts:1522](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1522)*
 
 Returns a string representation of this Uri. The representation and normalization
 of a URI depends on the scheme.
@@ -186,7 +186,7 @@ ___
 
 ▸ **with**(`change`: { authority?: string ; fragment?: string ; path?: string ; query?: string ; scheme?: string  }): [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1379](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1379)*
+*Defined in [index.d.ts:1503](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1503)*
 
 Derive a new Uri from this Uri.
 
@@ -213,7 +213,7 @@ ___
 
 ▸ `Static`**file**(`path`: string): [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1287](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1287)*
+*Defined in [index.d.ts:1411](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1411)*
 
 Create an URI from a file system path. The [scheme](#Uri.scheme)
 will be `file`.
@@ -250,7 +250,7 @@ ___
 
 ▸ `Static`**joinPath**(`base`: [Uri](_index_d_._plugin_.uri.md), ...`pathSegments`: string[]): [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1309](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1309)*
+*Defined in [index.d.ts:1433](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1433)*
 
 Create a new uri which path is the result of joining
 the path of the base uri with the provided path segments.
@@ -263,7 +263,7 @@ left as they are.
 The path segments are normalized in the following ways:
 - sequences of path separators (`/` or `\`) are replaced with a single separator
 - for `file`-uris on windows, the backslash-character (`\`) is considered a path-separator
-- the `..`-segment denotes the parent segment, the `.` denotes the current segement
+- the `..`-segment denotes the parent segment, the `.` denotes the current segment
 - paths have a root which always remains, for instance on windows drive-letters are roots
 so that is true: `joinPath(Uri.file('file:///c:/root'), '../../other').fsPath === 'c:/other'`
 
@@ -284,7 +284,7 @@ ___
 
 ▸ `Static`**parse**(`value`: string, `strict?`: boolean): [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:1262](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1262)*
+*Defined in [index.d.ts:1386](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1386)*
 
 Create an URI from a string, e.g. `http://www.msft.com/some/path`,
 `file:///usr/home`, or `scheme:with/path`.

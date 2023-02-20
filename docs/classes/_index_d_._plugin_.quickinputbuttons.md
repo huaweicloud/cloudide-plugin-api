@@ -22,7 +22,7 @@ Predefined buttons for [QuickPick](#QuickPick) and [InputBox](#InputBox).
 
 ▪ `Static` `Readonly` **Back**: [QuickInputButton](../interfaces/_index_d_._plugin_.quickinputbutton.md)
 
-*Defined in [index.d.ts:8603](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8603)*
+*Defined in [index.d.ts:9993](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9993)*
 
 A back button for [QuickPick](#QuickPick) and [InputBox](#InputBox).
 

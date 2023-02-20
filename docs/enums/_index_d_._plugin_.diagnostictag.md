@@ -19,7 +19,7 @@ Additional metadata about the type of a diagnostic.
 
 •  **Deprecated**:  = 2
 
-*Defined in [index.d.ts:4923](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4923)*
+*Defined in [index.d.ts:5220](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5220)*
 
 Deprecated or obsolete code.
 
@@ -31,7 +31,7 @@ ___
 
 •  **Unnecessary**:  = 1
 
-*Defined in [index.d.ts:4916](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4916)*
+*Defined in [index.d.ts:5213](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L5213)*
 
 Unused or unnecessary code.
 

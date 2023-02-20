@@ -23,7 +23,7 @@ The event filesystem providers must use to signal a file change.
 
 • `Readonly` **type**: [FileChangeType](../enums/_index_d_._plugin_.filechangetype.md)
 
-*Defined in [index.d.ts:6363](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6363)*
+*Defined in [index.d.ts:6975](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6975)*
 
 The type of change.
 
@@ -33,6 +33,6 @@ ___
 
 • `Readonly` **uri**: [Uri](../classes/_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:6368](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6368)*
+*Defined in [index.d.ts:6980](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6980)*
 
 The uri of the file that has changed.

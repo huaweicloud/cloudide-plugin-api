@@ -46,7 +46,7 @@ can also trigger code actions with a specific kind with the `editor.action.codeA
 
 \+ `Private`**new CodeActionKind**(`value`: string): [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2069](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2069)*
+*Defined in [index.d.ts:2244](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2244)*
 
 #### Parameters:
 
@@ -62,7 +62,7 @@ Name | Type |
 
 • `Readonly` **value**: string
 
-*Defined in [index.d.ts:2076](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2076)*
+*Defined in [index.d.ts:2251](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2251)*
 
 String value of the kind, e.g. `"refactor.extract.function"`.
 
@@ -72,7 +72,7 @@ ___
 
 ▪ `Static` `Readonly` **Empty**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:1994](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1994)*
+*Defined in [index.d.ts:2169](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2169)*
 
 Empty kind.
 
@@ -82,7 +82,7 @@ ___
 
 ▪ `Static` `Readonly` **QuickFix**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2001](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2001)*
+*Defined in [index.d.ts:2176](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2176)*
 
 Base kind for quickfix actions: `quickfix`.
 
@@ -94,7 +94,7 @@ ___
 
 ▪ `Static` `Readonly` **Refactor**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2008](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2008)*
+*Defined in [index.d.ts:2183](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2183)*
 
 Base kind for refactoring actions: `refactor`
 
@@ -106,7 +106,7 @@ ___
 
 ▪ `Static` `Readonly` **RefactorExtract**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2021](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2021)*
+*Defined in [index.d.ts:2196](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2196)*
 
 Base kind for refactoring extraction actions: `refactor.extract`
 
@@ -124,7 +124,7 @@ ___
 
 ▪ `Static` `Readonly` **RefactorInline**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2033](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2033)*
+*Defined in [index.d.ts:2208](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2208)*
 
 Base kind for refactoring inline actions: `refactor.inline`
 
@@ -141,7 +141,7 @@ ___
 
 ▪ `Static` `Readonly` **RefactorRewrite**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2047](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2047)*
+*Defined in [index.d.ts:2222](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2222)*
 
 Base kind for refactoring rewrite actions: `refactor.rewrite`
 
@@ -160,7 +160,7 @@ ___
 
 ▪ `Static` `Readonly` **Source**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2056](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2056)*
+*Defined in [index.d.ts:2231](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2231)*
 
 Base kind for source actions: `source`
 
@@ -174,7 +174,7 @@ ___
 
 ▪ `Static` `Readonly` **SourceFixAll**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2069](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2069)*
+*Defined in [index.d.ts:2244](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2244)*
 
 Base kind for auto-fix source actions: `source.fixAll`.
 
@@ -187,7 +187,7 @@ ___
 
 ▪ `Static` `Readonly` **SourceOrganizeImports**: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2061](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2061)*
+*Defined in [index.d.ts:2236](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2236)*
 
 Base kind for an organize imports source action: `source.organizeImports`.
 
@@ -197,7 +197,7 @@ Base kind for an organize imports source action: `source.organizeImports`.
 
 ▸ **append**(`parts`: string): [CodeActionKind](_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2083](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2083)*
+*Defined in [index.d.ts:2258](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2258)*
 
 Create a new kind by appending a more specific selector to the current kind.
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **contains**(`other`: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)): boolean
 
-*Defined in [index.d.ts:2103](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2103)*
+*Defined in [index.d.ts:2278](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2278)*
 
 Checks if `other` is a sub-kind of this `CodeActionKind`.
 
@@ -238,7 +238,7 @@ ___
 
 ▸ **intersects**(`other`: [CodeActionKind](_index_d_._plugin_.codeactionkind.md)): boolean
 
-*Defined in [index.d.ts:2093](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2093)*
+*Defined in [index.d.ts:2268](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2268)*
 
 Checks if this code action kind intersects `other`.
 

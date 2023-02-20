@@ -19,7 +19,7 @@ Debug console mode used by debug session, see [options](#DebugSessionOptions).
 
 •  **MergeWithParent**:  = 1
 
-*Defined in [index.d.ts:10500](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10500)*
+*Defined in [index.d.ts:11968](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11968)*
 
 Debug session should share debug console with its parent session.
 This value has no effect for sessions which do not have a parent session.
@@ -30,6 +30,6 @@ ___
 
 •  **Separate**:  = 0
 
-*Defined in [index.d.ts:10494](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10494)*
+*Defined in [index.d.ts:11962](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11962)*
 
 Debug session should have a separate debug console.

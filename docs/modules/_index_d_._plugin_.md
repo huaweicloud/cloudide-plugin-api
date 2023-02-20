@@ -4,13 +4,14 @@
 
 # Module: "plugin"
 
-Copyright (C) 2020. Huawei Technologies Co., Ltd. All rights reserved.
+Copyright (C) 2021. Huawei Technologies Co., Ltd. All rights reserved.
 SPDX-License-Identifier: MIT
 
 ## Index
 
 ### Namespaces
 
+* [authentication](_index_d_._plugin_.authentication.md)
 * [commands](_index_d_._plugin_.commands.md)
 * [comments](_index_d_._plugin_.comments.md)
 * [debug](_index_d_._plugin_.debug.md)
@@ -31,13 +32,16 @@ SPDX-License-Identifier: MIT
 * [CompletionItemTag](../enums/_index_d_._plugin_.completionitemtag.md)
 * [CompletionTriggerKind](../enums/_index_d_._plugin_.completiontriggerkind.md)
 * [ConfigurationTarget](../enums/_index_d_._plugin_.configurationtarget.md)
+* [DebugConfigurationProviderTriggerKind](../enums/_index_d_._plugin_.debugconfigurationprovidertriggerkind.md)
 * [DebugConsoleMode](../enums/_index_d_._plugin_.debugconsolemode.md)
 * [DecorationRangeBehavior](../enums/_index_d_._plugin_.decorationrangebehavior.md)
 * [DiagnosticSeverity](../enums/_index_d_._plugin_.diagnosticseverity.md)
 * [DiagnosticTag](../enums/_index_d_._plugin_.diagnostictag.md)
 * [DocumentHighlightKind](../enums/_index_d_._plugin_.documenthighlightkind.md)
 * [EndOfLine](../enums/_index_d_._plugin_.endofline.md)
+* [EnvironmentVariableMutatorType](../enums/_index_d_._plugin_.environmentvariablemutatortype.md)
 * [ExtensionKind](../enums/_index_d_._plugin_.extensionkind.md)
+* [ExtensionMode](../enums/_index_d_._plugin_.extensionmode.md)
 * [FileChangeType](../enums/_index_d_._plugin_.filechangetype.md)
 * [FileType](../enums/_index_d_._plugin_.filetype.md)
 * [FoldingRangeKind](../enums/_index_d_._plugin_.foldingrangekind.md)
@@ -67,6 +71,7 @@ SPDX-License-Identifier: MIT
 * [CallHierarchyIncomingCall](../classes/_index_d_._plugin_.callhierarchyincomingcall.md)
 * [CallHierarchyItem](../classes/_index_d_._plugin_.callhierarchyitem.md)
 * [CallHierarchyOutgoingCall](../classes/_index_d_._plugin_.callhierarchyoutgoingcall.md)
+* [CancellationError](../classes/_index_d_._plugin_.cancellationerror.md)
 * [CancellationTokenSource](../classes/_index_d_._plugin_.cancellationtokensource.md)
 * [CodeAction](../classes/_index_d_._plugin_.codeaction.md)
 * [CodeActionKind](../classes/_index_d_._plugin_.codeactionkind.md)
@@ -79,6 +84,7 @@ SPDX-License-Identifier: MIT
 * [CustomExecution](../classes/_index_d_._plugin_.customexecution.md)
 * [DebugAdapterExecutable](../classes/_index_d_._plugin_.debugadapterexecutable.md)
 * [DebugAdapterInlineImplementation](../classes/_index_d_._plugin_.debugadapterinlineimplementation.md)
+* [DebugAdapterNamedPipeServer](../classes/_index_d_._plugin_.debugadapternamedpipeserver.md)
 * [DebugAdapterServer](../classes/_index_d_._plugin_.debugadapterserver.md)
 * [Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)
 * [DiagnosticRelatedInformation](../classes/_index_d_._plugin_.diagnosticrelatedinformation.md)
@@ -88,10 +94,12 @@ SPDX-License-Identifier: MIT
 * [DocumentSymbol](../classes/_index_d_._plugin_.documentsymbol.md)
 * [EvaluatableExpression](../classes/_index_d_._plugin_.evaluatableexpression.md)
 * [EventEmitter](../classes/_index_d_._plugin_.eventemitter.md)
+* [FileDecoration](../classes/_index_d_._plugin_.filedecoration.md)
 * [FileSystemError](../classes/_index_d_._plugin_.filesystemerror.md)
 * [FoldingRange](../classes/_index_d_._plugin_.foldingrange.md)
 * [FunctionBreakpoint](../classes/_index_d_._plugin_.functionbreakpoint.md)
 * [Hover](../classes/_index_d_._plugin_.hover.md)
+* [LinkedEditingRanges](../classes/_index_d_._plugin_.linkededitingranges.md)
 * [Location](../classes/_index_d_._plugin_.location.md)
 * [MarkdownString](../classes/_index_d_._plugin_.markdownstring.md)
 * [ParameterInformation](../classes/_index_d_._plugin_.parameterinformation.md)
@@ -124,6 +132,12 @@ SPDX-License-Identifier: MIT
 
 ### Interfaces
 
+* [AccessibilityInformation](../interfaces/_index_d_._plugin_.accessibilityinformation.md)
+* [AuthenticationGetSessionOptions](../interfaces/_index_d_._plugin_.authenticationgetsessionoptions.md)
+* [AuthenticationProviderInformation](../interfaces/_index_d_._plugin_.authenticationproviderinformation.md)
+* [AuthenticationSession](../interfaces/_index_d_._plugin_.authenticationsession.md)
+* [AuthenticationSessionAccountInformation](../interfaces/_index_d_._plugin_.authenticationsessionaccountinformation.md)
+* [AuthenticationSessionsChangeEvent](../interfaces/_index_d_._plugin_.authenticationsessionschangeevent.md)
 * [BreakpointsChangeEvent](../interfaces/_index_d_._plugin_.breakpointschangeevent.md)
 * [CallHierarchyProvider](../interfaces/_index_d_._plugin_.callhierarchyprovider.md)
 * [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)
@@ -137,6 +151,7 @@ SPDX-License-Identifier: MIT
 * [Comment](../interfaces/_index_d_._plugin_.comment.md)
 * [CommentAuthorInformation](../interfaces/_index_d_._plugin_.commentauthorinformation.md)
 * [CommentController](../interfaces/_index_d_._plugin_.commentcontroller.md)
+* [CommentOptions](../interfaces/_index_d_._plugin_.commentoptions.md)
 * [CommentReaction](../interfaces/_index_d_._plugin_.commentreaction.md)
 * [CommentReply](../interfaces/_index_d_._plugin_.commentreply.md)
 * [CommentRule](../interfaces/_index_d_._plugin_.commentrule.md)
@@ -145,6 +160,14 @@ SPDX-License-Identifier: MIT
 * [CompletionContext](../interfaces/_index_d_._plugin_.completioncontext.md)
 * [CompletionItemProvider](../interfaces/_index_d_._plugin_.completionitemprovider.md)
 * [ConfigurationChangeEvent](../interfaces/_index_d_._plugin_.configurationchangeevent.md)
+* [CustomDocument](../interfaces/_index_d_._plugin_.customdocument.md)
+* [CustomDocumentBackup](../interfaces/_index_d_._plugin_.customdocumentbackup.md)
+* [CustomDocumentBackupContext](../interfaces/_index_d_._plugin_.customdocumentbackupcontext.md)
+* [CustomDocumentContentChangeEvent](../interfaces/_index_d_._plugin_.customdocumentcontentchangeevent.md)
+* [CustomDocumentEditEvent](../interfaces/_index_d_._plugin_.customdocumenteditevent.md)
+* [CustomDocumentOpenContext](../interfaces/_index_d_._plugin_.customdocumentopencontext.md)
+* [CustomEditorProvider](../interfaces/_index_d_._plugin_.customeditorprovider.md)
+* [CustomReadonlyEditorProvider](../interfaces/_index_d_._plugin_.customreadonlyeditorprovider.md)
 * [CustomTextEditorProvider](../interfaces/_index_d_._plugin_.customtexteditorprovider.md)
 * [DebugAdapter](../interfaces/_index_d_._plugin_.debugadapter.md)
 * [DebugAdapterDescriptorFactory](../interfaces/_index_d_._plugin_.debugadapterdescriptorfactory.md)
@@ -154,6 +177,7 @@ SPDX-License-Identifier: MIT
 * [DebugConfiguration](../interfaces/_index_d_._plugin_.debugconfiguration.md)
 * [DebugConfigurationProvider](../interfaces/_index_d_._plugin_.debugconfigurationprovider.md)
 * [DebugConsole](../interfaces/_index_d_._plugin_.debugconsole.md)
+* [DebugProtocolBreakpoint](../interfaces/_index_d_._plugin_.debugprotocolbreakpoint.md)
 * [DebugProtocolMessage](../interfaces/_index_d_._plugin_.debugprotocolmessage.md)
 * [DebugProtocolSource](../interfaces/_index_d_._plugin_.debugprotocolsource.md)
 * [DebugSession](../interfaces/_index_d_._plugin_.debugsession.md)
@@ -177,6 +201,8 @@ SPDX-License-Identifier: MIT
 * [DocumentSymbolProvider](../interfaces/_index_d_._plugin_.documentsymbolprovider.md)
 * [DocumentSymbolProviderMetadata](../interfaces/_index_d_._plugin_.documentsymbolprovidermetadata.md)
 * [EnterAction](../interfaces/_index_d_._plugin_.enteraction.md)
+* [EnvironmentVariableCollection](../interfaces/_index_d_._plugin_.environmentvariablecollection.md)
+* [EnvironmentVariableMutator](../interfaces/_index_d_._plugin_.environmentvariablemutator.md)
 * [EvaluatableExpressionProvider](../interfaces/_index_d_._plugin_.evaluatableexpressionprovider.md)
 * [Event](../interfaces/_index_d_._plugin_.event.md)
 * [Extension](../interfaces/_index_d_._plugin_.extension.md)
@@ -184,6 +210,7 @@ SPDX-License-Identifier: MIT
 * [ExtensionTerminalOptions](../interfaces/_index_d_._plugin_.extensionterminaloptions.md)
 * [FileChangeEvent](../interfaces/_index_d_._plugin_.filechangeevent.md)
 * [FileCreateEvent](../interfaces/_index_d_._plugin_.filecreateevent.md)
+* [FileDecorationProvider](../interfaces/_index_d_._plugin_.filedecorationprovider.md)
 * [FileDeleteEvent](../interfaces/_index_d_._plugin_.filedeleteevent.md)
 * [FileRenameEvent](../interfaces/_index_d_._plugin_.filerenameevent.md)
 * [FileStat](../interfaces/_index_d_._plugin_.filestat.md)
@@ -202,6 +229,7 @@ SPDX-License-Identifier: MIT
 * [InputBox](../interfaces/_index_d_._plugin_.inputbox.md)
 * [InputBoxOptions](../interfaces/_index_d_._plugin_.inputboxoptions.md)
 * [LanguageConfiguration](../interfaces/_index_d_._plugin_.languageconfiguration.md)
+* [LinkedEditingRangeProvider](../interfaces/_index_d_._plugin_.linkededitingrangeprovider.md)
 * [LocationLink](../interfaces/_index_d_._plugin_.locationlink.md)
 * [Memento](../interfaces/_index_d_._plugin_.memento.md)
 * [MessageItem](../interfaces/_index_d_._plugin_.messageitem.md)
@@ -210,6 +238,7 @@ SPDX-License-Identifier: MIT
 * [OnTypeFormattingEditProvider](../interfaces/_index_d_._plugin_.ontypeformattingeditprovider.md)
 * [OpenDialogOptions](../interfaces/_index_d_._plugin_.opendialogoptions.md)
 * [OutputChannel](../interfaces/_index_d_._plugin_.outputchannel.md)
+* [Plugin](../interfaces/_index_d_._plugin_.plugin.md)
 * [ProcessExecutionOptions](../interfaces/_index_d_._plugin_.processexecutionoptions.md)
 * [Progress](../interfaces/_index_d_._plugin_.progress.md)
 * [ProgressOptions](../interfaces/_index_d_._plugin_.progressoptions.md)
@@ -225,6 +254,8 @@ SPDX-License-Identifier: MIT
 * [RenameProvider](../interfaces/_index_d_._plugin_.renameprovider.md)
 * [RunOptions](../interfaces/_index_d_._plugin_.runoptions.md)
 * [SaveDialogOptions](../interfaces/_index_d_._plugin_.savedialogoptions.md)
+* [SecretStorage](../interfaces/_index_d_._plugin_.secretstorage.md)
+* [SecretStorageChangeEvent](../interfaces/_index_d_._plugin_.secretstoragechangeevent.md)
 * [SelectionRangeProvider](../interfaces/_index_d_._plugin_.selectionrangeprovider.md)
 * [ShellExecutionOptions](../interfaces/_index_d_._plugin_.shellexecutionoptions.md)
 * [ShellQuotedString](../interfaces/_index_d_._plugin_.shellquotedstring.md)
@@ -251,6 +282,9 @@ SPDX-License-Identifier: MIT
 * [Terminal](../interfaces/_index_d_._plugin_.terminal.md)
 * [TerminalDimensions](../interfaces/_index_d_._plugin_.terminaldimensions.md)
 * [TerminalExitStatus](../interfaces/_index_d_._plugin_.terminalexitstatus.md)
+* [TerminalLink](../interfaces/_index_d_._plugin_.terminallink.md)
+* [TerminalLinkContext](../interfaces/_index_d_._plugin_.terminallinkcontext.md)
+* [TerminalLinkProvider](../interfaces/_index_d_._plugin_.terminallinkprovider.md)
 * [TerminalOptions](../interfaces/_index_d_._plugin_.terminaloptions.md)
 * [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md)
 * [TextDocumentChangeEvent](../interfaces/_index_d_._plugin_.textdocumentchangeevent.md)
@@ -271,6 +305,7 @@ SPDX-License-Identifier: MIT
 * [ThemableDecorationInstanceRenderOptions](../interfaces/_index_d_._plugin_.themabledecorationinstancerenderoptions.md)
 * [ThemableDecorationRenderOptions](../interfaces/_index_d_._plugin_.themabledecorationrenderoptions.md)
 * [TreeDataProvider](../interfaces/_index_d_._plugin_.treedataprovider.md)
+* [TreeItemLabel](../interfaces/_index_d_._plugin_.treeitemlabel.md)
 * [TreeView](../interfaces/_index_d_._plugin_.treeview.md)
 * [TreeViewExpansionEvent](../interfaces/_index_d_._plugin_.treeviewexpansionevent.md)
 * [TreeViewOptions](../interfaces/_index_d_._plugin_.treeviewoptions.md)
@@ -285,6 +320,9 @@ SPDX-License-Identifier: MIT
 * [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md)
 * [WebviewPanelSerializer](../interfaces/_index_d_._plugin_.webviewpanelserializer.md)
 * [WebviewPortMapping](../interfaces/_index_d_._plugin_.webviewportmapping.md)
+* [WebviewView](../interfaces/_index_d_._plugin_.webviewview.md)
+* [WebviewViewProvider](../interfaces/_index_d_._plugin_.webviewviewprovider.md)
+* [WebviewViewResolveContext](../interfaces/_index_d_._plugin_.webviewviewresolvecontext.md)
 * [WindowState](../interfaces/_index_d_._plugin_.windowstate.md)
 * [WorkspaceConfiguration](../interfaces/_index_d_._plugin_.workspaceconfiguration.md)
 * [WorkspaceEditEntryMetadata](../interfaces/_index_d_._plugin_.workspaceeditentrymetadata.md)
@@ -304,6 +342,7 @@ SPDX-License-Identifier: MIT
 * [DocumentSelector](_index_d_._plugin_.md#documentselector)
 * [GlobPattern](_index_d_._plugin_.md#globpattern)
 * [MarkedString](_index_d_._plugin_.md#markedstring)
+* [PluginType](_index_d_._plugin_.md#plugintype)
 * [ProviderResult](_index_d_._plugin_.md#providerresult)
 
 ### Variables
@@ -316,7 +355,7 @@ SPDX-License-Identifier: MIT
 
 Ƭ  **CharacterPair**: [string, string]
 
-*Defined in [index.d.ts:4434](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4434)*
+*Defined in [index.d.ts:4727](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4727)*
 
 A tuple of two characters, like a pair of
 opening and closing brackets.
@@ -327,7 +366,7 @@ ___
 
 Ƭ  **ConfigurationScope**: [Uri](../classes/_index_d_._plugin_.uri.md) \| [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md) \| [WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md) \| { languageId: string ; uri?: [Uri](../classes/_index_d_._plugin_.uri.md)  }
 
-*Defined in [index.d.ts:9358](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L9358)*
+*Defined in [index.d.ts:10753](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10753)*
 
 The configuration scope which can be a
 a 'resource' or a languageId or both or
@@ -338,9 +377,9 @@ ___
 
 ### DebugAdapterDescriptor
 
-Ƭ  **DebugAdapterDescriptor**: [DebugAdapterExecutable](../classes/_index_d_._plugin_.debugadapterexecutable.md) \| [DebugAdapterServer](../classes/_index_d_._plugin_.debugadapterserver.md) \| [DebugAdapterInlineImplementation](../classes/_index_d_._plugin_.debugadapterinlineimplementation.md)
+Ƭ  **DebugAdapterDescriptor**: [DebugAdapterExecutable](../classes/_index_d_._plugin_.debugadapterexecutable.md) \| [DebugAdapterServer](../classes/_index_d_._plugin_.debugadapterserver.md) \| [DebugAdapterNamedPipeServer](../classes/_index_d_._plugin_.debugadapternamedpipeserver.md) \| [DebugAdapterInlineImplementation](../classes/_index_d_._plugin_.debugadapterinlineimplementation.md)
 
-*Defined in [index.d.ts:10325](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10325)*
+*Defined in [index.d.ts:11793](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11793)*
 
 ___
 
@@ -348,7 +387,7 @@ ___
 
 Ƭ  **Declaration**: [Location](../classes/_index_d_._plugin_.location.md) \| [Location](../classes/_index_d_._plugin_.location.md)[] \| [LocationLink](../interfaces/_index_d_._plugin_.locationlink.md)[]
 
-*Defined in [index.d.ts:2385](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2385)*
+*Defined in [index.d.ts:2610](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2610)*
 
 The declaration of a symbol representation as one or many [locations](#Location)
 or [location links](#LocationLink).
@@ -359,7 +398,7 @@ ___
 
 Ƭ  **Definition**: [Location](../classes/_index_d_._plugin_.location.md) \| [Location](../classes/_index_d_._plugin_.location.md)[]
 
-*Defined in [index.d.ts:2324](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2324)*
+*Defined in [index.d.ts:2549](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2549)*
 
 The definition of a symbol represented as one or many [locations](#Location).
 For most programming languages there is only one location at which a symbol is
@@ -371,7 +410,7 @@ ___
 
 Ƭ  **DefinitionLink**: [LocationLink](../interfaces/_index_d_._plugin_.locationlink.md)
 
-*Defined in [index.d.ts:2317](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2317)*
+*Defined in [index.d.ts:2542](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2542)*
 
 Information about where a symbol is defined.
 
@@ -382,9 +421,9 @@ ___
 
 ### DocumentSelector
 
-Ƭ  **DocumentSelector**: [DocumentFilter](../interfaces/_index_d_._plugin_.documentfilter.md) \| string \| Array\<[DocumentFilter](../interfaces/_index_d_._plugin_.documentfilter.md) \| string>
+Ƭ  **DocumentSelector**: [DocumentFilter](../interfaces/_index_d_._plugin_.documentfilter.md) \| string \| ReadonlyArray\<[DocumentFilter](../interfaces/_index_d_._plugin_.documentfilter.md) \| string>
 
-*Defined in [index.d.ts:1948](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1948)*
+*Defined in [index.d.ts:2123](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2123)*
 
 A language selector is the combination of one or many language identifiers
 and [language filters](#DocumentFilter).
@@ -394,7 +433,8 @@ documents, even those that are not saved on disk. Only use such selectors when
 a feature works without further context, e.g. without the need to resolve related
 'files'.
 
-**`sample`** `let sel:DocumentSelector = { scheme: 'file', language: 'typescript' }`;
+**`example`** 
+let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
 
 ___
 
@@ -402,7 +442,7 @@ ___
 
 Ƭ  **GlobPattern**: string \| [RelativePattern](../classes/_index_d_._plugin_.relativepattern.md)
 
-*Defined in [index.d.ts:1908](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1908)*
+*Defined in [index.d.ts:2079](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2079)*
 
 A file glob pattern to match file paths against. This can either be a glob pattern string
 (like `**​/*.{ts,js}` or `*.{ts,js}`) or a [relative pattern](#RelativePattern).
@@ -426,13 +466,23 @@ ___
 
 Ƭ  **MarkedString**: [MarkdownString](../classes/_index_d_._plugin_.markdownstring.md) \| string \| { language: string ; value: string  }
 
-*Defined in [index.d.ts:2460](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2460)*
+*Defined in [index.d.ts:2690](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2690)*
 
-~~MarkedString can be used to render human-readable text. It is either a markdown string
+MarkedString can be used to render human-readable text. It is either a markdown string
 or a code-block that provides a language and a code snippet. Note that
-markdown strings will be sanitized - that means html will be escaped.~~
+markdown strings will be sanitized - that means html will be escaped.
 
 **`deprecated`** This type is deprecated, please use [`MarkdownString`](#MarkdownString) instead.
+
+___
+
+### PluginType
+
+Ƭ  **PluginType**: \"frontend\" \| \"backend\"
+
+*Defined in [index.d.ts:24](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L24)*
+
+Type of plugin, the value can be `frontend` or `backend`.
 
 ___
 
@@ -440,7 +490,7 @@ ___
 
 Ƭ  **ProviderResult**\<T>: T \| undefined \| null \| [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined \| null>
 
-*Defined in [index.d.ts:1980](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1980)*
+*Defined in [index.d.ts:2155](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2155)*
 
 A provider result represents the values a provider, like the [`HoverProvider`](#HoverProvider),
 may return. For once this is the actual result type `T`, like `Hover`, or a thenable that resolves
@@ -483,6 +533,6 @@ Name |
 
 • `Const` **version**: string
 
-*Defined in [index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L19)*
+*Defined in [index.d.ts:19](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L19)*
 
 The version of the editor.

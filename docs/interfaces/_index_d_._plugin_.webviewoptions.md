@@ -25,7 +25,7 @@ Content settings for a webview.
 
 • `Optional` `Readonly` **enableCommandUris**: boolean
 
-*Defined in [index.d.ts:6612](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6612)*
+*Defined in [index.d.ts:7239](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7239)*
 
 Controls whether command uris are enabled in webview content or not.
 
@@ -37,7 +37,7 @@ ___
 
 • `Optional` `Readonly` **enableScripts**: boolean
 
-*Defined in [index.d.ts:6605](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6605)*
+*Defined in [index.d.ts:7232](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7232)*
 
 Controls whether scripts are enabled in the webview content or not.
 
@@ -49,9 +49,9 @@ ___
 
 • `Optional` `Readonly` **localResourceRoots**: ReadonlyArray\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:6621](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6621)*
+*Defined in [index.d.ts:7248](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7248)*
 
-Root paths from which the webview can load local (filesystem) resources using the `vscode-resource:` scheme.
+Root paths from which the webview can load local (filesystem) resources using uris from `asWebviewUri`
 
 Default to the root folders of the current workspace plus the extension's install directory.
 
@@ -63,7 +63,7 @@ ___
 
 • `Optional` `Readonly` **portMapping**: ReadonlyArray\<[WebviewPortMapping](_index_d_._plugin_.webviewportmapping.md)>
 
-*Defined in [index.d.ts:6636](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6636)*
+*Defined in [index.d.ts:7263](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7263)*
 
 Mappings of localhost ports used inside the webview.
 

@@ -26,6 +26,7 @@ Name |
 
 ### Properties
 
+* [description](_index_d_._plugin_.treeview.md#description)
 * [message](_index_d_._plugin_.treeview.md#message)
 * [onDidChangeSelection](_index_d_._plugin_.treeview.md#ondidchangeselection)
 * [onDidChangeVisibility](_index_d_._plugin_.treeview.md#ondidchangevisibility)
@@ -49,7 +50,7 @@ Name |
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[constructor](../classes/_index_d_._plugin_.disposable.md#constructor)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Creates a new Disposable calling the provided function
 on dispose.
@@ -64,11 +65,22 @@ Name | Type | Description |
 
 ## Properties
 
+### description
+
+• `Optional` **description**: string
+
+*Defined in [index.d.ts:9145](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9145)*
+
+An optional human-readable description which is rendered less prominently in the title of the view.
+Setting the title description to null, undefined, or empty string will remove the description from the view.
+
+___
+
 ### message
 
 • `Optional` **message**: string
 
-*Defined in [index.d.ts:7908](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7908)*
+*Defined in [index.d.ts:9133](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9133)*
 
 An optional human-readable message that will be rendered in the view.
 Setting the message to null, undefined, or empty string will remove the message from the view.
@@ -79,7 +91,7 @@ ___
 
 • `Readonly` **onDidChangeSelection**: [Event](_index_d_._plugin_.event.md)\<[TreeViewSelectionChangeEvent](_index_d_._plugin_.treeviewselectionchangeevent.md)\<T>>
 
-*Defined in [index.d.ts:7892](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7892)*
+*Defined in [index.d.ts:9117](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9117)*
 
 Event that is fired when the [selection](#TreeView.selection) has changed
 
@@ -89,7 +101,7 @@ ___
 
 • `Readonly` **onDidChangeVisibility**: [Event](_index_d_._plugin_.event.md)\<[TreeViewVisibilityChangeEvent](_index_d_._plugin_.treeviewvisibilitychangeevent.md)>
 
-*Defined in [index.d.ts:7902](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7902)*
+*Defined in [index.d.ts:9127](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9127)*
 
 Event that is fired when [visibility](#TreeView.visible) has changed
 
@@ -99,7 +111,7 @@ ___
 
 • `Readonly` **onDidCollapseElement**: [Event](_index_d_._plugin_.event.md)\<[TreeViewExpansionEvent](_index_d_._plugin_.treeviewexpansionevent.md)\<T>>
 
-*Defined in [index.d.ts:7882](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7882)*
+*Defined in [index.d.ts:9107](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9107)*
 
 Event that is fired when an element is collapsed
 
@@ -109,7 +121,7 @@ ___
 
 • `Readonly` **onDidExpandElement**: [Event](_index_d_._plugin_.event.md)\<[TreeViewExpansionEvent](_index_d_._plugin_.treeviewexpansionevent.md)\<T>>
 
-*Defined in [index.d.ts:7877](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7877)*
+*Defined in [index.d.ts:9102](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9102)*
 
 Event that is fired when an element is expanded
 
@@ -119,7 +131,7 @@ ___
 
 • `Readonly` **selection**: T[]
 
-*Defined in [index.d.ts:7887](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7887)*
+*Defined in [index.d.ts:9112](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9112)*
 
 Currently selected elements.
 
@@ -129,7 +141,7 @@ ___
 
 • `Optional` **title**: string
 
-*Defined in [index.d.ts:7914](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7914)*
+*Defined in [index.d.ts:9139](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9139)*
 
 The tree view title is initially taken from the extension package.json
 Changes to the title property will be properly reflected in the UI in the title of the view.
@@ -140,7 +152,7 @@ ___
 
 • `Readonly` **visible**: boolean
 
-*Defined in [index.d.ts:7897](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7897)*
+*Defined in [index.d.ts:9122](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9122)*
 
 `true` if the [tree view](#TreeView) is visible otherwise `false`.
 
@@ -152,7 +164,7 @@ ___
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[dispose](../classes/_index_d_._plugin_.disposable.md#dispose)*
 
-*Defined in [index.d.ts:1477](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1477)*
+*Defined in [index.d.ts:1616](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1616)*
 
 Dispose this object.
 
@@ -164,7 +176,7 @@ ___
 
 ▸ **reveal**(`element`: T, `options?`: { expand?: boolean \| number ; focus?: boolean ; select?: boolean  }): [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:7928](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7928)*
+*Defined in [index.d.ts:9159](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9159)*
 
 Reveals the given element in the tree view.
 If the tree view is not visible then the tree view is shown and element is revealed.
@@ -175,7 +187,7 @@ In order to focus, set the option `focus` to `true`.
 In order to expand the revealed element, set the option `expand` to `true`. To expand recursively set `expand` to the number of levels to expand.
 **NOTE:** You can expand only to 3 levels maximum.
 
-**NOTE:** [TreeDataProvider](#TreeDataProvider) is required to implement [getParent](#TreeDataProvider.getParent) method to access this API.
+**NOTE:** The [TreeDataProvider](#TreeDataProvider) that the `TreeView` [is registered with](#window.createTreeView) with must implement [getParent](#TreeDataProvider.getParent) method to access this API.
 
 #### Parameters:
 
@@ -194,7 +206,7 @@ ___
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[from](../classes/_index_d_._plugin_.disposable.md#from)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Combine many disposable-likes into one. Use this method
 when having objects with a dispose function which are not

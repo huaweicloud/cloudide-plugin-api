@@ -19,7 +19,7 @@ Comment mode of a [comment](#Comment)
 
 •  **Editing**:  = 0
 
-*Defined in [index.d.ts:10735](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10735)*
+*Defined in [index.d.ts:12235](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12235)*
 
 Displays the comment editor
 
@@ -29,6 +29,6 @@ ___
 
 •  **Preview**:  = 1
 
-*Defined in [index.d.ts:10740](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10740)*
+*Defined in [index.d.ts:12240](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L12240)*
 
 Displays the preview of the comment

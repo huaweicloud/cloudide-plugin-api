@@ -26,7 +26,7 @@ A debug configuration provider is registered via #debug.registerDebugConfigurati
 
 ▸ `Optional`**provideDebugConfigurations**(`folder`: [WorkspaceFolder](_index_d_._plugin_.workspacefolder.md) \| undefined, `token?`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[DebugConfiguration](_index_d_._plugin_.debugconfiguration.md)[]>
 
-*Defined in [index.d.ts:10183](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10183)*
+*Defined in [index.d.ts:11643](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11643)*
 
 Provides [debug configuration](#DebugConfiguration) to the debug service. If more than one debug configuration provider is
 registered for the same type, debug configurations are concatenated in arbitrary order.
@@ -48,7 +48,7 @@ ___
 
 ▸ `Optional`**resolveDebugConfiguration**(`folder`: [WorkspaceFolder](_index_d_._plugin_.workspacefolder.md) \| undefined, `debugConfiguration`: [DebugConfiguration](_index_d_._plugin_.debugconfiguration.md), `token?`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[DebugConfiguration](_index_d_._plugin_.debugconfiguration.md)>
 
-*Defined in [index.d.ts:10197](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10197)*
+*Defined in [index.d.ts:11657](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11657)*
 
 Resolves a [debug configuration](#DebugConfiguration) by filling in missing values or by adding/changing/removing attributes.
 If more than one debug configuration provider is registered for the same type, the resolveDebugConfiguration calls are chained
@@ -74,7 +74,7 @@ ___
 
 ▸ `Optional`**resolveDebugConfigurationWithSubstitutedVariables**(`folder`: [WorkspaceFolder](_index_d_._plugin_.workspacefolder.md) \| undefined, `debugConfiguration`: [DebugConfiguration](_index_d_._plugin_.debugconfiguration.md), `token?`: [CancellationToken](_index_d_._plugin_.cancellationtoken.md)): [ProviderResult](../modules/_index_d_._plugin_.md#providerresult)\<[DebugConfiguration](_index_d_._plugin_.debugconfiguration.md)>
 
-*Defined in [index.d.ts:10212](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10212)*
+*Defined in [index.d.ts:11672](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11672)*
 
 This hook is directly called after 'resolveDebugConfiguration' but with all variables substituted.
 It can be used to resolve or verify a [debug configuration](#DebugConfiguration) by filling in missing values or by adding/changing/removing attributes.

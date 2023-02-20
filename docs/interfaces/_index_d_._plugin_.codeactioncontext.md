@@ -24,7 +24,7 @@ a [code action](#CodeActionProvider.provideCodeActions) is run.
 
 • `Readonly` **diagnostics**: ReadonlyArray\<[Diagnostic](../classes/_index_d_._plugin_.diagnostic.md)>
 
-*Defined in [index.d.ts:2114](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2114)*
+*Defined in [index.d.ts:2289](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2289)*
 
 An array of diagnostics.
 
@@ -34,7 +34,7 @@ ___
 
 • `Optional` `Readonly` **only**: [CodeActionKind](../classes/_index_d_._plugin_.codeactionkind.md)
 
-*Defined in [index.d.ts:2121](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2121)*
+*Defined in [index.d.ts:2296](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2296)*
 
 Requested kind of actions to return.
 

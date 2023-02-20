@@ -44,7 +44,7 @@ To get an instance of a `FileSystemWatcher` use
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[constructor](../classes/_index_d_._plugin_.disposable.md#constructor)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Creates a new Disposable calling the provided function
 on dispose.
@@ -63,7 +63,7 @@ Name | Type | Description |
 
 •  **ignoreChangeEvents**: boolean
 
-*Defined in [index.d.ts:1550](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1550)*
+*Defined in [index.d.ts:1690](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1690)*
 
 true if this file system watcher has been created such that
 it ignores change file system events.
@@ -74,7 +74,7 @@ ___
 
 •  **ignoreCreateEvents**: boolean
 
-*Defined in [index.d.ts:1544](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1544)*
+*Defined in [index.d.ts:1684](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1684)*
 
 true if this file system watcher has been created such that
 it ignores creation file system events.
@@ -85,7 +85,7 @@ ___
 
 •  **ignoreDeleteEvents**: boolean
 
-*Defined in [index.d.ts:1556](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1556)*
+*Defined in [index.d.ts:1696](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1696)*
 
 true if this file system watcher has been created such that
 it ignores delete file system events.
@@ -96,7 +96,7 @@ ___
 
 •  **onDidChange**: [Event](_index_d_._plugin_.event.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:1566](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1566)*
+*Defined in [index.d.ts:1706](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1706)*
 
 An event which fires on file/folder change.
 
@@ -106,7 +106,7 @@ ___
 
 •  **onDidCreate**: [Event](_index_d_._plugin_.event.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:1561](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1561)*
+*Defined in [index.d.ts:1701](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1701)*
 
 An event which fires on file/folder creation.
 
@@ -116,7 +116,7 @@ ___
 
 •  **onDidDelete**: [Event](_index_d_._plugin_.event.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)>
 
-*Defined in [index.d.ts:1571](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1571)*
+*Defined in [index.d.ts:1711](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1711)*
 
 An event which fires on file/folder deletion.
 
@@ -128,7 +128,7 @@ An event which fires on file/folder deletion.
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[dispose](../classes/_index_d_._plugin_.disposable.md#dispose)*
 
-*Defined in [index.d.ts:1477](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1477)*
+*Defined in [index.d.ts:1616](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1616)*
 
 Dispose this object.
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [Disposable](../classes/_index_d_._plugin_.disposable.md).[from](../classes/_index_d_._plugin_.disposable.md#from)*
 
-*Defined in [index.d.ts:1465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1465)*
+*Defined in [index.d.ts:1604](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1604)*
 
 Combine many disposable-likes into one. Use this method
 when having objects with a dispose function which are not

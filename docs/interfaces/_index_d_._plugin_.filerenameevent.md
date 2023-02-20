@@ -22,6 +22,6 @@ An event that is fired after files are renamed.
 
 • `Readonly` **files**: ReadonlyArray\<{ newUri: [Uri](../classes/_index_d_._plugin_.uri.md) ; oldUri: [Uri](../classes/_index_d_._plugin_.uri.md)  }>
 
-*Defined in [index.d.ts:8884](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8884)*
+*Defined in [index.d.ts:10274](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L10274)*
 
 The files that got renamed.

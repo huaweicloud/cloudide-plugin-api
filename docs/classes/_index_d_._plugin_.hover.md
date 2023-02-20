@@ -28,7 +28,7 @@ rendered in a tooltip-like widget.
 
 \+ **new Hover**(`contents`: [MarkedString](../modules/_index_d_._plugin_.md#markedstring) \| [MarkedString](../modules/_index_d_._plugin_.md#markedstring)[], `range?`: [Range](_index_d_._plugin_.range.md)): [Hover](_index_d_._plugin_.hover.md)
 
-*Defined in [index.d.ts:2478](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2478)*
+*Defined in [index.d.ts:2708](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2708)*
 
 Creates a new hover object.
 
@@ -47,7 +47,7 @@ Name | Type | Description |
 
 •  **contents**: [MarkedString](../modules/_index_d_._plugin_.md#markedstring)[]
 
-*Defined in [index.d.ts:2471](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2471)*
+*Defined in [index.d.ts:2701](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2701)*
 
 The contents of this hover.
 
@@ -57,7 +57,7 @@ ___
 
 • `Optional` **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:2478](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L2478)*
+*Defined in [index.d.ts:2708](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L2708)*
 
 The range to which this hover applies. When missing, the
 editor will use the range at the current position or the

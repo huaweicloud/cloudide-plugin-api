@@ -33,7 +33,7 @@ of call hierarchy.
 
 \+ **new CallHierarchyItem**(`kind`: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md), `name`: string, `detail`: string, `uri`: [Uri](_index_d_._plugin_.uri.md), `range`: [Range](_index_d_._plugin_.range.md), `selectionRange`: [Range](_index_d_._plugin_.range.md)): [CallHierarchyItem](_index_d_._plugin_.callhierarchyitem.md)
 
-*Defined in [index.d.ts:4326](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4326)*
+*Defined in [index.d.ts:4575](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4575)*
 
 Creates a new call hierarchy item.
 
@@ -56,7 +56,7 @@ Name | Type |
 
 • `Optional` **detail**: string
 
-*Defined in [index.d.ts:4310](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4310)*
+*Defined in [index.d.ts:4559](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4559)*
 
 More detail for this item, e.g. the signature of a function.
 
@@ -66,7 +66,7 @@ ___
 
 •  **kind**: [SymbolKind](../enums/_index_d_._plugin_.symbolkind.md)
 
-*Defined in [index.d.ts:4300](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4300)*
+*Defined in [index.d.ts:4549](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4549)*
 
 The kind of this item.
 
@@ -76,7 +76,7 @@ ___
 
 •  **name**: string
 
-*Defined in [index.d.ts:4295](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4295)*
+*Defined in [index.d.ts:4544](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4544)*
 
 The name of this item.
 
@@ -86,7 +86,7 @@ ___
 
 •  **range**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4320](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4320)*
+*Defined in [index.d.ts:4569](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4569)*
 
 The range enclosing this symbol not including leading/trailing whitespace but everything else, e.g. comments and code.
 
@@ -96,7 +96,7 @@ ___
 
 •  **selectionRange**: [Range](_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:4326](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4326)*
+*Defined in [index.d.ts:4575](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4575)*
 
 The range that should be selected and revealed when this symbol is being picked, e.g. the name of a function.
 Must be contained by the [`range`](#CallHierarchyItem.range).
@@ -107,7 +107,7 @@ ___
 
 • `Optional` **tags**: ReadonlyArray\<[SymbolTag](../enums/_index_d_._plugin_.symboltag.md)>
 
-*Defined in [index.d.ts:4305](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4305)*
+*Defined in [index.d.ts:4554](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4554)*
 
 Tags for this item.
 
@@ -117,6 +117,6 @@ ___
 
 •  **uri**: [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:4315](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4315)*
+*Defined in [index.d.ts:4564](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4564)*
 
 The resource identifier of this item.

@@ -23,7 +23,7 @@ Rendering style of the cursor.
 
 •  **Block**:  = 2
 
-*Defined in [index.d.ts:607](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L607)*
+*Defined in [index.d.ts:720](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L720)*
 
 Render the cursor as a block filled.
 
@@ -33,7 +33,7 @@ ___
 
 •  **BlockOutline**:  = 5
 
-*Defined in [index.d.ts:619](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L619)*
+*Defined in [index.d.ts:732](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L732)*
 
 Render the cursor as a block outlined.
 
@@ -43,7 +43,7 @@ ___
 
 •  **Line**:  = 1
 
-*Defined in [index.d.ts:603](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L603)*
+*Defined in [index.d.ts:716](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L716)*
 
 Render the cursor as a vertical thick line.
 
@@ -53,7 +53,7 @@ ___
 
 •  **LineThin**:  = 4
 
-*Defined in [index.d.ts:615](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L615)*
+*Defined in [index.d.ts:728](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L728)*
 
 Render the cursor as a vertical thin line.
 
@@ -63,7 +63,7 @@ ___
 
 •  **Underline**:  = 3
 
-*Defined in [index.d.ts:611](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L611)*
+*Defined in [index.d.ts:724](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L724)*
 
 Render the cursor as a thick horizontal line.
 
@@ -73,6 +73,6 @@ ___
 
 •  **UnderlineThin**:  = 6
 
-*Defined in [index.d.ts:623](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L623)*
+*Defined in [index.d.ts:736](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L736)*
 
 Render the cursor as a thin horizontal line.

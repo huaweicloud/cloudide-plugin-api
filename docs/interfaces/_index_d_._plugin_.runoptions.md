@@ -22,6 +22,6 @@ Run options for a task.
 
 • `Optional` **reevaluateOnRerun**: boolean
 
-*Defined in [index.d.ts:5944](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L5944)*
+*Defined in [index.d.ts:6545](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6545)*
 
 Controls whether task variables are re-evaluated on rerun.

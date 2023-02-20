@@ -28,6 +28,6 @@ Name |
 
 • `Readonly` **selection**: T[]
 
-*Defined in [index.d.ts:7853](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7853)*
+*Defined in [index.d.ts:9078](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9078)*
 
 Selected elements.

@@ -29,7 +29,7 @@ Represents edits to semantic tokens.
 
 \+ **new SemanticTokensEdits**(`edits`: [SemanticTokensEdit](_index_d_._plugin_.semantictokensedit.md)[], `resultId?`: string): [SemanticTokensEdits](_index_d_._plugin_.semantictokensedits.md)
 
-*Defined in [index.d.ts:3270](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3270)*
+*Defined in [index.d.ts:3500](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3500)*
 
 #### Parameters:
 
@@ -46,7 +46,7 @@ Name | Type |
 
 • `Readonly` **edits**: [SemanticTokensEdit](_index_d_._plugin_.semantictokensedit.md)[]
 
-*Defined in [index.d.ts:3270](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3270)*
+*Defined in [index.d.ts:3500](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3500)*
 
 The edits to the tokens data.
 All edits refer to the initial data state.
@@ -57,7 +57,7 @@ ___
 
 • `Optional` `Readonly` **resultId**: string
 
-*Defined in [index.d.ts:3265](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L3265)*
+*Defined in [index.d.ts:3495](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L3495)*
 
 The result id of the tokens.
 

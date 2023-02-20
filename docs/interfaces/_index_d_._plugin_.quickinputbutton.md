@@ -23,7 +23,7 @@ Button for an action in a [QuickPick](#QuickPick) or [InputBox](#InputBox).
 
 • `Readonly` **iconPath**: [Uri](../classes/_index_d_._plugin_.uri.md) \| { dark: [Uri](../classes/_index_d_._plugin_.uri.md) ; light: [Uri](../classes/_index_d_._plugin_.uri.md)  } \| [ThemeIcon](../classes/_index_d_._plugin_.themeicon.md)
 
-*Defined in [index.d.ts:8584](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8584)*
+*Defined in [index.d.ts:9974](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9974)*
 
 Icon for the button.
 
@@ -33,6 +33,6 @@ ___
 
 • `Optional` `Readonly` **tooltip**: string \| undefined
 
-*Defined in [index.d.ts:8589](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8589)*
+*Defined in [index.d.ts:9979](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9979)*
 
 An optional tooltip.

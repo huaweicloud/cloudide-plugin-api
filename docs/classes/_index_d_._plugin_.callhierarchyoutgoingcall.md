@@ -27,7 +27,7 @@ Represents an outgoing call, e.g. calling a getter from a method or a method fro
 
 \+ **new CallHierarchyOutgoingCall**(`item`: [CallHierarchyItem](_index_d_._plugin_.callhierarchyitem.md), `fromRanges`: [Range](_index_d_._plugin_.range.md)[]): [CallHierarchyOutgoingCall](_index_d_._plugin_.callhierarchyoutgoingcall.md)
 
-*Defined in [index.d.ts:4374](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4374)*
+*Defined in [index.d.ts:4623](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4623)*
 
 Create a new call object.
 
@@ -46,7 +46,7 @@ Name | Type | Description |
 
 •  **fromRanges**: [Range](_index_d_._plugin_.range.md)[]
 
-*Defined in [index.d.ts:4374](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4374)*
+*Defined in [index.d.ts:4623](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4623)*
 
 The range at which this item is called. This is the range relative to the caller, e.g the item
 passed to [`provideCallHierarchyOutgoingCalls`](#CallHierarchyProvider.provideCallHierarchyOutgoingCalls)
@@ -58,6 +58,6 @@ ___
 
 •  **to**: [CallHierarchyItem](_index_d_._plugin_.callhierarchyitem.md)
 
-*Defined in [index.d.ts:4367](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L4367)*
+*Defined in [index.d.ts:4616](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L4616)*
 
 The item that is called.

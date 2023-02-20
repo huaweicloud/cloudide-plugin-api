@@ -16,6 +16,7 @@
 
 ### Properties
 
+* [accessibilityInformation](_index_d_._plugin_.treeitem.md#accessibilityinformation)
 * [collapsibleState](_index_d_._plugin_.treeitem.md#collapsiblestate)
 * [command](_index_d_._plugin_.treeitem.md#command)
 * [contextValue](_index_d_._plugin_.treeitem.md#contextvalue)
@@ -30,22 +31,22 @@
 
 ### constructor
 
-\+ **new TreeItem**(`label`: string, `collapsibleState?`: [TreeItemCollapsibleState](../enums/_index_d_._plugin_.treeitemcollapsiblestate.md)): [TreeItem](_index_d_._plugin_.treeitem.md)
+\+ **new TreeItem**(`label`: string \| [TreeItemLabel](../interfaces/_index_d_._plugin_.treeitemlabel.md), `collapsibleState?`: [TreeItemCollapsibleState](../enums/_index_d_._plugin_.treeitemcollapsiblestate.md)): [TreeItem](_index_d_._plugin_.treeitem.md)
 
-*Defined in [index.d.ts:8037](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8037)*
+*Defined in [index.d.ts:9302](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9302)*
 
 #### Parameters:
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`label` | string | A human-readable string describing this item |
+`label` | string \| [TreeItemLabel](../interfaces/_index_d_._plugin_.treeitemlabel.md) | A human-readable string describing this item |
 `collapsibleState?` | [TreeItemCollapsibleState](../enums/_index_d_._plugin_.treeitemcollapsiblestate.md) | (#TreeItemCollapsibleState) of the tree item. Default is [TreeItemCollapsibleState.None](#TreeItemCollapsibleState.None)  |
 
 **Returns:** [TreeItem](_index_d_._plugin_.treeitem.md)
 
 \+ **new TreeItem**(`resourceUri`: [Uri](_index_d_._plugin_.uri.md), `collapsibleState?`: [TreeItemCollapsibleState](../enums/_index_d_._plugin_.treeitemcollapsiblestate.md)): [TreeItem](_index_d_._plugin_.treeitem.md)
 
-*Defined in [index.d.ts:8043](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8043)*
+*Defined in [index.d.ts:9308](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9308)*
 
 #### Parameters:
 
@@ -58,11 +59,23 @@ Name | Type | Description |
 
 ## Properties
 
+### accessibilityInformation
+
+• `Optional` **accessibilityInformation**: [AccessibilityInformation](../interfaces/_index_d_._plugin_.accessibilityinformation.md)
+
+*Defined in [index.d.ts:9302](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9302)*
+
+Accessibility information used when screen reader interacts with this tree item.
+Generally, a TreeItem has no need to set the `role` of the accessibilityInformation;
+however, there are cases where a TreeItem is not displayed in a tree-like way where setting the `role` may make sense.
+
+___
+
 ### collapsibleState
 
 • `Optional` **collapsibleState**: [TreeItemCollapsibleState](../enums/_index_d_._plugin_.treeitemcollapsiblestate.md)
 
-*Defined in [index.d.ts:8017](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8017)*
+*Defined in [index.d.ts:9275](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9275)*
 
 [TreeItemCollapsibleState](#TreeItemCollapsibleState) of the tree item.
 
@@ -72,9 +85,13 @@ ___
 
 • `Optional` **command**: [Command](../interfaces/_index_d_._plugin_.command.md)
 
-*Defined in [index.d.ts:8012](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8012)*
+*Defined in [index.d.ts:9270](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9270)*
 
 The [command](#Command) that should be executed when the tree item is selected.
+
+Please use `vscode.open` or `vscode.diff` as command IDs when the tree item is opening
+something in the editor. Using these commands ensures that the resulting editor will
+appear consistent with how other built-in trees open editors.
 
 ___
 
@@ -82,7 +99,7 @@ ___
 
 • `Optional` **contextValue**: string
 
-*Defined in [index.d.ts:8037](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8037)*
+*Defined in [index.d.ts:9295](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9295)*
 
 Context value of the tree item. This can be used to contribute item specific actions in the tree.
 For example, a tree item is given a context value as `folder`. When contributing actions to `view/item/context`
@@ -107,7 +124,7 @@ ___
 
 • `Optional` **description**: string \| boolean
 
-*Defined in [index.d.ts:7994](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7994)*
+*Defined in [index.d.ts:9248](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9248)*
 
 A human-readable string which is rendered less prominent.
 When `true`, it is derived from [resourceUri](#TreeItem.resourceUri) and when `falsy`, it is not shown.
@@ -118,7 +135,7 @@ ___
 
 • `Optional` **iconPath**: string \| [Uri](_index_d_._plugin_.uri.md) \| { dark: string \| [Uri](_index_d_._plugin_.uri.md) ; light: string \| [Uri](_index_d_._plugin_.uri.md)  } \| [ThemeIcon](_index_d_._plugin_.themeicon.md)
 
-*Defined in [index.d.ts:7988](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7988)*
+*Defined in [index.d.ts:9242](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9242)*
 
 The icon path or [ThemeIcon](#ThemeIcon) for the tree item.
 When `falsy`, [Folder Theme Icon](#ThemeIcon.Folder) is assigned, if item is collapsible otherwise [File Theme Icon](#ThemeIcon.File).
@@ -130,7 +147,7 @@ ___
 
 • `Optional` **id**: string
 
-*Defined in [index.d.ts:7981](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7981)*
+*Defined in [index.d.ts:9235](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9235)*
 
 Optional id for the tree item that has to be unique across tree. The id is used to preserve the selection and expansion state of the tree item.
 
@@ -140,9 +157,9 @@ ___
 
 ### label
 
-• `Optional` **label**: string
+• `Optional` **label**: string \| [TreeItemLabel](../interfaces/_index_d_._plugin_.treeitemlabel.md)
 
-*Defined in [index.d.ts:7974](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7974)*
+*Defined in [index.d.ts:9228](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9228)*
 
 A human-readable string describing this item. When `falsy`, it is derived from [resourceUri](#TreeItem.resourceUri).
 
@@ -152,7 +169,7 @@ ___
 
 • `Optional` **resourceUri**: [Uri](_index_d_._plugin_.uri.md)
 
-*Defined in [index.d.ts:8002](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8002)*
+*Defined in [index.d.ts:9256](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9256)*
 
 The [uri](#Uri) of the resource representing this item.
 
@@ -163,8 +180,8 @@ ___
 
 ### tooltip
 
-• `Optional` **tooltip**: string \| undefined
+• `Optional` **tooltip**: string \| [MarkdownString](_index_d_._plugin_.markdownstring.md) \| undefined
 
-*Defined in [index.d.ts:8007](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L8007)*
+*Defined in [index.d.ts:9261](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9261)*
 
 The tooltip text when you hover over this item.

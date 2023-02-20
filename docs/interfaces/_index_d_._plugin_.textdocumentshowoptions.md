@@ -25,7 +25,7 @@ Represents options to configure the behavior of showing a [document](#TextDocume
 
 • `Optional` **preserveFocus**: boolean
 
-*Defined in [index.d.ts:773](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L773)*
+*Defined in [index.d.ts:886](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L886)*
 
 An optional flag that when `true` will stop the [editor](#TextEditor) from taking focus.
 
@@ -35,7 +35,7 @@ ___
 
 • `Optional` **preview**: boolean
 
-*Defined in [index.d.ts:779](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L779)*
+*Defined in [index.d.ts:892](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L892)*
 
 An optional flag that controls if an [editor](#TextEditor)-tab will be replaced
 with the next editor or if it will be kept.
@@ -46,7 +46,7 @@ ___
 
 • `Optional` **selection**: [Range](../classes/_index_d_._plugin_.range.md)
 
-*Defined in [index.d.ts:784](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L784)*
+*Defined in [index.d.ts:897](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L897)*
 
 An optional selection to apply for the document in the [editor](#TextEditor).
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **viewColumn**: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)
 
-*Defined in [index.d.ts:768](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L768)*
+*Defined in [index.d.ts:881](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L881)*
 
 An optional view column in which the [editor](#TextEditor) should be shown.
 The default is the [active](#ViewColumn.Active), other values are adjusted to

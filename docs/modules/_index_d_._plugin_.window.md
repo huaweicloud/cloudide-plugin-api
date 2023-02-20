@@ -10,6 +10,14 @@ asking for user input.
 
 ## Index
 
+### Interfaces
+
+* [CustomizableDialog](../interfaces/_index_d_._plugin_.window.customizabledialog.md)
+* [CustomizableDialogEvent](../interfaces/_index_d_._plugin_.window.customizabledialogevent.md)
+* [CustomizableDialogOptions](../interfaces/_index_d_._plugin_.window.customizabledialogoptions.md)
+* [DialogButton](../interfaces/_index_d_._plugin_.window.dialogbutton.md)
+* [DialogControlElement](../interfaces/_index_d_._plugin_.window.dialogcontrolelement.md)
+
 ### Variables
 
 * [activeColorTheme](_index_d_._plugin_.window.md#activecolortheme)
@@ -33,6 +41,7 @@ asking for user input.
 ### Functions
 
 * [createCloudWebviewPanel](_index_d_._plugin_.window.md#createcloudwebviewpanel)
+* [createCustomizableDialog](_index_d_._plugin_.window.md#createcustomizabledialog)
 * [createInputBox](_index_d_._plugin_.window.md#createinputbox)
 * [createOutputChannel](_index_d_._plugin_.window.md#createoutputchannel)
 * [createQuickPick](_index_d_._plugin_.window.md#createquickpick)
@@ -42,9 +51,13 @@ asking for user input.
 * [createTreeView](_index_d_._plugin_.window.md#createtreeview)
 * [createWebviewPanel](_index_d_._plugin_.window.md#createwebviewpanel)
 * [registerCustomEditorProvider](_index_d_._plugin_.window.md#registercustomeditorprovider)
+* [registerFileDecorationProvider](_index_d_._plugin_.window.md#registerfiledecorationprovider)
+* [registerTerminalLinkProvider](_index_d_._plugin_.window.md#registerterminallinkprovider)
 * [registerTreeDataProvider](_index_d_._plugin_.window.md#registertreedataprovider)
 * [registerUriHandler](_index_d_._plugin_.window.md#registerurihandler)
+* [registerWebviewAsPluginPage](_index_d_._plugin_.window.md#registerwebviewaspluginpage)
 * [registerWebviewPanelSerializer](_index_d_._plugin_.window.md#registerwebviewpanelserializer)
+* [registerWebviewViewProvider](_index_d_._plugin_.window.md#registerwebviewviewprovider)
 * [setStatusBarMessage](_index_d_._plugin_.window.md#setstatusbarmessage)
 * [showErrorMessage](_index_d_._plugin_.window.md#showerrormessage)
 * [showInformationMessage](_index_d_._plugin_.window.md#showinformationmessage)
@@ -64,7 +77,7 @@ asking for user input.
 
 • `Let` **activeColorTheme**: [ColorTheme](../interfaces/_index_d_._plugin_.colortheme.md)
 
-*Defined in [index.d.ts:7802](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7802)*
+*Defined in [index.d.ts:9027](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9027)*
 
 The currently active color theme as configured in the settings. The active
 theme can be changed via the `workbench.colorTheme` setting.
@@ -75,7 +88,7 @@ ___
 
 • `Const` **activeTerminal**: [Terminal](../interfaces/_index_d_._plugin_.terminal.md) \| undefined
 
-*Defined in [index.d.ts:7281](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7281)*
+*Defined in [index.d.ts:8300](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8300)*
 
 The currently active terminal or `undefined`. The active terminal is the one that
 currently has focus or most recently had focus.
@@ -86,7 +99,7 @@ ___
 
 • `Let` **activeTextEditor**: [TextEditor](../interfaces/_index_d_._plugin_.texteditor.md) \| undefined
 
-*Defined in [index.d.ts:7232](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7232)*
+*Defined in [index.d.ts:8251](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8251)*
 
 The currently active editor or `undefined`. The active editor is the one
 that currently has focus or, when none has focus, the one that has changed
@@ -98,7 +111,7 @@ ___
 
 • `Const` **onDidChangeActiveColorTheme**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[ColorTheme](../interfaces/_index_d_._plugin_.colortheme.md)>
 
-*Defined in [index.d.ts:7807](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7807)*
+*Defined in [index.d.ts:9032](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9032)*
 
 An [event](#Event) which fires when the active color theme is changed or has changes.
 
@@ -108,7 +121,7 @@ ___
 
 • `Const` **onDidChangeActiveTerminal**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[Terminal](../interfaces/_index_d_._plugin_.terminal.md) \| undefined>
 
-*Defined in [index.d.ts:7288](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7288)*
+*Defined in [index.d.ts:8307](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8307)*
 
 An [event](#Event) which fires when the [active terminal](#window.activeTerminal)
 has changed. *Note* that the event also fires when the active terminal changes
@@ -120,7 +133,7 @@ ___
 
 • `Const` **onDidChangeActiveTextEditor**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditor](../interfaces/_index_d_._plugin_.texteditor.md) \| undefined>
 
-*Defined in [index.d.ts:7244](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7244)*
+*Defined in [index.d.ts:8263](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8263)*
 
 An [event](#Event) which fires when the [active editor](#window.activeTextEditor)
 has changed. *Note* that the event also fires when the active editor changes
@@ -132,7 +145,7 @@ ___
 
 • `Const` **onDidChangeTextEditorOptions**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditorOptionsChangeEvent](../interfaces/_index_d_._plugin_.texteditoroptionschangeevent.md)>
 
-*Defined in [index.d.ts:7265](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7265)*
+*Defined in [index.d.ts:8284](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8284)*
 
 An [event](#Event) which fires when the options of an editor have changed.
 
@@ -142,7 +155,7 @@ ___
 
 • `Const` **onDidChangeTextEditorSelection**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditorSelectionChangeEvent](../interfaces/_index_d_._plugin_.texteditorselectionchangeevent.md)>
 
-*Defined in [index.d.ts:7255](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7255)*
+*Defined in [index.d.ts:8274](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8274)*
 
 An [event](#Event) which fires when the selection in an editor has changed.
 
@@ -152,7 +165,7 @@ ___
 
 • `Const` **onDidChangeTextEditorViewColumn**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditorViewColumnChangeEvent](../interfaces/_index_d_._plugin_.texteditorviewcolumnchangeevent.md)>
 
-*Defined in [index.d.ts:7270](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7270)*
+*Defined in [index.d.ts:8289](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8289)*
 
 An [event](#Event) which fires when the view column of an editor has changed.
 
@@ -162,7 +175,7 @@ ___
 
 • `Const` **onDidChangeTextEditorVisibleRanges**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditorVisibleRangesChangeEvent](../interfaces/_index_d_._plugin_.texteditorvisiblerangeschangeevent.md)>
 
-*Defined in [index.d.ts:7260](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7260)*
+*Defined in [index.d.ts:8279](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8279)*
 
 An [event](#Event) which fires when the visible ranges of an editor has changed.
 
@@ -172,7 +185,7 @@ ___
 
 • `Const` **onDidChangeVisibleTextEditors**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[TextEditor](../interfaces/_index_d_._plugin_.texteditor.md)[]>
 
-*Defined in [index.d.ts:7250](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7250)*
+*Defined in [index.d.ts:8269](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8269)*
 
 An [event](#Event) which fires when the array of [visible editors](#window.visibleTextEditors)
 has changed.
@@ -183,7 +196,7 @@ ___
 
 • `Const` **onDidChangeWindowState**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[WindowState](../interfaces/_index_d_._plugin_.windowstate.md)>
 
-*Defined in [index.d.ts:7310](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7310)*
+*Defined in [index.d.ts:8329](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8329)*
 
 An [event](#Event) which fires when the focus state of the current window
 changes. The value of the event represents whether the window is focused.
@@ -194,7 +207,7 @@ ___
 
 • `Const` **onDidCloseTerminal**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[Terminal](../interfaces/_index_d_._plugin_.terminal.md)>
 
-*Defined in [index.d.ts:7299](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7299)*
+*Defined in [index.d.ts:8318](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8318)*
 
 An [event](#Event) which fires when a terminal is disposed.
 
@@ -204,7 +217,7 @@ ___
 
 • `Const` **onDidOpenTerminal**: [Event](../interfaces/_index_d_._plugin_.event.md)\<[Terminal](../interfaces/_index_d_._plugin_.terminal.md)>
 
-*Defined in [index.d.ts:7294](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7294)*
+*Defined in [index.d.ts:8313](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8313)*
 
 An [event](#Event) which fires when a terminal has been created, either through the
 [createTerminal](#window.createTerminal) API or commands.
@@ -215,7 +228,7 @@ ___
 
 • `Const` **state**: [WindowState](../interfaces/_index_d_._plugin_.windowstate.md)
 
-*Defined in [index.d.ts:7304](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7304)*
+*Defined in [index.d.ts:8323](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8323)*
 
 Represents the current window's state.
 
@@ -225,7 +238,7 @@ ___
 
 • `Const` **terminals**: ReadonlyArray\<[Terminal](../interfaces/_index_d_._plugin_.terminal.md)>
 
-*Defined in [index.d.ts:7275](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7275)*
+*Defined in [index.d.ts:8294](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8294)*
 
 The currently opened terminals or an empty array.
 
@@ -235,7 +248,7 @@ ___
 
 • `Let` **visibleTextEditors**: [TextEditor](../interfaces/_index_d_._plugin_.texteditor.md)[]
 
-*Defined in [index.d.ts:7237](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7237)*
+*Defined in [index.d.ts:8256](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8256)*
 
 The currently visible editors or an empty array.
 
@@ -243,11 +256,11 @@ The currently visible editors or an empty array.
 
 ### createCloudWebviewPanel
 
-▸ **createCloudWebviewPanel**(`viewType`: string, `title`: string, `showOptions`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { area: string ; preserveFocus?: boolean ; viewColumn?: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  }, `options?`: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md) & [WebviewOptions](../interfaces/_index_d_._plugin_.webviewoptions.md)): [WebviewPanel](../interfaces/_index_d_._plugin_.webviewpanel.md)
+▸ **createCloudWebviewPanel**(`viewType`: string, `title`: string, `showOptions`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { area: string ; preserveFocus?: boolean ; viewColumn: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  }, `options?`: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md) & [WebviewOptions](../interfaces/_index_d_._plugin_.webviewoptions.md)): [WebviewPanel](../interfaces/_index_d_._plugin_.webviewpanel.md)
 
-*Defined in [index.d.ts:7622](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7622)*
+*Defined in [index.d.ts:8641](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8641)*
 
-Create and show a new webview panel. this api is extended by huawei
+Create and show a new webview panel.
 
 #### Parameters:
 
@@ -255,7 +268,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `viewType` | string | Identifies the type of the webview panel. |
 `title` | string | Title of the panel. |
-`showOptions` | [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { area: string ; preserveFocus?: boolean ; viewColumn?: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  } | Where to show the webview in the editor. If preserveFocus is set, the new webview will not take focus. When in left or right area, preserveFocus `true` will make panel collapsed. |
+`showOptions` | [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { area: string ; preserveFocus?: boolean ; viewColumn: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  } | where webview panel will be reside. If preserveFocus is set, the new webview will not take focus. |
 `options?` | [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md) & [WebviewOptions](../interfaces/_index_d_._plugin_.webviewoptions.md) | Settings for the new panel.  |
 
 **Returns:** [WebviewPanel](../interfaces/_index_d_._plugin_.webviewpanel.md)
@@ -264,11 +277,40 @@ New webview panel.
 
 ___
 
+### createCustomizableDialog
+
+▸ **createCustomizableDialog**(`options`: [CustomizableDialogOptions](../interfaces/_index_d_._plugin_.window.customizabledialogoptions.md)): Promise\<[CustomizableDialog](../interfaces/_index_d_._plugin_.window.customizabledialog.md)>
+
+*Defined in [index.d.ts:8659](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8659)*
+
+Create and open a dialog with an embedded iframe, it will allow you to:
+
+- set the title of the dialog
+- customize the width and height of the dialog
+- set the content to any style
+- control whether the close button is displayed
+- control the content and alignment of the bottom button
+
+It provides `onclose` callback triggered when the dialog is closed,
+the callback parameters can be set to the data emited from dialog and the target element clicked when close dialog.
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`options` | [CustomizableDialogOptions](../interfaces/_index_d_._plugin_.window.customizabledialogoptions.md) |
+
+**Returns:** Promise\<[CustomizableDialog](../interfaces/_index_d_._plugin_.window.customizabledialog.md)>
+
+CustomizableDialog
+
+___
+
 ### createInputBox
 
 ▸ **createInputBox**(): [InputBox](../interfaces/_index_d_._plugin_.inputbox.md)
 
-*Defined in [index.d.ts:7591](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7591)*
+*Defined in [index.d.ts:8610](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8610)*
 
 Creates a [InputBox](#InputBox) to let the user enter some text input.
 
@@ -286,7 +328,7 @@ ___
 
 ▸ **createOutputChannel**(`name`: string): [OutputChannel](../interfaces/_index_d_._plugin_.outputchannel.md)
 
-*Defined in [index.d.ts:7598](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7598)*
+*Defined in [index.d.ts:8617](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8617)*
 
 Creates a new [output channel](#OutputChannel) with the given name.
 
@@ -304,7 +346,7 @@ ___
 
 ▸ **createQuickPick**\<T>(): [QuickPick](../interfaces/_index_d_._plugin_.quickpick.md)\<T>
 
-*Defined in [index.d.ts:7580](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7580)*
+*Defined in [index.d.ts:8599](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8599)*
 
 Creates a [QuickPick](#QuickPick) to let the user pick an item from a list
 of items of type T.
@@ -329,7 +371,7 @@ ___
 
 ▸ **createStatusBarItem**(`alignment?`: [StatusBarAlignment](../enums/_index_d_._plugin_.statusbaralignment.md), `priority?`: number): [StatusBarItem](../interfaces/_index_d_._plugin_.statusbaritem.md)
 
-*Defined in [index.d.ts:7696](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7696)*
+*Defined in [index.d.ts:8841](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8841)*
 
 Creates a status bar [item](#StatusBarItem).
 
@@ -350,10 +392,12 @@ ___
 
 ▸ **createTerminal**(`name?`: string, `shellPath?`: string, `shellArgs?`: string[] \| string): [Terminal](../interfaces/_index_d_._plugin_.terminal.md)
 
-*Defined in [index.d.ts:7709](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7709)*
+*Defined in [index.d.ts:8855](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8855)*
 
 Creates a [Terminal](#Terminal) with a backing shell process. The cwd of the terminal will be the workspace
 directory if it exists.
+
+**`throws`** When running in an environment where a new process cannot be started.
 
 #### Parameters:
 
@@ -369,9 +413,11 @@ A new Terminal.
 
 ▸ **createTerminal**(`options`: [TerminalOptions](../interfaces/_index_d_._plugin_.terminaloptions.md)): [Terminal](../interfaces/_index_d_._plugin_.terminal.md)
 
-*Defined in [index.d.ts:7717](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7717)*
+*Defined in [index.d.ts:8864](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8864)*
 
 Creates a [Terminal](#Terminal) with a backing shell process.
+
+**`throws`** When running in an environment where a new process cannot be started.
 
 #### Parameters:
 
@@ -385,7 +431,7 @@ A new Terminal.
 
 ▸ **createTerminal**(`options`: [ExtensionTerminalOptions](../interfaces/_index_d_._plugin_.extensionterminaloptions.md)): [Terminal](../interfaces/_index_d_._plugin_.terminal.md)
 
-*Defined in [index.d.ts:7726](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7726)*
+*Defined in [index.d.ts:8873](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8873)*
 
 Creates a [Terminal](#Terminal) where an extension controls its input and output.
 
@@ -405,7 +451,7 @@ ___
 
 ▸ **createTextEditorDecorationType**(`options`: [DecorationRenderOptions](../interfaces/_index_d_._plugin_.decorationrenderoptions.md)): [TextEditorDecorationType](../interfaces/_index_d_._plugin_.texteditordecorationtype.md)
 
-*Defined in [index.d.ts:7352](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7352)*
+*Defined in [index.d.ts:8371](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8371)*
 
 Create a TextEditorDecorationType that can be used to add decorations to text editors.
 
@@ -425,7 +471,7 @@ ___
 
 ▸ **createTreeView**\<T>(`viewId`: string, `options`: [TreeViewOptions](../interfaces/_index_d_._plugin_.treeviewoptions.md)\<T>): [TreeView](../interfaces/_index_d_._plugin_.treeview.md)\<T>
 
-*Defined in [index.d.ts:7745](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7745)*
+*Defined in [index.d.ts:8892](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8892)*
 
 Create a [TreeView](#TreeView) for the view contributed using the extension point `views`.
 
@@ -452,7 +498,7 @@ ___
 
 ▸ **createWebviewPanel**(`viewType`: string, `title`: string, `showOptions`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md) \| { preserveFocus?: boolean ; viewColumn: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md)  }, `options?`: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md) & [WebviewOptions](../interfaces/_index_d_._plugin_.webviewoptions.md)): [WebviewPanel](../interfaces/_index_d_._plugin_.webviewpanel.md)
 
-*Defined in [index.d.ts:7610](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7610)*
+*Defined in [index.d.ts:8629](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8629)*
 
 Create and show a new webview panel.
 
@@ -473,22 +519,63 @@ ___
 
 ### registerCustomEditorProvider
 
-▸ **registerCustomEditorProvider**(`viewType`: string, `provider`: [CustomTextEditorProvider](../interfaces/_index_d_._plugin_.customtexteditorprovider.md), `options?`: { webviewOptions?: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md)  }): [Disposable](../classes/_index_d_._plugin_.disposable.md)
+▸ **registerCustomEditorProvider**(`viewType`: string, `provider`: [CustomTextEditorProvider](../interfaces/_index_d_._plugin_.customtexteditorprovider.md) \| [CustomReadonlyEditorProvider](../interfaces/_index_d_._plugin_.customreadonlyeditorprovider.md) \| [CustomEditorProvider](../interfaces/_index_d_._plugin_.customeditorprovider.md), `options?`: { supportsMultipleEditorsPerDocument?: boolean ; webviewOptions?: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md)  }): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7796](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7796)*
+*Defined in [index.d.ts:8985](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8985)*
 
 Register a provider for custom editors for the `viewType` contributed by the `customEditors` extension point.
 
 When a custom editor is opened, VS Code fires an `onCustomEditor:viewType` activation event. Your extension
-must register a [`CustomTextEditorProvider`](#CustomTextEditorProvider) for `viewType` as part of activation.
+must register a [`CustomTextEditorProvider`](#CustomTextEditorProvider), [`CustomReadonlyEditorProvider`](#CustomReadonlyEditorProvider),
+[`CustomEditorProvider`](#CustomEditorProvider)for `viewType` as part of activation.
 
 #### Parameters:
 
 Name | Type | Description |
 ------ | ------ | ------ |
 `viewType` | string | Unique identifier for the custom editor provider. This should match the `viewType` from the   `customEditors` contribution point. |
-`provider` | [CustomTextEditorProvider](../interfaces/_index_d_._plugin_.customtexteditorprovider.md) | Provider that resolves custom editors. |
-`options?` | { webviewOptions?: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md)  } | Options for the provider.  |
+`provider` | [CustomTextEditorProvider](../interfaces/_index_d_._plugin_.customtexteditorprovider.md) \| [CustomReadonlyEditorProvider](../interfaces/_index_d_._plugin_.customreadonlyeditorprovider.md) \| [CustomEditorProvider](../interfaces/_index_d_._plugin_.customeditorprovider.md) | Provider that resolves custom editors. |
+`options?` | { supportsMultipleEditorsPerDocument?: boolean ; webviewOptions?: [WebviewPanelOptions](../interfaces/_index_d_._plugin_.webviewpaneloptions.md)  } | Options for the provider.  |
+
+**Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+Disposable that unregisters the provider.
+
+___
+
+### registerFileDecorationProvider
+
+▸ **registerFileDecorationProvider**(`provider`: [FileDecorationProvider](../interfaces/_index_d_._plugin_.filedecorationprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+*Defined in [index.d.ts:9021](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9021)*
+
+Register a file decoration provider.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`provider` | [FileDecorationProvider](../interfaces/_index_d_._plugin_.filedecorationprovider.md) | A [FileDecorationProvider](#FileDecorationProvider). |
+
+**Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+A [disposable](#Disposable) that unregisters the provider.
+
+___
+
+### registerTerminalLinkProvider
+
+▸ **registerTerminalLinkProvider**(`provider`: [TerminalLinkProvider](../interfaces/_index_d_._plugin_.terminallinkprovider.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+*Defined in [index.d.ts:9013](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L9013)*
+
+Register provider that enables the detection and handling of links within the terminal.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`provider` | [TerminalLinkProvider](../interfaces/_index_d_._plugin_.terminallinkprovider.md) | The provider that provides the terminal links. |
 
 **Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
@@ -500,7 +587,7 @@ ___
 
 ▸ **registerTreeDataProvider**\<T>(`viewId`: string, `treeDataProvider`: [TreeDataProvider](../interfaces/_index_d_._plugin_.treedataprovider.md)\<T>): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7737](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7737)*
+*Defined in [index.d.ts:8884](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8884)*
 
 Register a [TreeDataProvider](#TreeDataProvider) for the view contributed using the extension point `views`.
 This will allow you to contribute data to the [TreeView](#TreeView) and update if the data changes.
@@ -528,7 +615,7 @@ ___
 
 ▸ **registerUriHandler**(`handler`: [UriHandler](../interfaces/_index_d_._plugin_.urihandler.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7768](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7768)*
+*Defined in [index.d.ts:8915](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8915)*
 
 Registers a [uri handler](#UriHandler) capable of handling system-wide [uris](#Uri).
 In case there are multiple windows open, the topmost window will handle the uri.
@@ -558,11 +645,29 @@ Name | Type | Description |
 
 ___
 
+### registerWebviewAsPluginPage
+
+▸ **registerWebviewAsPluginPage**(`viewType`: string): void
+
+*Defined in [index.d.ts:8935](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8935)*
+
+Only registers a webview panel.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`viewType` | string | Type of the webview panel.  |
+
+**Returns:** void
+
+___
+
 ### registerWebviewPanelSerializer
 
 ▸ **registerWebviewPanelSerializer**(`viewType`: string, `serializer`: [WebviewPanelSerializer](../interfaces/_index_d_._plugin_.webviewpanelserializer.md)): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7781](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7781)*
+*Defined in [index.d.ts:8928](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8928)*
 
 Registers a webview panel serializer.
 
@@ -582,11 +687,33 @@ Name | Type | Description |
 
 ___
 
+### registerWebviewViewProvider
+
+▸ **registerWebviewViewProvider**(`viewId`: string, `provider`: [WebviewViewProvider](../interfaces/_index_d_._plugin_.webviewviewprovider.md), `options?`: { webviewOptions?: { retainContextWhenHidden?: boolean  }  }): [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+*Defined in [index.d.ts:8946](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8946)*
+
+Register a new provider for webview views.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`viewId` | string | Unique id of the view. This should match the `id` from the   `views` contribution in the package.json. |
+`provider` | [WebviewViewProvider](../interfaces/_index_d_._plugin_.webviewviewprovider.md) | Provider for the webview views.  |
+`options?` | { webviewOptions?: { retainContextWhenHidden?: boolean  }  } | - |
+
+**Returns:** [Disposable](../classes/_index_d_._plugin_.disposable.md)
+
+Disposable that unregisters the provider.
+
+___
+
 ### setStatusBarMessage
 
 ▸ **setStatusBarMessage**(`text`: string, `hideAfterTimeout`: number): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7632](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7632)*
+*Defined in [index.d.ts:8777](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8777)*
 
 Set a message to the status bar. This is a short hand for the more powerful
 status bar [items](#window.createStatusBarItem).
@@ -604,7 +731,7 @@ A disposable which hides the status bar message.
 
 ▸ **setStatusBarMessage**(`text`: string, `hideWhenDone`: [Thenable](../interfaces/_index_d_.thenable.md)\<any>): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7642](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7642)*
+*Defined in [index.d.ts:8787](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8787)*
 
 Set a message to the status bar. This is a short hand for the more powerful
 status bar [items](#window.createStatusBarItem).
@@ -622,7 +749,7 @@ A disposable which hides the status bar message.
 
 ▸ **setStatusBarMessage**(`text`: string): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:7654](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7654)*
+*Defined in [index.d.ts:8799](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8799)*
 
 Set a message to the status bar. This is a short hand for the more powerful
 status bar [items](#window.createStatusBarItem).
@@ -646,7 +773,7 @@ ___
 
 ▸ **showErrorMessage**(`message`: string, ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7453](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7453)*
+*Defined in [index.d.ts:8472](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8472)*
 
 Show an error message.
 
@@ -665,7 +792,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showErrorMessage**(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7465](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7465)*
+*Defined in [index.d.ts:8484](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8484)*
 
 Show an error message.
 
@@ -685,7 +812,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showErrorMessage**\<T>(`message`: string, ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7476](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7476)*
+*Defined in [index.d.ts:8495](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8495)*
 
 Show an error message.
 
@@ -710,7 +837,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showErrorMessage**\<T>(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7488](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7488)*
+*Defined in [index.d.ts:8507](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8507)*
 
 Show an error message.
 
@@ -740,7 +867,7 @@ ___
 
 ▸ **showInformationMessage**(`message`: string, ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7362](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7362)*
+*Defined in [index.d.ts:8381](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8381)*
 
 Show an information message to users. Optionally provide an array of items which will be presented as
 clickable buttons.
@@ -758,7 +885,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showInformationMessage**(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7373](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7373)*
+*Defined in [index.d.ts:8392](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8392)*
 
 Show an information message to users. Optionally provide an array of items which will be presented as
 clickable buttons.
@@ -777,7 +904,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showInformationMessage**\<T>(`message`: string, ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7384](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7384)*
+*Defined in [index.d.ts:8403](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8403)*
 
 Show an information message.
 
@@ -802,7 +929,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showInformationMessage**\<T>(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7396](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7396)*
+*Defined in [index.d.ts:8415](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8415)*
 
 Show an information message.
 
@@ -832,7 +959,7 @@ ___
 
 ▸ **showInputBox**(`options?`: [InputBoxOptions](../interfaces/_index_d_._plugin_.inputboxoptions.md), `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7568](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7568)*
+*Defined in [index.d.ts:8587](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8587)*
 
 Opens an input box to ask the user for input.
 
@@ -855,9 +982,9 @@ ___
 
 ### showOpenDialog
 
-▸ **showOpenDialog**(`options`: [OpenDialogOptions](../interfaces/_index_d_._plugin_.opendialogoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)[] \| undefined>
+▸ **showOpenDialog**(`options?`: [OpenDialogOptions](../interfaces/_index_d_._plugin_.opendialogoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)[] \| undefined>
 
-*Defined in [index.d.ts:7546](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7546)*
+*Defined in [index.d.ts:8565](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8565)*
 
 Shows a file open dialog to the user which allows to select a file
 for opening-purposes.
@@ -866,7 +993,7 @@ for opening-purposes.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`options` | [OpenDialogOptions](../interfaces/_index_d_._plugin_.opendialogoptions.md) | Options that control the dialog. |
+`options?` | [OpenDialogOptions](../interfaces/_index_d_._plugin_.opendialogoptions.md) | Options that control the dialog. |
 
 **Returns:** [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md)[] \| undefined>
 
@@ -878,7 +1005,7 @@ ___
 
 ▸ **showQuickPick**(`items`: string[] \| [Thenable](../interfaces/_index_d_.thenable.md)\<string[]>, `options`: [QuickPickOptions](../interfaces/_index_d_._plugin_.quickpickoptions.md) & { canPickMany: true  }, `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<string[] \| undefined>
 
-*Defined in [index.d.ts:7498](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7498)*
+*Defined in [index.d.ts:8517](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8517)*
 
 Shows a selection list allowing multiple selections.
 
@@ -896,7 +1023,7 @@ A promise that resolves to the selected items or `undefined`.
 
 ▸ **showQuickPick**(`items`: string[] \| [Thenable](../interfaces/_index_d_.thenable.md)\<string[]>, `options?`: [QuickPickOptions](../interfaces/_index_d_._plugin_.quickpickoptions.md), `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7508](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7508)*
+*Defined in [index.d.ts:8527](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8527)*
 
 Shows a selection list.
 
@@ -914,7 +1041,7 @@ A promise that resolves to the selection or `undefined`.
 
 ▸ **showQuickPick**\<T>(`items`: T[] \| [Thenable](../interfaces/_index_d_.thenable.md)\<T[]>, `options`: [QuickPickOptions](../interfaces/_index_d_._plugin_.quickpickoptions.md) & { canPickMany: true  }, `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<T[] \| undefined>
 
-*Defined in [index.d.ts:7518](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7518)*
+*Defined in [index.d.ts:8537](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8537)*
 
 Shows a selection list allowing multiple selections.
 
@@ -938,7 +1065,7 @@ A promise that resolves to the selected items or `undefined`.
 
 ▸ **showQuickPick**\<T>(`items`: T[] \| [Thenable](../interfaces/_index_d_.thenable.md)\<T[]>, `options?`: [QuickPickOptions](../interfaces/_index_d_._plugin_.quickpickoptions.md), `token?`: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7528](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7528)*
+*Defined in [index.d.ts:8547](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8547)*
 
 Shows a selection list.
 
@@ -964,9 +1091,9 @@ ___
 
 ### showSaveDialog
 
-▸ **showSaveDialog**(`options`: [SaveDialogOptions](../interfaces/_index_d_._plugin_.savedialogoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md) \| undefined>
+▸ **showSaveDialog**(`options?`: [SaveDialogOptions](../interfaces/_index_d_._plugin_.savedialogoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md) \| undefined>
 
-*Defined in [index.d.ts:7555](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7555)*
+*Defined in [index.d.ts:8574](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8574)*
 
 Shows a file save dialog to the user which allows to select a file
 for saving-purposes.
@@ -975,7 +1102,7 @@ for saving-purposes.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`options` | [SaveDialogOptions](../interfaces/_index_d_._plugin_.savedialogoptions.md) | Options that control the dialog. |
+`options?` | [SaveDialogOptions](../interfaces/_index_d_._plugin_.savedialogoptions.md) | Options that control the dialog. |
 
 **Returns:** [Thenable](../interfaces/_index_d_.thenable.md)\<[Uri](../classes/_index_d_._plugin_.uri.md) \| undefined>
 
@@ -987,7 +1114,7 @@ ___
 
 ▸ **showTextDocument**(`document`: [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md), `column?`: [ViewColumn](../enums/_index_d_._plugin_.viewcolumn.md), `preserveFocus?`: boolean): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextEditor](../interfaces/_index_d_._plugin_.texteditor.md)>
 
-*Defined in [index.d.ts:7323](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7323)*
+*Defined in [index.d.ts:8342](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8342)*
 
 Show the given document in a text editor. A [column](#ViewColumn) can be provided
 to control where the editor is being shown. Might change the [active editor](#window.activeTextEditor).
@@ -1006,7 +1133,7 @@ A promise that resolves to an [editor](#TextEditor).
 
 ▸ **showTextDocument**(`document`: [TextDocument](../interfaces/_index_d_._plugin_.textdocument.md), `options?`: [TextDocumentShowOptions](../interfaces/_index_d_._plugin_.textdocumentshowoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextEditor](../interfaces/_index_d_._plugin_.texteditor.md)>
 
-*Defined in [index.d.ts:7333](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7333)*
+*Defined in [index.d.ts:8352](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8352)*
 
 Show the given document in a text editor. [Options](#TextDocumentShowOptions) can be provided
 to control options of the editor is being shown. Might change the [active editor](#window.activeTextEditor).
@@ -1024,7 +1151,7 @@ A promise that resolves to an [editor](#TextEditor).
 
 ▸ **showTextDocument**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `options?`: [TextDocumentShowOptions](../interfaces/_index_d_._plugin_.textdocumentshowoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[TextEditor](../interfaces/_index_d_._plugin_.texteditor.md)>
 
-*Defined in [index.d.ts:7344](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7344)*
+*Defined in [index.d.ts:8363](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8363)*
 
 A short-hand for `openTextDocument(uri).then(document => showTextDocument(document, options))`.
 
@@ -1047,7 +1174,7 @@ ___
 
 ▸ **showWarningMessage**(`message`: string, ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7407](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7407)*
+*Defined in [index.d.ts:8426](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8426)*
 
 Show a warning message.
 
@@ -1066,7 +1193,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showWarningMessage**(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: string[]): [Thenable](../interfaces/_index_d_.thenable.md)\<string \| undefined>
 
-*Defined in [index.d.ts:7419](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7419)*
+*Defined in [index.d.ts:8438](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8438)*
 
 Show a warning message.
 
@@ -1086,7 +1213,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showWarningMessage**\<T>(`message`: string, ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7430](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7430)*
+*Defined in [index.d.ts:8449](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8449)*
 
 Show a warning message.
 
@@ -1111,7 +1238,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 ▸ **showWarningMessage**\<T>(`message`: string, `options`: [MessageOptions](../interfaces/_index_d_._plugin_.messageoptions.md), ...`items`: T[]): [Thenable](../interfaces/_index_d_.thenable.md)\<T \| undefined>
 
-*Defined in [index.d.ts:7442](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7442)*
+*Defined in [index.d.ts:8461](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8461)*
 
 Show a warning message.
 
@@ -1141,7 +1268,7 @@ ___
 
 ▸ **showWorkspaceFolderPick**(`options?`: [WorkspaceFolderPickOptions](../interfaces/_index_d_._plugin_.workspacefolderpickoptions.md)): [Thenable](../interfaces/_index_d_.thenable.md)\<[WorkspaceFolder](../interfaces/_index_d_._plugin_.workspacefolder.md) \| undefined>
 
-*Defined in [index.d.ts:7537](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7537)*
+*Defined in [index.d.ts:8556](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8556)*
 
 Shows a selection list of [workspace folders](#workspace.workspaceFolders) to pick from.
 Returns `undefined` if no folder is open.
@@ -1162,7 +1289,7 @@ ___
 
 ▸ **withProgress**\<R>(`options`: [ProgressOptions](../interfaces/_index_d_._plugin_.progressoptions.md), `task`: (progress: [Progress](../interfaces/_index_d_._plugin_.progress.md)\<{ increment?: number ; message?: string  }>, token: [CancellationToken](../interfaces/_index_d_._plugin_.cancellationtoken.md)) => [Thenable](../interfaces/_index_d_.thenable.md)\<R>): [Thenable](../interfaces/_index_d_.thenable.md)\<R>
 
-*Defined in [index.d.ts:7687](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7687)*
+*Defined in [index.d.ts:8832](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8832)*
 
 Show progress in the editor. Progress is shown while running the given callback
 and while the promise it returned isn't resolved nor rejected. The location at which
@@ -1191,10 +1318,10 @@ ___
 
 ▸ **withScmProgress**\<R>(`task`: (progress: [Progress](../interfaces/_index_d_._plugin_.progress.md)\<number>) => [Thenable](../interfaces/_index_d_.thenable.md)\<R>): [Thenable](../interfaces/_index_d_.thenable.md)\<R>
 
-*Defined in [index.d.ts:7666](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L7666)*
+*Defined in [index.d.ts:8811](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L8811)*
 
-~~Show progress in the Source Control viewlet while running the given callback and while
-its returned promise isn't resolve or rejected.~~
+Show progress in the Source Control viewlet while running the given callback and while
+its returned promise isn't resolve or rejected.
 
 **`deprecated`** Use `withProgress` instead.
 

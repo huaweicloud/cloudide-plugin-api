@@ -30,7 +30,7 @@ Options to configure the behavior of the quick pick UI.
 
 • `Optional` **canPickMany**: boolean
 
-*Defined in [index.d.ts:1672](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1672)*
+*Defined in [index.d.ts:1812](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1812)*
 
 An optional flag to make the picker accept multiple selections, if true the result is an array of picks.
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` **ignoreFocusOut**: boolean
 
-*Defined in [index.d.ts:1667](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1667)*
+*Defined in [index.d.ts:1807](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1807)*
 
 Set to `true` to keep the picker open when focus moves to another part of the editor or to another window.
 
@@ -50,7 +50,7 @@ ___
 
 • `Optional` **matchOnDescription**: boolean
 
-*Defined in [index.d.ts:1652](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1652)*
+*Defined in [index.d.ts:1792](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1792)*
 
 An optional flag to include the description when filtering the picks.
 
@@ -60,7 +60,7 @@ ___
 
 • `Optional` **matchOnDetail**: boolean
 
-*Defined in [index.d.ts:1657](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1657)*
+*Defined in [index.d.ts:1797](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1797)*
 
 An optional flag to include the detail when filtering the picks.
 
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **placeHolder**: string
 
-*Defined in [index.d.ts:1662](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1662)*
+*Defined in [index.d.ts:1802](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1802)*
 
 An optional string to show as placeholder in the input box to guide the user what to pick on.
 
@@ -80,7 +80,7 @@ An optional string to show as placeholder in the input box to guide the user wha
 
 ▸ `Optional`**onDidSelectItem**(`item`: [QuickPickItem](_index_d_._plugin_.quickpickitem.md) \| string): any
 
-*Defined in [index.d.ts:1677](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L1677)*
+*Defined in [index.d.ts:1817](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L1817)*
 
 An optional function that is invoked whenever an item is selected.
 

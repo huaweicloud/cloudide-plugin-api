@@ -43,7 +43,7 @@ folders, symbolic links, and regular files.
 
 • `Readonly` **onDidChangeFile**: [Event](_index_d_._plugin_.event.md)\<[FileChangeEvent](_index_d_._plugin_.filechangeevent.md)[]>
 
-*Defined in [index.d.ts:6395](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6395)*
+*Defined in [index.d.ts:7007](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7007)*
 
 An event to signal that a resource has been created, changed, or deleted. This
 event should fire for resources that are being [watched](#FileSystemProvider.watch)
@@ -60,7 +60,7 @@ the change in an editor for example.
 
 ▸ `Optional`**copy**(`source`: [Uri](../classes/_index_d_._plugin_.uri.md), `destination`: [Uri](../classes/_index_d_._plugin_.uri.md), `options`: { overwrite: boolean  }): void \| [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6499](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6499)*
+*Defined in [index.d.ts:7111](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7111)*
 
 Copy files or folders. Implementing this function is optional but it will speedup
 the copy operation.
@@ -89,7 +89,7 @@ ___
 
 ▸ **createDirectory**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): void \| [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6440](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6440)*
+*Defined in [index.d.ts:7052](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7052)*
 
 Create a new directory (Note, that new files are created via `write`-calls).
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **delete**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `options`: { recursive: boolean  }): void \| [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6472](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6472)*
+*Defined in [index.d.ts:7084](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7084)*
 
 Delete a file.
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **readDirectory**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [string, [FileType](../enums/_index_d_._plugin_.filetype.md)][] \| [Thenable](_index_d_.thenable.md)\<[string, [FileType](../enums/_index_d_._plugin_.filetype.md)][]>
 
-*Defined in [index.d.ts:6430](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6430)*
+*Defined in [index.d.ts:7042](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7042)*
 
 Retrieve all entries of a [directory](#FileType.Directory).
 
@@ -158,7 +158,7 @@ ___
 
 ▸ **readFile**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): Uint8Array \| [Thenable](_index_d_.thenable.md)\<Uint8Array>
 
-*Defined in [index.d.ts:6449](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6449)*
+*Defined in [index.d.ts:7061](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7061)*
 
 Read the entire contents of a file.
 
@@ -180,7 +180,7 @@ ___
 
 ▸ **rename**(`oldUri`: [Uri](../classes/_index_d_._plugin_.uri.md), `newUri`: [Uri](../classes/_index_d_._plugin_.uri.md), `options`: { overwrite: boolean  }): void \| [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6485](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6485)*
+*Defined in [index.d.ts:7097](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7097)*
 
 Rename a file or folder.
 
@@ -208,7 +208,7 @@ ___
 
 ▸ **stat**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md)): [FileStat](_index_d_._plugin_.filestat.md) \| [Thenable](_index_d_.thenable.md)\<[FileStat](_index_d_._plugin_.filestat.md)>
 
-*Defined in [index.d.ts:6421](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6421)*
+*Defined in [index.d.ts:7033](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7033)*
 
 Retrieve metadata about a file.
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **watch**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `options`: { excludes: string[] ; recursive: boolean  }): [Disposable](../classes/_index_d_._plugin_.disposable.md)
 
-*Defined in [index.d.ts:6408](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6408)*
+*Defined in [index.d.ts:7020](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7020)*
 
 Subscribe to events in the file or folder denoted by `uri`.
 
@@ -259,7 +259,7 @@ ___
 
 ▸ **writeFile**(`uri`: [Uri](../classes/_index_d_._plugin_.uri.md), `content`: Uint8Array, `options`: { create: boolean ; overwrite: boolean  }): void \| [Thenable](_index_d_.thenable.md)\<void>
 
-*Defined in [index.d.ts:6462](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6462)*
+*Defined in [index.d.ts:7074](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L7074)*
 
 Write data to a file, replacing its entire contents.
 

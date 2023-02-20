@@ -34,7 +34,7 @@ The base class of all breakpoint types.
 
 \+ `Protected`**new Breakpoint**(`enabled?`: boolean, `condition?`: string, `hitCondition?`: string, `logMessage?`: string): [Breakpoint](_index_d_._plugin_.breakpoint.md)
 
-*Defined in [index.d.ts:10452](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10452)*
+*Defined in [index.d.ts:11920](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11920)*
 
 #### Parameters:
 
@@ -53,7 +53,7 @@ Name | Type |
 
 • `Optional` `Readonly` **condition**: string
 
-*Defined in [index.d.ts:10444](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10444)*
+*Defined in [index.d.ts:11912](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11912)*
 
 An optional expression for conditional breakpoints.
 
@@ -63,7 +63,7 @@ ___
 
 • `Readonly` **enabled**: boolean
 
-*Defined in [index.d.ts:10440](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10440)*
+*Defined in [index.d.ts:11908](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11908)*
 
 Is breakpoint enabled.
 
@@ -73,7 +73,7 @@ ___
 
 • `Optional` `Readonly` **hitCondition**: string
 
-*Defined in [index.d.ts:10448](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10448)*
+*Defined in [index.d.ts:11916](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11916)*
 
 An optional expression that controls how many hits of the breakpoint are ignored.
 
@@ -83,7 +83,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [index.d.ts:10436](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10436)*
+*Defined in [index.d.ts:11904](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11904)*
 
 The unique ID of the breakpoint.
 
@@ -93,6 +93,6 @@ ___
 
 • `Optional` `Readonly` **logMessage**: string
 
-*Defined in [index.d.ts:10452](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L10452)*
+*Defined in [index.d.ts:11920](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L11920)*
 
 An optional message that gets logged when this breakpoint is hit. Embedded expressions within {} are interpolated by the debug adapter.

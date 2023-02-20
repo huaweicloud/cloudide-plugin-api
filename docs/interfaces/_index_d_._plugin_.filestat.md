@@ -25,7 +25,7 @@ The `FileStat`-type represents metadata about a file
 
 •  **ctime**: number
 
-*Defined in [index.d.ts:6253](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6253)*
+*Defined in [index.d.ts:6865](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6865)*
 
 The creation timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UTC.
 
@@ -35,7 +35,7 @@ ___
 
 •  **mtime**: number
 
-*Defined in [index.d.ts:6261](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6261)*
+*Defined in [index.d.ts:6873](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6873)*
 
 The modification timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UTC.
 
@@ -49,7 +49,7 @@ ___
 
 •  **size**: number
 
-*Defined in [index.d.ts:6269](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6269)*
+*Defined in [index.d.ts:6881](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6881)*
 
 The size in bytes.
 
@@ -63,7 +63,7 @@ ___
 
 •  **type**: [FileType](../enums/_index_d_._plugin_.filetype.md)
 
-*Defined in [index.d.ts:6249](https://github.com/huaweicloud/cloudide-plugin-api/blob/1ab5ef8/index.d.ts#L6249)*
+*Defined in [index.d.ts:6861](https://github.com/shuyaqian/cloudide-plugin-api/blob/6d83fa1/index.d.ts#L6861)*
 
 The type of the file, e.g. is a regular file, a directory, or symbolic link
 to a file.
