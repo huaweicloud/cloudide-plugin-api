@@ -1,6 +1,6 @@
 {
     "name": "@cloudide/plugin",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "huawei cloudide plugin api",
     "main": "",
     "types": "index.d.ts",
@@ -15,13 +15,12 @@
         "url": "https://github.com/huaweicloud/cloudide-plugin-api.git"
     },
     "devDependencies": {
-        "typedoc": "^0.19.2",
-        "typedoc-plugin-markdown": "^3.0.11",
-        "typedoc-plugin-typescript-declaration": "^0.5.0",
-        "typescript": "^4.0.5"
+        "typedoc": "0.23.11",
+        "typedoc-plugin-markdown": "^3.13.2",
+        "typescript": "^4.4.0"
     },
     "scripts": {
         "prepare": "npm run build-doc",
-        "build-doc": "npx typedoc --out docs/ --readme none --includeDeclarations index.d.ts --declarationFile doc/index.d.ts --declarationOnly --excludeExternals --externalPattern \"**/node_modules/**\" index.d.ts"
+        "build-doc": "npx typedoc --out docs/ --readme none --excludeExternals --externalPattern \"**/node_modules/**\" index.d.ts"
     }
 }
