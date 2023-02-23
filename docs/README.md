@@ -1,11 +1,13 @@
-**[@cloudide/plugin](README.md)**
-
-> Globals
+@cloudide/plugin
 
 # @cloudide/plugin
 
-## Index
+## Table of contents
 
-### Modules
+### Namespaces
 
-* ["index.d"](modules/_index_d_.md)
+- [&quot;@cloudide/plugin&quot;](modules/_cloudide_plugin_.md)
+
+### Interfaces
+
+- [Thenable](interfaces/Thenable.md)

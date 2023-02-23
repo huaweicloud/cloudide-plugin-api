@@ -1,0 +1,38 @@
+[@cloudide/plugin](../README.md) / ["@cloudide/plugin"](../modules/_cloudide_plugin_.md) / CommentRule
+
+# Interface: CommentRule
+
+["@cloudide/plugin"](../modules/_cloudide_plugin_.md).CommentRule
+
+Describes how comments for a language work.
+
+## Table of contents
+
+### Properties
+
+- [blockComment](cloudide_plugin_.CommentRule.md#blockcomment)
+- [lineComment](cloudide_plugin_.CommentRule.md#linecomment)
+
+## Properties
+
+### blockComment
+
+• `Optional` **blockComment**: [`CharacterPair`](../modules/_cloudide_plugin_.md#characterpair)
+
+The block comment character pair, like `/* block comment *&#47;`
+
+#### Defined in
+
+[index.d.ts:6598](https://github.com/shuyaqian/cloudide-plugin-api/blob/26b31b9/index.d.ts#L6598)
+
+___
+
+### lineComment
+
+• `Optional` **lineComment**: `string`
+
+The line comment token, like `// this is a comment`
+
+#### Defined in
+
+[index.d.ts:6593](https://github.com/shuyaqian/cloudide-plugin-api/blob/26b31b9/index.d.ts#L6593)
