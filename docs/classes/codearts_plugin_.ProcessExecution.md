@@ -36,7 +36,7 @@ Creates a process execution.
 
 #### Defined in
 
-[index.d.ts:7313](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7313)
+[index.d.ts:7318](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7318)
 
 • **new ProcessExecution**(`process`, `args`, `options?`)
 
@@ -52,7 +52,7 @@ Creates a process execution.
 
 #### Defined in
 
-[index.d.ts:7322](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7322)
+[index.d.ts:7327](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7327)
 
 ## Properties
 
@@ -64,7 +64,7 @@ The arguments passed to the process. Defaults to an empty array.
 
 #### Defined in
 
-[index.d.ts:7332](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7332)
+[index.d.ts:7337](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7337)
 
 ___
 
@@ -77,7 +77,7 @@ Defaults to undefined.
 
 #### Defined in
 
-[index.d.ts:7338](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7338)
+[index.d.ts:7343](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7343)
 
 ___
 
@@ -89,4 +89,4 @@ The process to be executed.
 
 #### Defined in
 
-[index.d.ts:7327](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7327)
+[index.d.ts:7332](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7332)

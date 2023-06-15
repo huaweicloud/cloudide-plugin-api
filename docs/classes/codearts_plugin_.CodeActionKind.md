@@ -50,7 +50,7 @@ can also trigger code actions with a specific kind with the `editor.action.codeA
 
 #### Defined in
 
-[index.d.ts:2323](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2323)
+[index.d.ts:2323](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2323)
 
 ## Properties
 
@@ -62,7 +62,7 @@ String value of the kind, e.g. `"refactor.extract.function"`.
 
 #### Defined in
 
-[index.d.ts:2328](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2328)
+[index.d.ts:2328](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2328)
 
 ___
 
@@ -74,7 +74,7 @@ Empty kind.
 
 #### Defined in
 
-[index.d.ts:2246](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2246)
+[index.d.ts:2246](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2246)
 
 ___
 
@@ -88,7 +88,7 @@ Quick fix actions address a problem in the code and are shown in the normal code
 
 #### Defined in
 
-[index.d.ts:2253](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2253)
+[index.d.ts:2253](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2253)
 
 ___
 
@@ -102,7 +102,7 @@ Refactoring actions are shown in the refactoring context menu.
 
 #### Defined in
 
-[index.d.ts:2260](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2260)
+[index.d.ts:2260](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2260)
 
 ___
 
@@ -122,7 +122,7 @@ Example extract actions:
 
 #### Defined in
 
-[index.d.ts:2273](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2273)
+[index.d.ts:2273](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2273)
 
 ___
 
@@ -141,7 +141,7 @@ Example inline actions:
 
 #### Defined in
 
-[index.d.ts:2285](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2285)
+[index.d.ts:2285](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2285)
 
 ___
 
@@ -162,7 +162,7 @@ Example rewrite actions:
 
 #### Defined in
 
-[index.d.ts:2299](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2299)
+[index.d.ts:2299](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2299)
 
 ___
 
@@ -178,7 +178,7 @@ can be run on save using `editor.codeActionsOnSave` and are also shown in the `s
 
 #### Defined in
 
-[index.d.ts:2308](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2308)
+[index.d.ts:2308](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2308)
 
 ___
 
@@ -193,7 +193,7 @@ They should not suppress errors or perform unsafe fixes such as generating new t
 
 #### Defined in
 
-[index.d.ts:2321](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2321)
+[index.d.ts:2321](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2321)
 
 ___
 
@@ -205,7 +205,7 @@ Base kind for an organize imports source action: `source.organizeImports`.
 
 #### Defined in
 
-[index.d.ts:2313](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2313)
+[index.d.ts:2313](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2313)
 
 ## Methods
 
@@ -229,7 +229,7 @@ Does not modify the current kind.
 
 #### Defined in
 
-[index.d.ts:2335](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2335)
+[index.d.ts:2335](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2335)
 
 ___
 
@@ -254,7 +254,7 @@ but not `"unicorn.refactor.extract"`, or `"refactor.extractAll"` or `refactor`.
 
 #### Defined in
 
-[index.d.ts:2355](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2355)
+[index.d.ts:2355](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2355)
 
 ___
 
@@ -279,4 +279,4 @@ but not `"unicorn.refactor.extract"`, or `"refactor.extractAll"`.
 
 #### Defined in
 
-[index.d.ts:2345](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2345)
+[index.d.ts:2345](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2345)

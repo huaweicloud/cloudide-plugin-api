@@ -27,7 +27,7 @@ The name of the file.
 
 #### Defined in
 
-[index.d.ts:10507](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10507)
+[index.d.ts:10512](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10512)
 
 ___
 
@@ -41,7 +41,7 @@ May be `undefined` on web.
 
 #### Defined in
 
-[index.d.ts:10514](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10514)
+[index.d.ts:10519](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10519)
 
 ## Methods
 
@@ -57,4 +57,4 @@ The full file contents of the file.
 
 #### Defined in
 
-[index.d.ts:10519](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10519)
+[index.d.ts:10524](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10524)

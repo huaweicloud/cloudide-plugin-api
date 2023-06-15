@@ -32,7 +32,7 @@ An event to signal a resource has changed.
 
 #### Defined in
 
-[index.d.ts:1693](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1693)
+[index.d.ts:1693](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1693)
 
 ## Methods
 
@@ -64,4 +64,4 @@ A string or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:1709](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1709)
+[index.d.ts:1709](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1709)

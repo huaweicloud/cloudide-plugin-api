@@ -23,7 +23,7 @@ The optional icon path for the author
 
 #### Defined in
 
-[index.d.ts:15632](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15632)
+[index.d.ts:15684](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15684)
 
 ___
 
@@ -35,4 +35,4 @@ The display name of the author of the comment
 
 #### Defined in
 
-[index.d.ts:15627](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15627)
+[index.d.ts:15679](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15679)

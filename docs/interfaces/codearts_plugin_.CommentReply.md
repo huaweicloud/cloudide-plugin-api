@@ -23,7 +23,7 @@ The value in the comment editor
 
 #### Defined in
 
-[index.d.ts:15729](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15729)
+[index.d.ts:15781](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15781)
 
 ___
 
@@ -35,4 +35,4 @@ The active [comment thread](codearts_plugin_.CommentThread.md)
 
 #### Defined in
 
-[index.d.ts:15724](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15724)
+[index.d.ts:15776](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15776)

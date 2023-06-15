@@ -32,7 +32,7 @@ The currently active task executions or an empty array.
 
 #### Defined in
 
-[index.d.ts:7795](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7795)
+[index.d.ts:7800](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7800)
 
 ## Functions
 
@@ -61,7 +61,7 @@ In such an environment, only CustomExecution tasks can be run.
 
 #### Defined in
 
-[index.d.ts:7790](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7790)
+[index.d.ts:7795](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7795)
 
 ___
 
@@ -85,7 +85,7 @@ contributed through extensions.
 
 #### Defined in
 
-[index.d.ts:7778](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7778)
+[index.d.ts:7783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7783)
 
 ___
 
@@ -112,7 +112,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
 
 ___
 
@@ -139,7 +139,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
 
 ___
 
@@ -166,7 +166,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
 
 ___
 
@@ -193,7 +193,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
 
 ___
 
@@ -218,4 +218,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:7769](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7769)
+[index.d.ts:7774](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7774)

@@ -35,7 +35,7 @@ Encapsulates data transferred during drag and drop operations.
 
 #### Defined in
 
-[index.d.ts:10554](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10554)
+[index.d.ts:10559](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10559)
 
 ## Properties
 
@@ -50,7 +50,7 @@ created the `DataTransferItem` runs in the same extension host.
 
 #### Defined in
 
-[index.d.ts:10549](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10549)
+[index.d.ts:10554](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10554)
 
 ## Methods
 
@@ -71,7 +71,7 @@ file data cannot be accessed.
 
 #### Defined in
 
-[index.d.ts:10541](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10541)
+[index.d.ts:10546](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10546)
 
 ___
 
@@ -89,4 +89,4 @@ If [`value`](codearts_plugin_.DataTransferItem.md#value) is an object, this retu
 
 #### Defined in
 
-[index.d.ts:10531](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10531)
+[index.d.ts:10536](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10536)

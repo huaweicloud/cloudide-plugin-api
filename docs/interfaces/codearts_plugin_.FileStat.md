@@ -26,7 +26,7 @@ The creation timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UT
 
 #### Defined in
 
-[index.d.ts:7872](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7872)
+[index.d.ts:7877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7877)
 
 ___
 
@@ -42,7 +42,7 @@ the updated file contents in an editor for example.
 
 #### Defined in
 
-[index.d.ts:7880](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7880)
+[index.d.ts:7885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7885)
 
 ___
 
@@ -56,7 +56,7 @@ The permissions of the file, e.g. whether the file is readonly.
 
 #### Defined in
 
-[index.d.ts:7894](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7894)
+[index.d.ts:7899](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7899)
 
 ___
 
@@ -72,7 +72,7 @@ example.
 
 #### Defined in
 
-[index.d.ts:7888](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7888)
+[index.d.ts:7893](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7893)
 
 ___
 
@@ -87,4 +87,4 @@ to a file.
 
 #### Defined in
 
-[index.d.ts:7868](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7868)
+[index.d.ts:7873](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7873)

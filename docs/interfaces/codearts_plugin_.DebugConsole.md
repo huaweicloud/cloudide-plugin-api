@@ -33,7 +33,7 @@ Append the given value to the debug console.
 
 #### Defined in
 
-[index.d.ts:15179](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15179)
+[index.d.ts:15231](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15231)
 
 ___
 
@@ -56,4 +56,4 @@ to the debug console.
 
 #### Defined in
 
-[index.d.ts:15187](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15187)
+[index.d.ts:15239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15239)

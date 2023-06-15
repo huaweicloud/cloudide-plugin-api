@@ -38,7 +38,7 @@ The document that the edit is for.
 
 #### Defined in
 
-[index.d.ts:8810](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8810)
+[index.d.ts:8815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8815)
 
 ___
 
@@ -52,7 +52,7 @@ This will be shown to users in the UI for undo/redo operations.
 
 #### Defined in
 
-[index.d.ts:8835](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8835)
+[index.d.ts:8840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8840)
 
 ## Methods
 
@@ -72,7 +72,7 @@ edit was added to the editor's internal edit stack by `onDidChangeCustomDocument
 
 #### Defined in
 
-[index.d.ts:8828](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8828)
+[index.d.ts:8833](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8833)
 
 ___
 
@@ -92,4 +92,4 @@ edit was added to the editor's internal edit stack by `onDidChangeCustomDocument
 
 #### Defined in
 
-[index.d.ts:8819](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8819)
+[index.d.ts:8824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8824)

@@ -34,7 +34,7 @@ Constructs a custom editor tab input.
 
 #### Defined in
 
-[index.d.ts:16956](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16956)
+[index.d.ts:17044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17044)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The uri that the tab is representing.
 
 #### Defined in
 
-[index.d.ts:16946](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16946)
+[index.d.ts:17034](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17034)
 
 ___
 
@@ -58,4 +58,4 @@ The type of custom editor.
 
 #### Defined in
 
-[index.d.ts:16950](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16950)
+[index.d.ts:17038](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17038)

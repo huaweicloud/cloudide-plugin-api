@@ -33,4 +33,4 @@ A promise that resolves to `dropdownMenuActionViewItem` when the dropdownMenuAct
 
 #### Defined in
 
-[index.d.ts:17597](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17597)
+[index.d.ts:17685](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17685)

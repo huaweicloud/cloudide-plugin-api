@@ -24,7 +24,7 @@ produces [output](../classes/codearts_plugin_.NotebookCellOutput.md).
 
 #### Defined in
 
-[index.d.ts:13671](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13671)
+[index.d.ts:13723](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13723)
 
 ___
 
@@ -36,4 +36,4 @@ A markup-cell is formatted source that is used for display.
 
 #### Defined in
 
-[index.d.ts:13665](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13665)
+[index.d.ts:13717](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13717)

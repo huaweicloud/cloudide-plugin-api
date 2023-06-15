@@ -39,7 +39,7 @@ The [cell](codearts_plugin_.NotebookCell.md) for which this execution has been c
 
 #### Defined in
 
-[index.d.ts:14355](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14355)
+[index.d.ts:14407](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14407)
 
 ___
 
@@ -51,7 +51,7 @@ Set and unset the order of this cell execution.
 
 #### Defined in
 
-[index.d.ts:14369](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14369)
+[index.d.ts:14421](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14421)
 
 ___
 
@@ -67,7 +67,7 @@ that created this execution uses an [interrupt-handler](codearts_plugin_.Noteboo
 
 #### Defined in
 
-[index.d.ts:14364](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14364)
+[index.d.ts:14416](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14416)
 
 ## Methods
 
@@ -92,7 +92,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14416](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14416)
+[index.d.ts:14468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14468)
 
 ___
 
@@ -117,7 +117,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14434](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14434)
+[index.d.ts:14486](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14486)
 
 ___
 
@@ -141,7 +141,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14396](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14396)
+[index.d.ts:14448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14448)
 
 ___
 
@@ -164,7 +164,7 @@ Signal that execution has ended.
 
 #### Defined in
 
-[index.d.ts:14387](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14387)
+[index.d.ts:14439](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14439)
 
 ___
 
@@ -189,7 +189,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14406](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14406)
+[index.d.ts:14458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14458)
 
 ___
 
@@ -214,7 +214,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14425](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14425)
+[index.d.ts:14477](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14477)
 
 ___
 
@@ -236,4 +236,4 @@ Signal that the execution has begun.
 
 #### Defined in
 
-[index.d.ts:14377](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14377)
+[index.d.ts:14429](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14429)

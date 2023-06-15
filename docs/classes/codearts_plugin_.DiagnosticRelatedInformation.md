@@ -36,7 +36,7 @@ Creates a new related diagnostic information object.
 
 #### Defined in
 
-[index.d.ts:5919](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5919)
+[index.d.ts:5919](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5919)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The location of this related diagnostic information.
 
 #### Defined in
 
-[index.d.ts:5906](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5906)
+[index.d.ts:5906](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5906)
 
 ___
 
@@ -60,4 +60,4 @@ The message of this related diagnostic information.
 
 #### Defined in
 
-[index.d.ts:5911](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5911)
+[index.d.ts:5911](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5911)

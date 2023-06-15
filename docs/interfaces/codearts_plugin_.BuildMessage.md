@@ -23,7 +23,7 @@ otherwise the current output will not be cleared when the next build task starts
 
 #### Defined in
 
-[index.d.ts:16811](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16811)
+[index.d.ts:16899](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16899)
 
 ___
 
@@ -35,4 +35,4 @@ You can use \r\n or \n in `message` and they will be normalized to the current b
 
 #### Defined in
 
-[index.d.ts:16804](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16804)
+[index.d.ts:16892](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16892)

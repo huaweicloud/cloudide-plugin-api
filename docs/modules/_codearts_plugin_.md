@@ -30,6 +30,7 @@ SPDX-License-Identifier: MIT
 ### Enumerations
 
 - [BuildRequestType](../enums/codearts_plugin_.BuildRequestType.md)
+- [BuildStatusType](../enums/codearts_plugin_.BuildStatusType.md)
 - [CodeActionTriggerKind](../enums/codearts_plugin_.CodeActionTriggerKind.md)
 - [CodeTipSeverity](../enums/codearts_plugin_.CodeTipSeverity.md)
 - [ColorThemeKind](../enums/codearts_plugin_.ColorThemeKind.md)
@@ -214,6 +215,7 @@ SPDX-License-Identifier: MIT
 - [ColorTheme](../interfaces/codearts_plugin_.ColorTheme.md)
 - [Command](../interfaces/codearts_plugin_.Command.md)
 - [CommandAction](../interfaces/codearts_plugin_.CommandAction.md)
+- [CommandActionTitle](../interfaces/codearts_plugin_.CommandActionTitle.md)
 - [CommandInfo](../interfaces/codearts_plugin_.CommandInfo.md)
 - [Comment](../interfaces/codearts_plugin_.Comment.md)
 - [CommentAuthorInformation](../interfaces/codearts_plugin_.CommentAuthorInformation.md)
@@ -422,6 +424,7 @@ SPDX-License-Identifier: MIT
 - [TreeDragAndDropController](../interfaces/codearts_plugin_.TreeDragAndDropController.md)
 - [TreeItemLabel](../interfaces/codearts_plugin_.TreeItemLabel.md)
 - [TreeView](../interfaces/codearts_plugin_.TreeView.md)
+- [TreeViewEditBoxOptions](../interfaces/codearts_plugin_.TreeViewEditBoxOptions.md)
 - [TreeViewExpansionEvent](../interfaces/codearts_plugin_.TreeViewExpansionEvent.md)
 - [TreeViewFocusChangeEvent](../interfaces/codearts_plugin_.TreeViewFocusChangeEvent.md)
 - [TreeViewOptions](../interfaces/codearts_plugin_.TreeViewOptions.md)
@@ -483,7 +486,7 @@ opening and closing brackets.
 
 #### Defined in
 
-[index.d.ts:5443](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5443)
+[index.d.ts:5443](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5443)
 
 ___
 
@@ -498,7 +501,7 @@ a '[WorkspaceFolder](../interfaces/codearts_plugin_.WorkspaceFolder.md)'
 
 #### Defined in
 
-[index.d.ts:12992](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12992)
+[index.d.ts:13044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13044)
 
 ___
 
@@ -508,7 +511,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15106](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15106)
+[index.d.ts:15158](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15158)
 
 ___
 
@@ -521,7 +524,7 @@ or [location links](../interfaces/codearts_plugin_.LocationLink.md).
 
 #### Defined in
 
-[index.d.ts:2714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2714)
+[index.d.ts:2714](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2714)
 
 ___
 
@@ -535,7 +538,7 @@ defined.
 
 #### Defined in
 
-[index.d.ts:2653](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2653)
+[index.d.ts:2653](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2653)
 
 ___
 
@@ -550,7 +553,7 @@ the defining symbol
 
 #### Defined in
 
-[index.d.ts:2646](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2646)
+[index.d.ts:2646](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2646)
 
 ___
 
@@ -574,7 +577,7 @@ let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
 
 #### Defined in
 
-[index.d.ts:2200](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2200)
+[index.d.ts:2200](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2200)
 
 ___
 
@@ -600,7 +603,7 @@ any backslash to slash when creating the glob pattern.
 
 #### Defined in
 
-[index.d.ts:2144](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2144)
+[index.d.ts:2144](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2144)
 
 ___
 
@@ -616,7 +619,7 @@ The InlineValue types combines all inline value types into one type.
 
 #### Defined in
 
-[index.d.ts:3007](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3007)
+[index.d.ts:3007](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3007)
 
 ___
 
@@ -634,7 +637,7 @@ This type is deprecated, please use [`MarkdownString`](../classes/codearts_plugi
 
 #### Defined in
 
-[index.d.ts:2828](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2828)
+[index.d.ts:2828](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2828)
 
 ___
 
@@ -679,7 +682,7 @@ let c: HoverProvider = {
 
 #### Defined in
 
-[index.d.ts:2232](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2232)
+[index.d.ts:2232](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2232)
 
 ___
 
@@ -691,7 +694,7 @@ Location where Actions are registered.
 
 #### Defined in
 
-[index.d.ts:9497](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9497)
+[index.d.ts:9502](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9502)
 
 ## Variables
 
@@ -703,4 +706,4 @@ The version of the editor.
 
 #### Defined in
 
-[index.d.ts:19](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L19)
+[index.d.ts:19](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L19)

@@ -41,7 +41,7 @@ A language id, like `typescript`.
 
 #### Defined in
 
-[index.d.ts:2162](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2162)
+[index.d.ts:2162](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2162)
 
 ___
 
@@ -62,7 +62,7 @@ they are evaluated against the [notebook uri](codearts_plugin_.NotebookDocument.
 
 #### Defined in
 
-[index.d.ts:2174](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2174)
+[index.d.ts:2174](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2174)
 
 ___
 
@@ -75,7 +75,7 @@ to filter documents to a [workspace folder](codearts_plugin_.WorkspaceFolder.md)
 
 #### Defined in
 
-[index.d.ts:2185](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2185)
+[index.d.ts:2185](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2185)
 
 ___
 
@@ -87,4 +87,4 @@ A Uri [scheme](../classes/codearts_plugin_.Uri.md#scheme), like `file` or `untit
 
 #### Defined in
 
-[index.d.ts:2179](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2179)
+[index.d.ts:2179](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2179)

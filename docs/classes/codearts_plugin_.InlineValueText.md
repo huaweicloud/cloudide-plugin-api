@@ -34,7 +34,7 @@ Creates a new InlineValueText object.
 
 #### Defined in
 
-[index.d.ts:2944](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2944)
+[index.d.ts:2944](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2944)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The document range for which the inline value applies.
 
 #### Defined in
 
-[index.d.ts:2933](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2933)
+[index.d.ts:2933](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2933)
 
 ___
 
@@ -58,4 +58,4 @@ The text of the inline value.
 
 #### Defined in
 
-[index.d.ts:2937](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2937)
+[index.d.ts:2937](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2937)

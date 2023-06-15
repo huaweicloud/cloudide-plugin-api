@@ -54,7 +54,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7948](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7948)
+[index.d.ts:7953](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7953)
 
 ## Properties
 
@@ -69,7 +69,7 @@ or `Unknown` for unspecified errors.
 
 #### Defined in
 
-[index.d.ts:7956](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7956)
+[index.d.ts:7961](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7961)
 
 ## Methods
 
@@ -92,7 +92,7 @@ creating but not overwriting a file.
 
 #### Defined in
 
-[index.d.ts:7916](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7916)
+[index.d.ts:7921](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7921)
 
 ___
 
@@ -114,7 +114,7 @@ Create an error to signal that a file is a folder.
 
 #### Defined in
 
-[index.d.ts:7928](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7928)
+[index.d.ts:7933](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7933)
 
 ___
 
@@ -136,7 +136,7 @@ Create an error to signal that a file is not a folder.
 
 #### Defined in
 
-[index.d.ts:7922](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7922)
+[index.d.ts:7927](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7927)
 
 ___
 
@@ -158,7 +158,7 @@ Create an error to signal that a file or folder wasn't found.
 
 #### Defined in
 
-[index.d.ts:7909](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7909)
+[index.d.ts:7914](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7914)
 
 ___
 
@@ -180,7 +180,7 @@ Create an error to signal that an operation lacks required permissions.
 
 #### Defined in
 
-[index.d.ts:7934](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7934)
+[index.d.ts:7939](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7939)
 
 ___
 
@@ -203,4 +203,4 @@ complete a request.
 
 #### Defined in
 
-[index.d.ts:7941](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7941)
+[index.d.ts:7946](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7946)

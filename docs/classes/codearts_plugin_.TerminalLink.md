@@ -36,7 +36,7 @@ Creates a new terminal link.
 
 #### Defined in
 
-[index.d.ts:6673](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6673)
+[index.d.ts:6673](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6673)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The length of the link on [line](../interfaces/codearts_plugin_.TerminalLinkCont
 
 #### Defined in
 
-[index.d.ts:6652](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6652)
+[index.d.ts:6652](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6652)
 
 ___
 
@@ -60,7 +60,7 @@ The start index of the link on [line](../interfaces/codearts_plugin_.TerminalLin
 
 #### Defined in
 
-[index.d.ts:6647](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6647)
+[index.d.ts:6647](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6647)
 
 ___
 
@@ -76,4 +76,4 @@ depending on OS, user settings, and localization.
 
 #### Defined in
 
-[index.d.ts:6661](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6661)
+[index.d.ts:6661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6661)

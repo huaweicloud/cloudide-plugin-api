@@ -26,7 +26,7 @@ when launching the editor.
 
 #### Defined in
 
-[index.d.ts:6859](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6859)
+[index.d.ts:6864](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6864)
 
 ___
 
@@ -39,7 +39,7 @@ or VSIX) in the editor.
 
 #### Defined in
 
-[index.d.ts:6853](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6853)
+[index.d.ts:6858](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6858)
 
 ___
 
@@ -52,4 +52,4 @@ the extension host is running unit tests.
 
 #### Defined in
 
-[index.d.ts:6865](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6865)
+[index.d.ts:6870](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6870)

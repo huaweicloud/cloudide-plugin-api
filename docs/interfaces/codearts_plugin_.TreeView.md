@@ -38,6 +38,7 @@ Represents a Tree view
 
 - [dispose](codearts_plugin_.TreeView.md#dispose)
 - [reveal](codearts_plugin_.TreeView.md#reveal)
+- [showEditBox](codearts_plugin_.TreeView.md#showeditbox)
 
 ## Properties
 
@@ -50,7 +51,7 @@ Setting the title description to null, undefined, or empty string will remove th
 
 #### Defined in
 
-[index.d.ts:10720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10720)
+[index.d.ts:10725](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10725)
 
 ___
 
@@ -62,7 +63,7 @@ Currently focused elements.
 
 #### Defined in
 
-[index.d.ts:10687](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10687)
+[index.d.ts:10692](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10692)
 
 ___
 
@@ -75,7 +76,7 @@ Setting the message to null, undefined, or empty string will remove the message 
 
 #### Defined in
 
-[index.d.ts:10708](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10708)
+[index.d.ts:10713](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10713)
 
 ___
 
@@ -87,7 +88,7 @@ Event that is fired when the [focused elements](codearts_plugin_.TreeView.md#foc
 
 #### Defined in
 
-[index.d.ts:10692](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10692)
+[index.d.ts:10697](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10697)
 
 ___
 
@@ -99,7 +100,7 @@ Event that is fired when the [selection](codearts_plugin_.TreeView.md#selection)
 
 #### Defined in
 
-[index.d.ts:10682](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10682)
+[index.d.ts:10687](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10687)
 
 ___
 
@@ -111,7 +112,7 @@ Event that is fired when [visibility](codearts_plugin_.TreeView.md#visible) has 
 
 #### Defined in
 
-[index.d.ts:10702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10702)
+[index.d.ts:10707](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10707)
 
 ___
 
@@ -123,7 +124,7 @@ Event that is fired when an element is collapsed
 
 #### Defined in
 
-[index.d.ts:10672](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10672)
+[index.d.ts:10677](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10677)
 
 ___
 
@@ -135,7 +136,7 @@ Event that is fired when an element is expanded
 
 #### Defined in
 
-[index.d.ts:10667](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10667)
+[index.d.ts:10672](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10672)
 
 ___
 
@@ -147,7 +148,7 @@ Currently selected elements.
 
 #### Defined in
 
-[index.d.ts:10677](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10677)
+[index.d.ts:10682](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10682)
 
 ___
 
@@ -160,7 +161,7 @@ Changes to the title property will be properly reflected in the UI in the title 
 
 #### Defined in
 
-[index.d.ts:10714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10714)
+[index.d.ts:10719](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10719)
 
 ___
 
@@ -172,7 +173,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10697)
+[index.d.ts:10702](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10702)
 
 ## Methods
 
@@ -192,7 +193,7 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1580)
 
 ___
 
@@ -227,4 +228,36 @@ In order to expand the revealed element, set the option `expand` to `true`. To e
 
 #### Defined in
 
-[index.d.ts:10734](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10734)
+[index.d.ts:10739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10739)
+
+___
+
+### showEditBox
+
+▸ **showEditBox**(`element`, `options?`): [`Thenable`](Thenable.md)<`undefined` \| `string`\>
+
+Opens an edit box on given element in the tree view.
+
+The returned value will be `undefined` if the edit box was canceled (e.g. pressing ESC). Otherwise the
+returned value will be the string typed by the user or an empty string if the user did not type
+anything but dismissed the input box with OK.
+When the input is out of focus, it will return undefined.
+On the premise that the verification is passed, when the enter key is pressed or the focus is lost, the input value will be returned.
+When the verification fails and the focus is out of focus, it will return undefined.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `element` | `T` | the element on which the edit box is shown |
+| `options?` | [`TreeViewEditBoxOptions`](codearts_plugin_.TreeViewEditBoxOptions.md) | Configures the behavior of the edit box. |
+
+#### Returns
+
+[`Thenable`](Thenable.md)<`undefined` \| `string`\>
+
+A promise that resolves to a string the user provided or to `undefined` in case of dismissal.
+
+#### Defined in
+
+[index.d.ts:10754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10754)

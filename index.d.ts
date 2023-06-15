@@ -6839,6 +6839,11 @@ declare module '@codearts/plugin' {
 		 * @return A promise that will resolve when this extension has been activated.
 		 */
 		activate(): Thenable<T>;
+
+		/**
+		 * An event which fires when this extension has been activated.
+		 */
+		readonly onDidActivate: Event<void>;
 	}
 
 	/**
@@ -10732,6 +10737,21 @@ declare module '@codearts/plugin' {
 		 * **NOTE:** The {@link TreeDataProvider} that the `TreeView` {@link window.createTreeView is registered with} with must implement {@link TreeDataProvider.getParent getParent} method to access this API.
 		 */
 		reveal(element: T, options?: { select?: boolean; focus?: boolean; expand?: boolean | number }): Thenable<void>;
+
+		/**
+		 * Opens an edit box on given element in the tree view.
+		 *
+		 * The returned value will be `undefined` if the edit box was canceled (e.g. pressing ESC). Otherwise the
+		 * returned value will be the string typed by the user or an empty string if the user did not type
+		 * anything but dismissed the input box with OK.
+		 * When the input is out of focus, it will return undefined.
+		 * On the premise that the verification is passed, when the enter key is pressed or the focus is lost, the input value will be returned.
+		 * When the verification fails and the focus is out of focus, it will return undefined.
+		 * @param element the element on which the edit box is shown
+		 * @param options Configures the behavior of the edit box.
+		 * @return A promise that resolves to a string the user provided or to `undefined` in case of dismissal.
+		 */
+		showEditBox(element: T, options?: TreeViewEditBoxOptions): Thenable<string | undefined>;
 	}
 
 	/**
@@ -10927,6 +10947,38 @@ declare module '@codearts/plugin' {
 		 * first is the inclusive start index and the second the exclusive end index
 		 */
 		highlights?: [number, number][];
+	}
+
+	export interface TreeViewEditBoxOptions {
+		/**
+		 * An optional string to show as placeholder in the input box to guide the user what to type.
+		 */
+		placeholder?: string;
+
+		/**
+		 * The value to prefill in the input box.
+		 */
+		value?: string;
+
+		/**
+		 * Selection of the prefilled [`value`](#TreeViewEditBoxOptions.value). Defined as tuple of two number where the
+		 * first is the inclusive start index and the second the exclusive end index. When `undefined` the whole
+		 * word will be selected, when empty (start equals end) only the cursor will be set,
+		 * otherwise the defined range will be selected.
+		 */
+		valueSelection?: [number, number];
+
+		/**
+		 * An optional function that will be called to validate input and to give a hint
+		 * to the user.
+		 *
+		 * @param value The current value of the input box.
+		 * @param isAcceptEvent Whether this validation is triggered by the accept or change event.
+		 * @return {@link InputBoxValidationMessage} which can provide a specific message severity.
+		 *   Return `undefined`, `null`, or the empty string when 'value' is valid.
+		 */
+		validateInput?: (value: string, isAcceptEvent: boolean) => InputBoxValidationMessage | null | undefined |
+			Thenable<InputBoxValidationMessage | null | undefined>;
 	}
 
 	/**
@@ -13199,8 +13251,8 @@ declare module '@codearts/plugin' {
 		 * @param provider A code lens provider.
 		 * @return A {@link Disposable} that unregisters this provider when being disposed.
 		 */
-		export function registerCodeLensProvider(selector: DocumentSelector, provider: CodeLensProvider): Disposable;
 
+		export function registerCodeLensProvider(selector: DocumentSelector, provider: CodeLensProvider): Disposable;
 		/**
 		 * Register a definition provider.
 		 *
@@ -16726,6 +16778,20 @@ declare module '@codearts/plugin' {
 		buildHandler: (request: BuildRequestType) => Thenable<boolean | void> | void;
 
 		/**
+		 * Execute the buildHandler that has been registered for the current profile.
+		*/
+		run: (request: BuildRequestType) => void;
+
+		/**
+		 * The function is used to modify the build status corresponding to the current profile.
+		 * Developers should have sufficient understanding of this status to avoid conflicts and other issues.
+		 * At the code level, we recommend using the `profile.run` method to execute the corresponding build with the modified status
+		 * As this method is only suitable for special cases.
+		 * It has a lower priority and will not take effect when the current running build task does not belong to this profile.
+		*/
+		toggleBuildStatus: (buildStatus: BuildStatusType) => void;
+
+		/**
 		 * Deletes the build profile.
 		 */
 		dispose(): void;
@@ -16737,11 +16803,26 @@ declare module '@codearts/plugin' {
 		STOPBUILD = 2
 	}
 
+	/**
+	 * Currently, there are four different states for build tasks, each with a distinct UI representation.
+	 * In the initial state, the project is in a buildable state and the build button is active while the stop button is inactive.
+	 * The starting and stopping states are the same, indicating that the project is preparing to build or ending a build, respectively.
+	 * Both of the above cases, the UI shows both the build and stop buttons as inactive.
+	 * The building state represents an active build and the UI shows the build button as inactive while the stop button is active.
+	 */
+	export enum BuildStatusType {
+		initial = 0,
+		starting = 1,
+		building = 2,
+		stopping = 3
+	}
+
 	export interface BuildProfileOptions {
 		label: string;
-		buildHandler: (request: BuildRequestType) => Thenable<void> | void;
+		buildHandler: (request: BuildRequestType) => Thenable<boolean | void> | void;
 		isDefault?: boolean;
 		registeredRequestType?: BuildRequestType[];
+		onDidChangeBuildTaskStatus?: (data: { buildStatus: BuildStatusType; code?: number; message?: string }) => void;
 	}
 
 	export interface BuildController {
@@ -16782,6 +16863,13 @@ declare module '@codearts/plugin' {
 		 * show build items in build view output.
 		 */
 		showBuildMessageItems(message: BuildMessage): void;
+
+		/**
+		 * executable terminal with shell in build output.
+		 * @param cmd an executable script command.
+		 * @param initialText Initial output displayed when running cmd.
+		 */
+		executableTerminal(cmd: string, initialText?: string): void;
 
 		/**
 		 * update current BuildContoller tree
@@ -17611,6 +17699,23 @@ declare module '@codearts/plugin' {
 		readonly id: string;
 	}
 
+	export interface CommandActionTitle {
+		/**
+		 * The localized value of the string.
+		 */
+		value: string;
+
+		/**
+		 * The original (non localized value of the string)
+		 */
+		original: string;
+
+		/**
+		 * The title with a mnemonic designation. && precedes the mnemonic.
+		 */
+		mnemonicTitle?: string;
+	}
+
 	export interface CommandAction {
 
 		/**
@@ -17621,7 +17726,7 @@ declare module '@codearts/plugin' {
 		/**
 		 * Title show on menu.
 		 */
-		title: string;
+		title: string | CommandActionTitle;
 
 		/**
 		 * Short title show on menu.
@@ -17698,6 +17803,11 @@ declare module '@codearts/plugin' {
 		 * Title shown on menu.
 		 */
 		title: string;
+
+		/**
+		 * The title with a mnemonic designation. && precedes the mnemonic.
+		 */
+		mnemonicTitle?: string;
 
 		/**
 		 * ContextKey Expression.

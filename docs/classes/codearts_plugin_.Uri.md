@@ -52,7 +52,7 @@ Use the `file` and `parse` factory functions to create new `Uri` objects.
 
 #### Defined in
 
-[index.d.ts:1399](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1399)
+[index.d.ts:1399](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1399)
 
 ## Properties
 
@@ -65,7 +65,7 @@ The part between the first double slashes and the next slash.
 
 #### Defined in
 
-[index.d.ts:1411](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1411)
+[index.d.ts:1411](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1411)
 
 ___
 
@@ -77,7 +77,7 @@ Fragment is the `fragment` part of `http://www.example.com/some/path?query#fragm
 
 #### Defined in
 
-[index.d.ts:1426](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1426)
+[index.d.ts:1426](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1426)
 
 ___
 
@@ -106,7 +106,7 @@ u.fsPath === '\\server\c$\folder\file.txt'
 
 #### Defined in
 
-[index.d.ts:1448](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1448)
+[index.d.ts:1448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1448)
 
 ___
 
@@ -118,7 +118,7 @@ Path is the `/some/path` part of `http://www.example.com/some/path?query#fragmen
 
 #### Defined in
 
-[index.d.ts:1416](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1416)
+[index.d.ts:1416](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1416)
 
 ___
 
@@ -130,7 +130,7 @@ Query is the `query` part of `http://www.example.com/some/path?query#fragment`.
 
 #### Defined in
 
-[index.d.ts:1421](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1421)
+[index.d.ts:1421](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1421)
 
 ___
 
@@ -143,7 +143,7 @@ The part before the first colon.
 
 #### Defined in
 
-[index.d.ts:1405](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1405)
+[index.d.ts:1405](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1405)
 
 ## Methods
 
@@ -161,7 +161,7 @@ An object.
 
 #### Defined in
 
-[index.d.ts:1490](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1490)
+[index.d.ts:1490](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1490)
 
 ___
 
@@ -195,7 +195,7 @@ A string representation of this Uri.
 
 #### Defined in
 
-[index.d.ts:1483](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1483)
+[index.d.ts:1483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1483)
 
 ___
 
@@ -231,7 +231,7 @@ A new Uri that reflects the given change. Will return `this` Uri if the change
 
 #### Defined in
 
-[index.d.ts:1464](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1464)
+[index.d.ts:1464](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1464)
 
 ___
 
@@ -272,7 +272,7 @@ A new Uri instance.
 
 #### Defined in
 
-[index.d.ts:1363](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1363)
+[index.d.ts:1363](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1363)
 
 ___
 
@@ -305,7 +305,7 @@ A new Uri instance.
 
 #### Defined in
 
-[index.d.ts:1394](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1394)
+[index.d.ts:1394](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1394)
 
 ___
 
@@ -343,7 +343,7 @@ A new uri which path is joined with the given fragments
 
 #### Defined in
 
-[index.d.ts:1385](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1385)
+[index.d.ts:1385](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1385)
 
 ___
 
@@ -377,4 +377,4 @@ A new Uri instance.
 
 #### Defined in
 
-[index.d.ts:1338](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1338)
+[index.d.ts:1338](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1338)

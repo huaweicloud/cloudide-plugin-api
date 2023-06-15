@@ -32,7 +32,7 @@ The [notebook document](codearts_plugin_.NotebookDocument.md) associated with th
 
 #### Defined in
 
-[index.d.ts:13600](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13600)
+[index.d.ts:13652](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13652)
 
 ___
 
@@ -44,7 +44,7 @@ The primary selection in this notebook editor.
 
 #### Defined in
 
-[index.d.ts:13605](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13605)
+[index.d.ts:13657](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13657)
 
 ___
 
@@ -58,7 +58,7 @@ The primary selection (or focused range) is `selections[0]`. When the document h
 
 #### Defined in
 
-[index.d.ts:13612](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13612)
+[index.d.ts:13664](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13664)
 
 ___
 
@@ -70,7 +70,7 @@ The column in which this editor shows.
 
 #### Defined in
 
-[index.d.ts:13622](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13622)
+[index.d.ts:13674](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13674)
 
 ___
 
@@ -82,7 +82,7 @@ The current visible ranges in the editor (vertically).
 
 #### Defined in
 
-[index.d.ts:13617](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13617)
+[index.d.ts:13669](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13669)
 
 ## Methods
 
@@ -105,4 +105,4 @@ Scroll as indicated by `revealType` in order to reveal the given range.
 
 #### Defined in
 
-[index.d.ts:13630](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13630)
+[index.d.ts:13682](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13682)

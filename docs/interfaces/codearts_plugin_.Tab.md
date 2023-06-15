@@ -30,7 +30,7 @@ The group which the tab belongs to.
 
 #### Defined in
 
-[index.d.ts:17044](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17044)
+[index.d.ts:17132](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17132)
 
 ___
 
@@ -43,7 +43,7 @@ Resource and other useful properties are defined on the tab kind.
 
 #### Defined in
 
-[index.d.ts:17050](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17050)
+[index.d.ts:17138](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17138)
 
 ___
 
@@ -56,7 +56,7 @@ This is dictated by being the selected tab in the group.
 
 #### Defined in
 
-[index.d.ts:17056](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17056)
+[index.d.ts:17144](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17144)
 
 ___
 
@@ -68,7 +68,7 @@ Whether or not the dirty indicator is present on the tab.
 
 #### Defined in
 
-[index.d.ts:17061](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17061)
+[index.d.ts:17149](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17149)
 
 ___
 
@@ -80,7 +80,7 @@ Whether or not the tab is pinned (pin icon is present).
 
 #### Defined in
 
-[index.d.ts:17066](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17066)
+[index.d.ts:17154](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17154)
 
 ___
 
@@ -92,7 +92,7 @@ Whether or not the tab is in preview mode.
 
 #### Defined in
 
-[index.d.ts:17071](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17071)
+[index.d.ts:17159](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17159)
 
 ___
 
@@ -104,4 +104,4 @@ The text displayed on the tab.
 
 #### Defined in
 
-[index.d.ts:17039](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17039)
+[index.d.ts:17127](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17127)

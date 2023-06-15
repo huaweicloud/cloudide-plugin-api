@@ -28,7 +28,7 @@ The [author information](codearts_plugin_.CommentAuthorInformation.md) of the co
 
 #### Defined in
 
-[index.d.ts:15677](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15677)
+[index.d.ts:15729](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15729)
 
 ___
 
@@ -40,7 +40,7 @@ The human-readable comment body
 
 #### Defined in
 
-[index.d.ts:15667](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15667)
+[index.d.ts:15719](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15719)
 
 ___
 
@@ -67,7 +67,7 @@ This will show action `extension.deleteComment` only for comments with `contextV
 
 #### Defined in
 
-[index.d.ts:15697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15697)
+[index.d.ts:15749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15749)
 
 ___
 
@@ -80,7 +80,7 @@ Label will be rendered next to authorName if exists.
 
 #### Defined in
 
-[index.d.ts:15708](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15708)
+[index.d.ts:15760](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15760)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15672](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15672)
+[index.d.ts:15724](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15724)
 
 ___
 
@@ -104,7 +104,7 @@ Optional reactions of the [Comment](codearts_plugin_.Comment.md)
 
 #### Defined in
 
-[index.d.ts:15702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15702)
+[index.d.ts:15754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15754)
 
 ___
 
@@ -117,4 +117,4 @@ The date will be formatted according to the user's locale and settings.
 
 #### Defined in
 
-[index.d.ts:15714](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15714)
+[index.d.ts:15766](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15766)

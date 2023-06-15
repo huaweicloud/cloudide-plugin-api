@@ -30,7 +30,7 @@ is only shown for [modal](codearts_plugin_.MessageOptions.md#modal) messages.
 
 #### Defined in
 
-[index.d.ts:1983](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1983)
+[index.d.ts:1983](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1983)
 
 ___
 
@@ -42,4 +42,4 @@ Indicates that this message should be modal.
 
 #### Defined in
 
-[index.d.ts:1977](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1977)
+[index.d.ts:1977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1977)

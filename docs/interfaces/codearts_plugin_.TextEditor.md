@@ -36,7 +36,7 @@ The document associated with this text editor. The document will be the same for
 
 #### Defined in
 
-[index.d.ts:1169](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1169)
+[index.d.ts:1169](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1169)
 
 ___
 
@@ -48,7 +48,7 @@ Text editor options.
 
 #### Defined in
 
-[index.d.ts:1190](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1190)
+[index.d.ts:1190](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1190)
 
 ___
 
@@ -60,7 +60,7 @@ The primary selection on this text editor. Shorthand for `TextEditor.selections[
 
 #### Defined in
 
-[index.d.ts:1174](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1174)
+[index.d.ts:1174](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1174)
 
 ___
 
@@ -72,7 +72,7 @@ The selections in this text editor. The primary selection is always at index 0.
 
 #### Defined in
 
-[index.d.ts:1179](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1179)
+[index.d.ts:1179](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1179)
 
 ___
 
@@ -86,7 +86,7 @@ column is larger than three.
 
 #### Defined in
 
-[index.d.ts:1197](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1197)
+[index.d.ts:1197](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1197)
 
 ___
 
@@ -99,7 +99,7 @@ This accounts only for vertical scrolling, and not for horizontal scrolling.
 
 #### Defined in
 
-[index.d.ts:1185](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1185)
+[index.d.ts:1185](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1185)
 
 ## Methods
 
@@ -130,7 +130,7 @@ A promise that resolves with a value indicating if the edits could be applied.
 
 #### Defined in
 
-[index.d.ts:1210](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1210)
+[index.d.ts:1210](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1210)
 
 ___
 
@@ -151,7 +151,7 @@ This method shows unexpected behavior and will be removed in the next major upda
 
 #### Defined in
 
-[index.d.ts:1262](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1262)
+[index.d.ts:1262](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1262)
 
 ___
 
@@ -182,7 +182,7 @@ that the snippet is completely filled-in or accepted.
 
 #### Defined in
 
-[index.d.ts:1223](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1223)
+[index.d.ts:1223](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1223)
 
 ___
 
@@ -205,7 +205,7 @@ Scroll as indicated by `revealType` in order to reveal the given range.
 
 #### Defined in
 
-[index.d.ts:1244](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1244)
+[index.d.ts:1244](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1244)
 
 ___
 
@@ -235,7 +235,7 @@ will be removed.
 
 #### Defined in
 
-[index.d.ts:1236](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1236)
+[index.d.ts:1236](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1236)
 
 ___
 
@@ -261,4 +261,4 @@ Use [showTextDocument](../modules/codearts_plugin_.window.md#showtextdocument) i
 
 #### Defined in
 
-[index.d.ts:1254](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1254)
+[index.d.ts:1254](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1254)

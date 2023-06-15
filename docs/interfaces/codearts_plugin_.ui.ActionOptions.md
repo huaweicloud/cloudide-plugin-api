@@ -28,7 +28,7 @@ Is it selected.
 
 #### Defined in
 
-[index.d.ts:17405](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17405)
+[index.d.ts:17493](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17493)
 
 ___
 
@@ -40,7 +40,7 @@ Sets the class name of the icon, eg. `codicon codicon-add`.
 
 #### Defined in
 
-[index.d.ts:17395](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17395)
+[index.d.ts:17483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17483)
 
 ___
 
@@ -52,7 +52,7 @@ Sets the ActionViewItem invalid status.
 
 #### Defined in
 
-[index.d.ts:17400](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17400)
+[index.d.ts:17488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17488)
 
 ___
 
@@ -64,7 +64,7 @@ Action Id.
 
 #### Defined in
 
-[index.d.ts:17380](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17380)
+[index.d.ts:17468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17468)
 
 ___
 
@@ -76,7 +76,7 @@ Contents displayed on the ActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17385](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17385)
+[index.d.ts:17473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17473)
 
 ___
 
@@ -88,7 +88,7 @@ Order to insert into the actionbar, the value starts from 0 by default.
 
 #### Defined in
 
-[index.d.ts:17410](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17410)
+[index.d.ts:17498](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17498)
 
 ___
 
@@ -100,4 +100,4 @@ Text displayed when you slide the mouse over the ActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17390](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17390)
+[index.d.ts:17478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17478)

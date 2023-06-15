@@ -24,7 +24,7 @@ The icon path for project wizard, which will show with the label.
 
 #### Defined in
 
-[index.d.ts:9507](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9507)
+[index.d.ts:9512](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9512)
 
 ___
 
@@ -38,7 +38,7 @@ If not defined, sort to the end.
 
 #### Defined in
 
-[index.d.ts:9532](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9532)
+[index.d.ts:9537](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9537)
 
 ___
 
@@ -63,4 +63,4 @@ your view's context cannot be quickly saved and restored.
 
 #### Defined in
 
-[index.d.ts:9525](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9525)
+[index.d.ts:9530](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9530)

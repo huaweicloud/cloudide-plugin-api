@@ -22,4 +22,4 @@ The files that got deleted.
 
 #### Defined in
 
-[index.d.ts:11935](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11935)
+[index.d.ts:11987](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11987)

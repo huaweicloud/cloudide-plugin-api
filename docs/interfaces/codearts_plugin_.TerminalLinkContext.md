@@ -23,7 +23,7 @@ This is the text from the unwrapped line in the terminal.
 
 #### Defined in
 
-[index.d.ts:6611](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6611)
+[index.d.ts:6611](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6611)
 
 ___
 
@@ -35,4 +35,4 @@ The terminal the link belongs to.
 
 #### Defined in
 
-[index.d.ts:6616](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6616)
+[index.d.ts:6616](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6616)

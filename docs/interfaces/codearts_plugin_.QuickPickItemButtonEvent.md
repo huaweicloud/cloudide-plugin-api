@@ -30,7 +30,7 @@ The button that was clicked.
 
 #### Defined in
 
-[index.d.ts:11686](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11686)
+[index.d.ts:11738](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11738)
 
 ___
 
@@ -42,4 +42,4 @@ The item that the button belongs to.
 
 #### Defined in
 
-[index.d.ts:11690](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11690)
+[index.d.ts:11742](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11742)

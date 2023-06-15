@@ -45,7 +45,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16069](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16069)
+[index.d.ts:16121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16121)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -73,7 +73,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16084](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16084)
+[index.d.ts:16136](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16136)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -101,7 +101,7 @@ A thenable that resolves to an authentication session if available, or undefined
 
 #### Defined in
 
-[index.d.ts:16099](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16099)
+[index.d.ts:16151](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16151)
 
 ___
 
@@ -129,7 +129,7 @@ Signed request headers or undefined.
 
 #### Defined in
 
-[index.d.ts:16130](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16130)
+[index.d.ts:16182](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16182)
 
 ___
 
@@ -156,7 +156,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
 
 ___
 
@@ -190,4 +190,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:16119](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16119)
+[index.d.ts:16171](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16171)

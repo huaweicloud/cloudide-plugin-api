@@ -21,7 +21,7 @@ The Code version in which this policy was introduced.
 
 #### Defined in
 
-[index.d.ts:12907](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12907)
+[index.d.ts:12959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12959)
 
 ___
 
@@ -33,4 +33,4 @@ The policy name.
 
 #### Defined in
 
-[index.d.ts:12902](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12902)
+[index.d.ts:12954](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12954)

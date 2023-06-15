@@ -61,7 +61,7 @@ The custom document.
 
 #### Defined in
 
-[index.d.ts:8935](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8935)
+[index.d.ts:8940](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8940)
 
 ___
 
@@ -89,4 +89,4 @@ Optional thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8954](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8954)
+[index.d.ts:8959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8959)

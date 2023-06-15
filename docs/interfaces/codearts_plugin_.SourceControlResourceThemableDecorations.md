@@ -30,4 +30,4 @@ The icon path for a specific
 
 #### Defined in
 
-[index.d.ts:14609](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14609)
+[index.d.ts:14661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14661)

@@ -10,6 +10,7 @@
 
 - [group](codearts_plugin_.SubmenuItem.md#group)
 - [icon](codearts_plugin_.SubmenuItem.md#icon)
+- [mnemonicTitle](codearts_plugin_.SubmenuItem.md#mnemonictitle)
 - [order](codearts_plugin_.SubmenuItem.md#order)
 - [submenu](codearts_plugin_.SubmenuItem.md#submenu)
 - [title](codearts_plugin_.SubmenuItem.md#title)
@@ -25,7 +26,7 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:17710](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17710)
+[index.d.ts:17820](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17820)
 
 ___
 
@@ -37,7 +38,19 @@ Menu icon.
 
 #### Defined in
 
-[index.d.ts:17720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17720)
+[index.d.ts:17830](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17830)
+
+___
+
+### mnemonicTitle
+
+• `Optional` **mnemonicTitle**: `string`
+
+The title with a mnemonic designation. && precedes the mnemonic.
+
+#### Defined in
+
+[index.d.ts:17810](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17810)
 
 ___
 
@@ -49,7 +62,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:17715](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17715)
+[index.d.ts:17825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17825)
 
 ___
 
@@ -61,7 +74,7 @@ Custom menu id.
 
 #### Defined in
 
-[index.d.ts:17695](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17695)
+[index.d.ts:17800](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17800)
 
 ___
 
@@ -73,7 +86,7 @@ Title shown on menu.
 
 #### Defined in
 
-[index.d.ts:17700](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17700)
+[index.d.ts:17805](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17805)
 
 ___
 
@@ -85,4 +98,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:17705](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17705)
+[index.d.ts:17815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17815)

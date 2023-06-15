@@ -45,7 +45,7 @@ can be signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:4717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4717)
+[index.d.ts:4717](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4717)
 
 ___
 
@@ -71,4 +71,4 @@ often helps to improve performance.
 
 #### Defined in
 
-[index.d.ts:4728](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4728)
+[index.d.ts:4728](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4728)

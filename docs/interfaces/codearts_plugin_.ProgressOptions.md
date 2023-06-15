@@ -27,7 +27,7 @@ button.
 
 #### Defined in
 
-[index.d.ts:11397](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11397)
+[index.d.ts:11449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11449)
 
 ___
 
@@ -39,7 +39,7 @@ The location at which progress should show.
 
 #### Defined in
 
-[index.d.ts:11383](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11383)
+[index.d.ts:11435](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11435)
 
 ___
 
@@ -52,4 +52,4 @@ operation.
 
 #### Defined in
 
-[index.d.ts:11389](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11389)
+[index.d.ts:11441](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11441)

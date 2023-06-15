@@ -31,7 +31,7 @@ The [text](codearts_plugin_.TextDocument.md) of this cell, represented as text d
 
 #### Defined in
 
-[index.d.ts:13702](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13702)
+[index.d.ts:13754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13754)
 
 ___
 
@@ -43,7 +43,7 @@ The most recent [execution summary](codearts_plugin_.NotebookCellExecutionSummar
 
 #### Defined in
 
-[index.d.ts:13717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13717)
+[index.d.ts:13769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13769)
 
 ___
 
@@ -57,7 +57,7 @@ when the cell has been removed from its notebook.
 
 #### Defined in
 
-[index.d.ts:13687](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13687)
+[index.d.ts:13739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13739)
 
 ___
 
@@ -69,7 +69,7 @@ The kind of this cell.
 
 #### Defined in
 
-[index.d.ts:13697](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13697)
+[index.d.ts:13749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13749)
 
 ___
 
@@ -85,7 +85,7 @@ The metadata of this cell. Can be anything but must be JSON-stringifyable.
 
 #### Defined in
 
-[index.d.ts:13707](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13707)
+[index.d.ts:13759](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13759)
 
 ___
 
@@ -97,7 +97,7 @@ The [notebook](codearts_plugin_.NotebookDocument.md) that contains this cell.
 
 #### Defined in
 
-[index.d.ts:13692](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13692)
+[index.d.ts:13744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13744)
 
 ___
 
@@ -109,4 +109,4 @@ The outputs of this cell.
 
 #### Defined in
 
-[index.d.ts:13712](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13712)
+[index.d.ts:13764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13764)

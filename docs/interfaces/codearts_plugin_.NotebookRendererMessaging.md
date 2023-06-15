@@ -26,7 +26,7 @@ An event that fires when a message is received from a renderer.
 
 #### Defined in
 
-[index.d.ts:13640](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13640)
+[index.d.ts:13692](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13692)
 
 ## Methods
 
@@ -52,4 +52,4 @@ delivered to any renderer.
 
 #### Defined in
 
-[index.d.ts:13654](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L13654)
+[index.d.ts:13706](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13706)

@@ -66,7 +66,7 @@ An editor should only ever fire `CustomDocumentEditEvent` events, or only ever f
 
 #### Defined in
 
-[index.d.ts:8989](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8989)
+[index.d.ts:8994](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8994)
 
 ## Methods
 
@@ -101,7 +101,7 @@ rapidly edits the document, `backup` will not be invoked until the editing stops
 
 #### Defined in
 
-[index.d.ts:9062](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9062)
+[index.d.ts:9067](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9067)
 
 ___
 
@@ -138,7 +138,7 @@ The custom document.
 
 #### Defined in
 
-[index.d.ts:8935](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8935)
+[index.d.ts:8940](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8940)
 
 ___
 
@@ -170,7 +170,7 @@ Optional thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8954](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8954)
+[index.d.ts:8959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8959)
 
 ___
 
@@ -202,7 +202,7 @@ Thenable signaling that the change has completed.
 
 #### Defined in
 
-[index.d.ts:9039](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9039)
+[index.d.ts:9044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9044)
 
 ___
 
@@ -234,7 +234,7 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:9006](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9006)
+[index.d.ts:9011](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9011)
 
 ___
 
@@ -265,4 +265,4 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:9022](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9022)
+[index.d.ts:9027](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9027)

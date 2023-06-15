@@ -28,7 +28,7 @@ being rendered.
 
 #### Defined in
 
-[index.d.ts:17137](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17137)
+[index.d.ts:17225](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17225)
 
 ___
 
@@ -47,7 +47,7 @@ groups can have an TabGroup.aciveTab active tab.
 
 #### Defined in
 
-[index.d.ts:17124](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17124)
+[index.d.ts:17212](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17212)
 
 ___
 
@@ -60,7 +60,7 @@ This can be empty if the group has no tabs open.
 
 #### Defined in
 
-[index.d.ts:17143](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17143)
+[index.d.ts:17231](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17231)
 
 ___
 
@@ -72,4 +72,4 @@ The view column of the group.
 
 #### Defined in
 
-[index.d.ts:17129](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17129)
+[index.d.ts:17217](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17217)

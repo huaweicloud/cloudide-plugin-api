@@ -25,7 +25,7 @@ The ordinal number of this workspace folder.
 
 #### Defined in
 
-[index.d.ts:12036](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12036)
+[index.d.ts:12088](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12088)
 
 ___
 
@@ -38,7 +38,7 @@ the basename of its [uri-path](../classes/codearts_plugin_.Uri.md#path)
 
 #### Defined in
 
-[index.d.ts:12031](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12031)
+[index.d.ts:12083](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12083)
 
 ___
 
@@ -53,4 +53,4 @@ workspace folders that are not stored on the local disk, e.g. `ftp://server/work
 
 #### Defined in
 
-[index.d.ts:12025](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12025)
+[index.d.ts:12077](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12077)

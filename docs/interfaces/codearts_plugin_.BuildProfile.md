@@ -12,6 +12,8 @@
 - [configureHandler](codearts_plugin_.BuildProfile.md#configurehandler)
 - [isDefault](codearts_plugin_.BuildProfile.md#isdefault)
 - [label](codearts_plugin_.BuildProfile.md#label)
+- [run](codearts_plugin_.BuildProfile.md#run)
+- [toggleBuildStatus](codearts_plugin_.BuildProfile.md#togglebuildstatus)
 
 ### Methods
 
@@ -45,7 +47,7 @@ When it returns false, it does not change build the status.
 
 #### Defined in
 
-[index.d.ts:16726](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16726)
+[index.d.ts:16778](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16778)
 
 ___
 
@@ -60,7 +62,7 @@ opening a configuration file.
 
 #### Defined in
 
-[index.d.ts:16717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16717)
+[index.d.ts:16769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16769)
 
 ___
 
@@ -75,7 +77,7 @@ although the user can configure this.
 
 #### Defined in
 
-[index.d.ts:16709](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16709)
+[index.d.ts:16761](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16761)
 
 ___
 
@@ -91,7 +93,63 @@ the default will be used.
 
 #### Defined in
 
-[index.d.ts:16701](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16701)
+[index.d.ts:16753](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16753)
+
+___
+
+### run
+
+• **run**: (`request`: [`BuildRequestType`](../enums/codearts_plugin_.BuildRequestType.md)) => `void`
+
+#### Type declaration
+
+▸ (`request`): `void`
+
+Execute the buildHandler that has been registered for the current profile.
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `request` | [`BuildRequestType`](../enums/codearts_plugin_.BuildRequestType.md) |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:16783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16783)
+
+___
+
+### toggleBuildStatus
+
+• **toggleBuildStatus**: (`buildStatus`: [`BuildStatusType`](../enums/codearts_plugin_.BuildStatusType.md)) => `void`
+
+#### Type declaration
+
+▸ (`buildStatus`): `void`
+
+The function is used to modify the build status corresponding to the current profile.
+Developers should have sufficient understanding of this status to avoid conflicts and other issues.
+At the code level, we recommend using the `profile.run` method to execute the corresponding build with the modified status
+As this method is only suitable for special cases.
+It has a lower priority and will not take effect when the current running build task does not belong to this profile.
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `buildStatus` | [`BuildStatusType`](../enums/codearts_plugin_.BuildStatusType.md) |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:16792](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16792)
 
 ## Methods
 
@@ -107,4 +165,4 @@ Deletes the build profile.
 
 #### Defined in
 
-[index.d.ts:16731](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16731)
+[index.d.ts:16797](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16797)

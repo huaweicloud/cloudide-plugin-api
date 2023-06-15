@@ -25,7 +25,7 @@ Controls whether the input box is enabled (default is `true`).
 
 #### Defined in
 
-[index.d.ts:14579](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14579)
+[index.d.ts:14631](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14631)
 
 ___
 
@@ -37,7 +37,7 @@ A string to show as placeholder in the input box to guide the user.
 
 #### Defined in
 
-[index.d.ts:14574](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14574)
+[index.d.ts:14626](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14626)
 
 ___
 
@@ -49,7 +49,7 @@ Setter and getter for the contents of the input box.
 
 #### Defined in
 
-[index.d.ts:14569](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14569)
+[index.d.ts:14621](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14621)
 
 ___
 
@@ -61,4 +61,4 @@ Controls whether the input box is visible (default is `true`).
 
 #### Defined in
 
-[index.d.ts:14584](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14584)
+[index.d.ts:14636](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14636)

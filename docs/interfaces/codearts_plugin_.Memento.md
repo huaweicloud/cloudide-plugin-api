@@ -43,7 +43,7 @@ The stored value or `undefined`.
 
 #### Defined in
 
-[index.d.ts:7046](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7046)
+[index.d.ts:7051](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7051)
 
 ▸ **get**<`T`\>(`key`, `defaultValue`): `T`
 
@@ -70,7 +70,7 @@ The stored value or the defaultValue.
 
 #### Defined in
 
-[index.d.ts:7056](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7056)
+[index.d.ts:7061](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7061)
 
 ___
 
@@ -88,7 +88,7 @@ The stored keys.
 
 #### Defined in
 
-[index.d.ts:7038](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7038)
+[index.d.ts:7043](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7043)
 
 ___
 
@@ -114,4 +114,4 @@ storage.
 
 #### Defined in
 
-[index.d.ts:7067](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7067)
+[index.d.ts:7072](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7072)

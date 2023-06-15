@@ -38,7 +38,7 @@ Creates a new NotebookCellStatusBarItem.
 
 #### Defined in
 
-[index.d.ts:14497](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14497)
+[index.d.ts:14549](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14549)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Accessibility information used when a screen reader interacts with this item.
 
 #### Defined in
 
-[index.d.ts:14490](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14490)
+[index.d.ts:14542](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14542)
 
 ___
 
@@ -62,7 +62,7 @@ Whether the item is aligned to the left or right.
 
 #### Defined in
 
-[index.d.ts:14465](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14465)
+[index.d.ts:14517](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14517)
 
 ___
 
@@ -79,7 +79,7 @@ are used by the editor.
 
 #### Defined in
 
-[index.d.ts:14475](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14475)
+[index.d.ts:14527](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14527)
 
 ___
 
@@ -91,7 +91,7 @@ The priority of the item. A higher value item will be shown more to the left.
 
 #### Defined in
 
-[index.d.ts:14485](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14485)
+[index.d.ts:14537](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14537)
 
 ___
 
@@ -103,7 +103,7 @@ The text to show for the item.
 
 #### Defined in
 
-[index.d.ts:14460](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14460)
+[index.d.ts:14512](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14512)
 
 ___
 
@@ -115,4 +115,4 @@ A tooltip to show when the item is hovered.
 
 #### Defined in
 
-[index.d.ts:14480](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14480)
+[index.d.ts:14532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14532)

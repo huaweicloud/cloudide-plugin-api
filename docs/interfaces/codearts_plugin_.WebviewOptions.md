@@ -28,7 +28,7 @@ Defaults to false.
 
 #### Defined in
 
-[index.d.ts:8270](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8270)
+[index.d.ts:8275](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8275)
 
 ___
 
@@ -43,7 +43,7 @@ Explicitly setting this property to either true or false overrides the default.
 
 #### Defined in
 
-[index.d.ts:8263](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8263)
+[index.d.ts:8268](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8268)
 
 ___
 
@@ -57,7 +57,7 @@ Defaults to false (scripts-disabled).
 
 #### Defined in
 
-[index.d.ts:8255](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8255)
+[index.d.ts:8260](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8260)
 
 ___
 
@@ -73,7 +73,7 @@ Pass in an empty array to disallow access to any local resources.
 
 #### Defined in
 
-[index.d.ts:8279](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8279)
+[index.d.ts:8284](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8284)
 
 ___
 
@@ -95,4 +95,4 @@ cannot be mapped to another port.
 
 #### Defined in
 
-[index.d.ts:8294](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8294)
+[index.d.ts:8299](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8299)

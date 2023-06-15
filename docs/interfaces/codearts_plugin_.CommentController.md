@@ -34,7 +34,7 @@ If not provided, users can leave comments in any document opened in the editor.
 
 #### Defined in
 
-[index.d.ts:15782](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15782)
+[index.d.ts:15834](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15834)
 
 ___
 
@@ -46,7 +46,7 @@ The id of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15765](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15765)
+[index.d.ts:15817](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15817)
 
 ___
 
@@ -58,7 +58,7 @@ The human-readable label of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15770](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15770)
+[index.d.ts:15822](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15822)
 
 ___
 
@@ -70,7 +70,7 @@ Comment controller options
 
 #### Defined in
 
-[index.d.ts:15775](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15775)
+[index.d.ts:15827](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15827)
 
 ___
 
@@ -97,7 +97,7 @@ Optional reaction handler for creating and deleting reactions on a [Comment](cod
 
 #### Defined in
 
-[index.d.ts:15797](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15797)
+[index.d.ts:15849](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15849)
 
 ## Methods
 
@@ -122,7 +122,7 @@ and Comments Panel once created.
 
 #### Defined in
 
-[index.d.ts:15792](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15792)
+[index.d.ts:15844](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15844)
 
 ___
 
@@ -141,4 +141,4 @@ and Comments Panel.
 
 #### Defined in
 
-[index.d.ts:15805](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15805)
+[index.d.ts:15857](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15857)

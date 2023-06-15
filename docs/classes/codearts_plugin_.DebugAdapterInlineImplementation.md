@@ -28,4 +28,4 @@ Create a descriptor for an inline implementation of a debug adapter.
 
 #### Defined in
 
-[index.d.ts:15103](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15103)
+[index.d.ts:15155](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15155)
