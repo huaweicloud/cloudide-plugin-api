@@ -26,7 +26,7 @@ in `charsToEscape` are escaped using the `escapeChar`.
 
 #### Defined in
 
-[index.d.ts:7351](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7351)
+[index.d.ts:7356](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7356)
 
 ___
 
@@ -38,7 +38,7 @@ The character used for strong quoting. The string's length must be 1.
 
 #### Defined in
 
-[index.d.ts:7365](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7365)
+[index.d.ts:7370](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7370)
 
 ___
 
@@ -50,4 +50,4 @@ The character used for weak quoting. The string's length must be 1.
 
 #### Defined in
 
-[index.d.ts:7370](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7370)
+[index.d.ts:7375](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7375)

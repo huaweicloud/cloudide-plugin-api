@@ -38,7 +38,7 @@ The unique id of control.
 
 #### Defined in
 
-[index.d.ts:17199](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17199)
+[index.d.ts:17287](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17287)
 
 ___
 
@@ -50,7 +50,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:17204](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17204)
+[index.d.ts:17292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17292)
 
 ___
 
@@ -62,7 +62,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17214](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17214)
+[index.d.ts:17302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17302)
 
 ___
 
@@ -74,7 +74,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17219](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17219)
+[index.d.ts:17307](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17307)
 
 ## Methods
 
@@ -90,7 +90,7 @@ Dispose the control, and the module created by the frontend in browser will also
 
 #### Defined in
 
-[index.d.ts:17209](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17209)
+[index.d.ts:17297](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17297)
 
 ___
 
@@ -113,4 +113,4 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:17224](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17224)
+[index.d.ts:17312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17312)

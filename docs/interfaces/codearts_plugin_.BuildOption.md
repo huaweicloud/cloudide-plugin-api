@@ -20,4 +20,4 @@ build DataProvider nodes
 
 #### Defined in
 
-[index.d.ts:16900](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16900)
+[index.d.ts:16988](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16988)

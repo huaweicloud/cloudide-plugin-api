@@ -26,7 +26,7 @@ An optional event to signal that statusbar items have changed. The provide metho
 
 #### Defined in
 
-[index.d.ts:14507](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14507)
+[index.d.ts:14559](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14559)
 
 ## Methods
 
@@ -51,4 +51,4 @@ One or more [cell statusbar items](../classes/codearts_plugin_.NotebookCellStatu
 
 #### Defined in
 
-[index.d.ts:14515](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14515)
+[index.d.ts:14567](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14567)

@@ -24,7 +24,7 @@ Selection changed because a command ran.
 
 #### Defined in
 
-[index.d.ts:532](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L532)
+[index.d.ts:532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L532)
 
 ___
 
@@ -36,7 +36,7 @@ Selection changed due to typing in the editor.
 
 #### Defined in
 
-[index.d.ts:524](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L524)
+[index.d.ts:524](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L524)
 
 ___
 
@@ -48,4 +48,4 @@ Selection change due to clicking in the editor.
 
 #### Defined in
 
-[index.d.ts:528](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L528)
+[index.d.ts:528](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L528)

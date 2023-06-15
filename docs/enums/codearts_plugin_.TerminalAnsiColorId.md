@@ -29,7 +29,7 @@ Terminal Icon Color Enumeration
 
 #### Defined in
 
-[index.d.ts:6446](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6446)
+[index.d.ts:6446](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6446)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6450](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6450)
+[index.d.ts:6450](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6450)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6454](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6454)
+[index.d.ts:6454](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6454)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6447](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6447)
+[index.d.ts:6447](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6447)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6451](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6451)
+[index.d.ts:6451](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6451)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6445](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6445)
+[index.d.ts:6445](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6445)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6449](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6449)
+[index.d.ts:6449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6449)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6452](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6452)
+[index.d.ts:6452](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6452)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6448](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6448)
+[index.d.ts:6448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6448)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:6453](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6453)
+[index.d.ts:6453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6453)

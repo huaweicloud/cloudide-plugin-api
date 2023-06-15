@@ -48,7 +48,7 @@ Copy files or folders.
 
 #### Defined in
 
-[index.d.ts:8213](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8213)
+[index.d.ts:8218](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8218)
 
 ___
 
@@ -73,7 +73,7 @@ Create a new directory (Note, that new files are created via `write`-calls).
 
 #### Defined in
 
-[index.d.ts:8171](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8171)
+[index.d.ts:8176](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8176)
 
 ___
 
@@ -98,7 +98,7 @@ Delete a file.
 
 #### Defined in
 
-[index.d.ts:8195](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8195)
+[index.d.ts:8200](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8200)
 
 ___
 
@@ -128,7 +128,7 @@ know about the filesystem.
 
 #### Defined in
 
-[index.d.ts:8228](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8228)
+[index.d.ts:8233](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8233)
 
 ___
 
@@ -152,7 +152,7 @@ An array of name/type-tuples or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8161](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8161)
+[index.d.ts:8166](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8166)
 
 ___
 
@@ -176,7 +176,7 @@ An array of bytes or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8179](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8179)
+[index.d.ts:8184](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8184)
 
 ___
 
@@ -201,7 +201,7 @@ Rename a file or folder.
 
 #### Defined in
 
-[index.d.ts:8204](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8204)
+[index.d.ts:8209](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8209)
 
 ___
 
@@ -225,7 +225,7 @@ The file metadata about the file.
 
 #### Defined in
 
-[index.d.ts:8153](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8153)
+[index.d.ts:8158](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8158)
 
 ___
 
@@ -248,4 +248,4 @@ Write data to a file, replacing its entire contents.
 
 #### Defined in
 
-[index.d.ts:8187](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L8187)
+[index.d.ts:8192](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8192)

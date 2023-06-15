@@ -37,4 +37,4 @@ semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3903](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3903)
+[index.d.ts:3903](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3903)

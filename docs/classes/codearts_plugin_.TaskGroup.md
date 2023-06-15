@@ -37,7 +37,7 @@ A grouping for tasks. The editor by default supports the
 
 #### Defined in
 
-[index.d.ts:7252](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7252)
+[index.d.ts:7257](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7257)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The ID of the task group. Is one of TaskGroup.Clean.id, TaskGroup.Build.id, Task
 
 #### Defined in
 
-[index.d.ts:7250](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7250)
+[index.d.ts:7255](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7255)
 
 ___
 
@@ -62,7 +62,7 @@ This property cannot be set through API, and is controlled by a user's task conf
 
 #### Defined in
 
-[index.d.ts:7245](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7245)
+[index.d.ts:7250](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7250)
 
 ___
 
@@ -74,7 +74,7 @@ The build task group;
 
 #### Defined in
 
-[index.d.ts:7229](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7229)
+[index.d.ts:7234](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7234)
 
 ___
 
@@ -86,7 +86,7 @@ The clean task group;
 
 #### Defined in
 
-[index.d.ts:7224](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7224)
+[index.d.ts:7229](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7229)
 
 ___
 
@@ -98,7 +98,7 @@ The rebuild all task group;
 
 #### Defined in
 
-[index.d.ts:7234](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7234)
+[index.d.ts:7239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7239)
 
 ___
 
@@ -110,4 +110,4 @@ The test all task group;
 
 #### Defined in
 
-[index.d.ts:7239](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7239)
+[index.d.ts:7244](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7244)

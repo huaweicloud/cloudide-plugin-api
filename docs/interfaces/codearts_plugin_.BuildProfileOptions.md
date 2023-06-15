@@ -11,17 +11,18 @@
 - [buildHandler](codearts_plugin_.BuildProfileOptions.md#buildhandler)
 - [isDefault](codearts_plugin_.BuildProfileOptions.md#isdefault)
 - [label](codearts_plugin_.BuildProfileOptions.md#label)
+- [onDidChangeBuildTaskStatus](codearts_plugin_.BuildProfileOptions.md#ondidchangebuildtaskstatus)
 - [registeredRequestType](codearts_plugin_.BuildProfileOptions.md#registeredrequesttype)
 
 ## Properties
 
 ### buildHandler
 
-• **buildHandler**: (`request`: [`BuildRequestType`](../enums/codearts_plugin_.BuildRequestType.md)) => `void` \| [`Thenable`](Thenable.md)<`void`\>
+• **buildHandler**: (`request`: [`BuildRequestType`](../enums/codearts_plugin_.BuildRequestType.md)) => `void` \| [`Thenable`](Thenable.md)<`boolean` \| `void`\>
 
 #### Type declaration
 
-▸ (`request`): `void` \| [`Thenable`](Thenable.md)<`void`\>
+▸ (`request`): `void` \| [`Thenable`](Thenable.md)<`boolean` \| `void`\>
 
 ##### Parameters
 
@@ -31,11 +32,11 @@
 
 ##### Returns
 
-`void` \| [`Thenable`](Thenable.md)<`void`\>
+`void` \| [`Thenable`](Thenable.md)<`boolean` \| `void`\>
 
 #### Defined in
 
-[index.d.ts:16742](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16742)
+[index.d.ts:16822](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16822)
 
 ___
 
@@ -45,7 +46,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16743](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16743)
+[index.d.ts:16823](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16823)
 
 ___
 
@@ -55,7 +56,34 @@ ___
 
 #### Defined in
 
-[index.d.ts:16741](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16741)
+[index.d.ts:16821](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16821)
+
+___
+
+### onDidChangeBuildTaskStatus
+
+• `Optional` **onDidChangeBuildTaskStatus**: (`data`: { `buildStatus`: [`BuildStatusType`](../enums/codearts_plugin_.BuildStatusType.md) ; `code?`: `number` ; `message?`: `string`  }) => `void`
+
+#### Type declaration
+
+▸ (`data`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.buildStatus` | [`BuildStatusType`](../enums/codearts_plugin_.BuildStatusType.md) |
+| `data.code?` | `number` |
+| `data.message?` | `string` |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:16825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16825)
 
 ___
 
@@ -65,4 +93,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16744](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16744)
+[index.d.ts:16824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16824)

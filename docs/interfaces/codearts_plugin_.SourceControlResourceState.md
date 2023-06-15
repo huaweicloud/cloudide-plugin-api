@@ -27,7 +27,7 @@ state is open in the Source Control viewlet.
 
 #### Defined in
 
-[index.d.ts:14662](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14662)
+[index.d.ts:14714](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14714)
 
 ___
 
@@ -54,7 +54,7 @@ This will show action `extension.diff` only for resources with `contextValue` is
 
 #### Defined in
 
-[index.d.ts:14688](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14688)
+[index.d.ts:14740](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14740)
 
 ___
 
@@ -67,7 +67,7 @@ resource state.
 
 #### Defined in
 
-[index.d.ts:14668](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14668)
+[index.d.ts:14720](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14720)
 
 ___
 
@@ -79,4 +79,4 @@ The [Uri](../classes/codearts_plugin_.Uri.md) of the underlying resource inside 
 
 #### Defined in
 
-[index.d.ts:14656](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14656)
+[index.d.ts:14708](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14708)

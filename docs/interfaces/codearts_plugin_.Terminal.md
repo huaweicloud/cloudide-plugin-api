@@ -37,7 +37,7 @@ folder the shell was launched in.
 
 #### Defined in
 
-[index.d.ts:6482](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6482)
+[index.d.ts:6482](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6482)
 
 ___
 
@@ -59,7 +59,7 @@ window.onDidCloseTerminal(t => {
 
 #### Defined in
 
-[index.d.ts:6497](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6497)
+[index.d.ts:6497](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6497)
 
 ___
 
@@ -71,7 +71,7 @@ The unique id of the terminal.
 
 #### Defined in
 
-[index.d.ts:6465](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6465)
+[index.d.ts:6465](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6465)
 
 ___
 
@@ -83,7 +83,7 @@ The name of the terminal.
 
 #### Defined in
 
-[index.d.ts:6470](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6470)
+[index.d.ts:6470](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6470)
 
 ___
 
@@ -95,7 +95,7 @@ The process ID of the shell process.
 
 #### Defined in
 
-[index.d.ts:6475](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6475)
+[index.d.ts:6475](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6475)
 
 ___
 
@@ -107,7 +107,7 @@ The current state of the [Terminal](codearts_plugin_.Terminal.md).
 
 #### Defined in
 
-[index.d.ts:6502](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6502)
+[index.d.ts:6502](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6502)
 
 ## Methods
 
@@ -123,7 +123,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6536](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6536)
+[index.d.ts:6536](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6536)
 
 ___
 
@@ -139,7 +139,7 @@ Hide the terminal panel if this terminal is currently showing.
 
 #### Defined in
 
-[index.d.ts:6531](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6531)
+[index.d.ts:6531](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6531)
 
 ___
 
@@ -163,7 +163,7 @@ Send text to the terminal. The text is written to the stdin of the underlying pt
 
 #### Defined in
 
-[index.d.ts:6513](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6513)
+[index.d.ts:6513](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6513)
 
 ___
 
@@ -185,7 +185,7 @@ Change the color of the terminal icon.
 
 #### Defined in
 
-[index.d.ts:6519](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6519)
+[index.d.ts:6519](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6519)
 
 ___
 
@@ -207,4 +207,4 @@ Show the terminal panel and reveal this terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:6526](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6526)
+[index.d.ts:6526](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6526)

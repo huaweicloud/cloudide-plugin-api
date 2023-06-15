@@ -27,7 +27,7 @@ Is it possible to drag.
 
 #### Defined in
 
-[index.d.ts:17417](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17417)
+[index.d.ts:17505](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17505)
 
 ___
 
@@ -39,4 +39,4 @@ Is it the menu.
 
 #### Defined in
 
-[index.d.ts:17422](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17422)
+[index.d.ts:17510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17510)

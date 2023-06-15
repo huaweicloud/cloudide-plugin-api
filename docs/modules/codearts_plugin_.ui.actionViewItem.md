@@ -33,4 +33,4 @@ A promise that resolves to `actionViewItem` when the actionViewItem component is
 
 #### Defined in
 
-[index.d.ts:17464](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17464)
+[index.d.ts:17552](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17552)

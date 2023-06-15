@@ -23,7 +23,7 @@ The [notebook editor](codearts_plugin_.NotebookEditor.md) for which the visible 
 
 #### Defined in
 
-[index.d.ts:811](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L811)
+[index.d.ts:811](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L811)
 
 ___
 
@@ -35,4 +35,4 @@ The new value for the [notebook editor's visibleRanges](codearts_plugin_.Noteboo
 
 #### Defined in
 
-[index.d.ts:816](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L816)
+[index.d.ts:816](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L816)

@@ -25,7 +25,7 @@ Insert new line and indent once (relative to the previous line's indentation).
 
 #### Defined in
 
-[index.d.ts:5494](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5494)
+[index.d.ts:5494](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5494)
 
 ___
 
@@ -39,7 +39,7 @@ Insert two new lines:
 
 #### Defined in
 
-[index.d.ts:5500](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5500)
+[index.d.ts:5500](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5500)
 
 ___
 
@@ -51,7 +51,7 @@ Insert new line and copy the previous line's indentation.
 
 #### Defined in
 
-[index.d.ts:5490](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5490)
+[index.d.ts:5490](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5490)
 
 ___
 
@@ -63,4 +63,4 @@ Insert new line and outdent once (relative to the previous line's indentation).
 
 #### Defined in
 
-[index.d.ts:5504](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5504)
+[index.d.ts:5504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5504)

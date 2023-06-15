@@ -40,7 +40,7 @@ An array of [debug configurations](codearts_plugin_.DebugConfiguration.md).
 
 #### Defined in
 
-[index.d.ts:14956](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14956)
+[index.d.ts:15008](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15008)
 
 ___
 
@@ -70,7 +70,7 @@ The resolved debug configuration or undefined or null.
 
 #### Defined in
 
-[index.d.ts:14970](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14970)
+[index.d.ts:15022](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15022)
 
 ___
 
@@ -101,4 +101,4 @@ The resolved debug configuration or undefined or null.
 
 #### Defined in
 
-[index.d.ts:14985](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14985)
+[index.d.ts:15037](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15037)

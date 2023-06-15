@@ -23,7 +23,7 @@ The unique identifier of the authentication provider.
 
 #### Defined in
 
-[index.d.ts:15925](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15925)
+[index.d.ts:15977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15977)
 
 ___
 
@@ -35,4 +35,4 @@ The human-readable name of the authentication provider.
 
 #### Defined in
 
-[index.d.ts:15930](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15930)
+[index.d.ts:15982](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15982)

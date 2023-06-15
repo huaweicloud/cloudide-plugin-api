@@ -34,7 +34,7 @@ The dark theme decorations.
 
 #### Defined in
 
-[index.d.ts:14644](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14644)
+[index.d.ts:14696](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14696)
 
 ___
 
@@ -47,7 +47,7 @@ be faded in the UI.
 
 #### Defined in
 
-[index.d.ts:14628](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14628)
+[index.d.ts:14680](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14680)
 
 ___
 
@@ -64,7 +64,7 @@ The icon path for a specific
 
 #### Defined in
 
-[index.d.ts:14609](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14609)
+[index.d.ts:14661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14661)
 
 ___
 
@@ -76,7 +76,7 @@ The light theme decorations.
 
 #### Defined in
 
-[index.d.ts:14639](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14639)
+[index.d.ts:14691](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14691)
 
 ___
 
@@ -89,7 +89,7 @@ be striked-through in the UI.
 
 #### Defined in
 
-[index.d.ts:14622](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14622)
+[index.d.ts:14674](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14674)
 
 ___
 
@@ -102,4 +102,4 @@ The title for a specific
 
 #### Defined in
 
-[index.d.ts:14634](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L14634)
+[index.d.ts:14686](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14686)

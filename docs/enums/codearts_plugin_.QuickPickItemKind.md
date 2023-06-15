@@ -23,7 +23,7 @@ The default [kind](../interfaces/codearts_plugin_.QuickPickItem.md#kind) is an i
 
 #### Defined in
 
-[index.d.ts:1724](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1724)
+[index.d.ts:1724](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1724)
 
 ___
 
@@ -36,4 +36,4 @@ The only property that applies is [label](../interfaces/codearts_plugin_.QuickPi
 
 #### Defined in
 
-[index.d.ts:1720](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1720)
+[index.d.ts:1720](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1720)

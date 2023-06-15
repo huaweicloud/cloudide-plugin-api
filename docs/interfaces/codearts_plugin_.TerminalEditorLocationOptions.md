@@ -24,7 +24,7 @@ An optional flag that when `true` will stop the [Terminal](codearts_plugin_.Term
 
 #### Defined in
 
-[index.d.ts:6569](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6569)
+[index.d.ts:6569](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6569)
 
 ___
 
@@ -40,4 +40,4 @@ adjusted to be `Min(column, columnCount + 1)`, the
 
 #### Defined in
 
-[index.d.ts:6565](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6565)
+[index.d.ts:6565](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6565)

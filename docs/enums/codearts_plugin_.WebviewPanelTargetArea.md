@@ -23,7 +23,7 @@ The areas of the panel where webview can reside.
 
 #### Defined in
 
-[index.d.ts:9395](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9395)
+[index.d.ts:9400](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9400)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9393](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9393)
+[index.d.ts:9398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9398)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9396](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9396)
+[index.d.ts:9401](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9401)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9394](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9394)
+[index.d.ts:9399](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9399)

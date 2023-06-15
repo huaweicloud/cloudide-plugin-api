@@ -40,7 +40,7 @@ Creates a new symbol information object.
 
 #### Defined in
 
-[index.d.ts:3202](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3202)
+[index.d.ts:3202](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3202)
 
 • **new SymbolInformation**(`name`, `kind`, `range`, `uri?`, `containerName?`)
 
@@ -62,7 +62,7 @@ Please use the constructor taking a [Location](codearts_plugin_.Location.md) obj
 
 #### Defined in
 
-[index.d.ts:3215](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3215)
+[index.d.ts:3215](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3215)
 
 ## Properties
 
@@ -74,7 +74,7 @@ The name of the symbol containing this symbol.
 
 #### Defined in
 
-[index.d.ts:3177](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3177)
+[index.d.ts:3177](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3177)
 
 ___
 
@@ -86,7 +86,7 @@ The kind of this symbol.
 
 #### Defined in
 
-[index.d.ts:3182](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3182)
+[index.d.ts:3182](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3182)
 
 ___
 
@@ -98,7 +98,7 @@ The location of this symbol.
 
 #### Defined in
 
-[index.d.ts:3192](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3192)
+[index.d.ts:3192](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3192)
 
 ___
 
@@ -110,7 +110,7 @@ The name of this symbol.
 
 #### Defined in
 
-[index.d.ts:3172](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3172)
+[index.d.ts:3172](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3172)
 
 ___
 
@@ -122,4 +122,4 @@ Tags for this symbol.
 
 #### Defined in
 
-[index.d.ts:3187](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L3187)
+[index.d.ts:3187](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3187)

@@ -16,6 +16,7 @@
 - [addBuildOutputMessage](codearts_plugin_.BuildController.md#addbuildoutputmessage)
 - [createBuildProfile](codearts_plugin_.BuildController.md#createbuildprofile)
 - [dispose](codearts_plugin_.BuildController.md#dispose)
+- [executableTerminal](codearts_plugin_.BuildController.md#executableterminal)
 - [openBuildOutput](codearts_plugin_.BuildController.md#openbuildoutput)
 - [showBuildMessageItems](codearts_plugin_.BuildController.md#showbuildmessageitems)
 - [updateBuildData](codearts_plugin_.BuildController.md#updatebuilddata)
@@ -28,7 +29,7 @@
 
 #### Defined in
 
-[index.d.ts:16752](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16752)
+[index.d.ts:16833](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16833)
 
 ___
 
@@ -40,7 +41,7 @@ Human-readable label for the build controller.
 
 #### Defined in
 
-[index.d.ts:16757](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16757)
+[index.d.ts:16838](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16838)
 
 ## Methods
 
@@ -62,7 +63,7 @@ add a message to build view output.
 
 #### Defined in
 
-[index.d.ts:16779](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16779)
+[index.d.ts:16860](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16860)
 
 ___
 
@@ -88,7 +89,7 @@ associated with this controller.
 
 #### Defined in
 
-[index.d.ts:16769](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16769)
+[index.d.ts:16850](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16850)
 
 ___
 
@@ -105,7 +106,30 @@ and unpersisted results.
 
 #### Defined in
 
-[index.d.ts:16797](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16797)
+[index.d.ts:16885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16885)
+
+___
+
+### executableTerminal
+
+▸ **executableTerminal**(`cmd`, `initialText?`): `void`
+
+executable terminal with shell in build output.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `cmd` | `string` | an executable script command. |
+| `initialText?` | `string` | Initial output displayed when running cmd. |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[index.d.ts:16872](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16872)
 
 ___
 
@@ -121,7 +145,7 @@ open build view output.
 
 #### Defined in
 
-[index.d.ts:16774](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16774)
+[index.d.ts:16855](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16855)
 
 ___
 
@@ -143,7 +167,7 @@ show build items in build view output.
 
 #### Defined in
 
-[index.d.ts:16784](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16784)
+[index.d.ts:16865](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16865)
 
 ___
 
@@ -166,4 +190,4 @@ update current BuildContoller tree
 
 #### Defined in
 
-[index.d.ts:16791](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16791)
+[index.d.ts:16879](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16879)

@@ -33,7 +33,7 @@ Allow to select files, defaults to `true`.
 
 #### Defined in
 
-[index.d.ts:1872](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1872)
+[index.d.ts:1872](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1872)
 
 ___
 
@@ -45,7 +45,7 @@ Allow to select folders, defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:1877](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1877)
+[index.d.ts:1877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1877)
 
 ___
 
@@ -57,7 +57,7 @@ Allow to select many files or folders.
 
 #### Defined in
 
-[index.d.ts:1882](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1882)
+[index.d.ts:1882](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1882)
 
 ___
 
@@ -69,7 +69,7 @@ The resource the dialog shows when opened.
 
 #### Defined in
 
-[index.d.ts:1862](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1862)
+[index.d.ts:1862](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1862)
 
 ___
 
@@ -92,7 +92,7 @@ like "TypeScript", and an array of extensions, e.g.
 
 #### Defined in
 
-[index.d.ts:1894](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1894)
+[index.d.ts:1894](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1894)
 
 ___
 
@@ -104,7 +104,7 @@ A human-readable string for the open button.
 
 #### Defined in
 
-[index.d.ts:1867](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1867)
+[index.d.ts:1867](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1867)
 
 ___
 
@@ -119,4 +119,4 @@ This parameter might be ignored, as not all operating systems display a title on
 
 #### Defined in
 
-[index.d.ts:1902](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1902)
+[index.d.ts:1902](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1902)

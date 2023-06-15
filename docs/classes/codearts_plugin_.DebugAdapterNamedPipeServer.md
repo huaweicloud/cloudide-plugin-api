@@ -32,7 +32,7 @@ Create a description for a debug adapter running as a Named Pipe (on Windows)/UN
 
 #### Defined in
 
-[index.d.ts:15072](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15072)
+[index.d.ts:15124](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15124)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The path to the NamedPipe/UNIX Domain Socket.
 
 #### Defined in
 
-[index.d.ts:15067](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15067)
+[index.d.ts:15119](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15119)

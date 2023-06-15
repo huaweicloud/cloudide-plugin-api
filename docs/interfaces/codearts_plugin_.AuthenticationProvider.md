@@ -30,7 +30,7 @@ within a session has changed.
 
 #### Defined in
 
-[index.d.ts:16007](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16007)
+[index.d.ts:16059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16059)
 
 ## Methods
 
@@ -62,7 +62,7 @@ A promise that resolves to an authentication session.
 
 #### Defined in
 
-[index.d.ts:16030](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16030)
+[index.d.ts:16082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16082)
 
 ___
 
@@ -86,7 +86,7 @@ A promise that resolves to an array of authentication sessions.
 
 #### Defined in
 
-[index.d.ts:16015](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16015)
+[index.d.ts:16067](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16067)
 
 ___
 
@@ -110,7 +110,7 @@ Can use own crypto function to implement it.
 
 #### Defined in
 
-[index.d.ts:16048](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16048)
+[index.d.ts:16100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16100)
 
 ___
 
@@ -136,4 +136,4 @@ If a session cannot be removed, the provider should reject with an error message
 
 #### Defined in
 
-[index.d.ts:16040](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16040)
+[index.d.ts:16092](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16092)

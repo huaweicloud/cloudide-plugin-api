@@ -26,7 +26,7 @@ uses \ on bash and ` on PowerShell.
 
 #### Defined in
 
-[index.d.ts:7419](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7419)
+[index.d.ts:7424](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7424)
 
 ___
 
@@ -42,7 +42,7 @@ print `The value is $(2 * 3)`
 
 #### Defined in
 
-[index.d.ts:7428](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7428)
+[index.d.ts:7433](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7433)
 
 ___
 
@@ -58,4 +58,4 @@ will print `The value is 6`
 
 #### Defined in
 
-[index.d.ts:7437](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7437)
+[index.d.ts:7442](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7442)

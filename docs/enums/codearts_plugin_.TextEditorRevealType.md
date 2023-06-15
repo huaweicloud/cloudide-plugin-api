@@ -25,7 +25,7 @@ The range will always be revealed at the top of the viewport.
 
 #### Defined in
 
-[index.d.ts:721](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L721)
+[index.d.ts:721](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L721)
 
 ___
 
@@ -37,7 +37,7 @@ The range will be revealed with as little scrolling as possible.
 
 #### Defined in
 
-[index.d.ts:708](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L708)
+[index.d.ts:708](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L708)
 
 ___
 
@@ -49,7 +49,7 @@ The range will always be revealed in the center of the viewport.
 
 #### Defined in
 
-[index.d.ts:712](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L712)
+[index.d.ts:712](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L712)
 
 ___
 
@@ -62,4 +62,4 @@ Otherwise, it will be revealed with as little scrolling as possible.
 
 #### Defined in
 
-[index.d.ts:717](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L717)
+[index.d.ts:717](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L717)

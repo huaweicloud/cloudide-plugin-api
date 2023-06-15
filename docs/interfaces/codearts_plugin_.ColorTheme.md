@@ -22,4 +22,4 @@ The kind of this color theme: light, dark, high contrast dark and high contrast 
 
 #### Defined in
 
-[index.d.ts:7130](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L7130)
+[index.d.ts:7135](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7135)

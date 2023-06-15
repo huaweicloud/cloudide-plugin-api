@@ -21,7 +21,7 @@ Return value for the `onDidChangeTerminalColor` method call.
 
 #### Defined in
 
-[index.d.ts:9540](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9540)
+[index.d.ts:9545](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9545)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9539](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9539)
+[index.d.ts:9544](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9544)

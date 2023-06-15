@@ -29,7 +29,7 @@ Is it selected.
 
 #### Defined in
 
-[index.d.ts:17565](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17565)
+[index.d.ts:17653](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17653)
 
 ___
 
@@ -41,7 +41,7 @@ Set the class name of the icon, eg. `codicon codicon-add`.
 
 #### Defined in
 
-[index.d.ts:17555](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17555)
+[index.d.ts:17643](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17643)
 
 ___
 
@@ -53,7 +53,7 @@ Set the DropdownMenuActionViewItem invalid status.
 
 #### Defined in
 
-[index.d.ts:17560](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17560)
+[index.d.ts:17648](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17648)
 
 ___
 
@@ -65,7 +65,7 @@ Action Id.
 
 #### Defined in
 
-[index.d.ts:17540](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17540)
+[index.d.ts:17628](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17628)
 
 ___
 
@@ -77,7 +77,7 @@ Contents displayed on the DropdownMenuActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17545](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17545)
+[index.d.ts:17633](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17633)
 
 ___
 
@@ -89,7 +89,7 @@ line number of the editor.
 
 #### Defined in
 
-[index.d.ts:17575](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17575)
+[index.d.ts:17663](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17663)
 
 ___
 
@@ -101,7 +101,7 @@ Order to insert into the actionbar.
 
 #### Defined in
 
-[index.d.ts:17570](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17570)
+[index.d.ts:17658](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17658)
 
 ___
 
@@ -113,4 +113,4 @@ Text displayed when you slide the mouse over the DropdownMenuActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17550](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17550)
+[index.d.ts:17638](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17638)

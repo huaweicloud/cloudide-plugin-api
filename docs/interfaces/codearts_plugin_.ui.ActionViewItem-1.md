@@ -48,7 +48,7 @@ Action parameters.
 
 #### Defined in
 
-[index.d.ts:17310](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17310)
+[index.d.ts:17398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17398)
 
 ___
 
@@ -64,7 +64,7 @@ The unique id of ActionViewItem control.
 
 #### Defined in
 
-[index.d.ts:17305](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17305)
+[index.d.ts:17393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17393)
 
 ___
 
@@ -80,7 +80,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:17204](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17204)
+[index.d.ts:17292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17292)
 
 ___
 
@@ -92,7 +92,7 @@ Callback when a ActionViewItem is clicked.
 
 #### Defined in
 
-[index.d.ts:17320](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17320)
+[index.d.ts:17408](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17408)
 
 ___
 
@@ -108,7 +108,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17214](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17214)
+[index.d.ts:17302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17302)
 
 ___
 
@@ -124,7 +124,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17219](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17219)
+[index.d.ts:17307](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17307)
 
 ___
 
@@ -136,7 +136,7 @@ Configuration parameters of the ActionViewItem component.
 
 #### Defined in
 
-[index.d.ts:17315](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17315)
+[index.d.ts:17403](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17403)
 
 ## Methods
 
@@ -152,7 +152,7 @@ Blur the current item element.
 
 #### Defined in
 
-[index.d.ts:17340](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17340)
+[index.d.ts:17428](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17428)
 
 ___
 
@@ -172,7 +172,7 @@ Destroy the component.
 
 #### Defined in
 
-[index.d.ts:17365](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17365)
+[index.d.ts:17453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17453)
 
 ___
 
@@ -188,7 +188,7 @@ Focus the current item element.
 
 #### Defined in
 
-[index.d.ts:17330](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17330)
+[index.d.ts:17418](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17418)
 
 ___
 
@@ -204,7 +204,7 @@ Determine whether the current element is focused.
 
 #### Defined in
 
-[index.d.ts:17335](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17335)
+[index.d.ts:17423](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17423)
 
 ___
 
@@ -231,7 +231,7 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:17224](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17224)
+[index.d.ts:17312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17312)
 
 ___
 
@@ -247,7 +247,7 @@ Obtains the order of the current component.
 
 #### Defined in
 
-[index.d.ts:17370](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17370)
+[index.d.ts:17458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17458)
 
 ___
 
@@ -263,7 +263,7 @@ Render an html element from the action view item element.
 
 #### Defined in
 
-[index.d.ts:17325](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17325)
+[index.d.ts:17413](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17413)
 
 ___
 
@@ -279,7 +279,7 @@ Event for modifying item focusable when dot is set.
 
 #### Defined in
 
-[index.d.ts:17345](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17345)
+[index.d.ts:17433](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17433)
 
 ___
 
@@ -295,7 +295,7 @@ Update the class of the current item.
 
 #### Defined in
 
-[index.d.ts:17350](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17350)
+[index.d.ts:17438](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17438)
 
 ___
 
@@ -311,7 +311,7 @@ Update the label of the current item.
 
 #### Defined in
 
-[index.d.ts:17355](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17355)
+[index.d.ts:17443](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17443)
 
 ___
 
@@ -327,4 +327,4 @@ Update the tooltip of the current item.
 
 #### Defined in
 
-[index.d.ts:17360](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17360)
+[index.d.ts:17448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17448)

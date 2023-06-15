@@ -24,7 +24,7 @@ Completion was triggered normally.
 
 #### Defined in
 
-[index.d.ts:4449](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4449)
+[index.d.ts:4449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4449)
 
 ___
 
@@ -36,7 +36,7 @@ Completion was triggered by a trigger character.
 
 #### Defined in
 
-[index.d.ts:4453](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4453)
+[index.d.ts:4453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4453)
 
 ___
 
@@ -48,4 +48,4 @@ Completion was re-triggered as current completion list is incomplete
 
 #### Defined in
 
-[index.d.ts:4457](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L4457)
+[index.d.ts:4457](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4457)

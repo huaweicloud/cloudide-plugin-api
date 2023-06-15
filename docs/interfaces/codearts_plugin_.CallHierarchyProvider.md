@@ -43,7 +43,7 @@ signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:5270](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5270)
+[index.d.ts:5270](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5270)
 
 ___
 
@@ -71,7 +71,7 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:5282](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5282)
+[index.d.ts:5282](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5282)
 
 ___
 
@@ -99,4 +99,4 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:5294](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L5294)
+[index.d.ts:5294](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5294)

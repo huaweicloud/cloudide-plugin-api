@@ -37,7 +37,7 @@ Delete a certain text region.
 
 #### Defined in
 
-[index.d.ts:1309](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1309)
+[index.d.ts:1309](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1309)
 
 ___
 
@@ -62,7 +62,7 @@ Although the equivalent text edit can be made with [replace](codearts_plugin_.Te
 
 #### Defined in
 
-[index.d.ts:1302](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1302)
+[index.d.ts:1302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1302)
 
 ___
 
@@ -86,7 +86,7 @@ You can use \r\n or \n in `value` and they will be normalized to the current [do
 
 #### Defined in
 
-[index.d.ts:1292](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1292)
+[index.d.ts:1292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1292)
 
 ___
 
@@ -108,4 +108,4 @@ Set the end of line sequence.
 
 #### Defined in
 
-[index.d.ts:1316](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1316)
+[index.d.ts:1316](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1316)

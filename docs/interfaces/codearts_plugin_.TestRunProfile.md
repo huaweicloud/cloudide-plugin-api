@@ -34,7 +34,7 @@ opening a configuration file.
 
 #### Defined in
 
-[index.d.ts:16220](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16220)
+[index.d.ts:16272](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16272)
 
 ___
 
@@ -50,7 +50,7 @@ user can configure this.
 
 #### Defined in
 
-[index.d.ts:16206](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16206)
+[index.d.ts:16258](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16258)
 
 ___
 
@@ -63,7 +63,7 @@ are no profiles for a kind, it will not be available in the UI.
 
 #### Defined in
 
-[index.d.ts:16197](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16197)
+[index.d.ts:16249](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16249)
 
 ___
 
@@ -81,7 +81,7 @@ kind. If there is no such configuration, the default will be used.
 
 #### Defined in
 
-[index.d.ts:16191](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16191)
+[index.d.ts:16243](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16243)
 
 ___
 
@@ -111,7 +111,7 @@ or the returned promise is resolved.
 
 #### Defined in
 
-[index.d.ts:16234](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16234)
+[index.d.ts:16286](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16286)
 
 ___
 
@@ -124,7 +124,7 @@ instances with the same tag will be eligible to execute in this profile.
 
 #### Defined in
 
-[index.d.ts:16212](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16212)
+[index.d.ts:16264](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16264)
 
 ## Methods
 
@@ -140,4 +140,4 @@ Deletes the run profile.
 
 #### Defined in
 
-[index.d.ts:16239](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16239)
+[index.d.ts:16291](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16291)

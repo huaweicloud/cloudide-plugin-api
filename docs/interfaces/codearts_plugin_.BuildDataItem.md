@@ -34,7 +34,7 @@ however, there are cases where a TreeItem is not displayed in a tree-like way wh
 
 #### Defined in
 
-[index.d.ts:16875](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16875)
+[index.d.ts:16963](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16963)
 
 ___
 
@@ -46,7 +46,7 @@ add children
 
 #### Defined in
 
-[index.d.ts:16823](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16823)
+[index.d.ts:16911](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16911)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16868](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16868)
+[index.d.ts:16956](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16956)
 
 ___
 
@@ -74,7 +74,7 @@ appear consistent with how other built-in trees open editors.
 
 #### Defined in
 
-[index.d.ts:16863](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16863)
+[index.d.ts:16951](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16951)
 
 ___
 
@@ -87,7 +87,7 @@ When `true`, it is derived from [resourceUri](../classes/codearts_plugin_.TreeIt
 
 #### Defined in
 
-[index.d.ts:16841](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16841)
+[index.d.ts:16929](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16929)
 
 ___
 
@@ -101,7 +101,7 @@ When a file or folder [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) is s
 
 #### Defined in
 
-[index.d.ts:16835](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16835)
+[index.d.ts:16923](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16923)
 
 ___
 
@@ -113,7 +113,7 @@ A human-readable string describing this item. When `falsy`, it is derived from [
 
 #### Defined in
 
-[index.d.ts:16828](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16828)
+[index.d.ts:16916](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16916)
 
 ___
 
@@ -125,7 +125,7 @@ when treeview focus show related BuildMessage [BuildMessage](codearts_plugin_.Bu
 
 #### Defined in
 
-[index.d.ts:16818](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16818)
+[index.d.ts:16906](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16906)
 
 ___
 
@@ -138,7 +138,7 @@ This is only meaningful if the `uri` points to a file.
 
 #### Defined in
 
-[index.d.ts:16893](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16893)
+[index.d.ts:16981](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16981)
 
 ___
 
@@ -153,7 +153,7 @@ Will be used to derive the icon from current file icon theme, when [iconPath](..
 
 #### Defined in
 
-[index.d.ts:16849](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16849)
+[index.d.ts:16937](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16937)
 
 ___
 
@@ -165,7 +165,7 @@ This field will be rendered at the end of the tree item.
 
 #### Defined in
 
-[index.d.ts:16880](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16880)
+[index.d.ts:16968](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16968)
 
 ___
 
@@ -177,7 +177,7 @@ The tooltip text when you hover over this item.
 
 #### Defined in
 
-[index.d.ts:16854](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16854)
+[index.d.ts:16942](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16942)
 
 ___
 
@@ -191,4 +191,4 @@ Use uri when resourceUri does not exist.
 
 #### Defined in
 
-[index.d.ts:16887](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L16887)
+[index.d.ts:16975](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16975)

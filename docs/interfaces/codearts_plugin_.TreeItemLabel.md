@@ -24,7 +24,7 @@ first is the inclusive start index and the second the exclusive end index
 
 #### Defined in
 
-[index.d.ts:10929](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10929)
+[index.d.ts:10949](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10949)
 
 ___
 
@@ -36,4 +36,4 @@ A human-readable string describing the [Tree item](../classes/codearts_plugin_.T
 
 #### Defined in
 
-[index.d.ts:10923](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L10923)
+[index.d.ts:10943](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10943)

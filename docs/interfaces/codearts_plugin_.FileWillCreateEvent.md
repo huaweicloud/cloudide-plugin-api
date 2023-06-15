@@ -31,7 +31,7 @@ The files that are going to be created.
 
 #### Defined in
 
-[index.d.ts:11835](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11835)
+[index.d.ts:11887](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11887)
 
 ___
 
@@ -43,7 +43,7 @@ A cancellation token.
 
 #### Defined in
 
-[index.d.ts:11830](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11830)
+[index.d.ts:11882](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11882)
 
 ## Methods
 
@@ -78,7 +78,7 @@ workspace.onWillCreateFiles(event => {
 
 #### Defined in
 
-[index.d.ts:11855](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11855)
+[index.d.ts:11907](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11907)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -98,4 +98,4 @@ Allows to pause the event until the provided thenable resolves.
 
 #### Defined in
 
-[index.d.ts:11864](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L11864)
+[index.d.ts:11916](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11916)

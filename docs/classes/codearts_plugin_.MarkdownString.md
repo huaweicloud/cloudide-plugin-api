@@ -48,7 +48,7 @@ Creates a new markdown string with the given value.
 
 #### Defined in
 
-[index.d.ts:2799](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2799)
+[index.d.ts:2799](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2799)
 
 ## Properties
 
@@ -76,7 +76,7 @@ md.baseUri = vscode.Uri.file('/path/to/otherFile.js');
 
 #### Defined in
 
-[index.d.ts:2791](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2791)
+[index.d.ts:2791](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2791)
 
 ___
 
@@ -89,7 +89,7 @@ markdown supports links that execute commands, e.g. `[Run it](command:myCommandI
 
 #### Defined in
 
-[index.d.ts:2753](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2753)
+[index.d.ts:2753](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2753)
 
 ___
 
@@ -108,7 +108,7 @@ for a list of all supported tags and attributes.
 
 #### Defined in
 
-[index.d.ts:2770](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2770)
+[index.d.ts:2770](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2770)
 
 ___
 
@@ -120,7 +120,7 @@ Indicates that this markdown string can contain [ThemeIcons](codearts_plugin_.Th
 
 #### Defined in
 
-[index.d.ts:2758](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2758)
+[index.d.ts:2758](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2758)
 
 ___
 
@@ -132,7 +132,7 @@ The markdown string.
 
 #### Defined in
 
-[index.d.ts:2747](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2747)
+[index.d.ts:2747](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2747)
 
 ## Methods
 
@@ -155,7 +155,7 @@ Appends the given string as codeblock using the provided language.
 
 #### Defined in
 
-[index.d.ts:2818](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2818)
+[index.d.ts:2818](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2818)
 
 ___
 
@@ -177,7 +177,7 @@ Appends the given string 'as is' to this markdown string. When [`supportThemeIco
 
 #### Defined in
 
-[index.d.ts:2811](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2811)
+[index.d.ts:2811](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2811)
 
 ___
 
@@ -199,4 +199,4 @@ Appends and escapes the given string to this markdown string.
 
 #### Defined in
 
-[index.d.ts:2805](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L2805)
+[index.d.ts:2805](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2805)

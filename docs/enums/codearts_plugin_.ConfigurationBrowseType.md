@@ -21,7 +21,7 @@ Enumeration of the browse type
 
 #### Defined in
 
-[index.d.ts:12077](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12077)
+[index.d.ts:12129](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12129)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:12078](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12078)
+[index.d.ts:12130](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12130)

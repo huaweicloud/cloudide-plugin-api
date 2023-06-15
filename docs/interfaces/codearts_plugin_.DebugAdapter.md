@@ -34,7 +34,7 @@ Messages can be requests, responses, or events.
 
 #### Defined in
 
-[index.d.ts:15084](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15084)
+[index.d.ts:15136](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15136)
 
 ## Methods
 
@@ -54,7 +54,7 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1580)
 
 ___
 
@@ -78,4 +78,4 @@ Results or errors are returned via onSendMessage events.
 
 #### Defined in
 
-[index.d.ts:15092](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L15092)
+[index.d.ts:15144](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15144)

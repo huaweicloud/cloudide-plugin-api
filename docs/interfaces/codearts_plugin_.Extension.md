@@ -24,6 +24,7 @@ To get an instance of an `Extension` use [getExtension](../modules/codearts_plug
 - [extensionUri](codearts_plugin_.Extension.md#extensionuri)
 - [id](codearts_plugin_.Extension.md#id)
 - [isActive](codearts_plugin_.Extension.md#isactive)
+- [onDidActivate](codearts_plugin_.Extension.md#ondidactivate)
 - [packageJSON](codearts_plugin_.Extension.md#packagejson)
 
 ### Methods
@@ -41,7 +42,7 @@ It is an invalid action to access this field before this extension has been acti
 
 #### Defined in
 
-[index.d.ts:6834](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6834)
+[index.d.ts:6834](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6834)
 
 ___
 
@@ -57,7 +58,7 @@ the value is [`UI`](../enums/codearts_plugin_.ExtensionKind.md#ui).
 
 #### Defined in
 
-[index.d.ts:6828](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6828)
+[index.d.ts:6828](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6828)
 
 ___
 
@@ -70,7 +71,7 @@ notation for [Extension.extensionUri.fsPath](codearts_plugin_.Extension.md#exten
 
 #### Defined in
 
-[index.d.ts:6809](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6809)
+[index.d.ts:6809](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6809)
 
 ___
 
@@ -82,7 +83,7 @@ The uri of the directory containing the extension.
 
 #### Defined in
 
-[index.d.ts:6803](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6803)
+[index.d.ts:6803](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6803)
 
 ___
 
@@ -94,7 +95,7 @@ The canonical extension identifier in the form of: `publisher.name`.
 
 #### Defined in
 
-[index.d.ts:6798](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6798)
+[index.d.ts:6798](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6798)
 
 ___
 
@@ -106,7 +107,19 @@ ___
 
 #### Defined in
 
-[index.d.ts:6814](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6814)
+[index.d.ts:6814](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6814)
+
+___
+
+### onDidActivate
+
+• `Readonly` **onDidActivate**: [`Event`](codearts_plugin_.Event.md)<`void`\>
+
+An event which fires when this extension has been activated.
+
+#### Defined in
+
+[index.d.ts:6846](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6846)
 
 ___
 
@@ -118,7 +131,7 @@ The parsed contents of the extension's package.json.
 
 #### Defined in
 
-[index.d.ts:6819](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6819)
+[index.d.ts:6819](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6819)
 
 ## Methods
 
@@ -136,4 +149,4 @@ A promise that will resolve when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6841](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L6841)
+[index.d.ts:6841](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6841)

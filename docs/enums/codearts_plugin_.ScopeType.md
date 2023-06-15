@@ -25,7 +25,7 @@ Settings that apply to all instances of CodeArts and can only be configured in u
 
 #### Defined in
 
-[index.d.ts:12044](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12044)
+[index.d.ts:12096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12096)
 
 ___
 
@@ -37,7 +37,7 @@ Resource settings that can be overridable at a language level.
 
 #### Defined in
 
-[index.d.ts:12070](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12070)
+[index.d.ts:12122](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12122)
 
 ___
 
@@ -50,7 +50,7 @@ For example, an installation path which shouldn't be shared across machines.
 
 #### Defined in
 
-[index.d.ts:12050](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12050)
+[index.d.ts:12102](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12102)
 
 ___
 
@@ -62,7 +62,7 @@ Machine specific settings that can be overridden by workspace or folder settings
 
 #### Defined in
 
-[index.d.ts:12055](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12055)
+[index.d.ts:12107](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12107)
 
 ___
 
@@ -74,7 +74,7 @@ Resource settings, which apply to files and folders, and can be configured in al
 
 #### Defined in
 
-[index.d.ts:12065](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12065)
+[index.d.ts:12117](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12117)
 
 ___
 
@@ -86,4 +86,4 @@ Windows (instance) specific settings which can be configured in user, workspace,
 
 #### Defined in
 
-[index.d.ts:12060](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L12060)
+[index.d.ts:12112](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12112)

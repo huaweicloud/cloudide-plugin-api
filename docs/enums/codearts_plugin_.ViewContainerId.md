@@ -30,7 +30,7 @@ ID of the built-in view container of the vscode.
 
 #### Defined in
 
-[index.d.ts:9470](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9470)
+[index.d.ts:9475](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9475)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9475](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9475)
+[index.d.ts:9480](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9480)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9468](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9468)
+[index.d.ts:9473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9473)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9472](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9472)
+[index.d.ts:9477](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9477)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9473](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9473)
+[index.d.ts:9478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9478)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9474](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9474)
+[index.d.ts:9479](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9479)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9477](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9477)
+[index.d.ts:9482](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9482)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9469](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9469)
+[index.d.ts:9474](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9474)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9467](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9467)
+[index.d.ts:9472](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9472)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9476](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9476)
+[index.d.ts:9481](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9481)
 
 ___
 
@@ -130,4 +130,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9471](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L9471)
+[index.d.ts:9476](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9476)

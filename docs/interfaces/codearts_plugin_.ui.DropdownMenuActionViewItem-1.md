@@ -46,7 +46,7 @@ Action parameters.
 
 #### Defined in
 
-[index.d.ts:17480](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17480)
+[index.d.ts:17568](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17568)
 
 ___
 
@@ -62,7 +62,7 @@ The unique id of DropdownMenuActionViewItem control.
 
 #### Defined in
 
-[index.d.ts:17475](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17475)
+[index.d.ts:17563](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17563)
 
 ___
 
@@ -78,7 +78,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:17204](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17204)
+[index.d.ts:17292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17292)
 
 ___
 
@@ -90,7 +90,7 @@ Menu action parameters.
 
 #### Defined in
 
-[index.d.ts:17485](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17485)
+[index.d.ts:17573](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17573)
 
 ___
 
@@ -106,7 +106,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17214](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17214)
+[index.d.ts:17302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17302)
 
 ___
 
@@ -122,7 +122,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17219](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17219)
+[index.d.ts:17307](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17307)
 
 ## Methods
 
@@ -138,7 +138,7 @@ Blur the current item element.
 
 #### Defined in
 
-[index.d.ts:17505](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17505)
+[index.d.ts:17593](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17593)
 
 ___
 
@@ -158,7 +158,7 @@ Destroy the component.
 
 #### Defined in
 
-[index.d.ts:17530](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17530)
+[index.d.ts:17618](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17618)
 
 ___
 
@@ -174,7 +174,7 @@ Focus the current item element.
 
 #### Defined in
 
-[index.d.ts:17495](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17495)
+[index.d.ts:17583](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17583)
 
 ___
 
@@ -190,7 +190,7 @@ Determine whether the current element is focused.
 
 #### Defined in
 
-[index.d.ts:17500](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17500)
+[index.d.ts:17588](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17588)
 
 ___
 
@@ -217,7 +217,7 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:17224](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17224)
+[index.d.ts:17312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17312)
 
 ___
 
@@ -233,7 +233,7 @@ Render an html element from the dropdownMenuActionViewItem element.
 
 #### Defined in
 
-[index.d.ts:17490](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17490)
+[index.d.ts:17578](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17578)
 
 ___
 
@@ -249,7 +249,7 @@ Event for modifying item focusable when dot is set.
 
 #### Defined in
 
-[index.d.ts:17510](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17510)
+[index.d.ts:17598](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17598)
 
 ___
 
@@ -265,7 +265,7 @@ Update the class of the current item.
 
 #### Defined in
 
-[index.d.ts:17515](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17515)
+[index.d.ts:17603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17603)
 
 ___
 
@@ -281,7 +281,7 @@ Update the label of the current item.
 
 #### Defined in
 
-[index.d.ts:17520](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17520)
+[index.d.ts:17608](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17608)
 
 ___
 
@@ -297,4 +297,4 @@ Update the tooltip of the current item.
 
 #### Defined in
 
-[index.d.ts:17525](https://github.com/huaweicloud/cloudide-plugin-api/blob/03b481c/index.d.ts#L17525)
+[index.d.ts:17613](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17613)
