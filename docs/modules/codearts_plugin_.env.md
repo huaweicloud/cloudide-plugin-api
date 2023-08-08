@@ -43,7 +43,7 @@ does not provide that information
 
 #### Defined in
 
-[index.d.ts:9128](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9128)
+[index.d.ts:9166](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9166)
 
 ___
 
@@ -55,7 +55,7 @@ The application name of the editor, like 'VS Code'.
 
 #### Defined in
 
-[index.d.ts:9112](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9112)
+[index.d.ts:9150](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9150)
 
 ___
 
@@ -70,7 +70,7 @@ environment that has no representation of an application root folder.
 
 #### Defined in
 
-[index.d.ts:9120](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9120)
+[index.d.ts:9158](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9158)
 
 ___
 
@@ -82,7 +82,7 @@ The system clipboard.
 
 #### Defined in
 
-[index.d.ts:9143](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9143)
+[index.d.ts:9181](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9181)
 
 ___
 
@@ -95,7 +95,7 @@ Indicates that this is a fresh install of the application.
 
 #### Defined in
 
-[index.d.ts:9160](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9160)
+[index.d.ts:9198](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9198)
 
 ___
 
@@ -108,7 +108,7 @@ Can be observed to determine if the extension should send telemetry.
 
 #### Defined in
 
-[index.d.ts:9166](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9166)
+[index.d.ts:9204](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9204)
 
 ___
 
@@ -120,7 +120,7 @@ Represents the preferred user-language, like `de-CH`, `fr`, or `en-US`.
 
 #### Defined in
 
-[index.d.ts:9138](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9138)
+[index.d.ts:9176](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9176)
 
 ___
 
@@ -132,7 +132,7 @@ A unique identifier for the computer.
 
 #### Defined in
 
-[index.d.ts:9148](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9148)
+[index.d.ts:9186](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9186)
 
 ___
 
@@ -150,7 +150,7 @@ a specific extension runs remote or not.
 
 #### Defined in
 
-[index.d.ts:9183](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9183)
+[index.d.ts:9221](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9221)
 
 ___
 
@@ -163,7 +163,7 @@ Changes each time the editor is started.
 
 #### Defined in
 
-[index.d.ts:9154](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9154)
+[index.d.ts:9192](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9192)
 
 ___
 
@@ -177,7 +177,7 @@ environments that do not support a shell the value is the empty string.
 
 #### Defined in
 
-[index.d.ts:9190](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9190)
+[index.d.ts:9228](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9228)
 
 ___
 
@@ -191,7 +191,7 @@ from a desktop application or a web browser.
 
 #### Defined in
 
-[index.d.ts:9197](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9197)
+[index.d.ts:9235](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9235)
 
 ___
 
@@ -203,7 +203,7 @@ The custom uri scheme the editor registers to in the operating system.
 
 #### Defined in
 
-[index.d.ts:9133](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9133)
+[index.d.ts:9171](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9171)
 
 ## Functions
 
@@ -275,7 +275,7 @@ A uri that can be used on the client machine.
 
 #### Defined in
 
-[index.d.ts:9267](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9267)
+[index.d.ts:9305](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9305)
 
 ___
 
@@ -302,7 +302,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1603)
 
 ___
 
@@ -333,4 +333,4 @@ A promise indicating if open was successful.
 
 #### Defined in
 
-[index.d.ts:9212](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9212)
+[index.d.ts:9250](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9250)

@@ -96,7 +96,7 @@ A new diagnostic collection.
 
 #### Defined in
 
-[index.d.ts:13185](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13185)
+[index.d.ts:13288](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13288)
 
 ___
 
@@ -119,7 +119,7 @@ Creates a new [language status item](../interfaces/codearts_plugin_.LanguageStat
 
 #### Defined in
 
-[index.d.ts:13193](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13193)
+[index.d.ts:13296](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13296)
 
 ___
 
@@ -143,7 +143,7 @@ An array of [diagnostics](../classes/codearts_plugin_.Diagnostic.md) objects or 
 
 #### Defined in
 
-[index.d.ts:13170](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13170)
+[index.d.ts:13273](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13273)
 
 ▸ **getDiagnostics**(): [[`Uri`](../classes/codearts_plugin_.Uri.md), [`Diagnostic`](../classes/codearts_plugin_.Diagnostic.md)[]][]
 
@@ -157,7 +157,7 @@ An array of uri-diagnostics tuples or an empty array.
 
 #### Defined in
 
-[index.d.ts:13177](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13177)
+[index.d.ts:13280](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13280)
 
 ___
 
@@ -175,7 +175,7 @@ Promise resolving to an array of identifier strings.
 
 #### Defined in
 
-[index.d.ts:13096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13096)
+[index.d.ts:13199](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13199)
 
 ___
 
@@ -238,7 +238,7 @@ A number `>0` when the selector matches and `0` when the selector does not match
 
 #### Defined in
 
-[index.d.ts:13156](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13156)
+[index.d.ts:13259](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13259)
 
 ___
 
@@ -265,7 +265,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1603)
 
 ___
 
@@ -290,7 +290,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13582](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13582)
+[index.d.ts:13685](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13685)
 
 ___
 
@@ -320,7 +320,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13241](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13241)
+[index.d.ts:13344](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13344)
 
 ___
 
@@ -349,7 +349,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13255](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13255)
+[index.d.ts:13358](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13358)
 
 ___
 
@@ -378,7 +378,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13530](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13530)
+[index.d.ts:13633](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13633)
 
 ___
 
@@ -415,7 +415,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13214](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13214)
+[index.d.ts:13317](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13317)
 
 ___
 
@@ -444,7 +444,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13306](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13306)
+[index.d.ts:13409](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13409)
 
 ___
 
@@ -473,7 +473,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13267](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13267)
+[index.d.ts:13370](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13370)
 
 ___
 
@@ -502,7 +502,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13456](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13456)
+[index.d.ts:13559](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13559)
 
 ___
 
@@ -531,7 +531,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13359](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13359)
+[index.d.ts:13462](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13462)
 
 ___
 
@@ -560,7 +560,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13517](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13517)
+[index.d.ts:13620](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13620)
 
 ___
 
@@ -593,7 +593,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13473)
+[index.d.ts:13576](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13576)
 
 ___
 
@@ -629,7 +629,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13443](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13443)
+[index.d.ts:13546](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13546)
 
 ___
 
@@ -659,7 +659,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13424](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13424)
+[index.d.ts:13527](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13527)
 
 ___
 
@@ -689,7 +689,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13373](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13373)
+[index.d.ts:13476](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13476)
 
 ___
 
@@ -717,7 +717,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13331](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13331)
+[index.d.ts:13434](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13434)
 
 ___
 
@@ -750,7 +750,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13560](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13560)
+[index.d.ts:13663](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13663)
 
 ___
 
@@ -779,7 +779,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13319](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13319)
+[index.d.ts:13422](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13422)
 
 ___
 
@@ -808,7 +808,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13280](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13280)
+[index.d.ts:13383](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13383)
 
 ___
 
@@ -837,7 +837,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13543](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13543)
+[index.d.ts:13646](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13646)
 
 ___
 
@@ -866,7 +866,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13227](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13227)
+[index.d.ts:13330](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13330)
 
 ___
 
@@ -897,7 +897,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13346](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13346)
+[index.d.ts:13449](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13449)
 
 ___
 
@@ -926,7 +926,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13604](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13604)
+[index.d.ts:13707](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13707)
 
 ___
 
@@ -957,7 +957,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13488)
+[index.d.ts:13591](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13591)
 
 ___
 
@@ -986,7 +986,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13398)
+[index.d.ts:13501](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13501)
 
 ___
 
@@ -1015,7 +1015,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13411](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13411)
+[index.d.ts:13514](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13514)
 
 ___
 
@@ -1044,7 +1044,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13573](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13573)
+[index.d.ts:13676](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13676)
 
 ___
 
@@ -1074,7 +1074,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13503](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13503)
+[index.d.ts:13606](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13606)
 
 ▸ **registerSignatureHelpProvider**(`selector`, `provider`, `metadata`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1092,7 +1092,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13504)
+[index.d.ts:13607](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13607)
 
 ___
 
@@ -1121,7 +1121,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13293](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13293)
+[index.d.ts:13396](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13396)
 
 ___
 
@@ -1146,7 +1146,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13591](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13591)
+[index.d.ts:13694](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13694)
 
 ___
 
@@ -1174,7 +1174,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:13385](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13385)
+[index.d.ts:13488](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13488)
 
 ___
 
@@ -1199,7 +1199,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unsets this confi
 
 #### Defined in
 
-[index.d.ts:13613](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13613)
+[index.d.ts:13716](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13716)
 
 ___
 
@@ -1228,4 +1228,4 @@ A thenable that resolves with the updated document.
 
 #### Defined in
 
-[index.d.ts:13109](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13109)
+[index.d.ts:13212](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13212)
