@@ -36,7 +36,7 @@ Create new notebook output.
 
 #### Defined in
 
-[index.d.ts:14113](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14113)
+[index.d.ts:14216](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14216)
 
 ## Properties
 
@@ -58,7 +58,7 @@ new vscode.NotebookCellOutput([
 
 #### Defined in
 
-[index.d.ts:14100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14100)
+[index.d.ts:14203](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14203)
 
 ___
 
@@ -74,4 +74,4 @@ Arbitrary metadata for this cell output. Can be anything but must be JSON-string
 
 #### Defined in
 
-[index.d.ts:14105](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14105)
+[index.d.ts:14208](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14208)

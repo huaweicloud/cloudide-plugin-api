@@ -14,6 +14,7 @@ The areas of the panel where webview can reside.
 - [Left](codearts_plugin_.WebviewPanelTargetArea.md#left)
 - [Main](codearts_plugin_.WebviewPanelTargetArea.md#main)
 - [Right](codearts_plugin_.WebviewPanelTargetArea.md#right)
+- [RightBottom](codearts_plugin_.WebviewPanelTargetArea.md#rightbottom)
 
 ## Enumeration Members
 
@@ -23,7 +24,7 @@ The areas of the panel where webview can reside.
 
 #### Defined in
 
-[index.d.ts:9400](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9400)
+[index.d.ts:9439](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9439)
 
 ___
 
@@ -33,7 +34,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9398)
+[index.d.ts:9436](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9436)
 
 ___
 
@@ -43,7 +44,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9401](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9401)
+[index.d.ts:9440](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9440)
 
 ___
 
@@ -53,4 +54,14 @@ ___
 
 #### Defined in
 
-[index.d.ts:9399](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9399)
+[index.d.ts:9437](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9437)
+
+___
+
+### RightBottom
+
+• **RightBottom** = ``"rightBottom"``
+
+#### Defined in
+
+[index.d.ts:9438](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9438)

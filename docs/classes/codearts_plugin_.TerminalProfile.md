@@ -32,7 +32,7 @@ Creates a new terminal profile.
 
 #### Defined in
 
-[index.d.ts:6702](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6702)
+[index.d.ts:6740](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6740)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The options that the terminal will launch with.
 
 #### Defined in
 
-[index.d.ts:6696](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6696)
+[index.d.ts:6734](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6734)

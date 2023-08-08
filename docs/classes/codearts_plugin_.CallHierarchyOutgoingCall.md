@@ -34,7 +34,7 @@ Create a new call object.
 
 #### Defined in
 
-[index.d.ts:5249](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5249)
+[index.d.ts:5287](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5287)
 
 ## Properties
 
@@ -48,7 +48,7 @@ and not [`this.to`](codearts_plugin_.CallHierarchyOutgoingCall.md#to).
 
 #### Defined in
 
-[index.d.ts:5241](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5241)
+[index.d.ts:5279](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5279)
 
 ___
 
@@ -60,4 +60,4 @@ The item that is called.
 
 #### Defined in
 
-[index.d.ts:5234](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5234)
+[index.d.ts:5272](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5272)

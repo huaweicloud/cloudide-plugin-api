@@ -41,7 +41,7 @@ Creates a new diagnostic object.
 
 #### Defined in
 
-[index.d.ts:6008](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6008)
+[index.d.ts:6046](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6046)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Should be used for later processing, e.g. when providing [code actions](../inter
 
 #### Defined in
 
-[index.d.ts:5977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5977)
+[index.d.ts:6015](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6015)
 
 ___
 
@@ -66,7 +66,7 @@ The human-readable message.
 
 #### Defined in
 
-[index.d.ts:5960](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5960)
+[index.d.ts:5998](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5998)
 
 ___
 
@@ -78,7 +78,7 @@ The range to which this diagnostic applies.
 
 #### Defined in
 
-[index.d.ts:5955](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5955)
+[index.d.ts:5993](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5993)
 
 ___
 
@@ -91,7 +91,7 @@ a scope collide all definitions can be marked via this property.
 
 #### Defined in
 
-[index.d.ts:5994](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5994)
+[index.d.ts:6032](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6032)
 
 ___
 
@@ -103,7 +103,7 @@ The severity, default is [error](../enums/codearts_plugin_.DiagnosticSeverity.md
 
 #### Defined in
 
-[index.d.ts:5965](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5965)
+[index.d.ts:6003](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6003)
 
 ___
 
@@ -116,7 +116,7 @@ diagnostic, e.g. 'typescript' or 'super lint'.
 
 #### Defined in
 
-[index.d.ts:5971](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5971)
+[index.d.ts:6009](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6009)
 
 ___
 
@@ -128,4 +128,4 @@ Additional metadata about the diagnostic.
 
 #### Defined in
 
-[index.d.ts:5999](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5999)
+[index.d.ts:6037](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6037)

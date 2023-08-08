@@ -34,7 +34,7 @@ Creates a new color range.
 
 #### Defined in
 
-[index.d.ts:4788](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4788)
+[index.d.ts:4826](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4826)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The actual color value for this color range.
 
 #### Defined in
 
-[index.d.ts:4780](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4780)
+[index.d.ts:4818](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4818)
 
 ___
 
@@ -58,4 +58,4 @@ The range in the document where this color appears.
 
 #### Defined in
 
-[index.d.ts:4775](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4775)
+[index.d.ts:4813](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4813)

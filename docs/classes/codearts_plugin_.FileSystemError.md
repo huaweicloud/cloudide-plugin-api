@@ -54,7 +54,7 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:7953](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7953)
+[index.d.ts:7991](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7991)
 
 ## Properties
 
@@ -69,7 +69,7 @@ or `Unknown` for unspecified errors.
 
 #### Defined in
 
-[index.d.ts:7961](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7961)
+[index.d.ts:7999](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7999)
 
 ## Methods
 
@@ -92,7 +92,7 @@ creating but not overwriting a file.
 
 #### Defined in
 
-[index.d.ts:7921](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7921)
+[index.d.ts:7959](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7959)
 
 ___
 
@@ -114,7 +114,7 @@ Create an error to signal that a file is a folder.
 
 #### Defined in
 
-[index.d.ts:7933](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7933)
+[index.d.ts:7971](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7971)
 
 ___
 
@@ -136,7 +136,7 @@ Create an error to signal that a file is not a folder.
 
 #### Defined in
 
-[index.d.ts:7927](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7927)
+[index.d.ts:7965](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7965)
 
 ___
 
@@ -158,7 +158,7 @@ Create an error to signal that a file or folder wasn't found.
 
 #### Defined in
 
-[index.d.ts:7914](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7914)
+[index.d.ts:7952](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7952)
 
 ___
 
@@ -180,7 +180,7 @@ Create an error to signal that an operation lacks required permissions.
 
 #### Defined in
 
-[index.d.ts:7939](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7939)
+[index.d.ts:7977](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7977)
 
 ___
 
@@ -203,4 +203,4 @@ complete a request.
 
 #### Defined in
 
-[index.d.ts:7946](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7946)
+[index.d.ts:7984](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7984)

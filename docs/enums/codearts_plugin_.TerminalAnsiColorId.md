@@ -29,7 +29,7 @@ Terminal Icon Color Enumeration
 
 #### Defined in
 
-[index.d.ts:6446](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6446)
+[index.d.ts:6484](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6484)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6450](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6450)
+[index.d.ts:6488](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6488)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6454](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6454)
+[index.d.ts:6492](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6492)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6447](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6447)
+[index.d.ts:6485](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6485)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6451](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6451)
+[index.d.ts:6489](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6489)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6445](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6445)
+[index.d.ts:6483](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6483)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6449)
+[index.d.ts:6487](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6487)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6452](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6452)
+[index.d.ts:6490](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6490)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6448)
+[index.d.ts:6486](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6486)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:6453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6453)
+[index.d.ts:6491](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6491)

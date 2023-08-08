@@ -49,7 +49,7 @@ Creates a new completion list.
 
 #### Defined in
 
-[index.d.ts:4439](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4439)
+[index.d.ts:4477](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4477)
 
 ## Properties
 
@@ -62,7 +62,7 @@ this list.
 
 #### Defined in
 
-[index.d.ts:4406](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4406)
+[index.d.ts:4444](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4444)
 
 ___
 
@@ -74,7 +74,7 @@ The completion items.
 
 #### Defined in
 
-[index.d.ts:4411](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4411)
+[index.d.ts:4449](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4449)
 
 ___
 
@@ -86,7 +86,7 @@ Allows to update completion list. Must be used in conjunction with BufferingEven
 
 #### Defined in
 
-[index.d.ts:4418](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4418)
+[index.d.ts:4456](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4456)
 
 ___
 
@@ -115,4 +115,4 @@ Example:
 
 #### Defined in
 
-[index.d.ts:4431](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4431)
+[index.d.ts:4469](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4469)

@@ -23,7 +23,7 @@ Extensions are accessed from a desktop application.
 
 #### Defined in
 
-[index.d.ts:9096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9096)
+[index.d.ts:9134](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9134)
 
 ___
 
@@ -35,4 +35,4 @@ Extensions are accessed from a web browser.
 
 #### Defined in
 
-[index.d.ts:9101](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9101)
+[index.d.ts:9139](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9139)

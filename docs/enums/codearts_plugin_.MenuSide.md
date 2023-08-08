@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[index.d.ts:17690](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17690)
+[index.d.ts:17815](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17815)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:17691](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17691)
+[index.d.ts:17816](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17816)

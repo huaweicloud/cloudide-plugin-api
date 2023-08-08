@@ -24,7 +24,7 @@ The contents or metadata of a file have changed.
 
 #### Defined in
 
-[index.d.ts:7972](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7972)
+[index.d.ts:8010](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8010)
 
 ___
 
@@ -36,7 +36,7 @@ A file has been created.
 
 #### Defined in
 
-[index.d.ts:7977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7977)
+[index.d.ts:8015](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8015)
 
 ___
 
@@ -48,4 +48,4 @@ A file has been deleted.
 
 #### Defined in
 
-[index.d.ts:7982](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7982)
+[index.d.ts:8020](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8020)

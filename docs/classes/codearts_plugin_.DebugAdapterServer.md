@@ -34,7 +34,7 @@ Create a description for a debug adapter running as a socket based server.
 
 #### Defined in
 
-[index.d.ts:15109](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15109)
+[index.d.ts:15212](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15212)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The host.
 
 #### Defined in
 
-[index.d.ts:15104](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15104)
+[index.d.ts:15207](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15207)
 
 ___
 
@@ -58,4 +58,4 @@ The port.
 
 #### Defined in
 
-[index.d.ts:15099](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15099)
+[index.d.ts:15202](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15202)

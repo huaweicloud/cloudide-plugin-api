@@ -64,7 +64,7 @@ will be used as insert text as well as for sorting and filtering.
 
 #### Defined in
 
-[index.d.ts:4393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4393)
+[index.d.ts:4431](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4431)
 
 ## Properties
 
@@ -78,7 +78,7 @@ nor with themselves.
 
 #### Defined in
 
-[index.d.ts:4375](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4375)
+[index.d.ts:4413](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4413)
 
 ___
 
@@ -92,7 +92,7 @@ additional modifications to the current document should be described with the
 
 #### Defined in
 
-[index.d.ts:4382](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4382)
+[index.d.ts:4420](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4420)
 
 ___
 
@@ -106,7 +106,7 @@ characters will be ignored.
 
 #### Defined in
 
-[index.d.ts:4349](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4349)
+[index.d.ts:4387](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4387)
 
 ___
 
@@ -119,7 +119,7 @@ about this item, like type or symbol information.
 
 #### Defined in
 
-[index.d.ts:4286](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4286)
+[index.d.ts:4324](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4324)
 
 ___
 
@@ -131,7 +131,7 @@ A human-readable string that represents a doc-comment.
 
 #### Defined in
 
-[index.d.ts:4291](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4291)
+[index.d.ts:4329](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4329)
 
 ___
 
@@ -148,7 +148,7 @@ by the [`range`](codearts_plugin_.CompletionItem.md#range)-property.
 
 #### Defined in
 
-[index.d.ts:4315](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4315)
+[index.d.ts:4353](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4353)
 
 ___
 
@@ -162,7 +162,7 @@ is used.
 
 #### Defined in
 
-[index.d.ts:4329](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4329)
+[index.d.ts:4367](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4367)
 
 ___
 
@@ -176,7 +176,7 @@ this to `true` will prevent that.
 
 #### Defined in
 
-[index.d.ts:4356](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4356)
+[index.d.ts:4394](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4394)
 
 ___
 
@@ -189,7 +189,7 @@ an icon is chosen by the editor.
 
 #### Defined in
 
-[index.d.ts:4275](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4275)
+[index.d.ts:4313](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4313)
 
 ___
 
@@ -203,7 +203,7 @@ this completion.
 
 #### Defined in
 
-[index.d.ts:4269](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4269)
+[index.d.ts:4307](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4307)
 
 ___
 
@@ -217,7 +217,7 @@ that match best is selected.
 
 #### Defined in
 
-[index.d.ts:4322](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4322)
+[index.d.ts:4360](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4360)
 
 ___
 
@@ -237,7 +237,7 @@ current position is used.
 
 #### Defined in
 
-[index.d.ts:4342](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4342)
+[index.d.ts:4380](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4380)
 
 ___
 
@@ -258,7 +258,7 @@ for each completion.
 
 #### Defined in
 
-[index.d.ts:4305](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4305)
+[index.d.ts:4343](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4343)
 
 ___
 
@@ -270,7 +270,7 @@ Tags for this completion item.
 
 #### Defined in
 
-[index.d.ts:4280](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4280)
+[index.d.ts:4318](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4318)
 
 ___
 
@@ -291,4 +291,4 @@ line completions were [requested](../interfaces/codearts_plugin_.CompletionItemP
 
 #### Defined in
 
-[index.d.ts:4368](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4368)
+[index.d.ts:4406](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4406)

@@ -34,7 +34,7 @@ Constructs a new tab input for a notebook.
 
 #### Defined in
 
-[index.d.ts:17079](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17079)
+[index.d.ts:17204](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17204)
 
 ## Properties
 
@@ -46,7 +46,7 @@ The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces
 
 #### Defined in
 
-[index.d.ts:17073](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17073)
+[index.d.ts:17198](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17198)
 
 ___
 
@@ -58,4 +58,4 @@ The uri that the tab is representing.
 
 #### Defined in
 
-[index.d.ts:17069](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17069)
+[index.d.ts:17194](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17194)

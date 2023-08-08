@@ -38,7 +38,7 @@ Creates a new signature information object.
 
 #### Defined in
 
-[index.d.ts:4059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4059)
+[index.d.ts:4097](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4097)
 
 ## Properties
 
@@ -52,7 +52,7 @@ If provided, this is used in place of [`activeSignature`](codearts_plugin_.Signa
 
 #### Defined in
 
-[index.d.ts:4051](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4051)
+[index.d.ts:4089](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4089)
 
 ___
 
@@ -65,7 +65,7 @@ in the UI but can be omitted.
 
 #### Defined in
 
-[index.d.ts:4039](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4039)
+[index.d.ts:4077](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4077)
 
 ___
 
@@ -78,7 +78,7 @@ the UI.
 
 #### Defined in
 
-[index.d.ts:4033](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4033)
+[index.d.ts:4071](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4071)
 
 ___
 
@@ -90,4 +90,4 @@ The parameters of this signature.
 
 #### Defined in
 
-[index.d.ts:4044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4044)
+[index.d.ts:4082](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4082)

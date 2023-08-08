@@ -24,7 +24,7 @@ This value has no effect for sessions which do not have a parent session.
 
 #### Defined in
 
-[index.d.ts:15333](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15333)
+[index.d.ts:15436](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15436)
 
 ___
 
@@ -36,4 +36,4 @@ Debug session should have a separate debug console.
 
 #### Defined in
 
-[index.d.ts:15327](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15327)
+[index.d.ts:15430](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15430)

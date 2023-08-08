@@ -27,7 +27,7 @@ Kind for folding range representing a comment.
 
 #### Defined in
 
-[index.d.ts:5074](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5074)
+[index.d.ts:5112](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5112)
 
 ___
 
@@ -39,7 +39,7 @@ Kind for folding range representing a import.
 
 #### Defined in
 
-[index.d.ts:5078](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5078)
+[index.d.ts:5116](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5116)
 
 ___
 
@@ -51,4 +51,4 @@ Kind for folding range representing regions originating from folding markers lik
 
 #### Defined in
 
-[index.d.ts:5082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5082)
+[index.d.ts:5120](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5120)

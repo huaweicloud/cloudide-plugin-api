@@ -36,7 +36,7 @@ Creates a description for a debug adapter based on an executable program.
 
 #### Defined in
 
-[index.d.ts:15052](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15052)
+[index.d.ts:15155](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15155)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The arguments passed to the debug adapter executable. Defaults to an empty array
 
 #### Defined in
 
-[index.d.ts:15064](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15064)
+[index.d.ts:15167](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15167)
 
 ___
 
@@ -62,7 +62,7 @@ The special value 'node' will be mapped to the editor's built-in Node.js runtime
 
 #### Defined in
 
-[index.d.ts:15059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15059)
+[index.d.ts:15162](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15162)
 
 ___
 
@@ -75,4 +75,4 @@ Defaults to undefined.
 
 #### Defined in
 
-[index.d.ts:15070](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15070)
+[index.d.ts:15173](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15173)

@@ -36,7 +36,7 @@ Creates a process execution.
 
 #### Defined in
 
-[index.d.ts:7318](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7318)
+[index.d.ts:7356](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7356)
 
 • **new ProcessExecution**(`process`, `args`, `options?`)
 
@@ -52,7 +52,7 @@ Creates a process execution.
 
 #### Defined in
 
-[index.d.ts:7327](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7327)
+[index.d.ts:7365](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7365)
 
 ## Properties
 
@@ -64,7 +64,7 @@ The arguments passed to the process. Defaults to an empty array.
 
 #### Defined in
 
-[index.d.ts:7337](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7337)
+[index.d.ts:7375](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7375)
 
 ___
 
@@ -77,7 +77,7 @@ Defaults to undefined.
 
 #### Defined in
 
-[index.d.ts:7343](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7343)
+[index.d.ts:7381](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7381)
 
 ___
 
@@ -89,4 +89,4 @@ The process to be executed.
 
 #### Defined in
 
-[index.d.ts:7332](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7332)
+[index.d.ts:7370](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7370)

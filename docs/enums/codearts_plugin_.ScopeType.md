@@ -25,7 +25,7 @@ Settings that apply to all instances of CodeArts and can only be configured in u
 
 #### Defined in
 
-[index.d.ts:12096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12096)
+[index.d.ts:12198](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12198)
 
 ___
 
@@ -37,7 +37,7 @@ Resource settings that can be overridable at a language level.
 
 #### Defined in
 
-[index.d.ts:12122](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12122)
+[index.d.ts:12224](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12224)
 
 ___
 
@@ -50,7 +50,7 @@ For example, an installation path which shouldn't be shared across machines.
 
 #### Defined in
 
-[index.d.ts:12102](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12102)
+[index.d.ts:12204](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12204)
 
 ___
 
@@ -62,7 +62,7 @@ Machine specific settings that can be overridden by workspace or folder settings
 
 #### Defined in
 
-[index.d.ts:12107](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12107)
+[index.d.ts:12209](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12209)
 
 ___
 
@@ -74,7 +74,7 @@ Resource settings, which apply to files and folders, and can be configured in al
 
 #### Defined in
 
-[index.d.ts:12117](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12117)
+[index.d.ts:12219](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12219)
 
 ___
 
@@ -86,4 +86,4 @@ Windows (instance) specific settings which can be configured in user, workspace,
 
 #### Defined in
 
-[index.d.ts:12112](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12112)
+[index.d.ts:12214](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12214)

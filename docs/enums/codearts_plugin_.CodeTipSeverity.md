@@ -22,7 +22,7 @@ Represents the severity of code tip.
 
 #### Defined in
 
-[index.d.ts:17854](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17854)
+[index.d.ts:17979](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17979)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:17852](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17852)
+[index.d.ts:17977](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17977)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:17853](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17853)
+[index.d.ts:17978](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17978)

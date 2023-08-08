@@ -41,7 +41,7 @@ Creates a new inline completion item.
 
 #### Defined in
 
-[index.d.ts:4665](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4665)
+[index.d.ts:4703](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4703)
 
 ## Properties
 
@@ -53,7 +53,7 @@ An optional [Command](../interfaces/codearts_plugin_.Command.md) that is execute
 
 #### Defined in
 
-[index.d.ts:4656](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4656)
+[index.d.ts:4694](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4694)
 
 ___
 
@@ -68,7 +68,7 @@ An inline completion is shown if the text to replace is a prefix of the filter t
 
 #### Defined in
 
-[index.d.ts:4643](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4643)
+[index.d.ts:4681](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4681)
 
 ___
 
@@ -81,7 +81,7 @@ Is used both for the preview and the accept operation.
 
 #### Defined in
 
-[index.d.ts:4635](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4635)
+[index.d.ts:4673](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4673)
 
 ___
 
@@ -96,4 +96,4 @@ Prefer replacements over insertions to provide a better experience when the user
 
 #### Defined in
 
-[index.d.ts:4651](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4651)
+[index.d.ts:4689](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4689)
