@@ -31,7 +31,7 @@ Whether to allow drag. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9449)
+[index.d.ts:9488](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9488)
 
 ___
 
@@ -43,7 +43,7 @@ Height of dialog content in pixels. Default is `300`.
 
 #### Defined in
 
-[index.d.ts:9429](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9429)
+[index.d.ts:9468](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9468)
 
 ___
 
@@ -55,7 +55,7 @@ Set the left position of the dialog relative to window in pixels. Centered by de
 
 #### Defined in
 
-[index.d.ts:9439](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9439)
+[index.d.ts:9478](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9478)
 
 ___
 
@@ -67,7 +67,7 @@ Whether it's a dialog with a masked modal. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9444](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9444)
+[index.d.ts:9483](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9483)
 
 ___
 
@@ -79,7 +79,7 @@ Whether to hide the title bar of dialog. Default is `false`. Note that drag will
 
 #### Defined in
 
-[index.d.ts:9454](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9454)
+[index.d.ts:9493](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9493)
 
 ___
 
@@ -94,7 +94,7 @@ Whether to allow resize the dialog. Default is `false`.
 
 #### Defined in
 
-[index.d.ts:9465](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9465)
+[index.d.ts:9504](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9504)
 
 ___
 
@@ -106,7 +106,7 @@ Title displayed at the top of the dialog.
 
 #### Defined in
 
-[index.d.ts:9419](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9419)
+[index.d.ts:9458](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9458)
 
 ___
 
@@ -118,7 +118,7 @@ Set the top position of the dialog relative to window in pixels. Centered by def
 
 #### Defined in
 
-[index.d.ts:9434](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9434)
+[index.d.ts:9473](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9473)
 
 ___
 
@@ -130,7 +130,7 @@ Width of dialog content in pixels. Default is `500`.
 
 #### Defined in
 
-[index.d.ts:9424](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9424)
+[index.d.ts:9463](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9463)
 
 ___
 
@@ -142,4 +142,4 @@ Enable close icon in the upper right corner of the dialog. Default is `true`.
 
 #### Defined in
 
-[index.d.ts:9459](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9459)
+[index.d.ts:9498](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9498)

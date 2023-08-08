@@ -23,7 +23,7 @@ Icon for the button.
 
 #### Defined in
 
-[index.d.ts:11703](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11703)
+[index.d.ts:11805](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11805)
 
 ___
 
@@ -35,4 +35,4 @@ An optional tooltip.
 
 #### Defined in
 
-[index.d.ts:11708](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11708)
+[index.d.ts:11810](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11810)

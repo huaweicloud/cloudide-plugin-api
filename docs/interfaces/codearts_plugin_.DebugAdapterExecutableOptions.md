@@ -23,7 +23,7 @@ The current working directory for the executed debug adapter.
 
 #### Defined in
 
-[index.d.ts:15088](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15088)
+[index.d.ts:15191](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15191)
 
 ___
 
@@ -41,4 +41,4 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:15083](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15083)
+[index.d.ts:15186](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15186)

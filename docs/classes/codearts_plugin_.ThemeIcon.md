@@ -41,7 +41,7 @@ Creates a reference to a theme icon.
 
 #### Defined in
 
-[index.d.ts:897](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L897)
+[index.d.ts:897](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L897)
 
 ## Properties
 
@@ -53,7 +53,7 @@ The optional ThemeColor of the icon. The color is currently only used in [TreeIt
 
 #### Defined in
 
-[index.d.ts:890](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L890)
+[index.d.ts:890](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L890)
 
 ___
 
@@ -65,7 +65,7 @@ The id of the icon. The available icons are listed in https://code.visualstudio.
 
 #### Defined in
 
-[index.d.ts:885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L885)
+[index.d.ts:885](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L885)
 
 ___
 
@@ -77,7 +77,7 @@ Reference to an icon representing a file. The icon is taken from the current fil
 
 #### Defined in
 
-[index.d.ts:875](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L875)
+[index.d.ts:875](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L875)
 
 ___
 
@@ -89,4 +89,4 @@ Reference to an icon representing a folder. The icon is taken from the current f
 
 #### Defined in
 
-[index.d.ts:880](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L880)
+[index.d.ts:880](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L880)

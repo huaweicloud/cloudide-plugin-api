@@ -35,7 +35,7 @@ Creates a new location object.
 
 #### Defined in
 
-[index.d.ts:5826](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5826)
+[index.d.ts:5864](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5864)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The document range of this location.
 
 #### Defined in
 
-[index.d.ts:5818](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5818)
+[index.d.ts:5856](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5856)
 
 ___
 
@@ -59,4 +59,4 @@ The resource identifier of this location.
 
 #### Defined in
 
-[index.d.ts:5813](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5813)
+[index.d.ts:5851](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5851)

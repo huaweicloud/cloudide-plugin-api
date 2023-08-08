@@ -28,7 +28,7 @@ If compact is true, debug sessions with a single child are hidden in the CALL ST
 
 #### Defined in
 
-[index.d.ts:15372](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15372)
+[index.d.ts:15475](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15475)
 
 ___
 
@@ -42,7 +42,7 @@ Defaults to Separate.
 
 #### Defined in
 
-[index.d.ts:15359](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15359)
+[index.d.ts:15462](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15462)
 
 ___
 
@@ -56,7 +56,7 @@ This property is ignored if the session has no parent session.
 
 #### Defined in
 
-[index.d.ts:15352](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15352)
+[index.d.ts:15455](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15455)
 
 ___
 
@@ -69,7 +69,7 @@ When this property is not specified, the value from the parent session (if there
 
 #### Defined in
 
-[index.d.ts:15365](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15365)
+[index.d.ts:15468](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15468)
 
 ___
 
@@ -82,4 +82,4 @@ When specified the newly created debug session is registered as a "child" sessio
 
 #### Defined in
 
-[index.d.ts:15345](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15345)
+[index.d.ts:15448](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15448)

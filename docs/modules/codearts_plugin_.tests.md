@@ -38,4 +38,4 @@ An instance of the [TestController](../interfaces/codearts_plugin_.TestControlle
 
 #### Defined in
 
-[index.d.ts:16199](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16199)
+[index.d.ts:16324](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16324)

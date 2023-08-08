@@ -27,7 +27,7 @@ If omitted the tools current workspace root is used.
 
 #### Defined in
 
-[index.d.ts:7404](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7404)
+[index.d.ts:7442](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7442)
 
 ___
 
@@ -45,7 +45,7 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:7411](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7411)
+[index.d.ts:7449](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7449)
 
 ___
 
@@ -57,7 +57,7 @@ The shell executable.
 
 #### Defined in
 
-[index.d.ts:7385](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7385)
+[index.d.ts:7423](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7423)
 
 ___
 
@@ -72,7 +72,7 @@ argument to execute a command, `PowerShell` requires `-Command` and `cmd` requir
 
 #### Defined in
 
-[index.d.ts:7393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7393)
+[index.d.ts:7431](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7431)
 
 ___
 
@@ -84,4 +84,4 @@ The shell quotes supported by this shell.
 
 #### Defined in
 
-[index.d.ts:7398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7398)
+[index.d.ts:7436](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7436)

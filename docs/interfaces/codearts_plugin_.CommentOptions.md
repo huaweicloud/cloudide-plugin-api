@@ -23,7 +23,7 @@ An optional string to show as placeholder in the comment input box when it's foc
 
 #### Defined in
 
-[index.d.ts:15806](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15806)
+[index.d.ts:15929](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15929)
 
 ___
 
@@ -35,4 +35,4 @@ An optional string to show on the comment input box when it's collapsed.
 
 #### Defined in
 
-[index.d.ts:15801](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15801)
+[index.d.ts:15924](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15924)

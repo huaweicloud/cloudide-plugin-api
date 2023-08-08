@@ -25,7 +25,7 @@ The range will always be revealed at the top of the viewport.
 
 #### Defined in
 
-[index.d.ts:13639](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13639)
+[index.d.ts:13742](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13742)
 
 ___
 
@@ -37,7 +37,7 @@ The range will be revealed with as little scrolling as possible.
 
 #### Defined in
 
-[index.d.ts:13623](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13623)
+[index.d.ts:13726](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13726)
 
 ___
 
@@ -49,7 +49,7 @@ The range will always be revealed in the center of the viewport.
 
 #### Defined in
 
-[index.d.ts:13628](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13628)
+[index.d.ts:13731](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13731)
 
 ___
 
@@ -62,4 +62,4 @@ Otherwise, it will be revealed with as little scrolling as possible.
 
 #### Defined in
 
-[index.d.ts:13634](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13634)
+[index.d.ts:13737](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13737)

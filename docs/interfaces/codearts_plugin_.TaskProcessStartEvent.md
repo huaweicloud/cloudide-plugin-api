@@ -24,7 +24,7 @@ The task execution for which the process got started.
 
 #### Defined in
 
-[index.d.ts:7724](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7724)
+[index.d.ts:7762](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7762)
 
 ___
 
@@ -36,4 +36,4 @@ The underlying process id.
 
 #### Defined in
 
-[index.d.ts:7729](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7729)
+[index.d.ts:7767](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7767)

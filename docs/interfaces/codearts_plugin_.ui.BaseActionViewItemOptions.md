@@ -27,7 +27,7 @@ Is it possible to drag.
 
 #### Defined in
 
-[index.d.ts:17505](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17505)
+[index.d.ts:17630](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17630)
 
 ___
 
@@ -39,4 +39,4 @@ Is it the menu.
 
 #### Defined in
 
-[index.d.ts:17510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17510)
+[index.d.ts:17635](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17635)

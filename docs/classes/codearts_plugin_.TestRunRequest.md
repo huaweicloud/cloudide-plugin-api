@@ -41,7 +41,7 @@ requests and runs outside of the `runHandler`.
 
 #### Defined in
 
-[index.d.ts:16458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16458)
+[index.d.ts:16583](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16583)
 
 ## Properties
 
@@ -57,7 +57,7 @@ not run excluded tests or any children of excluded tests.
 
 #### Defined in
 
-[index.d.ts:16444](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16444)
+[index.d.ts:16569](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16569)
 
 ___
 
@@ -75,7 +75,7 @@ items who have not yet been resolved.
 
 #### Defined in
 
-[index.d.ts:16435](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16435)
+[index.d.ts:16560](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16560)
 
 ___
 
@@ -89,4 +89,4 @@ programmatically create requests not associated with any profile.
 
 #### Defined in
 
-[index.d.ts:16451](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16451)
+[index.d.ts:16576](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16576)

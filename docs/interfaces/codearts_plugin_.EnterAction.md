@@ -24,7 +24,7 @@ Describes text to be appended after the new line and after the indentation.
 
 #### Defined in
 
-[index.d.ts:5518](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5518)
+[index.d.ts:5556](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5556)
 
 ___
 
@@ -36,7 +36,7 @@ Describe what to do with the indentation.
 
 #### Defined in
 
-[index.d.ts:5514](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5514)
+[index.d.ts:5552](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5552)
 
 ___
 
@@ -48,4 +48,4 @@ Describes the number of characters to remove from the new line's indentation.
 
 #### Defined in
 
-[index.d.ts:5522](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5522)
+[index.d.ts:5560](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5560)

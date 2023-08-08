@@ -37,7 +37,7 @@ Represents semantic tokens, either in a range or in an entire document.
 
 #### Defined in
 
-[index.d.ts:3748](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3748)
+[index.d.ts:3786](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3786)
 
 ## Properties
 
@@ -53,7 +53,7 @@ The actual tokens data.
 
 #### Defined in
 
-[index.d.ts:3746](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3746)
+[index.d.ts:3784](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3784)
 
 ___
 
@@ -67,4 +67,4 @@ This is the id that will be passed to `DocumentSemanticTokensProvider.provideDoc
 
 #### Defined in
 
-[index.d.ts:3741](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3741)
+[index.d.ts:3779](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3779)

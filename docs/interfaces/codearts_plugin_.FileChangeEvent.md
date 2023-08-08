@@ -23,7 +23,7 @@ The type of change.
 
 #### Defined in
 
-[index.d.ts:7993](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7993)
+[index.d.ts:8031](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8031)
 
 ___
 
@@ -35,4 +35,4 @@ The uri of the file that has changed.
 
 #### Defined in
 
-[index.d.ts:7998](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7998)
+[index.d.ts:8036](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8036)

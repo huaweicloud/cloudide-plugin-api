@@ -42,7 +42,7 @@ is cleared. Defaults to true.
 
 #### Defined in
 
-[index.d.ts:11338](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11338)
+[index.d.ts:11440](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11440)
 
 ## Methods
 
@@ -68,7 +68,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11360](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11360)
+[index.d.ts:11462](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11462)
 
 ___
 
@@ -84,7 +84,7 @@ Clears all mutators from this collection.
 
 #### Defined in
 
-[index.d.ts:11398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11398)
+[index.d.ts:11500](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11500)
 
 ___
 
@@ -106,7 +106,7 @@ Deletes this collection's mutator for a variable.
 
 #### Defined in
 
-[index.d.ts:11393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11393)
+[index.d.ts:11495](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11495)
 
 ___
 
@@ -129,7 +129,7 @@ Iterate over each mutator in this collection.
 
 #### Defined in
 
-[index.d.ts:11386](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11386)
+[index.d.ts:11488](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11488)
 
 ___
 
@@ -151,7 +151,7 @@ Gets the mutator that this collection applies to a variable, if any.
 
 #### Defined in
 
-[index.d.ts:11378](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11378)
+[index.d.ts:11480](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11480)
 
 ___
 
@@ -177,7 +177,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11371](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11371)
+[index.d.ts:11473](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11473)
 
 ___
 
@@ -203,4 +203,4 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11349](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11349)
+[index.d.ts:11451](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11451)

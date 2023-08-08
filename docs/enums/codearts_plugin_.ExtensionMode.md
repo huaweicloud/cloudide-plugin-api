@@ -26,7 +26,7 @@ when launching the editor.
 
 #### Defined in
 
-[index.d.ts:6864](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6864)
+[index.d.ts:6902](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6902)
 
 ___
 
@@ -39,7 +39,7 @@ or VSIX) in the editor.
 
 #### Defined in
 
-[index.d.ts:6858](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6858)
+[index.d.ts:6896](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6896)
 
 ___
 
@@ -52,4 +52,4 @@ the extension host is running unit tests.
 
 #### Defined in
 
-[index.d.ts:6870](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6870)
+[index.d.ts:6908](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6908)

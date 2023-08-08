@@ -25,7 +25,7 @@ The range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11752](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11752)
+[index.d.ts:11854](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11854)
 
 ___
 
@@ -37,7 +37,7 @@ The length of the range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11760](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11760)
+[index.d.ts:11862](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11862)
 
 ___
 
@@ -49,7 +49,7 @@ The offset of the range that got replaced.
 
 #### Defined in
 
-[index.d.ts:11756](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11756)
+[index.d.ts:11858](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11858)
 
 ___
 
@@ -61,4 +61,4 @@ The new text for the range.
 
 #### Defined in
 
-[index.d.ts:11764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11764)
+[index.d.ts:11866](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11866)

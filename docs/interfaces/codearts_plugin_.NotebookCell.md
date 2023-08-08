@@ -31,7 +31,7 @@ The [text](codearts_plugin_.TextDocument.md) of this cell, represented as text d
 
 #### Defined in
 
-[index.d.ts:13754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13754)
+[index.d.ts:13857](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13857)
 
 ___
 
@@ -43,7 +43,7 @@ The most recent [execution summary](codearts_plugin_.NotebookCellExecutionSummar
 
 #### Defined in
 
-[index.d.ts:13769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13769)
+[index.d.ts:13872](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13872)
 
 ___
 
@@ -57,7 +57,7 @@ when the cell has been removed from its notebook.
 
 #### Defined in
 
-[index.d.ts:13739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13739)
+[index.d.ts:13842](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13842)
 
 ___
 
@@ -69,7 +69,7 @@ The kind of this cell.
 
 #### Defined in
 
-[index.d.ts:13749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13749)
+[index.d.ts:13852](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13852)
 
 ___
 
@@ -85,7 +85,7 @@ The metadata of this cell. Can be anything but must be JSON-stringifyable.
 
 #### Defined in
 
-[index.d.ts:13759](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13759)
+[index.d.ts:13862](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13862)
 
 ___
 
@@ -97,7 +97,7 @@ The [notebook](codearts_plugin_.NotebookDocument.md) that contains this cell.
 
 #### Defined in
 
-[index.d.ts:13744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13744)
+[index.d.ts:13847](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13847)
 
 ___
 
@@ -109,4 +109,4 @@ The outputs of this cell.
 
 #### Defined in
 
-[index.d.ts:13764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13764)
+[index.d.ts:13867](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13867)

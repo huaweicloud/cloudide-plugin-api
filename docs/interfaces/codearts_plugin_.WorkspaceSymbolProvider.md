@@ -53,7 +53,7 @@ signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:3323](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3323)
+[index.d.ts:3323](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3323)
 
 ___
 
@@ -82,4 +82,4 @@ the given `symbol` is used.
 
 #### Defined in
 
-[index.d.ts:3337](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3337)
+[index.d.ts:3337](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3337)

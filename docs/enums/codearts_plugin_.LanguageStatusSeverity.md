@@ -22,7 +22,7 @@ Represents the severity of a language status item.
 
 #### Defined in
 
-[index.d.ts:6102](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6102)
+[index.d.ts:6140](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6140)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6100)
+[index.d.ts:6138](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6138)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:6101](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6101)
+[index.d.ts:6139](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6139)

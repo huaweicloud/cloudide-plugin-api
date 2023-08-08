@@ -35,7 +35,7 @@ Encapsulates data transferred during drag and drop operations.
 
 #### Defined in
 
-[index.d.ts:10559](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10559)
+[index.d.ts:10609](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10609)
 
 ## Properties
 
@@ -50,7 +50,7 @@ created the `DataTransferItem` runs in the same extension host.
 
 #### Defined in
 
-[index.d.ts:10554](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10554)
+[index.d.ts:10604](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10604)
 
 ## Methods
 
@@ -71,7 +71,7 @@ file data cannot be accessed.
 
 #### Defined in
 
-[index.d.ts:10546](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10546)
+[index.d.ts:10596](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10596)
 
 ___
 
@@ -89,4 +89,4 @@ If [`value`](codearts_plugin_.DataTransferItem.md#value) is an object, this retu
 
 #### Defined in
 
-[index.d.ts:10536](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10536)
+[index.d.ts:10586](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10586)

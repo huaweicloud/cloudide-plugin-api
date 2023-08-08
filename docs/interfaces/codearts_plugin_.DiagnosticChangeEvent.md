@@ -22,4 +22,4 @@ An array of resources for which diagnostics have changed.
 
 #### Defined in
 
-[index.d.ts:5866](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5866)
+[index.d.ts:5904](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5904)

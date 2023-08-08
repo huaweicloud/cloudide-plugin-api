@@ -21,7 +21,7 @@ Enumeration of the browse type
 
 #### Defined in
 
-[index.d.ts:12129](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12129)
+[index.d.ts:12231](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12231)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:12130](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12130)
+[index.d.ts:12232](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12232)

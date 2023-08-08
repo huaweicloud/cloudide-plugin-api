@@ -27,7 +27,7 @@ An optional event to signal that the folding ranges from this provider have chan
 
 #### Defined in
 
-[index.d.ts:5100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5100)
+[index.d.ts:5138](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5138)
 
 ## Methods
 
@@ -52,4 +52,4 @@ does not want to participate or was cancelled.
 
 #### Defined in
 
-[index.d.ts:5109](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5109)
+[index.d.ts:5147](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5147)

@@ -23,7 +23,7 @@ In the editor area
 
 #### Defined in
 
-[index.d.ts:6550](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6550)
+[index.d.ts:6588](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6588)
 
 ___
 
@@ -35,4 +35,4 @@ In the terminal view
 
 #### Defined in
 
-[index.d.ts:6546](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6546)
+[index.d.ts:6584](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6584)

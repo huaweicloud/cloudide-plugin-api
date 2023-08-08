@@ -37,7 +37,7 @@ The recommended mime type of the tree (`application/vnd.code.tree.<treeidlowerca
 
 #### Defined in
 
-[index.d.ts:10632](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10632)
+[index.d.ts:10682](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10682)
 
 ___
 
@@ -63,7 +63,7 @@ Note that mime types that cannot be sent to the extension will be omitted.
 
 #### Defined in
 
-[index.d.ts:10624](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10624)
+[index.d.ts:10674](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10674)
 
 ## Methods
 
@@ -96,7 +96,7 @@ set the Uri's fragment to `L3,5`, where 3 is the line number and 5 is the column
 
 #### Defined in
 
-[index.d.ts:10650](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10650)
+[index.d.ts:10700](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10700)
 
 ___
 
@@ -122,4 +122,4 @@ Extensions should fire [onDidChangeTreeData](codearts_plugin_.TreeDataProvider.m
 
 #### Defined in
 
-[index.d.ts:10661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10661)
+[index.d.ts:10711](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L10711)

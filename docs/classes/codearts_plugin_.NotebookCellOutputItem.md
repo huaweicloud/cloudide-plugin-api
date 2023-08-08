@@ -42,7 +42,7 @@ Create a new notebook cell output item.
 
 #### Defined in
 
-[index.d.ts:14077](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14077)
+[index.d.ts:14180](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14180)
 
 ## Properties
 
@@ -54,7 +54,7 @@ The data of this output item. Must always be an array of unsigned 8-bit integers
 
 #### Defined in
 
-[index.d.ts:14069](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14069)
+[index.d.ts:14172](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14172)
 
 ___
 
@@ -70,7 +70,7 @@ types and override existing types.
 
 #### Defined in
 
-[index.d.ts:14064](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14064)
+[index.d.ts:14167](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14167)
 
 ## Methods
 
@@ -95,7 +95,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:14055](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14055)
+[index.d.ts:14158](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14158)
 
 ___
 
@@ -125,7 +125,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:14028](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14028)
+[index.d.ts:14131](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14131)
 
 ___
 
@@ -150,7 +150,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:14046](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14046)
+[index.d.ts:14149](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14149)
 
 ___
 
@@ -175,7 +175,7 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:14037](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14037)
+[index.d.ts:14140](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14140)
 
 ___
 
@@ -202,4 +202,4 @@ A new output item object.
 
 #### Defined in
 
-[index.d.ts:14014](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14014)
+[index.d.ts:14117](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14117)

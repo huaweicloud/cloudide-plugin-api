@@ -38,7 +38,7 @@ Accessibility information used when a screen reader interacts with this StatusBa
 
 #### Defined in
 
-[index.d.ts:6409](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6409)
+[index.d.ts:6447](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6447)
 
 ___
 
@@ -50,7 +50,7 @@ The alignment of this item.
 
 #### Defined in
 
-[index.d.ts:6347](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6347)
+[index.d.ts:6385](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6385)
 
 ___
 
@@ -71,7 +71,7 @@ the `color` choice to ensure the entry is readable in all themes.
 
 #### Defined in
 
-[index.d.ts:6394](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6394)
+[index.d.ts:6432](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6432)
 
 ___
 
@@ -83,7 +83,7 @@ The foreground color for this entry.
 
 #### Defined in
 
-[index.d.ts:6380](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6380)
+[index.d.ts:6418](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6418)
 
 ___
 
@@ -100,7 +100,7 @@ are used by the editor.
 
 #### Defined in
 
-[index.d.ts:6404](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6404)
+[index.d.ts:6442](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6442)
 
 ___
 
@@ -115,7 +115,7 @@ method, the identifier will match the [extension identifier](codearts_plugin_.Ex
 
 #### Defined in
 
-[index.d.ts:6342](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6342)
+[index.d.ts:6380](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6380)
 
 ___
 
@@ -129,7 +129,7 @@ users can understand what the status bar item is about.
 
 #### Defined in
 
-[index.d.ts:6360](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6360)
+[index.d.ts:6398](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6398)
 
 ___
 
@@ -142,7 +142,7 @@ be shown more to the left.
 
 #### Defined in
 
-[index.d.ts:6353](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6353)
+[index.d.ts:6391](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6391)
 
 ___
 
@@ -159,7 +159,7 @@ Where the icon-name is taken from the ThemeIcon [icon set](https://code.visualst
 
 #### Defined in
 
-[index.d.ts:6370](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6370)
+[index.d.ts:6408](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6408)
 
 ___
 
@@ -171,7 +171,7 @@ The tooltip text when you hover over this entry.
 
 #### Defined in
 
-[index.d.ts:6375](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6375)
+[index.d.ts:6413](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6413)
 
 ## Methods
 
@@ -188,7 +188,7 @@ Dispose and free associated resources. Call
 
 #### Defined in
 
-[index.d.ts:6425](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6425)
+[index.d.ts:6463](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6463)
 
 ___
 
@@ -204,7 +204,7 @@ Hide the entry in the status bar.
 
 #### Defined in
 
-[index.d.ts:6419](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6419)
+[index.d.ts:6457](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6457)
 
 ___
 
@@ -220,4 +220,4 @@ Shows the entry in the status bar.
 
 #### Defined in
 
-[index.d.ts:6414](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6414)
+[index.d.ts:6452](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6452)

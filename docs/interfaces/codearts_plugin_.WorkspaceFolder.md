@@ -25,7 +25,7 @@ The ordinal number of this workspace folder.
 
 #### Defined in
 
-[index.d.ts:12088](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12088)
+[index.d.ts:12190](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12190)
 
 ___
 
@@ -38,7 +38,7 @@ the basename of its [uri-path](../classes/codearts_plugin_.Uri.md#path)
 
 #### Defined in
 
-[index.d.ts:12083](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12083)
+[index.d.ts:12185](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12185)
 
 ___
 
@@ -53,4 +53,4 @@ workspace folders that are not stored on the local disk, e.g. `ftp://server/work
 
 #### Defined in
 
-[index.d.ts:12077](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12077)
+[index.d.ts:12179](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12179)

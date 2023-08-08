@@ -38,4 +38,4 @@ Report a progress update.
 
 #### Defined in
 
-[index.d.ts:6438](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6438)
+[index.d.ts:6476](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6476)

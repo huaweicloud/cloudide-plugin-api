@@ -36,7 +36,7 @@ Creates a new document link.
 
 #### Defined in
 
-[index.d.ts:4699](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4699)
+[index.d.ts:4737](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4737)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The range this link applies to.
 
 #### Defined in
 
-[index.d.ts:4677](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4677)
+[index.d.ts:4715](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4715)
 
 ___
 
@@ -60,7 +60,7 @@ The uri this link points to.
 
 #### Defined in
 
-[index.d.ts:4682](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4682)
+[index.d.ts:4720](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4720)
 
 ___
 
@@ -76,4 +76,4 @@ user settings, and localization.
 
 #### Defined in
 
-[index.d.ts:4691](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4691)
+[index.d.ts:4729](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4729)

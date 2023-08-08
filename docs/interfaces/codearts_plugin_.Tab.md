@@ -30,7 +30,7 @@ The group which the tab belongs to.
 
 #### Defined in
 
-[index.d.ts:17132](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17132)
+[index.d.ts:17257](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17257)
 
 ___
 
@@ -43,7 +43,7 @@ Resource and other useful properties are defined on the tab kind.
 
 #### Defined in
 
-[index.d.ts:17138](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17138)
+[index.d.ts:17263](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17263)
 
 ___
 
@@ -56,7 +56,7 @@ This is dictated by being the selected tab in the group.
 
 #### Defined in
 
-[index.d.ts:17144](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17144)
+[index.d.ts:17269](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17269)
 
 ___
 
@@ -68,7 +68,7 @@ Whether or not the dirty indicator is present on the tab.
 
 #### Defined in
 
-[index.d.ts:17149](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17149)
+[index.d.ts:17274](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17274)
 
 ___
 
@@ -80,7 +80,7 @@ Whether or not the tab is pinned (pin icon is present).
 
 #### Defined in
 
-[index.d.ts:17154](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17154)
+[index.d.ts:17279](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17279)
 
 ___
 
@@ -92,7 +92,7 @@ Whether or not the tab is in preview mode.
 
 #### Defined in
 
-[index.d.ts:17159](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17159)
+[index.d.ts:17284](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17284)
 
 ___
 
@@ -104,4 +104,4 @@ The text displayed on the tab.
 
 #### Defined in
 
-[index.d.ts:17127](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17127)
+[index.d.ts:17252](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17252)

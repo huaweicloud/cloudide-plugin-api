@@ -57,7 +57,7 @@ Create a selection from two positions.
 
 #### Defined in
 
-[index.d.ts:499](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L499)
+[index.d.ts:499](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L499)
 
 • **new Selection**(`anchorLine`, `anchorCharacter`, `activeLine`, `activeCharacter`)
 
@@ -78,7 +78,7 @@ Create a selection from four coordinates.
 
 #### Defined in
 
-[index.d.ts:509](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L509)
+[index.d.ts:509](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L509)
 
 ## Properties
 
@@ -91,7 +91,7 @@ This position might be before or after [anchor](codearts_plugin_.Selection.md#an
 
 #### Defined in
 
-[index.d.ts:491](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L491)
+[index.d.ts:491](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L491)
 
 ___
 
@@ -104,7 +104,7 @@ This position might be before or after [active](codearts_plugin_.Selection.md#ac
 
 #### Defined in
 
-[index.d.ts:485](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L485)
+[index.d.ts:485](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L485)
 
 ___
 
@@ -120,7 +120,7 @@ The end position. It is after or equal to [start](codearts_plugin_.Range.md#star
 
 #### Defined in
 
-[index.d.ts:388](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L388)
+[index.d.ts:388](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L388)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:413](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L413)
+[index.d.ts:413](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L413)
 
 ___
 
@@ -148,7 +148,7 @@ A selection is reversed if its [anchor](codearts_plugin_.Selection.md#anchor) is
 
 #### Defined in
 
-[index.d.ts:514](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L514)
+[index.d.ts:514](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L514)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:418](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L418)
+[index.d.ts:418](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L418)
 
 ___
 
@@ -180,7 +180,7 @@ The start position. It is before or equal to [end](codearts_plugin_.Range.md#end
 
 #### Defined in
 
-[index.d.ts:383](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L383)
+[index.d.ts:383](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L383)
 
 ## Methods
 
@@ -209,7 +209,7 @@ to this range.
 
 #### Defined in
 
-[index.d.ts:427](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L427)
+[index.d.ts:427](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L427)
 
 ___
 
@@ -239,7 +239,7 @@ return undefined when there is no overlap.
 
 #### Defined in
 
-[index.d.ts:446](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L446)
+[index.d.ts:446](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L446)
 
 ___
 
@@ -268,7 +268,7 @@ start and end of this range.
 
 #### Defined in
 
-[index.d.ts:436](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L436)
+[index.d.ts:436](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L436)
 
 ___
 
@@ -296,7 +296,7 @@ A range of smaller start position and the greater end position.
 
 #### Defined in
 
-[index.d.ts:454](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L454)
+[index.d.ts:454](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L454)
 
 ___
 
@@ -326,7 +326,7 @@ If start and end are not different `this` range will be returned.
 
 #### Defined in
 
-[index.d.ts:464](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L464)
+[index.d.ts:464](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L464)
 
 ▸ **with**(`change`): [`Range`](codearts_plugin_.Range.md)
 
@@ -353,4 +353,4 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L473)
+[index.d.ts:473](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L473)

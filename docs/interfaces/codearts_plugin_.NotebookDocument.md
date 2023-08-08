@@ -36,7 +36,7 @@ The number of cells in the notebook.
 
 #### Defined in
 
-[index.d.ts:13823](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13823)
+[index.d.ts:13926](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13926)
 
 ___
 
@@ -49,7 +49,7 @@ and won't be re-used when the same resource is opened again.
 
 #### Defined in
 
-[index.d.ts:13813](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13813)
+[index.d.ts:13916](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13916)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13802](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13802)
+[index.d.ts:13905](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13905)
 
 ___
 
@@ -73,7 +73,7 @@ Is this notebook representing an untitled file which has not been saved yet.
 
 #### Defined in
 
-[index.d.ts:13807](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13807)
+[index.d.ts:13910](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13910)
 
 ___
 
@@ -89,7 +89,7 @@ Arbitrary metadata for this notebook. Can be anything but must be JSON-stringify
 
 #### Defined in
 
-[index.d.ts:13818](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13818)
+[index.d.ts:13921](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13921)
 
 ___
 
@@ -101,7 +101,7 @@ The type of notebook.
 
 #### Defined in
 
-[index.d.ts:13791](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13791)
+[index.d.ts:13894](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13894)
 
 ___
 
@@ -120,7 +120,7 @@ saved on disk and therefore the `scheme` must be checked before trying to access
 
 #### Defined in
 
-[index.d.ts:13786](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13786)
+[index.d.ts:13889](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13889)
 
 ___
 
@@ -133,7 +133,7 @@ change, including undo/redo).
 
 #### Defined in
 
-[index.d.ts:13797](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13797)
+[index.d.ts:13900](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13900)
 
 ## Methods
 
@@ -157,7 +157,7 @@ A [cell](codearts_plugin_.NotebookCell.md).
 
 #### Defined in
 
-[index.d.ts:13831](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13831)
+[index.d.ts:13934](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13934)
 
 ___
 
@@ -182,7 +182,7 @@ The cells contained by the range or all cells.
 
 #### Defined in
 
-[index.d.ts:13840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13840)
+[index.d.ts:13943](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13943)
 
 ___
 
@@ -201,4 +201,4 @@ has been saved. Will return false if the file was not dirty or when save failed.
 
 #### Defined in
 
-[index.d.ts:13848](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13848)
+[index.d.ts:13951](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13951)

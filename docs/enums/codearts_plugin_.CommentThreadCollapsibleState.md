@@ -23,7 +23,7 @@ Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:15584](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15584)
+[index.d.ts:15707](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15707)
 
 ___
 
@@ -35,4 +35,4 @@ Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:15589](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15589)
+[index.d.ts:15712](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15712)

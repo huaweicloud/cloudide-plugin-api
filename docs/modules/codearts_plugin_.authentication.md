@@ -45,7 +45,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16121)
+[index.d.ts:16245](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16245)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -73,7 +73,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16136](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16136)
+[index.d.ts:16260](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16260)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -101,7 +101,7 @@ A thenable that resolves to an authentication session if available, or undefined
 
 #### Defined in
 
-[index.d.ts:16151](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16151)
+[index.d.ts:16275](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16275)
 
 ___
 
@@ -129,7 +129,7 @@ Signed request headers or undefined.
 
 #### Defined in
 
-[index.d.ts:16182](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16182)
+[index.d.ts:16307](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16307)
 
 ___
 
@@ -156,7 +156,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1603)
 
 ___
 
@@ -190,4 +190,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:16171](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16171)
+[index.d.ts:16295](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16295)

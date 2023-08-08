@@ -36,7 +36,7 @@ Represents edits to semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3768](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3768)
+[index.d.ts:3806](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3806)
 
 ## Properties
 
@@ -49,7 +49,7 @@ All edits refer to the initial data state.
 
 #### Defined in
 
-[index.d.ts:3766](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3766)
+[index.d.ts:3804](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3804)
 
 ___
 
@@ -63,4 +63,4 @@ This is the id that will be passed to `DocumentSemanticTokensProvider.provideDoc
 
 #### Defined in
 
-[index.d.ts:3761](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3761)
+[index.d.ts:3799](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3799)

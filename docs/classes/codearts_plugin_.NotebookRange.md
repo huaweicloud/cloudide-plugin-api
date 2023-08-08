@@ -41,7 +41,7 @@ before or equal to `end`, the values will be swapped.
 
 #### Defined in
 
-[index.d.ts:13988](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13988)
+[index.d.ts:14091](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14091)
 
 ## Properties
 
@@ -53,7 +53,7 @@ The exclusive end index of this range (zero-based).
 
 #### Defined in
 
-[index.d.ts:13974](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13974)
+[index.d.ts:14077](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14077)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:13979](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13979)
+[index.d.ts:14082](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14082)
 
 ___
 
@@ -77,7 +77,7 @@ The zero-based start index of this range.
 
 #### Defined in
 
-[index.d.ts:13969](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13969)
+[index.d.ts:14072](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14072)
 
 ## Methods
 
@@ -104,4 +104,4 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:13997](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13997)
+[index.d.ts:14100](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14100)

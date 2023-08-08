@@ -51,7 +51,7 @@ Create a new function breakpoint.
 
 #### Defined in
 
-[index.d.ts:15317](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15317)
+[index.d.ts:15420](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15420)
 
 ## Properties
 
@@ -67,7 +67,7 @@ An optional expression for conditional breakpoints.
 
 #### Defined in
 
-[index.d.ts:15277](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15277)
+[index.d.ts:15380](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15380)
 
 ___
 
@@ -83,7 +83,7 @@ Is breakpoint enabled.
 
 #### Defined in
 
-[index.d.ts:15273](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15273)
+[index.d.ts:15376](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15376)
 
 ___
 
@@ -95,7 +95,7 @@ The name of the function to which this breakpoint is attached.
 
 #### Defined in
 
-[index.d.ts:15312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15312)
+[index.d.ts:15415](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15415)
 
 ___
 
@@ -111,7 +111,7 @@ An optional expression that controls how many hits of the breakpoint are ignored
 
 #### Defined in
 
-[index.d.ts:15281](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15281)
+[index.d.ts:15384](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15384)
 
 ___
 
@@ -127,7 +127,7 @@ The unique ID of the breakpoint.
 
 #### Defined in
 
-[index.d.ts:15269](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15269)
+[index.d.ts:15372](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15372)
 
 ___
 
@@ -143,4 +143,4 @@ An optional message that gets logged when this breakpoint is hit. Embedded expre
 
 #### Defined in
 
-[index.d.ts:15285](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15285)
+[index.d.ts:15388](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15388)

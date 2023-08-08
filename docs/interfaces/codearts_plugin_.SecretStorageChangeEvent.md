@@ -22,4 +22,4 @@ The key of the secret that has changed.
 
 #### Defined in
 
-[index.d.ts:7082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7082)
+[index.d.ts:7120](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7120)

@@ -38,7 +38,7 @@ The document that the edit is for.
 
 #### Defined in
 
-[index.d.ts:8815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8815)
+[index.d.ts:8853](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8853)
 
 ___
 
@@ -52,7 +52,7 @@ This will be shown to users in the UI for undo/redo operations.
 
 #### Defined in
 
-[index.d.ts:8840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8840)
+[index.d.ts:8878](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8878)
 
 ## Methods
 
@@ -72,7 +72,7 @@ edit was added to the editor's internal edit stack by `onDidChangeCustomDocument
 
 #### Defined in
 
-[index.d.ts:8833](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8833)
+[index.d.ts:8871](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8871)
 
 ___
 
@@ -92,4 +92,4 @@ edit was added to the editor's internal edit stack by `onDidChangeCustomDocument
 
 #### Defined in
 
-[index.d.ts:8824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8824)
+[index.d.ts:8862](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8862)

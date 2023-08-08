@@ -40,7 +40,7 @@ Creates a new TestMessage instance.
 
 #### Defined in
 
-[index.d.ts:16727](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16727)
+[index.d.ts:16852](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16852)
 
 ## Properties
 
@@ -52,7 +52,7 @@ Actual test output. If given with [expectedOutput](codearts_plugin_.TestMessage.
 
 #### Defined in
 
-[index.d.ts:16708](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16708)
+[index.d.ts:16833](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16833)
 
 ___
 
@@ -64,7 +64,7 @@ Expected test output. If given with [actualOutput](codearts_plugin_.TestMessage.
 
 #### Defined in
 
-[index.d.ts:16703](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16703)
+[index.d.ts:16828](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16828)
 
 ___
 
@@ -76,7 +76,7 @@ Associated file location.
 
 #### Defined in
 
-[index.d.ts:16713](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16713)
+[index.d.ts:16838](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16838)
 
 ___
 
@@ -88,7 +88,7 @@ Human-readable message text to display.
 
 #### Defined in
 
-[index.d.ts:16698](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16698)
+[index.d.ts:16823](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16823)
 
 ## Methods
 
@@ -112,4 +112,4 @@ Creates a new TestMessage that will present as a diff in the editor.
 
 #### Defined in
 
-[index.d.ts:16721](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16721)
+[index.d.ts:16846](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16846)

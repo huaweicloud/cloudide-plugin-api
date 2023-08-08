@@ -35,7 +35,7 @@ called on it.
 
 #### Defined in
 
-[index.d.ts:8527](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8527)
+[index.d.ts:8565](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8565)
 
 ## Methods
 
@@ -55,4 +55,4 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1580)

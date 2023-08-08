@@ -35,7 +35,7 @@ Accessibility information used when a screen reader interacts with this item
 
 #### Defined in
 
-[index.d.ts:6164](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6164)
+[index.d.ts:6202](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6202)
 
 ___
 
@@ -47,7 +47,7 @@ Controls whether the item is shown as "busy". Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:6154](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6154)
+[index.d.ts:6192](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6192)
 
 ___
 
@@ -59,7 +59,7 @@ A [`command`](codearts_plugin_.Command.md) for this item.
 
 #### Defined in
 
-[index.d.ts:6159](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6159)
+[index.d.ts:6197](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6197)
 
 ___
 
@@ -71,7 +71,7 @@ Optional, human-readable details for this item.
 
 #### Defined in
 
-[index.d.ts:6149](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6149)
+[index.d.ts:6187](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6187)
 
 ___
 
@@ -83,7 +83,7 @@ The identifier of this item.
 
 #### Defined in
 
-[index.d.ts:6114](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6114)
+[index.d.ts:6152](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6152)
 
 ___
 
@@ -95,7 +95,7 @@ The short name of this item, like 'Java Language Status', etc.
 
 #### Defined in
 
-[index.d.ts:6119](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6119)
+[index.d.ts:6157](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6157)
 
 ___
 
@@ -108,7 +108,7 @@ this item shows.
 
 #### Defined in
 
-[index.d.ts:6125](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6125)
+[index.d.ts:6163](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6163)
 
 ___
 
@@ -124,7 +124,7 @@ invalid configuration.
 
 #### Defined in
 
-[index.d.ts:6134](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6134)
+[index.d.ts:6172](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6172)
 
 ___
 
@@ -141,7 +141,7 @@ Where the icon-name is taken from the ThemeIcon [icon set](https://code.visualst
 
 #### Defined in
 
-[index.d.ts:6144](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6144)
+[index.d.ts:6182](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6182)
 
 ## Methods
 
@@ -157,4 +157,4 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6169](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6169)
+[index.d.ts:6207](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6207)

@@ -27,7 +27,7 @@ When setting a text editor's options, this property is optional.
 
 #### Defined in
 
-[index.d.ts:671](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L671)
+[index.d.ts:671](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L671)
 
 ___
 
@@ -41,7 +41,7 @@ When setting a text editor's options, this property is optional and it can be a 
 
 #### Defined in
 
-[index.d.ts:664](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L664)
+[index.d.ts:664](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L664)
 
 ___
 
@@ -55,7 +55,7 @@ When setting a text editor's options, this property is optional.
 
 #### Defined in
 
-[index.d.ts:678](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L678)
+[index.d.ts:678](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L678)
 
 ___
 
@@ -72,4 +72,4 @@ When setting a text editor's options, this property is optional and it can be a 
 
 #### Defined in
 
-[index.d.ts:657](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L657)
+[index.d.ts:657](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L657)

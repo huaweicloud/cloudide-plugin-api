@@ -31,7 +31,7 @@ The document that will be saved.
 
 #### Defined in
 
-[index.d.ts:11831](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11831)
+[index.d.ts:11933](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11933)
 
 ___
 
@@ -43,7 +43,7 @@ The reason why save was triggered.
 
 #### Defined in
 
-[index.d.ts:11836](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11836)
+[index.d.ts:11938](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11938)
 
 ## Methods
 
@@ -80,7 +80,7 @@ workspace.onWillSaveTextDocument(event => {
 
 #### Defined in
 
-[index.d.ts:11858](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11858)
+[index.d.ts:11960](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11960)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -100,4 +100,4 @@ Allows to pause the event loop until the provided thenable resolved.
 
 #### Defined in
 
-[index.d.ts:11867](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11867)
+[index.d.ts:11969](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11969)

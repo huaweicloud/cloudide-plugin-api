@@ -8,12 +8,44 @@
 
 ### Properties
 
+- [onAccept](codearts_plugin_.TreeViewEditBoxOptions.md#onaccept)
 - [placeholder](codearts_plugin_.TreeViewEditBoxOptions.md#placeholder)
+- [rootPath](codearts_plugin_.TreeViewEditBoxOptions.md#rootpath)
+- [tooltip](codearts_plugin_.TreeViewEditBoxOptions.md#tooltip)
 - [validateInput](codearts_plugin_.TreeViewEditBoxOptions.md#validateinput)
 - [value](codearts_plugin_.TreeViewEditBoxOptions.md#value)
 - [valueSelection](codearts_plugin_.TreeViewEditBoxOptions.md#valueselection)
 
 ## Properties
+
+### onAccept
+
+• `Optional` **onAccept**: (`value`: `string`) => [`Thenable`](Thenable.md)<`void`\>
+
+#### Type declaration
+
+▸ (`value`): [`Thenable`](Thenable.md)<`void`\>
+
+The processing function when receiving the edited value.
+onAccept is used to handle the situation that a node is refreshed for a long time. I need to keep only one node editing and its editing state.
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `value` | `string` | value of the input box when finish edit. |
+
+##### Returns
+
+[`Thenable`](Thenable.md)<`void`\>
+
+A Thenable deal with accepted value.
+
+#### Defined in
+
+[index.d.ts:11061](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11061)
+
+___
 
 ### placeholder
 
@@ -23,7 +55,45 @@ An optional string to show as placeholder in the input box to guide the user wha
 
 #### Defined in
 
-[index.d.ts:10956](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10956)
+[index.d.ts:11015](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11015)
+
+___
+
+### rootPath
+
+• `Optional` **rootPath**: [`Uri`](../classes/codearts_plugin_.Uri.md)
+
+If the treeItem contains a resourceUri, the root path can be determined so we know the full path when creating a new node.
+it Required for the first level TreeItem containing resourceUri.
+
+#### Defined in
+
+[index.d.ts:11041](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11041)
+
+___
+
+### tooltip
+
+• `Optional` **tooltip**: (`value`: `string`, `path?`: `string`) => `undefined` \| `string` \| [`MarkdownString`](../classes/codearts_plugin_.MarkdownString.md)
+
+#### Type declaration
+
+▸ (`value`, `path?`): `undefined` \| `string` \| [`MarkdownString`](../classes/codearts_plugin_.MarkdownString.md)
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `value` | `string` | Value of the current text box. |
+| `path?` | `string` | If TreeItem contains resourceUri, it is the fsPath of the edited Uri. The tooltip text when you hover over this item. [["tooltip"]](../classes/codearts_plugin_.TreeItem.md) |
+
+##### Returns
+
+`undefined` \| `string` \| [`MarkdownString`](../classes/codearts_plugin_.MarkdownString.md)
+
+#### Defined in
+
+[index.d.ts:11035](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11035)
 
 ___
 
@@ -54,7 +124,7 @@ to the user.
 
 #### Defined in
 
-[index.d.ts:10980](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10980)
+[index.d.ts:11052](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11052)
 
 ___
 
@@ -66,7 +136,7 @@ The value to prefill in the input box.
 
 #### Defined in
 
-[index.d.ts:10961](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10961)
+[index.d.ts:11020](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11020)
 
 ___
 
@@ -81,4 +151,4 @@ otherwise the defined range will be selected.
 
 #### Defined in
 
-[index.d.ts:10969](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10969)
+[index.d.ts:11028](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11028)

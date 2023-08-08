@@ -24,7 +24,7 @@ Arguments passed to command, will be spreaded as rest parameters if this is an a
 
 #### Defined in
 
-[index.d.ts:17792](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17792)
+[index.d.ts:17917](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17917)
 
 ___
 
@@ -36,7 +36,7 @@ Command action.
 
 #### Defined in
 
-[index.d.ts:17772](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17772)
+[index.d.ts:17897](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17897)
 
 ___
 
@@ -48,7 +48,7 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:17782](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17782)
+[index.d.ts:17907](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17907)
 
 ___
 
@@ -60,7 +60,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:17787](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17787)
+[index.d.ts:17912](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17912)
 
 ___
 
@@ -72,4 +72,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:17777](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17777)
+[index.d.ts:17902](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17902)

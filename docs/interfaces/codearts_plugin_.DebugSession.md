@@ -35,7 +35,7 @@ The "resolved" [debug configuration](codearts_plugin_.DebugConfiguration.md) of 
 
 #### Defined in
 
-[index.d.ts:14957](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14957)
+[index.d.ts:15060](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15060)
 
 ___
 
@@ -47,7 +47,7 @@ The unique ID of this debug session.
 
 #### Defined in
 
-[index.d.ts:14927](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14927)
+[index.d.ts:15030](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15030)
 
 ___
 
@@ -60,7 +60,7 @@ Any changes will be properly reflected in the UI.
 
 #### Defined in
 
-[index.d.ts:14944](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14944)
+[index.d.ts:15047](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15047)
 
 ___
 
@@ -76,7 +76,7 @@ DebugSessionOptions.parentSession
 
 #### Defined in
 
-[index.d.ts:14938](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14938)
+[index.d.ts:15041](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15041)
 
 ___
 
@@ -88,7 +88,7 @@ The debug session's type from the [debug configuration](codearts_plugin_.DebugCo
 
 #### Defined in
 
-[index.d.ts:14932](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14932)
+[index.d.ts:15035](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15035)
 
 ___
 
@@ -100,7 +100,7 @@ The workspace folder of this session or `undefined` for a folderless setup.
 
 #### Defined in
 
-[index.d.ts:14949](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14949)
+[index.d.ts:15052](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15052)
 
 ## Methods
 
@@ -123,7 +123,7 @@ Send a custom request to the debug adapter.
 
 #### Defined in
 
-[index.d.ts:14962](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14962)
+[index.d.ts:15065](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15065)
 
 ___
 
@@ -148,4 +148,4 @@ A promise that resolves to the Debug Adapter Protocol breakpoint or `undefined`.
 
 #### Defined in
 
-[index.d.ts:14971](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14971)
+[index.d.ts:15074](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15074)

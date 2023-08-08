@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[index.d.ts:16833](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16833)
+[index.d.ts:16958](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16958)
 
 ___
 
@@ -41,7 +41,7 @@ Human-readable label for the build controller.
 
 #### Defined in
 
-[index.d.ts:16838](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16838)
+[index.d.ts:16963](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16963)
 
 ## Methods
 
@@ -63,7 +63,7 @@ add a message to build view output.
 
 #### Defined in
 
-[index.d.ts:16860](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16860)
+[index.d.ts:16985](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16985)
 
 ___
 
@@ -89,7 +89,7 @@ associated with this controller.
 
 #### Defined in
 
-[index.d.ts:16850](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16850)
+[index.d.ts:16975](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16975)
 
 ___
 
@@ -106,7 +106,7 @@ and unpersisted results.
 
 #### Defined in
 
-[index.d.ts:16885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16885)
+[index.d.ts:17010](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17010)
 
 ___
 
@@ -129,7 +129,7 @@ executable terminal with shell in build output.
 
 #### Defined in
 
-[index.d.ts:16872](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16872)
+[index.d.ts:16997](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16997)
 
 ___
 
@@ -145,7 +145,7 @@ open build view output.
 
 #### Defined in
 
-[index.d.ts:16855](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16855)
+[index.d.ts:16980](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16980)
 
 ___
 
@@ -167,7 +167,7 @@ show build items in build view output.
 
 #### Defined in
 
-[index.d.ts:16865](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16865)
+[index.d.ts:16990](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16990)
 
 ___
 
@@ -190,4 +190,4 @@ update current BuildContoller tree
 
 #### Defined in
 
-[index.d.ts:16879](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16879)
+[index.d.ts:17004](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17004)

@@ -3463,6 +3463,44 @@ declare module '@codearts/plugin' {
 		iconPath?: Uri | { light: Uri; dark: Uri } | ThemeIcon;
 	}
 
+	export interface ApplyEditOptions {
+
+		/**
+		 * Whether the file operations (create renameFile, deleteFile) on the working area can be undone.
+		 */
+		enableUndoFile?: boolean;
+
+		/**
+		 * undo prompt showed text.
+		 */
+		label?: string;
+
+		/**
+		 * operation code.
+		*/
+		code?: string;
+
+		/**
+		 * Provides a referenceable tag so that users can reference it in different contexts. When there is a value, the label field is replaced.
+		 */
+		quotableLabel?: string;
+
+		/**
+		 * Controls whether the explorer should ask for confirmation when undoing. default false.
+		 */
+		confirmBeforeUndo?: boolean;
+
+		/**
+		 * Controls whether auto-save configurations should be respected. default true.
+		 */
+		respectAutoSaveConfig?: boolean;
+
+		/**
+		 * file opened type.
+		*/
+		showPreview?: boolean;
+	}
+
 	/**
 	 * A workspace edit is a collection of textual and files changes for
 	 * multiple resources and documents.
@@ -9397,6 +9435,7 @@ declare module '@codearts/plugin' {
 	export enum WebviewPanelTargetArea {
 		Left = 'left',
 		Right = 'right',
+		RightBottom = 'rightBottom',
 		Bottom = 'bottom',
 		Main = 'main'
 	}
@@ -10288,6 +10327,17 @@ declare module '@codearts/plugin' {
 		export function registerProjectWizardProvider(id: string, label: string, provider: WebviewViewProvider, options?: ProjectWizardOptions): Disposable;
 
 		/**
+		 * Register a command to the welcome page.
+		 *
+		 * @param label Label of the command.
+		 * @param command Identifier of a command to run on click.
+		 * @param iconPath: The icon path for command, which will show with the label.
+		 * @param order List sort order.
+		 * @return Disposable which unregisters the command from welcome page.
+		 */
+		export function registerToWelcomePage(label: string, command: string, iconPath: { dark: string; light: string } | string, order?: number): Disposable;
+
+		/**
 		 * Create and open a dialog with an webview view.
 		 * @param provider Provider for the webview views.
 		 * @return Disposable that unregister the provider.
@@ -10752,6 +10802,15 @@ declare module '@codearts/plugin' {
 		 * @return A promise that resolves to a string the user provided or to `undefined` in case of dismissal.
 		 */
 		showEditBox(element: T, options?: TreeViewEditBoxOptions): Thenable<string | undefined>;
+
+		/**
+		 * create one new TreeItem which state is editing.
+		 * @param parentElement parentElement of new TreeItem
+		 * @param options Configures the behavior of the edit box.
+		 * @param newItemType {@link NewTreeViewItemType} new TreeItem node type.
+		 * @return A promise that resolves to a string the user provided or to `undefined` in case of dismissal.
+		 */
+		showNewEditBox(parentElement: T | undefined, options: TreeViewEditBoxOptions, newItemType?: NewTreeViewItemType): Thenable<string | undefined>;
 	}
 
 	/**
@@ -10969,6 +11028,19 @@ declare module '@codearts/plugin' {
 		valueSelection?: [number, number];
 
 		/**
+		 * @param value Value of the current text box.
+		 * @param path If TreeItem contains resourceUri, it is the fsPath of the edited Uri.
+		 * The tooltip text when you hover over this item. {@link TreeItem["tooltip"]}
+		 */
+		tooltip?: (value: string, path?: string) => string | MarkdownString | undefined;
+
+		/**
+		 * If the treeItem contains a resourceUri, the root path can be determined so we know the full path when creating a new node.
+		 * it Required for the first level TreeItem containing resourceUri.
+		*/
+		rootPath?: Uri;
+
+		/**
 		 * An optional function that will be called to validate input and to give a hint
 		 * to the user.
 		 *
@@ -10979,6 +11051,36 @@ declare module '@codearts/plugin' {
 		 */
 		validateInput?: (value: string, isAcceptEvent: boolean) => InputBoxValidationMessage | null | undefined |
 			Thenable<InputBoxValidationMessage | null | undefined>;
+
+		/**
+		 * The processing function when receiving the edited value.
+		 * onAccept is used to handle the situation that a node is refreshed for a long time. I need to keep only one node editing and its editing state.
+		 * @param value value of the input box when finish edit.
+		 * @return A Thenable deal with accepted value.
+		*/
+		onAccept?: (value: string) => Thenable<void>;
+	}
+
+	export enum NewTreeViewItemType {
+		/**
+		 * {@link TreeItem}
+		*/
+		/**
+		 * a normal TreeItem node without resourceUri {@link TreeItemCollapsibleState}.
+		 */
+		NormalNone = 0,
+		/**
+		 * a normal TreeItem node without resourceUri can Collapsed {@link TreeItemCollapsibleState}.
+		 */
+		NormalCollapsed = 1,
+		/**
+		 * a TreeItem node with resourceUri & it is file.
+		 */
+		File = 2,
+		/**
+		 * a TreeItem node with resourceUri & it is folder.
+		 */
+		Folder = 3
 	}
 
 	/**
@@ -12468,9 +12570,10 @@ declare module '@codearts/plugin' {
 		 * not be attempted, when a single edit fails.
 		 *
 		 * @param edit A workspace edit.
+		 * @param options {@link ApplyEditOptions}
 		 * @return A thenable that resolves when the edit could be applied.
 		 */
-		export function applyEdit(edit: WorkspaceEdit): Thenable<boolean>;
+		export function applyEdit(edit: WorkspaceEdit, options?: ApplyEditOptions): Thenable<boolean>;
 
 		/**
 		 * All text documents currently known to the editor.
@@ -15518,6 +15621,26 @@ declare module '@codearts/plugin' {
 		 * @return A uri that can be used to load the contents of the source.
 		 */
 		export function asDebugSourceUri(source: DebugProtocolSource, session?: DebugSession): Uri;
+
+		/**
+		 * Save debug configurations to provided folder's launch.json.
+		 * If the folder's launch is not found, an error message will be thrown.
+		 * If there is no folder opened, an error message will be thrown while calling this api.
+		 *
+		 * @param configurations array of {@link DebugConfiguration} object.
+		 * @param folder The {@link WorkspaceFolder workspace folder} for save configurations.
+		 */
+		export function saveDebugConfigurations(configurations: DebugConfiguration[], folder: WorkspaceFolder): Thenable<void>;
+
+		/**
+		 * Return debug configurations of provided folder's launch.json.
+		 * If the folder's launch is not found, an error message will be thrown.
+		 * If there is no folder opened, an error message will be thrown while calling this api.
+		 *
+		 * @param folder The {@link WorkspaceFolder workspace folder} for save configurations.
+		 * @return array of {@link DebugConfiguration} object.
+		 */
+		export function getDebugConfigurations(folder: WorkspaceFolder): Thenable<DebugConfiguration[]>;
 	}
 
 	/**
@@ -16090,6 +16213,7 @@ declare module '@codearts/plugin' {
 		 * @param sessionId The id of the session to remove.
 		 */
 		removeSession(sessionId: string): Thenable<void>;
+
 		/**
 		 * Provide a signed http request header.
 		 *
@@ -16169,6 +16293,7 @@ declare module '@codearts/plugin' {
 		 * @return A {@link Disposable} that unregisters this provider when being disposed.
 		 */
 		export function registerAuthenticationProvider(id: string, label: string, provider: AuthenticationProvider, options?: AuthenticationProviderOptions): Disposable;
+
 		/**
 		 * Get signed request headers.
 		 *

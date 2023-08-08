@@ -28,7 +28,7 @@ Is it selected.
 
 #### Defined in
 
-[index.d.ts:17493](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17493)
+[index.d.ts:17618](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17618)
 
 ___
 
@@ -40,7 +40,7 @@ Sets the class name of the icon, eg. `codicon codicon-add`.
 
 #### Defined in
 
-[index.d.ts:17483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17483)
+[index.d.ts:17608](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17608)
 
 ___
 
@@ -52,7 +52,7 @@ Sets the ActionViewItem invalid status.
 
 #### Defined in
 
-[index.d.ts:17488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17488)
+[index.d.ts:17613](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17613)
 
 ___
 
@@ -64,7 +64,7 @@ Action Id.
 
 #### Defined in
 
-[index.d.ts:17468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17468)
+[index.d.ts:17593](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17593)
 
 ___
 
@@ -76,7 +76,7 @@ Contents displayed on the ActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17473)
+[index.d.ts:17598](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17598)
 
 ___
 
@@ -88,7 +88,7 @@ Order to insert into the actionbar, the value starts from 0 by default.
 
 #### Defined in
 
-[index.d.ts:17498](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17498)
+[index.d.ts:17623](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17623)
 
 ___
 
@@ -100,4 +100,4 @@ Text displayed when you slide the mouse over the ActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17478)
+[index.d.ts:17603](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17603)

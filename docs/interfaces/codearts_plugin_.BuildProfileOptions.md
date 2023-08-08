@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[index.d.ts:16822](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16822)
+[index.d.ts:16947](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16947)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16823](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16823)
+[index.d.ts:16948](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16948)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16821](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16821)
+[index.d.ts:16946](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16946)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16825)
+[index.d.ts:16950](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16950)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16824)
+[index.d.ts:16949](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16949)

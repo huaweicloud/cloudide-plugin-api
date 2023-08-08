@@ -23,7 +23,7 @@ The severity of the message. Default to [Info](../enums/codearts_plugin_.CodeTip
 
 #### Defined in
 
-[index.d.ts:17840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17840)
+[index.d.ts:17965](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17965)
 
 ___
 
@@ -35,4 +35,4 @@ Show time(millisecond). Default to 3000. Set to -1 to always show the tip till h
 
 #### Defined in
 
-[index.d.ts:17845](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17845)
+[index.d.ts:17970](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17970)

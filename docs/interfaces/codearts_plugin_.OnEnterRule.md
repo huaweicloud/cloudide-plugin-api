@@ -25,7 +25,7 @@ The action to execute.
 
 #### Defined in
 
-[index.d.ts:5544](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5544)
+[index.d.ts:5582](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5582)
 
 ___
 
@@ -37,7 +37,7 @@ This rule will only execute if the text after the cursor matches this regular ex
 
 #### Defined in
 
-[index.d.ts:5536](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5536)
+[index.d.ts:5574](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5574)
 
 ___
 
@@ -49,7 +49,7 @@ This rule will only execute if the text before the cursor matches this regular e
 
 #### Defined in
 
-[index.d.ts:5532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5532)
+[index.d.ts:5570](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5570)
 
 ___
 
@@ -61,4 +61,4 @@ This rule will only execute if the text above the current line matches this regu
 
 #### Defined in
 
-[index.d.ts:5540](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5540)
+[index.d.ts:5578](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5578)

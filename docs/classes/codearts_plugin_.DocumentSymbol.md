@@ -44,7 +44,7 @@ Creates a new document symbol.
 
 #### Defined in
 
-[index.d.ts:3270](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3270)
+[index.d.ts:3270](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3270)
 
 ## Properties
 
@@ -56,7 +56,7 @@ Children of this symbol, e.g. properties of a class.
 
 #### Defined in
 
-[index.d.ts:3259](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3259)
+[index.d.ts:3259](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3259)
 
 ___
 
@@ -68,7 +68,7 @@ More detail for this symbol, e.g. the signature of a function.
 
 #### Defined in
 
-[index.d.ts:3233](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3233)
+[index.d.ts:3233](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3233)
 
 ___
 
@@ -80,7 +80,7 @@ The kind of this symbol.
 
 #### Defined in
 
-[index.d.ts:3238](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3238)
+[index.d.ts:3238](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3238)
 
 ___
 
@@ -92,7 +92,7 @@ The name of this symbol.
 
 #### Defined in
 
-[index.d.ts:3228](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3228)
+[index.d.ts:3228](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3228)
 
 ___
 
@@ -104,7 +104,7 @@ The range enclosing this symbol not including leading/trailing whitespace but ev
 
 #### Defined in
 
-[index.d.ts:3248](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3248)
+[index.d.ts:3248](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3248)
 
 ___
 
@@ -117,7 +117,7 @@ Must be contained by the [`range`](codearts_plugin_.DocumentSymbol.md#range).
 
 #### Defined in
 
-[index.d.ts:3254](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3254)
+[index.d.ts:3254](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3254)
 
 ___
 
@@ -129,4 +129,4 @@ Tags for this symbol.
 
 #### Defined in
 
-[index.d.ts:3243](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3243)
+[index.d.ts:3243](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3243)

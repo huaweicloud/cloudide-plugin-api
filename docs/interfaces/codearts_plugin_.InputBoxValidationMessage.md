@@ -23,7 +23,7 @@ The validation message to display.
 
 #### Defined in
 
-[index.d.ts:2002](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2002)
+[index.d.ts:2002](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2002)
 
 ___
 
@@ -37,4 +37,4 @@ NOTE: When using `InputBoxValidationSeverity.Error`, the user will not be allowe
 
 #### Defined in
 
-[index.d.ts:2009](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2009)
+[index.d.ts:2009](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2009)

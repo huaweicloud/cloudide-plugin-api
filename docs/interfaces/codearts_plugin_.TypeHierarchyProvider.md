@@ -42,7 +42,7 @@ signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:5368](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5368)
+[index.d.ts:5406](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5406)
 
 ___
 
@@ -70,7 +70,7 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:5392](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5392)
+[index.d.ts:5430](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5430)
 
 ___
 
@@ -98,4 +98,4 @@ signaled by returning `undefined` or `null`.
 
 #### Defined in
 
-[index.d.ts:5380](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5380)
+[index.d.ts:5418](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5418)

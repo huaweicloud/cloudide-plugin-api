@@ -21,7 +21,7 @@ The Code version in which this policy was introduced.
 
 #### Defined in
 
-[index.d.ts:12959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12959)
+[index.d.ts:13062](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13062)
 
 ___
 
@@ -33,4 +33,4 @@ The policy name.
 
 #### Defined in
 
-[index.d.ts:12954](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12954)
+[index.d.ts:13057](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13057)

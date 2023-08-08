@@ -108,7 +108,7 @@ The value `section` denotes or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5709](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5709)
+[index.d.ts:5747](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5747)
 
 ▸ **get**<`T`\>(`section`, `defaultValue`): `T`
 
@@ -135,7 +135,7 @@ The value `section` denotes or the default.
 
 #### Defined in
 
-[index.d.ts:5718](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5718)
+[index.d.ts:5756](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5756)
 
 ___
 
@@ -159,7 +159,7 @@ Check if this configuration has a certain value.
 
 #### Defined in
 
-[index.d.ts:5726](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5726)
+[index.d.ts:5764](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5764)
 
 ___
 
@@ -197,7 +197,7 @@ Information about a configuration setting or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5742](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5742)
+[index.d.ts:5780](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5780)
 
 ___
 
@@ -240,7 +240,7 @@ error while updating
 
 #### Defined in
 
-[index.d.ts:5788](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5788)
+[index.d.ts:5826](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5826)
 
 ___
 
@@ -264,4 +264,4 @@ Display error information in the configuration of the target section.
 
 #### Defined in
 
-[index.d.ts:5796](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5796)
+[index.d.ts:5834](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5834)

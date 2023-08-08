@@ -29,7 +29,7 @@ Is it selected.
 
 #### Defined in
 
-[index.d.ts:17653](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17653)
+[index.d.ts:17778](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17778)
 
 ___
 
@@ -41,7 +41,7 @@ Set the class name of the icon, eg. `codicon codicon-add`.
 
 #### Defined in
 
-[index.d.ts:17643](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17643)
+[index.d.ts:17768](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17768)
 
 ___
 
@@ -53,7 +53,7 @@ Set the DropdownMenuActionViewItem invalid status.
 
 #### Defined in
 
-[index.d.ts:17648](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17648)
+[index.d.ts:17773](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17773)
 
 ___
 
@@ -65,7 +65,7 @@ Action Id.
 
 #### Defined in
 
-[index.d.ts:17628](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17628)
+[index.d.ts:17753](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17753)
 
 ___
 
@@ -77,7 +77,7 @@ Contents displayed on the DropdownMenuActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17633](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17633)
+[index.d.ts:17758](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17758)
 
 ___
 
@@ -89,7 +89,7 @@ line number of the editor.
 
 #### Defined in
 
-[index.d.ts:17663](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17663)
+[index.d.ts:17788](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17788)
 
 ___
 
@@ -101,7 +101,7 @@ Order to insert into the actionbar.
 
 #### Defined in
 
-[index.d.ts:17658](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17658)
+[index.d.ts:17783](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17783)
 
 ___
 
@@ -113,4 +113,4 @@ Text displayed when you slide the mouse over the DropdownMenuActionViewItem.
 
 #### Defined in
 
-[index.d.ts:17638](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17638)
+[index.d.ts:17763](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17763)

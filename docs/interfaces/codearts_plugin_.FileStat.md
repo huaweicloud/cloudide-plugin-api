@@ -26,7 +26,7 @@ The creation timestamp in milliseconds elapsed since January 1, 1970 00:00:00 UT
 
 #### Defined in
 
-[index.d.ts:7877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7877)
+[index.d.ts:7915](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7915)
 
 ___
 
@@ -42,7 +42,7 @@ the updated file contents in an editor for example.
 
 #### Defined in
 
-[index.d.ts:7885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7885)
+[index.d.ts:7923](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7923)
 
 ___
 
@@ -56,7 +56,7 @@ The permissions of the file, e.g. whether the file is readonly.
 
 #### Defined in
 
-[index.d.ts:7899](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7899)
+[index.d.ts:7937](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7937)
 
 ___
 
@@ -72,7 +72,7 @@ example.
 
 #### Defined in
 
-[index.d.ts:7893](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7893)
+[index.d.ts:7931](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7931)
 
 ___
 
@@ -87,4 +87,4 @@ to a file.
 
 #### Defined in
 
-[index.d.ts:7873](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7873)
+[index.d.ts:7911](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7911)

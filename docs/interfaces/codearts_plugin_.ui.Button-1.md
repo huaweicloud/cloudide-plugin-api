@@ -42,7 +42,7 @@ Sets the button invalid status.
 
 #### Defined in
 
-[index.d.ts:17322](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17322)
+[index.d.ts:17447](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17447)
 
 ___
 
@@ -58,7 +58,7 @@ The unique id of control.
 
 #### Defined in
 
-[index.d.ts:17287](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17287)
+[index.d.ts:17412](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17412)
 
 ___
 
@@ -74,7 +74,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:17292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17292)
+[index.d.ts:17417](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17417)
 
 ___
 
@@ -86,7 +86,7 @@ Sets the button label.
 
 #### Defined in
 
-[index.d.ts:17327](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17327)
+[index.d.ts:17452](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17452)
 
 ___
 
@@ -98,7 +98,7 @@ Callback when a button is clicked.
 
 #### Defined in
 
-[index.d.ts:17332](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17332)
+[index.d.ts:17457](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17457)
 
 ___
 
@@ -114,7 +114,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17302)
+[index.d.ts:17427](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17427)
 
 ___
 
@@ -130,7 +130,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17307](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17307)
+[index.d.ts:17432](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17432)
 
 ___
 
@@ -142,7 +142,7 @@ Parameters required for creating a Button component.
 
 #### Defined in
 
-[index.d.ts:17337](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17337)
+[index.d.ts:17462](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17462)
 
 ## Methods
 
@@ -162,7 +162,7 @@ Dispose the control, and the module created by the frontend in browser will also
 
 #### Defined in
 
-[index.d.ts:17297](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17297)
+[index.d.ts:17422](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17422)
 
 ___
 
@@ -178,7 +178,7 @@ Focus the button.
 
 #### Defined in
 
-[index.d.ts:17342](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17342)
+[index.d.ts:17467](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17467)
 
 ___
 
@@ -194,7 +194,7 @@ Indicates whether the button is focused.
 
 #### Defined in
 
-[index.d.ts:17347](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17347)
+[index.d.ts:17472](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17472)
 
 ___
 
@@ -221,4 +221,4 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:17312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17312)
+[index.d.ts:17437](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17437)

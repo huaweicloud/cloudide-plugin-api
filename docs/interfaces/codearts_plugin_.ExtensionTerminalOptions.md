@@ -29,7 +29,7 @@ recommended for the best contrast and consistency across themes.
 
 #### Defined in
 
-[index.d.ts:11088](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11088)
+[index.d.ts:11190](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11190)
 
 ___
 
@@ -41,7 +41,7 @@ The icon path or [ThemeIcon](../classes/codearts_plugin_.ThemeIcon.md) for the t
 
 #### Defined in
 
-[index.d.ts:11081](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11081)
+[index.d.ts:11183](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11183)
 
 ___
 
@@ -54,7 +54,7 @@ This will only take effect when `terminal.integrated.enablePersistentSessions` i
 
 #### Defined in
 
-[index.d.ts:11099](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11099)
+[index.d.ts:11201](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11201)
 
 ___
 
@@ -66,7 +66,7 @@ The [TerminalLocation](../enums/codearts_plugin_.TerminalLocation.md) or [Termin
 
 #### Defined in
 
-[index.d.ts:11093](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11093)
+[index.d.ts:11195](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11195)
 
 ___
 
@@ -78,7 +78,7 @@ A human-readable string which will be used to represent the terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:11070](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11070)
+[index.d.ts:11172](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11172)
 
 ___
 
@@ -91,4 +91,4 @@ control a terminal.
 
 #### Defined in
 
-[index.d.ts:11076](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11076)
+[index.d.ts:11178](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11178)

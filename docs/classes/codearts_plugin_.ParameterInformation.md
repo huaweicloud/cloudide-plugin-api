@@ -35,7 +35,7 @@ Creates a new parameter information object.
 
 #### Defined in
 
-[index.d.ts:4019](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4019)
+[index.d.ts:4057](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4057)
 
 ## Properties
 
@@ -48,7 +48,7 @@ in the UI but can be omitted.
 
 #### Defined in
 
-[index.d.ts:4011](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4011)
+[index.d.ts:4049](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4049)
 
 ___
 
@@ -64,4 +64,4 @@ a substring of its containing signature information's [label](codearts_plugin_.S
 
 #### Defined in
 
-[index.d.ts:4005](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4005)
+[index.d.ts:4043](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4043)

@@ -29,7 +29,7 @@ The currently active group.
 
 #### Defined in
 
-[index.d.ts:17246](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17246)
+[index.d.ts:17371](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17371)
 
 ___
 
@@ -41,7 +41,7 @@ All the groups within the group container.
 
 #### Defined in
 
-[index.d.ts:17241](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17241)
+[index.d.ts:17366](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17366)
 
 ___
 
@@ -53,7 +53,7 @@ An [event](codearts_plugin_.Event.md) which fires when [tab groups](codearts_plu
 
 #### Defined in
 
-[index.d.ts:17251](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17251)
+[index.d.ts:17376](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17376)
 
 ___
 
@@ -65,7 +65,7 @@ An [event](codearts_plugin_.Event.md) which fires when [tabs](codearts_plugin_.T
 
 #### Defined in
 
-[index.d.ts:17256](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17256)
+[index.d.ts:17381](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17381)
 
 ## Methods
 
@@ -92,7 +92,7 @@ A promise that resolves to `true` when all tabs have been closed.
 
 #### Defined in
 
-[index.d.ts:17267](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17267)
+[index.d.ts:17392](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17392)
 
 ▸ **close**(`tabGroup`, `preserveFocus?`): [`Thenable`](Thenable.md)<`boolean`\>
 
@@ -114,4 +114,4 @@ A promise that resolves to `true` when all tab groups have been closed.
 
 #### Defined in
 
-[index.d.ts:17276](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17276)
+[index.d.ts:17401](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17401)

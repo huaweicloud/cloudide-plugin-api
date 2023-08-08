@@ -34,7 +34,7 @@ Note: this option is ignored for non-modal messages.
 
 #### Defined in
 
-[index.d.ts:1962](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1962)
+[index.d.ts:1962](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1962)
 
 ___
 
@@ -46,4 +46,4 @@ A short title like 'Retry', 'Open Log' etc.
 
 #### Defined in
 
-[index.d.ts:1953](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1953)
+[index.d.ts:1953](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1953)

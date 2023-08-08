@@ -27,7 +27,7 @@ Default affinity.
 
 #### Defined in
 
-[index.d.ts:14259](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14259)
+[index.d.ts:14362](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14362)
 
 ___
 
@@ -39,4 +39,4 @@ A controller is preferred for a notebook.
 
 #### Defined in
 
-[index.d.ts:14263](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14263)
+[index.d.ts:14366](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14366)

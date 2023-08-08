@@ -26,7 +26,7 @@ A trigger kind is used when registering a `DebugConfigurationProvider` with [reg
 
 #### Defined in
 
-[index.d.ts:15389](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15389)
+[index.d.ts:15492](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15492)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:15385](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15385)
+[index.d.ts:15488](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15488)

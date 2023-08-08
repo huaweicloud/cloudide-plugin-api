@@ -23,4 +23,4 @@ Render a completion as obsolete, usually using a strike-out.
 
 #### Defined in
 
-[index.d.ts:4244](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4244)
+[index.d.ts:4282](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4282)

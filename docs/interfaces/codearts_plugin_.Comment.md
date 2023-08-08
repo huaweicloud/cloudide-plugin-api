@@ -28,7 +28,7 @@ The [author information](codearts_plugin_.CommentAuthorInformation.md) of the co
 
 #### Defined in
 
-[index.d.ts:15729](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15729)
+[index.d.ts:15852](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15852)
 
 ___
 
@@ -40,7 +40,7 @@ The human-readable comment body
 
 #### Defined in
 
-[index.d.ts:15719](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15719)
+[index.d.ts:15842](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15842)
 
 ___
 
@@ -67,7 +67,7 @@ This will show action `extension.deleteComment` only for comments with `contextV
 
 #### Defined in
 
-[index.d.ts:15749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15749)
+[index.d.ts:15872](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15872)
 
 ___
 
@@ -80,7 +80,7 @@ Label will be rendered next to authorName if exists.
 
 #### Defined in
 
-[index.d.ts:15760](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15760)
+[index.d.ts:15883](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15883)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:15724](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15724)
+[index.d.ts:15847](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15847)
 
 ___
 
@@ -104,7 +104,7 @@ Optional reactions of the [Comment](codearts_plugin_.Comment.md)
 
 #### Defined in
 
-[index.d.ts:15754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15754)
+[index.d.ts:15877](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15877)
 
 ___
 
@@ -117,4 +117,4 @@ The date will be formatted according to the user's locale and settings.
 
 #### Defined in
 
-[index.d.ts:15766](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15766)
+[index.d.ts:15889](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15889)

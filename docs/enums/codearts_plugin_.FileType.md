@@ -27,7 +27,7 @@ A directory.
 
 #### Defined in
 
-[index.d.ts:7844](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7844)
+[index.d.ts:7882](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7882)
 
 ___
 
@@ -39,7 +39,7 @@ A regular file.
 
 #### Defined in
 
-[index.d.ts:7840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7840)
+[index.d.ts:7878](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7878)
 
 ___
 
@@ -51,7 +51,7 @@ A symbolic link to a file.
 
 #### Defined in
 
-[index.d.ts:7848](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7848)
+[index.d.ts:7886](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7886)
 
 ___
 
@@ -63,4 +63,4 @@ The file type is unknown.
 
 #### Defined in
 
-[index.d.ts:7836](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7836)
+[index.d.ts:7874](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7874)

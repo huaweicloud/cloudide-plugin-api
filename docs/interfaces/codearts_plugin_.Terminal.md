@@ -37,7 +37,7 @@ folder the shell was launched in.
 
 #### Defined in
 
-[index.d.ts:6482](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6482)
+[index.d.ts:6520](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6520)
 
 ___
 
@@ -59,7 +59,7 @@ window.onDidCloseTerminal(t => {
 
 #### Defined in
 
-[index.d.ts:6497](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6497)
+[index.d.ts:6535](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6535)
 
 ___
 
@@ -71,7 +71,7 @@ The unique id of the terminal.
 
 #### Defined in
 
-[index.d.ts:6465](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6465)
+[index.d.ts:6503](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6503)
 
 ___
 
@@ -83,7 +83,7 @@ The name of the terminal.
 
 #### Defined in
 
-[index.d.ts:6470](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6470)
+[index.d.ts:6508](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6508)
 
 ___
 
@@ -95,7 +95,7 @@ The process ID of the shell process.
 
 #### Defined in
 
-[index.d.ts:6475](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6475)
+[index.d.ts:6513](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6513)
 
 ___
 
@@ -107,7 +107,7 @@ The current state of the [Terminal](codearts_plugin_.Terminal.md).
 
 #### Defined in
 
-[index.d.ts:6502](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6502)
+[index.d.ts:6540](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6540)
 
 ## Methods
 
@@ -123,7 +123,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6536](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6536)
+[index.d.ts:6574](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6574)
 
 ___
 
@@ -139,7 +139,7 @@ Hide the terminal panel if this terminal is currently showing.
 
 #### Defined in
 
-[index.d.ts:6531](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6531)
+[index.d.ts:6569](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6569)
 
 ___
 
@@ -163,7 +163,7 @@ Send text to the terminal. The text is written to the stdin of the underlying pt
 
 #### Defined in
 
-[index.d.ts:6513](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6513)
+[index.d.ts:6551](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6551)
 
 ___
 
@@ -185,7 +185,7 @@ Change the color of the terminal icon.
 
 #### Defined in
 
-[index.d.ts:6519](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6519)
+[index.d.ts:6557](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6557)
 
 ___
 
@@ -207,4 +207,4 @@ Show the terminal panel and reveal this terminal in the UI.
 
 #### Defined in
 
-[index.d.ts:6526](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6526)
+[index.d.ts:6564](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6564)

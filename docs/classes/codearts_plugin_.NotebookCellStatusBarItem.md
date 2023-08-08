@@ -38,7 +38,7 @@ Creates a new NotebookCellStatusBarItem.
 
 #### Defined in
 
-[index.d.ts:14549](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14549)
+[index.d.ts:14652](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14652)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Accessibility information used when a screen reader interacts with this item.
 
 #### Defined in
 
-[index.d.ts:14542](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14542)
+[index.d.ts:14645](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14645)
 
 ___
 
@@ -62,7 +62,7 @@ Whether the item is aligned to the left or right.
 
 #### Defined in
 
-[index.d.ts:14517](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14517)
+[index.d.ts:14620](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14620)
 
 ___
 
@@ -79,7 +79,7 @@ are used by the editor.
 
 #### Defined in
 
-[index.d.ts:14527](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14527)
+[index.d.ts:14630](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14630)
 
 ___
 
@@ -91,7 +91,7 @@ The priority of the item. A higher value item will be shown more to the left.
 
 #### Defined in
 
-[index.d.ts:14537](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14537)
+[index.d.ts:14640](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14640)
 
 ___
 
@@ -103,7 +103,7 @@ The text to show for the item.
 
 #### Defined in
 
-[index.d.ts:14512](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14512)
+[index.d.ts:14615](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14615)
 
 ___
 
@@ -115,4 +115,4 @@ A tooltip to show when the item is hovered.
 
 #### Defined in
 
-[index.d.ts:14532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14532)
+[index.d.ts:14635](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14635)

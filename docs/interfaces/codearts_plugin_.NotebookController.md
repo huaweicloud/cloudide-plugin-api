@@ -47,7 +47,7 @@ The human-readable description which is rendered less prominent.
 
 #### Defined in
 
-[index.d.ts:14319](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14319)
+[index.d.ts:14422](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14422)
 
 ___
 
@@ -59,7 +59,7 @@ The human-readable detail which is rendered less prominent.
 
 #### Defined in
 
-[index.d.ts:14324](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14324)
+[index.d.ts:14427](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14427)
 
 ___
 
@@ -88,7 +88,7 @@ Run Selection etc. The execute handler is responsible for creating and managing 
 
 #### Defined in
 
-[index.d.ts:14351](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14351)
+[index.d.ts:14454](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14454)
 
 ___
 
@@ -103,7 +103,7 @@ stable identifiers across sessions.
 
 #### Defined in
 
-[index.d.ts:14287](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14287)
+[index.d.ts:14390](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14390)
 
 ___
 
@@ -138,7 +138,7 @@ only be used when tokens cannot be supported.
 
 #### Defined in
 
-[index.d.ts:14365](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14365)
+[index.d.ts:14468](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14468)
 
 ___
 
@@ -150,7 +150,7 @@ The human-readable label of this notebook controller.
 
 #### Defined in
 
-[index.d.ts:14314](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14314)
+[index.d.ts:14417](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14417)
 
 ___
 
@@ -162,7 +162,7 @@ The notebook type this controller is for.
 
 #### Defined in
 
-[index.d.ts:14292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14292)
+[index.d.ts:14395](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14395)
 
 ___
 
@@ -181,7 +181,7 @@ controller is re-created or as a notebook is [opened](../modules/codearts_plugin
 
 #### Defined in
 
-[index.d.ts:14377](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14377)
+[index.d.ts:14480](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14480)
 
 ___
 
@@ -205,7 +205,7 @@ myController.supportedLanguages = []; // falsy
 
 #### Defined in
 
-[index.d.ts:14309](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14309)
+[index.d.ts:14412](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14412)
 
 ___
 
@@ -218,7 +218,7 @@ editor can render placeholders for them.
 
 #### Defined in
 
-[index.d.ts:14330](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14330)
+[index.d.ts:14433](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14433)
 
 ## Methods
 
@@ -249,7 +249,7 @@ A notebook cell execution.
 
 #### Defined in
 
-[index.d.ts:14345](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14345)
+[index.d.ts:14448](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14448)
 
 ___
 
@@ -265,7 +265,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:14391](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14391)
+[index.d.ts:14494](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14494)
 
 ___
 
@@ -289,4 +289,4 @@ to be presented more prominent for some notebooks.
 
 #### Defined in
 
-[index.d.ts:14386](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14386)
+[index.d.ts:14489](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14489)

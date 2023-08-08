@@ -43,7 +43,7 @@ The stored value or `undefined`.
 
 #### Defined in
 
-[index.d.ts:7051](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7051)
+[index.d.ts:7089](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7089)
 
 ▸ **get**<`T`\>(`key`, `defaultValue`): `T`
 
@@ -70,7 +70,7 @@ The stored value or the defaultValue.
 
 #### Defined in
 
-[index.d.ts:7061](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7061)
+[index.d.ts:7099](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7099)
 
 ___
 
@@ -88,7 +88,7 @@ The stored keys.
 
 #### Defined in
 
-[index.d.ts:7043](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7043)
+[index.d.ts:7081](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7081)
 
 ___
 
@@ -114,4 +114,4 @@ storage.
 
 #### Defined in
 
-[index.d.ts:7072](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7072)
+[index.d.ts:7110](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7110)
