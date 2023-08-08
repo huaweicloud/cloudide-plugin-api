@@ -40,7 +40,7 @@ An array of [debug configurations](codearts_plugin_.DebugConfiguration.md).
 
 #### Defined in
 
-[index.d.ts:15008](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15008)
+[index.d.ts:15111](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15111)
 
 ___
 
@@ -70,7 +70,7 @@ The resolved debug configuration or undefined or null.
 
 #### Defined in
 
-[index.d.ts:15022](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15022)
+[index.d.ts:15125](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15125)
 
 ___
 
@@ -101,4 +101,4 @@ The resolved debug configuration or undefined or null.
 
 #### Defined in
 
-[index.d.ts:15037](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15037)
+[index.d.ts:15140](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15140)

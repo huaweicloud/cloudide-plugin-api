@@ -23,7 +23,7 @@ The range that will be replaced if this completion item is accepted.
 
 #### Defined in
 
-[index.d.ts:4600](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4600)
+[index.d.ts:4638](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4638)
 
 ___
 
@@ -35,4 +35,4 @@ The text the range will be replaced with if this completion is accepted.
 
 #### Defined in
 
-[index.d.ts:4605](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4605)
+[index.d.ts:4643](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4643)

@@ -28,7 +28,7 @@ Is `true` when the token has been cancelled, `false` otherwise.
 
 #### Defined in
 
-[index.d.ts:1506](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1506)
+[index.d.ts:1506](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1506)
 
 ___
 
@@ -40,4 +40,4 @@ An [Event](codearts_plugin_.Event.md) which fires upon cancellation.
 
 #### Defined in
 
-[index.d.ts:1511](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1511)
+[index.d.ts:1511](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1511)

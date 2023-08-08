@@ -24,7 +24,7 @@ Added breakpoints.
 
 #### Defined in
 
-[index.d.ts:15249](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15249)
+[index.d.ts:15352](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15352)
 
 ___
 
@@ -36,7 +36,7 @@ Changed breakpoints.
 
 #### Defined in
 
-[index.d.ts:15259](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15259)
+[index.d.ts:15362](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15362)
 
 ___
 
@@ -48,4 +48,4 @@ Removed breakpoints.
 
 #### Defined in
 
-[index.d.ts:15254](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15254)
+[index.d.ts:15357](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15357)

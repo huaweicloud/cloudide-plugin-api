@@ -24,7 +24,7 @@ The icon path for project wizard, which will show with the label.
 
 #### Defined in
 
-[index.d.ts:9512](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9512)
+[index.d.ts:9551](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9551)
 
 ___
 
@@ -38,7 +38,7 @@ If not defined, sort to the end.
 
 #### Defined in
 
-[index.d.ts:9537](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9537)
+[index.d.ts:9576](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9576)
 
 ___
 
@@ -63,4 +63,4 @@ your view's context cannot be quickly saved and restored.
 
 #### Defined in
 
-[index.d.ts:9530](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9530)
+[index.d.ts:9569](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9569)

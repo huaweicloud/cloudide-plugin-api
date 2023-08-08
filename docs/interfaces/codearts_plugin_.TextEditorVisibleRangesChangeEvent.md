@@ -23,7 +23,7 @@ The [text editor](codearts_plugin_.TextEditor.md) for which the visible ranges h
 
 #### Defined in
 
-[index.d.ts:561](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L561)
+[index.d.ts:561](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L561)
 
 ___
 
@@ -35,4 +35,4 @@ The new value for the [text editor's visible ranges](codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:565](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L565)
+[index.d.ts:565](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L565)

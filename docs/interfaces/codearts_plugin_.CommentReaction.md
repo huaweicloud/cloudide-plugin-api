@@ -25,7 +25,7 @@ Whether the [author](codearts_plugin_.CommentAuthorInformation.md) of the commen
 
 #### Defined in
 
-[index.d.ts:15709](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15709)
+[index.d.ts:15832](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15832)
 
 ___
 
@@ -37,7 +37,7 @@ The number of users who have reacted to this reaction
 
 #### Defined in
 
-[index.d.ts:15704](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15704)
+[index.d.ts:15827](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15827)
 
 ___
 
@@ -49,7 +49,7 @@ Icon for the reaction shown in UI.
 
 #### Defined in
 
-[index.d.ts:15699](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15699)
+[index.d.ts:15822](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15822)
 
 ___
 
@@ -61,4 +61,4 @@ The human-readable label for the reaction
 
 #### Defined in
 
-[index.d.ts:15694](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15694)
+[index.d.ts:15817](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15817)

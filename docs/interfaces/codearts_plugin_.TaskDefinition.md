@@ -39,4 +39,4 @@ usages and shouldn't be used by extensions.
 
 #### Defined in
 
-[index.d.ts:7280](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7280)
+[index.d.ts:7318](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7318)

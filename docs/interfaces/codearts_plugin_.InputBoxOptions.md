@@ -33,7 +33,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:2054](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2054)
+[index.d.ts:2054](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2054)
 
 ___
 
@@ -45,7 +45,7 @@ Controls if a password input is shown. Password input hides the typed text.
 
 #### Defined in
 
-[index.d.ts:2048](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2048)
+[index.d.ts:2048](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2048)
 
 ___
 
@@ -57,7 +57,7 @@ An optional string to show as placeholder in the input box to guide the user wha
 
 #### Defined in
 
-[index.d.ts:2043](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2043)
+[index.d.ts:2043](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2043)
 
 ___
 
@@ -69,7 +69,7 @@ The text to display underneath the input box.
 
 #### Defined in
 
-[index.d.ts:2038](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2038)
+[index.d.ts:2038](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2038)
 
 ___
 
@@ -81,7 +81,7 @@ An optional string that represents the title of the input box.
 
 #### Defined in
 
-[index.d.ts:2020](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2020)
+[index.d.ts:2020](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2020)
 
 ___
 
@@ -93,7 +93,7 @@ The value to pre-fill in the input box.
 
 #### Defined in
 
-[index.d.ts:2025](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2025)
+[index.d.ts:2025](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2025)
 
 ___
 
@@ -108,7 +108,7 @@ otherwise the defined range will be selected.
 
 #### Defined in
 
-[index.d.ts:2033](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2033)
+[index.d.ts:2033](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2033)
 
 ## Methods
 
@@ -134,4 +134,4 @@ Either a human-readable string which is presented as an error message or an [Inp
 
 #### Defined in
 
-[index.d.ts:2064](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2064)
+[index.d.ts:2064](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L2064)

@@ -24,7 +24,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:1847](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1847)
+[index.d.ts:1847](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1847)
 
 ___
 
@@ -36,4 +36,4 @@ An optional string to show as placeholder in the input box to guide the user wha
 
 #### Defined in
 
-[index.d.ts:1841](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1841)
+[index.d.ts:1841](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1841)

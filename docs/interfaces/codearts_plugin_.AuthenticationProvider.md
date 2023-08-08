@@ -30,7 +30,7 @@ within a session has changed.
 
 #### Defined in
 
-[index.d.ts:16059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16059)
+[index.d.ts:16182](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16182)
 
 ## Methods
 
@@ -62,7 +62,7 @@ A promise that resolves to an authentication session.
 
 #### Defined in
 
-[index.d.ts:16082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16082)
+[index.d.ts:16205](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16205)
 
 ___
 
@@ -86,7 +86,7 @@ A promise that resolves to an array of authentication sessions.
 
 #### Defined in
 
-[index.d.ts:16067](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16067)
+[index.d.ts:16190](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16190)
 
 ___
 
@@ -110,7 +110,7 @@ Can use own crypto function to implement it.
 
 #### Defined in
 
-[index.d.ts:16100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16100)
+[index.d.ts:16224](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16224)
 
 ___
 
@@ -136,4 +136,4 @@ If a session cannot be removed, the provider should reject with an error message
 
 #### Defined in
 
-[index.d.ts:16092](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16092)
+[index.d.ts:16215](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16215)

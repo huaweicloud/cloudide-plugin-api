@@ -27,7 +27,7 @@ Prefer spaces over tabs.
 
 #### Defined in
 
-[index.d.ts:3919](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3919)
+[index.d.ts:3957](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3957)
 
 ___
 
@@ -39,4 +39,4 @@ Size of a tab in spaces.
 
 #### Defined in
 
-[index.d.ts:3914](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3914)
+[index.d.ts:3952](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3952)

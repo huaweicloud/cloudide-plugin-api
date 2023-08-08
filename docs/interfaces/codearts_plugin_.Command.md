@@ -29,7 +29,7 @@ invoked with.
 
 #### Defined in
 
-[index.d.ts:48](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L48)
+[index.d.ts:48](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L48)
 
 ___
 
@@ -45,7 +45,7 @@ The identifier of the actual command handler.
 
 #### Defined in
 
-[index.d.ts:37](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L37)
+[index.d.ts:37](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L37)
 
 ___
 
@@ -57,7 +57,7 @@ Title of the command, like `save`.
 
 #### Defined in
 
-[index.d.ts:31](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L31)
+[index.d.ts:31](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L31)
 
 ___
 
@@ -69,4 +69,4 @@ A tooltip for the command, when represented in the UI.
 
 #### Defined in
 
-[index.d.ts:42](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L42)
+[index.d.ts:42](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L42)

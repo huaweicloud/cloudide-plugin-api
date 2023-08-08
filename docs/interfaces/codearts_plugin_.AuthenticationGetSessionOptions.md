@@ -31,7 +31,7 @@ Defaults to false.
 
 #### Defined in
 
-[index.d.ts:15926](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15926)
+[index.d.ts:16049](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16049)
 
 ___
 
@@ -54,7 +54,7 @@ Note: you cannot use this option with [silent](codearts_plugin_.AuthenticationGe
 
 #### Defined in
 
-[index.d.ts:15942](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15942)
+[index.d.ts:16065](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16065)
 
 ___
 
@@ -74,7 +74,7 @@ This defaults to false.
 
 #### Defined in
 
-[index.d.ts:15955](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15955)
+[index.d.ts:16078](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16078)
 
 ___
 
@@ -93,4 +93,4 @@ Note: you cannot use this option with any other options that prompt the user lik
 
 #### Defined in
 
-[index.d.ts:15967](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15967)
+[index.d.ts:16090](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16090)

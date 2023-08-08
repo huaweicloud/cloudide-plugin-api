@@ -22,4 +22,4 @@ The files that got renamed.
 
 #### Defined in
 
-[index.d.ts:12047](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12047)
+[index.d.ts:12149](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12149)

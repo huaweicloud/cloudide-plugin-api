@@ -27,7 +27,7 @@ Controls whether the terminal is cleared before executing the task.
 
 #### Defined in
 
-[index.d.ts:7217](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7217)
+[index.d.ts:7255](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7255)
 
 ___
 
@@ -40,7 +40,7 @@ in the user interface.
 
 #### Defined in
 
-[index.d.ts:7195](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7195)
+[index.d.ts:7233](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7233)
 
 ___
 
@@ -52,7 +52,7 @@ Controls whether the panel showing the task output is taking focus.
 
 #### Defined in
 
-[index.d.ts:7200](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7200)
+[index.d.ts:7238](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7238)
 
 ___
 
@@ -66,7 +66,7 @@ every task execution (new). Defaults to `TaskInstanceKind.Shared`
 
 #### Defined in
 
-[index.d.ts:7207](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7207)
+[index.d.ts:7245](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7245)
 
 ___
 
@@ -79,7 +79,7 @@ Defaults to `RevealKind.Always`.
 
 #### Defined in
 
-[index.d.ts:7189](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7189)
+[index.d.ts:7227](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7227)
 
 ___
 
@@ -91,4 +91,4 @@ Controls whether to show the "Terminal will be reused by tasks, press any key to
 
 #### Defined in
 
-[index.d.ts:7212](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7212)
+[index.d.ts:7250](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7250)

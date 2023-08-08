@@ -36,7 +36,7 @@ This is the origin that should be used in a content security policy rule:
 
 #### Defined in
 
-[index.d.ts:8402](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8402)
+[index.d.ts:8440](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8440)
 
 ___
 
@@ -70,7 +70,7 @@ setting a [content security policy](https://aka.ms/vscode-api-webview-csp).
 
 #### Defined in
 
-[index.d.ts:8336](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8336)
+[index.d.ts:8374](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8374)
 
 ___
 
@@ -86,7 +86,7 @@ message does not run in a browser environment.
 
 #### Defined in
 
-[index.d.ts:8345](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8345)
+[index.d.ts:8383](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8383)
 
 ___
 
@@ -98,7 +98,7 @@ Content settings for the webview.
 
 #### Defined in
 
-[index.d.ts:8309](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8309)
+[index.d.ts:8347](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8347)
 
 ## Methods
 
@@ -128,7 +128,7 @@ webview.html = `<img src="${webview.asWebviewUri(vscode.Uri.file('/Users/codey/w
 
 #### Defined in
 
-[index.d.ts:8391](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8391)
+[index.d.ts:8429](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8429)
 
 ___
 
@@ -166,4 +166,4 @@ live webviews (i.e. either visible webviews or hidden webviews that set `retainC
 
 #### Defined in
 
-[index.d.ts:8378](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8378)
+[index.d.ts:8416](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8416)

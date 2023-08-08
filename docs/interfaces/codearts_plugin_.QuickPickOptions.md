@@ -31,7 +31,7 @@ An optional flag to make the picker accept multiple selections, if true the resu
 
 #### Defined in
 
-[index.d.ts:1825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1825)
+[index.d.ts:1825](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1825)
 
 ___
 
@@ -44,7 +44,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:1820](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1820)
+[index.d.ts:1820](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1820)
 
 ___
 
@@ -56,7 +56,7 @@ An optional flag to include the description when filtering the picks.
 
 #### Defined in
 
-[index.d.ts:1804](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1804)
+[index.d.ts:1804](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1804)
 
 ___
 
@@ -68,7 +68,7 @@ An optional flag to include the detail when filtering the picks.
 
 #### Defined in
 
-[index.d.ts:1809](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1809)
+[index.d.ts:1809](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1809)
 
 ___
 
@@ -80,7 +80,7 @@ An optional string to show as placeholder in the input box to guide the user wha
 
 #### Defined in
 
-[index.d.ts:1814](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1814)
+[index.d.ts:1814](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1814)
 
 ___
 
@@ -92,7 +92,7 @@ An optional string that represents the title of the quick pick.
 
 #### Defined in
 
-[index.d.ts:1799](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1799)
+[index.d.ts:1799](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1799)
 
 ## Methods
 
@@ -114,4 +114,4 @@ An optional function that is invoked whenever an item is selected.
 
 #### Defined in
 
-[index.d.ts:1830](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1830)
+[index.d.ts:1830](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L1830)

@@ -20,4 +20,4 @@ Icon id.
 
 #### Defined in
 
-[index.d.ts:17699](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17699)
+[index.d.ts:17824](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17824)

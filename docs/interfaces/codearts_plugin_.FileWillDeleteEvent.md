@@ -31,7 +31,7 @@ The files that are going to be deleted.
 
 #### Defined in
 
-[index.d.ts:11947](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11947)
+[index.d.ts:12049](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12049)
 
 ___
 
@@ -43,7 +43,7 @@ A cancellation token.
 
 #### Defined in
 
-[index.d.ts:11942](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11942)
+[index.d.ts:12044](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12044)
 
 ## Methods
 
@@ -78,7 +78,7 @@ workspace.onWillCreateFiles(event => {
 
 #### Defined in
 
-[index.d.ts:11967](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11967)
+[index.d.ts:12069](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12069)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -98,4 +98,4 @@ Allows to pause the event until the provided thenable resolves.
 
 #### Defined in
 
-[index.d.ts:11976](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11976)
+[index.d.ts:12078](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12078)

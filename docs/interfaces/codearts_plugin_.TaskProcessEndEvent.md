@@ -24,7 +24,7 @@ The task execution for which the process got started.
 
 #### Defined in
 
-[index.d.ts:7741](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7741)
+[index.d.ts:7779](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7779)
 
 ___
 
@@ -36,4 +36,4 @@ The process's exit code. Will be `undefined` when the task is terminated.
 
 #### Defined in
 
-[index.d.ts:7746](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7746)
+[index.d.ts:7784](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7784)

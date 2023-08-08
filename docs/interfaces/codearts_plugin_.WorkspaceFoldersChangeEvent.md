@@ -23,7 +23,7 @@ Added workspace folders.
 
 #### Defined in
 
-[index.d.ts:12057](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12057)
+[index.d.ts:12159](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12159)
 
 ___
 
@@ -35,4 +35,4 @@ Removed workspace folders.
 
 #### Defined in
 
-[index.d.ts:12062](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12062)
+[index.d.ts:12164](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L12164)

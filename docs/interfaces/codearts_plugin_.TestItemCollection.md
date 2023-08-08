@@ -37,7 +37,7 @@ Gets the number of items in the collection.
 
 #### Defined in
 
-[index.d.ts:16556](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16556)
+[index.d.ts:16681](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16681)
 
 ## Methods
 
@@ -60,7 +60,7 @@ exists, it'll be replaced.
 
 #### Defined in
 
-[index.d.ts:16577](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16577)
+[index.d.ts:16702](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16702)
 
 ___
 
@@ -82,7 +82,7 @@ Removes a single test item from the collection.
 
 #### Defined in
 
-[index.d.ts:16583](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16583)
+[index.d.ts:16708](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16708)
 
 ___
 
@@ -105,7 +105,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:16570](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16570)
+[index.d.ts:16695](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16695)
 
 ___
 
@@ -129,7 +129,7 @@ The found item or undefined if it does not exist.
 
 #### Defined in
 
-[index.d.ts:16590](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16590)
+[index.d.ts:16715](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16715)
 
 ___
 
@@ -151,4 +151,4 @@ Replaces the items stored by the collection.
 
 #### Defined in
 
-[index.d.ts:16562](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16562)
+[index.d.ts:16687](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16687)

@@ -39,7 +39,7 @@ Handle an activated terminal link.
 
 #### Defined in
 
-[index.d.ts:6637](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6637)
+[index.d.ts:6675](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6675)
 
 ___
 
@@ -66,4 +66,4 @@ A list of terminal links for the given line.
 
 #### Defined in
 
-[index.d.ts:6631](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6631)
+[index.d.ts:6669](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6669)

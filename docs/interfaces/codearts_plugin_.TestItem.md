@@ -40,7 +40,7 @@ Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:16649](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16649)
+[index.d.ts:16774](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16774)
 
 ___
 
@@ -58,7 +58,7 @@ Default to `false`.
 
 #### Defined in
 
-[index.d.ts:16641](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16641)
+[index.d.ts:16766](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16766)
 
 ___
 
@@ -71,7 +71,7 @@ individual test cases or nested suites.
 
 #### Defined in
 
-[index.d.ts:16617](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16617)
+[index.d.ts:16742](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16742)
 
 ___
 
@@ -83,7 +83,7 @@ Optional description that appears next to the label.
 
 #### Defined in
 
-[index.d.ts:16659](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16659)
+[index.d.ts:16784](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16784)
 
 ___
 
@@ -98,7 +98,7 @@ test discovery, such as syntax errors.
 
 #### Defined in
 
-[index.d.ts:16681](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16681)
+[index.d.ts:16806](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16806)
 
 ___
 
@@ -113,7 +113,7 @@ and must be unique among its parent's direct children.
 
 #### Defined in
 
-[index.d.ts:16606](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16606)
+[index.d.ts:16731](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16731)
 
 ___
 
@@ -125,7 +125,7 @@ Display name describing the test case.
 
 #### Defined in
 
-[index.d.ts:16654](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16654)
+[index.d.ts:16779](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16779)
 
 ___
 
@@ -139,7 +139,7 @@ aren't yet included in another item's [children](codearts_plugin_.TestItem.md#ch
 
 #### Defined in
 
-[index.d.ts:16624](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16624)
+[index.d.ts:16749](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16749)
 
 ___
 
@@ -153,7 +153,7 @@ This is only meaningful if the `uri` points to a file.
 
 #### Defined in
 
-[index.d.ts:16673](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16673)
+[index.d.ts:16798](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16798)
 
 ___
 
@@ -167,7 +167,7 @@ is used.
 
 #### Defined in
 
-[index.d.ts:16666](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16666)
+[index.d.ts:16791](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16791)
 
 ___
 
@@ -180,7 +180,7 @@ TestRunProfile.tags, or simply as an organizational feature.
 
 #### Defined in
 
-[index.d.ts:16630](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16630)
+[index.d.ts:16755](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16755)
 
 ___
 
@@ -193,7 +193,7 @@ referring to the hierarchical relationship of the current item
 
 #### Defined in
 
-[index.d.ts:16687](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16687)
+[index.d.ts:16812](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16812)
 
 ___
 
@@ -205,4 +205,4 @@ URI this `TestItem` is associated with. May be a file or directory.
 
 #### Defined in
 
-[index.d.ts:16611](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16611)
+[index.d.ts:16736](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16736)

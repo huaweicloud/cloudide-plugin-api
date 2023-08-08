@@ -23,7 +23,7 @@ http request body.
 
 #### Defined in
 
-[index.d.ts:16044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16044)
+[index.d.ts:16167](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16167)
 
 ___
 
@@ -35,7 +35,7 @@ http request headers.
 
 #### Defined in
 
-[index.d.ts:16040](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16040)
+[index.d.ts:16163](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16163)
 
 ___
 
@@ -47,7 +47,7 @@ http request method.
 
 #### Defined in
 
-[index.d.ts:16032](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16032)
+[index.d.ts:16155](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16155)
 
 ___
 
@@ -59,4 +59,4 @@ http request url.
 
 #### Defined in
 
-[index.d.ts:16036](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16036)
+[index.d.ts:16159](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16159)

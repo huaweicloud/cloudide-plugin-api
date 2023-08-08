@@ -30,7 +30,7 @@ The affected notebook.
 
 #### Defined in
 
-[index.d.ts:13861](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13861)
+[index.d.ts:13964](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13964)
 
 ___
 
@@ -45,7 +45,7 @@ for detailed change information, like what edits have been performed.
 
 #### Defined in
 
-[index.d.ts:13869](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13869)
+[index.d.ts:13972](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13972)
 
 ___
 
@@ -57,7 +57,7 @@ The new execution summary of the cell or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13884](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13884)
+[index.d.ts:13987](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13987)
 
 ___
 
@@ -69,7 +69,7 @@ The new metadata of the cell or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13874](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13874)
+[index.d.ts:13977](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13977)
 
 ___
 
@@ -81,4 +81,4 @@ The new outputs of the cell or `undefined` when they did not change.
 
 #### Defined in
 
-[index.d.ts:13879](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13879)
+[index.d.ts:13982](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13982)

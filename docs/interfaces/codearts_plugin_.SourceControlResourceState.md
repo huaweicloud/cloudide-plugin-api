@@ -27,7 +27,7 @@ state is open in the Source Control viewlet.
 
 #### Defined in
 
-[index.d.ts:14714](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14714)
+[index.d.ts:14817](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14817)
 
 ___
 
@@ -54,7 +54,7 @@ This will show action `extension.diff` only for resources with `contextValue` is
 
 #### Defined in
 
-[index.d.ts:14740](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14740)
+[index.d.ts:14843](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14843)
 
 ___
 
@@ -67,7 +67,7 @@ resource state.
 
 #### Defined in
 
-[index.d.ts:14720](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14720)
+[index.d.ts:14823](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14823)
 
 ___
 
@@ -79,4 +79,4 @@ The [Uri](../classes/codearts_plugin_.Uri.md) of the underlying resource inside 
 
 #### Defined in
 
-[index.d.ts:14708](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14708)
+[index.d.ts:14811](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14811)

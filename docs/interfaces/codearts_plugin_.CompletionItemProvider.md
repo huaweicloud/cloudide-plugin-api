@@ -55,7 +55,7 @@ The lack of a result can be signaled by returning `undefined`, `null`, or an emp
 
 #### Defined in
 
-[index.d.ts:4506](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4506)
+[index.d.ts:4544](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4544)
 
 ___
 
@@ -92,4 +92,4 @@ The resolved completion item or a thenable that resolves to of such. It is OK to
 
 #### Defined in
 
-[index.d.ts:4527](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4527)
+[index.d.ts:4565](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4565)

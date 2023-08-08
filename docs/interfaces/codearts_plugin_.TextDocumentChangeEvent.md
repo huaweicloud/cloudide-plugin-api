@@ -24,7 +24,7 @@ An array of content changes.
 
 #### Defined in
 
-[index.d.ts:11788](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11788)
+[index.d.ts:11890](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11890)
 
 ___
 
@@ -36,7 +36,7 @@ The affected document.
 
 #### Defined in
 
-[index.d.ts:11783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11783)
+[index.d.ts:11885](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11885)
 
 ___
 
@@ -49,4 +49,4 @@ Is `undefined` if the reason is not known.
 
 #### Defined in
 
-[index.d.ts:11794](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11794)
+[index.d.ts:11896](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11896)

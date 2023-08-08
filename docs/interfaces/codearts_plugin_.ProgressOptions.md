@@ -27,7 +27,7 @@ button.
 
 #### Defined in
 
-[index.d.ts:11449](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11449)
+[index.d.ts:11551](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11551)
 
 ___
 
@@ -39,7 +39,7 @@ The location at which progress should show.
 
 #### Defined in
 
-[index.d.ts:11435](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11435)
+[index.d.ts:11537](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11537)
 
 ___
 
@@ -52,4 +52,4 @@ operation.
 
 #### Defined in
 
-[index.d.ts:11441](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11441)
+[index.d.ts:11543](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11543)

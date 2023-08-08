@@ -25,7 +25,7 @@ An array of [cell changes](codearts_plugin_.NotebookDocumentCellChange.md).
 
 #### Defined in
 
-[index.d.ts:13936](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13936)
+[index.d.ts:14039](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14039)
 
 ___
 
@@ -37,7 +37,7 @@ An array of content changes describing added or removed [cells](codearts_plugin_
 
 #### Defined in
 
-[index.d.ts:13931](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13931)
+[index.d.ts:14034](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14034)
 
 ___
 
@@ -49,7 +49,7 @@ The new metadata of the notebook or `undefined` when it did not change.
 
 #### Defined in
 
-[index.d.ts:13926](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13926)
+[index.d.ts:14029](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14029)
 
 ___
 
@@ -61,4 +61,4 @@ The affected notebook.
 
 #### Defined in
 
-[index.d.ts:13921](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13921)
+[index.d.ts:14024](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L14024)

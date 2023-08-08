@@ -34,7 +34,7 @@ An optional event to signal that inlay hints from this provider have changed.
 
 #### Defined in
 
-[index.d.ts:5000](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5000)
+[index.d.ts:5038](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5038)
 
 ## Methods
 
@@ -62,7 +62,7 @@ An array of inlay hints or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:5012](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5012)
+[index.d.ts:5050](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5050)
 
 ___
 
@@ -90,4 +90,4 @@ The resolved inlay hint or a thenable that resolves to such. It is OK to return 
 
 #### Defined in
 
-[index.d.ts:5024](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5024)
+[index.d.ts:5062](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5062)

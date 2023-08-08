@@ -41,7 +41,7 @@ can be signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:4854](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4854)
+[index.d.ts:4892](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4892)
 
 ___
 
@@ -67,4 +67,4 @@ can be signaled by returning `undefined`, `null`, or an empty array.
 
 #### Defined in
 
-[index.d.ts:4843](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4843)
+[index.d.ts:4881](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L4881)

@@ -26,7 +26,7 @@ An event that fires when a message is received from a renderer.
 
 #### Defined in
 
-[index.d.ts:13692](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13692)
+[index.d.ts:13795](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13795)
 
 ## Methods
 
@@ -52,4 +52,4 @@ delivered to any renderer.
 
 #### Defined in
 
-[index.d.ts:13706](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13706)
+[index.d.ts:13809](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13809)

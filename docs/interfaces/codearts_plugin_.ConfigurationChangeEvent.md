@@ -36,4 +36,4 @@ If scope is provided, checks if the section has changed for resources under the 
 
 #### Defined in
 
-[index.d.ts:13059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13059)
+[index.d.ts:13162](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L13162)

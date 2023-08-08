@@ -23,7 +23,7 @@ The block comment character pair, like `/* block comment *&#47;`
 
 #### Defined in
 
-[index.d.ts:5458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5458)
+[index.d.ts:5496](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5496)
 
 ___
 
@@ -35,4 +35,4 @@ The line comment token, like `// this is a comment`
 
 #### Defined in
 
-[index.d.ts:5453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5453)
+[index.d.ts:5491](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5491)

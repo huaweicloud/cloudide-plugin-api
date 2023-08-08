@@ -25,7 +25,7 @@ An optional flag that when `true` will stop the [editor](codearts_plugin_.TextEd
 
 #### Defined in
 
-[index.d.ts:773](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L773)
+[index.d.ts:773](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L773)
 
 ___
 
@@ -40,7 +40,7 @@ be replaced and reused until set to stay - either explicitly or through editing.
 
 #### Defined in
 
-[index.d.ts:781](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L781)
+[index.d.ts:781](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L781)
 
 ___
 
@@ -52,7 +52,7 @@ An optional selection to apply for the document in the [editor](codearts_plugin_
 
 #### Defined in
 
-[index.d.ts:786](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L786)
+[index.d.ts:786](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L786)
 
 ___
 
@@ -68,4 +68,4 @@ editor to the side of the currently active one.
 
 #### Defined in
 
-[index.d.ts:768](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L768)
+[index.d.ts:768](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L768)

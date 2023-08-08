@@ -40,4 +40,4 @@ A list of ranges that can be edited together
 
 #### Defined in
 
-[index.d.ts:5436](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5436)
+[index.d.ts:5474](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L5474)

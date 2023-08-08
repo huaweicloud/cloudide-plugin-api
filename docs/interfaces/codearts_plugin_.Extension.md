@@ -42,7 +42,7 @@ It is an invalid action to access this field before this extension has been acti
 
 #### Defined in
 
-[index.d.ts:6834](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6834)
+[index.d.ts:6872](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6872)
 
 ___
 
@@ -58,7 +58,7 @@ the value is [`UI`](../enums/codearts_plugin_.ExtensionKind.md#ui).
 
 #### Defined in
 
-[index.d.ts:6828](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6828)
+[index.d.ts:6866](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6866)
 
 ___
 
@@ -71,7 +71,7 @@ notation for [Extension.extensionUri.fsPath](codearts_plugin_.Extension.md#exten
 
 #### Defined in
 
-[index.d.ts:6809](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6809)
+[index.d.ts:6847](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6847)
 
 ___
 
@@ -83,7 +83,7 @@ The uri of the directory containing the extension.
 
 #### Defined in
 
-[index.d.ts:6803](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6803)
+[index.d.ts:6841](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6841)
 
 ___
 
@@ -95,7 +95,7 @@ The canonical extension identifier in the form of: `publisher.name`.
 
 #### Defined in
 
-[index.d.ts:6798](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6798)
+[index.d.ts:6836](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6836)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6814](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6814)
+[index.d.ts:6852](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6852)
 
 ___
 
@@ -119,7 +119,7 @@ An event which fires when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6846](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6846)
+[index.d.ts:6884](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6884)
 
 ___
 
@@ -131,7 +131,7 @@ The parsed contents of the extension's package.json.
 
 #### Defined in
 
-[index.d.ts:6819](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6819)
+[index.d.ts:6857](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6857)
 
 ## Methods
 
@@ -149,4 +149,4 @@ A promise that will resolve when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6841](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6841)
+[index.d.ts:6879](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L6879)

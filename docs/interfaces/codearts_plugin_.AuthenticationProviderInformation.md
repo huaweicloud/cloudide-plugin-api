@@ -23,7 +23,7 @@ The unique identifier of the authentication provider.
 
 #### Defined in
 
-[index.d.ts:15977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15977)
+[index.d.ts:16100](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16100)
 
 ___
 
@@ -35,4 +35,4 @@ The human-readable name of the authentication provider.
 
 #### Defined in
 
-[index.d.ts:15982](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15982)
+[index.d.ts:16105](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L16105)

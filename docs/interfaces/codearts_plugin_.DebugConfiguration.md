@@ -28,7 +28,7 @@ The name of the debug session.
 
 #### Defined in
 
-[index.d.ts:14906](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14906)
+[index.d.ts:15009](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15009)
 
 ___
 
@@ -40,7 +40,7 @@ The request type of the debug session.
 
 #### Defined in
 
-[index.d.ts:14911](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14911)
+[index.d.ts:15014](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15014)
 
 ___
 
@@ -52,4 +52,4 @@ The type of the debug session.
 
 #### Defined in
 
-[index.d.ts:14901](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14901)
+[index.d.ts:15004](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L15004)

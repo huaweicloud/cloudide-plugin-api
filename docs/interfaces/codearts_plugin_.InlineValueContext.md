@@ -23,7 +23,7 @@ The stack frame (as a DAP Id) where the execution has stopped.
 
 #### Defined in
 
-[index.d.ts:3017](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3017)
+[index.d.ts:3017](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3017)
 
 ___
 
@@ -36,4 +36,4 @@ Typically the end position of the range denotes the line where the inline values
 
 #### Defined in
 
-[index.d.ts:3023](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3023)
+[index.d.ts:3023](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L3023)

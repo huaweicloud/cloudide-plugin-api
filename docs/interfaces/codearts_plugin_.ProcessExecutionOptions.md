@@ -24,7 +24,7 @@ If omitted the tools current workspace root is used.
 
 #### Defined in
 
-[index.d.ts:7296](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7296)
+[index.d.ts:7334](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7334)
 
 ___
 
@@ -42,4 +42,4 @@ the parent process' environment.
 
 #### Defined in
 
-[index.d.ts:7303](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7303)
+[index.d.ts:7341](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7341)

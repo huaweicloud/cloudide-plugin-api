@@ -22,4 +22,4 @@ Controls whether task variables are re-evaluated on rerun.
 
 #### Defined in
 
-[index.d.ts:7541](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7541)
+[index.d.ts:7579](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L7579)

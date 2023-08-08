@@ -26,7 +26,7 @@ Menu show in group.
 
 #### Defined in
 
-[index.d.ts:17820](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17820)
+[index.d.ts:17945](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17945)
 
 ___
 
@@ -38,7 +38,7 @@ Menu icon.
 
 #### Defined in
 
-[index.d.ts:17830](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17830)
+[index.d.ts:17955](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17955)
 
 ___
 
@@ -50,7 +50,7 @@ The title with a mnemonic designation. && precedes the mnemonic.
 
 #### Defined in
 
-[index.d.ts:17810](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17810)
+[index.d.ts:17935](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17935)
 
 ___
 
@@ -62,7 +62,7 @@ The menu shown order.
 
 #### Defined in
 
-[index.d.ts:17825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17825)
+[index.d.ts:17950](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17950)
 
 ___
 
@@ -74,7 +74,7 @@ Custom menu id.
 
 #### Defined in
 
-[index.d.ts:17800](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17800)
+[index.d.ts:17925](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17925)
 
 ___
 
@@ -86,7 +86,7 @@ Title shown on menu.
 
 #### Defined in
 
-[index.d.ts:17805](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17805)
+[index.d.ts:17930](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17930)
 
 ___
 
@@ -98,4 +98,4 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:17815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17815)
+[index.d.ts:17940](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L17940)

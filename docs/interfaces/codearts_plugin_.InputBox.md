@@ -60,7 +60,7 @@ user input.
 
 #### Defined in
 
-[index.d.ts:11504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11504)
+[index.d.ts:11606](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11606)
 
 ___
 
@@ -72,7 +72,7 @@ Buttons for actions in the UI.
 
 #### Defined in
 
-[index.d.ts:11675](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11675)
+[index.d.ts:11777](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11777)
 
 ___
 
@@ -91,7 +91,7 @@ loading data for the next step in user input.
 
 #### Defined in
 
-[index.d.ts:11496](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11496)
+[index.d.ts:11598](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11598)
 
 ___
 
@@ -108,7 +108,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:11510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11510)
+[index.d.ts:11612](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11612)
 
 ___
 
@@ -120,7 +120,7 @@ An event signaling when the user indicated acceptance of the input value.
 
 #### Defined in
 
-[index.d.ts:11670](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11670)
+[index.d.ts:11772](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11772)
 
 ___
 
@@ -132,7 +132,7 @@ An event signaling when the value has changed.
 
 #### Defined in
 
-[index.d.ts:11665](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11665)
+[index.d.ts:11767](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11767)
 
 ___
 
@@ -153,7 +153,7 @@ the user pressing Esc, some other input UI opening, etc.)
 
 #### Defined in
 
-[index.d.ts:11532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11532)
+[index.d.ts:11634](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11634)
 
 ___
 
@@ -165,7 +165,7 @@ An event signaling when a button was triggered.
 
 #### Defined in
 
-[index.d.ts:11680](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11680)
+[index.d.ts:11782](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11782)
 
 ___
 
@@ -177,7 +177,7 @@ If the input value should be hidden. Defaults to false.
 
 #### Defined in
 
-[index.d.ts:11660](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11660)
+[index.d.ts:11762](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11762)
 
 ___
 
@@ -189,7 +189,7 @@ Optional placeholder in the filter text.
 
 #### Defined in
 
-[index.d.ts:11655](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11655)
+[index.d.ts:11757](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11757)
 
 ___
 
@@ -201,7 +201,7 @@ An optional prompt text providing some ask or explanation to the user.
 
 #### Defined in
 
-[index.d.ts:11685](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11685)
+[index.d.ts:11787](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11787)
 
 ___
 
@@ -217,7 +217,7 @@ An optional current step count.
 
 #### Defined in
 
-[index.d.ts:11483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11483)
+[index.d.ts:11585](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11585)
 
 ___
 
@@ -233,7 +233,7 @@ An optional title.
 
 #### Defined in
 
-[index.d.ts:11478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11478)
+[index.d.ts:11580](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11580)
 
 ___
 
@@ -249,7 +249,7 @@ An optional total step count.
 
 #### Defined in
 
-[index.d.ts:11488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11488)
+[index.d.ts:11590](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11590)
 
 ___
 
@@ -263,7 +263,7 @@ Returning undefined clears the validation message.
 
 #### Defined in
 
-[index.d.ts:11692](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11692)
+[index.d.ts:11794](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11794)
 
 ___
 
@@ -275,7 +275,7 @@ Current input value.
 
 #### Defined in
 
-[index.d.ts:11650](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11650)
+[index.d.ts:11752](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11752)
 
 ## Methods
 
@@ -298,7 +298,7 @@ accessed. Instead a new input UI should be created.
 
 #### Defined in
 
-[index.d.ts:11540](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11540)
+[index.d.ts:11642](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11642)
 
 ___
 
@@ -319,7 +319,7 @@ event.
 
 #### Defined in
 
-[index.d.ts:11522](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11522)
+[index.d.ts:11624](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11624)
 
 ___
 
@@ -340,4 +340,4 @@ UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) even
 
 #### Defined in
 
-[index.d.ts:11516](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11516)
+[index.d.ts:11618](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L11618)

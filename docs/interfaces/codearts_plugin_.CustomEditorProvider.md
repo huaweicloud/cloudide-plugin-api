@@ -66,7 +66,7 @@ An editor should only ever fire `CustomDocumentEditEvent` events, or only ever f
 
 #### Defined in
 
-[index.d.ts:8994](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8994)
+[index.d.ts:9032](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9032)
 
 ## Methods
 
@@ -101,7 +101,7 @@ rapidly edits the document, `backup` will not be invoked until the editing stops
 
 #### Defined in
 
-[index.d.ts:9067](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9067)
+[index.d.ts:9105](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9105)
 
 ___
 
@@ -138,7 +138,7 @@ The custom document.
 
 #### Defined in
 
-[index.d.ts:8940](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8940)
+[index.d.ts:8978](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8978)
 
 ___
 
@@ -170,7 +170,7 @@ Optional thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8959)
+[index.d.ts:8997](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L8997)
 
 ___
 
@@ -202,7 +202,7 @@ Thenable signaling that the change has completed.
 
 #### Defined in
 
-[index.d.ts:9044](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9044)
+[index.d.ts:9082](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9082)
 
 ___
 
@@ -234,7 +234,7 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:9011](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9011)
+[index.d.ts:9049](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9049)
 
 ___
 
@@ -265,4 +265,4 @@ Thenable signaling that saving has completed.
 
 #### Defined in
 
-[index.d.ts:9027](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9027)
+[index.d.ts:9065](https://github.com/xyz-fish/cloudide-plugin-api/blob/9927cd6/index.d.ts#L9065)
