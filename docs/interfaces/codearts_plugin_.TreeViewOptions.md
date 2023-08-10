@@ -33,7 +33,7 @@ array containing all selected tree items.
 
 #### Defined in
 
-[index.d.ts:10450](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10450)
+[index.d.ts:10529](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10529)
 
 ___
 
@@ -45,7 +45,7 @@ An optional interface to implement drag and drop in the tree view.
 
 #### Defined in
 
-[index.d.ts:10455](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10455)
+[index.d.ts:10534](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10534)
 
 ___
 
@@ -57,7 +57,7 @@ Whether to show collapse all action or not.
 
 #### Defined in
 
-[index.d.ts:10443](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10443)
+[index.d.ts:10522](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10522)
 
 ___
 
@@ -69,4 +69,4 @@ A data provider that provides tree data.
 
 #### Defined in
 
-[index.d.ts:10438](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10438)
+[index.d.ts:10517](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10517)

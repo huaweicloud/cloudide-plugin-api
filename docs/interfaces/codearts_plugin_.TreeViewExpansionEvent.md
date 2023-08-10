@@ -28,4 +28,4 @@ Element that is expanded or collapsed.
 
 #### Defined in
 
-[index.d.ts:10466](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10466)
+[index.d.ts:10545](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10545)

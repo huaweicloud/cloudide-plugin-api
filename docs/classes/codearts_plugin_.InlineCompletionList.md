@@ -33,7 +33,7 @@ Creates a new list of inline completion items.
 
 #### Defined in
 
-[index.d.ts:4568](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4568)
+[index.d.ts:4619](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4619)
 
 ## Properties
 
@@ -45,4 +45,4 @@ The inline completion items.
 
 #### Defined in
 
-[index.d.ts:4563](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4563)
+[index.d.ts:4614](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4614)

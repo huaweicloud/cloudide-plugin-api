@@ -26,7 +26,7 @@ from the user's workspace.
 
 #### Defined in
 
-[index.d.ts:8902](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8902)
+[index.d.ts:8969](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8969)
 
 ___
 
@@ -40,4 +40,4 @@ If this is provided, your extension should utilize this byte data rather than ex
 
 #### Defined in
 
-[index.d.ts:8909](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8909)
+[index.d.ts:8976](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8976)

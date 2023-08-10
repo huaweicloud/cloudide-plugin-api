@@ -33,7 +33,7 @@ the integer encoded representation of semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3693](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3693)
+[index.d.ts:3731](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3731)
 
 ## Properties
 
@@ -45,7 +45,7 @@ The possible token modifiers.
 
 #### Defined in
 
-[index.d.ts:3691](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3691)
+[index.d.ts:3729](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3729)
 
 ___
 
@@ -57,4 +57,4 @@ The possible token types.
 
 #### Defined in
 
-[index.d.ts:3687](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3687)
+[index.d.ts:3725](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3725)

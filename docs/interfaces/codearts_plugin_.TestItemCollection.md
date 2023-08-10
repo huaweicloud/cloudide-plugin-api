@@ -37,7 +37,7 @@ Gets the number of items in the collection.
 
 #### Defined in
 
-[index.d.ts:16556](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16556)
+[index.d.ts:16665](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16665)
 
 ## Methods
 
@@ -60,7 +60,7 @@ exists, it'll be replaced.
 
 #### Defined in
 
-[index.d.ts:16577](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16577)
+[index.d.ts:16686](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16686)
 
 ___
 
@@ -82,7 +82,7 @@ Removes a single test item from the collection.
 
 #### Defined in
 
-[index.d.ts:16583](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16583)
+[index.d.ts:16692](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16692)
 
 ___
 
@@ -105,7 +105,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:16570](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16570)
+[index.d.ts:16679](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16679)
 
 ___
 
@@ -129,7 +129,7 @@ The found item or undefined if it does not exist.
 
 #### Defined in
 
-[index.d.ts:16590](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16590)
+[index.d.ts:16699](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16699)
 
 ___
 
@@ -151,4 +151,4 @@ Replaces the items stored by the collection.
 
 #### Defined in
 
-[index.d.ts:16562](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16562)
+[index.d.ts:16671](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16671)

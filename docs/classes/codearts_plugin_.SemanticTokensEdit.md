@@ -38,7 +38,7 @@ Represents an edit to semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3789](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3789)
+[index.d.ts:3827](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3827)
 
 ## Properties
 
@@ -50,7 +50,7 @@ The elements to insert.
 
 #### Defined in
 
-[index.d.ts:3787](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3787)
+[index.d.ts:3825](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3825)
 
 ___
 
@@ -62,7 +62,7 @@ The count of elements to remove.
 
 #### Defined in
 
-[index.d.ts:3783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3783)
+[index.d.ts:3821](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3821)
 
 ___
 
@@ -74,4 +74,4 @@ The start offset of the edit.
 
 #### Defined in
 
-[index.d.ts:3779](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3779)
+[index.d.ts:3817](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3817)

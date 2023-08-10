@@ -24,7 +24,7 @@ Always brings the terminal to front if the task is executed.
 
 #### Defined in
 
-[index.d.ts:7145](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7145)
+[index.d.ts:7212](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7212)
 
 ___
 
@@ -36,7 +36,7 @@ The terminal never comes to front when the task is executed.
 
 #### Defined in
 
-[index.d.ts:7156](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7156)
+[index.d.ts:7223](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7223)
 
 ___
 
@@ -49,4 +49,4 @@ Only brings the terminal to front if a problem is detected executing the task
 
 #### Defined in
 
-[index.d.ts:7151](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7151)
+[index.d.ts:7218](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7218)

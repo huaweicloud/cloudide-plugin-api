@@ -27,7 +27,7 @@ The building state represents an active build and the UI shows the build button 
 
 #### Defined in
 
-[index.d.ts:16816](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16816)
+[index.d.ts:16925](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16925)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16814](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16814)
+[index.d.ts:16923](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16923)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16815)
+[index.d.ts:16924](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16924)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16817](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16817)
+[index.d.ts:16926](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16926)

@@ -37,7 +37,7 @@ To signal that root has changed, do not pass any argument or pass `undefined` or
 
 #### Defined in
 
-[index.d.ts:10766](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10766)
+[index.d.ts:10854](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10854)
 
 ## Methods
 
@@ -61,7 +61,7 @@ Children of `element` or root if no element is passed.
 
 #### Defined in
 
-[index.d.ts:10782](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10782)
+[index.d.ts:10870](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10870)
 
 ___
 
@@ -88,7 +88,7 @@ Parent of `element`.
 
 #### Defined in
 
-[index.d.ts:10793](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10793)
+[index.d.ts:10881](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10881)
 
 ___
 
@@ -112,7 +112,7 @@ TreeItem representation of the element.
 
 #### Defined in
 
-[index.d.ts:10774](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10774)
+[index.d.ts:10862](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10862)
 
 ___
 
@@ -151,4 +151,4 @@ The resolved tree item or a thenable that resolves to such. It is OK to return t
 
 #### Defined in
 
-[index.d.ts:10816](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10816)
+[index.d.ts:10904](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10904)

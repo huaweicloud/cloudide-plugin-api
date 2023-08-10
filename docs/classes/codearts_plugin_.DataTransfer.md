@@ -51,7 +51,7 @@ Iterable.\_\_@iterator@10
 
 #### Defined in
 
-[index.d.ts:10599](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10599)
+[index.d.ts:10678](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10678)
 
 ___
 
@@ -74,7 +74,7 @@ Allows iteration through the data transfer items.
 
 #### Defined in
 
-[index.d.ts:10594](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10594)
+[index.d.ts:10673](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10673)
 
 ___
 
@@ -96,7 +96,7 @@ Retrieves the data transfer item for a given mime type.
 
 #### Defined in
 
-[index.d.ts:10579](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10579)
+[index.d.ts:10658](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10658)
 
 ___
 
@@ -119,4 +119,4 @@ Sets a mime type to data transfer item mapping.
 
 #### Defined in
 
-[index.d.ts:10586](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10586)
+[index.d.ts:10665](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10665)

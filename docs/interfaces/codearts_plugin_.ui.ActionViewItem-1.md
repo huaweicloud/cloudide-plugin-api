@@ -48,7 +48,7 @@ Action parameters.
 
 #### Defined in
 
-[index.d.ts:17398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17398)
+[index.d.ts:17507](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17507)
 
 ___
 
@@ -64,7 +64,7 @@ The unique id of ActionViewItem control.
 
 #### Defined in
 
-[index.d.ts:17393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17393)
+[index.d.ts:17502](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17502)
 
 ___
 
@@ -80,7 +80,7 @@ The frontend module name corresponding to this control.
 
 #### Defined in
 
-[index.d.ts:17292](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17292)
+[index.d.ts:17401](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17401)
 
 ___
 
@@ -92,7 +92,7 @@ Callback when a ActionViewItem is clicked.
 
 #### Defined in
 
-[index.d.ts:17408](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17408)
+[index.d.ts:17517](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17517)
 
 ___
 
@@ -108,7 +108,7 @@ Fired when the control is mounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17302)
+[index.d.ts:17411](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17411)
 
 ___
 
@@ -124,7 +124,7 @@ Fired when the control is unmounted in front-end dom.
 
 #### Defined in
 
-[index.d.ts:17307](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17307)
+[index.d.ts:17416](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17416)
 
 ___
 
@@ -136,7 +136,7 @@ Configuration parameters of the ActionViewItem component.
 
 #### Defined in
 
-[index.d.ts:17403](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17403)
+[index.d.ts:17512](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17512)
 
 ## Methods
 
@@ -152,7 +152,7 @@ Blur the current item element.
 
 #### Defined in
 
-[index.d.ts:17428](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17428)
+[index.d.ts:17537](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17537)
 
 ___
 
@@ -172,7 +172,7 @@ Destroy the component.
 
 #### Defined in
 
-[index.d.ts:17453](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17453)
+[index.d.ts:17562](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17562)
 
 ___
 
@@ -188,7 +188,7 @@ Focus the current item element.
 
 #### Defined in
 
-[index.d.ts:17418](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17418)
+[index.d.ts:17527](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17527)
 
 ___
 
@@ -204,7 +204,7 @@ Determine whether the current element is focused.
 
 #### Defined in
 
-[index.d.ts:17423](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17423)
+[index.d.ts:17532](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17532)
 
 ___
 
@@ -231,7 +231,7 @@ Listen for events, the `eventType` here can only support the event type that the
 
 #### Defined in
 
-[index.d.ts:17312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17312)
+[index.d.ts:17421](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17421)
 
 ___
 
@@ -247,7 +247,7 @@ Obtains the order of the current component.
 
 #### Defined in
 
-[index.d.ts:17458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17458)
+[index.d.ts:17567](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17567)
 
 ___
 
@@ -263,7 +263,7 @@ Render an html element from the action view item element.
 
 #### Defined in
 
-[index.d.ts:17413](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17413)
+[index.d.ts:17522](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17522)
 
 ___
 
@@ -279,7 +279,7 @@ Event for modifying item focusable when dot is set.
 
 #### Defined in
 
-[index.d.ts:17433](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17433)
+[index.d.ts:17542](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17542)
 
 ___
 
@@ -295,7 +295,7 @@ Update the class of the current item.
 
 #### Defined in
 
-[index.d.ts:17438](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17438)
+[index.d.ts:17547](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17547)
 
 ___
 
@@ -311,7 +311,7 @@ Update the label of the current item.
 
 #### Defined in
 
-[index.d.ts:17443](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17443)
+[index.d.ts:17552](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17552)
 
 ___
 
@@ -327,4 +327,4 @@ Update the tooltip of the current item.
 
 #### Defined in
 
-[index.d.ts:17448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17448)
+[index.d.ts:17557](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17557)

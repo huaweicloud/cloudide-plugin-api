@@ -44,7 +44,7 @@ Creates a new call hierarchy item.
 
 #### Defined in
 
-[index.d.ts:5198](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5198)
+[index.d.ts:5249](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5249)
 
 ## Properties
 
@@ -56,7 +56,7 @@ More detail for this item, e.g. the signature of a function.
 
 #### Defined in
 
-[index.d.ts:5177](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5177)
+[index.d.ts:5228](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5228)
 
 ___
 
@@ -68,7 +68,7 @@ The kind of this item.
 
 #### Defined in
 
-[index.d.ts:5167](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5167)
+[index.d.ts:5218](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5218)
 
 ___
 
@@ -80,7 +80,7 @@ The name of this item.
 
 #### Defined in
 
-[index.d.ts:5162](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5162)
+[index.d.ts:5213](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5213)
 
 ___
 
@@ -92,7 +92,7 @@ The range enclosing this symbol not including leading/trailing whitespace but ev
 
 #### Defined in
 
-[index.d.ts:5187](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5187)
+[index.d.ts:5238](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5238)
 
 ___
 
@@ -105,7 +105,7 @@ Must be contained by the [`range`](codearts_plugin_.CallHierarchyItem.md#range).
 
 #### Defined in
 
-[index.d.ts:5193](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5193)
+[index.d.ts:5244](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5244)
 
 ___
 
@@ -117,7 +117,7 @@ Tags for this item.
 
 #### Defined in
 
-[index.d.ts:5172](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5172)
+[index.d.ts:5223](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5223)
 
 ___
 
@@ -129,4 +129,4 @@ The resource identifier of this item.
 
 #### Defined in
 
-[index.d.ts:5182](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5182)
+[index.d.ts:5233](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5233)

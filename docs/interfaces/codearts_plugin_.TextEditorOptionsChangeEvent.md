@@ -23,7 +23,7 @@ The new value for the [text editor's options](codearts_plugin_.TextEditor.md#opt
 
 #### Defined in
 
-[index.d.ts:579](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L579)
+[index.d.ts:579](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L579)
 
 ___
 
@@ -35,4 +35,4 @@ The [text editor](codearts_plugin_.TextEditor.md) for which the options have cha
 
 #### Defined in
 
-[index.d.ts:575](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L575)
+[index.d.ts:575](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L575)

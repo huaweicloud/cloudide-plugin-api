@@ -24,7 +24,7 @@ The [AuthenticationSessions](codearts_plugin_.AuthenticationSession.md) of the [
 
 #### Defined in
 
-[index.d.ts:16013](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16013)
+[index.d.ts:16165](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16165)
 
 ___
 
@@ -38,7 +38,7 @@ access token being set for the session.
 
 #### Defined in
 
-[index.d.ts:16025](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16025)
+[index.d.ts:16177](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16177)
 
 ___
 
@@ -50,4 +50,4 @@ The [AuthenticationSessions](codearts_plugin_.AuthenticationSession.md) of the [
 
 #### Defined in
 
-[index.d.ts:16018](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16018)
+[index.d.ts:16170](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16170)

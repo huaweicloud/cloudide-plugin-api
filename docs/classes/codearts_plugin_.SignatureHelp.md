@@ -36,7 +36,7 @@ The active parameter of the active signature.
 
 #### Defined in
 
-[index.d.ts:4082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4082)
+[index.d.ts:4120](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4120)
 
 ___
 
@@ -48,7 +48,7 @@ The active signature.
 
 #### Defined in
 
-[index.d.ts:4077](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4077)
+[index.d.ts:4115](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4115)
 
 ___
 
@@ -60,4 +60,4 @@ One or more signatures.
 
 #### Defined in
 
-[index.d.ts:4072](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4072)
+[index.d.ts:4110](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4110)

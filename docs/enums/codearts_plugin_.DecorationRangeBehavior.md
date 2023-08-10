@@ -25,7 +25,7 @@ The decoration's range will not widen when edits occur at the start of end.
 
 #### Defined in
 
-[index.d.ts:746](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L746)
+[index.d.ts:746](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L746)
 
 ___
 
@@ -37,7 +37,7 @@ The decoration's range will widen when edits occur at the end, but not at the st
 
 #### Defined in
 
-[index.d.ts:754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L754)
+[index.d.ts:754](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L754)
 
 ___
 
@@ -49,7 +49,7 @@ The decoration's range will widen when edits occur at the start, but not at the 
 
 #### Defined in
 
-[index.d.ts:750](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L750)
+[index.d.ts:750](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L750)
 
 ___
 
@@ -61,4 +61,4 @@ The decoration's range will widen when edits occur at the start or end.
 
 #### Defined in
 
-[index.d.ts:742](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L742)
+[index.d.ts:742](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L742)

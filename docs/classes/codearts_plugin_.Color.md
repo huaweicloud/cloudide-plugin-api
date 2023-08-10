@@ -38,7 +38,7 @@ Creates a new color instance.
 
 #### Defined in
 
-[index.d.ts:4764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4764)
+[index.d.ts:4815](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4815)
 
 ## Properties
 
@@ -50,7 +50,7 @@ The alpha component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4754)
+[index.d.ts:4805](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4805)
 
 ___
 
@@ -62,7 +62,7 @@ The blue component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4749)
+[index.d.ts:4800](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4800)
 
 ___
 
@@ -74,7 +74,7 @@ The green component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4744)
+[index.d.ts:4795](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4795)
 
 ___
 
@@ -86,4 +86,4 @@ The red component of this color in the range [0-1].
 
 #### Defined in
 
-[index.d.ts:4739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4739)
+[index.d.ts:4790](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4790)

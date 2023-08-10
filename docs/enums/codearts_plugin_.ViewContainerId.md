@@ -30,7 +30,7 @@ ID of the built-in view container of the vscode.
 
 #### Defined in
 
-[index.d.ts:9475](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9475)
+[index.d.ts:9543](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9543)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9480](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9480)
+[index.d.ts:9548](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9548)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9473)
+[index.d.ts:9541](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9541)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9477](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9477)
+[index.d.ts:9545](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9545)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9478)
+[index.d.ts:9546](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9546)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9479](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9479)
+[index.d.ts:9547](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9547)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9482](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9482)
+[index.d.ts:9550](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9550)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9474](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9474)
+[index.d.ts:9542](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9542)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9472](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9472)
+[index.d.ts:9540](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9540)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:9481](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9481)
+[index.d.ts:9549](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9549)
 
 ___
 
@@ -130,4 +130,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9476](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9476)
+[index.d.ts:9544](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9544)

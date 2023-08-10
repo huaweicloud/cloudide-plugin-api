@@ -33,4 +33,4 @@ https://invisible-island.net/xterm/ctlseqs/ctlseqs.html
 
 #### Defined in
 
-[index.d.ts:6601](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6601)
+[index.d.ts:6668](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6668)

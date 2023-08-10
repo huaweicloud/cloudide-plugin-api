@@ -24,7 +24,7 @@ Determines an item is collapsed
 
 #### Defined in
 
-[index.d.ts:10928](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10928)
+[index.d.ts:11016](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11016)
 
 ___
 
@@ -36,7 +36,7 @@ Determines an item is expanded
 
 #### Defined in
 
-[index.d.ts:10932](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10932)
+[index.d.ts:11020](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11020)
 
 ___
 
@@ -48,4 +48,4 @@ Determines an item can be neither collapsed nor expanded. Implies it has no chil
 
 #### Defined in
 
-[index.d.ts:10924](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10924)
+[index.d.ts:11012](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11012)

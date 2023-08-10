@@ -29,7 +29,7 @@ The task that got started.
 
 #### Defined in
 
-[index.d.ts:7683](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7683)
+[index.d.ts:7750](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7750)
 
 ## Methods
 
@@ -45,4 +45,4 @@ Terminates the task execution.
 
 #### Defined in
 
-[index.d.ts:7688](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7688)
+[index.d.ts:7755](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7755)

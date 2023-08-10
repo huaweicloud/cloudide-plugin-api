@@ -85,7 +85,7 @@ the command handler function doesn't return anything.
 
 #### Defined in
 
-[index.d.ts:9353](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9353)
+[index.d.ts:9420](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9420)
 
 ___
 
@@ -101,7 +101,7 @@ Return the list of commands available in command palette with more information a
 
 #### Defined in
 
-[index.d.ts:9367](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9367)
+[index.d.ts:9434](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9434)
 
 ___
 
@@ -126,7 +126,7 @@ Thenable that resolves to a list of command ids.
 
 #### Defined in
 
-[index.d.ts:9362](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9362)
+[index.d.ts:9429](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9429)
 
 ___
 
@@ -156,7 +156,7 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9320](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9320)
+[index.d.ts:9387](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9387)
 
 ___
 
@@ -189,4 +189,4 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9337](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9337)
+[index.d.ts:9404](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9404)

@@ -24,7 +24,7 @@ The order in which the execution happened.
 
 #### Defined in
 
-[index.d.ts:13947](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13947)
+[index.d.ts:14079](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14079)
 
 ___
 
@@ -36,7 +36,7 @@ If the execution finished successfully.
 
 #### Defined in
 
-[index.d.ts:13952](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13952)
+[index.d.ts:14084](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14084)
 
 ___
 
@@ -55,4 +55,4 @@ The times at which execution started and ended, as unix timestamps
 
 #### Defined in
 
-[index.d.ts:13957](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13957)
+[index.d.ts:14089](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14089)

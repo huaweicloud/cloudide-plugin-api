@@ -56,7 +56,7 @@ All extensions currently known to the system.
 
 #### Defined in
 
-[index.d.ts:15568](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15568)
+[index.d.ts:15720](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15720)
 
 ## Functions
 
@@ -86,7 +86,7 @@ An extension or `undefined`.
 
 #### Defined in
 
-[index.d.ts:15563](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15563)
+[index.d.ts:15715](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15715)
 
 ___
 
@@ -113,4 +113,4 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)

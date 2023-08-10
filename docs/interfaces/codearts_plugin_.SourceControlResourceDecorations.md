@@ -34,7 +34,7 @@ The dark theme decorations.
 
 #### Defined in
 
-[index.d.ts:14696](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14696)
+[index.d.ts:14828](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14828)
 
 ___
 
@@ -47,7 +47,7 @@ be faded in the UI.
 
 #### Defined in
 
-[index.d.ts:14680](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14680)
+[index.d.ts:14812](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14812)
 
 ___
 
@@ -64,7 +64,7 @@ The icon path for a specific
 
 #### Defined in
 
-[index.d.ts:14661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14661)
+[index.d.ts:14793](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14793)
 
 ___
 
@@ -76,7 +76,7 @@ The light theme decorations.
 
 #### Defined in
 
-[index.d.ts:14691](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14691)
+[index.d.ts:14823](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14823)
 
 ___
 
@@ -89,7 +89,7 @@ be striked-through in the UI.
 
 #### Defined in
 
-[index.d.ts:14674](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14674)
+[index.d.ts:14806](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14806)
 
 ___
 
@@ -102,4 +102,4 @@ The title for a specific
 
 #### Defined in
 
-[index.d.ts:14686](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14686)
+[index.d.ts:14818](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14818)

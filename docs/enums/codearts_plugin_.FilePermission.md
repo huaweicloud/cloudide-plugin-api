@@ -25,4 +25,4 @@ registered where some `FileStat` are not readonly.
 
 #### Defined in
 
-[index.d.ts:7860](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7860)
+[index.d.ts:7927](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7927)

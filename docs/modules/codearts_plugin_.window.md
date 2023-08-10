@@ -64,6 +64,7 @@ asking for user input.
 - [registerProjectWizardProvider](codearts_plugin_.window.md#registerprojectwizardprovider)
 - [registerTerminalLinkProvider](codearts_plugin_.window.md#registerterminallinkprovider)
 - [registerTerminalProfileProvider](codearts_plugin_.window.md#registerterminalprofileprovider)
+- [registerToWelcomePage](codearts_plugin_.window.md#registertowelcomepage)
 - [registerTreeDataProvider](codearts_plugin_.window.md#registertreedataprovider)
 - [registerUriHandler](codearts_plugin_.window.md#registerurihandler)
 - [registerViewContainerSubTitle](codearts_plugin_.window.md#registerviewcontainersubtitle)
@@ -98,7 +99,7 @@ theme can be changed via the `workbench.colorTheme` setting.
 
 #### Defined in
 
-[index.d.ts:10359](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10359)
+[index.d.ts:10438](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10438)
 
 ___
 
@@ -112,7 +113,7 @@ input most recently.
 
 #### Defined in
 
-[index.d.ts:9657](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9657)
+[index.d.ts:9725](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9725)
 
 ___
 
@@ -125,7 +126,7 @@ currently has focus or most recently had focus.
 
 #### Defined in
 
-[index.d.ts:9687](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9687)
+[index.d.ts:9755](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9755)
 
 ___
 
@@ -139,7 +140,7 @@ input most recently.
 
 #### Defined in
 
-[index.d.ts:9601](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9601)
+[index.d.ts:9669](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9669)
 
 ___
 
@@ -151,7 +152,7 @@ An array of resource uri which are selected in explorer.
 
 #### Defined in
 
-[index.d.ts:10427](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10427)
+[index.d.ts:10506](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10506)
 
 ___
 
@@ -163,7 +164,7 @@ Represents the current window's state.
 
 #### Defined in
 
-[index.d.ts:9725](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9725)
+[index.d.ts:9793](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9793)
 
 ___
 
@@ -175,7 +176,7 @@ Represents the grid widget within the main editor area
 
 #### Defined in
 
-[index.d.ts:9594](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9594)
+[index.d.ts:9662](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9662)
 
 ___
 
@@ -187,7 +188,7 @@ The currently opened terminals or an empty array.
 
 #### Defined in
 
-[index.d.ts:9681](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9681)
+[index.d.ts:9749](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9749)
 
 ___
 
@@ -199,7 +200,7 @@ The currently visible [notebook editors](../interfaces/codearts_plugin_.Notebook
 
 #### Defined in
 
-[index.d.ts:9644](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9644)
+[index.d.ts:9712](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9712)
 
 ___
 
@@ -211,7 +212,7 @@ The currently visible editors or an empty array.
 
 #### Defined in
 
-[index.d.ts:9606](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9606)
+[index.d.ts:9674](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9674)
 
 ## Functions
 
@@ -240,7 +241,7 @@ Please use `createLightWebviewPanel`.
 
 #### Defined in
 
-[index.d.ts:10064](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10064)
+[index.d.ts:10132](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10132)
 
 ___
 
@@ -262,7 +263,7 @@ A new [InputBox](../interfaces/codearts_plugin_.InputBox.md).
 
 #### Defined in
 
-[index.d.ts:10022](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10022)
+[index.d.ts:10090](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10090)
 
 ___
 
@@ -289,7 +290,7 @@ New webview panel.
 
 #### Defined in
 
-[index.d.ts:10058](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10058)
+[index.d.ts:10126](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10126)
 
 ___
 
@@ -316,7 +317,7 @@ and use the language id to contribute language features like syntax coloring, co
 
 #### Defined in
 
-[index.d.ts:10034](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10034)
+[index.d.ts:10102](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10102)
 
 ___
 
@@ -345,7 +346,7 @@ A new [QuickPick](../interfaces/codearts_plugin_.QuickPick.md).
 
 #### Defined in
 
-[index.d.ts:10011](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10011)
+[index.d.ts:10079](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10079)
 
 ___
 
@@ -370,7 +371,7 @@ A new status bar item.
 
 #### Defined in
 
-[index.d.ts:10138](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10138)
+[index.d.ts:10206](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10206)
 
 ▸ **createStatusBarItem**(`id`, `alignment?`, `priority?`): [`StatusBarItem`](../interfaces/codearts_plugin_.StatusBarItem.md)
 
@@ -392,7 +393,7 @@ A new status bar item.
 
 #### Defined in
 
-[index.d.ts:10148](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10148)
+[index.d.ts:10216](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10216)
 
 ___
 
@@ -423,7 +424,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:10162](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10162)
+[index.d.ts:10230](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10230)
 
 ▸ **createTerminal**(`options`): [`Terminal`](../interfaces/codearts_plugin_.Terminal.md)
 
@@ -447,7 +448,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:10171](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10171)
+[index.d.ts:10239](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10239)
 
 ▸ **createTerminal**(`options`): [`Terminal`](../interfaces/codearts_plugin_.Terminal.md)
 
@@ -467,7 +468,7 @@ A new Terminal.
 
 #### Defined in
 
-[index.d.ts:10180](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10180)
+[index.d.ts:10248](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10248)
 
 ___
 
@@ -491,7 +492,7 @@ A new decoration type instance.
 
 #### Defined in
 
-[index.d.ts:9783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9783)
+[index.d.ts:9851](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9851)
 
 ___
 
@@ -522,7 +523,7 @@ a [TreeView](../interfaces/codearts_plugin_.TreeView.md).
 
 #### Defined in
 
-[index.d.ts:10207](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10207)
+[index.d.ts:10275](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10275)
 
 ___
 
@@ -549,7 +550,7 @@ New webview panel.
 
 #### Defined in
 
-[index.d.ts:10046](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10046)
+[index.d.ts:10114](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10114)
 
 ___
 
@@ -574,7 +575,7 @@ Disposable that unregister the provider.
 
 #### Defined in
 
-[index.d.ts:10295](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10295)
+[index.d.ts:10374](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10374)
 
 ___
 
@@ -598,7 +599,7 @@ Terminal or undefined.
 
 #### Defined in
 
-[index.d.ts:10188](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10188)
+[index.d.ts:10256](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10256)
 
 ___
 
@@ -625,7 +626,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -652,7 +653,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -679,7 +680,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -706,7 +707,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -733,7 +734,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -760,7 +761,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -787,7 +788,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -814,7 +815,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -841,7 +842,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -868,7 +869,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -895,7 +896,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -922,7 +923,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -949,7 +950,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -976,7 +977,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -1003,7 +1004,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -1030,7 +1031,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -1057,7 +1058,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -1084,7 +1085,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -1109,7 +1110,7 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9589](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9589)
+[index.d.ts:9657](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9657)
 
 ___
 
@@ -1141,7 +1142,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10311](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10311)
+[index.d.ts:10390](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10390)
 
 ___
 
@@ -1165,7 +1166,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters the p
 
 #### Defined in
 
-[index.d.ts:10353](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10353)
+[index.d.ts:10432](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10432)
 
 ___
 
@@ -1192,7 +1193,7 @@ Recommend to use registerMenu.
 
 #### Defined in
 
-[index.d.ts:10372](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10372)
+[index.d.ts:10451](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10451)
 
 ___
 
@@ -1227,7 +1228,7 @@ vscode.window.registerMenu('MenubarFileMenu', { submenu: 'HelloMenuId', title: '
 
 #### Defined in
 
-[index.d.ts:10392](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10392)
+[index.d.ts:10471](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10471)
 
 ___
 
@@ -1253,7 +1254,7 @@ Recommend to use registerMenu. Now registerMenu will register id automatically.
 
 #### Defined in
 
-[index.d.ts:10399](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10399)
+[index.d.ts:10478](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10478)
 
 ___
 
@@ -1280,7 +1281,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10288](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10288)
+[index.d.ts:10356](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10356)
 
 ___
 
@@ -1304,7 +1305,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10339](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10339)
+[index.d.ts:10418](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10418)
 
 ___
 
@@ -1327,7 +1328,34 @@ Registers a provider for a contributed terminal profile.
 
 #### Defined in
 
-[index.d.ts:10346](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10346)
+[index.d.ts:10425](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10425)
+
+___
+
+### registerToWelcomePage
+
+▸ **registerToWelcomePage**(`label`, `command`, `iconPath`, `order?`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Register a command to the welcome page.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `label` | `string` | Label of the command. |
+| `command` | `string` | Identifier of a command to run on click. |
+| `iconPath` | `string` \| { `dark`: `string` ; `light`: `string`  } | - |
+| `order?` | `number` | List sort order. |
+
+#### Returns
+
+[`Disposable`](../classes/codearts_plugin_.Disposable.md)
+
+Disposable which unregisters the command from welcome page.
+
+#### Defined in
+
+[index.d.ts:10367](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10367)
 
 ___
 
@@ -1359,7 +1387,7 @@ This will allow you to contribute data to the [TreeView](../interfaces/codearts_
 
 #### Defined in
 
-[index.d.ts:10199](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10199)
+[index.d.ts:10267](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10267)
 
 ___
 
@@ -1397,7 +1425,7 @@ the current extension is about to be handled.
 
 #### Defined in
 
-[index.d.ts:10230](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10230)
+[index.d.ts:10298](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10298)
 
 ___
 
@@ -1426,7 +1454,7 @@ vscode.window.registerViewContainerSubTitle(viewContainerId, 'subTitle' });
 
 #### Defined in
 
-[index.d.ts:9575](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9575)
+[index.d.ts:9643](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9643)
 
 ___
 
@@ -1451,7 +1479,7 @@ Disposable which unregisters this command on disposal.
 
 #### Defined in
 
-[index.d.ts:9561](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9561)
+[index.d.ts:9629](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9629)
 
 ___
 
@@ -1479,7 +1507,7 @@ Only a single serializer may be registered at a time for a given `viewType`.
 
 #### Defined in
 
-[index.d.ts:10243](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10243)
+[index.d.ts:10311](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10311)
 
 ___
 
@@ -1507,7 +1535,7 @@ Disposable that unregisters the provider.
 
 #### Defined in
 
-[index.d.ts:10254](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10254)
+[index.d.ts:10322](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10322)
 
 ___
 
@@ -1533,7 +1561,7 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:10074](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10074)
+[index.d.ts:10142](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10142)
 
 ▸ **setStatusBarMessage**(`text`, `hideWhenDone`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1555,7 +1583,7 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:10084](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10084)
+[index.d.ts:10152](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10152)
 
 ▸ **setStatusBarMessage**(`text`): [`Disposable`](../classes/codearts_plugin_.Disposable.md)
 
@@ -1579,7 +1607,7 @@ A disposable which hides the status bar message.
 
 #### Defined in
 
-[index.d.ts:10096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10096)
+[index.d.ts:10164](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10164)
 
 ___
 
@@ -1603,7 +1631,7 @@ Show simple code message tip in the active editor
 
 #### Defined in
 
-[index.d.ts:10422](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10422)
+[index.d.ts:10501](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10501)
 
 ___
 
@@ -1638,7 +1666,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9884](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9884)
+[index.d.ts:9952](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9952)
 
 ▸ **showErrorMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1670,7 +1698,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9896](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9896)
+[index.d.ts:9964](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9964)
 
 ▸ **showErrorMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1701,7 +1729,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9907](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9907)
+[index.d.ts:9975](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9975)
 
 ▸ **showErrorMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1733,7 +1761,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9919](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9919)
+[index.d.ts:9987](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9987)
 
 ___
 
@@ -1765,7 +1793,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9793](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9793)
+[index.d.ts:9861](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9861)
 
 ▸ **showInformationMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1794,7 +1822,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9804](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9804)
+[index.d.ts:9872](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9872)
 
 ▸ **showInformationMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1825,7 +1853,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9815](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9815)
+[index.d.ts:9883](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9883)
 
 ▸ **showInformationMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -1857,7 +1885,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9827](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9827)
+[index.d.ts:9895](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9895)
 
 ___
 
@@ -1886,7 +1914,7 @@ A promise that resolves to a string the user provided or to `undefined` in case 
 
 #### Defined in
 
-[index.d.ts:9999](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9999)
+[index.d.ts:10067](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10067)
 
 ___
 
@@ -1911,7 +1939,7 @@ A promise that resolves to an [notebook editor](../interfaces/codearts_plugin_.N
 
 #### Defined in
 
-[index.d.ts:9775](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9775)
+[index.d.ts:9843](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9843)
 
 ___
 
@@ -1936,7 +1964,7 @@ A promise that resolves to the selected resources or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9977](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9977)
+[index.d.ts:10045](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10045)
 
 ___
 
@@ -1962,7 +1990,7 @@ A promise that resolves to the selected items or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9929](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9929)
+[index.d.ts:9997](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9997)
 
 ▸ **showQuickPick**(`items`, `options?`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`string` \| `undefined`\>
 
@@ -1984,7 +2012,7 @@ A promise that resolves to the selection or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9939](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9939)
+[index.d.ts:10007](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10007)
 
 ▸ **showQuickPick**<`T`\>(`items`, `options`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`T`[] \| `undefined`\>
 
@@ -2012,7 +2040,7 @@ A promise that resolves to the selected items or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9949](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9949)
+[index.d.ts:10017](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10017)
 
 ▸ **showQuickPick**<`T`\>(`items`, `options?`, `token?`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2040,7 +2068,7 @@ A promise that resolves to the selected item or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9959](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9959)
+[index.d.ts:10027](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10027)
 
 ___
 
@@ -2065,7 +2093,7 @@ A promise that resolves to the selected resource or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9986](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9986)
+[index.d.ts:10054](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10054)
 
 ___
 
@@ -2092,7 +2120,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9744)
+[index.d.ts:9812](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9812)
 
 ▸ **showTextDocument**(`document`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextEditor`](../interfaces/codearts_plugin_.TextEditor.md)\>
 
@@ -2114,7 +2142,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9754)
+[index.d.ts:9822](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9822)
 
 ▸ **showTextDocument**(`uri`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`TextEditor`](../interfaces/codearts_plugin_.TextEditor.md)\>
 
@@ -2139,7 +2167,7 @@ A promise that resolves to an [editor](../interfaces/codearts_plugin_.TextEditor
 
 #### Defined in
 
-[index.d.ts:9765](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9765)
+[index.d.ts:9833](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9833)
 
 ___
 
@@ -2174,7 +2202,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9838](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9838)
+[index.d.ts:9906](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9906)
 
 ▸ **showWarningMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2206,7 +2234,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9850](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9850)
+[index.d.ts:9918](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9918)
 
 ▸ **showWarningMessage**<`T`\>(`message`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2237,7 +2265,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9861](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9861)
+[index.d.ts:9929](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9929)
 
 ▸ **showWarningMessage**<`T`\>(`message`, `options`, ...`items`): [`Thenable`](../interfaces/Thenable.md)<`T` \| `undefined`\>
 
@@ -2269,7 +2297,7 @@ A thenable that resolves to the selected item or `undefined` when being dismisse
 
 #### Defined in
 
-[index.d.ts:9873](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9873)
+[index.d.ts:9941](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9941)
 
 ___
 
@@ -2294,7 +2322,7 @@ A promise that resolves to the workspace folder or `undefined`.
 
 #### Defined in
 
-[index.d.ts:9968](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9968)
+[index.d.ts:10036](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10036)
 
 ___
 
@@ -2320,7 +2348,7 @@ Recommend to use unregisterMenu.
 
 #### Defined in
 
-[index.d.ts:10406](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10406)
+[index.d.ts:10485](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10485)
 
 ___
 
@@ -2343,7 +2371,7 @@ by extensions.
 
 #### Defined in
 
-[index.d.ts:10413](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10413)
+[index.d.ts:10492](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10492)
 
 ___
 
@@ -2376,7 +2404,7 @@ The thenable the task-callback returned.
 
 #### Defined in
 
-[index.d.ts:10129](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10129)
+[index.d.ts:10197](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10197)
 
 ___
 
@@ -2411,4 +2439,4 @@ The thenable the task did return.
 
 #### Defined in
 
-[index.d.ts:10108](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10108)
+[index.d.ts:10176](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10176)

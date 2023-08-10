@@ -36,7 +36,7 @@ of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Ac
 
 #### Defined in
 
-[index.d.ts:6183](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6183)
+[index.d.ts:6250](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6250)
 
 ___
 
@@ -50,7 +50,7 @@ of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Be
 
 #### Defined in
 
-[index.d.ts:6189](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6189)
+[index.d.ts:6256](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6256)
 
 ___
 
@@ -62,7 +62,7 @@ The eighth editor column.
 
 #### Defined in
 
-[index.d.ts:6221](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6221)
+[index.d.ts:6288](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6288)
 
 ___
 
@@ -74,7 +74,7 @@ The fifth editor column.
 
 #### Defined in
 
-[index.d.ts:6209](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6209)
+[index.d.ts:6276](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6276)
 
 ___
 
@@ -86,7 +86,7 @@ The fourth editor column.
 
 #### Defined in
 
-[index.d.ts:6205](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6205)
+[index.d.ts:6272](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6272)
 
 ___
 
@@ -98,7 +98,7 @@ The ninth editor column.
 
 #### Defined in
 
-[index.d.ts:6225](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6225)
+[index.d.ts:6292](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6292)
 
 ___
 
@@ -110,7 +110,7 @@ The first editor column.
 
 #### Defined in
 
-[index.d.ts:6193](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6193)
+[index.d.ts:6260](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6260)
 
 ___
 
@@ -122,7 +122,7 @@ The seventh editor column.
 
 #### Defined in
 
-[index.d.ts:6217](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6217)
+[index.d.ts:6284](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6284)
 
 ___
 
@@ -134,7 +134,7 @@ The sixth editor column.
 
 #### Defined in
 
-[index.d.ts:6213](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6213)
+[index.d.ts:6280](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6280)
 
 ___
 
@@ -146,7 +146,7 @@ The third editor column.
 
 #### Defined in
 
-[index.d.ts:6201](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6201)
+[index.d.ts:6268](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6268)
 
 ___
 
@@ -158,4 +158,4 @@ The second editor column.
 
 #### Defined in
 
-[index.d.ts:6197](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6197)
+[index.d.ts:6264](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6264)

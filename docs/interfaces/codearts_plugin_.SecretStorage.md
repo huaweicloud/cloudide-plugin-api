@@ -29,7 +29,7 @@ Fires when a secret is stored or deleted.
 
 #### Defined in
 
-[index.d.ts:7114](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7114)
+[index.d.ts:7181](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7181)
 
 ## Methods
 
@@ -51,7 +51,7 @@ Remove a secret from storage.
 
 #### Defined in
 
-[index.d.ts:7109](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7109)
+[index.d.ts:7176](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7176)
 
 ___
 
@@ -76,7 +76,7 @@ The stored value or `undefined`.
 
 #### Defined in
 
-[index.d.ts:7096](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7096)
+[index.d.ts:7163](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7163)
 
 ___
 
@@ -99,4 +99,4 @@ Store a secret under a given key.
 
 #### Defined in
 
-[index.d.ts:7103](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7103)
+[index.d.ts:7170](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7170)

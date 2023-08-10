@@ -35,7 +35,7 @@ The human-readable name of this output channel.
 
 #### Defined in
 
-[index.d.ts:6239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6239)
+[index.d.ts:6306](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6306)
 
 ## Methods
 
@@ -57,7 +57,7 @@ Append the given value to the channel.
 
 #### Defined in
 
-[index.d.ts:6246](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6246)
+[index.d.ts:6313](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6313)
 
 ___
 
@@ -80,7 +80,7 @@ to the channel.
 
 #### Defined in
 
-[index.d.ts:6254](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6254)
+[index.d.ts:6321](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6321)
 
 ___
 
@@ -96,7 +96,7 @@ Removes all output from the channel.
 
 #### Defined in
 
-[index.d.ts:6266](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6266)
+[index.d.ts:6333](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6333)
 
 ___
 
@@ -112,7 +112,7 @@ Dispose and free associated resources.
 
 #### Defined in
 
-[index.d.ts:6293](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6293)
+[index.d.ts:6360](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6360)
 
 ___
 
@@ -128,7 +128,7 @@ Hide this channel from the UI.
 
 #### Defined in
 
-[index.d.ts:6288](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6288)
+[index.d.ts:6355](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6355)
 
 ___
 
@@ -150,7 +150,7 @@ Replaces all output from the channel with the given value.
 
 #### Defined in
 
-[index.d.ts:6261](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6261)
+[index.d.ts:6328](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6328)
 
 ___
 
@@ -172,7 +172,7 @@ Reveal this channel in the UI.
 
 #### Defined in
 
-[index.d.ts:6273](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6273)
+[index.d.ts:6340](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6340)
 
 ▸ **show**(`column?`, `preserveFocus?`): `void`
 
@@ -195,4 +195,4 @@ Use the overload with just one parameter (`show(preserveFocus?: boolean): void`)
 
 #### Defined in
 
-[index.d.ts:6283](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6283)
+[index.d.ts:6350](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6350)

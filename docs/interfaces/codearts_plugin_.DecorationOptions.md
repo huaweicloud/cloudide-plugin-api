@@ -24,7 +24,7 @@ A message that should be rendered when hovering over the decoration.
 
 #### Defined in
 
-[index.d.ts:1128](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1128)
+[index.d.ts:1128](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1128)
 
 ___
 
@@ -36,7 +36,7 @@ Range to which this decoration is applied. The range must not be empty.
 
 #### Defined in
 
-[index.d.ts:1123](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1123)
+[index.d.ts:1123](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1123)
 
 ___
 
@@ -49,4 +49,4 @@ number of decoration specific options small, and use decoration types wherever p
 
 #### Defined in
 
-[index.d.ts:1134](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1134)
+[index.d.ts:1134](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1134)

@@ -32,7 +32,7 @@ which contains delta encoded semantic tokens.
 
 #### Defined in
 
-[index.d.ts:3702](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3702)
+[index.d.ts:3740](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3740)
 
 ## Methods
 
@@ -54,7 +54,7 @@ Finish and create a `SemanticTokens` instance.
 
 #### Defined in
 
-[index.d.ts:3727](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3727)
+[index.d.ts:3765](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3765)
 
 ___
 
@@ -80,7 +80,7 @@ Add another token.
 
 #### Defined in
 
-[index.d.ts:3713](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3713)
+[index.d.ts:3751](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3751)
 
 ▸ **push**(`range`, `tokenType`, `tokenModifiers?`): `void`
 
@@ -100,4 +100,4 @@ Add another token. Use only when providing a legend.
 
 #### Defined in
 
-[index.d.ts:3722](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3722)
+[index.d.ts:3760](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3760)

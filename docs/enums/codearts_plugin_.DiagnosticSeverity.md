@@ -25,7 +25,7 @@ Something not allowed by the rules of a language or other means.
 
 #### Defined in
 
-[index.d.ts:5877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5877)
+[index.d.ts:5944](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5944)
 
 ___
 
@@ -38,7 +38,7 @@ a refactoring.
 
 #### Defined in
 
-[index.d.ts:5893](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5893)
+[index.d.ts:5960](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5960)
 
 ___
 
@@ -50,7 +50,7 @@ Something to inform about but not a problem.
 
 #### Defined in
 
-[index.d.ts:5887](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5887)
+[index.d.ts:5954](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5954)
 
 ___
 
@@ -62,4 +62,4 @@ Something suspicious but allowed.
 
 #### Defined in
 
-[index.d.ts:5882](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5882)
+[index.d.ts:5949](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5949)

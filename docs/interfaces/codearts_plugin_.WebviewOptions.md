@@ -28,7 +28,7 @@ Defaults to false.
 
 #### Defined in
 
-[index.d.ts:8275](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8275)
+[index.d.ts:8342](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8342)
 
 ___
 
@@ -43,7 +43,7 @@ Explicitly setting this property to either true or false overrides the default.
 
 #### Defined in
 
-[index.d.ts:8268](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8268)
+[index.d.ts:8335](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8335)
 
 ___
 
@@ -57,7 +57,7 @@ Defaults to false (scripts-disabled).
 
 #### Defined in
 
-[index.d.ts:8260](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8260)
+[index.d.ts:8327](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8327)
 
 ___
 
@@ -73,7 +73,7 @@ Pass in an empty array to disallow access to any local resources.
 
 #### Defined in
 
-[index.d.ts:8284](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8284)
+[index.d.ts:8351](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8351)
 
 ___
 
@@ -95,4 +95,4 @@ cannot be mapped to another port.
 
 #### Defined in
 
-[index.d.ts:8299](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8299)
+[index.d.ts:8366](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8366)

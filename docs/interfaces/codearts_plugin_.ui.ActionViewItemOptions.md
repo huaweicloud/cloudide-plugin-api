@@ -34,7 +34,7 @@ Indicates whether to display or hide the component. If the value is true, the co
 
 #### Defined in
 
-[index.d.ts:17535](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17535)
+[index.d.ts:17644](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17644)
 
 ___
 
@@ -50,7 +50,7 @@ Is it possible to drag.
 
 #### Defined in
 
-[index.d.ts:17505](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17505)
+[index.d.ts:17614](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17614)
 
 ___
 
@@ -62,7 +62,7 @@ Display icon.
 
 #### Defined in
 
-[index.d.ts:17520](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17520)
+[index.d.ts:17629](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17629)
 
 ___
 
@@ -78,7 +78,7 @@ Is it the menu.
 
 #### Defined in
 
-[index.d.ts:17510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17510)
+[index.d.ts:17619](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17619)
 
 ___
 
@@ -90,7 +90,7 @@ Shortcut Keys.
 
 #### Defined in
 
-[index.d.ts:17530](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17530)
+[index.d.ts:17639](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17639)
 
 ___
 
@@ -102,7 +102,7 @@ Display label.
 
 #### Defined in
 
-[index.d.ts:17525](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17525)
+[index.d.ts:17634](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17634)
 
 ___
 
@@ -114,4 +114,4 @@ Vertical or horizontal mode.
 
 #### Defined in
 
-[index.d.ts:17540](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17540)
+[index.d.ts:17649](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17649)

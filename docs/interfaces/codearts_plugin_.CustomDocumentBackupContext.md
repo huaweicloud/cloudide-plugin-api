@@ -28,4 +28,4 @@ before writing the backup to this location.
 
 #### Defined in
 
-[index.d.ts:8889](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8889)
+[index.d.ts:8956](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8956)

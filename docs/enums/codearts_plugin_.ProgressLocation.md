@@ -26,7 +26,7 @@ progress but does not support rendering of icons.
 
 #### Defined in
 
-[index.d.ts:11424](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11424)
+[index.d.ts:11555](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11555)
 
 ___
 
@@ -40,7 +40,7 @@ a label to describe the operation.
 
 #### Defined in
 
-[index.d.ts:11412](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11412)
+[index.d.ts:11543](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11543)
 
 ___
 
@@ -53,4 +53,4 @@ Supports rendering of [theme icons](../classes/codearts_plugin_.ThemeIcon.md) vi
 
 #### Defined in
 
-[index.d.ts:11418](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11418)
+[index.d.ts:11549](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11549)

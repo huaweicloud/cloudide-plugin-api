@@ -34,7 +34,7 @@ Create a new linked editing ranges object.
 
 #### Defined in
 
-[index.d.ts:5405](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5405)
+[index.d.ts:5456](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5456)
 
 ## Properties
 
@@ -47,7 +47,7 @@ identical length and text content. The ranges cannot overlap.
 
 #### Defined in
 
-[index.d.ts:5411](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5411)
+[index.d.ts:5462](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5462)
 
 ___
 
@@ -60,4 +60,4 @@ If no pattern is provided, the language configuration's word pattern will be use
 
 #### Defined in
 
-[index.d.ts:5417](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5417)
+[index.d.ts:5468](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5468)

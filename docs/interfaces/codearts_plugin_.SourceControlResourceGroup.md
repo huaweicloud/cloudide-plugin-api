@@ -31,7 +31,7 @@ no [source control resource states](codearts_plugin_.SourceControlResourceState.
 
 #### Defined in
 
-[index.d.ts:14763](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14763)
+[index.d.ts:14895](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14895)
 
 ___
 
@@ -43,7 +43,7 @@ The id of this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14752](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14752)
+[index.d.ts:14884](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14884)
 
 ___
 
@@ -55,7 +55,7 @@ The label of this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14757](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14757)
+[index.d.ts:14889](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14889)
 
 ___
 
@@ -68,7 +68,7 @@ This group's collection of
 
 #### Defined in
 
-[index.d.ts:14769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14769)
+[index.d.ts:14901](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14901)
 
 ## Methods
 
@@ -84,4 +84,4 @@ Dispose this source control resource group.
 
 #### Defined in
 
-[index.d.ts:14774](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14774)
+[index.d.ts:14906](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14906)

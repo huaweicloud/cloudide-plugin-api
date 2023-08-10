@@ -25,7 +25,7 @@ shared with other tasks.
 
 #### Defined in
 
-[index.d.ts:7173](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7173)
+[index.d.ts:7240](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7240)
 
 ___
 
@@ -37,7 +37,7 @@ Creates a new panel whenever this task is executed.
 
 #### Defined in
 
-[index.d.ts:7178](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7178)
+[index.d.ts:7245](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7245)
 
 ___
 
@@ -49,4 +49,4 @@ Shares a panel with other tasks. This is the default.
 
 #### Defined in
 
-[index.d.ts:7167](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7167)
+[index.d.ts:7234](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7234)

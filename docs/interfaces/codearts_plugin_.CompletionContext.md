@@ -28,7 +28,7 @@ The trigger character is already in the document when the completion provider is
 
 #### Defined in
 
-[index.d.ts:4477](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4477)
+[index.d.ts:4528](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4528)
 
 ___
 
@@ -40,4 +40,4 @@ How the completion was triggered.
 
 #### Defined in
 
-[index.d.ts:4468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4468)
+[index.d.ts:4519](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4519)

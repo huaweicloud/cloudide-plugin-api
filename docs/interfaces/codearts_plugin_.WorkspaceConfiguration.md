@@ -108,7 +108,7 @@ The value `section` denotes or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5709](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5709)
+[index.d.ts:5760](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5760)
 
 ▸ **get**<`T`\>(`section`, `defaultValue`): `T`
 
@@ -135,7 +135,7 @@ The value `section` denotes or the default.
 
 #### Defined in
 
-[index.d.ts:5718](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5718)
+[index.d.ts:5769](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5769)
 
 ___
 
@@ -159,7 +159,7 @@ Check if this configuration has a certain value.
 
 #### Defined in
 
-[index.d.ts:5726](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5726)
+[index.d.ts:5777](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5777)
 
 ___
 
@@ -197,7 +197,7 @@ Information about a configuration setting or `undefined`.
 
 #### Defined in
 
-[index.d.ts:5742](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5742)
+[index.d.ts:5793](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5793)
 
 ___
 
@@ -240,23 +240,21 @@ error while updating
 
 #### Defined in
 
-[index.d.ts:5788](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5788)
+[index.d.ts:5839](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5839)
 
 ___
 
 ### verify
 
-▸ **verify**(`section`, `errorMessage`, `provider`): `void`
+▸ **verify**(`options`): `void`
 
-Display error information in the configuration of the target section.
+Display error information of the target key in the configuration .
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `section` | `string` | Configuration name, supports _dotted_ names. |
-| `errorMessage` | `string` | Verification failure error message. |
-| `provider` | () => {} | - |
+| `options` | [`Verification`](codearts_plugin_.Verification.md) | [Verification](codearts_plugin_.Verification.md) |
 
 #### Returns
 
@@ -264,4 +262,4 @@ Display error information in the configuration of the target section.
 
 #### Defined in
 
-[index.d.ts:5796](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5796)
+[index.d.ts:5845](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5845)

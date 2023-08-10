@@ -21,7 +21,7 @@ Enumeration of the editPresentation type
 
 #### Defined in
 
-[index.d.ts:12137](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12137)
+[index.d.ts:12268](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12268)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:12138](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12138)
+[index.d.ts:12269](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12269)

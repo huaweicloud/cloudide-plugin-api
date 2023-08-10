@@ -23,7 +23,7 @@ The unique identifier of the account.
 
 #### Defined in
 
-[index.d.ts:15904](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15904)
+[index.d.ts:16056](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16056)
 
 ___
 
@@ -35,4 +35,4 @@ The human-readable name of the account.
 
 #### Defined in
 
-[index.d.ts:15909](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15909)
+[index.d.ts:16061](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16061)

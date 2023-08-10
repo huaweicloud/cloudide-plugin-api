@@ -37,7 +37,7 @@ The debug adapter has sent a Debug Adapter Protocol message to the editor.
 
 #### Defined in
 
-[index.d.ts:15196](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15196)
+[index.d.ts:15328](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15328)
 
 ___
 
@@ -59,7 +59,7 @@ An error with the debug adapter has occurred.
 
 #### Defined in
 
-[index.d.ts:15204](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15204)
+[index.d.ts:15336](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15336)
 
 ___
 
@@ -82,7 +82,7 @@ The debug adapter has exited with the given exit code or signal.
 
 #### Defined in
 
-[index.d.ts:15208](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15208)
+[index.d.ts:15340](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15340)
 
 ___
 
@@ -104,7 +104,7 @@ The debug adapter is about to receive a Debug Adapter Protocol message from the 
 
 #### Defined in
 
-[index.d.ts:15192](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15192)
+[index.d.ts:15324](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15324)
 
 ___
 
@@ -120,7 +120,7 @@ A session with the debug adapter is about to be started.
 
 #### Defined in
 
-[index.d.ts:15188](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15188)
+[index.d.ts:15320](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15320)
 
 ___
 
@@ -136,4 +136,4 @@ The debug adapter session is about to be stopped.
 
 #### Defined in
 
-[index.d.ts:15200](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15200)
+[index.d.ts:15332](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15332)

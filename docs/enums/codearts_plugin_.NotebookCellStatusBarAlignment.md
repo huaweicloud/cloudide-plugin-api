@@ -23,7 +23,7 @@ Aligned to the left side.
 
 #### Defined in
 
-[index.d.ts:14497](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14497)
+[index.d.ts:14629](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14629)
 
 ___
 
@@ -35,4 +35,4 @@ Aligned to the right side.
 
 #### Defined in
 
-[index.d.ts:14502](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14502)
+[index.d.ts:14634](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14634)

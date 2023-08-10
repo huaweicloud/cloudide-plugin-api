@@ -29,7 +29,7 @@ the definition position.
 
 #### Defined in
 
-[index.d.ts:5840](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5840)
+[index.d.ts:5907](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5907)
 
 ___
 
@@ -41,7 +41,7 @@ The full target range of this link.
 
 #### Defined in
 
-[index.d.ts:5850](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5850)
+[index.d.ts:5917](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5917)
 
 ___
 
@@ -53,7 +53,7 @@ The span of this link.
 
 #### Defined in
 
-[index.d.ts:5855](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5855)
+[index.d.ts:5922](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5922)
 
 ___
 
@@ -65,4 +65,4 @@ The target resource identifier of this link.
 
 #### Defined in
 
-[index.d.ts:5845](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5845)
+[index.d.ts:5912](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5912)

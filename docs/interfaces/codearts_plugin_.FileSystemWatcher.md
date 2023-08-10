@@ -42,7 +42,7 @@ it ignores change file system events.
 
 #### Defined in
 
-[index.d.ts:1655](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1655)
+[index.d.ts:1655](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1655)
 
 ___
 
@@ -55,7 +55,7 @@ it ignores creation file system events.
 
 #### Defined in
 
-[index.d.ts:1649](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1649)
+[index.d.ts:1649](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1649)
 
 ___
 
@@ -68,7 +68,7 @@ it ignores delete file system events.
 
 #### Defined in
 
-[index.d.ts:1661](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1661)
+[index.d.ts:1661](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1661)
 
 ___
 
@@ -80,7 +80,7 @@ An event which fires on file/folder change.
 
 #### Defined in
 
-[index.d.ts:1671](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1671)
+[index.d.ts:1671](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1671)
 
 ___
 
@@ -92,7 +92,7 @@ An event which fires on file/folder creation.
 
 #### Defined in
 
-[index.d.ts:1666](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1666)
+[index.d.ts:1666](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1666)
 
 ___
 
@@ -104,7 +104,7 @@ An event which fires on file/folder deletion.
 
 #### Defined in
 
-[index.d.ts:1676](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1676)
+[index.d.ts:1676](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1676)
 
 ## Methods
 
@@ -124,4 +124,4 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1580)

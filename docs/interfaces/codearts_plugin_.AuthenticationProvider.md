@@ -16,7 +16,6 @@ A provider for performing authentication to a service.
 
 - [createSession](codearts_plugin_.AuthenticationProvider.md#createsession)
 - [getSessions](codearts_plugin_.AuthenticationProvider.md#getsessions)
-- [getSignHeaders](codearts_plugin_.AuthenticationProvider.md#getsignheaders)
 - [removeSession](codearts_plugin_.AuthenticationProvider.md#removesession)
 
 ## Properties
@@ -30,7 +29,7 @@ within a session has changed.
 
 #### Defined in
 
-[index.d.ts:16059](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16059)
+[index.d.ts:16187](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16187)
 
 ## Methods
 
@@ -62,7 +61,7 @@ A promise that resolves to an authentication session.
 
 #### Defined in
 
-[index.d.ts:16082](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16082)
+[index.d.ts:16210](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16210)
 
 ___
 
@@ -86,31 +85,7 @@ A promise that resolves to an array of authentication sessions.
 
 #### Defined in
 
-[index.d.ts:16067](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16067)
-
-___
-
-### getSignHeaders
-
-▸ `Optional` **getSignHeaders**(`options`): [`Thenable`](Thenable.md)<`undefined` \| [`SignedHeaders`](codearts_plugin_.SignedHeaders.md)\>
-
-Provide a signed http request header.
-
-Can use own crypto function to implement it.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `options` | [`SignRequestOptions`](codearts_plugin_.SignRequestOptions.md) | The params of http request to sign. |
-
-#### Returns
-
-[`Thenable`](Thenable.md)<`undefined` \| [`SignedHeaders`](codearts_plugin_.SignedHeaders.md)\>
-
-#### Defined in
-
-[index.d.ts:16100](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16100)
+[index.d.ts:16195](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16195)
 
 ___
 
@@ -136,4 +111,4 @@ If a session cannot be removed, the provider should reject with an error message
 
 #### Defined in
 
-[index.d.ts:16092](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16092)
+[index.d.ts:16220](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16220)

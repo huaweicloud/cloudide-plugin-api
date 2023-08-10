@@ -48,7 +48,7 @@ from an existing position.
 
 #### Defined in
 
-[index.d.ts:275](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L275)
+[index.d.ts:275](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L275)
 
 ## Properties
 
@@ -60,7 +60,7 @@ The zero-based character value.
 
 #### Defined in
 
-[index.d.ts:269](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L269)
+[index.d.ts:269](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L269)
 
 ___
 
@@ -72,7 +72,7 @@ The zero-based line value.
 
 #### Defined in
 
-[index.d.ts:264](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L264)
+[index.d.ts:264](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L264)
 
 ## Methods
 
@@ -98,7 +98,7 @@ this and the given position are equal.
 
 #### Defined in
 
-[index.d.ts:330](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L330)
+[index.d.ts:330](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L330)
 
 ___
 
@@ -123,7 +123,7 @@ or on the same line on a greater character.
 
 #### Defined in
 
-[index.d.ts:302](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L302)
+[index.d.ts:302](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L302)
 
 ___
 
@@ -148,7 +148,7 @@ or on the same line on a greater or equal character.
 
 #### Defined in
 
-[index.d.ts:311](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L311)
+[index.d.ts:311](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L311)
 
 ___
 
@@ -173,7 +173,7 @@ or on the same line on a smaller character.
 
 #### Defined in
 
-[index.d.ts:284](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L284)
+[index.d.ts:284](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L284)
 
 ___
 
@@ -198,7 +198,7 @@ or on the same line on a smaller or equal character.
 
 #### Defined in
 
-[index.d.ts:293](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L293)
+[index.d.ts:293](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L293)
 
 ___
 
@@ -223,7 +223,7 @@ the line and character of this position.
 
 #### Defined in
 
-[index.d.ts:320](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L320)
+[index.d.ts:320](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L320)
 
 ___
 
@@ -249,7 +249,7 @@ character and the corresponding deltas.
 
 #### Defined in
 
-[index.d.ts:340](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L340)
+[index.d.ts:340](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L340)
 
 ▸ **translate**(`change`): [`Position`](codearts_plugin_.Position.md)
 
@@ -272,7 +272,7 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:349](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L349)
+[index.d.ts:349](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L349)
 
 ___
 
@@ -297,7 +297,7 @@ A position where line and character are replaced by the given values.
 
 #### Defined in
 
-[index.d.ts:358](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L358)
+[index.d.ts:358](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L358)
 
 ▸ **with**(`change`): [`Position`](codearts_plugin_.Position.md)
 
@@ -320,4 +320,4 @@ is not changing anything.
 
 #### Defined in
 
-[index.d.ts:367](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L367)
+[index.d.ts:367](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L367)

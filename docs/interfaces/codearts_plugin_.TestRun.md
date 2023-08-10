@@ -35,7 +35,7 @@ Whether the test run will be persisted across reloads by the editor.
 
 #### Defined in
 
-[index.d.ts:16481](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16481)
+[index.d.ts:16590](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16590)
 
 ___
 
@@ -49,7 +49,7 @@ tests are run across multiple platforms, for example.
 
 #### Defined in
 
-[index.d.ts:16470](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16470)
+[index.d.ts:16579](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16579)
 
 ___
 
@@ -62,7 +62,7 @@ canceled from the UI.
 
 #### Defined in
 
-[index.d.ts:16476](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16476)
+[index.d.ts:16585](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16585)
 
 ## Methods
 
@@ -88,7 +88,7 @@ such as colors and text styles, are supported.
 
 #### Defined in
 
-[index.d.ts:16539](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16539)
+[index.d.ts:16648](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16648)
 
 ___
 
@@ -105,7 +105,7 @@ states have not been updated will have their state reset.
 
 #### Defined in
 
-[index.d.ts:16545](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16545)
+[index.d.ts:16654](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16654)
 
 ___
 
@@ -127,7 +127,7 @@ Indicates a test is queued for later execution.
 
 #### Defined in
 
-[index.d.ts:16487](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16487)
+[index.d.ts:16596](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16596)
 
 ___
 
@@ -154,7 +154,7 @@ executed at all, from a compilation error for example.
 
 #### Defined in
 
-[index.d.ts:16519](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16519)
+[index.d.ts:16628](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16628)
 
 ___
 
@@ -179,7 +179,7 @@ Indicates a test has failed. You should pass one or more
 
 #### Defined in
 
-[index.d.ts:16508](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16508)
+[index.d.ts:16617](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16617)
 
 ___
 
@@ -203,7 +203,7 @@ Indicates a test has passed.
 
 #### Defined in
 
-[index.d.ts:16527](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16527)
+[index.d.ts:16636](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16636)
 
 ___
 
@@ -225,7 +225,7 @@ Indicates a test has been skipped.
 
 #### Defined in
 
-[index.d.ts:16499](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16499)
+[index.d.ts:16608](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16608)
 
 ___
 
@@ -247,4 +247,4 @@ Indicates a test has started running.
 
 #### Defined in
 
-[index.d.ts:16493](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16493)
+[index.d.ts:16602](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16602)

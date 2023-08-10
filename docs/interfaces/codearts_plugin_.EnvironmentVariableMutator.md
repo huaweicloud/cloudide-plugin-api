@@ -23,7 +23,7 @@ The type of mutation that will occur to the variable.
 
 #### Defined in
 
-[index.d.ts:11319](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11319)
+[index.d.ts:11450](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11450)
 
 ___
 
@@ -35,4 +35,4 @@ The value to use for the variable.
 
 #### Defined in
 
-[index.d.ts:11324](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11324)
+[index.d.ts:11455](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11455)

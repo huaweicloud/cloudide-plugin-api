@@ -43,7 +43,7 @@ Creates a new type hierarchy item.
 
 #### Defined in
 
-[index.d.ts:5348](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5348)
+[index.d.ts:5399](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5399)
 
 ## Properties
 
@@ -55,7 +55,7 @@ More detail for this item, e.g. the signature of a function.
 
 #### Defined in
 
-[index.d.ts:5319](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5319)
+[index.d.ts:5370](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5370)
 
 ___
 
@@ -67,7 +67,7 @@ The kind of this item.
 
 #### Defined in
 
-[index.d.ts:5309](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5309)
+[index.d.ts:5360](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5360)
 
 ___
 
@@ -79,7 +79,7 @@ The name of this item.
 
 #### Defined in
 
-[index.d.ts:5304](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5304)
+[index.d.ts:5355](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5355)
 
 ___
 
@@ -92,7 +92,7 @@ but everything else, e.g. comments and code.
 
 #### Defined in
 
-[index.d.ts:5330](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5330)
+[index.d.ts:5381](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5381)
 
 ___
 
@@ -105,7 +105,7 @@ picked, e.g. the name of a class. Must be contained by the [range](codearts_plug
 
 #### Defined in
 
-[index.d.ts:5336](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5336)
+[index.d.ts:5387](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5387)
 
 ___
 
@@ -117,7 +117,7 @@ Tags for this item.
 
 #### Defined in
 
-[index.d.ts:5314](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5314)
+[index.d.ts:5365](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5365)
 
 ___
 
@@ -129,4 +129,4 @@ The resource identifier of this item.
 
 #### Defined in
 
-[index.d.ts:5324](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5324)
+[index.d.ts:5375](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5375)

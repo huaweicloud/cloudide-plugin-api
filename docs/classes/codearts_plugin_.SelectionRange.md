@@ -35,7 +35,7 @@ Creates a new selection range.
 
 #### Defined in
 
-[index.d.ts:5134](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5134)
+[index.d.ts:5185](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5185)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The parent selection range containing this range.
 
 #### Defined in
 
-[index.d.ts:5126](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5126)
+[index.d.ts:5177](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5177)
 
 ___
 
@@ -59,4 +59,4 @@ The [Range](codearts_plugin_.Range.md) of this selection range.
 
 #### Defined in
 
-[index.d.ts:5121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5121)
+[index.d.ts:5172](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5172)

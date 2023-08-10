@@ -26,7 +26,7 @@ An inlay hint that is for a parameter.
 
 #### Defined in
 
-[index.d.ts:4871](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4871)
+[index.d.ts:4922](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4922)
 
 ___
 
@@ -38,4 +38,4 @@ An inlay hint that for a type annotation.
 
 #### Defined in
 
-[index.d.ts:4867](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4867)
+[index.d.ts:4918](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4918)

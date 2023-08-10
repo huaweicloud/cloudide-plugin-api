@@ -31,7 +31,7 @@ The files that are going to be created.
 
 #### Defined in
 
-[index.d.ts:11887](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11887)
+[index.d.ts:12018](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12018)
 
 ___
 
@@ -43,7 +43,7 @@ A cancellation token.
 
 #### Defined in
 
-[index.d.ts:11882](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11882)
+[index.d.ts:12013](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12013)
 
 ## Methods
 
@@ -78,7 +78,7 @@ workspace.onWillCreateFiles(event => {
 
 #### Defined in
 
-[index.d.ts:11907](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11907)
+[index.d.ts:12038](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12038)
 
 ▸ **waitUntil**(`thenable`): `void`
 
@@ -98,4 +98,4 @@ Allows to pause the event until the provided thenable resolves.
 
 #### Defined in
 
-[index.d.ts:11916](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11916)
+[index.d.ts:12047](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12047)

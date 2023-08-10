@@ -39,7 +39,7 @@ in the Source Control input.
 
 #### Defined in
 
-[index.d.ts:14832](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14832)
+[index.d.ts:14964](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14964)
 
 ___
 
@@ -54,7 +54,7 @@ input with this value when appropriate.
 
 #### Defined in
 
-[index.d.ts:14824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14824)
+[index.d.ts:14956](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14956)
 
 ___
 
@@ -71,7 +71,7 @@ If undefined, this source control will
 
 #### Defined in
 
-[index.d.ts:14811](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14811)
+[index.d.ts:14943](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14943)
 
 ___
 
@@ -83,7 +83,7 @@ The id of this source control.
 
 #### Defined in
 
-[index.d.ts:14786](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14786)
+[index.d.ts:14918](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14918)
 
 ___
 
@@ -95,7 +95,7 @@ The [input box](codearts_plugin_.SourceControlInputBox.md) for this source contr
 
 #### Defined in
 
-[index.d.ts:14801](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14801)
+[index.d.ts:14933](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14933)
 
 ___
 
@@ -107,7 +107,7 @@ The human-readable label of this source control.
 
 #### Defined in
 
-[index.d.ts:14791](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14791)
+[index.d.ts:14923](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14923)
 
 ___
 
@@ -119,7 +119,7 @@ An optional [quick diff provider](codearts_plugin_.QuickDiffProvider.md).
 
 #### Defined in
 
-[index.d.ts:14816](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14816)
+[index.d.ts:14948](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14948)
 
 ___
 
@@ -131,7 +131,7 @@ The (optional) Uri of the root of this source control.
 
 #### Defined in
 
-[index.d.ts:14796](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14796)
+[index.d.ts:14928](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14928)
 
 ___
 
@@ -145,7 +145,7 @@ These commands will be displayed in the editor's status bar.
 
 #### Defined in
 
-[index.d.ts:14839](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14839)
+[index.d.ts:14971](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14971)
 
 ## Methods
 
@@ -168,7 +168,7 @@ Create a new [resource group](codearts_plugin_.SourceControlResourceGroup.md).
 
 #### Defined in
 
-[index.d.ts:14844](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14844)
+[index.d.ts:14976](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14976)
 
 ___
 
@@ -184,4 +184,4 @@ Dispose this source control.
 
 #### Defined in
 
-[index.d.ts:14849](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14849)
+[index.d.ts:14981](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14981)

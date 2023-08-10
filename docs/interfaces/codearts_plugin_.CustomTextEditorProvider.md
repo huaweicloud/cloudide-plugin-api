@@ -43,4 +43,4 @@ Thenable indicating that the custom editor has been resolved.
 
 #### Defined in
 
-[index.d.ts:8781](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8781)
+[index.d.ts:8848](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8848)

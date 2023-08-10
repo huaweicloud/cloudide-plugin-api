@@ -29,7 +29,7 @@ Use SourceControl.inputBox instead
 
 #### Defined in
 
-[index.d.ts:14860](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14860)
+[index.d.ts:14992](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14992)
 
 ## Functions
 
@@ -55,4 +55,4 @@ An instance of [source control](../interfaces/codearts_plugin_.SourceControl.md)
 
 #### Defined in
 
-[index.d.ts:14870](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14870)
+[index.d.ts:15002](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15002)

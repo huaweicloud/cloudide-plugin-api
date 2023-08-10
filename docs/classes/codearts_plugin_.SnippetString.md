@@ -45,7 +45,7 @@ the end of the snippet. Variables are defined with `$name` and
 
 #### Defined in
 
-[index.d.ts:3588](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3588)
+[index.d.ts:3626](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3626)
 
 ## Properties
 
@@ -57,7 +57,7 @@ The snippet string.
 
 #### Defined in
 
-[index.d.ts:3586](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3586)
+[index.d.ts:3624](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3624)
 
 ## Methods
 
@@ -83,7 +83,7 @@ This snippet string.
 
 #### Defined in
 
-[index.d.ts:3630](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3630)
+[index.d.ts:3668](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3668)
 
 ___
 
@@ -109,7 +109,7 @@ This snippet string.
 
 #### Defined in
 
-[index.d.ts:3619](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3619)
+[index.d.ts:3657](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3657)
 
 ___
 
@@ -134,7 +134,7 @@ This snippet string.
 
 #### Defined in
 
-[index.d.ts:3607](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3607)
+[index.d.ts:3645](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3645)
 
 ___
 
@@ -159,7 +159,7 @@ This snippet string.
 
 #### Defined in
 
-[index.d.ts:3597](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3597)
+[index.d.ts:3635](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3635)
 
 ___
 
@@ -185,4 +185,4 @@ This snippet string.
 
 #### Defined in
 
-[index.d.ts:3641](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L3641)
+[index.d.ts:3679](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L3679)

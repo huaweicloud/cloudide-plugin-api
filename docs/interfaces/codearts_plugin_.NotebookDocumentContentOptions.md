@@ -34,7 +34,7 @@ set to true.
 
 #### Defined in
 
-[index.d.ts:14239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14239)
+[index.d.ts:14371](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14371)
 
 ___
 
@@ -53,7 +53,7 @@ set to true.
 
 #### Defined in
 
-[index.d.ts:14247](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14247)
+[index.d.ts:14379](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14379)
 
 ___
 
@@ -67,4 +67,4 @@ persist the outputs in the file document, this should be set to true.
 
 #### Defined in
 
-[index.d.ts:14231](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14231)
+[index.d.ts:14363](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14363)

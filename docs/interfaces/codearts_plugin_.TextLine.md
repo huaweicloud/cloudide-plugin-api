@@ -31,7 +31,7 @@ by `/\s/`. **Note** that if a line is all whitespace the length of the line is r
 
 #### Defined in
 
-[index.d.ts:83](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L83)
+[index.d.ts:83](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L83)
 
 ___
 
@@ -44,7 +44,7 @@ for [firstNonWhitespaceCharacterIndex](codearts_plugin_.TextLine.md#firstnonwhit
 
 #### Defined in
 
-[index.d.ts:89](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L89)
+[index.d.ts:89](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L89)
 
 ___
 
@@ -56,7 +56,7 @@ The zero-based line number.
 
 #### Defined in
 
-[index.d.ts:62](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L62)
+[index.d.ts:62](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L62)
 
 ___
 
@@ -68,7 +68,7 @@ The range this line covers without the line separator characters.
 
 #### Defined in
 
-[index.d.ts:72](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L72)
+[index.d.ts:72](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L72)
 
 ___
 
@@ -80,7 +80,7 @@ The range this line covers with the line separator characters.
 
 #### Defined in
 
-[index.d.ts:77](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L77)
+[index.d.ts:77](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L77)
 
 ___
 
@@ -92,4 +92,4 @@ The text of this line without the line separator characters.
 
 #### Defined in
 
-[index.d.ts:67](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L67)
+[index.d.ts:67](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L67)

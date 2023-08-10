@@ -36,7 +36,7 @@ Constructs a notebook diff tab input.
 
 #### Defined in
 
-[index.d.ts:17104](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17104)
+[index.d.ts:17213](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17213)
 
 ## Properties
 
@@ -48,7 +48,7 @@ The uri of the modified notebook.
 
 #### Defined in
 
-[index.d.ts:17093](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17093)
+[index.d.ts:17202](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17202)
 
 ___
 
@@ -60,7 +60,7 @@ The type of notebook. Maps to [`NotebookDocuments's notebookType`](../interfaces
 
 #### Defined in
 
-[index.d.ts:17097](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17097)
+[index.d.ts:17206](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17206)
 
 ___
 
@@ -72,4 +72,4 @@ The uri of the original notebook.
 
 #### Defined in
 
-[index.d.ts:17089](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17089)
+[index.d.ts:17198](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17198)

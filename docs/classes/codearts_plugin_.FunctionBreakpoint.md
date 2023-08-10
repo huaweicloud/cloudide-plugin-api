@@ -51,7 +51,7 @@ Create a new function breakpoint.
 
 #### Defined in
 
-[index.d.ts:15317](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15317)
+[index.d.ts:15449](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15449)
 
 ## Properties
 
@@ -67,7 +67,7 @@ An optional expression for conditional breakpoints.
 
 #### Defined in
 
-[index.d.ts:15277](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15277)
+[index.d.ts:15409](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15409)
 
 ___
 
@@ -83,7 +83,7 @@ Is breakpoint enabled.
 
 #### Defined in
 
-[index.d.ts:15273](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15273)
+[index.d.ts:15405](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15405)
 
 ___
 
@@ -95,7 +95,7 @@ The name of the function to which this breakpoint is attached.
 
 #### Defined in
 
-[index.d.ts:15312](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15312)
+[index.d.ts:15444](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15444)
 
 ___
 
@@ -111,7 +111,7 @@ An optional expression that controls how many hits of the breakpoint are ignored
 
 #### Defined in
 
-[index.d.ts:15281](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15281)
+[index.d.ts:15413](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15413)
 
 ___
 
@@ -127,7 +127,7 @@ The unique ID of the breakpoint.
 
 #### Defined in
 
-[index.d.ts:15269](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15269)
+[index.d.ts:15401](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15401)
 
 ___
 
@@ -143,4 +143,4 @@ An optional message that gets logged when this breakpoint is hit. Embedded expre
 
 #### Defined in
 
-[index.d.ts:15285](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15285)
+[index.d.ts:15417](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15417)

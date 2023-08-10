@@ -69,7 +69,7 @@ Active items. This can be read and updated by the extension.
 
 #### Defined in
 
-[index.d.ts:11620](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11620)
+[index.d.ts:11751](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11751)
 
 ___
 
@@ -88,7 +88,7 @@ user input.
 
 #### Defined in
 
-[index.d.ts:11504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11504)
+[index.d.ts:11635](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11635)
 
 ___
 
@@ -100,7 +100,7 @@ Buttons for actions in the UI.
 
 #### Defined in
 
-[index.d.ts:11578](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11578)
+[index.d.ts:11709](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11709)
 
 ___
 
@@ -112,7 +112,7 @@ If multiple items can be selected at the same time. Defaults to false.
 
 #### Defined in
 
-[index.d.ts:11600](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11600)
+[index.d.ts:11731](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11731)
 
 ___
 
@@ -131,7 +131,7 @@ loading data for the next step in user input.
 
 #### Defined in
 
-[index.d.ts:11496](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11496)
+[index.d.ts:11627](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11627)
 
 ___
 
@@ -148,7 +148,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:11510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11510)
+[index.d.ts:11641](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11641)
 
 ___
 
@@ -160,7 +160,7 @@ Items to pick from. This can be read and updated by the extension.
 
 #### Defined in
 
-[index.d.ts:11595](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11595)
+[index.d.ts:11726](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11726)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:11615](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11615)
+[index.d.ts:11746](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11746)
 
 ___
 
@@ -182,7 +182,7 @@ If the filter text should also be matched against the description of the items. 
 
 #### Defined in
 
-[index.d.ts:11605](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11605)
+[index.d.ts:11736](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11736)
 
 ___
 
@@ -194,7 +194,7 @@ If the filter text should also be matched against the detail of the items. Defau
 
 #### Defined in
 
-[index.d.ts:11610](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11610)
+[index.d.ts:11741](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11741)
 
 ___
 
@@ -206,7 +206,7 @@ An event signaling when the user indicated acceptance of the selected item(s).
 
 #### Defined in
 
-[index.d.ts:11573](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11573)
+[index.d.ts:11704](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11704)
 
 ___
 
@@ -218,7 +218,7 @@ An event signaling when the active items have changed.
 
 #### Defined in
 
-[index.d.ts:11625](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11625)
+[index.d.ts:11756](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11756)
 
 ___
 
@@ -230,7 +230,7 @@ An event signaling when the selected items have changed.
 
 #### Defined in
 
-[index.d.ts:11635](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11635)
+[index.d.ts:11766](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11766)
 
 ___
 
@@ -242,7 +242,7 @@ An event signaling when the value of the filter text has changed.
 
 #### Defined in
 
-[index.d.ts:11568](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11568)
+[index.d.ts:11699](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11699)
 
 ___
 
@@ -263,7 +263,7 @@ the user pressing Esc, some other input UI opening, etc.)
 
 #### Defined in
 
-[index.d.ts:11532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11532)
+[index.d.ts:11663](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11663)
 
 ___
 
@@ -276,7 +276,7 @@ This event does not fire for buttons on a [QuickPickItem](codearts_plugin_.Quick
 
 #### Defined in
 
-[index.d.ts:11584](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11584)
+[index.d.ts:11715](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11715)
 
 ___
 
@@ -289,7 +289,7 @@ This event does not fire for buttons in the title bar.
 
 #### Defined in
 
-[index.d.ts:11590](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11590)
+[index.d.ts:11721](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11721)
 
 ___
 
@@ -301,7 +301,7 @@ Optional placeholder in the filter text.
 
 #### Defined in
 
-[index.d.ts:11563](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11563)
+[index.d.ts:11694](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11694)
 
 ___
 
@@ -313,7 +313,7 @@ Selected items. This can be read and updated by the extension.
 
 #### Defined in
 
-[index.d.ts:11630](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11630)
+[index.d.ts:11761](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11761)
 
 ___
 
@@ -329,7 +329,7 @@ An optional current step count.
 
 #### Defined in
 
-[index.d.ts:11483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11483)
+[index.d.ts:11614](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11614)
 
 ___
 
@@ -345,7 +345,7 @@ An optional title.
 
 #### Defined in
 
-[index.d.ts:11478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11478)
+[index.d.ts:11609](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11609)
 
 ___
 
@@ -361,7 +361,7 @@ An optional total step count.
 
 #### Defined in
 
-[index.d.ts:11488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11488)
+[index.d.ts:11619](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11619)
 
 ___
 
@@ -373,7 +373,7 @@ Current value of the filter text.
 
 #### Defined in
 
-[index.d.ts:11558](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11558)
+[index.d.ts:11689](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11689)
 
 ## Methods
 
@@ -396,7 +396,7 @@ accessed. Instead a new input UI should be created.
 
 #### Defined in
 
-[index.d.ts:11540](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11540)
+[index.d.ts:11671](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11671)
 
 ___
 
@@ -417,7 +417,7 @@ event.
 
 #### Defined in
 
-[index.d.ts:11522](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11522)
+[index.d.ts:11653](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11653)
 
 ___
 
@@ -438,4 +438,4 @@ UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) even
 
 #### Defined in
 
-[index.d.ts:11516](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11516)
+[index.d.ts:11647](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11647)

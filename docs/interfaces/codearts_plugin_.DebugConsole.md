@@ -33,7 +33,7 @@ Append the given value to the debug console.
 
 #### Defined in
 
-[index.d.ts:15231](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15231)
+[index.d.ts:15363](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15363)
 
 ___
 
@@ -56,4 +56,4 @@ to the debug console.
 
 #### Defined in
 
-[index.d.ts:15239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15239)
+[index.d.ts:15371](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15371)

@@ -33,4 +33,4 @@ The document that the change is for.
 
 #### Defined in
 
-[index.d.ts:8853](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8853)
+[index.d.ts:8920](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8920)

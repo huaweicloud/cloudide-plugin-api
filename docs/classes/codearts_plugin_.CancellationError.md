@@ -36,4 +36,4 @@ Error.constructor
 
 #### Defined in
 
-[index.d.ts:1547](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1547)
+[index.d.ts:1547](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1547)

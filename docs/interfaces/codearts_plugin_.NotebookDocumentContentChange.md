@@ -28,7 +28,7 @@ Cells that have been added to the document.
 
 #### Defined in
 
-[index.d.ts:13905](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13905)
+[index.d.ts:14037](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14037)
 
 ___
 
@@ -43,7 +43,7 @@ when this range is [empty](../classes/codearts_plugin_.NotebookRange.md#isempty)
 
 #### Defined in
 
-[index.d.ts:13900](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13900)
+[index.d.ts:14032](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14032)
 
 ___
 
@@ -55,4 +55,4 @@ Cells that have been removed from the document.
 
 #### Defined in
 
-[index.d.ts:13910](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13910)
+[index.d.ts:14042](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14042)

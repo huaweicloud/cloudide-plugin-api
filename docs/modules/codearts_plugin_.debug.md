@@ -18,6 +18,7 @@ Namespace for debug functionality.
 
 - [addBreakpoints](codearts_plugin_.debug.md#addbreakpoints)
 - [asDebugSourceUri](codearts_plugin_.debug.md#asdebugsourceuri)
+- [getDebugConfigurations](codearts_plugin_.debug.md#getdebugconfigurations)
 - [onDidChangeActiveDebugSession](codearts_plugin_.debug.md#ondidchangeactivedebugsession)
 - [onDidChangeBreakpoints](codearts_plugin_.debug.md#ondidchangebreakpoints)
 - [onDidReceiveDebugSessionCustomEvent](codearts_plugin_.debug.md#ondidreceivedebugsessioncustomevent)
@@ -27,6 +28,7 @@ Namespace for debug functionality.
 - [registerDebugAdapterTrackerFactory](codearts_plugin_.debug.md#registerdebugadaptertrackerfactory)
 - [registerDebugConfigurationProvider](codearts_plugin_.debug.md#registerdebugconfigurationprovider)
 - [removeBreakpoints](codearts_plugin_.debug.md#removebreakpoints)
+- [saveDebugConfigurations](codearts_plugin_.debug.md#savedebugconfigurations)
 - [startDebugging](codearts_plugin_.debug.md#startdebugging)
 - [stopDebugging](codearts_plugin_.debug.md#stopdebugging)
 
@@ -41,7 +43,7 @@ If no debug session is active, output sent to the debug console is not shown.
 
 #### Defined in
 
-[index.d.ts:15408](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15408)
+[index.d.ts:15540](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15540)
 
 ___
 
@@ -55,7 +57,7 @@ If no debug session is active, the value is `undefined`.
 
 #### Defined in
 
-[index.d.ts:15402](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15402)
+[index.d.ts:15534](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15534)
 
 ___
 
@@ -67,7 +69,7 @@ List of breakpoints.
 
 #### Defined in
 
-[index.d.ts:15413](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15413)
+[index.d.ts:15545](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15545)
 
 ## Functions
 
@@ -89,7 +91,7 @@ Add breakpoints.
 
 #### Defined in
 
-[index.d.ts:15501](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15501)
+[index.d.ts:15633](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15633)
 
 ___
 
@@ -118,7 +120,33 @@ A uri that can be used to load the contents of the source.
 
 #### Defined in
 
-[index.d.ts:15520](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15520)
+[index.d.ts:15652](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15652)
+
+___
+
+### getDebugConfigurations
+
+▸ **getDebugConfigurations**(`folder`): [`Thenable`](../interfaces/Thenable.md)<[`DebugConfiguration`](../interfaces/codearts_plugin_.DebugConfiguration.md)[]\>
+
+Return debug configurations of provided folder's launch.json.
+If the folder's launch is not found, an error message will be thrown.
+If there is no folder opened, an error message will be thrown while calling this api.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `folder` | [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) | The [workspace folder](../interfaces/codearts_plugin_.WorkspaceFolder.md) for save configurations. |
+
+#### Returns
+
+[`Thenable`](../interfaces/Thenable.md)<[`DebugConfiguration`](../interfaces/codearts_plugin_.DebugConfiguration.md)[]\>
+
+array of [DebugConfiguration](../interfaces/codearts_plugin_.DebugConfiguration.md) object.
+
+#### Defined in
+
+[index.d.ts:15672](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15672)
 
 ___
 
@@ -145,7 +173,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -172,7 +200,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -199,7 +227,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -226,7 +254,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -253,7 +281,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -280,7 +308,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:15467](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15467)
+[index.d.ts:15599](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15599)
 
 ___
 
@@ -305,7 +333,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:15476](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15476)
+[index.d.ts:15608](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15608)
 
 ___
 
@@ -337,7 +365,7 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:15456](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15456)
+[index.d.ts:15588](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15588)
 
 ___
 
@@ -359,7 +387,32 @@ Remove breakpoints.
 
 #### Defined in
 
-[index.d.ts:15507](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15507)
+[index.d.ts:15639](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15639)
+
+___
+
+### saveDebugConfigurations
+
+▸ **saveDebugConfigurations**(`configurations`, `folder`): [`Thenable`](../interfaces/Thenable.md)<`void`\>
+
+Save debug configurations to provided folder's launch.json.
+If the folder's launch is not found, an error message will be thrown.
+If there is no folder opened, an error message will be thrown while calling this api.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `configurations` | [`DebugConfiguration`](../interfaces/codearts_plugin_.DebugConfiguration.md)[] | array of [DebugConfiguration](../interfaces/codearts_plugin_.DebugConfiguration.md) object. |
+| `folder` | [`WorkspaceFolder`](../interfaces/codearts_plugin_.WorkspaceFolder.md) | The [workspace folder](../interfaces/codearts_plugin_.WorkspaceFolder.md) for save configurations. |
+
+#### Returns
+
+[`Thenable`](../interfaces/Thenable.md)<`void`\>
+
+#### Defined in
+
+[index.d.ts:15662](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15662)
 
 ___
 
@@ -389,7 +442,7 @@ A thenable that resolves when debugging could be successfully started.
 
 #### Defined in
 
-[index.d.ts:15489](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15489)
+[index.d.ts:15621](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15621)
 
 ___
 
@@ -411,4 +464,4 @@ Stop the given debug session or stop all debug sessions if session is omitted.
 
 #### Defined in
 
-[index.d.ts:15495](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15495)
+[index.d.ts:15627](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15627)

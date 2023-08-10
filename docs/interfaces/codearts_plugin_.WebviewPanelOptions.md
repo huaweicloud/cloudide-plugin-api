@@ -25,7 +25,7 @@ Defaults to `false`.
 
 #### Defined in
 
-[index.d.ts:8414](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8414)
+[index.d.ts:8481](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8481)
 
 ___
 
@@ -50,4 +50,4 @@ your panel's context cannot be quickly saved and restored.
 
 #### Defined in
 
-[index.d.ts:8432](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8432)
+[index.d.ts:8499](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8499)
