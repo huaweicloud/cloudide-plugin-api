@@ -42,7 +42,7 @@ an array of tasks
 
 #### Defined in
 
-[index.d.ts:7651](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7651)
+[index.d.ts:7718](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7718)
 
 ___
 
@@ -77,4 +77,4 @@ The resolved task
 
 #### Defined in
 
-[index.d.ts:7670](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7670)
+[index.d.ts:7737](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7737)

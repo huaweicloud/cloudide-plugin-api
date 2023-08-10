@@ -23,7 +23,7 @@ Represents a color theme kind.
 
 #### Defined in
 
-[index.d.ts:7122](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7122)
+[index.d.ts:7189](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7189)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7123](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7123)
+[index.d.ts:7190](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7190)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:7124](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7124)
+[index.d.ts:7191](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7191)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:7121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7121)
+[index.d.ts:7188](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7188)

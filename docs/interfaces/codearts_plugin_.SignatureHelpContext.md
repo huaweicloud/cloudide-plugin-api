@@ -29,7 +29,7 @@ the user arrowing through available signatures.
 
 #### Defined in
 
-[index.d.ts:4137](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4137)
+[index.d.ts:4175](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4175)
 
 ___
 
@@ -44,7 +44,7 @@ typing a trigger character, a cursor move, or document content changes.
 
 #### Defined in
 
-[index.d.ts:4129](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4129)
+[index.d.ts:4167](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4167)
 
 ___
 
@@ -59,7 +59,7 @@ signature help or when moving the cursor.
 
 #### Defined in
 
-[index.d.ts:4121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4121)
+[index.d.ts:4159](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4159)
 
 ___
 
@@ -71,4 +71,4 @@ Action that caused signature help to be triggered.
 
 #### Defined in
 
-[index.d.ts:4113](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4113)
+[index.d.ts:4151](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4151)

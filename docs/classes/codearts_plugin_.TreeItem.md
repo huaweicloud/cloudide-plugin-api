@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[index.d.ts:10908](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10908)
+[index.d.ts:10996](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10996)
 
 • **new TreeItem**(`resourceUri`, `collapsibleState?`)
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[index.d.ts:10914](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10914)
+[index.d.ts:11002](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11002)
 
 ## Properties
 
@@ -66,7 +66,7 @@ however, there are cases where a TreeItem is not displayed in a tree-like way wh
 
 #### Defined in
 
-[index.d.ts:10897](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10897)
+[index.d.ts:10985](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10985)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10870](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10870)
+[index.d.ts:10958](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10958)
 
 ___
 
@@ -94,7 +94,7 @@ appear consistent with how other built-in trees open editors.
 
 #### Defined in
 
-[index.d.ts:10865](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10865)
+[index.d.ts:10953](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10953)
 
 ___
 
@@ -121,7 +121,7 @@ This will show action `extension.deleteFolder` only for items with `contextValue
 
 #### Defined in
 
-[index.d.ts:10890](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10890)
+[index.d.ts:10978](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10978)
 
 ___
 
@@ -134,7 +134,7 @@ When `true`, it is derived from [resourceUri](codearts_plugin_.TreeItem.md#resou
 
 #### Defined in
 
-[index.d.ts:10843](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10843)
+[index.d.ts:10931](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10931)
 
 ___
 
@@ -148,7 +148,7 @@ When a file or folder [ThemeIcon](codearts_plugin_.ThemeIcon.md) is specified, i
 
 #### Defined in
 
-[index.d.ts:10837](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10837)
+[index.d.ts:10925](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10925)
 
 ___
 
@@ -162,7 +162,7 @@ If not provided, an id is generated using the tree item's label. **Note** that w
 
 #### Defined in
 
-[index.d.ts:10830](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10830)
+[index.d.ts:10918](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10918)
 
 ___
 
@@ -174,7 +174,7 @@ A human-readable string describing this item. When `falsy`, it is derived from [
 
 #### Defined in
 
-[index.d.ts:10823](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10823)
+[index.d.ts:10911](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10911)
 
 ___
 
@@ -189,7 +189,7 @@ Will be used to derive the icon from current file icon theme, when [iconPath](co
 
 #### Defined in
 
-[index.d.ts:10851](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10851)
+[index.d.ts:10939](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10939)
 
 ___
 
@@ -201,7 +201,7 @@ This field will be rendered at the end of the tree item.
 
 #### Defined in
 
-[index.d.ts:10902](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10902)
+[index.d.ts:10990](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10990)
 
 ___
 
@@ -213,4 +213,4 @@ The tooltip text when you hover over this item.
 
 #### Defined in
 
-[index.d.ts:10856](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10856)
+[index.d.ts:10944](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10944)

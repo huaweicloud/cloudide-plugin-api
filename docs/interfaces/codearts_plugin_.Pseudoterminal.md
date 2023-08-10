@@ -47,7 +47,7 @@ vscode.window.createTerminal({ name: 'My terminal', pty });
 
 #### Defined in
 
-[index.d.ts:11212](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11212)
+[index.d.ts:11343](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11343)
 
 ___
 
@@ -85,7 +85,7 @@ vscode.window.createTerminal({ name: 'Exit example', pty });
 
 #### Defined in
 
-[index.d.ts:11192](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11192)
+[index.d.ts:11323](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11323)
 
 ___
 
@@ -120,7 +120,7 @@ vscode.window.createTerminal({ name: 'My terminal', pty });
 
 #### Defined in
 
-[index.d.ts:11161](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11161)
+[index.d.ts:11292](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11292)
 
 ___
 
@@ -156,7 +156,7 @@ writeEmitter.fire('\x1b[10;20H*');
 
 #### Defined in
 
-[index.d.ts:11133](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11133)
+[index.d.ts:11264](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11264)
 
 ## Methods
 
@@ -172,7 +172,7 @@ Implement to handle when the terminal is closed by an act of the user.
 
 #### Defined in
 
-[index.d.ts:11225](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11225)
+[index.d.ts:11356](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11356)
 
 ___
 
@@ -196,7 +196,7 @@ their corresponding VT sequence representation.
 
 #### Defined in
 
-[index.d.ts:11247](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11247)
+[index.d.ts:11378](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11378)
 
 ___
 
@@ -218,7 +218,7 @@ Implement to handle when the pty is open and ready to start firing events.
 
 #### Defined in
 
-[index.d.ts:11220](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11220)
+[index.d.ts:11351](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11351)
 
 ___
 
@@ -248,4 +248,4 @@ to react dimension changes.
 
 #### Defined in
 
-[index.d.ts:11262](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11262)
+[index.d.ts:11393](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11393)

@@ -11,7 +11,6 @@ Namespace for authentication.
 ### Functions
 
 - [getSession](codearts_plugin_.authentication.md#getsession)
-- [getSignHeaders](codearts_plugin_.authentication.md#getsignheaders)
 - [onDidChangeSessions](codearts_plugin_.authentication.md#ondidchangesessions)
 - [registerAuthenticationProvider](codearts_plugin_.authentication.md#registerauthenticationprovider)
 
@@ -45,7 +44,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16121](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16121)
+[index.d.ts:16241](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16241)
 
 ▸ **getSession**(`providerId`, `scopes`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md)\>
 
@@ -73,7 +72,7 @@ A thenable that resolves to an authentication session
 
 #### Defined in
 
-[index.d.ts:16136](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16136)
+[index.d.ts:16256](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16256)
 
 ▸ **getSession**(`providerId`, `scopes`, `options?`): [`Thenable`](../interfaces/Thenable.md)<[`AuthenticationSession`](../interfaces/codearts_plugin_.AuthenticationSession.md) \| `undefined`\>
 
@@ -101,35 +100,7 @@ A thenable that resolves to an authentication session if available, or undefined
 
 #### Defined in
 
-[index.d.ts:16151](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16151)
-
-___
-
-### getSignHeaders
-
-▸ **getSignHeaders**(`providerId`, `options`): [`Thenable`](../interfaces/Thenable.md)<[`SignedHeaders`](../interfaces/codearts_plugin_.SignedHeaders.md) \| `undefined`\>
-
-Get signed request headers.
-
-There can only be one provider per id and an error is being thrown when an id
-has already been used by another provider. Ids are case-sensitive.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `providerId` | `string` | - |
-| `options` | [`SignRequestOptions`](../interfaces/codearts_plugin_.SignRequestOptions.md) | The params of http request to sign. |
-
-#### Returns
-
-[`Thenable`](../interfaces/Thenable.md)<[`SignedHeaders`](../interfaces/codearts_plugin_.SignedHeaders.md) \| `undefined`\>
-
-Signed request headers or undefined.
-
-#### Defined in
-
-[index.d.ts:16182](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16182)
+[index.d.ts:16271](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16271)
 
 ___
 
@@ -156,7 +127,7 @@ A disposable which unsubscribes the event listener.
 
 #### Defined in
 
-[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1603)
+[index.d.ts:1603](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1603)
 
 ___
 
@@ -190,4 +161,4 @@ A [Disposable](../classes/codearts_plugin_.Disposable.md) that unregisters this 
 
 #### Defined in
 
-[index.d.ts:16171](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16171)
+[index.d.ts:16291](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16291)

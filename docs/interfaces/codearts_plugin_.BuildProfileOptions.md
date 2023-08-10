@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[index.d.ts:16822](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16822)
+[index.d.ts:16931](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16931)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16823](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16823)
+[index.d.ts:16932](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16932)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16821](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16821)
+[index.d.ts:16930](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16930)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16825](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16825)
+[index.d.ts:16934](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16934)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16824](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16824)
+[index.d.ts:16933](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16933)

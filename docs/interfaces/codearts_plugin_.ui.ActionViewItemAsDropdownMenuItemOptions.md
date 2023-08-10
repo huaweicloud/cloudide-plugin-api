@@ -22,4 +22,4 @@ ActionViewItem Id.
 
 #### Defined in
 
-[index.d.ts:17673](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17673)
+[index.d.ts:17782](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17782)

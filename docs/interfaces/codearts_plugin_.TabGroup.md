@@ -28,7 +28,7 @@ being rendered.
 
 #### Defined in
 
-[index.d.ts:17225](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17225)
+[index.d.ts:17334](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17334)
 
 ___
 
@@ -47,7 +47,7 @@ groups can have an TabGroup.aciveTab active tab.
 
 #### Defined in
 
-[index.d.ts:17212](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17212)
+[index.d.ts:17321](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17321)
 
 ___
 
@@ -60,7 +60,7 @@ This can be empty if the group has no tabs open.
 
 #### Defined in
 
-[index.d.ts:17231](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17231)
+[index.d.ts:17340](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17340)
 
 ___
 
@@ -72,4 +72,4 @@ The view column of the group.
 
 #### Defined in
 
-[index.d.ts:17217](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17217)
+[index.d.ts:17326](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17326)

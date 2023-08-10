@@ -23,7 +23,7 @@ The [notebook editor](codearts_plugin_.NotebookEditor.md) for which the selectio
 
 #### Defined in
 
-[index.d.ts:796](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L796)
+[index.d.ts:796](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L796)
 
 ___
 
@@ -35,4 +35,4 @@ The new value for the [notebook editor's selections](codearts_plugin_.NotebookEd
 
 #### Defined in
 
-[index.d.ts:801](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L801)
+[index.d.ts:801](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L801)

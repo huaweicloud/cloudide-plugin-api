@@ -23,7 +23,7 @@ The task is a global task. Global tasks are currently not supported.
 
 #### Defined in
 
-[index.d.ts:7526](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7526)
+[index.d.ts:7593](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7593)
 
 ___
 
@@ -35,4 +35,4 @@ The task is a workspace task
 
 #### Defined in
 
-[index.d.ts:7531](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7531)
+[index.d.ts:7598](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7598)

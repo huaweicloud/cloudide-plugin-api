@@ -39,6 +39,7 @@ Represents a Tree view
 - [dispose](codearts_plugin_.TreeView.md#dispose)
 - [reveal](codearts_plugin_.TreeView.md#reveal)
 - [showEditBox](codearts_plugin_.TreeView.md#showeditbox)
+- [showNewEditBox](codearts_plugin_.TreeView.md#showneweditbox)
 
 ## Properties
 
@@ -51,7 +52,7 @@ Setting the title description to null, undefined, or empty string will remove th
 
 #### Defined in
 
-[index.d.ts:10725](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10725)
+[index.d.ts:10804](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10804)
 
 ___
 
@@ -63,7 +64,7 @@ Currently focused elements.
 
 #### Defined in
 
-[index.d.ts:10692](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10692)
+[index.d.ts:10771](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10771)
 
 ___
 
@@ -76,7 +77,7 @@ Setting the message to null, undefined, or empty string will remove the message 
 
 #### Defined in
 
-[index.d.ts:10713](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10713)
+[index.d.ts:10792](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10792)
 
 ___
 
@@ -88,7 +89,7 @@ Event that is fired when the [focused elements](codearts_plugin_.TreeView.md#foc
 
 #### Defined in
 
-[index.d.ts:10697](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10697)
+[index.d.ts:10776](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10776)
 
 ___
 
@@ -100,7 +101,7 @@ Event that is fired when the [selection](codearts_plugin_.TreeView.md#selection)
 
 #### Defined in
 
-[index.d.ts:10687](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10687)
+[index.d.ts:10766](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10766)
 
 ___
 
@@ -112,7 +113,7 @@ Event that is fired when [visibility](codearts_plugin_.TreeView.md#visible) has 
 
 #### Defined in
 
-[index.d.ts:10707](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10707)
+[index.d.ts:10786](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10786)
 
 ___
 
@@ -124,7 +125,7 @@ Event that is fired when an element is collapsed
 
 #### Defined in
 
-[index.d.ts:10677](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10677)
+[index.d.ts:10756](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10756)
 
 ___
 
@@ -136,7 +137,7 @@ Event that is fired when an element is expanded
 
 #### Defined in
 
-[index.d.ts:10672](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10672)
+[index.d.ts:10751](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10751)
 
 ___
 
@@ -148,7 +149,7 @@ Currently selected elements.
 
 #### Defined in
 
-[index.d.ts:10682](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10682)
+[index.d.ts:10761](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10761)
 
 ___
 
@@ -161,7 +162,7 @@ Changes to the title property will be properly reflected in the UI in the title 
 
 #### Defined in
 
-[index.d.ts:10719](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10719)
+[index.d.ts:10798](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10798)
 
 ___
 
@@ -173,7 +174,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:10702](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10702)
+[index.d.ts:10781](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10781)
 
 ## Methods
 
@@ -193,7 +194,7 @@ Dispose this object.
 
 #### Defined in
 
-[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L1580)
+[index.d.ts:1580](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L1580)
 
 ___
 
@@ -228,7 +229,7 @@ In order to expand the revealed element, set the option `expand` to `true`. To e
 
 #### Defined in
 
-[index.d.ts:10739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10739)
+[index.d.ts:10818](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10818)
 
 ___
 
@@ -260,4 +261,30 @@ A promise that resolves to a string the user provided or to `undefined` in case 
 
 #### Defined in
 
-[index.d.ts:10754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10754)
+[index.d.ts:10833](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10833)
+
+___
+
+### showNewEditBox
+
+▸ **showNewEditBox**(`parentElement`, `options`, `newItemType?`): [`Thenable`](Thenable.md)<`undefined` \| `string`\>
+
+create one new TreeItem which state is editing.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `parentElement` | `undefined` \| `T` | parentElement of new TreeItem |
+| `options` | [`TreeViewEditBoxOptions`](codearts_plugin_.TreeViewEditBoxOptions.md) | Configures the behavior of the edit box. |
+| `newItemType?` | [`NewTreeViewItemType`](../enums/codearts_plugin_.NewTreeViewItemType.md) | [NewTreeViewItemType](../enums/codearts_plugin_.NewTreeViewItemType.md) new TreeItem node type. |
+
+#### Returns
+
+[`Thenable`](Thenable.md)<`undefined` \| `string`\>
+
+A promise that resolves to a string the user provided or to `undefined` in case of dismissal.
+
+#### Defined in
+
+[index.d.ts:10842](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10842)

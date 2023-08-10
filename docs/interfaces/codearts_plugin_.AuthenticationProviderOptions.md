@@ -23,4 +23,4 @@ If not specified, will default to false.
 
 #### Defined in
 
-[index.d.ts:16003](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16003)
+[index.d.ts:16155](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16155)

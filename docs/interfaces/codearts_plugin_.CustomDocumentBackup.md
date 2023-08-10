@@ -28,7 +28,7 @@ This id is passed back to your extension in `openCustomDocument` when opening a 
 
 #### Defined in
 
-[index.d.ts:8865](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8865)
+[index.d.ts:8932](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8932)
 
 ## Methods
 
@@ -47,4 +47,4 @@ is made or when the file is saved.
 
 #### Defined in
 
-[index.d.ts:8873](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8873)
+[index.d.ts:8940](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8940)

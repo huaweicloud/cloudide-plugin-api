@@ -47,7 +47,7 @@ When it returns false, it does not change build the status.
 
 #### Defined in
 
-[index.d.ts:16778](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16778)
+[index.d.ts:16887](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16887)
 
 ___
 
@@ -62,7 +62,7 @@ opening a configuration file.
 
 #### Defined in
 
-[index.d.ts:16769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16769)
+[index.d.ts:16878](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16878)
 
 ___
 
@@ -77,7 +77,7 @@ although the user can configure this.
 
 #### Defined in
 
-[index.d.ts:16761](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16761)
+[index.d.ts:16870](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16870)
 
 ___
 
@@ -93,7 +93,7 @@ the default will be used.
 
 #### Defined in
 
-[index.d.ts:16753](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16753)
+[index.d.ts:16862](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16862)
 
 ___
 
@@ -119,7 +119,7 @@ Execute the buildHandler that has been registered for the current profile.
 
 #### Defined in
 
-[index.d.ts:16783](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16783)
+[index.d.ts:16892](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16892)
 
 ___
 
@@ -149,7 +149,7 @@ It has a lower priority and will not take effect when the current running build 
 
 #### Defined in
 
-[index.d.ts:16792](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16792)
+[index.d.ts:16901](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16901)
 
 ## Methods
 
@@ -165,4 +165,4 @@ Deletes the build profile.
 
 #### Defined in
 
-[index.d.ts:16797](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16797)
+[index.d.ts:16906](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16906)

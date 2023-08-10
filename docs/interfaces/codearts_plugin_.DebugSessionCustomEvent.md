@@ -24,7 +24,7 @@ Event specific information.
 
 #### Defined in
 
-[index.d.ts:14991](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14991)
+[index.d.ts:15123](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15123)
 
 ___
 
@@ -36,7 +36,7 @@ Type of event.
 
 #### Defined in
 
-[index.d.ts:14986](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14986)
+[index.d.ts:15118](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15118)
 
 ___
 
@@ -48,4 +48,4 @@ The [debug session](codearts_plugin_.DebugSession.md) for which the custom event
 
 #### Defined in
 
-[index.d.ts:14981](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14981)
+[index.d.ts:15113](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15113)

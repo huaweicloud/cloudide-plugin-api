@@ -24,7 +24,7 @@ Append to the end of the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:11305](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11305)
+[index.d.ts:11436](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11436)
 
 ___
 
@@ -36,7 +36,7 @@ Prepend to the start of the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:11309](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11309)
+[index.d.ts:11440](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11440)
 
 ___
 
@@ -48,4 +48,4 @@ Replace the variable's existing value.
 
 #### Defined in
 
-[index.d.ts:11301](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11301)
+[index.d.ts:11432](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11432)

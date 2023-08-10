@@ -28,7 +28,7 @@ Menu category in submenu.
 
 #### Defined in
 
-[index.d.ts:17739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17739)
+[index.d.ts:17848](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17848)
 
 ___
 
@@ -40,7 +40,7 @@ Menu icon.
 
 #### Defined in
 
-[index.d.ts:17749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17749)
+[index.d.ts:17858](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17858)
 
 ___
 
@@ -52,7 +52,7 @@ Command id.
 
 #### Defined in
 
-[index.d.ts:17724](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17724)
+[index.d.ts:17833](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17833)
 
 ___
 
@@ -64,7 +64,7 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:17759](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17759)
+[index.d.ts:17868](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17868)
 
 ___
 
@@ -76,7 +76,7 @@ Short title show on menu.
 
 #### Defined in
 
-[index.d.ts:17734](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17734)
+[index.d.ts:17843](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17843)
 
 ___
 
@@ -88,7 +88,7 @@ Menu source.
 
 #### Defined in
 
-[index.d.ts:17754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17754)
+[index.d.ts:17863](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17863)
 
 ___
 
@@ -100,7 +100,7 @@ Title show on menu.
 
 #### Defined in
 
-[index.d.ts:17729](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17729)
+[index.d.ts:17838](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17838)
 
 ___
 
@@ -112,7 +112,7 @@ ContextKey Expression.
 
 #### Defined in
 
-[index.d.ts:17764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17764)
+[index.d.ts:17873](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17873)
 
 ___
 
@@ -124,4 +124,4 @@ Tooltip title.
 
 #### Defined in
 
-[index.d.ts:17744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17744)
+[index.d.ts:17853](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17853)

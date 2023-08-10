@@ -34,7 +34,7 @@ If not provided, users can leave comments in any document opened in the editor.
 
 #### Defined in
 
-[index.d.ts:15834](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15834)
+[index.d.ts:15986](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15986)
 
 ___
 
@@ -46,7 +46,7 @@ The id of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15817](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15817)
+[index.d.ts:15969](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15969)
 
 ___
 
@@ -58,7 +58,7 @@ The human-readable label of this comment controller.
 
 #### Defined in
 
-[index.d.ts:15822](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15822)
+[index.d.ts:15974](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15974)
 
 ___
 
@@ -70,7 +70,7 @@ Comment controller options
 
 #### Defined in
 
-[index.d.ts:15827](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15827)
+[index.d.ts:15979](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15979)
 
 ___
 
@@ -97,7 +97,7 @@ Optional reaction handler for creating and deleting reactions on a [Comment](cod
 
 #### Defined in
 
-[index.d.ts:15849](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15849)
+[index.d.ts:16001](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16001)
 
 ## Methods
 
@@ -122,7 +122,7 @@ and Comments Panel once created.
 
 #### Defined in
 
-[index.d.ts:15844](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15844)
+[index.d.ts:15996](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15996)
 
 ___
 
@@ -141,4 +141,4 @@ and Comments Panel.
 
 #### Defined in
 
-[index.d.ts:15857](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15857)
+[index.d.ts:16009](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16009)

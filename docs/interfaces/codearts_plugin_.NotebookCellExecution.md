@@ -39,7 +39,7 @@ The [cell](codearts_plugin_.NotebookCell.md) for which this execution has been c
 
 #### Defined in
 
-[index.d.ts:14407](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14407)
+[index.d.ts:14539](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14539)
 
 ___
 
@@ -51,7 +51,7 @@ Set and unset the order of this cell execution.
 
 #### Defined in
 
-[index.d.ts:14421](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14421)
+[index.d.ts:14553](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14553)
 
 ___
 
@@ -67,7 +67,7 @@ that created this execution uses an [interrupt-handler](codearts_plugin_.Noteboo
 
 #### Defined in
 
-[index.d.ts:14416](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14416)
+[index.d.ts:14548](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14548)
 
 ## Methods
 
@@ -92,7 +92,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14468)
+[index.d.ts:14600](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14600)
 
 ___
 
@@ -117,7 +117,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14486](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14486)
+[index.d.ts:14618](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14618)
 
 ___
 
@@ -141,7 +141,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14448](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14448)
+[index.d.ts:14580](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14580)
 
 ___
 
@@ -164,7 +164,7 @@ Signal that execution has ended.
 
 #### Defined in
 
-[index.d.ts:14439](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14439)
+[index.d.ts:14571](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14571)
 
 ___
 
@@ -189,7 +189,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14458](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14458)
+[index.d.ts:14590](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14590)
 
 ___
 
@@ -214,7 +214,7 @@ A thenable that resolves when the operation finished.
 
 #### Defined in
 
-[index.d.ts:14477](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14477)
+[index.d.ts:14609](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14609)
 
 ___
 
@@ -236,4 +236,4 @@ Signal that the execution has begun.
 
 #### Defined in
 
-[index.d.ts:14429](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14429)
+[index.d.ts:14561](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14561)

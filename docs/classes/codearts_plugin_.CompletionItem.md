@@ -28,6 +28,7 @@ applied as provided.
 
 ### Properties
 
+- [additionalReplaceEdits](codearts_plugin_.CompletionItem.md#additionalreplaceedits)
 - [additionalTextEdits](codearts_plugin_.CompletionItem.md#additionaltextedits)
 - [command](codearts_plugin_.CompletionItem.md#command)
 - [commitCharacters](codearts_plugin_.CompletionItem.md#commitcharacters)
@@ -40,6 +41,7 @@ applied as provided.
 - [label](codearts_plugin_.CompletionItem.md#label)
 - [preselect](codearts_plugin_.CompletionItem.md#preselect)
 - [range](codearts_plugin_.CompletionItem.md#range)
+- [replaceText](codearts_plugin_.CompletionItem.md#replacetext)
 - [sortText](codearts_plugin_.CompletionItem.md#sorttext)
 - [tags](codearts_plugin_.CompletionItem.md#tags)
 - [textEdit](codearts_plugin_.CompletionItem.md#textedit)
@@ -64,9 +66,23 @@ will be used as insert text as well as for sorting and filtering.
 
 #### Defined in
 
-[index.d.ts:4393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4393)
+[index.d.ts:4444](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4444)
 
 ## Properties
+
+### additionalReplaceEdits
+
+• `Optional` **additionalReplaceEdits**: [`TextEdit`](codearts_plugin_.TextEdit.md)[]
+
+An optional array of additional text edits that are applied when
+selecting this completion in replace mode. Edits must not overlap with the main edit
+nor with themselves. Fallbacks to [additionalTextEdits](codearts_plugin_.CompletionItem.md#additionaltextedits) if `falsy`.
+
+#### Defined in
+
+[index.d.ts:4433](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4433)
+
+___
 
 ### additionalTextEdits
 
@@ -78,7 +94,7 @@ nor with themselves.
 
 #### Defined in
 
-[index.d.ts:4375](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4375)
+[index.d.ts:4413](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4413)
 
 ___
 
@@ -92,7 +108,7 @@ additional modifications to the current document should be described with the
 
 #### Defined in
 
-[index.d.ts:4382](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4382)
+[index.d.ts:4420](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4420)
 
 ___
 
@@ -106,7 +122,7 @@ characters will be ignored.
 
 #### Defined in
 
-[index.d.ts:4349](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4349)
+[index.d.ts:4387](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4387)
 
 ___
 
@@ -119,7 +135,7 @@ about this item, like type or symbol information.
 
 #### Defined in
 
-[index.d.ts:4286](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4286)
+[index.d.ts:4324](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4324)
 
 ___
 
@@ -131,7 +147,7 @@ A human-readable string that represents a doc-comment.
 
 #### Defined in
 
-[index.d.ts:4291](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4291)
+[index.d.ts:4329](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4329)
 
 ___
 
@@ -148,7 +164,7 @@ by the [`range`](codearts_plugin_.CompletionItem.md#range)-property.
 
 #### Defined in
 
-[index.d.ts:4315](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4315)
+[index.d.ts:4353](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4353)
 
 ___
 
@@ -162,7 +178,7 @@ is used.
 
 #### Defined in
 
-[index.d.ts:4329](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4329)
+[index.d.ts:4367](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4367)
 
 ___
 
@@ -176,7 +192,7 @@ this to `true` will prevent that.
 
 #### Defined in
 
-[index.d.ts:4356](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4356)
+[index.d.ts:4394](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4394)
 
 ___
 
@@ -189,7 +205,7 @@ an icon is chosen by the editor.
 
 #### Defined in
 
-[index.d.ts:4275](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4275)
+[index.d.ts:4313](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4313)
 
 ___
 
@@ -203,7 +219,7 @@ this completion.
 
 #### Defined in
 
-[index.d.ts:4269](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4269)
+[index.d.ts:4307](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4307)
 
 ___
 
@@ -217,7 +233,7 @@ that match best is selected.
 
 #### Defined in
 
-[index.d.ts:4322](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4322)
+[index.d.ts:4360](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4360)
 
 ___
 
@@ -237,7 +253,20 @@ current position is used.
 
 #### Defined in
 
-[index.d.ts:4342](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4342)
+[index.d.ts:4380](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4380)
+
+___
+
+### replaceText
+
+• `Optional` **replaceText**: `string` \| [`SnippetString`](codearts_plugin_.SnippetString.md)
+
+A string or snippet that should be inserted in a document when selecting
+this completion in replace mode. Fallbacks to [insertText](codearts_plugin_.CompletionItem.md#inserttext) if `falsy`.
+
+#### Defined in
+
+[index.d.ts:4426](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4426)
 
 ___
 
@@ -258,7 +287,7 @@ for each completion.
 
 #### Defined in
 
-[index.d.ts:4305](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4305)
+[index.d.ts:4343](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4343)
 
 ___
 
@@ -270,7 +299,7 @@ Tags for this completion item.
 
 #### Defined in
 
-[index.d.ts:4280](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4280)
+[index.d.ts:4318](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4318)
 
 ___
 
@@ -291,4 +320,4 @@ line completions were [requested](../interfaces/codearts_plugin_.CompletionItemP
 
 #### Defined in
 
-[index.d.ts:4368](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4368)
+[index.d.ts:4406](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4406)

@@ -22,7 +22,7 @@ The title with a mnemonic designation. && precedes the mnemonic.
 
 #### Defined in
 
-[index.d.ts:17716](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17716)
+[index.d.ts:17825](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17825)
 
 ___
 
@@ -34,7 +34,7 @@ The original (non localized value of the string)
 
 #### Defined in
 
-[index.d.ts:17711](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17711)
+[index.d.ts:17820](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17820)
 
 ___
 
@@ -46,4 +46,4 @@ The localized value of the string.
 
 #### Defined in
 
-[index.d.ts:17706](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17706)
+[index.d.ts:17815](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17815)

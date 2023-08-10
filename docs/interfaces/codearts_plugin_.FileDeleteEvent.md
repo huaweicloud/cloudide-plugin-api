@@ -22,4 +22,4 @@ The files that got deleted.
 
 #### Defined in
 
-[index.d.ts:11987](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11987)
+[index.d.ts:12118](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12118)

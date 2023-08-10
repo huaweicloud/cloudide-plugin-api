@@ -25,7 +25,7 @@ event. Can be `undefined`.
 
 #### Defined in
 
-[index.d.ts:551](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L551)
+[index.d.ts:551](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L551)
 
 ___
 
@@ -37,7 +37,7 @@ The new value for the [text editor's selections](codearts_plugin_.TextEditor.md#
 
 #### Defined in
 
-[index.d.ts:546](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L546)
+[index.d.ts:546](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L546)
 
 ___
 
@@ -49,4 +49,4 @@ The [text editor](codearts_plugin_.TextEditor.md) for which the selections have 
 
 #### Defined in
 
-[index.d.ts:542](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L542)
+[index.d.ts:542](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L542)

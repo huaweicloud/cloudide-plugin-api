@@ -22,4 +22,4 @@ The event that is fired when there is a change in [tree view's visibility](codea
 
 #### Defined in
 
-[index.d.ts:10502](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L10502)
+[index.d.ts:10581](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L10581)

@@ -25,4 +25,4 @@ It comes with a predefined icon, tooltip and location.
 
 #### Defined in
 
-[index.d.ts:11722](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11722)
+[index.d.ts:11853](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11853)

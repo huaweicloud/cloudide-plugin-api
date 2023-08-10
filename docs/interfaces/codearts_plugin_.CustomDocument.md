@@ -29,7 +29,7 @@ The associated uri for this document.
 
 #### Defined in
 
-[index.d.ts:8794](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8794)
+[index.d.ts:8861](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8861)
 
 ## Methods
 
@@ -48,4 +48,4 @@ all editors associated with the document have been closed.)
 
 #### Defined in
 
-[index.d.ts:8802](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8802)
+[index.d.ts:8869](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8869)

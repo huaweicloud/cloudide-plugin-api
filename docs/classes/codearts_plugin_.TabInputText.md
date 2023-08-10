@@ -32,7 +32,7 @@ Constructs a text tab input with the given URI.
 
 #### Defined in
 
-[index.d.ts:17003](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17003)
+[index.d.ts:17112](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17112)
 
 ## Properties
 
@@ -44,4 +44,4 @@ The uri represented by the tab.
 
 #### Defined in
 
-[index.d.ts:16998](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16998)
+[index.d.ts:17107](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17107)

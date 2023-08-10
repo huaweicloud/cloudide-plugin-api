@@ -21,7 +21,7 @@ The task type to return;
 
 #### Defined in
 
-[index.d.ts:7759](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7759)
+[index.d.ts:7826](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7826)
 
 ___
 
@@ -34,4 +34,4 @@ The string support the package.json semver notation.
 
 #### Defined in
 
-[index.d.ts:7754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7754)
+[index.d.ts:7821](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7821)

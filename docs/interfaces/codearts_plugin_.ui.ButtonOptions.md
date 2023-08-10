@@ -25,7 +25,7 @@ Adjusts the button width to its parent width.
 
 #### Defined in
 
-[index.d.ts:17362](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17362)
+[index.d.ts:17471](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17471)
 
 ___
 
@@ -37,7 +37,7 @@ Contents displayed on the button.
 
 #### Defined in
 
-[index.d.ts:17372](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17372)
+[index.d.ts:17481](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17481)
 
 ___
 
@@ -49,7 +49,7 @@ Set the button type to secondary button.
 
 #### Defined in
 
-[index.d.ts:17367](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17367)
+[index.d.ts:17476](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17476)
 
 ___
 
@@ -61,4 +61,4 @@ Text displayed when you slide the mouse over the button.
 
 #### Defined in
 
-[index.d.ts:17357](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17357)
+[index.d.ts:17466](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17466)

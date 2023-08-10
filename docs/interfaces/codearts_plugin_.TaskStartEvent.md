@@ -24,4 +24,4 @@ The task item representing the task that got started.
 
 #### Defined in
 
-[index.d.ts:7700](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7700)
+[index.d.ts:7767](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7767)

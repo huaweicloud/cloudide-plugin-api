@@ -23,7 +23,7 @@ Displays the comment editor
 
 #### Defined in
 
-[index.d.ts:15599](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15599)
+[index.d.ts:15751](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15751)
 
 ___
 
@@ -35,4 +35,4 @@ Displays the preview of the comment
 
 #### Defined in
 
-[index.d.ts:15604](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15604)
+[index.d.ts:15756](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15756)

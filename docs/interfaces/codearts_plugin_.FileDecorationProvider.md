@@ -33,7 +33,7 @@ An optional event to signal that decorations for one or many files have changed.
 
 #### Defined in
 
-[index.d.ts:6754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6754)
+[index.d.ts:6821](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6821)
 
 ## Methods
 
@@ -62,4 +62,4 @@ A decoration or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:6767](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6767)
+[index.d.ts:6834](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6834)

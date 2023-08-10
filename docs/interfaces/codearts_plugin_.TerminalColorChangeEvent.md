@@ -21,7 +21,7 @@ Return value for the `onDidChangeTerminalColor` method call.
 
 #### Defined in
 
-[index.d.ts:9545](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9545)
+[index.d.ts:9613](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9613)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:9544](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L9544)
+[index.d.ts:9612](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L9612)

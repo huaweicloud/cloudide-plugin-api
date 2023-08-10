@@ -47,7 +47,7 @@ Creates a new task.
 
 #### Defined in
 
-[index.d.ts:7561](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7561)
+[index.d.ts:7628](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7628)
 
 • **new Task**(`taskDefinition`, `name`, `source`, `execution?`, `problemMatchers?`)
 
@@ -69,7 +69,7 @@ Use the new constructors that allow specifying a scope for the task.
 
 #### Defined in
 
-[index.d.ts:7576](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7576)
+[index.d.ts:7643](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7643)
 
 ## Properties
 
@@ -81,7 +81,7 @@ The task's definition.
 
 #### Defined in
 
-[index.d.ts:7581](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7581)
+[index.d.ts:7648](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7648)
 
 ___
 
@@ -95,7 +95,7 @@ via the `$(<name>)`-syntax.
 
 #### Defined in
 
-[index.d.ts:7598](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7598)
+[index.d.ts:7665](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7665)
 
 ___
 
@@ -107,7 +107,7 @@ The task's execution engine
 
 #### Defined in
 
-[index.d.ts:7603](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7603)
+[index.d.ts:7670](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7670)
 
 ___
 
@@ -122,7 +122,7 @@ belong to any special group.
 
 #### Defined in
 
-[index.d.ts:7622](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7622)
+[index.d.ts:7689](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7689)
 
 ___
 
@@ -134,7 +134,7 @@ Whether the task is a background task or not.
 
 #### Defined in
 
-[index.d.ts:7608](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7608)
+[index.d.ts:7675](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7675)
 
 ___
 
@@ -146,7 +146,7 @@ The task's name
 
 #### Defined in
 
-[index.d.ts:7591](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7591)
+[index.d.ts:7658](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7658)
 
 ___
 
@@ -158,7 +158,7 @@ The presentation options. Defaults to an empty literal.
 
 #### Defined in
 
-[index.d.ts:7627](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7627)
+[index.d.ts:7694](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7694)
 
 ___
 
@@ -171,7 +171,7 @@ array.
 
 #### Defined in
 
-[index.d.ts:7633](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7633)
+[index.d.ts:7700](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7700)
 
 ___
 
@@ -183,7 +183,7 @@ Run options for the task
 
 #### Defined in
 
-[index.d.ts:7638](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7638)
+[index.d.ts:7705](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7705)
 
 ___
 
@@ -195,7 +195,7 @@ The task's scope.
 
 #### Defined in
 
-[index.d.ts:7586](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7586)
+[index.d.ts:7653](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7653)
 
 ___
 
@@ -208,4 +208,4 @@ or 'npm'. Supports rendering of [theme icons](codearts_plugin_.ThemeIcon.md) via
 
 #### Defined in
 
-[index.d.ts:7614](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7614)
+[index.d.ts:7681](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7681)

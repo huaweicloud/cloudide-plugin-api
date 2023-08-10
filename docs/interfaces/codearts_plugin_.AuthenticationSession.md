@@ -25,7 +25,7 @@ The access token.
 
 #### Defined in
 
-[index.d.ts:15883](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15883)
+[index.d.ts:16035](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16035)
 
 ___
 
@@ -37,7 +37,7 @@ The account associated with the session.
 
 #### Defined in
 
-[index.d.ts:15888](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15888)
+[index.d.ts:16040](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16040)
 
 ___
 
@@ -49,7 +49,7 @@ The identifier of the authentication session.
 
 #### Defined in
 
-[index.d.ts:15878](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15878)
+[index.d.ts:16030](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16030)
 
 ___
 
@@ -62,4 +62,4 @@ are defined by the [AuthenticationProvider](codearts_plugin_.AuthenticationProvi
 
 #### Defined in
 
-[index.d.ts:15894](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15894)
+[index.d.ts:16046](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16046)

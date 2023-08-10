@@ -45,7 +45,7 @@ name when defining [problem matchers](https://code.visualstudio.com/docs/editor/
 
 #### Defined in
 
-[index.d.ts:6026](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6026)
+[index.d.ts:6093](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6093)
 
 ## Methods
 
@@ -62,7 +62,7 @@ as calling `#set(undefined)`;
 
 #### Defined in
 
-[index.d.ts:6061](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6061)
+[index.d.ts:6128](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6128)
 
 ___
 
@@ -85,7 +85,7 @@ to the provided `uri`. The same as `#set(uri, undefined)`.
 
 #### Defined in
 
-[index.d.ts:6055](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6055)
+[index.d.ts:6122](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6122)
 
 ___
 
@@ -102,7 +102,7 @@ Dispose and free associated resources. Calls
 
 #### Defined in
 
-[index.d.ts:6093](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6093)
+[index.d.ts:6160](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6160)
 
 ___
 
@@ -125,7 +125,7 @@ Iterate over each entry in this collection.
 
 #### Defined in
 
-[index.d.ts:6069](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6069)
+[index.d.ts:6136](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6136)
 
 ___
 
@@ -150,7 +150,7 @@ An immutable array of [diagnostics](../classes/codearts_plugin_.Diagnostic.md) o
 
 #### Defined in
 
-[index.d.ts:6078](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6078)
+[index.d.ts:6145](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6145)
 
 ___
 
@@ -175,7 +175,7 @@ given resource.
 
 #### Defined in
 
-[index.d.ts:6087](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6087)
+[index.d.ts:6154](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6154)
 
 ___
 
@@ -199,7 +199,7 @@ existing diagnostics for that resource.
 
 #### Defined in
 
-[index.d.ts:6035](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6035)
+[index.d.ts:6102](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6102)
 
 ▸ **set**(`entries`): `void`
 
@@ -222,4 +222,4 @@ all previous but not subsequent diagnostics are removed.
 
 #### Defined in
 
-[index.d.ts:6047](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6047)
+[index.d.ts:6114](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6114)

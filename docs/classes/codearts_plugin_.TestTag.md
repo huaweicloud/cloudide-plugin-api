@@ -34,7 +34,7 @@ Creates a new TestTag instance.
 
 #### Defined in
 
-[index.d.ts:16227](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16227)
+[index.d.ts:16336](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16336)
 
 ## Properties
 
@@ -47,4 +47,4 @@ to be identical.
 
 #### Defined in
 
-[index.d.ts:16221](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16221)
+[index.d.ts:16330](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16330)

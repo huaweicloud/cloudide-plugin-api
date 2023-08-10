@@ -24,7 +24,7 @@ Automatic after a delay.
 
 #### Defined in
 
-[index.d.ts:11811](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11811)
+[index.d.ts:11942](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11942)
 
 ___
 
@@ -36,7 +36,7 @@ When the editor lost focus.
 
 #### Defined in
 
-[index.d.ts:11816](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11816)
+[index.d.ts:11947](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11947)
 
 ___
 
@@ -49,4 +49,4 @@ or by an API call.
 
 #### Defined in
 
-[index.d.ts:11806](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11806)
+[index.d.ts:11937](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11937)

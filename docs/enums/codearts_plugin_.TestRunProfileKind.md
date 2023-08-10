@@ -22,7 +22,7 @@ The kind of executions that [TestRunProfiles](../interfaces/codearts_plugin_.Tes
 
 #### Defined in
 
-[index.d.ts:16208](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16208)
+[index.d.ts:16317](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16317)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16207](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16207)
+[index.d.ts:16316](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16316)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16206](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16206)
+[index.d.ts:16315](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16315)

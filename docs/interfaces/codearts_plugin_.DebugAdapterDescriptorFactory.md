@@ -44,4 +44,4 @@ a [debug adapter descriptor](../modules/_codearts_plugin_.md#debugadapterdescrip
 
 #### Defined in
 
-[index.d.ts:15178](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L15178)
+[index.d.ts:15310](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L15310)

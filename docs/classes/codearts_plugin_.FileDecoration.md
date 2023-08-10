@@ -37,7 +37,7 @@ Creates a new decoration.
 
 #### Defined in
 
-[index.d.ts:6738](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6738)
+[index.d.ts:6805](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6805)
 
 ## Properties
 
@@ -49,7 +49,7 @@ A very short string that represents this decoration.
 
 #### Defined in
 
-[index.d.ts:6713](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6713)
+[index.d.ts:6780](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6780)
 
 ___
 
@@ -61,7 +61,7 @@ The color of this decoration.
 
 #### Defined in
 
-[index.d.ts:6723](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6723)
+[index.d.ts:6790](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6790)
 
 ___
 
@@ -74,7 +74,7 @@ propagated to its parents.
 
 #### Defined in
 
-[index.d.ts:6729](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6729)
+[index.d.ts:6796](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6796)
 
 ___
 
@@ -86,4 +86,4 @@ A human-readable tooltip for this decoration.
 
 #### Defined in
 
-[index.d.ts:6718](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6718)
+[index.d.ts:6785](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6785)

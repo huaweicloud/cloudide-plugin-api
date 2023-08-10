@@ -42,7 +42,7 @@ is cleared. Defaults to true.
 
 #### Defined in
 
-[index.d.ts:11338](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11338)
+[index.d.ts:11469](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11469)
 
 ## Methods
 
@@ -68,7 +68,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11360](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11360)
+[index.d.ts:11491](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11491)
 
 ___
 
@@ -84,7 +84,7 @@ Clears all mutators from this collection.
 
 #### Defined in
 
-[index.d.ts:11398](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11398)
+[index.d.ts:11529](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11529)
 
 ___
 
@@ -106,7 +106,7 @@ Deletes this collection's mutator for a variable.
 
 #### Defined in
 
-[index.d.ts:11393](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11393)
+[index.d.ts:11524](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11524)
 
 ___
 
@@ -129,7 +129,7 @@ Iterate over each mutator in this collection.
 
 #### Defined in
 
-[index.d.ts:11386](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11386)
+[index.d.ts:11517](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11517)
 
 ___
 
@@ -151,7 +151,7 @@ Gets the mutator that this collection applies to a variable, if any.
 
 #### Defined in
 
-[index.d.ts:11378](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11378)
+[index.d.ts:11509](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11509)
 
 ___
 
@@ -177,7 +177,7 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11371](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11371)
+[index.d.ts:11502](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11502)
 
 ___
 
@@ -203,4 +203,4 @@ overwrite any previous calls to replace, append or prepend.
 
 #### Defined in
 
-[index.d.ts:11349](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11349)
+[index.d.ts:11480](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11480)

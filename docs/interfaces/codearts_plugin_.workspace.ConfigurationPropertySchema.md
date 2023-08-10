@@ -109,7 +109,7 @@
 
 #### Defined in
 
-[index.d.ts:12908](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12908)
+[index.d.ts:13040](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13040)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12896](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12896)
+[index.d.ts:13028](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13028)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12907](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12907)
+[index.d.ts:13039](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13039)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12914](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12914)
+[index.d.ts:13046](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13046)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12913](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12913)
+[index.d.ts:13045](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13045)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12798](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12798)
+[index.d.ts:12930](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12930)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12910](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12910)
+[index.d.ts:13042](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13042)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12909](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12909)
+[index.d.ts:13041](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13041)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12881](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12881)
+[index.d.ts:13013](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13013)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12799](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12799)
+[index.d.ts:12931](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12931)
 
 ___
 
@@ -253,7 +253,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12911](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12911)
+[index.d.ts:13043](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13043)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12851](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12851)
+[index.d.ts:12983](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12983)
 
 ___
 
@@ -285,7 +285,7 @@ If false, then any properties not matched by either will cause this schema to fa
 
 #### Defined in
 
-[index.d.ts:12835](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12835)
+[index.d.ts:12967](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12967)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12883](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12883)
+[index.d.ts:13015](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13015)
 
 ___
 
@@ -313,7 +313,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12929](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12929)
+[index.d.ts:13061](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13061)
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12930](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12930)
+[index.d.ts:13062](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13062)
 
 ___
 
@@ -341,7 +341,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12882](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12882)
+[index.d.ts:13014](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13014)
 
 ___
 
@@ -353,7 +353,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12793](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12793)
+[index.d.ts:12925](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12925)
 
 ___
 
@@ -367,7 +367,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12892](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12892)
+[index.d.ts:13024](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13024)
 
 ___
 
@@ -381,7 +381,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12893](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12893)
+[index.d.ts:13025](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13025)
 
 ___
 
@@ -397,7 +397,7 @@ For defining the default value of a property.
 
 #### Defined in
 
-[index.d.ts:12818](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12818)
+[index.d.ts:12950](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12950)
 
 ___
 
@@ -411,7 +411,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12915](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12915)
+[index.d.ts:13047](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13047)
 
 ___
 
@@ -425,7 +425,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12819](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12819)
+[index.d.ts:12951](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12951)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12838](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12838)
+[index.d.ts:12970](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12970)
 
 ___
 
@@ -457,7 +457,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12905](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12905)
+[index.d.ts:13037](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13037)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12906](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12906)
+[index.d.ts:13038](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13038)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12904](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12904)
+[index.d.ts:13036](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13036)
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12922](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12922)
+[index.d.ts:13054](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13054)
 
 ___
 
@@ -517,7 +517,7 @@ For markdownDescription, in order to add newlines or multiple paragraphs, use th
 
 #### Defined in
 
-[index.d.ts:12826](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12826)
+[index.d.ts:12958](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12958)
 
 ___
 
@@ -529,7 +529,7 @@ When enabled this setting is ignored during sync and user cannot override this.
 
 #### Defined in
 
-[index.d.ts:12765](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12765)
+[index.d.ts:12897](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12897)
 
 ___
 
@@ -543,7 +543,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12927](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12927)
+[index.d.ts:13059](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13059)
 
 ___
 
@@ -556,7 +556,7 @@ Otherwise, the presentation format defaults to `singleline`.
 
 #### Defined in
 
-[index.d.ts:12776](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12776)
+[index.d.ts:12908](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12908)
 
 ___
 
@@ -570,7 +570,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12899](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12899)
+[index.d.ts:13031](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13031)
 
 ___
 
@@ -586,7 +586,7 @@ If you provide an array of items under the enum property, the settings UI will r
 
 #### Defined in
 
-[index.d.ts:12890](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12890)
+[index.d.ts:13022](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13022)
 
 ___
 
@@ -600,7 +600,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12924](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12924)
+[index.d.ts:13056](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13056)
 
 ___
 
@@ -612,7 +612,7 @@ Labels for enumeration items
 
 #### Defined in
 
-[index.d.ts:12770](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12770)
+[index.d.ts:12902](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12902)
 
 ___
 
@@ -626,7 +626,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12916](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12916)
+[index.d.ts:13048](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13048)
 
 ___
 
@@ -640,7 +640,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12895](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12895)
+[index.d.ts:13027](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13027)
 
 ___
 
@@ -654,7 +654,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12878](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12878)
+[index.d.ts:13010](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13010)
 
 ___
 
@@ -668,7 +668,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12877)
+[index.d.ts:13009](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13009)
 
 ___
 
@@ -682,7 +682,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12891](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12891)
+[index.d.ts:13023](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13023)
 
 ___
 
@@ -696,7 +696,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12797](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12797)
+[index.d.ts:12929](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12929)
 
 ___
 
@@ -710,7 +710,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12897](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12897)
+[index.d.ts:13029](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13029)
 
 ___
 
@@ -722,7 +722,7 @@ When enabled this setting is ignored during sync and user can override this.
 
 #### Defined in
 
-[index.d.ts:12760](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12760)
+[index.d.ts:12892](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12892)
 
 ___
 
@@ -734,7 +734,7 @@ When `false` this property is excluded from the registry. Default is to include.
 
 #### Defined in
 
-[index.d.ts:12748](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12748)
+[index.d.ts:12880](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12880)
 
 ___
 
@@ -748,7 +748,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12839](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12839)
+[index.d.ts:12971](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12971)
 
 ___
 
@@ -762,7 +762,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12923](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12923)
+[index.d.ts:13055](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13055)
 
 ___
 
@@ -776,7 +776,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12926](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12926)
+[index.d.ts:13058](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13058)
 
 ___
 
@@ -790,7 +790,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12925](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12925)
+[index.d.ts:13057](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13057)
 
 ___
 
@@ -804,7 +804,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12903](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12903)
+[index.d.ts:13035](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13035)
 
 ___
 
@@ -820,7 +820,7 @@ For restricting array max length.
 
 #### Defined in
 
-[index.d.ts:12849](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12849)
+[index.d.ts:12981](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12981)
 
 ___
 
@@ -836,7 +836,7 @@ For restricting string max length
 
 #### Defined in
 
-[index.d.ts:12866](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12866)
+[index.d.ts:12998](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12998)
 
 ___
 
@@ -850,7 +850,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12837](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12837)
+[index.d.ts:12969](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12969)
 
 ___
 
@@ -866,7 +866,7 @@ For restricting numeric max values.
 
 #### Defined in
 
-[index.d.ts:12876](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12876)
+[index.d.ts:13008](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13008)
 
 ___
 
@@ -880,7 +880,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12902](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12902)
+[index.d.ts:13034](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13034)
 
 ___
 
@@ -896,7 +896,7 @@ For restricting array min length.
 
 #### Defined in
 
-[index.d.ts:12844](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12844)
+[index.d.ts:12976](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12976)
 
 ___
 
@@ -912,7 +912,7 @@ For restricting string min length
 
 #### Defined in
 
-[index.d.ts:12861](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12861)
+[index.d.ts:12993](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12993)
 
 ___
 
@@ -926,7 +926,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12836](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12836)
+[index.d.ts:12968](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12968)
 
 ___
 
@@ -942,7 +942,7 @@ For restricting numeric min values.
 
 #### Defined in
 
-[index.d.ts:12871](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12871)
+[index.d.ts:13003](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13003)
 
 ___
 
@@ -956,7 +956,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12879](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12879)
+[index.d.ts:13011](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13011)
 
 ___
 
@@ -970,7 +970,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12885](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12885)
+[index.d.ts:13017](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13017)
 
 ___
 
@@ -984,7 +984,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12884](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12884)
+[index.d.ts:13016](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13016)
 
 ___
 
@@ -997,7 +997,7 @@ within the settings editor. Otherwise, the setting is placed at the end.
 
 #### Defined in
 
-[index.d.ts:12782](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12782)
+[index.d.ts:12914](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12914)
 
 ___
 
@@ -1013,7 +1013,7 @@ For restricting strings to a given regular expression.
 
 #### Defined in
 
-[index.d.ts:12856](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12856)
+[index.d.ts:12988](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12988)
 
 ___
 
@@ -1029,7 +1029,7 @@ For giving a tailored error message when a pattern does not match.
 
 #### Defined in
 
-[index.d.ts:12921](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12921)
+[index.d.ts:13053](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13053)
 
 ___
 
@@ -1043,7 +1043,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12828](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12828)
+[index.d.ts:12960](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12960)
 
 ___
 
@@ -1056,7 +1056,7 @@ a system-wide policy.
 
 #### Defined in
 
-[index.d.ts:12788](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12788)
+[index.d.ts:12920](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12920)
 
 ___
 
@@ -1070,7 +1070,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12912](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12912)
+[index.d.ts:13044](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13044)
 
 ___
 
@@ -1084,7 +1084,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12827](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12827)
+[index.d.ts:12959](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12959)
 
 ___
 
@@ -1098,7 +1098,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12894](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12894)
+[index.d.ts:13026](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13026)
 
 ___
 
@@ -1112,7 +1112,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12880](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12880)
+[index.d.ts:13012](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13012)
 
 ___
 
@@ -1125,7 +1125,7 @@ For eg., If the workspace is not trusted, then the value of this configuration i
 
 #### Defined in
 
-[index.d.ts:12743](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12743)
+[index.d.ts:12875](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12875)
 
 ___
 
@@ -1138,7 +1138,7 @@ If no scope is declared, the default is window.
 
 #### Defined in
 
-[index.d.ts:12737](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12737)
+[index.d.ts:12869](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12869)
 
 ___
 
@@ -1154,7 +1154,7 @@ Subtitle, which can be used as a secondary tree title
 
 #### Defined in
 
-[index.d.ts:12935](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12935)
+[index.d.ts:13067](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13067)
 
 ___
 
@@ -1168,7 +1168,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12928](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12928)
+[index.d.ts:13060](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13060)
 
 ___
 
@@ -1182,7 +1182,7 @@ List of tags associated to the property.
 
 #### Defined in
 
-[index.d.ts:12755](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12755)
+[index.d.ts:12887](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12887)
 
 ___
 
@@ -1196,7 +1196,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12898](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12898)
+[index.d.ts:13030](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13030)
 
 ___
 
@@ -1210,7 +1210,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12813](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12813)
+[index.d.ts:12945](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12945)
 
 ___
 
@@ -1234,7 +1234,7 @@ Users will see a link to Edit in settings.json
 
 #### Defined in
 
-[index.d.ts:12812](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12812)
+[index.d.ts:12944](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12944)
 
 ___
 
@@ -1248,7 +1248,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12901](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12901)
+[index.d.ts:13033](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13033)
 
 ___
 
@@ -1262,7 +1262,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:12900](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12900)
+[index.d.ts:13032](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13032)
 
 ___
 
@@ -1276,4 +1276,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:12850](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L12850)
+[index.d.ts:12982](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L12982)

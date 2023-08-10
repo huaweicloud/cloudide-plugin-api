@@ -48,7 +48,7 @@ A Promise for the completion of which ever callback is executed.
 
 #### Defined in
 
-[index.d.ts:17877](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17877)
+[index.d.ts:17986](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17986)
 
 ▸ **then**<`TResult`\>(`onfulfilled?`, `onrejected?`): [`Thenable`](Thenable.md)<`TResult`\>
 
@@ -71,4 +71,4 @@ A Promise for the completion of which ever callback is executed.
 
 #### Defined in
 
-[index.d.ts:17878](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L17878)
+[index.d.ts:17987](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17987)

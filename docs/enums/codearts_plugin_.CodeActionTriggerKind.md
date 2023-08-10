@@ -26,7 +26,7 @@ also be triggered when file content changes.
 
 #### Defined in
 
-[index.d.ts:2373](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2373)
+[index.d.ts:2373](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L2373)
 
 ___
 
@@ -38,4 +38,4 @@ Code actions were explicitly requested by the user or by an extension.
 
 #### Defined in
 
-[index.d.ts:2365](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L2365)
+[index.d.ts:2365](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L2365)

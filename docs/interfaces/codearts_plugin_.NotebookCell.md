@@ -31,7 +31,7 @@ The [text](codearts_plugin_.TextDocument.md) of this cell, represented as text d
 
 #### Defined in
 
-[index.d.ts:13754](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13754)
+[index.d.ts:13886](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13886)
 
 ___
 
@@ -43,7 +43,7 @@ The most recent [execution summary](codearts_plugin_.NotebookCellExecutionSummar
 
 #### Defined in
 
-[index.d.ts:13769](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13769)
+[index.d.ts:13901](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13901)
 
 ___
 
@@ -57,7 +57,7 @@ when the cell has been removed from its notebook.
 
 #### Defined in
 
-[index.d.ts:13739](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13739)
+[index.d.ts:13871](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13871)
 
 ___
 
@@ -69,7 +69,7 @@ The kind of this cell.
 
 #### Defined in
 
-[index.d.ts:13749](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13749)
+[index.d.ts:13881](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13881)
 
 ___
 
@@ -85,7 +85,7 @@ The metadata of this cell. Can be anything but must be JSON-stringifyable.
 
 #### Defined in
 
-[index.d.ts:13759](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13759)
+[index.d.ts:13891](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13891)
 
 ___
 
@@ -97,7 +97,7 @@ The [notebook](codearts_plugin_.NotebookDocument.md) that contains this cell.
 
 #### Defined in
 
-[index.d.ts:13744](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13744)
+[index.d.ts:13876](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13876)
 
 ___
 
@@ -109,4 +109,4 @@ The outputs of this cell.
 
 #### Defined in
 
-[index.d.ts:13764](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L13764)
+[index.d.ts:13896](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L13896)

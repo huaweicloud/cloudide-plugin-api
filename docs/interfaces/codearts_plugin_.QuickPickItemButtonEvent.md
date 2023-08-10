@@ -30,7 +30,7 @@ The button that was clicked.
 
 #### Defined in
 
-[index.d.ts:11738](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11738)
+[index.d.ts:11869](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11869)
 
 ___
 
@@ -42,4 +42,4 @@ The item that the button belongs to.
 
 #### Defined in
 
-[index.d.ts:11742](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11742)
+[index.d.ts:11873](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11873)

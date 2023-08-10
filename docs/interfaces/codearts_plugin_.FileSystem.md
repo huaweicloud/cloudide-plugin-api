@@ -48,7 +48,7 @@ Copy files or folders.
 
 #### Defined in
 
-[index.d.ts:8218](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8218)
+[index.d.ts:8285](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8285)
 
 ___
 
@@ -73,7 +73,7 @@ Create a new directory (Note, that new files are created via `write`-calls).
 
 #### Defined in
 
-[index.d.ts:8176](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8176)
+[index.d.ts:8243](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8243)
 
 ___
 
@@ -98,7 +98,7 @@ Delete a file.
 
 #### Defined in
 
-[index.d.ts:8200](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8200)
+[index.d.ts:8267](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8267)
 
 ___
 
@@ -128,7 +128,7 @@ know about the filesystem.
 
 #### Defined in
 
-[index.d.ts:8233](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8233)
+[index.d.ts:8300](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8300)
 
 ___
 
@@ -152,7 +152,7 @@ An array of name/type-tuples or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8166](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8166)
+[index.d.ts:8233](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8233)
 
 ___
 
@@ -176,7 +176,7 @@ An array of bytes or a thenable that resolves to such.
 
 #### Defined in
 
-[index.d.ts:8184](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8184)
+[index.d.ts:8251](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8251)
 
 ___
 
@@ -201,7 +201,7 @@ Rename a file or folder.
 
 #### Defined in
 
-[index.d.ts:8209](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8209)
+[index.d.ts:8276](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8276)
 
 ___
 
@@ -225,7 +225,7 @@ The file metadata about the file.
 
 #### Defined in
 
-[index.d.ts:8158](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8158)
+[index.d.ts:8225](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8225)
 
 ___
 
@@ -248,4 +248,4 @@ Write data to a file, replacing its entire contents.
 
 #### Defined in
 
-[index.d.ts:8192](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8192)
+[index.d.ts:8259](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8259)

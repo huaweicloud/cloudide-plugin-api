@@ -25,7 +25,7 @@ If a line matches this pattern, then all the lines after it should be unindented
 
 #### Defined in
 
-[index.d.ts:5468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5468)
+[index.d.ts:5519](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5519)
 
 ___
 
@@ -37,7 +37,7 @@ If a line matches this pattern, then all the lines after it should be indented o
 
 #### Defined in
 
-[index.d.ts:5472](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5472)
+[index.d.ts:5523](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5523)
 
 ___
 
@@ -49,7 +49,7 @@ If a line matches this pattern, then **only the next line** after it should be i
 
 #### Defined in
 
-[index.d.ts:5476](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5476)
+[index.d.ts:5527](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5527)
 
 ___
 
@@ -61,4 +61,4 @@ If a line matches this pattern, then its indentation should not be changed and i
 
 #### Defined in
 
-[index.d.ts:5480](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5480)
+[index.d.ts:5531](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5531)

@@ -42,7 +42,7 @@ It is an invalid action to access this field before this extension has been acti
 
 #### Defined in
 
-[index.d.ts:6834](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6834)
+[index.d.ts:6901](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6901)
 
 ___
 
@@ -58,7 +58,7 @@ the value is [`UI`](../enums/codearts_plugin_.ExtensionKind.md#ui).
 
 #### Defined in
 
-[index.d.ts:6828](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6828)
+[index.d.ts:6895](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6895)
 
 ___
 
@@ -71,7 +71,7 @@ notation for [Extension.extensionUri.fsPath](codearts_plugin_.Extension.md#exten
 
 #### Defined in
 
-[index.d.ts:6809](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6809)
+[index.d.ts:6876](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6876)
 
 ___
 
@@ -83,7 +83,7 @@ The uri of the directory containing the extension.
 
 #### Defined in
 
-[index.d.ts:6803](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6803)
+[index.d.ts:6870](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6870)
 
 ___
 
@@ -95,7 +95,7 @@ The canonical extension identifier in the form of: `publisher.name`.
 
 #### Defined in
 
-[index.d.ts:6798](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6798)
+[index.d.ts:6865](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6865)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:6814](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6814)
+[index.d.ts:6881](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6881)
 
 ___
 
@@ -119,7 +119,7 @@ An event which fires when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6846](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6846)
+[index.d.ts:6913](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6913)
 
 ___
 
@@ -131,7 +131,7 @@ The parsed contents of the extension's package.json.
 
 #### Defined in
 
-[index.d.ts:6819](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6819)
+[index.d.ts:6886](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6886)
 
 ## Methods
 
@@ -149,4 +149,4 @@ A promise that will resolve when this extension has been activated.
 
 #### Defined in
 
-[index.d.ts:6841](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L6841)
+[index.d.ts:6908](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L6908)

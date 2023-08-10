@@ -34,7 +34,7 @@ opening a configuration file.
 
 #### Defined in
 
-[index.d.ts:16272](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16272)
+[index.d.ts:16381](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16381)
 
 ___
 
@@ -50,7 +50,7 @@ user can configure this.
 
 #### Defined in
 
-[index.d.ts:16258](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16258)
+[index.d.ts:16367](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16367)
 
 ___
 
@@ -63,7 +63,7 @@ are no profiles for a kind, it will not be available in the UI.
 
 #### Defined in
 
-[index.d.ts:16249](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16249)
+[index.d.ts:16358](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16358)
 
 ___
 
@@ -81,7 +81,7 @@ kind. If there is no such configuration, the default will be used.
 
 #### Defined in
 
-[index.d.ts:16243](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16243)
+[index.d.ts:16352](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16352)
 
 ___
 
@@ -111,7 +111,7 @@ or the returned promise is resolved.
 
 #### Defined in
 
-[index.d.ts:16286](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16286)
+[index.d.ts:16395](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16395)
 
 ___
 
@@ -124,7 +124,7 @@ instances with the same tag will be eligible to execute in this profile.
 
 #### Defined in
 
-[index.d.ts:16264](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16264)
+[index.d.ts:16373](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16373)
 
 ## Methods
 
@@ -140,4 +140,4 @@ Deletes the run profile.
 
 #### Defined in
 
-[index.d.ts:16291](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16291)
+[index.d.ts:16400](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16400)

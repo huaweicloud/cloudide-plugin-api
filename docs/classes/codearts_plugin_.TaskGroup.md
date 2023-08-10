@@ -37,7 +37,7 @@ A grouping for tasks. The editor by default supports the
 
 #### Defined in
 
-[index.d.ts:7257](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7257)
+[index.d.ts:7324](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7324)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The ID of the task group. Is one of TaskGroup.Clean.id, TaskGroup.Build.id, Task
 
 #### Defined in
 
-[index.d.ts:7255](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7255)
+[index.d.ts:7322](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7322)
 
 ___
 
@@ -62,7 +62,7 @@ This property cannot be set through API, and is controlled by a user's task conf
 
 #### Defined in
 
-[index.d.ts:7250](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7250)
+[index.d.ts:7317](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7317)
 
 ___
 
@@ -74,7 +74,7 @@ The build task group;
 
 #### Defined in
 
-[index.d.ts:7234](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7234)
+[index.d.ts:7301](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7301)
 
 ___
 
@@ -86,7 +86,7 @@ The clean task group;
 
 #### Defined in
 
-[index.d.ts:7229](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7229)
+[index.d.ts:7296](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7296)
 
 ___
 
@@ -98,7 +98,7 @@ The rebuild all task group;
 
 #### Defined in
 
-[index.d.ts:7239](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7239)
+[index.d.ts:7306](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7306)
 
 ___
 
@@ -110,4 +110,4 @@ The test all task group;
 
 #### Defined in
 
-[index.d.ts:7244](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L7244)
+[index.d.ts:7311](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L7311)

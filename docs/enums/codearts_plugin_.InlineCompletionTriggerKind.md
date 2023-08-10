@@ -24,7 +24,7 @@ It is sufficient to return a single completion item in this case.
 
 #### Defined in
 
-[index.d.ts:4622](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4622)
+[index.d.ts:4673](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4673)
 
 ___
 
@@ -37,4 +37,4 @@ Return multiple completion items to enable cycling through them.
 
 #### Defined in
 
-[index.d.ts:4616](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L4616)
+[index.d.ts:4667](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L4667)

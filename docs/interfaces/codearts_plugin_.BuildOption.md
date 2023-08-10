@@ -20,4 +20,4 @@ build DataProvider nodes
 
 #### Defined in
 
-[index.d.ts:16988](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16988)
+[index.d.ts:17097](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L17097)

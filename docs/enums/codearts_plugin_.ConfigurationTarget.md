@@ -24,7 +24,7 @@ Global configuration
 
 #### Defined in
 
-[index.d.ts:5625](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5625)
+[index.d.ts:5676](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5676)
 
 ___
 
@@ -36,7 +36,7 @@ Workspace configuration
 
 #### Defined in
 
-[index.d.ts:5630](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5630)
+[index.d.ts:5681](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5681)
 
 ___
 
@@ -48,4 +48,4 @@ Workspace folder configuration
 
 #### Defined in
 
-[index.d.ts:5635](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L5635)
+[index.d.ts:5686](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L5686)

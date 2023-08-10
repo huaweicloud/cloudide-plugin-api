@@ -63,7 +63,7 @@ user input.
 
 #### Defined in
 
-[index.d.ts:11504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11504)
+[index.d.ts:11635](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11635)
 
 ___
 
@@ -78,7 +78,7 @@ loading data for the next step in user input.
 
 #### Defined in
 
-[index.d.ts:11496](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11496)
+[index.d.ts:11627](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11627)
 
 ___
 
@@ -91,7 +91,7 @@ This setting is ignored on iPad and is always false.
 
 #### Defined in
 
-[index.d.ts:11510](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11510)
+[index.d.ts:11641](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11641)
 
 ___
 
@@ -108,7 +108,7 @@ the user pressing Esc, some other input UI opening, etc.)
 
 #### Defined in
 
-[index.d.ts:11532](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11532)
+[index.d.ts:11663](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11663)
 
 ___
 
@@ -120,7 +120,7 @@ An optional current step count.
 
 #### Defined in
 
-[index.d.ts:11483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11483)
+[index.d.ts:11614](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11614)
 
 ___
 
@@ -132,7 +132,7 @@ An optional title.
 
 #### Defined in
 
-[index.d.ts:11478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11478)
+[index.d.ts:11609](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11609)
 
 ___
 
@@ -144,7 +144,7 @@ An optional total step count.
 
 #### Defined in
 
-[index.d.ts:11488](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11488)
+[index.d.ts:11619](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11619)
 
 ## Methods
 
@@ -163,7 +163,7 @@ accessed. Instead a new input UI should be created.
 
 #### Defined in
 
-[index.d.ts:11540](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11540)
+[index.d.ts:11671](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11671)
 
 ___
 
@@ -180,7 +180,7 @@ event.
 
 #### Defined in
 
-[index.d.ts:11522](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11522)
+[index.d.ts:11653](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11653)
 
 ___
 
@@ -197,4 +197,4 @@ UI will first fire an [onDidHide](codearts_plugin_.QuickInput.md#ondidhide) even
 
 #### Defined in
 
-[index.d.ts:11516](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L11516)
+[index.d.ts:11647](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L11647)

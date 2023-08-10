@@ -40,7 +40,7 @@ Create new notebook data.
 
 #### Defined in
 
-[index.d.ts:14187](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14187)
+[index.d.ts:14319](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14319)
 
 ## Properties
 
@@ -52,7 +52,7 @@ The cell data of this notebook data.
 
 #### Defined in
 
-[index.d.ts:14175](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14175)
+[index.d.ts:14307](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14307)
 
 ___
 
@@ -68,4 +68,4 @@ Arbitrary metadata of notebook data.
 
 #### Defined in
 
-[index.d.ts:14180](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L14180)
+[index.d.ts:14312](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L14312)

@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[index.d.ts:16801](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16801)
+[index.d.ts:16910](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16910)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:16802](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16802)
+[index.d.ts:16911](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16911)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[index.d.ts:16803](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L16803)
+[index.d.ts:16912](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L16912)

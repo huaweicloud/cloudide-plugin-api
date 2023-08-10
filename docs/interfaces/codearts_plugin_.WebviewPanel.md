@@ -36,7 +36,7 @@ Whether the panel is active (focused by the user).
 
 #### Defined in
 
-[index.d.ts:8473](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8473)
+[index.d.ts:8540](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8540)
 
 ___
 
@@ -48,7 +48,7 @@ Icon for the panel shown in UI.
 
 #### Defined in
 
-[index.d.ts:8452](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8452)
+[index.d.ts:8519](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8519)
 
 ___
 
@@ -60,7 +60,7 @@ Fired when the panel's view state changes.
 
 #### Defined in
 
-[index.d.ts:8483](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8483)
+[index.d.ts:8550](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8550)
 
 ___
 
@@ -77,7 +77,7 @@ Trying to use the panel after it has been disposed throws an exception.
 
 #### Defined in
 
-[index.d.ts:8493](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8493)
+[index.d.ts:8560](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8560)
 
 ___
 
@@ -89,7 +89,7 @@ Content settings for the webview panel.
 
 #### Defined in
 
-[index.d.ts:8462](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8462)
+[index.d.ts:8529](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8529)
 
 ___
 
@@ -101,7 +101,7 @@ Title of the panel shown in UI.
 
 #### Defined in
 
-[index.d.ts:8447](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8447)
+[index.d.ts:8514](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8514)
 
 ___
 
@@ -114,7 +114,7 @@ one of the editor view columns.
 
 #### Defined in
 
-[index.d.ts:8468](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8468)
+[index.d.ts:8535](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8535)
 
 ___
 
@@ -126,7 +126,7 @@ Identifies the type of the webview panel, such as `'markdown.preview'`.
 
 #### Defined in
 
-[index.d.ts:8442](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8442)
+[index.d.ts:8509](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8509)
 
 ___
 
@@ -138,7 +138,7 @@ Whether the panel is visible.
 
 #### Defined in
 
-[index.d.ts:8478](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8478)
+[index.d.ts:8545](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8545)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[index.d.ts:8457](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8457)
+[index.d.ts:8524](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8524)
 
 ## Methods
 
@@ -170,7 +170,7 @@ fire the `onDispose` event.
 
 #### Defined in
 
-[index.d.ts:8513](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8513)
+[index.d.ts:8580](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8580)
 
 ___
 
@@ -196,4 +196,4 @@ method moves it to a new column.
 
 #### Defined in
 
-[index.d.ts:8504](https://github.com/shuyaqian/cloudide-plugin-api/blob/5b69219/index.d.ts#L8504)
+[index.d.ts:8571](https://github.com/shuyaqian/cloudide-plugin-api/blob/3fbdd11/index.d.ts#L8571)
