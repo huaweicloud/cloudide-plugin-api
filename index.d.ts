@@ -11418,6 +11418,22 @@ declare module '@cloudide/plugin' {
     export namespace log {
         export function recordAction(scope: string, action: string, data?: Object): Thenable<string | undefined>;
     }
+
+    /**
+     * Used to  request HUAWEI CLOUD service links securely.
+     * @param options request Options,such as :const options = {
+     *          method: 'GET',
+     *          strictSSL: false,
+     *          path: '/serviceName/serviceUrl',
+     *          headers: { 'Content-type': 'application/json;charset=UTF-8' },
+     *          timeout: 15000,
+     *          json: true
+     *      };.
+     * @param handler callback function to listen the request response.
+     */
+     export namespace cloudideApiService {
+        export function fetch(options: Object): Promise<any | undefined>;
+    }
 }
 
 /**
